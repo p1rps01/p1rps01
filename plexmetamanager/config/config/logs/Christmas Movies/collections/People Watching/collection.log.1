@@ -1,0 +1,36 @@
+[2022-11-16 17:40:24,719] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 17:40:24,719] [builder.py:193]            [INFO]     |                           People Watching Collection in Christmas Movies                           |
+[2022-11-16 17:40:24,719] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 17:40:24,720] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 17:40:24,720] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 17:40:24,720] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,720] [meta.py:210]               [DEBUG]    |======================================== Template Tautulli =========================================|
+[2022-11-16 17:40:24,720] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,722] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,722] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 17:40:24,722] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,723] [meta.py:515]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/213600', 'sort_title': '++++++++++_People Watching', 'collection_mode': 'hide', 'collection_order': 'alpha', 'sync_mode': 'sync'} |
+[2022-11-16 17:40:24,723] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,723] [builder.py:223]            [INFO]     |============================== Validating People Watching Attributes ===============================|
+[2022-11-16 17:40:24,723] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,723] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 17:40:24,723] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 17:40:24,723] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,724] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 17:40:24,724] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-16 17:40:24,724] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 17:40:24,724] [builder.py:650]            [DEBUG]    | Validating Method: tautulli_watched                                                                |
+[2022-11-16 17:40:24,724] [builder.py:651]            [DEBUG]    | Value: ordereddict([('list_days', 30), ('list_size', 10), ('list_buffer', 20)])                    |
+[2022-11-16 17:40:24,724] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 666, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Tautulli to be configured")
+                                                                 | modules.util.Failed: Collection Error: tautulli_watched requires Tautulli to be configured
+                                                                 | 
+[2022-11-16 17:40:24,725] [plex_meta_manager.py:725]  [ERROR]    | Collection Error: tautulli_watched requires Tautulli to be configured
+[2022-11-16 17:40:24,725] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 17:40:24,725] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 17:40:24,726] [plex_meta_manager.py:737]  [INFO]     |                                Finished People Watching Collection                                 |
+[2022-11-16 17:40:24,726] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 17:40:24,726] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

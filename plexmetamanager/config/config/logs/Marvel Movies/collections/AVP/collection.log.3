@@ -1,0 +1,47 @@
+[2022-11-05 18:20:16,122] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:20:16,122] [builder.py:197]            [INFO]     |                                  AVP Collection in Marvel Movies                                   |
+[2022-11-05 18:20:16,122] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:20:16,122] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:20:16,123] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:20:16,123] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,123] [meta.py:128]               [DEBUG]    | Template Collection                                                                                |
+[2022-11-05 18:20:16,123] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Collection'), ('collection', 115762)])                                |
+[2022-11-05 18:20:16,123] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,124] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Collection'), ('collection', 115762), ('collection_name', 'AVP'), ('mapping_name', 'AVP'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Collection'), ('collection_encoded', '115762'), ('collection_name_encoded', 'AVP'), ('mapping_name_encoded', 'AVP'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'AVP')]) |
+[2022-11-05 18:20:16,124] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,124] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 18:20:16,124] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,124] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded']                           |
+[2022-11-05 18:20:16,125] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,125] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection': 115762, 'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_AVP', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-05 18:20:16,125] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,126] [builder.py:219]            [INFO]     |==================================== Validating AVP Attributes =====================================|
+[2022-11-05 18:20:16,126] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,126] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 18:20:16,126] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 18:20:16,127] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,127] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 18:20:16,127] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 18:20:16,127] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,128] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 18:20:16,128] [builder.py:632]            [DEBUG]    | Value: 115762                                                                                      |
+[2022-11-05 18:20:16,138] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:20:16,138] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 18:20:16,138] [builder.py:632]            [DEBUG]    | Value: <<summary>>                                                                                 |
+[2022-11-05 18:20:16,138] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 681, in __init__
+                                                                 |     self._summary(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 804, in _summary
+                                                                 |     self.summaries[method_name] = self.config.TMDb.get_movie_show_or_collection(util.regex_first_int(method_data, "TMDb ID"), self.library.is_movie).overview
+                                                                 |   File "/modules/util.py", line 311, in regex_first_int
+                                                                 |     raise Failed(f"Regex Error: Failed to parse {id_type} from {data}")
+                                                                 | modules.util.Failed: Regex Error: Failed to parse TMDb ID from <<summary>>
+                                                                 | 
+[2022-11-05 18:20:16,140] [plex_meta_manager.py:697]  [ERROR]    | Regex Error: Failed to parse TMDb ID from <<summary>>
+[2022-11-05 18:20:16,140] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:20:16,141] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:20:16,141] [plex_meta_manager.py:709]  [INFO]     |                                      Finished AVP Collection                                       |
+[2022-11-05 18:20:16,141] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 18:20:16,141] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

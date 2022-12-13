@@ -1,0 +1,160 @@
+[2022-11-16 22:18:33,379] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:18:33,379] [builder.py:193]            [INFO]     |                        Critics Choice Awards 2020 Collection in Old Movies                         |
+[2022-11-16 22:18:33,379] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:18:33,379] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,379] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:18:33,379] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,379] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:18:33,380] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,381] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 22:18:33,381] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,382] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:18:33,383] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,386] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:18:33,387] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,390] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,390] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 22:18:33,398] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:18:33,399] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,404] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:18:33,404] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,408] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,408] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:18:33,408] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,408] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2020-critic-s-choice', 'summary': '2020 Critics Choice Awards.', 'name': 'Critics Choice Awards 2020', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Critics Choice Awards 2020', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2020.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:18:33,408] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,408] [builder.py:223]            [INFO]     |========================= Validating Critics Choice Awards 2020 Attributes =========================|
+[2022-11-16 22:18:33,409] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,409] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:18:33,409] [builder.py:230]            [DEBUG]    | Value: Critics Choice Awards 2020                                                                  |
+[2022-11-16 22:18:33,409] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,409] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:18:33,409] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:18:33,409] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,409] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:18:33,410] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:18:33,410] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,410] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:18:33,410] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:18:33,410] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,410] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:18:33,410] [builder.py:651]            [DEBUG]    | Value: Critics Choice Awards                                                                       |
+[2022-11-16 22:18:33,410] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,410] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:18:33,410] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2020-critic-s-choice                                     |
+[2022-11-16 22:18:33,473] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,473] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:18:33,473] [builder.py:651]            [DEBUG]    | Value: 2020 Critics Choice Awards.                                                                 |
+[2022-11-16 22:18:33,473] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,474] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:18:33,474] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:18:33,474] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,474] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:18:33,474] [builder.py:651]            [DEBUG]    | Value: !16_Critics Choice Awards 2020                                                              |
+[2022-11-16 22:18:33,474] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,474] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:18:33,474] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2020.jpg |
+[2022-11-16 22:18:33,637] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,637] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:18:33,637] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:18:33,642] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,642] [plex.py:838]               [DEBUG]    | Looking for: Critics Choice Awards 2020                                                            |
+[2022-11-16 22:18:33,643] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,643] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:596]  [INFO]     |========================== Running Critics Choice Awards 2020 Collection ===========================|
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,643] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2020-critic-s-choice                       |
+[2022-11-16 22:18:33,644] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,645] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:18:33,647] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,648] [builder.py:1575]           [DEBUG]    | 51 IDs Found                                                                                       |
+[2022-11-16 22:18:33,648] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:18:33,648] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,648] [builder.py:2159]           [INFO]     |========================= Adding to Critics Choice Awards 2020 Collection ==========================|
+[2022-11-16 22:18:33,649] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:33,649] [builder.py:2174]           [INFO]     | 1/2 | Critics Choice Awards 2020 Collection | + | Joker (2019)                                     |
+[2022-11-16 22:18:33,780] [builder.py:2174]           [INFO]     | 2/2 | Critics Choice Awards 2020 Collection | + | John Wick: Chapter 3 - Parabellum (2019)         |
+[2022-11-16 22:18:39,071] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:39,072] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:18:39,072] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:39,072] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:18:39,072] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:39,091] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Irishman (2019) (TMDb: 398978)                     |
+[2022-11-16 22:18:39,119] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Marriage Story (2019) (TMDb: 492188)                   |
+[2022-11-16 22:18:39,128] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | 1917 (2019) (TMDb: 530915)                             |
+[2022-11-16 22:18:39,140] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Parasite (2019) (TMDb: 496243)                         |
+[2022-11-16 22:18:39,156] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Ford v Ferrari (2019) (TMDb: 359724)                   |
+[2022-11-16 22:18:39,168] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Once Upon a Time… in Hollywood (2019) (TMDb: 466272)   |
+[2022-11-16 22:18:39,180] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Jojo Rabbit (2019) (TMDb: 515001)                      |
+[2022-11-16 22:18:39,195] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Uncut Gems (2019) (TMDb: 473033)                       |
+[2022-11-16 22:18:39,206] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Little Women (2019) (TMDb: 331482)                     |
+[2022-11-16 22:18:39,218] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Pain and Glory (2019) (TMDb: 519010)                   |
+[2022-11-16 22:18:39,229] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Dolemite Is My Name (2019) (TMDb: 528888)              |
+[2022-11-16 22:18:39,240] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Farewell (2019) (TMDb: 565310)                     |
+[2022-11-16 22:18:39,250] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Us (2019) (TMDb: 458723)                               |
+[2022-11-16 22:18:39,261] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Bombshell (2019) (TMDb: 525661)                        |
+[2022-11-16 22:18:39,272] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Harriet (2019) (TMDb: 506528)                          |
+[2022-11-16 22:18:39,284] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Judy (2019) (TMDb: 491283)                             |
+[2022-11-16 22:18:39,295] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Two Popes (2019) (TMDb: 551332)                    |
+[2022-11-16 22:18:39,306] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Lighthouse (2019) (TMDb: 503919)                   |
+[2022-11-16 22:18:39,317] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | A Beautiful Day in the Neighborhood (2019) (TMDb: 501907) |
+[2022-11-16 22:18:39,334] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Hustlers (2019) (TMDb: 540901)                         |
+[2022-11-16 22:18:39,351] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Knives Out (2019) (TMDb: 546554)                       |
+[2022-11-16 22:18:39,365] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Portrait of a Lady on Fire (2019) (TMDb: 531428)       |
+[2022-11-16 22:18:39,377] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Les Misérables (2019) (TMDb: 586863)                   |
+[2022-11-16 22:18:39,389] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Atlantics (2019) (TMDb: 496967)                        |
+[2022-11-16 22:18:39,407] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Booksmart (2019) (TMDb: 505600)                        |
+[2022-11-16 22:18:39,433] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Spider-Man: Far from Home (2019) (TMDb: 429617)        |
+[2022-11-16 22:18:39,445] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                |
+[2022-11-16 22:18:39,469] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Midsommar (2019) (TMDb: 530385)                        |
+[2022-11-16 22:18:39,487] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Ad Astra (2019) (TMDb: 419704)                         |
+[2022-11-16 22:18:39,498] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Downton Abbey (2019) (TMDb: 535544)                    |
+[2022-11-16 22:18:39,508] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Rocketman (2019) (TMDb: 504608)                        |
+[2022-11-16 22:18:39,524] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Breakthrough (2019) (TMDb: 514439)                     |
+[2022-11-16 22:18:39,535] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Wild Rose (2019) (TMDb: 482981)                        |
+[2022-11-16 22:18:39,547] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Aladdin (2019) (TMDb: 420817)                          |
+[2022-11-16 22:18:39,560] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Lion King (2019) (TMDb: 420818)                    |
+[2022-11-16 22:18:39,570] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Frozen II (2019) (TMDb: 330457)                        |
+[2022-11-16 22:18:39,583] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | The Aeronauts (2019) (TMDb: 514921)                    |
+[2022-11-16 22:18:39,593] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Toy Story 4 (2019) (TMDb: 301528)                      |
+[2022-11-16 22:18:39,595] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | How to Train Your Dragon: The Hidden World (2019) (TMDb: 166428) |
+[2022-11-16 22:18:39,605] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Missing Link (2019) (TMDb: 458253)                     |
+[2022-11-16 22:18:39,616] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | I Lost My Body (2019) (TMDb: 586940)                   |
+[2022-11-16 22:18:39,631] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Abominable (2019) (TMDb: 431580)                       |
+[2022-11-16 22:18:39,641] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Honey Boy (2019) (TMDb: 512263)                        |
+[2022-11-16 22:18:39,652] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Brexit: The Uncivil War (2019) (TMDb: 536176)          |
+[2022-11-16 22:18:39,668] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | El Camino: A Breaking Bad Movie (2019) (TMDb: 559969)  |
+[2022-11-16 22:18:39,671] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Deadwood: The Movie (2019) (TMDb: 538225)              |
+[2022-11-16 22:18:39,684] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Patsy & Loretta (2019) (TMDb: 608811)                  |
+[2022-11-16 22:18:39,700] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Guava Island (2019) (TMDb: 543343)                     |
+[2022-11-16 22:18:39,711] [builder.py:2321]           [INFO]     | Critics Choice Awards 2020 Collection | ? | Native Son (2019) (TMDb: 512199)                       |
+[2022-11-16 22:18:39,711] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:39,711] [builder.py:2327]           [INFO]     | 49 Movies Missing                                                                                  |
+[2022-11-16 22:18:43,315] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:43,315] [builder.py:2528]           [INFO]     |==================== Updating Details of Critics Choice Awards 2020 Collection =====================|
+[2022-11-16 22:18:43,315] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:43,321] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | 2020 Critics Choice Awards.
+                                                                 | Sort Title | !16_Critics Choice Awards 2020
+                                                                 | Label | +Critics Choice Awards, +PMM
+[2022-11-16 22:18:45,007] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:18:45,008] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:18:46,524] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:18:47,989] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 22:18:47,999] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Critics Choice Awards 2020
+[2022-11-16 22:18:47,999] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:18:47,999] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2020.jpg
+[2022-11-16 22:18:48,108] [library.py:178]            [INFO]     | Detail: asset_directory updated Critics Choice Awards 2020's poster to [File] config/Old_Movies/Assets/Critics Choice Awards 2020/poster.jpg
+[2022-11-16 22:18:48,146] [builder.py:2686]           [INFO]     | 
+[2022-11-16 22:18:48,146] [builder.py:2687]           [INFO]     |========================== Sorting Critics Choice Awards 2020 Collection ===========================|
+[2022-11-16 22:18:48,146] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 22:18:48,146] [builder.py:2704]           [INFO]     | Moving Joker (2019) to the beginning                                                               |
+[2022-11-16 22:18:48,170] [builder.py:2704]           [INFO]     | Moving John Wick: Chapter 3 - Parabellum (2019) after Joker (2019)                                 |
+[2022-11-16 22:18:48,195] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:18:48,195] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:18:48,195] [plex_meta_manager.py:737]  [INFO]     |                           Finished Critics Choice Awards 2020 Collection                           |
+[2022-11-16 22:18:48,195] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-16 22:18:48,195] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

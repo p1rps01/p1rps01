@@ -1,0 +1,69 @@
+[2022-11-16 22:09:03,899] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:09:03,899] [builder.py:193]            [INFO]     |                              Michael Keaton Collection in Old Movies                               |
+[2022-11-16 22:09:03,900] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:09:03,900] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:03,900] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:09:03,900] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,900] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:09:03,901] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,902] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,902] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:09:03,902] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,902] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2232, 'sort_title': '++_Michael Keaton', 'collection_order': 'release'} |
+[2022-11-16 22:09:03,902] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,902] [builder.py:223]            [INFO]     |=============================== Validating Michael Keaton Attributes ===============================|
+[2022-11-16 22:09:03,903] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,903] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:09:03,903] [builder.py:533]            [DEBUG]    | Value: 2232                                                                                        |
+[2022-11-16 22:09:03,916] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,917] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:09:03,917] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:09:03,917] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:03,917] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:09:03,917] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:09:04,206] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:04,206] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:09:04,206] [builder.py:651]            [DEBUG]    | Value: ++_Michael Keaton                                                                           |
+[2022-11-16 22:09:04,212] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,212] [builder.py:796]            [ERROR]    | Collection Error: Converting Michael Keaton to a normal collection                                 |
+[2022-11-16 22:09:04,220] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,221] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:596]  [INFO]     |================================ Running Michael Keaton Collection =================================|
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Michael Keaton", '?type=1&sort=titleSort&push=1&actor=9176&pop=1') |
+[2022-11-16 22:09:04,221] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,221] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Michael Keaton
+[2022-11-16 22:09:04,233] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:09:04,234] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 22:09:04,234] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:09:04,235] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:09:04,235] [builder.py:2159]           [INFO]     |=============================== Adding to Michael Keaton Collection ================================|
+[2022-11-16 22:09:04,235] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:04,236] [builder.py:2174]           [INFO]     | 1/2 | Michael Keaton Collection | + | Batman (1989)                                                |
+[2022-11-16 22:09:06,156] [builder.py:2174]           [INFO]     | 2/2 | Michael Keaton Collection | + | Batman Returns (1992)                                        |
+[2022-11-16 22:09:08,610] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:08,611] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:09:08,629] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:08,629] [builder.py:2528]           [INFO]     |========================== Updating Details of Michael Keaton Collection ===========================|
+[2022-11-16 22:09:08,630] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:08,643] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Michael John Douglas (born September 5, 1951), known professionally as Michael Keaton, is an American actor. He is best known for portraying the DC Comics superhero Bruce Wayne / Batman in the films Batman (1989), Batman Returns (1992) and the upcoming The Flash and Batgirl (both 2022), as well as Jack Butler in Mr. Mom (1983), Betelgeuse in Beetlejuice (1988), and Adrian Toomes / Vulture in Spider-Man: Homecoming (2017) and the upcoming Morbius (2022). His breakout role was as fast-talking schemer Bill "Blaze" Blazejowski in the 1982 film Night Shift (which was also Ron Howard's second job as a director). He later appeared in a variety of films ranging from dramas and romantic comedies to thriller and action films, such as Clean and Sober (1989), Much Ado About Nothing (1993), The Paper (1994), Multiplicity (1996), Jackie Brown (1997), Herbie: Fully Loaded (2005), The Other Guys (2010), Spotlight (2015), The Founder (2016), Dumbo (2019), The Trial of the Chicago 7 (2020) and Worth (2021). He has also provided voices for characters in animated films such as Porco Rosso (1992), Cars (2006), Toy Story 3 (2010), and Minions (2015). In 2021, he starred in the limited series Dopesick on Hulu. In 2014, Keaton garnered critical acclaim for his performance in Alejandro González Iñárritu's black comedy film Birdman, winning a Golden Globe Award for Best Actor—Motion Picture Musical or Comedy and receiving a nomination for the Academy Award for Best Actor. He had previously received a Golden Globe Award nomination for his performance in Live from Baghdad (2002) and five Screen Actors Guild Award nominations, which ultimately yielded three wins for his performances in Birdman (2014), Spotlight (2015), and The Trial of the Chicago 7 (2020).
+                                                                 | Sort Title | ++_Michael Keaton
+                                                                 | Label | +PMM
+[2022-11-16 22:09:10,256] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:09:10,256] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:09:10,256] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:09:10,257] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/baeHNv3qrVsnApuKbZXiJOhqMnw.jpg
+[2022-11-16 22:09:10,457] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/baeHNv3qrVsnApuKbZXiJOhqMnw.jpg
+[2022-11-16 22:09:10,494] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:09:10,494] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:09:10,495] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Michael Keaton Collection                                 |
+[2022-11-16 22:09:10,495] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 22:09:10,495] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

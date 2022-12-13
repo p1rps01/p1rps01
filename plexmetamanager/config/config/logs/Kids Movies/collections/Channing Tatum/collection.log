@@ -1,0 +1,72 @@
+[2022-11-16 20:14:25,125] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:25,125] [builder.py:193]            [INFO]     |                              Channing Tatum Collection in Kids Movies                              |
+[2022-11-16 20:14:25,126] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:25,126] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,126] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:14:25,126] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,127] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:14:25,127] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,129] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,129] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:14:25,129] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,129] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 38673, 'sort_title': '++_Channing Tatum', 'collection_order': 'release'} |
+[2022-11-16 20:14:25,130] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,130] [builder.py:223]            [INFO]     |=============================== Validating Channing Tatum Attributes ===============================|
+[2022-11-16 20:14:25,130] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,130] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:14:25,131] [builder.py:533]            [DEBUG]    | Value: 38673                                                                                       |
+[2022-11-16 20:14:25,158] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,158] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:14:25,158] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:14:25,159] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,159] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:14:25,159] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:14:25,630] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,630] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:14:25,630] [builder.py:651]            [DEBUG]    | Value: ++_Channing Tatum                                                                           |
+[2022-11-16 20:14:25,636] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,637] [builder.py:796]            [ERROR]    | Collection Error: Converting Channing Tatum to a normal collection                                 |
+[2022-11-16 20:14:25,644] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,644] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:596]  [INFO]     |================================ Running Channing Tatum Collection =================================|
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Channing Tatum", '?type=1&sort=titleSort&push=1&actor=38833&pop=1') |
+[2022-11-16 20:14:25,645] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,645] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Channing Tatum
+[2022-11-16 20:14:25,667] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:14:25,668] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 20:14:25,668] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:14:25,668] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:14:25,668] [builder.py:2159]           [INFO]     |=============================== Adding to Channing Tatum Collection ================================|
+[2022-11-16 20:14:25,668] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:25,668] [builder.py:2174]           [INFO]     | 1/5 | Channing Tatum Collection | + | The Book of Life (2014)                                      |
+[2022-11-16 20:14:25,858] [builder.py:2174]           [INFO]     | 2/5 | Channing Tatum Collection | + | The Lego Batman Movie (2017)                                 |
+[2022-11-16 20:14:28,115] [builder.py:2174]           [INFO]     | 3/5 | Channing Tatum Collection | + | The Lego Movie (2014)                                        |
+[2022-11-16 20:14:30,446] [builder.py:2174]           [INFO]     | 4/5 | Channing Tatum Collection | + | The Lego Movie 2: The Second Part (2019)                     |
+[2022-11-16 20:14:30,548] [builder.py:2174]           [INFO]     | 5/5 | Channing Tatum Collection | + | Smallfoot (2018)                                             |
+[2022-11-16 20:14:35,232] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:35,232] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:14:35,237] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:35,237] [builder.py:2528]           [INFO]     |========================== Updating Details of Channing Tatum Collection ===========================|
+[2022-11-16 20:14:35,237] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:35,243] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Channing Matthew Tatum (born April 26, 1980) is an American actor and film producer. He began his career as a fashion model before turning to film roles, having starred in She's the Man (2006), Step Up (2006), Fighting (2009), Public Enemies (2009), G.I. Joe: The Rise of Cobra (2009), and Dear John (2010).
+                                                                 | Sort Title | ++_Channing Tatum
+                                                                 | Label | +PMM
+[2022-11-16 20:14:36,779] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:14:36,779] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:14:36,779] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:14:36,779] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/bhTmp6FA8fOQnGlNk75tdmj2bpu.jpg
+[2022-11-16 20:14:36,867] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/bhTmp6FA8fOQnGlNk75tdmj2bpu.jpg
+[2022-11-16 20:14:37,312] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:14:37,312] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:14:37,312] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Channing Tatum Collection                                 |
+[2022-11-16 20:14:37,312] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-11-16 20:14:37,312] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

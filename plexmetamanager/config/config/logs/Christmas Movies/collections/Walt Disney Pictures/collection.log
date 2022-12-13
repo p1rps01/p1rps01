@@ -1,0 +1,78 @@
+[2022-11-17 08:55:08,888] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:55:08,888] [builder.py:193]            [INFO]     |                        Walt Disney Pictures Collection in Christmas Movies                         |
+[2022-11-17 08:55:08,888] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:55:08,888] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 08:55:08,888] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 08:55:08,888] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,889] [meta.py:210]               [DEBUG]    |========================================= Template Studio ==========================================|
+[2022-11-17 08:55:08,889] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,891] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,891] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 08:55:08,891] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,892] [meta.py:515]               [DEBUG]    | {'plex_search': {'studio': 'Walt Disney Pictures'}, 'url_poster': 'https://theposterdb.com/api/assets/16549', 'sort_title': '+++++_Walt Disney Pictures', 'collection_order': 'alpha'} |
+[2022-11-17 08:55:08,892] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,892] [builder.py:223]            [INFO]     |============================ Validating Walt Disney Pictures Attributes ============================|
+[2022-11-17 08:55:08,892] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,892] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 08:55:08,892] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-17 08:55:08,892] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,893] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 08:55:08,893] [builder.py:651]            [DEBUG]    | Value: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures. |
+[2022-11-17 08:55:08,893] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,893] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-17 08:55:08,893] [builder.py:651]            [DEBUG]    | Value: {'studio': 'Walt Disney Pictures'}                                                          |
+[2022-11-17 08:55:08,894] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:08,894] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 08:55:08,894] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/16549                                                    |
+[2022-11-17 08:55:09,482] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:09,482] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 08:55:09,482] [builder.py:651]            [DEBUG]    | Value: +++++_Walt Disney Pictures                                                                  |
+[2022-11-17 08:55:09,601] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,601] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 08:55:09,601] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,602] [plex_meta_manager.py:596]  [INFO]     |============================= Running Walt Disney Pictures Collection ==============================|
+[2022-11-17 08:55:09,602] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,602] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 08:55:09,602] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:09,603] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Walt Disney Pictures", '?type=1&sort=titleSort&push=1&studio=Walt%20Disney%20Pictures&pop=1') |
+[2022-11-17 08:55:09,603] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,603] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Studio contains Walt Disney Pictures
+[2022-11-17 08:55:09,681] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 08:55:09,684] [builder.py:1575]           [DEBUG]    | 13 IDs Found
+[2022-11-17 08:55:09,684] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 08:55:09,685] [builder.py:2158]           [INFO]     | 
+[2022-11-17 08:55:09,685] [builder.py:2159]           [INFO]     |============================ Adding to Walt Disney Pictures Collection =============================|
+[2022-11-17 08:55:09,686] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,686] [builder.py:2174]           [INFO]     |  1/13 | Walt Disney Pictures Collection | = | A Christmas Carol (2009)                             |
+[2022-11-17 08:55:09,686] [builder.py:2174]           [INFO]     |  2/13 | Walt Disney Pictures Collection | = | The Christmas Star (1986)                            |
+[2022-11-17 08:55:09,686] [builder.py:2174]           [INFO]     |  3/13 | Walt Disney Pictures Collection | = | I'll Be Home for Christmas (1998)                    |
+[2022-11-17 08:55:09,687] [builder.py:2174]           [INFO]     |  4/13 | Walt Disney Pictures Collection | = | Mickey's Christmas Carol (1983)                      |
+[2022-11-17 08:55:09,687] [builder.py:2174]           [INFO]     |  5/13 | Walt Disney Pictures Collection | = | A Muppets Christmas: Letters to Santa (2008)         |
+[2022-11-17 08:55:09,687] [builder.py:2174]           [INFO]     |  6/13 | Walt Disney Pictures Collection | = | The Nightmare Before Christmas (1993)                |
+[2022-11-17 08:55:09,687] [builder.py:2174]           [INFO]     |  7/13 | Walt Disney Pictures Collection | = | Noelle (2020)                                        |
+[2022-11-17 08:55:09,688] [builder.py:2174]           [INFO]     |  8/13 | Walt Disney Pictures Collection | = | One Magic Christmas (1985)                           |
+[2022-11-17 08:55:09,688] [builder.py:2174]           [INFO]     |  9/13 | Walt Disney Pictures Collection | = | Prep & Landing Stocking Stuffer: Operation: Secret Santa (2010) |
+[2022-11-17 08:55:09,688] [builder.py:2174]           [INFO]     | 10/13 | Walt Disney Pictures Collection | = | The Santa Clause (1994)                              |
+[2022-11-17 08:55:09,689] [builder.py:2174]           [INFO]     | 11/13 | Walt Disney Pictures Collection | = | The Santa Clause 2 (2002)                            |
+[2022-11-17 08:55:09,689] [builder.py:2174]           [INFO]     | 12/13 | Walt Disney Pictures Collection | = | The Santa Clause 3: The Escape Clause (2006)         |
+[2022-11-17 08:55:09,689] [builder.py:2174]           [INFO]     | 13/13 | Walt Disney Pictures Collection | = | Santa Paws 2: The Santa Pups (2012)                  |
+[2022-11-17 08:55:09,690] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,690] [builder.py:2196]           [INFO]     | 13 Movies Processed 0 Movies Added                                                                 |
+[2022-11-17 08:55:09,697] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,698] [builder.py:2528]           [INFO]     |======================= Updating Details of Walt Disney Pictures Collection ========================|
+[2022-11-17 08:55:09,698] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,706] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-17 08:55:09,707] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-17 08:55:09,708] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/16549                                |
+[2022-11-17 08:55:09,708] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Christmas_Movies/Assets/Walt Disney Pictures/poster.png', 'prefix': "Walt Disney Pictures's ", 'is_poster': True, 'is_url': False, 'compare': 227387, 'message': "Walt Disney Pictures's poster to [File] /config/Christmas_Movies/Assets/Walt Disney Pictures/poster.png"} |
+[2022-11-17 08:55:09,709] [library.py:180]            [INFO]     | Detail: Walt Disney Pictures's poster update not needed                                            |
+[2022-11-17 08:55:09,813] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:09,813] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 08:55:09,813] [plex_meta_manager.py:737]  [INFO]     |                              Finished Walt Disney Pictures Collection                              |
+[2022-11-17 08:55:09,813] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 08:55:09,814] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

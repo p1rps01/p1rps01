@@ -1,0 +1,41 @@
+[2022-11-17 09:01:20,097] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:01:20,098] [builder.py:193]            [INFO]     |                            Best of 2014 Collection in Christmas Movies                             |
+[2022-11-17 09:01:20,100] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:01:20,102] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 09:01:20,102] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 09:01:20,104] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,105] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-17 09:01:20,107] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,111] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,112] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 09:01:20,114] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,114] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014', 'sort_title': '+1_Best of 2014', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2014', 'smart_label': 'audience_rating.desc'} |
+[2022-11-17 09:01:20,115] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,117] [builder.py:223]            [INFO]     |================================ Validating Best of 2014 Attributes ================================|
+[2022-11-17 09:01:20,117] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,118] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 09:01:20,119] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-17 09:01:20,140] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,140] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 09:01:20,140] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 09:01:20,140] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:20,141] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-17 09:01:20,141] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014                           |
+[2022-11-17 09:01:20,179] [trakt.py:429]              [ERROR]    | Trakt Error: List https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014 not found      |
+[2022-11-17 09:01:20,207] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 736, in __init__
+                                                                 |     self._trakt(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1428, in _trakt
+                                                                 |     trakt_lists = self.config.Trakt.validate_list(method_data)
+                                                                 |   File "/modules/trakt.py", line 431, in validate_list
+                                                                 |     raise Failed(f"Trakt Error: No valid Trakt Lists in {values}")
+                                                                 | modules.util.Failed: Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014']
+                                                                 | 
+[2022-11-17 09:01:20,208] [plex_meta_manager.py:725]  [ERROR]    | Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014']
+[2022-11-17 09:01:20,208] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 09:01:20,208] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 09:01:20,209] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2014 Collection                                  |
+[2022-11-17 09:01:20,209] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 09:01:20,209] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

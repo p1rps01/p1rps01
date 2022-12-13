@@ -1,0 +1,136 @@
+[2022-11-17 02:20:15,448] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:20:15,449] [builder.py:193]            [INFO]     |                                 Emmys 1976 Collection in TV Shows                                  |
+[2022-11-17 02:20:15,449] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:20:15,450] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:20:15,450] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:20:15,451] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,451] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:20:15,451] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,453] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:20:15,454] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,456] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:20:15,457] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,473] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:20:15,474] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,485] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:20:15,486] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,492] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,493] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:20:15,493] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,494] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1976-01-01,1976-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1976', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1976.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:20:15,494] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,494] [builder.py:223]            [INFO]     |================================= Validating Emmys 1976 Attributes =================================|
+[2022-11-17 02:20:15,495] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,496] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:20:15,496] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:20:15,497] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,497] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:20:15,498] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:20:15,499] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,499] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:20:15,500] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:20:15,501] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,501] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:20:15,502] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:20:15,503] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:15,504] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:20:15,505] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1976-01-01,1976-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:20:16,185] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,187] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:20:16,187] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:20:16,187] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,188] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:20:16,188] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1976                                                                              |
+[2022-11-17 02:20:16,189] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,189] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:20:16,190] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1976.jpg |
+[2022-11-17 02:20:16,354] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,355] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:20:16,355] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:20:16,361] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,362] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1976                                                                            |
+[2022-11-17 02:20:16,363] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:20:16,363] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:20:16,363] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:16,363] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1976 Collection ===================================|
+[2022-11-17 02:20:16,363] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:16,364] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:20:16,364] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:16,364] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1976-01-01,1976-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:20:16,364] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:16,366] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1976-01-01,1976-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:20:18,885] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:18,886] [builder.py:1575]           [DEBUG]    | 35 IDs Found                                                                                       |
+[2022-11-17 02:20:18,886] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:19,046] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 74367                                                 |
+[2022-11-17 02:20:19,100] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 36003                                                 |
+[2022-11-17 02:20:19,155] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47293                                                 |
+[2022-11-17 02:20:19,452] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 51387                                                 |
+[2022-11-17 02:20:19,464] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0149439                                             |
+[2022-11-17 02:20:19,538] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0075437                                             |
+[2022-11-17 02:20:19,588] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 48630                                                 |
+[2022-11-17 02:20:19,667] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0332003                                             |
+[2022-11-17 02:20:19,691] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0331407                                             |
+[2022-11-17 02:20:19,897] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 50858                                                 |
+[2022-11-17 02:20:19,899] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:19,901] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:20:19,901] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:20,100] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | The Boy in the Plastic Bubble (1976) (TMDb: 9878)                      |
+[2022-11-17 02:20:20,322] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Raid on Entebbe (1976) (TMDb: 31690)                                   |
+[2022-11-17 02:20:20,699] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Peter Pan (1976) (TMDb: 535321)                                        |
+[2022-11-17 02:20:20,750] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | The Savage Bees (1976) (TMDb: 29105)                                   |
+[2022-11-17 02:20:20,971] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | The Lindbergh Kidnapping Case (1976) (TMDb: 263782)                    |
+[2022-11-17 02:20:21,203] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Pinocchio (1976) (TMDb: 131098)                                        |
+[2022-11-17 02:20:21,415] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Addie and the King of Hearts (1976) (TMDb: 359358)                     |
+[2022-11-17 02:20:21,582] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Shirley MacLaine: Gypsy in My Soul (1976) (TMDb: 530159)               |
+[2022-11-17 02:20:21,807] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Harry S. Truman: Plain Speaking (1976) (TMDb: 263221)                  |
+[2022-11-17 02:20:22,014] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | Mitzi... Roarin' in the 20s (1976) (TMDb: 847364)                      |
+[2022-11-17 02:20:22,028] [builder.py:2321]           [INFO]     | Emmys 1976 Collection | ? | NBC: The First Fifty Years (1976) (TMDb: 772746)                       |
+[2022-11-17 02:20:22,029] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:22,030] [builder.py:2327]           [INFO]     | 11 Movies Missing                                                                                  |
+[2022-11-17 02:20:22,844] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:22,844] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 1976 ==============================|
+[2022-11-17 02:20:22,845] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:22,890] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Three's Company (TVDb: 77505)                                          |
+[2022-11-17 02:20:22,926] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Family (TVDb: 77477)                                                   |
+[2022-11-17 02:20:22,973] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | I, Claudius (TVDb: 71046)                                              |
+[2022-11-17 02:20:23,133] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | The Bionic Woman (TVDb: 77259)                                         |
+[2022-11-17 02:20:23,159] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Rich Man, Poor Man (TVDb: 77151)                                       |
+[2022-11-17 02:20:23,275] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | How the West Was Won (TVDb: 71214)                                     |
+[2022-11-17 02:20:23,297] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Sybil (TVDb: 342098)                                                   |
+[2022-11-17 02:20:23,320] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Mary Hartman, Mary Hartman (TVDb: 77016)                               |
+[2022-11-17 02:20:23,397] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Captains and the Kings (TVDb: 77247)                                   |
+[2022-11-17 02:20:23,488] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Live from Lincoln Center (TVDb: 195211)                                |
+[2022-11-17 02:20:23,598] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Arthur Hailey's The Moneychangers (TVDb: 285709)                       |
+[2022-11-17 02:20:23,731] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | The Adams Chronicles (TVDb: 76175)                                     |
+[2022-11-17 02:20:23,867] [builder.py:2366]           [INFO]     | Emmys 1976 Collection | ? | Van Dyke and Company (TVDb: 71347)                                     |
+[2022-11-17 02:20:23,867] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:20:23,867] [builder.py:2372]           [INFO]     | 13 Shows Missing                                                                                   |
+[2022-11-17 02:20:24,602] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:20:24,602] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:20:24,602] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:24,602] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [77505, 77477, 71046, 77259, 77151, 71214, 342098, 77016, 77247, 195211, 285709, 76175, 71347] |
+[2022-11-17 02:20:39,278] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:20:39,278] [sonarr.py:164]             [INFO]     | Added to Sonarr | 76175   | The Adams Chronicles                                                   |
+[2022-11-17 02:20:39,286] [sonarr.py:164]             [INFO]     | Added to Sonarr | 71347   | Van Dyke and Company                                                   |
+[2022-11-17 02:20:39,296] [sonarr.py:167]             [INFO]     | 2 Series added to Sonarr                                                                           |
+[2022-11-17 02:20:39,296] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:20:39,296] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77505   | Three's Company                                                      |
+[2022-11-17 02:20:39,305] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77477   | Family                                                               |
+[2022-11-17 02:20:39,315] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71046   | I, Claudius                                                          |
+[2022-11-17 02:20:39,329] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77259   | The Bionic Woman                                                     |
+[2022-11-17 02:20:39,338] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77151   | Rich Man, Poor Man                                                   |
+[2022-11-17 02:20:39,352] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71214   | How the West Was Won                                                 |
+[2022-11-17 02:20:39,367] [sonarr.py:177]             [INFO]     | Already in Sonarr | 342098  | Sybil                                                                |
+[2022-11-17 02:20:39,376] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77016   | Mary Hartman, Mary Hartman                                           |
+[2022-11-17 02:20:39,386] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77247   | Captains and the Kings                                               |
+[2022-11-17 02:20:39,395] [sonarr.py:177]             [INFO]     | Already in Sonarr | 195211  | Live from Lincoln Center                                             |
+[2022-11-17 02:20:39,405] [sonarr.py:177]             [INFO]     | Already in Sonarr | 285709  | Arthur Hailey's The Moneychangers                                    |
+[2022-11-17 02:20:39,417] [sonarr.py:187]             [INFO]     | 11 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:20:39,432] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:39,432] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 1976 Collection                                            |
+[2022-11-17 02:20:39,432] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:39,432] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:20:39,432] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1976 Collection                                   |
+[2022-11-17 02:20:39,433] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2022-11-17 02:20:39,433] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,163 @@
+[2022-11-17 02:28:15,992] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:28:15,993] [builder.py:193]            [INFO]     |                                 Emmys 2005 Collection in TV Shows                                  |
+[2022-11-17 02:28:15,993] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:28:15,993] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:28:15,993] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:28:15,993] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:15,993] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:28:15,994] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:15,995] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:28:15,995] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:15,997] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:28:15,998] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,010] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:28:16,011] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,018] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:28:16,019] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,024] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,024] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:28:16,024] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,024] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2005', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2005.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:28:16,024] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,025] [builder.py:223]            [INFO]     |================================= Validating Emmys 2005 Attributes =================================|
+[2022-11-17 02:28:16,025] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,025] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:28:16,025] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:28:16,025] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,026] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:28:16,026] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:28:16,026] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,026] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:28:16,026] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:28:16,026] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,026] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:28:16,027] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:28:16,027] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,027] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:28:16,027] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:28:16,812] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,814] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:28:16,814] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:28:16,814] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,815] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:28:16,815] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2005                                                                              |
+[2022-11-17 02:28:16,815] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:16,816] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:28:16,816] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2005.jpg |
+[2022-11-17 02:28:17,021] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:17,021] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:28:17,021] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:28:17,027] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:17,028] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2005                                                                            |
+[2022-11-17 02:28:17,028] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:28:17,029] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:28:17,030] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:28:17,030] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2005 Collection ===================================|
+[2022-11-17 02:28:17,031] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:28:17,032] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:28:17,032] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:17,033] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:28:17,034] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:28:17,036] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:28:19,575] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:19,575] [builder.py:1575]           [DEBUG]    | 45 IDs Found                                                                                       |
+[2022-11-17 02:28:19,576] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:19,840] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0474527                                             |
+[2022-11-17 02:28:19,904] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0441588                                             |
+[2022-11-17 02:28:19,963] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47101                                                 |
+[2022-11-17 02:28:20,176] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49154                                                 |
+[2022-11-17 02:28:20,202] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0494242                                             |
+[2022-11-17 02:28:20,232] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0473541                                             |
+[2022-11-17 02:28:20,301] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:20,302] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:28:20,303] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:20,514] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Reefer Madness: The Movie Musical (2006) (TMDb: 20521)                 |
+[2022-11-17 02:28:20,772] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | The Girl in the Café (2005) (TMDb: 28201)                              |
+[2022-11-17 02:28:20,964] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Warm Springs (2005) (TMDb: 46661)                                      |
+[2022-11-17 02:28:20,974] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Lackawanna Blues (2005) (TMDb: 133382)                                 |
+[2022-11-17 02:28:21,149] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Eagles - Farewell I Tour - Live from Melbourne (2005) (TMDb: 56680)    |
+[2022-11-17 02:28:21,340] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | My Life as a Teenage Robot: Escape from Cluster Prime (2005) (TMDb: 424074) |
+[2022-11-17 02:28:21,351] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | I Have Tourette's But Tourette's Doesn't Have Me (2005) (TMDb: 277472) |
+[2022-11-17 02:28:21,467] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Benise: Nights of Fire (2005) (TMDb: 135319)                           |
+[2022-11-17 02:28:21,653] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | No Direction Home: Bob Dylan (2005) (TMDb: 19082)                      |
+[2022-11-17 02:28:21,859] [builder.py:2321]           [INFO]     | Emmys 2005 Collection | ? | Rome: Engineering an Empire (2005) (TMDb: 547545)                      |
+[2022-11-17 02:28:21,859] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:21,859] [builder.py:2327]           [INFO]     | 10 Movies Missing                                                                                  |
+[2022-11-17 02:28:22,908] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:22,908] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2005 ==============================|
+[2022-11-17 02:28:22,909] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:22,997] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Grey's Anatomy (TVDb: 73762)                                           |
+[2022-11-17 02:28:23,140] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | The Office (US) (TVDb: 73244)                                          |
+[2022-11-17 02:28:23,204] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | How I Met Your Mother (TVDb: 75760)                                    |
+[2022-11-17 02:28:23,250] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Avatar: The Last Airbender (TVDb: 74852)                               |
+[2022-11-17 02:28:23,285] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Weeds (TVDb: 74845)                                                    |
+[2022-11-17 02:28:23,336] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | My Name Is Earl (TVDb: 75397)                                          |
+[2022-11-17 02:28:23,366] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | The Closer (TVDb: 74875)                                               |
+[2022-11-17 02:28:23,419] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Medium (TVDb: 73265)                                                   |
+[2022-11-17 02:28:23,473] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Dancing with the Stars (TVDb: 79590)                                   |
+[2022-11-17 02:28:23,527] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Extras (TVDb: 75660)                                                   |
+[2022-11-17 02:28:23,570] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Masters of Horror (TVDb: 79066)                                        |
+[2022-11-17 02:28:23,709] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Moral Orel (TVDb: 79302)                                               |
+[2022-11-17 02:28:23,757] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Into the West (TVDb: 78828)                                            |
+[2022-11-17 02:28:23,790] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Bleak House (2005) (TVDb: 73558)                                       |
+[2022-11-17 02:28:23,884] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Deadliest Catch (TVDb: 78957)                                          |
+[2022-11-17 02:28:23,935] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | The Triangle (TVDb: 75599)                                             |
+[2022-11-17 02:28:23,980] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Empire Falls (TVDb: 84737)                                             |
+[2022-11-17 02:28:24,099] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Anthony Bourdain: No Reservations (TVDb: 79668)                        |
+[2022-11-17 02:28:24,128] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Elizabeth I (TVDb: 79758)                                              |
+[2022-11-17 02:28:24,168] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Intervention (TVDb: 75896)                                             |
+[2022-11-17 02:28:24,206] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | So You Think You Can Dance (TVDb: 78956)                               |
+[2022-11-17 02:28:24,261] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Camp Lazlo (TVDb: 74816)                                               |
+[2022-11-17 02:28:24,374] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | My Gym Partner's a Monkey (TVDb: 86681)                                |
+[2022-11-17 02:28:24,400] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | E-Ring (TVDb: 75532)                                                   |
+[2022-11-17 02:28:24,527] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | The Life and Times of Juniper Lee (TVDb: 76044)                        |
+[2022-11-17 02:28:24,582] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | The Colbert Report (TVDb: 79274)                                       |
+[2022-11-17 02:28:24,775] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Kathy Griffin: My Life on the D-List (TVDb: 79795)                     |
+[2022-11-17 02:28:24,801] [builder.py:2366]           [INFO]     | Emmys 2005 Collection | ? | Classical Baby (TVDb: 309254)                                          |
+[2022-11-17 02:28:24,802] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:28:24,802] [builder.py:2372]           [INFO]     | 28 Shows Missing                                                                                   |
+[2022-11-17 02:28:25,889] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:28:25,890] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:28:25,890] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:28:25,890] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [73762, 73244, 75760, 74852, 74845, 75397, 74875, 73265, 79590, 75660, 79066, 79302, 78828, 73558, 78957, 75599, 84737, 79668, 79758, 75896, 78956, 74816, 86681, 75532, 76044, 79274, 79795, 309254] |
+[2022-11-17 02:29:04,038] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:29:04,039] [sonarr.py:164]             [INFO]     | Added to Sonarr | 309254  | Classical Baby                                                         |
+[2022-11-17 02:29:04,051] [sonarr.py:167]             [INFO]     | 1 Series added to Sonarr                                                                           |
+[2022-11-17 02:29:04,052] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:29:04,053] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75397   | My Name Is Earl                                                      |
+[2022-11-17 02:29:04,066] [sonarr.py:177]             [INFO]     | Already in Sonarr | 74875   | The Closer                                                           |
+[2022-11-17 02:29:04,080] [sonarr.py:177]             [INFO]     | Already in Sonarr | 73265   | Medium                                                               |
+[2022-11-17 02:29:04,089] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75660   | Extras                                                               |
+[2022-11-17 02:29:04,119] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79302   | Moral Orel                                                           |
+[2022-11-17 02:29:04,142] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78828   | Into the West                                                        |
+[2022-11-17 02:29:04,156] [sonarr.py:177]             [INFO]     | Already in Sonarr | 73558   | Bleak House (2005)                                                   |
+[2022-11-17 02:29:04,180] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78957   | Deadliest Catch                                                      |
+[2022-11-17 02:29:04,203] [sonarr.py:177]             [INFO]     | Already in Sonarr | 84737   | Empire Falls                                                         |
+[2022-11-17 02:29:04,231] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79668   | Anthony Bourdain: No Reservations                                    |
+[2022-11-17 02:29:04,245] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79758   | Elizabeth I                                                          |
+[2022-11-17 02:29:04,259] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75896   | Intervention                                                         |
+[2022-11-17 02:29:04,273] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78956   | So You Think You Can Dance                                           |
+[2022-11-17 02:29:04,286] [sonarr.py:177]             [INFO]     | Already in Sonarr | 74816   | Camp Lazlo                                                           |
+[2022-11-17 02:29:04,299] [sonarr.py:177]             [INFO]     | Already in Sonarr | 86681   | My Gym Partner's a Monkey                                            |
+[2022-11-17 02:29:04,313] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75532   | E-Ring                                                               |
+[2022-11-17 02:29:04,329] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76044   | The Life and Times of Juniper Lee                                    |
+[2022-11-17 02:29:04,343] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79274   | The Colbert Report                                                   |
+[2022-11-17 02:29:04,358] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79795   | Kathy Griffin: My Life on the D-List                                 |
+[2022-11-17 02:29:04,371] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73762                                                                          |
+[2022-11-17 02:29:04,371] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75760                                                                          |
+[2022-11-17 02:29:04,371] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74852                                                                          |
+[2022-11-17 02:29:04,371] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74845                                                                          |
+[2022-11-17 02:29:04,371] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79590                                                                          |
+[2022-11-17 02:29:04,372] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79066                                                                          |
+[2022-11-17 02:29:04,372] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75599                                                                          |
+[2022-11-17 02:29:04,372] [sonarr.py:187]             [INFO]     | 26 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:29:04,372] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:29:04,372] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Office (US)]                                                                |
+[2022-11-17 02:29:04,372] [sonarr.py:207]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2022-11-17 02:29:04,386] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:29:04,386] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 2005 Collection                                            |
+[2022-11-17 02:29:04,386] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:29:04,387] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:29:04,387] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2005 Collection                                   |
+[2022-11-17 02:29:04,387] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:48                                    |
+[2022-11-17 02:29:04,387] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

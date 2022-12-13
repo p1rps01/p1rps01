@@ -1,0 +1,51 @@
+[2022-11-05 19:21:20,329] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:21:20,330] [builder.py:197]            [INFO]     |                           Sylvester Stallone Collection in Marvel Movies                           |
+[2022-11-05 19:21:20,330] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:21:20,330] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 19:21:20,330] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 19:21:20,331] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,331] [meta.py:128]               [DEBUG]    | Template Person                                                                                    |
+[2022-11-05 19:21:20,331] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Person'), ('person', 16483)])                                         |
+[2022-11-05 19:21:20,331] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,332] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Person'), ('person', 16483), ('collection_name', 'Sylvester Stallone'), ('mapping_name', 'Sylvester Stallone'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Person'), ('person_encoded', '16483'), ('collection_name_encoded', 'Sylvester%20Stallone'), ('mapping_name_encoded', 'Sylvester%20Stallone'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Sylvester Stallone')]) |
+[2022-11-05 19:21:20,332] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,333] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 19:21:20,333] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,334] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 19:21:20,335] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,336] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 16483, 'sort_title': '+5_Sylvester Stallone'} |
+[2022-11-05 19:21:20,336] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,336] [builder.py:219]            [INFO]     |============================= Validating Sylvester Stallone Attributes =============================|
+[2022-11-05 19:21:20,337] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:20,337] [builder.py:501]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-05 19:21:20,338] [builder.py:505]            [DEBUG]    | Value: 16483                                                                                       |
+[2022-11-05 19:21:20,347] [builder.py:1722]           [INFO]     |                                                                                                    |
+[2022-11-05 19:21:20,347] [builder.py:1723]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-05 19:21:20,348] [builder.py:1729]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-05 19:21:21,610] [builder.py:1900]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=35229&or=1&director=35229&or=1&writer=35229&or=1&producer=35229&pop=1 |
+[2022-11-05 19:21:21,610] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:21,610] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:21:21,610] [builder.py:632]            [DEBUG]    | Value: +5_Sylvester Stallone                                                                       |
+[2022-11-05 19:21:21,616] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:21:21,617] [plex.py:793]               [DEBUG]    | Looking for: Sylvester Stallone                                                                    |
+[2022-11-05 19:21:21,617] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-11-05 19:21:21,617] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:21:21,617] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-11-05 19:21:21,617] [plex_meta_manager.py:563]  [INFO]     |============================== Running Sylvester Stallone Collection ===============================|
+[2022-11-05 19:21:21,617] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-11-05 19:21:21,618] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: random
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Sylvester Stallone
+                                                                 |     Director is Sylvester Stallone
+                                                                 |     Writer is Sylvester Stallone
+                                                                 |     Producer is Sylvester Stallone
+[2022-11-05 19:21:21,629] [plex_meta_manager.py:624]  [INFO]     | 
+[2022-11-05 19:21:21,630] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Sylvester Stallone Collection
+[2022-11-05 19:21:21,630] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 19:21:21,631] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 19:21:21,631] [plex_meta_manager.py:709]  [INFO]     |                               Finished Sylvester Stallone Collection                               |
+[2022-11-05 19:21:21,631] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-05 19:21:21,631] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

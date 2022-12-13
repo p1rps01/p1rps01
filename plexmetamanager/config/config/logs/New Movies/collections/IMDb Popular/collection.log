@@ -1,0 +1,237 @@
+[2022-11-16 23:47:43,268] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:47:43,268] [builder.py:193]            [INFO]     |                               IMDb Popular Collection in New Movies                                |
+[2022-11-16 23:47:43,268] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:47:43,268] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,268] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:47:43,268] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,269] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 23:47:43,269] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,269] [meta.py:210]               [DEBUG]    |======================================= Template imdb_chart ========================================|
+[2022-11-16 23:47:43,270] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,272] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:47:43,273] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,287] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 23:47:43,288] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,294] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 23:47:43,295] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,298] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:47:43,299] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,302] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,302] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:47:43,302] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,302] [meta.py:515]               [DEBUG]    | {'imdb_chart': 'popular_movies', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_IMDb Popular', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Popular.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'List of IMDb Popular movies.', 'name': 'IMDb Popular'} |
+[2022-11-16 23:47:43,302] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,303] [builder.py:223]            [INFO]     |================================ Validating IMDb Popular Attributes ================================|
+[2022-11-16 23:47:43,303] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,303] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:47:43,303] [builder.py:230]            [DEBUG]    | Value: IMDb Popular                                                                                |
+[2022-11-16 23:47:43,303] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,303] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:47:43,303] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:47:43,304] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,304] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 23:47:43,304] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 23:47:43,304] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,304] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:47:43,304] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 23:47:43,304] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,304] [builder.py:650]            [DEBUG]    | Validating Method: imdb_chart                                                                      |
+[2022-11-16 23:47:43,305] [builder.py:651]            [DEBUG]    | Value: popular_movies                                                                              |
+[2022-11-16 23:47:43,305] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,305] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:47:43,305] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:47:43,305] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,305] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:47:43,305] [builder.py:651]            [DEBUG]    | Value: !01_IMDb Popular                                                                            |
+[2022-11-16 23:47:43,305] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,305] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:47:43,306] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Popular.jpg |
+[2022-11-16 23:47:43,436] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,436] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 23:47:43,436] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 23:47:43,436] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,436] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:47:43,436] [builder.py:651]            [DEBUG]    | Value: List of IMDb Popular movies.                                                                |
+[2022-11-16 23:47:43,574] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,574] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:596]  [INFO]     |================================= Running IMDb Popular Collection ==================================|
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_chart: popular_movies                                                                |
+[2022-11-16 23:47:43,575] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,576] [builder.py:1523]           [INFO]     | Builder: imdb_chart loaded from Cache                                                              |
+[2022-11-16 23:47:43,579] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,580] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-16 23:47:43,580] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:47:43,626] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,627] [builder.py:2159]           [INFO]     |================================ Adding to IMDb Popular Collection =================================|
+[2022-11-16 23:47:43,627] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 23:47:43,627] [builder.py:2174]           [INFO]     |  1/34 | IMDb Popular Collection | = | Enola Holmes 2 (2022)                                        |
+[2022-11-16 23:47:43,627] [builder.py:2174]           [INFO]     |  2/34 | IMDb Popular Collection | + | Don't Worry Darling (2022)                                   |
+[2022-11-16 23:47:43,689] [builder.py:2174]           [INFO]     |  3/34 | IMDb Popular Collection | = | My Policeman (2022)                                          |
+[2022-11-16 23:47:43,689] [builder.py:2174]           [INFO]     |  4/34 | IMDb Popular Collection | = | See How They Run (2022)                                      |
+[2022-11-16 23:47:43,690] [builder.py:2174]           [INFO]     |  5/34 | IMDb Popular Collection | = | The Good Nurse (2022)                                        |
+[2022-11-16 23:47:43,690] [builder.py:2174]           [INFO]     |  6/34 | IMDb Popular Collection | = | Bullet Train (2022)                                          |
+[2022-11-16 23:47:43,690] [builder.py:2174]           [INFO]     |  7/34 | IMDb Popular Collection | = | Top Gun: Maverick (2022)                                     |
+[2022-11-16 23:47:43,690] [builder.py:2174]           [INFO]     |  8/34 | IMDb Popular Collection | = | Causeway (2022)                                              |
+[2022-11-16 23:47:43,690] [builder.py:2174]           [INFO]     |  9/34 | IMDb Popular Collection | = | X (2022)                                                     |
+[2022-11-16 23:47:43,691] [builder.py:2174]           [INFO]     | 10/34 | IMDb Popular Collection | = | The Woman King (2022)                                        |
+[2022-11-16 23:47:43,691] [builder.py:2174]           [INFO]     | 11/34 | IMDb Popular Collection | = | Amsterdam (2022)                                             |
+[2022-11-16 23:47:43,691] [builder.py:2174]           [INFO]     | 12/34 | IMDb Popular Collection | = | Ticket to Paradise (2022)                                    |
+[2022-11-16 23:47:43,691] [builder.py:2174]           [INFO]     | 13/34 | IMDb Popular Collection | = | The School for Good and Evil (2022)                          |
+[2022-11-16 23:47:43,691] [builder.py:2174]           [INFO]     | 14/34 | IMDb Popular Collection | = | Nope (2022)                                                  |
+[2022-11-16 23:47:43,692] [builder.py:2174]           [INFO]     | 15/34 | IMDb Popular Collection | = | Thor: Love and Thunder (2022)                                |
+[2022-11-16 23:47:43,692] [builder.py:2174]           [INFO]     | 16/34 | IMDb Popular Collection | + | On the Line (2022)                                           |
+[2022-11-16 23:47:43,755] [builder.py:2174]           [INFO]     | 17/34 | IMDb Popular Collection | = | The Stranger (2022)                                          |
+[2022-11-16 23:47:43,755] [builder.py:2174]           [INFO]     | 18/34 | IMDb Popular Collection | + | R.I.P.D. 2: Rise of the Damned (2022)                        |
+[2022-11-16 23:47:43,818] [builder.py:2174]           [INFO]     | 19/34 | IMDb Popular Collection | = | The Batman (2022)                                            |
+[2022-11-16 23:47:43,818] [builder.py:2174]           [INFO]     | 20/34 | IMDb Popular Collection | = | Where the Crawdads Sing (2022)                               |
+[2022-11-16 23:47:43,819] [builder.py:2174]           [INFO]     | 21/34 | IMDb Popular Collection | + | Tár (2022)                                                   |
+[2022-11-16 23:47:43,879] [builder.py:2174]           [INFO]     | 22/34 | IMDb Popular Collection | = | The Northman (2022)                                          |
+[2022-11-16 23:47:43,879] [builder.py:2174]           [INFO]     | 23/34 | IMDb Popular Collection | = | Fall (2022)                                                  |
+[2022-11-16 23:47:43,880] [builder.py:2174]           [INFO]     | 24/34 | IMDb Popular Collection | = | Luckiest Girl Alive (2022)                                   |
+[2022-11-16 23:47:43,880] [builder.py:2174]           [INFO]     | 25/34 | IMDb Popular Collection | + | Medieval (2022)                                              |
+[2022-11-16 23:47:45,779] [builder.py:2174]           [INFO]     | 26/34 | IMDb Popular Collection | = | Wendell & Wild (2022)                                        |
+[2022-11-16 23:47:45,780] [builder.py:2174]           [INFO]     | 27/34 | IMDb Popular Collection | = | Elvis (2022)                                                 |
+[2022-11-16 23:47:45,780] [builder.py:2174]           [INFO]     | 28/34 | IMDb Popular Collection | = | Blonde (2022)                                                |
+[2022-11-16 23:47:45,781] [builder.py:2174]           [INFO]     | 29/34 | IMDb Popular Collection | = | Morbius (2022)                                               |
+[2022-11-16 23:47:45,781] [builder.py:2174]           [INFO]     | 30/34 | IMDb Popular Collection | + | The Unbearable Weight of Massive Talent (2022)               |
+[2022-11-16 23:47:47,579] [builder.py:2174]           [INFO]     | 31/34 | IMDb Popular Collection | = | The Lost City (2022)                                         |
+[2022-11-16 23:47:47,579] [builder.py:2174]           [INFO]     | 32/34 | IMDb Popular Collection | + | The Gray Man (2022)                                          |
+[2022-11-16 23:47:49,637] [builder.py:2174]           [INFO]     | 33/34 | IMDb Popular Collection | + | Uncharted (2022)                                             |
+[2022-11-16 23:47:49,699] [builder.py:2174]           [INFO]     | 34/34 | IMDb Popular Collection | + | Jurassic World Dominion (2022)                               |
+[2022-11-16 23:47:53,323] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 23:47:53,324] [builder.py:2196]           [INFO]     | 34 Movies Processed 9 Movies Added                                                                 |
+[2022-11-16 23:47:53,324] [builder.py:2204]           [INFO]     |                                                                                                    |
+[2022-11-16 23:47:53,324] [builder.py:2205]           [INFO]     |=============================== Removed from IMDb Popular Collection ===============================|
+[2022-11-16 23:47:53,324] [builder.py:2206]           [INFO]     |                                                                                                    |
+[2022-11-16 23:47:53,324] [builder.py:2211]           [INFO]     | 1/4 | IMDb Popular Collection | - | Wild Is the Wind (2022)                                        |
+[2022-11-16 23:47:55,104] [builder.py:2211]           [INFO]     | 2/4 | IMDb Popular Collection | - | Bros (2022)                                                    |
+[2022-11-16 23:47:56,941] [builder.py:2211]           [INFO]     | 3/4 | IMDb Popular Collection | - | The Curse of Bridge Hollow (2022)                              |
+[2022-11-16 23:47:58,838] [builder.py:2211]           [INFO]     | 4/4 | IMDb Popular Collection | - | Prey (2022)                                                    |
+[2022-11-16 23:48:04,288] [builder.py:2223]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:04,289] [builder.py:2224]           [INFO]     | 4 Movie Removed                                                                                    |
+[2022-11-16 23:48:04,289] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:04,289] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: New Movies ==============================|
+[2022-11-16 23:48:04,289] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:04,303] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)                 |
+[2022-11-16 23:48:04,314] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                   |
+[2022-11-16 23:48:04,325] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | The Whale (2022) (TMDb: 785084)                                      |
+[2022-11-16 23:48:04,341] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)                  |
+[2022-11-16 23:48:04,364] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Barbarian (2022) (TMDb: 913290)                                      |
+[2022-11-16 23:48:04,381] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Black Adam (2022) (TMDb: 436270)                                     |
+[2022-11-16 23:48:04,394] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Terrifier 2 (2022) (TMDb: 663712)                                    |
+[2022-11-16 23:48:04,404] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Enola Holmes (2020) (TMDb: 497582)                                   |
+[2022-11-16 23:48:04,417] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Avatar: The Way of Water (2022) (TMDb: 76600)                        |
+[2022-11-16 23:48:04,427] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Smile (2022) (TMDb: 882598)                                          |
+[2022-11-16 23:48:04,439] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Glass Onion: A Knives Out Mystery (2022) (TMDb: 661374)              |
+[2022-11-16 23:48:04,450] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Banshees of Inisherin (2022) (TMDb: 674324)                      |
+[2022-11-16 23:48:04,460] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Falling for Christmas (2022) (TMDb: 833097)                          |
+[2022-11-16 23:48:04,471] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | John Wick: Chapter 4 (2023) (TMDb: 603692)                           |
+[2022-11-16 23:48:04,483] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Black Panther (2018) (TMDb: 284054)                                  |
+[2022-11-16 23:48:04,496] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Terrifier (2016) (TMDb: 420634)                                      |
+[2022-11-16 23:48:04,508] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | The Menu (2022) (TMDb: 593643)                                       |
+[2022-11-16 23:48:04,535] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Kantara (2022) (TMDb: 858485)                                        |
+[2022-11-16 23:48:04,552] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | A Christmas Story Christmas (2022) (TMDb: 929340)                    |
+[2022-11-16 23:48:04,564] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Pearl (2022) (TMDb: 949423)                                          |
+[2022-11-16 23:48:04,587] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Triangle of Sadness (2022) (TMDb: 497828)                            |
+[2022-11-16 23:48:04,596] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Fabelmans (2022) (TMDb: 804095)                                  |
+[2022-11-16 23:48:04,606] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Spirited (2022) (TMDb: 632856)                                       |
+[2022-11-16 23:48:04,617] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Bad Guys (2022) (TMDb: 629542)                                   |
+[2022-11-16 23:48:04,628] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Disenchanted (2022) (TMDb: 338958)                                   |
+[2022-11-16 23:48:04,640] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Brahmāstra Part One: Shiva (2022) (TMDb: 496331)                     |
+[2022-11-16 23:48:04,650] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)              |
+[2022-11-16 23:48:04,660] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                             |
+[2022-11-16 23:48:04,671] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | She Said (2022) (TMDb: 837881)                                       |
+[2022-11-16 23:48:04,682] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Top Gun (1986) (TMDb: 744)                                           |
+[2022-11-16 23:48:04,694] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Takeover (2022) (TMDb: 944864)                                   |
+[2022-11-16 23:48:04,705] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Bones and All (2022) (TMDb: 791177)                                  |
+[2022-11-16 23:48:04,720] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Halloween Ends (2022) (TMDb: 616820)                                 |
+[2022-11-16 23:48:04,736] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Avatar (2009) (TMDb: 19995)                                          |
+[2022-11-16 23:48:04,757] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Prey for the Devil (2022) (TMDb: 676547)                             |
+[2022-11-16 23:48:04,777] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Shawshank Redemption (1994) (TMDb: 278)                          |
+[2022-11-16 23:48:04,779] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Babylon (2022) (TMDb: 615777)                                        |
+[2022-11-16 23:48:04,793] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Godfather (1972) (TMDb: 238)                                     |
+[2022-11-16 23:48:04,804] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Armageddon Time (2022) (TMDb: 615952)                                |
+[2022-11-16 23:48:04,818] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)          |
+[2022-11-16 23:48:04,828] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | A Christmas Story (1983) (TMDb: 850)                                 |
+[2022-11-16 23:48:04,841] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Violent Night (2022) (TMDb: 899112)                                  |
+[2022-11-16 23:48:04,854] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Knives Out (2019) (TMDb: 546554)                                     |
+[2022-11-16 23:48:04,865] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Phone Bhoot (2022) (TMDb: 726207)                                    |
+[2022-11-16 23:48:04,876] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | All Quiet on the Western Front (1930) (TMDb: 143)                    |
+[2022-11-16 23:48:04,888] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Midsommar (2019) (TMDb: 530385)                                      |
+[2022-11-16 23:48:04,900] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Guillermo del Toro's Pinocchio (2022) (TMDb: 555604)                 |
+[2022-11-16 23:48:04,913] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Interstellar (2014) (TMDb: 157336)                                   |
+[2022-11-16 23:48:04,925] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | American Psycho (2000) (TMDb: 1359)                                  |
+[2022-11-16 23:48:04,936] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Hellraiser (2022) (TMDb: 338947)                                     |
+[2022-11-16 23:48:04,947] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Overdose (2022) (TMDb: 896485)                                       |
+[2022-11-16 23:48:04,958] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Black Phone (2022) (TMDb: 756999)                                |
+[2022-11-16 23:48:04,971] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Oblivion (2013) (TMDb: 75612)                                        |
+[2022-11-16 23:48:04,982] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                        |
+[2022-11-16 23:48:04,993] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Watcher (2022) (TMDb: 807356)                                        |
+[2022-11-16 23:48:05,005] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | The Lord of the Rings: The Fellowship of the Ring (2001) (TMDb: 120) |
+[2022-11-16 23:48:05,017] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Crimes of the Future (2022) (TMDb: 819876)                           |
+[2022-11-16 23:48:05,032] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Selena Gomez: My Mind & Me (2022) (TMDb: 1022256)                    |
+[2022-11-16 23:48:05,046] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Monica, O My Darling (2022) (TMDb: 915831)                           |
+[2022-11-16 23:48:05,058] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Rogue One: A Star Wars Story (2016) (TMDb: 330459)                   |
+[2022-11-16 23:48:05,071] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Ant-Man and the Wasp: Quantumania (2023) (TMDb: 640146)              |
+[2022-11-16 23:48:05,082] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Lyle, Lyle, Crocodile (2022) (TMDb: 830784)                          |
+[2022-11-16 23:48:05,093] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Dune (2021) (TMDb: 438631)                                           |
+[2022-11-16 23:48:05,105] [builder.py:2325]           [INFO]     | IMDb Popular Collection | X | Devotion (2022) (TMDb: 653851)                                       |
+[2022-11-16 23:48:05,117] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | V for Vendetta (2006) (TMDb: 752)                                    |
+[2022-11-16 23:48:05,129] [builder.py:2321]           [INFO]     | IMDb Popular Collection | ? | Aftersun (2022) (TMDb: 965150)                                       |
+[2022-11-16 23:48:05,129] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:05,130] [builder.py:2327]           [INFO]     | 53 Movies Missing                                                                                  |
+[2022-11-16 23:48:12,375] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:12,375] [builder.py:2528]           [INFO]     |=========================== Updating Details of IMDb Popular Collection ============================|
+[2022-11-16 23:48:12,375] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:12,384] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 23:48:14,074] [builder.py:2615]           [INFO]     | Collection Mode | hide                                                                             |
+[2022-11-16 23:48:14,075] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 23:48:14,075] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Popular.jpg |
+[2022-11-16 23:48:14,075] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/New_Movies/Assets/IMDb Popular/poster.jpg', 'prefix': "IMDb Popular's ", 'is_poster': True, 'is_url': False, 'compare': 270991, 'message': "IMDb Popular's poster to [File] /config/New_Movies/Assets/IMDb Popular/poster.jpg"} |
+[2022-11-16 23:48:14,076] [library.py:180]            [INFO]     | Detail: IMDb Popular's poster update not needed                                                    |
+[2022-11-16 23:48:14,211] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:14,211] [builder.py:2687]           [INFO]     |================================= Sorting IMDb Popular Collection ==================================|
+[2022-11-16 23:48:14,212] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 23:48:14,212] [builder.py:2704]           [INFO]     | Moving Enola Holmes 2 (2022) to the beginning                                                      |
+[2022-11-16 23:48:14,254] [builder.py:2704]           [INFO]     | Moving Don't Worry Darling (2022) after Enola Holmes 2 (2022)                                      |
+[2022-11-16 23:48:14,298] [builder.py:2704]           [INFO]     | Moving My Policeman (2022) after Don't Worry Darling (2022)                                        |
+[2022-11-16 23:48:14,360] [builder.py:2704]           [INFO]     | Moving See How They Run (2022) after My Policeman (2022)                                           |
+[2022-11-16 23:48:14,431] [builder.py:2704]           [INFO]     | Moving The Good Nurse (2022) after See How They Run (2022)                                         |
+[2022-11-16 23:48:14,477] [builder.py:2704]           [INFO]     | Moving Bullet Train (2022) after The Good Nurse (2022)                                             |
+[2022-11-16 23:48:14,518] [builder.py:2704]           [INFO]     | Moving Top Gun: Maverick (2022) after Bullet Train (2022)                                          |
+[2022-11-16 23:48:14,559] [builder.py:2704]           [INFO]     | Moving Causeway (2022) after Top Gun: Maverick (2022)                                              |
+[2022-11-16 23:48:14,606] [builder.py:2704]           [INFO]     | Moving X (2022) after Causeway (2022)                                                              |
+[2022-11-16 23:48:14,642] [builder.py:2704]           [INFO]     | Moving The Woman King (2022) after X (2022)                                                        |
+[2022-11-16 23:48:14,680] [builder.py:2704]           [INFO]     | Moving Amsterdam (2022) after The Woman King (2022)                                                |
+[2022-11-16 23:48:14,719] [builder.py:2704]           [INFO]     | Moving Ticket to Paradise (2022) after Amsterdam (2022)                                            |
+[2022-11-16 23:48:14,758] [builder.py:2704]           [INFO]     | Moving The School for Good and Evil (2022) after Ticket to Paradise (2022)                         |
+[2022-11-16 23:48:14,795] [builder.py:2704]           [INFO]     | Moving Nope (2022) after The School for Good and Evil (2022)                                       |
+[2022-11-16 23:48:14,838] [builder.py:2704]           [INFO]     | Moving Thor: Love and Thunder (2022) after Nope (2022)                                             |
+[2022-11-16 23:48:14,878] [builder.py:2704]           [INFO]     | Moving On the Line (2022) after Thor: Love and Thunder (2022)                                      |
+[2022-11-16 23:48:14,921] [builder.py:2704]           [INFO]     | Moving The Stranger (2022) after On the Line (2022)                                                |
+[2022-11-16 23:48:14,970] [builder.py:2704]           [INFO]     | Moving R.I.P.D. 2: Rise of the Damned (2022) after The Stranger (2022)                             |
+[2022-11-16 23:48:15,021] [builder.py:2704]           [INFO]     | Moving The Batman (2022) after R.I.P.D. 2: Rise of the Damned (2022)                               |
+[2022-11-16 23:48:15,057] [builder.py:2704]           [INFO]     | Moving Where the Crawdads Sing (2022) after The Batman (2022)                                      |
+[2022-11-16 23:48:15,099] [builder.py:2704]           [INFO]     | Moving Tár (2022) after Where the Crawdads Sing (2022)                                             |
+[2022-11-16 23:48:15,141] [builder.py:2704]           [INFO]     | Moving The Northman (2022) after Tár (2022)                                                        |
+[2022-11-16 23:48:15,181] [builder.py:2704]           [INFO]     | Moving Fall (2022) after The Northman (2022)                                                       |
+[2022-11-16 23:48:15,247] [builder.py:2704]           [INFO]     | Moving Luckiest Girl Alive (2022) after Fall (2022)                                                |
+[2022-11-16 23:48:15,290] [builder.py:2704]           [INFO]     | Moving Medieval (2022) after Luckiest Girl Alive (2022)                                            |
+[2022-11-16 23:48:15,332] [builder.py:2704]           [INFO]     | Moving Wendell & Wild (2022) after Medieval (2022)                                                 |
+[2022-11-16 23:48:15,417] [builder.py:2704]           [INFO]     | Moving Elvis (2022) after Wendell & Wild (2022)                                                    |
+[2022-11-16 23:48:15,456] [builder.py:2704]           [INFO]     | Moving Blonde (2022) after Elvis (2022)                                                            |
+[2022-11-16 23:48:15,492] [builder.py:2704]           [INFO]     | Moving Morbius (2022) after Blonde (2022)                                                          |
+[2022-11-16 23:48:15,540] [builder.py:2704]           [INFO]     | Moving The Unbearable Weight of Massive Talent (2022) after Morbius (2022)                         |
+[2022-11-16 23:48:15,579] [builder.py:2704]           [INFO]     | Moving The Lost City (2022) after The Unbearable Weight of Massive Talent (2022)                   |
+[2022-11-16 23:48:15,617] [builder.py:2704]           [INFO]     | Moving The Gray Man (2022) after The Lost City (2022)                                              |
+[2022-11-16 23:48:15,654] [builder.py:2704]           [INFO]     | Moving Uncharted (2022) after The Gray Man (2022)                                                  |
+[2022-11-16 23:48:15,693] [builder.py:2704]           [INFO]     | Moving Jurassic World Dominion (2022) after Uncharted (2022)                                       |
+[2022-11-16 23:48:15,742] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:48:15,742] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:48:15,743] [plex_meta_manager.py:737]  [INFO]     |                                  Finished IMDb Popular Collection                                  |
+[2022-11-16 23:48:15,743] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:32                                    |
+[2022-11-16 23:48:15,743] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

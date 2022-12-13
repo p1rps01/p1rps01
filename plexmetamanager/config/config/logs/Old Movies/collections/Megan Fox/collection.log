@@ -1,0 +1,71 @@
+[2022-11-16 22:08:17,649] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:17,649] [builder.py:193]            [INFO]     |                                 Megan Fox Collection in Old Movies                                 |
+[2022-11-16 22:08:17,649] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:17,650] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,650] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:08:17,650] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,650] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:08:17,650] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,652] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,652] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:08:17,652] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,652] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 19537, 'sort_title': '++_Megan Fox', 'collection_order': 'release'} |
+[2022-11-16 22:08:17,653] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,653] [builder.py:223]            [INFO]     |================================= Validating Megan Fox Attributes ==================================|
+[2022-11-16 22:08:17,653] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,653] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:08:17,653] [builder.py:533]            [DEBUG]    | Value: 19537                                                                                       |
+[2022-11-16 22:08:17,665] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,665] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:08:17,665] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:08:17,665] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,665] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:08:17,665] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:08:17,956] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,956] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:08:17,957] [builder.py:651]            [DEBUG]    | Value: ++_Megan Fox                                                                                |
+[2022-11-16 22:08:17,963] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,963] [builder.py:796]            [ERROR]    | Collection Error: Converting Megan Fox to a normal collection                                      |
+[2022-11-16 22:08:17,969] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,969] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:08:17,969] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,969] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Megan Fox Collection ===================================|
+[2022-11-16 22:08:17,969] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,969] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:08:17,969] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:17,970] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Megan Fox", '?type=1&sort=titleSort&push=1&actor=22877&pop=1') |
+[2022-11-16 22:08:17,970] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,970] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Megan Fox
+[2022-11-16 22:08:17,980] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:08:17,981] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 22:08:17,981] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:08:17,981] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:08:17,981] [builder.py:2159]           [INFO]     |================================== Adding to Megan Fox Collection ==================================|
+[2022-11-16 22:08:17,981] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:17,981] [builder.py:2174]           [INFO]     | 1/2 | Megan Fox Collection | + | Transformers (2007)                                               |
+[2022-11-16 22:08:19,936] [builder.py:2174]           [INFO]     | 2/2 | Megan Fox Collection | + | Transformers: Revenge of the Fallen (2009)                        |
+[2022-11-16 22:08:24,357] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:24,357] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:08:24,363] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:24,363] [builder.py:2528]           [INFO]     |============================= Updating Details of Megan Fox Collection =============================|
+[2022-11-16 22:08:24,363] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:24,370] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Megan Denise Fox (born May 16, 1986) is an American actress and model. Fox made her acting debut in the family film Holiday in the Sun (2001), which was followed by numerous supporting roles in film and television, such as the teen musical comedy Confessions of a Teenage Drama Queen (2004), as well as a starring role in the ABC sitcom Hope & Faith (2004–2006). Her breakout role was as Mikaela Banes in the blockbuster action film Transformers (2007), which she reprised in its sequel Transformers: Revenge of the Fallen (2009). She also portrayed the titular character in the horror comedy Jennifer's Body (2009), starred as April O'Neil in the superhero action film Teenage Mutant Ninja Turtles (2014) and its sequel Teenage Mutant Ninja Turtles: Out of the Shadows (2016), and starred as Reagan Lucas in the fifth and sixth seasons of the Fox sitcom New Girl (2016–2017).
+                                                                 | 
+                                                                 | Fox has also made appearances in numerous magazines such as Maxim, Rolling Stone, and FHM. She is the recipient of several accolades, including two Scream Awards and four Teen Choice Awards.
+                                                                 | Sort Title | ++_Megan Fox
+                                                                 | Label | +PMM
+[2022-11-16 22:08:25,993] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:08:25,993] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:08:25,994] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:08:25,994] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/bJeD8b5dSbH8jzlYSOjRpxxUmcb.jpg
+[2022-11-16 22:08:26,072] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/bJeD8b5dSbH8jzlYSOjRpxxUmcb.jpg
+[2022-11-16 22:08:26,115] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:08:26,115] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:08:26,116] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Megan Fox Collection                                    |
+[2022-11-16 22:08:26,116] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 22:08:26,116] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,167 @@
+[2022-11-17 00:04:39,839] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:39,839] [builder.py:193]            [INFO]     |                              Best of 2019 Collection in Marvel Movies                              |
+[2022-11-17 00:04:39,840] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:39,840] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,840] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:04:39,840] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,840] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-17 00:04:39,840] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,842] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,842] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:04:39,842] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,842] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019', 'sort_title': '+1_Best of 2019', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2019', 'smart_label': 'audience_rating.desc'} |
+[2022-11-17 00:04:39,842] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,842] [builder.py:223]            [INFO]     |================================ Validating Best of 2019 Attributes ================================|
+[2022-11-17 00:04:39,842] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,842] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 00:04:39,842] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-17 00:04:39,851] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,851] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:04:39,851] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:04:39,851] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,851] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-17 00:04:39,851] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019                           |
+[2022-11-17 00:04:39,919] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,919] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:04:39,919] [builder.py:651]            [DEBUG]    | Value: +1_Best of 2019                                                                             |
+[2022-11-17 00:04:39,919] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,919] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:04:39,919] [builder.py:651]            [DEBUG]    | Value: Rotten Tomatoes Best Movies of 2019                                                         |
+[2022-11-17 00:04:39,924] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:39,924] [plex.py:838]               [DEBUG]    | Looking for: Best of 2019                                                                          |
+[2022-11-17 00:04:39,924] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,924] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:04:39,924] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,924] [plex_meta_manager.py:596]  [INFO]     |================================= Running Best of 2019 Collection ==================================|
+[2022-11-17 00:04:39,924] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,924] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['audience_rating.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of 2019
+[2022-11-17 00:04:39,925] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-17 00:04:39,925] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-17 00:04:39,925] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:04:39,925] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
+[2022-11-17 00:04:39,925] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:04:39,925] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019
+[2022-11-17 00:04:40,001] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:04:40,002] [builder.py:1575]           [DEBUG]    | 101 IDs Found
+[2022-11-17 00:04:40,002] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:04:40,003] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:04:40,003] [builder.py:2159]           [INFO]     |================================ Adding to Best of 2019 Collection =================================|
+[2022-11-17 00:04:40,004] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:40,025] [builder.py:2174]           [INFO]     | 1/3 | Best of 2019 Collection | = | Avengers: Endgame (2019)                                       |
+[2022-11-17 00:04:40,025] [builder.py:2174]           [INFO]     | 2/3 | Best of 2019 Collection | = | Spider-Man: Far from Home (2019)                               |
+[2022-11-17 00:04:40,025] [builder.py:2174]           [INFO]     | 3/3 | Best of 2019 Collection | = | Captain Marvel (2019)                                          |
+[2022-11-17 00:04:40,025] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:40,025] [builder.py:2196]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 00:04:40,026] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:40,026] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:04:40,026] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:40,038] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Parasite (2019) (TMDb: 496243)                                       |
+[2022-11-17 00:04:40,049] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Knives Out (2019) (TMDb: 546554)                                     |
+[2022-11-17 00:04:40,063] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Us (2019) (TMDb: 458723)                                             |
+[2022-11-17 00:04:40,074] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Toy Story 4 (2019) (TMDb: 301528)                                    |
+[2022-11-17 00:04:40,086] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Irishman (2019) (TMDb: 398978)                                   |
+[2022-11-17 00:04:40,097] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Little Women (2019) (TMDb: 331482)                                   |
+[2022-11-17 00:04:40,108] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Booksmart (2019) (TMDb: 505600)                                      |
+[2022-11-17 00:04:40,141] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Farewell (2019) (TMDb: 565310)                                   |
+[2022-11-17 00:04:40,153] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | A Beautiful Day in the Neighborhood (2019) (TMDb: 501907)            |
+[2022-11-17 00:04:40,165] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Marriage Story (2019) (TMDb: 492188)                                 |
+[2022-11-17 00:04:40,175] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | If Beale Street Could Talk (2018) (TMDb: 465914)                     |
+[2022-11-17 00:04:40,187] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Once Upon a Time… in Hollywood (2019) (TMDb: 466272)                 |
+[2022-11-17 00:04:40,205] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Pain and Glory (2019) (TMDb: 519010)                                 |
+[2022-11-17 00:04:40,218] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Shazam! (2019) (TMDb: 287947)                                        |
+[2022-11-17 00:04:40,230] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Ford v Ferrari (2019) (TMDb: 359724)                                 |
+[2022-11-17 00:04:40,241] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Dolemite Is My Name (2019) (TMDb: 528888)                            |
+[2022-11-17 00:04:40,244] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Uncut Gems (2019) (TMDb: 473033)                                     |
+[2022-11-17 00:04:40,256] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Apollo 11 (2019) (TMDb: 549559)                                      |
+[2022-11-17 00:04:40,274] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Lighthouse (2019) (TMDb: 503919)                                 |
+[2022-11-17 00:04:40,285] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Rocketman (2019) (TMDb: 504608)                                      |
+[2022-11-17 00:04:40,295] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Amazing Grace (2018) (TMDb: 356199)                                  |
+[2022-11-17 00:04:40,311] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | They Shall Not Grow Old (2018) (TMDb: 543580)                        |
+[2022-11-17 00:04:40,321] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Ash Is Purest White (2018) (TMDb: 441393)                            |
+[2022-11-17 00:04:40,333] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Honeyland (2019) (TMDb: 566213)                                      |
+[2022-11-17 00:04:40,344] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Honey Boy (2019) (TMDb: 512263)                                      |
+[2022-11-17 00:04:40,355] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | John Wick: Chapter 3 - Parabellum (2019) (TMDb: 458156)              |
+[2022-11-17 00:04:40,369] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Peanut Butter Falcon (2019) (TMDb: 463257)                       |
+[2022-11-17 00:04:40,391] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | One Cut of the Dead (2017) (TMDb: 513434)                            |
+[2022-11-17 00:04:40,405] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Fighting with My Family (2019) (TMDb: 445629)                        |
+[2022-11-17 00:04:40,419] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Knock Down the House (2019) (TMDb: 565312)                           |
+[2022-11-17 00:04:40,436] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Birds of Passage (2018) (TMDb: 438146)                               |
+[2022-11-17 00:04:40,447] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Maiden (2019) (TMDb: 543093)                                         |
+[2022-11-17 00:04:40,458] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Hustlers (2019) (TMDb: 540901)                                       |
+[2022-11-17 00:04:40,475] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Atlantics (2019) (TMDb: 496967)                                      |
+[2022-11-17 00:04:40,510] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | For Sama (2019) (TMDb: 576017)                                       |
+[2022-11-17 00:04:40,522] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | One Child Nation (2019) (TMDb: 566368)                               |
+[2022-11-17 00:04:40,536] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | 3 Faces (2018) (TMDb: 517731)                                        |
+[2022-11-17 00:04:40,548] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Woman at War (2018) (TMDb: 348657)                                   |
+[2022-11-17 00:04:40,550] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | How to Train Your Dragon: The Hidden World (2019) (TMDb: 166428)     |
+[2022-11-17 00:04:40,562] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | First Love (2019) (TMDb: 597094)                                     |
+[2022-11-17 00:04:40,572] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Chained for Life (2018) (TMDb: 525825)                               |
+[2022-11-17 00:04:40,585] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Ready or Not (2019) (TMDb: 567609)                                   |
+[2022-11-17 00:04:40,597] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | White Riot (2020) (TMDb: 627051)                                     |
+[2022-11-17 00:04:40,609] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Tigers Are Not Afraid (2017) (TMDb: 349067)                          |
+[2022-11-17 00:04:40,621] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Transit (2018) (TMDb: 471853)                                        |
+[2022-11-17 00:04:40,631] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Chambermaid (2019) (TMDb: 543760)                                |
+[2022-11-17 00:04:40,643] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Midnight Traveler (2019) (TMDb: 566216)                              |
+[2022-11-17 00:04:40,655] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Stan & Ollie (2018) (TMDb: 394741)                                   |
+[2022-11-17 00:04:40,673] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Mickey and the Bear (2019) (TMDb: 575958)                            |
+[2022-11-17 00:04:40,684] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Hail Satan? (2019) (TMDb: 565719)                                    |
+[2022-11-17 00:04:40,695] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Deadwood: The Movie (2019) (TMDb: 538225)                            |
+[2022-11-17 00:04:40,706] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Varda by Agnès (2019) (TMDb: 554967)                                 |
+[2022-11-17 00:04:40,708] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Scream, Queen! My Nightmare on Elm Street (2019) (TMDb: 321066)      |
+[2022-11-17 00:04:40,720] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Changing the Game (2019) (TMDb: 597593)                              |
+[2022-11-17 00:04:40,731] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Heiresses (2018) (TMDb: 499152)                                  |
+[2022-11-17 00:04:40,742] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Toni Morrison: The Pieces I Am (2019) (TMDb: 566235)                 |
+[2022-11-17 00:04:40,764] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Last Black Man in San Francisco (2019) (TMDb: 522039)            |
+[2022-11-17 00:04:40,775] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Midsommar (2019) (TMDb: 530385)                                      |
+[2022-11-17 00:04:40,784] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Mustang (2019) (TMDb: 500860)                                    |
+[2022-11-17 00:04:40,794] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Ad Astra (2019) (TMDb: 419704)                                       |
+[2022-11-17 00:04:40,804] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Wild Rose (2019) (TMDb: 482981)                                      |
+[2022-11-17 00:04:40,925] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | 63 Up (2019) (TMDb: 698102)                                          |
+[2022-11-17 00:04:40,941] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Homecoming: A Film by Beyoncé (2019) (TMDb: 593691)                  |
+[2022-11-17 00:04:40,953] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Too Late to Die Young (2019) (TMDb: 515929)                          |
+[2022-11-17 00:04:40,964] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Gloria Bell (2019) (TMDb: 491473)                                    |
+[2022-11-17 00:04:40,966] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | By the Grace of God (2019) (TMDb: 509364)                            |
+[2022-11-17 00:04:40,980] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Midnight Family (2019) (TMDb: 566367)                                |
+[2022-11-17 00:04:40,991] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Buñuel in the Labyrinth of the Turtles (2019) (TMDb: 510318)         |
+[2022-11-17 00:04:41,002] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | American Factory (2019) (TMDb: 565716)                               |
+[2022-11-17 00:04:41,022] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Be Natural: The Untold Story of Alice Guy-Blaché (2018) (TMDb: 520270) |
+[2022-11-17 00:04:41,034] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Working Woman (2019) (TMDb: 544392)                                  |
+[2022-11-17 00:04:41,046] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Fiddler: A Miracle of Miracles (2019) (TMDb: 608504)                 |
+[2022-11-17 00:04:41,062] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Dirty God (2019) (TMDb: 553030)                                      |
+[2022-11-17 00:04:41,073] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Making Waves: The Art of Cinematic Sound (2019) (TMDb: 595841)       |
+[2022-11-17 00:04:41,085] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | I'm No Longer Here (2019) (TMDb: 582927)                             |
+[2022-11-17 00:04:41,096] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Bad Education (2019) (TMDb: 530723)                                  |
+[2022-11-17 00:04:41,106] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Cave (2019) (TMDb: 621729)                                       |
+[2022-11-17 00:04:41,118] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Blinded by the Light (2019) (TMDb: 534259)                           |
+[2022-11-17 00:04:41,130] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Kingmaker (2019) (TMDb: 618265)                                  |
+[2022-11-17 00:04:41,141] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | I Lost My Body (2019) (TMDb: 586940)                                 |
+[2022-11-17 00:04:41,152] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Harpoon (2019) (TMDb: 574284)                                        |
+[2022-11-17 00:04:41,163] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Love, Antosha (2019) (TMDb: 565276)                                  |
+[2022-11-17 00:04:41,175] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Dark Waters (2019) (TMDb: 552178)                                    |
+[2022-11-17 00:04:41,177] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Little Woods (2019) (TMDb: 451918)                                   |
+[2022-11-17 00:04:41,188] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Jojo Rabbit (2019) (TMDb: 515001)                                    |
+[2022-11-17 00:04:41,199] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Amusement Park (2021) (TMDb: 560981)                             |
+[2022-11-17 00:04:41,211] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Two Popes (2019) (TMDb: 551332)                                  |
+[2022-11-17 00:04:41,224] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Ray & Liz (2018) (TMDb: 500438)                                      |
+[2022-11-17 00:04:41,237] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Mike Wallace Is Here (2019) (TMDb: 566366)                           |
+[2022-11-17 00:04:41,252] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Monos (2019) (TMDb: 417466)                                          |
+[2022-11-17 00:04:41,264] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | The Kid Who Would Be King (2019) (TMDb: 454294)                      |
+[2022-11-17 00:04:41,281] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Shadow (2018) (TMDb: 463319)                                         |
+[2022-11-17 00:04:41,292] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Sword of Trust (2019) (TMDb: 575942)                                 |
+[2022-11-17 00:04:41,304] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | Rojo (2018) (TMDb: 539685)                                           |
+[2022-11-17 00:04:41,315] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | An Elephant Sitting Still (2018) (TMDb: 499556)                      |
+[2022-11-17 00:04:41,326] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | In Fabric (2018) (TMDb: 475220)                                      |
+[2022-11-17 00:04:41,336] [builder.py:2321]           [INFO]     | Best of 2019 Collection | ? | It Must Be Heaven (2019) (TMDb: 539531)                              |
+[2022-11-17 00:04:41,337] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:41,337] [builder.py:2327]           [INFO]     | 97 Movies Missing                                                                                  |
+[2022-11-17 00:04:41,669] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:41,669] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Best of 2019 Collection                                          |
+[2022-11-17 00:04:41,669] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:41,669] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:04:41,670] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2019 Collection                                  |
+[2022-11-17 00:04:41,670] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-17 00:04:41,670] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

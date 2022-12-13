@@ -1,0 +1,73 @@
+[2022-11-16 20:14:48,676] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:48,676] [builder.py:193]            [INFO]     |                              Christian Bale Collection in Kids Movies                              |
+[2022-11-16 20:14:48,677] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:48,677] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:48,677] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:14:48,677] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,677] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:14:48,677] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,678] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,679] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:14:48,679] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,679] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 3894, 'sort_title': '++_Christian Bale', 'collection_order': 'release'} |
+[2022-11-16 20:14:48,679] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,679] [builder.py:223]            [INFO]     |=============================== Validating Christian Bale Attributes ===============================|
+[2022-11-16 20:14:48,679] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,679] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:14:48,680] [builder.py:533]            [DEBUG]    | Value: 3894                                                                                        |
+[2022-11-16 20:14:48,700] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,700] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:14:48,700] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:14:48,701] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:48,701] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:14:48,701] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:14:49,108] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:49,109] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:14:49,109] [builder.py:651]            [DEBUG]    | Value: ++_Christian Bale                                                                           |
+[2022-11-16 20:14:49,116] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,116] [builder.py:796]            [ERROR]    | Collection Error: Converting Christian Bale to a normal collection                                 |
+[2022-11-16 20:14:49,122] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,123] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:14:49,123] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,123] [plex_meta_manager.py:596]  [INFO]     |================================ Running Christian Bale Collection =================================|
+[2022-11-16 20:14:49,123] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,123] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:14:49,123] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:49,124] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Christian Bale", '?type=1&sort=titleSort&push=1&actor=14834&pop=1') |
+[2022-11-16 20:14:49,124] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,124] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Christian Bale
+[2022-11-16 20:14:49,135] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:14:49,135] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:14:49,135] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:14:49,135] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:14:49,136] [builder.py:2159]           [INFO]     |=============================== Adding to Christian Bale Collection ================================|
+[2022-11-16 20:14:49,136] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:49,136] [builder.py:2174]           [INFO]     | 1/2 | Christian Bale Collection | + | Newsies (1992)                                               |
+[2022-11-16 20:14:51,653] [builder.py:2174]           [INFO]     | 2/2 | Christian Bale Collection | + | Pocahontas (1995)                                            |
+[2022-11-16 20:14:54,081] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:54,082] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:14:54,089] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:54,090] [builder.py:2528]           [INFO]     |========================== Updating Details of Christian Bale Collection ===========================|
+[2022-11-16 20:14:54,090] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:54,107] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Christian Charles Philip Bale (born 30 January 1974) is an English actor. Known for his versatility and recurring physical transformations to play his roles, he has been a leading man in films of several genres. Bale is the recipient of various accolades, including an Academy Award and two Golden Globe Awards. Time magazine included him on its list of the 100 most influential people in the world in 2011.
+                                                                 | 
+                                                                 | Born in Wales to English parents, Bale had his breakthrough role at age 13 in Steven Spielberg's 1987 war film Empire of the Sun. After more than a decade of performing in leading and supporting roles in films, he gained wider recognition for his portrayals of serial killer Patrick Bateman in the black comedy American Psycho (2000) and the titular role in the psychological thriller The Machinist (2004). In 2005, Bale played superhero Batman in Batman Begins and reprised the role in the sequels The Dark Knight (2008) and The Dark Knight Rises (2012), garnering acclaim for his performance in the trilogy, which is one of the highest-grossing film franchises.
+                                                                 | 
+                                                                 | Bale continued in starring roles in a range of films outside his work as Batman, including the period drama The Prestige (2006), the action film Terminator Salvation (2009), the crime drama Public Enemies (2009), the epic film Exodus: Gods and Kings (2014) and the historical drama The Promise (2016). For his portrayal of boxer Dicky Eklund in the 2010 biographical film The Fighter, Bale won an Academy Award and a Golden Globe Award. Further Academy Award and Golden Globe Award nominations came in subsequent years for his work in the black comedy American Hustle (2013) and the biographical dramedies The Big Short (2015) and Vice (2018). Bale's roles as politician Dick Cheney in Vice and race car driver Ken Miles in the sports drama Ford v Ferrari (2019) respectively earned him a second win and a fifth nomination at the Golden Globe Awards.
+                                                                 | Sort Title | ++_Christian Bale
+                                                                 | Label | +PMM
+[2022-11-16 20:14:55,671] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:14:55,671] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:14:55,671] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:14:55,672] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/qCpZn2e3dimwbryLnqxZuI88PTi.jpg
+[2022-11-16 20:14:55,730] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/qCpZn2e3dimwbryLnqxZuI88PTi.jpg
+[2022-11-16 20:14:55,993] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:14:55,993] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:14:55,994] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Christian Bale Collection                                 |
+[2022-11-16 20:14:55,994] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 20:14:55,994] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

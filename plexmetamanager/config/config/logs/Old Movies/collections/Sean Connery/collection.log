@@ -1,0 +1,83 @@
+[2022-11-16 22:10:54,767] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:10:54,767] [builder.py:193]            [INFO]     |                               Sean Connery Collection in Old Movies                                |
+[2022-11-16 22:10:54,767] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:10:54,767] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:54,767] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:10:54,768] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,768] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:10:54,768] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,769] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,770] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:10:54,770] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,770] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 738, 'sort_title': '++_Sean Connery', 'collection_order': 'release'} |
+[2022-11-16 22:10:54,770] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,770] [builder.py:223]            [INFO]     |================================ Validating Sean Connery Attributes ================================|
+[2022-11-16 22:10:54,770] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,770] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:10:54,770] [builder.py:533]            [DEBUG]    | Value: 738                                                                                         |
+[2022-11-16 22:10:54,784] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,785] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:10:54,785] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:10:54,785] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:54,785] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:10:54,785] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:10:55,096] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:55,096] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:10:55,096] [builder.py:651]            [DEBUG]    | Value: ++_Sean Connery                                                                             |
+[2022-11-16 22:10:55,102] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,102] [builder.py:796]            [ERROR]    | Collection Error: Converting Sean Connery to a normal collection                                   |
+[2022-11-16 22:10:55,109] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,109] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:10:55,109] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,109] [plex_meta_manager.py:596]  [INFO]     |================================= Running Sean Connery Collection ==================================|
+[2022-11-16 22:10:55,109] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,109] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:10:55,109] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:55,110] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Sean Connery", '?type=1&sort=titleSort&push=1&actor=52217&pop=1') |
+[2022-11-16 22:10:55,110] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,110] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Sean Connery
+[2022-11-16 22:10:55,135] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:10:55,136] [builder.py:1575]           [DEBUG]    | 8 IDs Found
+[2022-11-16 22:10:55,136] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:10:55,136] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:10:55,136] [builder.py:2159]           [INFO]     |================================ Adding to Sean Connery Collection =================================|
+[2022-11-16 22:10:55,136] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:10:55,136] [builder.py:2174]           [INFO]     | 1/8 | Sean Connery Collection | + | Diamonds Are Forever (1971)                                    |
+[2022-11-16 22:10:57,002] [builder.py:2174]           [INFO]     | 2/8 | Sean Connery Collection | + | Dr. No (1962)                                                  |
+[2022-11-16 22:10:58,891] [builder.py:2174]           [INFO]     | 3/8 | Sean Connery Collection | + | From Russia with Love (1963)                                   |
+[2022-11-16 22:11:01,539] [builder.py:2174]           [INFO]     | 4/8 | Sean Connery Collection | + | Goldfinger (1964)                                              |
+[2022-11-16 22:11:03,984] [builder.py:2174]           [INFO]     | 5/8 | Sean Connery Collection | + | Indiana Jones and the Last Crusade (1989)                      |
+[2022-11-16 22:11:04,119] [builder.py:2174]           [INFO]     | 6/8 | Sean Connery Collection | + | Never Say Never Again (1983)                                   |
+[2022-11-16 22:11:05,982] [builder.py:2174]           [INFO]     | 7/8 | Sean Connery Collection | + | Thunderball (1965)                                             |
+[2022-11-16 22:11:07,920] [builder.py:2174]           [INFO]     | 8/8 | Sean Connery Collection | + | You Only Live Twice (1967)                                     |
+[2022-11-16 22:11:13,673] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:13,673] [builder.py:2196]           [INFO]     | 8 Movies Processed 8 Movies Added                                                                  |
+[2022-11-16 22:11:13,678] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:13,678] [builder.py:2528]           [INFO]     |=========================== Updating Details of Sean Connery Collection ============================|
+[2022-11-16 22:11:13,678] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:13,685] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Sir Thomas Sean Connery (25 August 1930 – 31 October 2020) was a Scottish actor and producer who won an Academy Award, two BAFTA Awards (one being a BAFTA Academy Fellowship Award), and three Golden Globes, including the Cecil B. DeMille Award and a Henrietta Award.
+                                                                 | 
+                                                                 | Connery was the first actor to portray the character James Bond in film, starring in seven Bond films (every film from Dr. No to You Only Live Twice, plus Diamonds Are Forever and Never Say Never Again), between 1962 and 1983. In 1988, Connery won the Academy Award for Best Supporting Actor for his role in The Untouchables. His films also include Marnie (1964), Murder on the Orient Express (1974), The Man Who Would Be King (1975), A Bridge Too Far (1977), Highlander (1986), Indiana Jones and the Last Crusade (1989), The Hunt for Red October (1990), Dragonheart (1996), The Rock (1996), and Finding Forrester (2000).
+                                                                 | 
+                                                                 | Connery was polled in a 2004 The Sunday Herald as "The Greatest Living Scot" and in a 2011 EuroMillions survey as "Scotland's Greatest Living National Treasure". He was voted by People magazine as both the “Sexiest Man Alive" in 1989 and the "Sexiest Man of the Century” in 1999. He received a lifetime achievement award in the United States with a Kennedy Center Honor in 1999. Connery was knighted in the 2000 New Year Honours for services to film drama.
+                                                                 | 
+                                                                 | On 31 October 2020, it was announced that Connery had died at the age of 90.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Sean Connery, licensed under CC-BY-SA, full list of contributors on Wikipedia
+                                                                 | Sort Title | ++_Sean Connery
+                                                                 | Label | +PMM
+[2022-11-16 22:11:15,300] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:11:15,300] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:11:15,301] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:11:15,301] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/jYCw9CzHbBkdVpTXGtnmbaCStoL.jpg
+[2022-11-16 22:11:15,390] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/jYCw9CzHbBkdVpTXGtnmbaCStoL.jpg
+[2022-11-16 22:11:15,454] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:11:15,455] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:11:15,455] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Sean Connery Collection                                  |
+[2022-11-16 22:11:15,455] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:20                                    |
+[2022-11-16 22:11:15,455] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

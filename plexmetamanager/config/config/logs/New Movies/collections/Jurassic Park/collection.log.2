@@ -1,0 +1,43 @@
+[2022-11-14 05:21:54,417] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 05:21:54,418] [builder.py:193]            [INFO]     |                               Jurassic Park Collection in New Movies                               |
+[2022-11-14 05:21:54,418] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 05:21:54,418] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 05:21:54,418] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 05:21:54,418] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,418] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-14 05:21:54,419] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,420] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,421] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 05:21:54,421] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,421] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 328, 'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_Jurassic Park', 'tmdb_movie': 630322, 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-14 05:21:54,421] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,421] [builder.py:223]            [INFO]     |=============================== Validating Jurassic Park Attributes ================================|
+[2022-11-14 05:21:54,421] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,421] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-14 05:21:54,421] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-14 05:21:54,422] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,422] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-14 05:21:54,422] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-14 05:21:54,422] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,422] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-14 05:21:54,422] [builder.py:651]            [DEBUG]    | Value: 328                                                                                         |
+[2022-11-14 05:21:54,432] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:21:54,432] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-14 05:21:54,432] [builder.py:651]            [DEBUG]    | Value: <<summary>>                                                                                 |
+[2022-11-14 05:21:54,433] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 700, in __init__
+                                                                 |     self._summary(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 821, in _summary
+                                                                 |     self.summaries[method_name] = self.config.TMDb.get_movie_show_or_collection(util.regex_first_int(method_data, "TMDb ID"), self.library.is_movie).overview
+                                                                 |   File "/modules/util.py", line 335, in regex_first_int
+                                                                 |     raise Failed(f"Regex Error: Failed to parse {id_type} from {data}")
+                                                                 | modules.util.Failed: Regex Error: Failed to parse TMDb ID from <<summary>>
+                                                                 | 
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:725]  [ERROR]    | Regex Error: Failed to parse TMDb ID from <<summary>>
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Jurassic Park Collection                                  |
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-14 05:21:54,434] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

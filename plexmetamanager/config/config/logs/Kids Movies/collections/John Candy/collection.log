@@ -1,0 +1,72 @@
+[2022-11-16 20:19:25,835] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:19:25,835] [builder.py:193]            [INFO]     |                                John Candy Collection in Kids Movies                                |
+[2022-11-16 20:19:25,835] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:19:25,835] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:25,835] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:19:25,835] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,835] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:19:25,836] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,837] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,837] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:19:25,837] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,837] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 7180, 'sort_title': '++_John Candy', 'collection_order': 'release'} |
+[2022-11-16 20:19:25,837] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,837] [builder.py:223]            [INFO]     |================================= Validating John Candy Attributes =================================|
+[2022-11-16 20:19:25,837] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,837] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:19:25,837] [builder.py:533]            [DEBUG]    | Value: 7180                                                                                        |
+[2022-11-16 20:19:25,855] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,856] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:19:25,856] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:19:25,860] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:25,860] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:19:25,860] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:19:26,205] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:26,206] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:19:26,206] [builder.py:651]            [DEBUG]    | Value: ++_John Candy                                                                               |
+[2022-11-16 20:19:26,214] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,214] [builder.py:796]            [ERROR]    | Collection Error: Converting John Candy to a normal collection                                     |
+[2022-11-16 20:19:26,221] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,222] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:19:26,222] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,222] [plex_meta_manager.py:596]  [INFO]     |================================== Running John Candy Collection ===================================|
+[2022-11-16 20:19:26,222] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,223] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:19:26,223] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:26,223] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is John Candy", '?type=1&sort=titleSort&push=1&actor=23345&pop=1') |
+[2022-11-16 20:19:26,223] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,223] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is John Candy
+[2022-11-16 20:19:26,237] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:19:26,238] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 20:19:26,238] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:19:26,238] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:19:26,238] [builder.py:2159]           [INFO]     |================================= Adding to John Candy Collection ==================================|
+[2022-11-16 20:19:26,238] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:26,238] [builder.py:2174]           [INFO]     | 1/3 | John Candy Collection | + | Home Alone (1990)                                                |
+[2022-11-16 20:19:26,347] [builder.py:2174]           [INFO]     | 2/3 | John Candy Collection | + | The Rescuers Down Under (1990)                                   |
+[2022-11-16 20:19:28,343] [builder.py:2174]           [INFO]     | 3/3 | John Candy Collection | + | Rookie of the Year (1993)                                        |
+[2022-11-16 20:19:32,498] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:32,499] [builder.py:2196]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-11-16 20:19:32,505] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:32,505] [builder.py:2528]           [INFO]     |============================ Updating Details of John Candy Collection =============================|
+[2022-11-16 20:19:32,505] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:32,512] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | John Franklin Candy (October 31, 1950 – March 4, 1994) was a Canadian actor and comedian. He rose to fame as a member of the Toronto, Ontario branch of The Second City, its related Second City Television series, and in his role in comedy films such as Stripes, Splash, Cool Runnings, The Great Outdoors, and Uncle Buck. One of his most renowned onscreen performances was that of Del Griffith, the loquacious, on the move, shower curtain ring salesman in the John Hughes comedy Planes, Trains and Automobiles.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article John Candy, licensed under CC-BY-SA, full list of contributors on Wikipedia
+                                                                 | Sort Title | ++_John Candy
+                                                                 | Label | +PMM
+[2022-11-16 20:19:33,983] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:19:33,983] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:19:33,984] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:19:33,984] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xOoA2gFdnl0qe9esbG0FJvCY0Fh.jpg
+[2022-11-16 20:19:34,086] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/xOoA2gFdnl0qe9esbG0FJvCY0Fh.jpg
+[2022-11-16 20:19:34,137] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:19:34,137] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:19:34,138] [plex_meta_manager.py:737]  [INFO]     |                                   Finished John Candy Collection                                   |
+[2022-11-16 20:19:34,138] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 20:19:34,138] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

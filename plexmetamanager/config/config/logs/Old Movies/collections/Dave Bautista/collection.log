@@ -1,0 +1,73 @@
+[2022-11-16 22:01:51,093] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:51,094] [builder.py:193]            [INFO]     |                               Dave Bautista Collection in Old Movies                               |
+[2022-11-16 22:01:51,094] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:51,094] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,094] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:01:51,094] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,095] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:01:51,095] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,097] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,097] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:01:51,098] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,098] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 543530, 'sort_title': '++_Dave Bautista', 'collection_order': 'release'} |
+[2022-11-16 22:01:51,098] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,098] [builder.py:223]            [INFO]     |=============================== Validating Dave Bautista Attributes ================================|
+[2022-11-16 22:01:51,098] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,099] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:01:51,099] [builder.py:533]            [DEBUG]    | Value: 543530                                                                                      |
+[2022-11-16 22:01:51,113] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,113] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:01:51,114] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:01:51,114] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,114] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:01:51,114] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:01:51,667] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,667] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:01:51,667] [builder.py:651]            [DEBUG]    | Value: ++_Dave Bautista                                                                            |
+[2022-11-16 22:01:51,675] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,675] [builder.py:796]            [ERROR]    | Collection Error: Converting Dave Bautista to a normal collection                                  |
+[2022-11-16 22:01:51,683] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,684] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:596]  [INFO]     |================================= Running Dave Bautista Collection =================================|
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Dave Bautista", '?type=1&sort=titleSort&push=1&actor=45945&pop=1') |
+[2022-11-16 22:01:51,684] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,684] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Dave Bautista
+[2022-11-16 22:01:51,699] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:01:51,699] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 22:01:51,699] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:01:51,700] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:01:51,700] [builder.py:2159]           [INFO]     |================================ Adding to Dave Bautista Collection ================================|
+[2022-11-16 22:01:51,700] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:51,700] [builder.py:2174]           [INFO]     | 1/2 | Dave Bautista Collection | + | Dune (2021)                                                   |
+[2022-11-16 22:01:54,502] [builder.py:2174]           [INFO]     | 2/2 | Dave Bautista Collection | + | Spectre (2015)                                                |
+[2022-11-16 22:01:58,219] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:58,219] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:01:58,227] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:58,228] [builder.py:2528]           [INFO]     |=========================== Updating Details of Dave Bautista Collection ===========================|
+[2022-11-16 22:01:58,228] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:58,239] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Dave Bautista is an American actor and former professional wrestler, mixed martial artist, and bodybuilder.
+                                                                 | 
+                                                                 | From 2000–2010 and 2013–2014, he was signed to WWE under the ring name Batista, where he became a six-time world champion, winning WWE's World Heavyweight Championship four times and the WWE Championship twice. He holds the record for the longest reign as World Heavyweight Champion at 282 days, and has also won the World Tag Team Championship three times (twice with Ric Flair and once with John Cena) and the WWE Tag Team Championship once (with Rey Mysterio). He was the winner of the 2005 Royal Rumble match and went on to headline WrestleMania 21, one of the top five highest-grossing pay-per-view events in professional wrestling history. When Bautista returned to WWE in 2014, he won the 2014 Royal Rumble match, after which he headlined WrestleMania XXX.
+                                                                 | 
+                                                                 | In August 2012, Bautista signed a contract with Classic Entertainment & Sports to fight in mixed martial arts. He won his MMA debut on October 6, 2012, defeating Vince Lucero via TKO in the first round. He was representing the Philippines during the fight. Bautista first entered the world of acting in 2006. As an actor, Bautista has starred in The Man with the Iron Fists (2012), Riddick (2013), Guardians of the Galaxy (2014), the 24th James Bond film, Spectre (2015), L.A. Slasher (2015), and in the 2016 Kickboxer reboot, Kickboxer: Vengeance. Bautista reprised his role as Drax in Guardians of the Galaxy Vol. 2 (2017) Avengers: Infinity War (2018), Avengers: Endgame (2019) and Thor: Love and Thunder (2022). He has also appeared in several direct-to-video films since 2009.
+                                                                 | Sort Title | ++_Dave Bautista
+                                                                 | Label | +PMM
+[2022-11-16 22:02:00,693] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:02:00,694] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:02:00,694] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:02:00,694] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/fz2ma30NHJvGytOskTdf2sHeFbd.jpg
+[2022-11-16 22:02:00,756] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/fz2ma30NHJvGytOskTdf2sHeFbd.jpg
+[2022-11-16 22:02:00,818] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:02:00,818] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:02:00,819] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Dave Bautista Collection                                  |
+[2022-11-16 22:02:00,819] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-11-16 22:02:00,819] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,64 @@
+[2022-11-14 01:26:30,192] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 01:26:30,193] [builder.py:193]            [INFO]     |                                Matt Damon Collection in Kids Movies                                |
+[2022-11-14 01:26:30,193] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 01:26:30,193] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 01:26:30,193] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 01:26:30,193] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,193] [meta.py:210]               [DEBUG]    |========================================= Template Person ==========================================|
+[2022-11-14 01:26:30,194] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,195] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,195] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 01:26:30,195] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,195] [meta.py:515]               [DEBUG]    | {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 1892, 'sort_title': '+5_Matt Damon'} |
+[2022-11-14 01:26:30,196] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,196] [builder.py:223]            [INFO]     |================================= Validating Matt Damon Attributes =================================|
+[2022-11-14 01:26:30,196] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:30,196] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-14 01:26:30,196] [builder.py:533]            [DEBUG]    | Value: 1892                                                                                        |
+[2022-11-14 01:26:30,203] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-14 01:26:30,203] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-14 01:26:30,203] [builder.py:1791]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-14 01:26:31,111] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=39247&or=1&director=39247&or=1&writer=39247&or=1&producer=39247&pop=1 |
+[2022-11-14 01:26:31,111] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:31,111] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-14 01:26:31,111] [builder.py:651]            [DEBUG]    | Value: +5_Matt Damon                                                                               |
+[2022-11-14 01:26:31,116] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-14 01:26:31,116] [plex.py:838]               [DEBUG]    | Looking for: Matt Damon                                                                            |
+[2022-11-14 01:26:31,116] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-14 01:26:31,116] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-14 01:26:31,117] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-14 01:26:31,117] [plex_meta_manager.py:596]  [INFO]     |================================== Running Matt Damon Collection ===================================|
+[2022-11-14 01:26:31,117] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-14 01:26:31,117] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['random']
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Matt Damon
+                                                                 |     Director is Matt Damon
+                                                                 |     Writer is Matt Damon
+                                                                 |     Producer is Matt Damon
+[2022-11-14 01:26:31,125] [plex.py:756]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&push=1&actor=39247&or=1&director=39247&or=1&writer=39247&or=1&producer=39247&pop=1
+[2022-11-14 01:26:31,141] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=random&push=1&actor=39247&or=1&director=39247&or=1&writer=39247&or=1&producer=39247&pop=1
+[2022-11-14 01:26:31,145] [builder.py:2527]           [INFO]     | 
+[2022-11-14 01:26:31,146] [builder.py:2528]           [INFO]     |============================ Updating Details of Matt Damon Collection =============================|
+[2022-11-14 01:26:31,146] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-14 01:26:31,154] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Matthew Paige Damon (born October 8, 1970) is an American actor, film producer, and screenwriter. Ranked among Forbes' most bankable stars, the films in which he has appeared have collectively earned over $3.88 billion at the North American box office, making him one of the highest-grossing actors of all time. He is the recipient of various accolades, including an Academy Award from five nominations, and two Golden Globe Awards. He also received three BAFTA Award nominations, seven Primetime Emmy Award nominations, and six Screen Actors Guild Awards.
+                                                                 | 
+                                                                 | Damon began his acting career by appearing in high school theater productions. He made his professional acting debut in the film Mystic Pizza (1988). He came to prominence in 1997 when he and Ben Affleck wrote and starred in Good Will Hunting, which won them the Academy and Golden Globe awards for Best Screenplay. He continued to garner praise from critics for his roles as the title character in Saving Private Ryan (1998), the antihero in The Talented Mr. Ripley (1999), a fallen angel in Dogma (1999), an energy analyst in Syriana (2005), a corrupt Irish-American policeman in The Departed (2006), and race car driver Carroll Shelby in Ford v Ferrari (2019).
+                                                                 | 
+                                                                 | Damon is also known for his starring roles as Jason Bourne in the Bourne franchise (2002–2016), and as con man Linus Caldwell in the Ocean's trilogy (2001–2007). He had a supporting role as rugby player Francois Pienaar in Invictus (2009) and won a Golden Globe Award for Best Actor for his leading role as an astronaut stranded on Mars in The Martian (2015). Damon portrayed Scott Thorson in the biopic Behind the Candelabra (2013) and produced the reality series Project Greenlight (2001–2015) as well as the film Manchester by the Sea (2016).
+                                                                 | Sort Title | +5_Matt Damon
+                                                                 | Label | +PMM
+[2022-11-14 01:26:32,646] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-14 01:26:32,646] [builder.py:2603]           [INFO]     | 
+[2022-11-14 01:26:32,649] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Matt Damon
+[2022-11-14 01:26:32,649] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-14 01:26:32,649] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg
+[2022-11-14 01:26:32,694] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg
+[2022-11-14 01:26:32,940] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 01:26:32,940] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 01:26:32,940] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Matt Damon Collection                                   |
+[2022-11-14 01:26:32,940] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-14 01:26:32,940] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

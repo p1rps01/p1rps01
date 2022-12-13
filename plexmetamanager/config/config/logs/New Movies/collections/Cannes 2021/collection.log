@@ -1,0 +1,234 @@
+[2022-11-16 23:40:48,163] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:40:48,163] [builder.py:193]            [INFO]     |                                Cannes 2021 Collection in New Movies                                |
+[2022-11-16 23:40:48,163] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:40:48,164] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,164] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:40:48,164] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,164] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 23:40:48,164] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,165] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 23:40:48,166] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,167] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:40:48,168] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,170] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:40:48,171] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,173] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,174] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 23:40:48,186] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 23:40:48,187] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,194] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 23:40:48,194] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,197] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,198] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:40:48,198] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,198] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2021-cannes', 'summary': '2021 Cannes Awards.', 'name': 'Cannes 2021', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Cannes 2021', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2021.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 23:40:48,198] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,198] [builder.py:223]            [INFO]     |================================ Validating Cannes 2021 Attributes =================================|
+[2022-11-16 23:40:48,198] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,198] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:40:48,198] [builder.py:230]            [DEBUG]    | Value: Cannes 2021                                                                                 |
+[2022-11-16 23:40:48,198] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,198] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 23:40:48,198] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 23:40:48,199] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,199] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:40:48,199] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:40:48,199] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,199] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 23:40:48,199] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 23:40:48,199] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,199] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:40:48,199] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 23:40:48,199] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,199] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:40:48,200] [builder.py:651]            [DEBUG]    | Value: Cannes Awards                                                                               |
+[2022-11-16 23:40:48,200] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,200] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 23:40:48,200] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2021-cannes                                              |
+[2022-11-16 23:40:48,280] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,280] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:40:48,280] [builder.py:651]            [DEBUG]    | Value: 2021 Cannes Awards.                                                                         |
+[2022-11-16 23:40:48,280] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,280] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:40:48,281] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:40:48,281] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,281] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:40:48,281] [builder.py:651]            [DEBUG]    | Value: !16_Cannes 2021                                                                             |
+[2022-11-16 23:40:48,281] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,281] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:40:48,281] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2021.jpg |
+[2022-11-16 23:40:48,393] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,393] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 23:40:48,393] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 23:40:48,397] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,397] [plex.py:838]               [DEBUG]    | Looking for: Cannes 2021                                                                           |
+[2022-11-16 23:40:48,397] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,398] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:596]  [INFO]     |================================== Running Cannes 2021 Collection ==================================|
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2021-cannes                                |
+[2022-11-16 23:40:48,398] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,399] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 23:40:48,402] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,402] [builder.py:1575]           [DEBUG]    | 146 IDs Found                                                                                      |
+[2022-11-16 23:40:48,402] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:40:48,403] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,403] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: New Movies ==============================|
+[2022-11-16 23:40:48,403] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 23:40:48,419] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Titane (2021) (TMDb: 630240)                                          |
+[2022-11-16 23:40:48,430] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | A Hero (2021) (TMDb: 672208)                                          |
+[2022-11-16 23:40:48,442] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Compartment No. 6 (2021) (TMDb: 588182)                               |
+[2022-11-16 23:40:48,455] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Annette (2021) (TMDb: 424277)                                         |
+[2022-11-16 23:40:48,472] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Drive My Car (2021) (TMDb: 758866)                                    |
+[2022-11-16 23:40:48,669] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Memoria (2021) (TMDb: 511819)                                         |
+[2022-11-16 23:40:48,683] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Ahed's Knee (2021) (TMDb: 662029)                                     |
+[2022-11-16 23:40:48,696] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Worst Person in the World (2021) (TMDb: 660120)                   |
+[2022-11-16 23:40:48,844] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Nitram (2021) (TMDb: 797457)                                          |
+[2022-11-16 23:40:49,007] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Petrov's Flu (2021) (TMDb: 609490)                                    |
+[2022-11-16 23:40:49,018] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The French Dispatch (2021) (TMDb: 542178)                             |
+[2022-11-16 23:40:49,034] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Benedetta (2021) (TMDb: 454527)                                       |
+[2022-11-16 23:40:49,142] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Three Floors (2021) (TMDb: 608980)                                    |
+[2022-11-16 23:40:49,287] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Flag Day (2021) (TMDb: 662712)                                        |
+[2022-11-16 23:40:49,301] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Red Rocket (2021) (TMDb: 763329)                                      |
+[2022-11-16 23:40:49,314] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Bergman Island (2021) (TMDb: 477044)                                  |
+[2022-11-16 23:40:49,325] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Casablanca Beats (2021) (TMDb: 575764)                                |
+[2022-11-16 23:40:49,334] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Paris, 13th District (2021) (TMDb: 746131)                            |
+[2022-11-16 23:40:49,346] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Story of My Wife (2021) (TMDb: 574078)                            |
+[2022-11-16 23:40:49,505] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Lingui: The Sacred Bonds (2021) (TMDb: 820693)                        |
+[2022-11-16 23:40:49,672] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Everything Went Fine (2021) (TMDb: 735726)                            |
+[2022-11-16 23:40:49,688] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Divide (2021) (TMDb: 764686)                                      |
+[2022-11-16 23:40:49,813] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Restless (2021) (TMDb: 788942)                                    |
+[2022-11-16 23:40:50,003] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | France (2021) (TMDb: 602334)                                          |
+[2022-11-16 23:40:50,109] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Unclenching the Fists (2021) (TMDb: 583198)                           |
+[2022-11-16 23:40:50,121] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Great Freedom (2021) (TMDb: 835975)                                   |
+[2022-11-16 23:40:50,216] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Good Mother (2021) (TMDb: 820711)                                     |
+[2022-11-16 23:40:50,311] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | La Civil (2021) (TMDb: 833393)                                        |
+[2022-11-16 23:40:50,484] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Lamb (2021) (TMDb: 788929)                                            |
+[2022-11-16 23:40:50,496] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Prayers for the Stolen (2021) (TMDb: 670981)                          |
+[2022-11-16 23:40:50,662] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Playground (2021) (TMDb: 785209)                                      |
+[2022-11-16 23:40:50,760] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Rehana Maryam Noor (2021) (TMDb: 836490)                              |
+[2022-11-16 23:40:50,868] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Onoda: 10,000 Nights in the Jungle (2021) (TMDb: 695089)              |
+[2022-11-16 23:40:50,884] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | After Yang (2022) (TMDb: 585378)                                      |
+[2022-11-16 23:40:51,131] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Innocents (2021) (TMDb: 660942)                                   |
+[2022-11-16 23:40:51,142] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Blue Bayou (2021) (TMDb: 644089)                                      |
+[2022-11-16 23:40:51,159] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Moneyboys (2021) (TMDb: 676819)                                       |
+[2022-11-16 23:40:51,263] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Commitment Hasan (2021) (TMDb: 835963)                                |
+[2022-11-16 23:40:51,338] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Streetwise (2021) (TMDb: 836491)                                      |
+[2022-11-16 23:40:51,416] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Let It Be Morning (2021) (TMDb: 504600)                               |
+[2022-11-16 23:40:51,498] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Freda (2021) (TMDb: 836489)                                           |
+[2022-11-16 23:40:51,590] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Women Do Cry (2022) (TMDb: 833419)                                    |
+[2022-11-16 23:40:51,605] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 836559                                                      |
+[2022-11-16 23:40:51,699] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | My Brothers and I (2022) (TMDb: 838885)                               |
+[2022-11-16 23:40:51,912] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Stillwater (2021) (TMDb: 616651)                                      |
+[2022-11-16 23:40:52,097] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Stronghold (2021) (TMDb: 637534)                                  |
+[2022-11-16 23:40:52,213] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Peaceful (2021) (TMDb: 654323)                                        |
+[2022-11-16 23:40:52,243] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Aline (2020) (TMDb: 498402)                                           |
+[2022-11-16 23:40:52,258] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | OSS 117: From Africa with Love (2021) (TMDb: 604563)                  |
+[2022-11-16 23:40:52,408] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Where Is Anne Frank (2021) (TMDb: 426242)                             |
+[2022-11-16 23:40:52,419] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Velvet Underground (2021) (TMDb: 543836)                          |
+[2022-11-16 23:40:52,541] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Authentik (2021) (TMDb: 807867)                                       |
+[2022-11-16 23:40:52,650] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Tralala (2021) (TMDb: 657195)                                         |
+[2022-11-16 23:40:52,818] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Bloody Oranges (2021) (TMDb: 833404)                                  |
+[2022-11-16 23:40:52,934] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Mi iubita mon amour (2022) (TMDb: 835970)                             |
+[2022-11-16 23:40:53,014] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Heroics (2021) (TMDb: 789578)                                     |
+[2022-11-16 23:40:53,101] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Are You Lonesome Tonight? (2021) (TMDb: 824738)                       |
+[2022-11-16 23:40:53,211] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Year of the Everlasting Storm (2021) (TMDb: 832189)               |
+[2022-11-16 23:40:53,222] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | New Worlds, The Cradle of Civilization (2021) (TMDb: 838880)          |
+[2022-11-16 23:40:53,301] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Revolution of Our Times (2021) (TMDb: 850884)                         |
+[2022-11-16 23:40:53,405] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Babi Yar. Context (2021) (TMDb: 605546)                               |
+[2022-11-16 23:40:53,500] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Mariner of the Mountains (2021) (TMDb: 662714)                        |
+[2022-11-16 23:40:53,591] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Black Notebooks (2021) (TMDb: 836481)                                 |
+[2022-11-16 23:40:53,670] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | H6 (2022) (TMDb: 836483)                                              |
+[2022-11-16 23:40:53,891] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Vortex (2022) (TMDb: 807070)                                          |
+[2022-11-16 23:40:53,979] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | In Front of Your Face (2021) (TMDb: 820517)                           |
+[2022-11-16 23:40:54,288] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Love Song for Tough Guys (2021) (TMDb: 785210)                        |
+[2022-11-16 23:40:54,384] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Hold Me Tight (2021) (TMDb: 756651)                                   |
+[2022-11-16 23:40:54,396] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Mothering Sunday (2021) (TMDb: 718838)                                |
+[2022-11-16 23:40:54,490] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Evolution (2021) (TMDb: 836563)                                       |
+[2022-11-16 23:40:54,653] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Deception (2021) (TMDb: 774343)                                       |
+[2022-11-16 23:40:54,836] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Belle (2021) (TMDb: 776305)                                           |
+[2022-11-16 23:40:54,847] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Val (2021) (TMDb: 834027)                                             |
+[2022-11-16 23:40:54,998] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | JFK Revisited: Through the Looking Glass (2021) (TMDb: 836486)        |
+[2022-11-16 23:40:55,141] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Marx Can Wait (2021) (TMDb: 777726)                                   |
+[2022-11-16 23:40:55,282] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Cow (2022) (TMDb: 661348)                                             |
+[2022-11-16 23:40:55,366] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Jane by Charlotte (2022) (TMDb: 836485)                               |
+[2022-11-16 23:40:55,485] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Feathers (2022) (TMDb: 796166)                                        |
+[2022-11-16 23:40:55,498] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Olga (2021) (TMDb: 749142)                                            |
+[2022-11-16 23:40:55,595] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Amparo (2022) (TMDb: 766710)                                          |
+[2022-11-16 23:40:55,731] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Zero Fucks Given (2022) (TMDb: 833326)                                |
+[2022-11-16 23:40:55,819] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Small Body (2022) (TMDb: 837745)                                      |
+[2022-11-16 23:40:55,907] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Gravedigger’s Wife (2021) (TMDb: 587668)                          |
+[2022-11-16 23:40:56,011] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Libertad (2021) (TMDb: 655181)                                        |
+[2022-11-16 23:40:56,183] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Murina (2022) (TMDb: 838148)                                          |
+[2022-11-16 23:40:56,298] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Magnetic Beats (2021) (TMDb: 820709)                                  |
+[2022-11-16 23:40:56,311] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | A Chiara (2021) (TMDb: 833420)                                        |
+[2022-11-16 23:40:56,323] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Souvenir: Part II (2021) (TMDb: 473021)                           |
+[2022-11-16 23:40:56,466] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Hit the Road (2021) (TMDb: 838154)                                    |
+[2022-11-16 23:40:56,482] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Ali & Ava (2021) (TMDb: 661365)                                       |
+[2022-11-16 23:40:56,578] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Întregalde (2021) (TMDb: 838150)                                      |
+[2022-11-16 23:40:56,775] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Clara Sola (2021) (TMDb: 785212)                                      |
+[2022-11-16 23:40:56,918] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Tale of King Crab (2021) (TMDb: 833408)                           |
+[2022-11-16 23:40:57,029] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Sea Ahead (2022) (TMDb: 838169)                                   |
+[2022-11-16 23:40:57,190] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Ripples of Life (2021) (TMDb: 838167)                                 |
+[2022-11-16 23:40:57,301] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Braves (2022) (TMDb: 833421)                                      |
+[2022-11-16 23:40:57,407] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Employer and the Employee (2021) (TMDb: 764443)                   |
+[2022-11-16 23:40:57,486] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Hill Where Lionesses Roar (2022) (TMDb: 820705)                   |
+[2022-11-16 23:40:57,570] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Tsugua Diaries (2021) (TMDb: 838146)                              |
+[2022-11-16 23:40:57,582] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Neptune Frost (2022) (TMDb: 671109)                                   |
+[2022-11-16 23:40:57,730] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Between Two Worlds (2022) (TMDb: 601188)                              |
+[2022-11-16 23:40:57,843] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Our Men (2021) (TMDb: 660719)                                         |
+[2022-11-16 23:40:57,853] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Europa (2022) (TMDb: 838161)                                          |
+[2022-11-16 23:40:57,963] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | A Brighter Tomorrow (2021) (TMDb: 783555)                             |
+[2022-11-16 23:40:58,138] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Medusa (2021) (TMDb: 820710)                                          |
+[2022-11-16 23:40:58,255] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | A Night of Knowing Nothing (2022) (TMDb: 838145)                      |
+[2022-11-16 23:40:58,326] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Futura (2021) (TMDb: 833335)                                          |
+[2022-11-16 23:40:58,417] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Returning to Reims (Fragments) (2022) (TMDb: 838147)                  |
+[2022-11-16 23:40:58,442] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | All the Crows in the World (2021) (TMDb: 843024)                      |
+[2022-11-16 23:40:58,549] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | August Sky (2020) (TMDb: 788901)                                      |
+[2022-11-16 23:40:58,566] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Right Words (2021) (TMDb: 842373)                                 |
+[2022-11-16 23:40:58,687] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Sidereal (2021) (TMDb: 842365)                                        |
+[2022-11-16 23:40:58,760] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | North Pole (2021) (TMDb: 843004)                                      |
+[2022-11-16 23:40:58,771] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Displaced (2022) (TMDb: 842369)                                       |
+[2022-11-16 23:40:58,894] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | In the Soil (2021) (TMDb: 843008)                                     |
+[2022-11-16 23:40:58,907] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Orthodontics (2021) (TMDb: 843016)                                    |
+[2022-11-16 23:40:58,982] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Through the Haze (2020) (TMDb: 749729)                                |
+[2022-11-16 23:40:59,066] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Absence (2021) (TMDb: 843026)                                         |
+[2022-11-16 23:40:59,154] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Salamander Child (2021) (TMDb: 843032)                            |
+[2022-11-16 23:40:59,263] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Cicada (2021) (TMDb: 843084)                                          |
+[2022-11-16 23:40:59,343] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Cantareira (2021) (TMDb: 843059)                                      |
+[2022-11-16 23:40:59,357] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Love Stories on the Move (2021) (TMDb: 843031)                        |
+[2022-11-16 23:40:59,437] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Cat from the Deep Sea (2021) (TMDb: 843035)                       |
+[2022-11-16 23:40:59,525] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Other Half (2021) (TMDb: 843038)                                      |
+[2022-11-16 23:40:59,596] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Frida (2021) (TMDb: 843052)                                           |
+[2022-11-16 23:40:59,672] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Red Shoes (2021) (TMDb: 843053)                                       |
+[2022-11-16 23:40:59,748] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Free Men (2021) (TMDb: 843063)                                        |
+[2022-11-16 23:40:59,841] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Saint Android (2021) (TMDb: 843083)                                   |
+[2022-11-16 23:40:59,913] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Beasts Among Us (2021) (TMDb: 843034)                                 |
+[2022-11-16 23:40:59,981] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Night Visit (2021) (TMDb: 843044)                                     |
+[2022-11-16 23:41:00,059] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Bill and Joe Go Duck Hunting (2021) (TMDb: 843050)                    |
+[2022-11-16 23:41:00,149] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Fonica M-120 (2019) (TMDb: 675376)                                    |
+[2022-11-16 23:41:00,240] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Billy Boy (2021) (TMDb: 808606)                                       |
+[2022-11-16 23:41:00,317] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | The Fall of the Swift (2021) (TMDb: 843058)                           |
+[2022-11-16 23:41:00,400] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | King Max (2021) (TMDb: 843079)                                        |
+[2022-11-16 23:41:00,492] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Lili Alone (2021) (TMDb: 837749)                                      |
+[2022-11-16 23:41:00,586] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Brutalia, Days of Labour (2021) (TMDb: 837747)                        |
+[2022-11-16 23:41:00,701] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Noir-soleil (2021) (TMDb: 837756)                                     |
+[2022-11-16 23:41:00,789] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Inherent (2021) (TMDb: 837751)                                        |
+[2022-11-16 23:41:00,901] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Intercom 15 (2021) (TMDb: 837754)                                     |
+[2022-11-16 23:41:00,987] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | On Solid Ground (2021) (TMDb: 837761)                                 |
+[2022-11-16 23:41:00,998] [builder.py:2325]           [INFO]     | Cannes 2021 Collection | X | Black Soldier (2022) (TMDb: 837760)                                   |
+[2022-11-16 23:41:01,098] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | Safe (2021) (TMDb: 837757)                                            |
+[2022-11-16 23:41:01,173] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | If It Ain't Broke (2021) (TMDb: 837755)                               |
+[2022-11-16 23:41:01,297] [builder.py:2321]           [INFO]     | Cannes 2021 Collection | ? | An Invitation (2021) (TMDb: 837750)                                   |
+[2022-11-16 23:41:01,298] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 23:41:01,298] [builder.py:2327]           [INFO]     | 143 Movies Missing                                                                                 |
+[2022-11-16 23:41:08,006] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:08,006] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Cannes 2021 Collection                                           |
+[2022-11-16 23:41:08,006] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:08,006] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:41:08,007] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Cannes 2021 Collection                                   |
+[2022-11-16 23:41:08,007] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:19                                    |
+[2022-11-16 23:41:08,007] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

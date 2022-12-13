@@ -1,0 +1,136 @@
+[2022-11-25 14:31:26,138] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 14:31:26,138] [builder.py:193]            [INFO]     |                     Critics Choice Awards 2019 Collection in Christmas Movies                      |
+[2022-11-25 14:31:26,139] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 14:31:26,139] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,139] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 14:31:26,139] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,139] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-25 14:31:26,140] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,141] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-25 14:31:26,142] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,144] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 14:31:26,145] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,151] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 14:31:26,152] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,156] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,160] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-25 14:31:26,176] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 14:31:26,177] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,189] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 14:31:26,190] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,196] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,196] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 14:31:26,196] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,196] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2019-critics-choice', 'summary': '2019 Critics Choice Awards.', 'name': 'Critics Choice Awards 2019', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Critics Choice Awards 2019', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2019.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-25 14:31:26,197] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,197] [builder.py:223]            [INFO]     |========================= Validating Critics Choice Awards 2019 Attributes =========================|
+[2022-11-25 14:31:26,197] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,197] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 14:31:26,197] [builder.py:230]            [DEBUG]    | Value: Critics Choice Awards 2019                                                                  |
+[2022-11-25 14:31:26,198] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,198] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 14:31:26,198] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 14:31:26,198] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,198] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 14:31:26,198] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 14:31:26,198] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,199] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 14:31:26,199] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 14:31:26,199] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,199] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-25 14:31:26,199] [builder.py:651]            [DEBUG]    | Value: Critics Choice Awards                                                                       |
+[2022-11-25 14:31:26,199] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,200] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-25 14:31:26,200] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2019-critics-choice                                      |
+[2022-11-25 14:31:26,245] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,249] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 14:31:26,249] [builder.py:651]            [DEBUG]    | Value: 2019 Critics Choice Awards.                                                                 |
+[2022-11-25 14:31:26,249] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,250] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-25 14:31:26,250] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-25 14:31:26,251] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,251] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 14:31:26,251] [builder.py:651]            [DEBUG]    | Value: !16_Critics Choice Awards 2019                                                              |
+[2022-11-25 14:31:26,252] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,252] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 14:31:26,252] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2019.jpg |
+[2022-11-25 14:31:26,409] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,409] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 14:31:26,409] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 14:31:26,414] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,415] [plex.py:838]               [DEBUG]    | Looking for: Critics Choice Awards 2019                                                            |
+[2022-11-25 14:31:26,415] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,415] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 14:31:26,415] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,415] [plex_meta_manager.py:596]  [INFO]     |========================== Running Critics Choice Awards 2019 Collection ===========================|
+[2022-11-25 14:31:26,416] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,416] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 14:31:26,416] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,416] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2019-critics-choice                        |
+[2022-11-25 14:31:26,416] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,417] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-25 14:31:26,422] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,423] [builder.py:1575]           [DEBUG]    | 51 IDs Found                                                                                       |
+[2022-11-25 14:31:26,423] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 14:31:26,424] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,425] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Christmas Movies ===========================|
+[2022-11-25 14:31:26,425] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-25 14:31:26,438] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | BlacKkKlansman (2018) (TMDb: 487558)                   |
+[2022-11-25 14:31:26,449] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | The Favourite (2018) (TMDb: 375262)                    |
+[2022-11-25 14:31:26,459] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | A Star Is Born (2018) (TMDb: 332562)                   |
+[2022-11-25 14:31:26,485] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | If Beale Street Could Talk (2018) (TMDb: 465914)       |
+[2022-11-25 14:31:26,497] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Roma (2018) (TMDb: 426426)                             |
+[2022-11-25 14:31:26,508] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Green Book (2018) (TMDb: 490132)                       |
+[2022-11-25 14:31:26,528] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Vice (2018) (TMDb: 429197)                             |
+[2022-11-25 14:31:26,549] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | First Man (2018) (TMDb: 369972)                        |
+[2022-11-25 14:31:26,559] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Black Panther (2018) (TMDb: 284054)                    |
+[2022-11-25 14:31:26,569] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Mary Poppins Returns (2018) (TMDb: 400650)             |
+[2022-11-25 14:31:26,579] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)                |
+[2022-11-25 14:31:26,589] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | First Reformed (2018) (TMDb: 458737)                   |
+[2022-11-25 14:31:26,599] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | At Eternity's Gate (2018) (TMDb: 491472)               |
+[2022-11-25 14:31:26,609] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Hereditary (2018) (TMDb: 493922)                       |
+[2022-11-25 14:31:26,619] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Can You Ever Forgive Me? (2018) (TMDb: 401847)         |
+[2022-11-25 14:31:26,631] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | The Wife (2018) (TMDb: 340613)                         |
+[2022-11-25 14:31:26,637] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Beautiful Boy (2018) (TMDb: 451915)                    |
+[2022-11-25 14:31:26,651] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Boy Erased (2018) (TMDb: 472451)                       |
+[2022-11-25 14:31:26,665] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Eighth Grade (2018) (TMDb: 489925)                     |
+[2022-11-25 14:31:26,680] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | A Quiet Place (2018) (TMDb: 447332)                    |
+[2022-11-25 14:31:26,689] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Widows (2018) (TMDb: 401469)                           |
+[2022-11-25 14:31:26,700] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Shoplifters (2018) (TMDb: 505192)                      |
+[2022-11-25 14:31:26,710] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Capernaum (2018) (TMDb: 517814)                        |
+[2022-11-25 14:31:26,728] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Cold War (2018) (TMDb: 440298)                         |
+[2022-11-25 14:31:26,738] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Burning (2018) (TMDb: 491584)                          |
+[2022-11-25 14:31:26,748] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Deadpool 2 (2018) (TMDb: 383498)                       |
+[2022-11-25 14:31:26,759] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | The Death of Stalin (2017) (TMDb: 402897)              |
+[2022-11-25 14:31:26,769] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Game Night (2018) (TMDb: 445571)                       |
+[2022-11-25 14:31:26,778] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Sorry to Bother You (2018) (TMDb: 424781)              |
+[2022-11-25 14:31:26,788] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Crazy Rich Asians (2018) (TMDb: 455207)                |
+[2022-11-25 14:31:26,798] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Stan & Ollie (2018) (TMDb: 394741)                     |
+[2022-11-25 14:31:26,808] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Tully (2018) (TMDb: 400579)                            |
+[2022-11-25 14:31:26,818] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Mission: Impossible - Fallout (2018) (TMDb: 353081)    |
+[2022-11-25 14:31:26,828] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Ready Player One (2018) (TMDb: 333339)                 |
+[2022-11-25 14:31:26,838] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)           |
+[2022-11-25 14:31:26,847] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Suspiria (2018) (TMDb: 361292)                         |
+[2022-11-25 14:31:26,857] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Annihilation (2018) (TMDb: 300668)                     |
+[2022-11-25 14:31:26,875] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Halloween (2018) (TMDb: 424139)                        |
+[2022-11-25 14:31:26,887] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Mary Queen of Scots (2018) (TMDb: 457136)              |
+[2022-11-25 14:31:26,911] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Isle of Dogs (2018) (TMDb: 399174)                     |
+[2022-11-25 14:31:26,922] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Dumplin' (2018) (TMDb: 472734)                         |
+[2022-11-25 14:31:26,939] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | RBG (2018) (TMDb: 493099)                              |
+[2022-11-25 14:31:26,950] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Spider-Man: Into the Spider-Verse (2018) (TMDb: 324857) |
+[2022-11-25 14:31:26,962] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Incredibles 2 (2018) (TMDb: 260513)                    |
+[2022-11-25 14:31:26,976] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Ralph Breaks the Internet (2018) (TMDb: 404368)        |
+[2022-11-25 14:31:27,017] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Mirai (2018) (TMDb: 475215)                            |
+[2022-11-25 14:31:27,028] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Leave No Trace (2018) (TMDb: 443463)                   |
+[2022-11-25 14:31:27,040] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | Wildlife (2018) (TMDb: 417812)                         |
+[2022-11-25 14:31:27,059] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | mid90s (2018) (TMDb: 437586)                           |
+[2022-11-25 14:31:27,079] [builder.py:2321]           [INFO]     | Critics Choice Awards 2019 Collection | ? | The Hate U Give (2018) (TMDb: 470044)                  |
+[2022-11-25 14:31:27,079] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-25 14:31:27,079] [builder.py:2327]           [INFO]     | 50 Movies Missing                                                                                  |
+[2022-11-25 14:31:27,715] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-25 14:31:27,715] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Critics Choice Awards 2019 Collection                            |
+[2022-11-25 14:31:27,716] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 14:31:27,716] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 14:31:27,716] [plex_meta_manager.py:737]  [INFO]     |                           Finished Critics Choice Awards 2019 Collection                           |
+[2022-11-25 14:31:27,716] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-25 14:31:27,716] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,288 @@
+[2022-11-16 18:54:44,420] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:44,421] [builder.py:193]            [INFO]     |                     Sundance Film Festival 2020 Collection in Halloween Movies                     |
+[2022-11-16 18:54:44,421] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:44,421] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,421] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:44,421] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,422] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:44,424] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,425] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:44,426] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,428] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:44,428] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,441] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:44,442] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,447] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,448] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:44,462] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:44,463] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,472] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:44,473] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,479] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,479] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:44,480] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,480] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2020-sundance', 'summary': 'Sundance Film Festival of 2020.', 'name': 'Sundance Film Festival 2020', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2020', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2020.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:44,481] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,482] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2020 Attributes =========================|
+[2022-11-16 18:54:44,482] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,483] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:44,483] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2020                                                                 |
+[2022-11-16 18:54:44,484] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,484] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:44,485] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:44,486] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,486] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:44,486] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:44,487] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,487] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:44,488] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:44,488] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,489] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:44,489] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:44,490] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,490] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:44,490] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 18:54:44,490] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,491] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:44,491] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2020-sundance                                            |
+[2022-11-16 18:54:44,571] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,572] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:44,572] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2020.                                                             |
+[2022-11-16 18:54:44,572] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,572] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:44,572] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:44,573] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,573] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:44,573] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2020                                                             |
+[2022-11-16 18:54:44,573] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,573] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:44,573] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2020.jpg |
+[2022-11-16 18:54:44,699] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,700] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:44,700] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:44,704] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,704] [plex.py:838]               [DEBUG]    | Looking for: Sundance Film Festival 2020                                                           |
+[2022-11-16 18:54:44,704] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,704] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2020 Collection ==========================|
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2020-sundance                              |
+[2022-11-16 18:54:44,705] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,706] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:44,708] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,708] [builder.py:1575]           [DEBUG]    | 202 IDs Found                                                                                      |
+[2022-11-16 18:54:44,708] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:44,709] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,709] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:44,709] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:44,989] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Tesla (2020) (TMDb: 517412)                           |
+[2022-11-16 18:54:45,001] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Wendy (2020) (TMDb: 399363)                           |
+[2022-11-16 18:54:45,013] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Downhill (2020) (TMDb: 560391)                        |
+[2022-11-16 18:54:45,024] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Last Thing He Wanted (2020) (TMDb: 505225)        |
+[2022-11-16 18:54:45,035] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Nest (2020) (TMDb: 545237)                        |
+[2022-11-16 18:54:45,046] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Father (2020) (TMDb: 600354)                      |
+[2022-11-16 18:54:45,056] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Glorias (2020) (TMDb: 519056)                     |
+[2022-11-16 18:54:45,066] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Dream Horse (2021) (TMDb: 603206)                     |
+[2022-11-16 18:54:45,076] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Four Good Days (2021) (TMDb: 641960)                  |
+[2022-11-16 18:54:45,100] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Courier (2021) (TMDb: 522241)                     |
+[2022-11-16 18:54:45,110] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Promising Young Woman (2020) (TMDb: 582014)           |
+[2022-11-16 18:54:45,121] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sergio (2020) (TMDb: 653744)                          |
+[2022-11-16 18:54:45,132] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Worth (2021) (TMDb: 649394)                           |
+[2022-11-16 18:54:45,144] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Falling (2020) (TMDb: 554761)                         |
+[2022-11-16 18:54:45,157] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Herself (2020) (TMDb: 653708)                         |
+[2022-11-16 18:54:45,174] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Horse Girl (2020) (TMDb: 653601)                      |
+[2022-11-16 18:54:45,189] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Kajillionaire (2020) (TMDb: 541305)                   |
+[2022-11-16 18:54:45,200] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Last Shift (2020) (TMDb: 653606)                  |
+[2022-11-16 18:54:45,216] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Lost Girls (2020) (TMDb: 567970)                      |
+[2022-11-16 18:54:45,254] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Uncle Frank (2020) (TMDb: 634544)                     |
+[2022-11-16 18:54:45,268] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | And Then We Danced (2019) (TMDb: 597088)              |
+[2022-11-16 18:54:45,291] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Collective (2019) (TMDb: 618363)                      |
+[2022-11-16 18:54:45,311] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Ema (2019) (TMDb: 540709)                             |
+[2022-11-16 18:54:45,323] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | La Llorona (2019) (TMDb: 617708)                      |
+[2022-11-16 18:54:45,340] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Assistant (2020) (TMDb: 627463)                   |
+[2022-11-16 18:54:45,352] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Climb (2019) (TMDb: 595931)                       |
+[2022-11-16 18:54:45,364] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Perfect Candidate (2020) (TMDb: 618214)           |
+[2022-11-16 18:54:45,376] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Minari (2021) (TMDb: 615643)                          |
+[2022-11-16 18:54:45,388] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Forty-Year-Old Version (2020) (TMDb: 620897)      |
+[2022-11-16 18:54:45,408] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Nine Days (2021) (TMDb: 607430)                       |
+[2022-11-16 18:54:45,425] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Charm City Kings (2020) (TMDb: 552532)                |
+[2022-11-16 18:54:45,436] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Shirley (2020) (TMDb: 547017)                         |
+[2022-11-16 18:54:45,453] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Never Rarely Sometimes Always (2020) (TMDb: 595671)   |
+[2022-11-16 18:54:45,467] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Blast Beat (2021) (TMDb: 653659)                      |
+[2022-11-16 18:54:45,479] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Dinner in America (2022) (TMDb: 653664)               |
+[2022-11-16 18:54:45,494] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Farewell Amor (2020) (TMDb: 653665)                   |
+[2022-11-16 18:54:45,506] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Miss Juneteenth (2020) (TMDb: 653668)                 |
+[2022-11-16 18:54:45,519] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Palm Springs (2020) (TMDb: 587792)                    |
+[2022-11-16 18:54:45,530] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Save Yourselves! (2020) (TMDb: 653569)                |
+[2022-11-16 18:54:45,541] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sylvie's Love (2020) (TMDb: 584288)                   |
+[2022-11-16 18:54:45,647] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Evening Hour (2021) (TMDb: 653568)                |
+[2022-11-16 18:54:45,660] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Wander Darkly (2020) (TMDb: 540023)                   |
+[2022-11-16 18:54:45,671] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Zola (2020) (TMDb: 539565)                            |
+[2022-11-16 18:54:45,687] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Yalda (2020) (TMDb: 584356)                           |
+[2022-11-16 18:54:45,699] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Identifying Features (2020) (TMDb: 653658)            |
+[2022-11-16 18:54:45,711] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Cuties (2020) (TMDb: 582885)                          |
+[2022-11-16 18:54:45,723] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Surge (2020) (TMDb: 653584)                           |
+[2022-11-16 18:54:45,740] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | This Is Not a Burial, It’s a Resurrection (2020) (TMDb: 618208) |
+[2022-11-16 18:54:45,759] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Charter (2020) (TMDb: 653580)                         |
+[2022-11-16 18:54:45,783] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Exile (2020) (TMDb: 570358)                           |
+[2022-11-16 18:54:45,796] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | High Tide (2020) (TMDb: 653581)                       |
+[2022-11-16 18:54:45,811] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Jumbo (2020) (TMDb: 510631)                           |
+[2022-11-16 18:54:45,813] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Luxor (2021) (TMDb: 653670)                           |
+[2022-11-16 18:54:45,832] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Possessor Uncut (2020) (TMDb: 435615)                 |
+[2022-11-16 18:54:45,845] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Summer White (2020) (TMDb: 653583)                    |
+[2022-11-16 18:54:45,861] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | I Carry You with Me (2020) (TMDb: 653594)             |
+[2022-11-16 18:54:45,878] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Beast Beast (2021) (TMDb: 653710)                     |
+[2022-11-16 18:54:46,021] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | La Leyenda Negra (2020) (TMDb: 653713)                |
+[2022-11-16 18:54:46,039] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Omniboat: A Fast Boat Fantasia (2020) (TMDb: 653593)  |
+[2022-11-16 18:54:46,052] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Some Kind of Heaven (2021) (TMDb: 638741)             |
+[2022-11-16 18:54:46,066] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Spree (2020) (TMDb: 653598)                           |
+[2022-11-16 18:54:46,085] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Summertime (2021) (TMDb: 653715)                      |
+[2022-11-16 18:54:46,103] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Killing of Two Lovers (2021) (TMDb: 653712)       |
+[2022-11-16 18:54:46,119] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Mountains Are a Dream That Call to Me (2020) (TMDb: 653596) |
+[2022-11-16 18:54:46,139] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Amulet (2020) (TMDb: 653615)                          |
+[2022-11-16 18:54:46,157] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Bad Hair (2021) (TMDb: 530351)                        |
+[2022-11-16 18:54:46,168] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | His House (2020) (TMDb: 575774)                       |
+[2022-11-16 18:54:46,182] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Impetigore (2019) (TMDb: 572468)                      |
+[2022-11-16 18:54:46,196] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Relic (2020) (TMDb: 539181)                           |
+[2022-11-16 18:54:46,207] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Scare Me (2020) (TMDb: 653643)                        |
+[2022-11-16 18:54:46,223] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Night House (2021) (TMDb: 547565)                 |
+[2022-11-16 18:54:46,235] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Nowhere Inn (2021) (TMDb: 653572)                 |
+[2022-11-16 18:54:46,246] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | BLKNWS (2018) (TMDb: 561382)                          |
+[2022-11-16 18:54:46,261] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | maɬni – towards the ocean, towards the shore (2021) (TMDb: 655520) |
+[2022-11-16 18:54:46,272] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sandlines, the Story of History (2020) (TMDb: 655525) |
+[2022-11-16 18:54:46,284] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Vitalina Varela (2019) (TMDb: 468592)                 |
+[2022-11-16 18:54:46,299] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Binti (2019) (TMDb: 577285)                           |
+[2022-11-16 18:54:46,311] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Come Away (2020) (TMDb: 527400)                       |
+[2022-11-16 18:54:46,323] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Timmy Failure: Mistakes Were Made (2020) (TMDb: 550440) |
+[2022-11-16 18:54:46,336] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Boys State (2020) (TMDb: 653723)                      |
+[2022-11-16 18:54:46,346] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Crip Camp: A Disability Revolution (2020) (TMDb: 653725) |
+[2022-11-16 18:54:46,358] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Time (2020) (TMDb: 653729)                            |
+[2022-11-16 18:54:46,370] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Fight (2020) (TMDb: 653727)                       |
+[2022-11-16 18:54:46,383] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Feels Good Man (2020) (TMDb: 653578)                  |
+[2022-11-16 18:54:46,395] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Welcome to Chechnya (2020) (TMDb: 653579)             |
+[2022-11-16 18:54:46,407] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Dick Johnson Is Dead (2020) (TMDb: 653574)            |
+[2022-11-16 18:54:46,419] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | A Thousand Cuts (2020) (TMDb: 653731)                 |
+[2022-11-16 18:54:46,430] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Be Water (2020) (TMDb: 653733)                        |
+[2022-11-16 18:54:46,433] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Bloody Nose, Empty Pockets (2020) (TMDb: 605437)      |
+[2022-11-16 18:54:46,445] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Coded Bias (2020) (TMDb: 653734)                      |
+[2022-11-16 18:54:46,455] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Mucho Mucho Amor: The Legend of Walter Mercado (2020) (TMDb: 653735) |
+[2022-11-16 18:54:46,467] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Spaceship Earth (2020) (TMDb: 653575)                 |
+[2022-11-16 18:54:46,481] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Cost of Silence (2020) (TMDb: 653724)             |
+[2022-11-16 18:54:46,493] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Us Kids (2020) (TMDb: 653738)                         |
+[2022-11-16 18:54:46,507] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Whirlybird (2021) (TMDb: 653730)                      |
+[2022-11-16 18:54:46,592] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Epicentro (2020) (TMDb: 653754)                       |
+[2022-11-16 18:54:46,608] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Reason I Jump (2020) (TMDb: 653758)               |
+[2022-11-16 18:54:46,619] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Earth Is Blue as an Orange (2020) (TMDb: 653753)  |
+[2022-11-16 18:54:46,646] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Painter and the Thief (2020) (TMDb: 654170)       |
+[2022-11-16 18:54:46,685] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Acasă, My Home (2020) (TMDb: 653742)                  |
+[2022-11-16 18:54:46,701] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Softie (2020) (TMDb: 653761)                          |
+[2022-11-16 18:54:46,726] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Influence (2020) (TMDb: 653755)                       |
+[2022-11-16 18:54:46,737] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Into the Deep: The Submarine Murder Case (2020) (TMDb: 653588) |
+[2022-11-16 18:54:46,749] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Once Upon a Time in Venezuela (2020) (TMDb: 653757)   |
+[2022-11-16 18:54:46,761] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Saudi Runaway (2020) (TMDb: 653759)                   |
+[2022-11-16 18:54:46,771] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Mole Agent (2020) (TMDb: 653756)                  |
+[2022-11-16 18:54:46,783] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Truffle Hunters (2020) (TMDb: 653762)             |
+[2022-11-16 18:54:46,795] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Aggie (2020) (TMDb: 653745)                           |
+[2022-11-16 18:54:46,816] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Assassins (2021) (TMDb: 653740)                       |
+[2022-11-16 18:54:46,833] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Disclosure (2020) (TMDb: 653610)                      |
+[2022-11-16 18:54:46,848] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Giving Voice (2020) (TMDb: 653747)                    |
+[2022-11-16 18:54:46,873] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Happy Happy Joy Joy: The Ren & Stimpy Story (2020) (TMDb: 653707) |
+[2022-11-16 18:54:46,900] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Miss Americana (2020) (TMDb: 653567)                  |
+[2022-11-16 18:54:46,912] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Natalie Wood: What Remains Behind (2020) (TMDb: 571123) |
+[2022-11-16 18:54:46,932] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Okavango: River of Dreams (2019) (TMDb: 653750)       |
+[2022-11-16 18:54:46,945] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | On the Record (2020) (TMDb: 653612)                   |
+[2022-11-16 18:54:46,962] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Rebuilding Paradise (2020) (TMDb: 653751)             |
+[2022-11-16 18:54:46,974] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Dissident (2020) (TMDb: 653746)                   |
+[2022-11-16 18:54:46,987] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Go-Go's (2020) (TMDb: 653748)                     |
+[2022-11-16 18:54:47,001] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Social Dilemma (2020) (TMDb: 656690)              |
+[2022-11-16 18:54:47,015] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Vivos (2020) (TMDb: 653614)                           |
+[2022-11-16 18:54:47,027] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | So What If The Goats Die (2020) (TMDb: 654982)        |
+[2022-11-16 18:54:47,039] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Exam (2019) (TMDb: 624830)                            |
+[2022-11-16 18:54:47,051] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | -Ship: A Visual Poem (2020) (TMDb: 654970)            |
+[2022-11-16 18:54:47,063] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Devil's Harmony (2019) (TMDb: 633686)             |
+[2022-11-16 18:54:47,075] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | John Was Trying to Contact Aliens (2020) (TMDb: 656353) |
+[2022-11-16 18:54:47,087] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Are You Hungry? (2019) (TMDb: 604781)                 |
+[2022-11-16 18:54:47,098] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Hudson Geese (2020) (TMDb: 655866)                    |
+[2022-11-16 18:54:47,111] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sadla (2019) (TMDb: 624820)                           |
+[2022-11-16 18:54:47,172] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Blocks (2020) (TMDb: 654957)                          |
+[2022-11-16 18:54:47,182] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Leave of Absence (2019) (TMDb: 623929)                |
+[2022-11-16 18:54:47,193] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Lance (in a Neck Brace) (2020) (TMDb: 654965)         |
+[2022-11-16 18:54:47,205] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Paola makes a wish (2019) (TMDb: 649086)              |
+[2022-11-16 18:54:47,217] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Meats (2020) (TMDb: 654992)                           |
+[2022-11-16 18:54:47,229] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Arabian Alien (2020) (TMDb: 654988)                   |
+[2022-11-16 18:54:47,249] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Three Deaths (2020) (TMDb: 654972)                    |
+[2022-11-16 18:54:47,286] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | He's the One (2020) (TMDb: 654960)                    |
+[2022-11-16 18:54:47,300] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Song of Clouds (2020) (TMDb: 654983)                  |
+[2022-11-16 18:54:47,312] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sticker (2019) (TMDb: 654984)                         |
+[2022-11-16 18:54:47,323] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Pillars (2020) (TMDb: 654969)                         |
+[2022-11-16 18:54:47,346] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Starr Sisters (2019) (TMDb: 656356)               |
+[2022-11-16 18:54:47,364] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | A Thousand Sails (2019) (TMDb: 654985)                |
+[2022-11-16 18:54:47,379] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Dirty (2020) (TMDb: 654959)                           |
+[2022-11-16 18:54:47,392] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Inès (2019) (TMDb: 656320)                            |
+[2022-11-16 18:54:47,404] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | I'll End Up in Jail (2019) (TMDb: 619668)             |
+[2022-11-16 18:54:47,416] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Place (2019) (TMDb: 612900)                           |
+[2022-11-16 18:54:47,427] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Buck (2020) (TMDb: 654958)                            |
+[2022-11-16 18:54:47,439] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | No One Is Crazy in This Town (2019) (TMDb: 641438)    |
+[2022-11-16 18:54:47,450] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Bereka (2019) (TMDb: 656333)                          |
+[2022-11-16 18:54:47,452] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | T (2019) (TMDb: 654971)                               |
+[2022-11-16 18:54:47,463] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Olla (2019) (TMDb: 597121)                            |
+[2022-11-16 18:54:47,491] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Former Cult Member Hears Music For The First Time (2020) (TMDb: 654980) |
+[2022-11-16 18:54:47,520] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Now Is the Time (2019) (TMDb: 619676)                 |
+[2022-11-16 18:54:47,537] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | No, I Don't Want to Dance! (2020) (TMDb: 656325)      |
+[2022-11-16 18:54:47,550] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Baldwin Beauty (2020) (TMDb: 654955)                  |
+[2022-11-16 18:54:47,564] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Character (2020) (TMDb: 655068)                       |
+[2022-11-16 18:54:47,577] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Backpedal (2019) (TMDb: 654976)                       |
+[2022-11-16 18:54:47,598] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Día de la Madre (2020) (TMDb: 655078)                 |
+[2022-11-16 18:54:47,612] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Little Chief (2020) (TMDb: 654967)                    |
+[2022-11-16 18:54:47,622] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Meridian (2019) (TMDb: 582047)                        |
+[2022-11-16 18:54:47,639] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | See You Next Time (2019) (TMDb: 632334)               |
+[2022-11-16 18:54:47,653] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Shawl (2020) (TMDb: 656354)                       |
+[2022-11-16 18:54:47,676] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Valerio's Day Out (2019) (TMDb: 633691)               |
+[2022-11-16 18:54:47,692] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Benevolent Ba (2020) (TMDb: 654978)                   |
+[2022-11-16 18:54:47,711] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Slug Life (2018) (TMDb: 548032)                       |
+[2022-11-16 18:54:47,731] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Regret (2020) (TMDb: 654981)                          |
+[2022-11-16 18:54:47,754] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | The Deepest Hole (2020) (TMDb: 655077)                |
+[2022-11-16 18:54:47,775] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Farce (2019) (TMDb: 634983)                           |
+[2022-11-16 18:54:47,799] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Danny's Girl (2020) (TMDb: 654990)                    |
+[2022-11-16 18:54:47,827] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Bad Hair (2020) (TMDb: 597605)                        |
+[2022-11-16 18:54:47,840] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Narcissister Breast Work (2020) (TMDb: 655376)        |
+[2022-11-16 18:54:47,853] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Wong Ping's Fables 2 (2019) (TMDb: 589674)            |
+[2022-11-16 18:54:47,865] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Guisado on Sunset (2019) (TMDb: 655164)               |
+[2022-11-16 18:54:47,879] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | How Did We Get Here? (2020) (TMDb: 654962)            |
+[2022-11-16 18:54:47,891] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | E-Ticket (2019) (TMDb: 569973)                        |
+[2022-11-16 18:54:47,904] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | While I’m Still Breathing (2020) (TMDb: 655199)       |
+[2022-11-16 18:54:47,919] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Pattaki (2019) (TMDb: 575915)                         |
+[2022-11-16 18:54:47,930] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Daughter (2019) (TMDb: 613221)                        |
+[2022-11-16 18:54:47,942] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Sh_t Happens (2020) (TMDb: 618518)                    |
+[2022-11-16 18:54:47,956] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | My Juke-Box (2019) (TMDb: 613228)                     |
+[2022-11-16 18:54:47,972] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | eadem cutis: the same skin (2019) (TMDb: 655867)      |
+[2022-11-16 18:54:47,988] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Hot Flash (2019) (TMDb: 619666)                       |
+[2022-11-16 18:54:48,005] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Daytime Noir (2020) (TMDb: 655871)                    |
+[2022-11-16 18:54:48,028] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Eli (2019) (TMDb: 655872)                             |
+[2022-11-16 18:54:48,040] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Wood Child and Hidden Forest Mother (2020) (TMDb: 655874) |
+[2022-11-16 18:54:48,054] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Broken Orchestra (2019) (TMDb: 636853)                |
+[2022-11-16 18:54:48,067] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Do Not Split (2020) (TMDb: 655154)                    |
+[2022-11-16 18:54:48,081] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Betye Saar: Taking Care of Business (2020) (TMDb: 655852) |
+[2022-11-16 18:54:48,093] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Abortion Helpline, This Is Lisa (2019) (TMDb: 655067) |
+[2022-11-16 18:54:48,104] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Lichen (2019) (TMDb: 596187)                          |
+[2022-11-16 18:54:48,116] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Junior Bangers (2019) (TMDb: 632172)                  |
+[2022-11-16 18:54:48,127] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | A Love Song for Latasha (2019) (TMDb: 631344)         |
+[2022-11-16 18:54:48,144] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | All That Perishes at the Edge of Land (2019) (TMDb: 655853) |
+[2022-11-16 18:54:48,161] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Church and the Fourth Estate (2020) (TMDb: 655076)    |
+[2022-11-16 18:54:48,173] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Lance (2020) (TMDb: 656692)                           |
+[2022-11-16 18:54:48,189] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Leap of Faith: William Friedkin on The Exorcist (2019) (TMDb: 618375) |
+[2022-11-16 18:54:48,261] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Max Richter's Sleep (2020) (TMDb: 649812)             |
+[2022-11-16 18:54:48,278] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | Siempre, Luis (2020) (TMDb: 654997)                   |
+[2022-11-16 18:54:48,297] [builder.py:2321]           [INFO]     | Sundance Film Festival 2020 Collection | ? | We Are Freestyle Love Supreme (2020) (TMDb: 654999)   |
+[2022-11-16 18:54:48,298] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:48,298] [builder.py:2327]           [INFO]     | 199 Movies Missing                                                                                 |
+[2022-11-16 18:54:53,180] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,180] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Sundance Film Festival 2020 Collection                           |
+[2022-11-16 18:54:53,181] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,181] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:54:53,181] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2020 Collection                           |
+[2022-11-16 18:54:53,181] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 18:54:53,182] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

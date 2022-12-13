@@ -1,0 +1,103 @@
+[2022-11-16 20:31:27,320] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:31:27,320] [builder.py:193]            [INFO]     |                            Golden Globe 1960 Collection in Kids Movies                             |
+[2022-11-16 20:31:27,320] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:31:27,320] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,320] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:31:27,321] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,321] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:31:27,321] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,322] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:31:27,323] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,325] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:31:27,325] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,329] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:31:27,330] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,345] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:31:27,346] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,351] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:31:27,352] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,356] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,356] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:31:27,356] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,356] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1960-01-01,1960-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '1960 Golden Globe Winners.', 'name': 'Golden Globe 1960', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 1960', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1960.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:31:27,356] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,357] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 1960 Attributes ==============================|
+[2022-11-16 20:31:27,357] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,357] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:31:27,357] [builder.py:230]            [DEBUG]    | Value: Golden Globe 1960                                                                           |
+[2022-11-16 20:31:27,357] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,357] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:31:27,357] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:31:27,357] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,357] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:31:27,358] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:31:27,358] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,358] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:31:27,358] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:31:27,358] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,358] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:31:27,358] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 20:31:27,358] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,358] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:31:27,358] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1960-01-01,1960-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 20:31:27,539] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,540] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:31:27,541] [builder.py:651]            [DEBUG]    | Value: 1960 Golden Globe Winners.                                                                  |
+[2022-11-16 20:31:27,541] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,541] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:31:27,541] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:31:27,541] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,541] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:31:27,541] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 1960                                                                       |
+[2022-11-16 20:31:27,541] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,542] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:31:27,542] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1960.jpg |
+[2022-11-16 20:31:27,658] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,658] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:31:27,658] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:31:27,663] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,663] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 1960                                                                     |
+[2022-11-16 20:31:27,663] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,663] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:31:27,663] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,663] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 1960 Collection ===============================|
+[2022-11-16 20:31:27,663] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,663] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:31:27,664] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,664] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1960-01-01,1960-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:31:27,664] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,665] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:31:27,666] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,667] [builder.py:1575]           [DEBUG]    | 22 IDs Found                                                                                       |
+[2022-11-16 20:31:27,667] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:27,680] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,680] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:31:27,681] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,750] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Psycho (1960) (TMDb: 539)                                       |
+[2022-11-16 20:31:27,763] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Spartacus (1960) (TMDb: 967)                                    |
+[2022-11-16 20:31:27,776] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | The Apartment (1960) (TMDb: 284)                                |
+[2022-11-16 20:31:27,786] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | The Alamo (1960) (TMDb: 11209)                                  |
+[2022-11-16 20:31:27,804] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | From the Terrace (1960) (TMDb: 42541)                           |
+[2022-11-16 20:31:27,816] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Exodus (1960) (TMDb: 1941)                                      |
+[2022-11-16 20:31:27,836] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | The Virgin Spring (1960) (TMDb: 11656)                          |
+[2022-11-16 20:31:27,846] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Two Women (1960) (TMDb: 24167)                                  |
+[2022-11-16 20:31:27,857] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | House of Usher (1960) (TMDb: 23439)                             |
+[2022-11-16 20:31:27,873] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Elmer Gantry (1960) (TMDb: 22013)                               |
+[2022-11-16 20:31:27,884] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | La Vérité (1960) (TMDb: 61711)                                  |
+[2022-11-16 20:31:27,899] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | The World of Suzie Wong (1960) (TMDb: 45608)                    |
+[2022-11-16 20:31:27,909] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Sons and Lovers (1960) (TMDb: 53939)                            |
+[2022-11-16 20:31:27,919] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Tall Story (1960) (TMDb: 86297)                                 |
+[2022-11-16 20:31:27,931] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Sunrise at Campobello (1960) (TMDb: 72354)                      |
+[2022-11-16 20:31:27,944] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | The Trials of Oscar Wilde (1960) (TMDb: 172535)                 |
+[2022-11-16 20:31:27,956] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Song Without End (1960) (TMDb: 129553)                          |
+[2022-11-16 20:31:27,967] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Because They're Young (1960) (TMDb: 127776)                     |
+[2022-11-16 20:31:27,980] [builder.py:2321]           [INFO]     | Golden Globe 1960 Collection | ? | Desire in the Dust (1960) (TMDb: 353475)                        |
+[2022-11-16 20:31:27,980] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:27,980] [builder.py:2327]           [INFO]     | 19 Movies Missing                                                                                  |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Golden Globe 1960 Collection                                     |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 1960 Collection                                |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:31:31,429] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

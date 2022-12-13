@@ -1,0 +1,74 @@
+[2022-11-16 20:14:14,178] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:14,178] [builder.py:193]            [INFO]     |                              Cate Blanchett Collection in Kids Movies                              |
+[2022-11-16 20:14:14,179] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:14,179] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,179] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:14:14,180] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,180] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:14:14,180] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,183] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,183] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:14:14,184] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,184] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 112, 'sort_title': '++_Cate Blanchett', 'collection_order': 'release'} |
+[2022-11-16 20:14:14,184] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,185] [builder.py:223]            [INFO]     |=============================== Validating Cate Blanchett Attributes ===============================|
+[2022-11-16 20:14:14,185] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,185] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:14:14,185] [builder.py:533]            [DEBUG]    | Value: 112                                                                                         |
+[2022-11-16 20:14:14,203] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,203] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:14:14,203] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:14:14,204] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,204] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:14:14,204] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:14:14,588] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,588] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:14:14,588] [builder.py:651]            [DEBUG]    | Value: ++_Cate Blanchett                                                                           |
+[2022-11-16 20:14:14,596] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,596] [builder.py:796]            [ERROR]    | Collection Error: Converting Cate Blanchett to a normal collection                                 |
+[2022-11-16 20:14:14,603] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,603] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:14:14,603] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,603] [plex_meta_manager.py:596]  [INFO]     |================================ Running Cate Blanchett Collection =================================|
+[2022-11-16 20:14:14,603] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,603] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:14:14,603] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:14,604] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Cate Blanchett", '?type=1&sort=titleSort&push=1&actor=37114&pop=1') |
+[2022-11-16 20:14:14,604] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,604] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Cate Blanchett
+[2022-11-16 20:14:14,619] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:14:14,620] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 20:14:14,621] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:14:14,621] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:14:14,621] [builder.py:2159]           [INFO]     |=============================== Adding to Cate Blanchett Collection ================================|
+[2022-11-16 20:14:14,622] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:14,622] [builder.py:2174]           [INFO]     | 1/3 | Cate Blanchett Collection | + | Cinderella (2015)                                            |
+[2022-11-16 20:14:14,787] [builder.py:2174]           [INFO]     | 2/3 | Cate Blanchett Collection | + | How to Train Your Dragon 2 (2014)                            |
+[2022-11-16 20:14:17,196] [builder.py:2174]           [INFO]     | 3/3 | Cate Blanchett Collection | + | How to Train Your Dragon: The Hidden World (2019)            |
+[2022-11-16 20:14:22,436] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:22,437] [builder.py:2196]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-11-16 20:14:22,442] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:22,442] [builder.py:2528]           [INFO]     |========================== Updating Details of Cate Blanchett Collection ===========================|
+[2022-11-16 20:14:22,442] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:22,448] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Catherine Elise Blanchett (born 14 May 1969) is an Australian actor and producer. Regarded as one of the best actresses of her generation, she is known for her versatile work across independent films, blockbusters, and the stage. Blanchett is the recipient of numerous accolades, including two Academy Awards, three British Academy Film Awards, three Screen Actors Guild Awards, and three Golden Globe Awards.
+                                                                 | 
+                                                                 | After graduating from the National Institute of Dramatic Art, Blanchett began her acting career on the Australian stage, taking on roles in Electra in 1992 and Hamlet in 1994. She came to international attention as Elizabeth I in the drama film Elizabeth (1998), for which she won the Golden Globe and BAFTA Award for Best Actress, and received her first of seven Academy Award nominations. Her portrayal of Katharine Hepburn in Martin Scorsese's The Aviator (2004) won her the Academy Award for Best Supporting Actress. She later won the Academy Award for Best Actress for playing a neurotic former socialite in Woody Allen's comedy-drama Blue Jasmine (2013). Blanchett's other Oscar-nominated roles include Notes on a Scandal (2006), I'm Not There (2007), Elizabeth: The Golden Age (2007), and Carol (2015). Her highest-grossing films include The Lord of the Rings (2001–2003) and The Hobbit (2012–2014) trilogies, The Curious Case of Benjamin Button (2008), Indiana Jones and the Kingdom of the Crystal Skull (2008), Cinderella (2015), Thor: Ragnarok (2017), and Ocean's 8 (2018).
+                                                                 | 
+                                                                 | Blanchett has performed in over 20 theatre productions. From 2008 to 2013, she and her husband, Andrew Upton, were the artistic directors of the Sydney Theatre Company. Some of her stage roles during that period were in revivals of A Streetcar Named Desire, Uncle Vanya and The Maids, garnering several theatre awards and nominations. She made her Broadway debut in 2017 in The Present, for which she received a Tony Award for Best Actress in a Play nomination. Blanchett has also received Emmy Award nominations for Outstanding Lead Actress in a Limited Series or Movie and Outstanding Limited Series as producer for the FX/Hulu historical drama miniseries Mrs. America (2020).
+                                                                 | Sort Title | ++_Cate Blanchett
+                                                                 | Label | +PMM
+[2022-11-16 20:14:23,913] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:14:23,914] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:14:23,914] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:14:23,914] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg
+[2022-11-16 20:14:24,103] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg
+[2022-11-16 20:14:24,530] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:14:24,531] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:14:24,531] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Cate Blanchett Collection                                 |
+[2022-11-16 20:14:24,531] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 20:14:24,531] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

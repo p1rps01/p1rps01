@@ -1,0 +1,167 @@
+[2022-11-17 00:04:37,642] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:37,642] [builder.py:193]            [INFO]     |                              Best of 2018 Collection in Marvel Movies                              |
+[2022-11-17 00:04:37,642] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:37,642] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,642] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:04:37,643] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,643] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-17 00:04:37,643] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,644] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,645] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:04:37,645] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,645] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018', 'sort_title': '+1_Best of 2018', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2018', 'smart_label': 'audience_rating.desc'} |
+[2022-11-17 00:04:37,645] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,645] [builder.py:223]            [INFO]     |================================ Validating Best of 2018 Attributes ================================|
+[2022-11-17 00:04:37,645] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,645] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 00:04:37,645] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-17 00:04:37,654] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,654] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:04:37,654] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:04:37,654] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,654] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-17 00:04:37,654] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018                           |
+[2022-11-17 00:04:37,739] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,739] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:04:37,739] [builder.py:651]            [DEBUG]    | Value: +1_Best of 2018                                                                             |
+[2022-11-17 00:04:37,739] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,740] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:04:37,740] [builder.py:651]            [DEBUG]    | Value: Rotten Tomatoes Best Movies of 2018                                                         |
+[2022-11-17 00:04:37,743] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:37,743] [plex.py:838]               [DEBUG]    | Looking for: Best of 2018                                                                          |
+[2022-11-17 00:04:37,743] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,744] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:596]  [INFO]     |================================= Running Best of 2018 Collection ==================================|
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['audience_rating.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of 2018
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-17 00:04:37,744] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:04:37,745] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018
+[2022-11-17 00:04:37,745] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:04:37,745] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2018
+[2022-11-17 00:04:37,795] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:04:37,795] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-17 00:04:37,795] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:04:37,796] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:04:37,796] [builder.py:2159]           [INFO]     |================================ Adding to Best of 2018 Collection =================================|
+[2022-11-17 00:04:37,797] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,817] [builder.py:2174]           [INFO]     | 1/4 | Best of 2018 Collection | = | Black Panther (2018)                                           |
+[2022-11-17 00:04:37,817] [builder.py:2174]           [INFO]     | 2/4 | Best of 2018 Collection | = | Avengers: Infinity War (2018)                                  |
+[2022-11-17 00:04:37,817] [builder.py:2174]           [INFO]     | 3/4 | Best of 2018 Collection | = | Ant-Man and the Wasp (2018)                                    |
+[2022-11-17 00:04:37,818] [builder.py:2174]           [INFO]     | 4/4 | Best of 2018 Collection | = | Deadpool 2 (2018)                                              |
+[2022-11-17 00:04:37,818] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,818] [builder.py:2196]           [INFO]     | 4 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 00:04:37,818] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,818] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:04:37,818] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,830] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Mission: Impossible - Fallout (2018) (TMDb: 353081)                  |
+[2022-11-17 00:04:37,840] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | BlacKkKlansman (2018) (TMDb: 487558)                                 |
+[2022-11-17 00:04:37,851] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Spider-Man: Into the Spider-Verse (2018) (TMDb: 324857)              |
+[2022-11-17 00:04:37,863] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Roma (2018) (TMDb: 426426)                                           |
+[2022-11-17 00:04:37,875] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | A Star Is Born (2018) (TMDb: 332562)                                 |
+[2022-11-17 00:04:37,886] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | A Quiet Place (2018) (TMDb: 447332)                                  |
+[2022-11-17 00:04:37,898] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Eighth Grade (2018) (TMDb: 489925)                                   |
+[2022-11-17 00:04:37,909] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Can You Ever Forgive Me? (2018) (TMDb: 401847)                       |
+[2022-11-17 00:04:37,918] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Favourite (2018) (TMDb: 375262)                                  |
+[2022-11-17 00:04:37,930] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Leave No Trace (2018) (TMDb: 443463)                                 |
+[2022-11-17 00:04:37,942] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Incredibles 2 (2018) (TMDb: 260513)                                  |
+[2022-11-17 00:04:37,960] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Call Me by Your Name (2017) (TMDb: 398818)                           |
+[2022-11-17 00:04:37,971] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Paddington 2 (2017) (TMDb: 346648)                                   |
+[2022-11-17 00:04:37,982] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Widows (2018) (TMDb: 401469)                                         |
+[2022-11-17 00:04:37,995] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Shoplifters (2018) (TMDb: 505192)                                    |
+[2022-11-17 00:04:38,006] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Won't You Be My Neighbor? (2018) (TMDb: 490003)                      |
+[2022-11-17 00:04:38,018] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | First Man (2018) (TMDb: 369972)                                      |
+[2022-11-17 00:04:38,033] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | I, Tonya (2017) (TMDb: 389015)                                       |
+[2022-11-17 00:04:38,045] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Hate U Give (2018) (TMDb: 470044)                                |
+[2022-11-17 00:04:38,056] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Phantom Thread (2017) (TMDb: 400617)                                 |
+[2022-11-17 00:04:38,067] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Sorry to Bother You (2018) (TMDb: 424781)                            |
+[2022-11-17 00:04:38,078] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Crazy Rich Asians (2018) (TMDb: 455207)                              |
+[2022-11-17 00:04:38,089] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Isle of Dogs (2018) (TMDb: 399174)                                   |
+[2022-11-17 00:04:38,346] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Post (2017) (TMDb: 446354)                                       |
+[2022-11-17 00:04:38,362] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Hereditary (2018) (TMDb: 493922)                                     |
+[2022-11-17 00:04:38,373] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Death of Stalin (2017) (TMDb: 402897)                            |
+[2022-11-17 00:04:38,389] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Rider (2018) (TMDb: 453278)                                      |
+[2022-11-17 00:04:38,400] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Minding the Gap (2018) (TMDb: 489985)                                |
+[2022-11-17 00:04:38,409] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Old Man & the Gun (2018) (TMDb: 429203)                          |
+[2022-11-17 00:04:38,421] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | First Reformed (2018) (TMDb: 458737)                                 |
+[2022-11-17 00:04:38,431] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | McQueen (2018) (TMDb: 508003)                                        |
+[2022-11-17 00:04:38,576] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Three Identical Strangers (2018) (TMDb: 489988)                      |
+[2022-11-17 00:04:38,588] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Summer 1993 (2017) (TMDb: 438634)                                    |
+[2022-11-17 00:04:38,598] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | A Fantastic Woman (2017) (TMDb: 429191)                              |
+[2022-11-17 00:04:38,615] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Free Solo (2018) (TMDb: 515042)                                      |
+[2022-11-17 00:04:38,626] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Burning (2018) (TMDb: 491584)                                        |
+[2022-11-17 00:04:38,636] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Wildlife (2018) (TMDb: 417812)                                       |
+[2022-11-17 00:04:38,647] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Searching (2018) (TMDb: 489999)                                      |
+[2022-11-17 00:04:38,659] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Cold War (2018) (TMDb: 440298)                                       |
+[2022-11-17 00:04:38,670] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Loveless (2017) (TMDb: 429174)                                       |
+[2022-11-17 00:04:38,681] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Guilty (2018) (TMDb: 486947)                                     |
+[2022-11-17 00:04:38,691] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Annihilation (2018) (TMDb: 300668)                                   |
+[2022-11-17 00:04:38,703] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Border (2018) (TMDb: 517839)                                         |
+[2022-11-17 00:04:38,713] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Love, Simon (2018) (TMDb: 449176)                                    |
+[2022-11-17 00:04:38,723] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Tale (2018) (TMDb: 369523)                                       |
+[2022-11-17 00:04:38,733] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Shirkers (2018) (TMDb: 489994)                                       |
+[2022-11-17 00:04:38,744] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Hannah Gadsby: Nanette (2018) (TMDb: 529531)                         |
+[2022-11-17 00:04:38,756] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | You Were Never Really Here (2017) (TMDb: 398181)                     |
+[2022-11-17 00:04:38,766] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Blindspotting (2018) (TMDb: 489930)                                  |
+[2022-11-17 00:04:38,777] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Nothing Like a Dame (2018) (TMDb: 513648)                            |
+[2022-11-17 00:04:38,779] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Custody (2018) (TMDb: 451657)                                        |
+[2022-11-17 00:04:38,790] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Bumblebee (2018) (TMDb: 424783)                                      |
+[2022-11-17 00:04:38,802] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Mandy (2018) (TMDb: 460885)                                          |
+[2022-11-17 00:04:38,813] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | RBG (2018) (TMDb: 493099)                                            |
+[2022-11-17 00:04:38,824] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Zama (2017) (TMDb: 326382)                                           |
+[2022-11-17 00:04:38,842] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | In Between (2016) (TMDb: 412203)                                     |
+[2022-11-17 00:04:38,855] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Oh Lucy! (2017) (TMDb: 430644)                                       |
+[2022-11-17 00:04:38,867] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Ralph Breaks the Internet (2018) (TMDb: 404368)                      |
+[2022-11-17 00:04:38,879] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Night Comes On (2018) (TMDb: 489998)                                 |
+[2022-11-17 00:04:38,891] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Science Fair (2018) (TMDb: 493121)                                   |
+[2022-11-17 00:04:38,903] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Foxtrot (2017) (TMDb: 444431)                                        |
+[2022-11-17 00:04:39,099] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Sweet Country (2018) (TMDb: 468210)                                  |
+[2022-11-17 00:04:39,114] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Hale County This Morning, This Evening (2018) (TMDb: 490785)         |
+[2022-11-17 00:04:39,128] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Ryuichi Sakamoto: Coda (2017) (TMDb: 473888)                         |
+[2022-11-17 00:04:39,138] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Rodents of Unusual Size (2017) (TMDb: 510659)                        |
+[2022-11-17 00:04:39,161] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Tully (2018) (TMDb: 400579)                                          |
+[2022-11-17 00:04:39,176] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Pick of the Litter (2019) (TMDb: 503257)                             |
+[2022-11-17 00:04:39,195] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Marlina the Murderer in Four Acts (2017) (TMDb: 453276)              |
+[2022-11-17 00:04:39,206] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Leaning Into the Wind: Andy Goldsworthy (2018) (TMDb: 447691)        |
+[2022-11-17 00:04:39,217] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Liyana (2018) (TMDb: 461844)                                         |
+[2022-11-17 00:04:39,228] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Thunder Road (2016) (TMDb: 379959)                                   |
+[2022-11-17 00:04:39,241] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Ballad of Buster Scruggs (2018) (TMDb: 537996)                   |
+[2022-11-17 00:04:39,252] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | I Am Not a Witch (2017) (TMDb: 449757)                               |
+[2022-11-17 00:04:39,264] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Cakemaker (2017) (TMDb: 464825)                                  |
+[2022-11-17 00:04:39,275] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Western (2017) (TMDb: 452000)                                        |
+[2022-11-17 00:04:39,287] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Hearts Beat Loud (2018) (TMDb: 470333)                               |
+[2022-11-17 00:04:39,299] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | To All the Boys I've Loved Before (2018) (TMDb: 466282)              |
+[2022-11-17 00:04:39,312] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Revenge (2017) (TMDb: 467938)                                        |
+[2022-11-17 00:04:39,326] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Blaze (2018) (TMDb: 489928)                                          |
+[2022-11-17 00:04:39,340] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Filmworker (2018) (TMDb: 458080)                                     |
+[2022-11-17 00:04:39,354] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Beast (2018) (TMDb: 470918)                                          |
+[2022-11-17 00:04:39,371] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Lean on Pete (2018) (TMDb: 407890)                                   |
+[2022-11-17 00:04:39,380] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | On Her Shoulders (2018) (TMDb: 490816)                               |
+[2022-11-17 00:04:39,391] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Wolf House (2018) (TMDb: 499537)                                 |
+[2022-11-17 00:04:39,401] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | 1985 (2018) (TMDb: 502220)                                           |
+[2022-11-17 00:04:39,412] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Capernaum (2018) (TMDb: 517814)                                      |
+[2022-11-17 00:04:39,424] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Outside In (2018) (TMDb: 472805)                                     |
+[2022-11-17 00:04:39,434] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Dark Money (2018) (TMDb: 490780)                                     |
+[2022-11-17 00:04:39,445] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Good Manners (2017) (TMDb: 315205)                                   |
+[2022-11-17 00:04:39,458] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Support the Girls (2018) (TMDb: 456086)                              |
+[2022-11-17 00:04:39,469] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | The Endless (2017) (TMDb: 430231)                                    |
+[2022-11-17 00:04:39,481] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Private Life (2018) (TMDb: 458342)                                   |
+[2022-11-17 00:04:39,491] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | American Animals (2018) (TMDb: 489931)                               |
+[2022-11-17 00:04:39,507] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Cam (2018) (TMDb: 521935)                                            |
+[2022-11-17 00:04:39,518] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Colette (2018) (TMDb: 454652)                                        |
+[2022-11-17 00:04:39,530] [builder.py:2321]           [INFO]     | Best of 2018 Collection | ? | Mary Poppins Returns (2018) (TMDb: 400650)                           |
+[2022-11-17 00:04:39,531] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,531] [builder.py:2327]           [INFO]     | 96 Movies Missing                                                                                  |
+[2022-11-17 00:04:39,838] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,838] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Best of 2018 Collection                                          |
+[2022-11-17 00:04:39,838] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:39,838] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:04:39,839] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2018 Collection                                  |
+[2022-11-17 00:04:39,839] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 00:04:39,839] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

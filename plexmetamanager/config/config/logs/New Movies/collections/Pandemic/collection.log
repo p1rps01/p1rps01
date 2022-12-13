@@ -1,0 +1,166 @@
+[2022-11-16 23:08:53,159] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:53,159] [builder.py:193]            [INFO]     |                                 Pandemic Collection in New Movies                                  |
+[2022-11-16 23:08:53,159] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:53,159] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:53,159] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:08:53,159] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,159] [meta.py:210]               [DEBUG]    |====================================== Template Special Genre ======================================|
+[2022-11-16 23:08:53,160] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,161] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,161] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:08:53,161] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,161] [meta.py:515]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/213077', 'collection_mode': 'hide', 'collection_order': 'release.desc'} |
+[2022-11-16 23:08:53,161] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,161] [builder.py:223]            [INFO]     |================================== Validating Pandemic Attributes ==================================|
+[2022-11-16 23:08:53,162] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,162] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:08:53,162] [builder.py:615]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-16 23:08:53,162] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,162] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:08:53,162] [builder.py:651]            [DEBUG]    | Value: ++++++++_Pandemic                                                                           |
+[2022-11-16 23:08:53,162] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,162] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 23:08:53,162] [builder.py:651]            [DEBUG]    | Value: ['https://trakt.tv/users/jjjonesjr33/lists/pandemic-virus-survival-guide']                  |
+[2022-11-16 23:08:53,261] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,262] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:08:53,262] [builder.py:651]            [DEBUG]    | Value: A Pandemic film resolves around widespread viruses, plagues, and diseases.                  |
+[2022-11-16 23:08:53,262] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,262] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:08:53,262] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213077                                                   |
+[2022-11-16 23:08:53,988] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,988] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:08:53,991] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:08:53,999] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:53,999] [plex.py:838]               [DEBUG]    | Looking for: Pandemic                                                                              |
+[2022-11-16 23:08:53,999] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:53,999] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:08:54,000] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:54,000] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Pandemic Collection ====================================|
+[2022-11-16 23:08:54,000] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:54,000] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 23:08:54,000] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:54,001] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/jjjonesjr33/lists/pandemic-virus-survival-guide        |
+[2022-11-16 23:08:54,001] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:54,001] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/jjjonesjr33/lists/pandemic-virus-survival-guide      |
+[2022-11-16 23:08:54,077] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:54,077] [builder.py:1575]           [DEBUG]    | 107 IDs Found                                                                                      |
+[2022-11-16 23:08:54,077] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:54,077] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:54,078] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: New Movies ==============================|
+[2022-11-16 23:08:54,078] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:54,080] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | V for Vendetta (2006) (TMDb: 752)                                        |
+[2022-11-16 23:08:54,113] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | World War Z (2013) (TMDb: 72190)                                         |
+[2022-11-16 23:08:54,124] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Zombieland (2009) (TMDb: 19908)                                          |
+[2022-11-16 23:08:54,140] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Inferno (2016) (TMDb: 207932)                                            |
+[2022-11-16 23:08:54,156] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Resident Evil: The Final Chapter (2016) (TMDb: 173897)                   |
+[2022-11-16 23:08:54,166] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Resident Evil (2002) (TMDb: 1576)                                        |
+[2022-11-16 23:08:54,178] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Train to Busan (2016) (TMDb: 396535)                                     |
+[2022-11-16 23:08:54,187] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Mission: Impossible II (2000) (TMDb: 955)                                |
+[2022-11-16 23:08:54,198] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Resident Evil: Apocalypse (2004) (TMDb: 1577)                            |
+[2022-11-16 23:08:54,209] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Girl with All the Gifts (2016) (TMDb: 375366)                        |
+[2022-11-16 23:08:54,220] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Resident Evil: Extinction (2007) (TMDb: 7737)                            |
+[2022-11-16 23:08:54,231] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Rock (1996) (TMDb: 9802)                                             |
+[2022-11-16 23:08:54,242] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Exodus: Gods and Kings (2014) (TMDb: 147441)                             |
+[2022-11-16 23:08:54,256] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Dawn of the Dead (2004) (TMDb: 924)                                      |
+[2022-11-16 23:08:54,269] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Road (2009) (TMDb: 20766)                                            |
+[2022-11-16 23:08:54,280] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Transporter 2 (2005) (TMDb: 9335)                                        |
+[2022-11-16 23:08:54,294] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | [REC] (2007) (TMDb: 8329)                                                |
+[2022-11-16 23:08:54,308] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Outbreak (1995) (TMDb: 6950)                                             |
+[2022-11-16 23:08:54,322] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Doom (2005) (TMDb: 8814)                                                 |
+[2022-11-16 23:08:54,334] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Maggie (2015) (TMDb: 287424)                                             |
+[2022-11-16 23:08:54,345] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Crazies (2010) (TMDb: 29427)                                         |
+[2022-11-16 23:08:54,356] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Pandemic (2016) (TMDb: 346651)                                           |
+[2022-11-16 23:08:54,369] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | [REC]² (2009) (TMDb: 10664)                                              |
+[2022-11-16 23:08:54,380] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Viral (2016) (TMDb: 336455)                                              |
+[2022-11-16 23:08:54,391] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Doomsday (2008) (TMDb: 13460)                                            |
+[2022-11-16 23:08:54,402] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Blindness (2008) (TMDb: 8338)                                            |
+[2022-11-16 23:08:54,414] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Survivalist (2015) (TMDb: 329004)                                    |
+[2022-11-16 23:08:54,425] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Carriers (2009) (TMDb: 25769)                                            |
+[2022-11-16 23:08:54,438] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cabin Fever (2003) (TMDb: 11547)                                         |
+[2022-11-16 23:08:54,450] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Andromeda Strain (1971) (TMDb: 10514)                                |
+[2022-11-16 23:08:54,453] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Pontypool (2009) (TMDb: 23963)                                           |
+[2022-11-16 23:08:54,465] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Painted Veil (2006) (TMDb: 14202)                                    |
+[2022-11-16 23:08:54,486] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Thirst (2009) (TMDb: 22536)                                              |
+[2022-11-16 23:08:54,506] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Flu (2013) (TMDb: 200085)                                            |
+[2022-11-16 23:08:54,516] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Quarantine 2: Terminal (2011) (TMDb: 59115)                              |
+[2022-11-16 23:08:54,528] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Contracted (2013) (TMDb: 204349)                                         |
+[2022-11-16 23:08:54,541] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Virus (1999) (TMDb: 9423)                                                |
+[2022-11-16 23:08:54,554] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cabin Fever: Patient Zero (2014) (TMDb: 157424)                          |
+[2022-11-16 23:08:54,567] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Summer Camp (2016) (TMDb: 306966)                                        |
+[2022-11-16 23:08:54,579] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Shivers (1975) (TMDb: 27429)                                             |
+[2022-11-16 23:08:54,597] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cabin Fever 2: Spring Fever (2009) (TMDb: 28739)                         |
+[2022-11-16 23:08:54,612] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Crazies (1973) (TMDb: 29425)                                         |
+[2022-11-16 23:08:54,625] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Feral (2018) (TMDb: 436494)                                              |
+[2022-11-16 23:08:54,639] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Fatal Contact: Bird Flu in America (2006) (TMDb: 24676)                  |
+[2022-11-16 23:08:54,653] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Biohazard: Patient Zero (2011) (TMDb: 136972)                            |
+[2022-11-16 23:08:54,666] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Zombieland: Double Tap (2019) (TMDb: 338967)                             |
+[2022-11-16 23:08:54,677] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Maze Runner: The Death Cure (2018) (TMDb: 336843)                        |
+[2022-11-16 23:08:54,689] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Cured (2017) (TMDb: 469721)                                          |
+[2022-11-16 23:08:54,703] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Virus (2019) (TMDb: 585261)                                              |
+[2022-11-16 23:08:54,715] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Bird Box (2018) (TMDb: 405774)                                           |
+[2022-11-16 23:08:54,727] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Patient Zero (2018) (TMDb: 295011)                                       |
+[2022-11-16 23:08:54,742] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cargo (2017) (TMDb: 425972)                                              |
+[2022-11-16 23:08:54,754] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cabin Fever (2016) (TMDb: 298584)                                        |
+[2022-11-16 23:08:54,767] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | 28 Days Later (2002) (TMDb: 170)                                         |
+[2022-11-16 23:08:54,792] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | I Am Legend (2007) (TMDb: 6479)                                          |
+[2022-11-16 23:08:54,805] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Children of Men (2006) (TMDb: 9693)                                      |
+[2022-11-16 23:08:54,816] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Shaun of the Dead (2004) (TMDb: 747)                                     |
+[2022-11-16 23:08:54,833] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Cassandra Crossing (1976) (TMDb: 32037)                              |
+[2022-11-16 23:08:54,845] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Quarantine (2008) (TMDb: 13812)                                          |
+[2022-11-16 23:08:54,855] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Contagion (2011) (TMDb: 39538)                                           |
+[2022-11-16 23:08:54,864] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Twelve Monkeys (1995) (TMDb: 63)                                         |
+[2022-11-16 23:08:54,874] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Dawn of the Dead (1978) (TMDb: 923)                                      |
+[2022-11-16 23:08:54,885] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | 28 Weeks Later (2007) (TMDb: 1562)                                       |
+[2022-11-16 23:08:54,895] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Planet Terror (2007) (TMDb: 1992)                                        |
+[2022-11-16 23:08:54,906] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Contagion (2002) (TMDb: 74524)                                           |
+[2022-11-16 23:08:54,917] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Contagious (1997) (TMDb: 207644)                                         |
+[2022-11-16 23:08:54,929] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Runaway Virus (2000) (TMDb: 354674)                                      |
+[2022-11-16 23:08:54,939] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | 1918 (1985) (TMDb: 74107)                                                |
+[2022-11-16 23:08:54,951] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Anna and the Apocalypse (2018) (TMDb: 461928)                            |
+[2022-11-16 23:08:54,962] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Arrowsmith (1931) (TMDb: 84298)                                          |
+[2022-11-16 23:08:54,973] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Black Death (2010) (TMDb: 41215)                                         |
+[2022-11-16 23:08:54,984] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Cargo (2009) (TMDb: 34069)                                               |
+[2022-11-16 23:08:54,996] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Daybreakers (2009) (TMDb: 19901)                                         |
+[2022-11-16 23:08:55,007] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Death in Venice (1971) (TMDb: 6619)                                      |
+[2022-11-16 23:08:55,022] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Deranged (1974) (TMDb: 39844)                                            |
+[2022-11-16 23:08:55,037] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Endzeit (2013) (TMDb: 163712)                                            |
+[2022-11-16 23:08:55,054] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Faust (1994) (TMDb: 18919)                                               |
+[2022-11-16 23:08:55,065] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Flesh + Blood (1985) (TMDb: 12775)                                       |
+[2022-11-16 23:08:55,079] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Here Alone (2016) (TMDb: 390582)                                         |
+[2022-11-16 23:08:55,093] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | I Drink Your Blood (1970) (TMDb: 27313)                                  |
+[2022-11-16 23:08:55,104] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Infection (2004) (TMDb: 32171)                                           |
+[2022-11-16 23:08:55,116] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Invasion of the Body Snatchers (1978) (TMDb: 11850)                      |
+[2022-11-16 23:08:55,127] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | It Comes at Night (2017) (TMDb: 418078)                                  |
+[2022-11-16 23:08:55,129] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | It Stains the Sands Red (2016) (TMDb: 434873)                            |
+[2022-11-16 23:08:55,140] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Jezebel (1938) (TMDb: 1976)                                              |
+[2022-11-16 23:08:55,152] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Little Monsters (2019) (TMDb: 503125)                                    |
+[2022-11-16 23:08:55,163] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Mayhem (2017) (TMDb: 429733)                                             |
+[2022-11-16 23:08:55,174] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Mom and Dad (2018) (TMDb: 401561)                                        |
+[2022-11-16 23:08:55,186] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Panic in the Streets (1950) (TMDb: 32078)                                |
+[2022-11-16 23:08:55,197] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Perfect Sense (2011) (TMDb: 51999)                                       |
+[2022-11-16 23:08:55,208] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Rabid (1977) (TMDb: 29437)                                               |
+[2022-11-16 23:08:55,219] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Ravenous (1999) (TMDb: 10212)                                            |
+[2022-11-16 23:08:55,230] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | REC (2011) (TMDb: 231526)                                                |
+[2022-11-16 23:08:55,252] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Slither (2006) (TMDb: 9035)                                              |
+[2022-11-16 23:08:55,269] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Faculty (1998) (TMDb: 9276)                                          |
+[2022-11-16 23:08:55,294] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Killer That Stalked New York (1950) (TMDb: 32205)                    |
+[2022-11-16 23:08:55,312] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Masque of the Red Death (1964) (TMDb: 25319)                         |
+[2022-11-16 23:08:55,325] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Navigator (1924) (TMDb: 32318)                                       |
+[2022-11-16 23:08:55,341] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Night Eats the World (2018) (TMDb: 457955)                           |
+[2022-11-16 23:08:55,354] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Puppet Masters (1994) (TMDb: 25557)                                  |
+[2022-11-16 23:08:55,363] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Seventh Seal (1957) (TMDb: 490)                                      |
+[2022-11-16 23:08:55,375] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Trench 11 (2017) (TMDb: 449498)                                          |
+[2022-11-16 23:08:55,385] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Virus (1980) (TMDb: 41972)                                               |
+[2022-11-16 23:08:55,396] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Warm Bodies (2013) (TMDb: 82654)                                         |
+[2022-11-16 23:08:55,414] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Wyrmwood: Road of the Dead (2014) (TMDb: 290999)                         |
+[2022-11-16 23:08:55,426] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | Night of the Comet (1984) (TMDb: 18462)                                  |
+[2022-11-16 23:08:55,428] [builder.py:2321]           [INFO]     | Pandemic Collection | ? | The Bay (2012) (TMDb: 123105)                                            |
+[2022-11-16 23:08:55,428] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:55,429] [builder.py:2327]           [INFO]     | 107 Movies Missing                                                                                 |
+[2022-11-16 23:08:55,924] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:55,924] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Pandemic Collection                                              |
+[2022-11-16 23:08:55,924] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:55,924] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:08:55,924] [plex_meta_manager.py:737]  [INFO]     |                                    Finished Pandemic Collection                                    |
+[2022-11-16 23:08:55,925] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-16 23:08:55,925] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

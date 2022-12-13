@@ -1,0 +1,167 @@
+[2022-11-17 00:04:29,211] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:29,211] [builder.py:193]            [INFO]     |                              Best of 2014 Collection in Marvel Movies                              |
+[2022-11-17 00:04:29,211] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:29,211] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,212] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:04:29,212] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,212] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-17 00:04:29,212] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,214] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,214] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:04:29,214] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,215] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014', 'sort_title': '+1_Best of 2014', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2014', 'smart_label': 'audience_rating.desc'} |
+[2022-11-17 00:04:29,215] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,215] [builder.py:223]            [INFO]     |================================ Validating Best of 2014 Attributes ================================|
+[2022-11-17 00:04:29,215] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,215] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 00:04:29,215] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-17 00:04:29,223] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,223] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:04:29,223] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:04:29,223] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,223] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-17 00:04:29,223] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014                           |
+[2022-11-17 00:04:29,289] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,290] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:04:29,290] [builder.py:651]            [DEBUG]    | Value: +1_Best of 2014                                                                             |
+[2022-11-17 00:04:29,290] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,290] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:04:29,290] [builder.py:651]            [DEBUG]    | Value: Rotten Tomatoes Best Movies of 2014                                                         |
+[2022-11-17 00:04:29,295] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:29,295] [plex.py:838]               [DEBUG]    | Looking for: Best of 2014                                                                          |
+[2022-11-17 00:04:29,295] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,295] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:04:29,296] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,296] [plex_meta_manager.py:596]  [INFO]     |================================= Running Best of 2014 Collection ==================================|
+[2022-11-17 00:04:29,296] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,296] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['audience_rating.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of 2014
+[2022-11-17 00:04:29,296] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-17 00:04:29,297] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-17 00:04:29,297] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:04:29,297] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
+[2022-11-17 00:04:29,297] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:04:29,297] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2014
+[2022-11-17 00:04:29,355] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:04:29,355] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-17 00:04:29,356] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:04:29,356] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:04:29,356] [builder.py:2159]           [INFO]     |================================ Adding to Best of 2014 Collection =================================|
+[2022-11-17 00:04:29,356] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,373] [builder.py:2174]           [INFO]     | 1/2 | Best of 2014 Collection | = | Guardians of the Galaxy (2014)                                 |
+[2022-11-17 00:04:29,373] [builder.py:2174]           [INFO]     | 2/2 | Best of 2014 Collection | = | Captain America: The Winter Soldier (2014)                     |
+[2022-11-17 00:04:29,373] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,373] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 00:04:29,374] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,374] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:04:29,374] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:29,386] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Selma (2014) (TMDb: 273895)                                          |
+[2022-11-17 00:04:29,397] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Boyhood (2014) (TMDb: 85350)                                         |
+[2022-11-17 00:04:29,407] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Babadook (2014) (TMDb: 242224)                                   |
+[2022-11-17 00:04:29,418] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Lego Movie (2014) (TMDb: 137106)                                 |
+[2022-11-17 00:04:29,431] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Nightcrawler (2014) (TMDb: 242582)                                   |
+[2022-11-17 00:04:29,444] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Whiplash (2014) (TMDb: 244786)                                       |
+[2022-11-17 00:04:29,464] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Life Itself (2014) (TMDb: 250766)                                    |
+[2022-11-17 00:04:29,477] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Birdman or (The Unexpected Virtue of Ignorance) (2014) (TMDb: 194662) |
+[2022-11-17 00:04:29,488] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Grand Budapest Hotel (2014) (TMDb: 120467)                       |
+[2022-11-17 00:04:29,498] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Mr. Turner (2014) (TMDb: 245700)                                     |
+[2022-11-17 00:04:29,510] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Snowpiercer (2013) (TMDb: 110415)                                    |
+[2022-11-17 00:04:29,526] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Edge of Tomorrow (2014) (TMDb: 137113)                               |
+[2022-11-17 00:04:29,538] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Two Days, One Night (2014) (TMDb: 221902)                            |
+[2022-11-17 00:04:29,554] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Gloria (2013) (TMDb: 160068)                                         |
+[2022-11-17 00:04:29,566] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | X-Men: Days of Future Past (2014) (TMDb: 127585)                     |
+[2022-11-17 00:04:29,729] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Tale of The Princess Kaguya (2013) (TMDb: 149871)                |
+[2022-11-17 00:04:29,889] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Starred Up (2014) (TMDb: 209276)                                     |
+[2022-11-17 00:04:29,900] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Dawn of the Planet of the Apes (2014) (TMDb: 119450)                 |
+[2022-11-17 00:04:29,923] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Leviathan (2014) (TMDb: 265180)                                      |
+[2022-11-17 00:04:30,061] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Jodorowsky's Dune (2013) (TMDb: 191720)                              |
+[2022-11-17 00:04:30,081] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Song of the Sea (2014) (TMDb: 110416)                                |
+[2022-11-17 00:04:30,104] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Ida (2013) (TMDb: 209274)                                            |
+[2022-11-17 00:04:30,119] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Gone Girl (2014) (TMDb: 210577)                                      |
+[2022-11-17 00:04:30,130] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Missing Picture (2013) (TMDb: 186997)                            |
+[2022-11-17 00:04:30,141] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Citizenfour (2014) (TMDb: 293310)                                    |
+[2022-11-17 00:04:30,153] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Blue Ruin (2014) (TMDb: 188166)                                      |
+[2022-11-17 00:04:30,165] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Lunchbox (2013) (TMDb: 191714)                                   |
+[2022-11-17 00:04:30,175] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | We Are the Best! (2013) (TMDb: 191294)                               |
+[2022-11-17 00:04:30,186] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Ilo Ilo (2013) (TMDb: 188598)                                        |
+[2022-11-17 00:04:30,199] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Elaine Stritch: Shoot Me (2013) (TMDb: 174319)                       |
+[2022-11-17 00:04:30,210] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | A Girl Walks Home Alone at Night (2014) (TMDb: 252171)               |
+[2022-11-17 00:04:30,222] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Ernest & Celestine (2012) (TMDb: 126319)                             |
+[2022-11-17 00:04:30,238] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Imitation Game (2014) (TMDb: 205596)                             |
+[2022-11-17 00:04:30,250] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Force Majeure (2014) (TMDb: 265189)                                  |
+[2022-11-17 00:04:30,262] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Love Is Strange (2014) (TMDb: 244268)                                |
+[2022-11-17 00:04:30,273] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Locke (2014) (TMDb: 210479)                                          |
+[2022-11-17 00:04:30,286] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Wild (2014) (TMDb: 228970)                                           |
+[2022-11-17 00:04:30,298] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Overnighters (2014) (TMDb: 250666)                               |
+[2022-11-17 00:04:30,311] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | A Summer's Tale (1996) (TMDb: 37563)                                 |
+[2022-11-17 00:04:30,313] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Big Hero 6 (2014) (TMDb: 177572)                                     |
+[2022-11-17 00:04:30,329] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Keep On Keepin’ On (2014) (TMDb: 259999)                             |
+[2022-11-17 00:04:30,339] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Nas: Time Is Illmatic (2014) (TMDb: 256503)                          |
+[2022-11-17 00:04:30,349] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Finding Vivian Maier (2014) (TMDb: 169607)                           |
+[2022-11-17 00:04:30,361] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Frank (2014) (TMDb: 171372)                                          |
+[2022-11-17 00:04:30,377] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | How to Train Your Dragon 2 (2014) (TMDb: 82702)                      |
+[2022-11-17 00:04:30,388] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | 20,000 Days on Earth (2014) (TMDb: 246400)                           |
+[2022-11-17 00:04:30,404] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Pride (2014) (TMDb: 234200)                                          |
+[2022-11-17 00:04:30,415] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Manakamana (2013) (TMDb: 213684)                                     |
+[2022-11-17 00:04:30,426] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Stranger by the Lake (2013) (TMDb: 186992)                           |
+[2022-11-17 00:04:30,442] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Particle Fever (2013) (TMDb: 202141)                                 |
+[2022-11-17 00:04:30,541] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Last of the Unjust (2013) (TMDb: 179146)                         |
+[2022-11-17 00:04:30,551] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Housebound (2014) (TMDb: 253306)                                     |
+[2022-11-17 00:04:30,562] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Foxcatcher (2014) (TMDb: 87492)                                      |
+[2022-11-17 00:04:30,573] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | National Gallery (2014) (TMDb: 266080)                               |
+[2022-11-17 00:04:30,586] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Drop (2014) (TMDb: 154400)                                       |
+[2022-11-17 00:04:30,595] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Rocket (2013) (TMDb: 168742)                                     |
+[2022-11-17 00:04:30,606] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Last Days in Vietnam (2014) (TMDb: 250761)                           |
+[2022-11-17 00:04:30,617] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Obvious Child (2014) (TMDb: 248774)                                  |
+[2022-11-17 00:04:30,628] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Guest (2014) (TMDb: 241848)                                      |
+[2022-11-17 00:04:30,639] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Dear White People (2014) (TMDb: 114750)                              |
+[2022-11-17 00:04:30,649] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Dance of Reality (2013) (TMDb: 137698)                           |
+[2022-11-17 00:04:30,659] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Calvary (2014) (TMDb: 157832)                                        |
+[2022-11-17 00:04:30,671] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Normal Heart (2014) (TMDb: 113833)                               |
+[2022-11-17 00:04:30,682] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Diplomacy (2014) (TMDb: 253239)                                      |
+[2022-11-17 00:04:30,692] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Wind Rises (2013) (TMDb: 149870)                                 |
+[2022-11-17 00:04:30,694] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Le Week-End (2013) (TMDb: 209350)                                    |
+[2022-11-17 00:04:30,705] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Child's Pose (2013) (TMDb: 160118)                                   |
+[2022-11-17 00:04:30,716] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Internet's Own Boy: The Story of Aaron Swartz (2014) (TMDb: 250658) |
+[2022-11-17 00:04:30,730] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | John Wick (2014) (TMDb: 245891)                                      |
+[2022-11-17 00:04:30,746] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Chef (2014) (TMDb: 212778)                                           |
+[2022-11-17 00:04:30,757] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Under the Skin (2014) (TMDb: 97370)                                  |
+[2022-11-17 00:04:30,759] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Only Lovers Left Alive (2013) (TMDb: 152603)                         |
+[2022-11-17 00:04:30,769] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Way He Looks (2014) (TMDb: 237791)                               |
+[2022-11-17 00:04:30,779] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Norte, The End of History (2013) (TMDb: 186975)                      |
+[2022-11-17 00:04:30,790] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Mistaken for Strangers (2013) (TMDb: 173455)                         |
+[2022-11-17 00:04:30,802] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Tim's Vermeer (2013) (TMDb: 212063)                                  |
+[2022-11-17 00:04:30,817] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Top Five (2014) (TMDb: 284296)                                       |
+[2022-11-17 00:04:30,831] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | 12 O’Clock Boys (2013) (TMDb: 169853)                                |
+[2022-11-17 00:04:30,846] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Omar (2013) (TMDb: 187028)                                           |
+[2022-11-17 00:04:30,858] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | 22 Jump Street (2014) (TMDb: 187017)                                 |
+[2022-11-17 00:04:30,876] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | A Most Wanted Man (2014) (TMDb: 157849)                              |
+[2022-11-17 00:04:30,889] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Dog (2013) (TMDb: 212849)                                        |
+[2022-11-17 00:04:30,904] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Wetlands (2013) (TMDb: 208277)                                       |
+[2022-11-17 00:04:30,917] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Skeleton Twins (2014) (TMDb: 244772)                             |
+[2022-11-17 00:04:30,928] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Venus in Fur (2013) (TMDb: 197082)                                   |
+[2022-11-17 00:04:30,940] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Art and Craft (2014) (TMDb: 265929)                                  |
+[2022-11-17 00:04:30,952] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Case Against 8 (2014) (TMDb: 250651)                             |
+[2022-11-17 00:04:30,964] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Closed Curtain (2013) (TMDb: 160171)                                 |
+[2022-11-17 00:04:30,976] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Kill Team (2013) (TMDb: 174351)                                  |
+[2022-11-17 00:04:30,993] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Trip to Italy (2014) (TMDb: 242088)                              |
+[2022-11-17 00:04:31,010] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Night Moves (2014) (TMDb: 157823)                                    |
+[2022-11-17 00:04:31,025] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Bears (2014) (TMDb: 214314)                                          |
+[2022-11-17 00:04:31,037] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | The Blue Room (2014) (TMDb: 266034)                                  |
+[2022-11-17 00:04:31,048] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Cheap Thrills (2013) (TMDb: 175291)                                  |
+[2022-11-17 00:04:31,058] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | In Bloom (2013) (TMDb: 176403)                                       |
+[2022-11-17 00:04:31,069] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | To Be Takei (2014) (TMDb: 250777)                                    |
+[2022-11-17 00:04:31,079] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Coherence (2013) (TMDb: 220289)                                      |
+[2022-11-17 00:04:31,092] [builder.py:2321]           [INFO]     | Best of 2014 Collection | ? | Joe (2013) (TMDb: 157847)                                            |
+[2022-11-17 00:04:31,092] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:31,093] [builder.py:2327]           [INFO]     | 98 Movies Missing                                                                                  |
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Best of 2014 Collection                                          |
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2014 Collection                                  |
+[2022-11-17 00:04:31,357] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 00:04:31,358] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

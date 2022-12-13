@@ -1,0 +1,95 @@
+[2022-11-16 22:21:08,083] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:21:08,083] [builder.py:193]            [INFO]     |                             Golden Globe 1997 Collection in Old Movies                             |
+[2022-11-16 22:21:08,083] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:21:08,083] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,084] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:21:08,084] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,084] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:21:08,084] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,085] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 22:21:08,086] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,087] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:21:08,088] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,090] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:21:08,091] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,101] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:21:08,102] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,108] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:21:08,108] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,112] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,112] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:21:08,112] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,113] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '1997 Golden Globe Winners.', 'name': 'Golden Globe 1997', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 1997', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1997.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:21:08,113] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,113] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 1997 Attributes ==============================|
+[2022-11-16 22:21:08,113] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,113] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:21:08,113] [builder.py:230]            [DEBUG]    | Value: Golden Globe 1997                                                                           |
+[2022-11-16 22:21:08,113] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,113] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:21:08,114] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:21:08,114] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,114] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:21:08,114] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:21:08,114] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,114] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:21:08,114] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:21:08,114] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,114] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:21:08,114] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 22:21:08,115] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,115] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 22:21:08,115] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 22:21:08,371] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,373] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:21:08,373] [builder.py:651]            [DEBUG]    | Value: 1997 Golden Globe Winners.                                                                  |
+[2022-11-16 22:21:08,373] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,373] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:21:08,373] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:21:08,373] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,373] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:21:08,373] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 1997                                                                       |
+[2022-11-16 22:21:08,374] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,374] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:21:08,374] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1997.jpg |
+[2022-11-16 22:21:08,478] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,478] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:21:08,478] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:21:08,483] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,483] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 1997                                                                     |
+[2022-11-16 22:21:08,483] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,483] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:21:08,483] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,483] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 1997 Collection ===============================|
+[2022-11-16 22:21:08,484] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,484] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:21:08,484] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,484] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 22:21:08,484] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,485] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 22:21:08,486] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,487] [builder.py:1575]           [DEBUG]    | 15 IDs Found                                                                                       |
+[2022-11-16 22:21:08,487] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:21:08,497] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,497] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:21:08,497] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:21:08,508] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Good Will Hunting (1997) (TMDb: 489)                            |
+[2022-11-16 22:21:08,519] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Boogie Nights (1997) (TMDb: 4995)                               |
+[2022-11-16 22:21:08,534] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | L.A. Confidential (1997) (TMDb: 2118)                           |
+[2022-11-16 22:21:08,544] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | As Good as It Gets (1997) (TMDb: 2898)                          |
+[2022-11-16 22:21:08,555] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Mrs Brown (1997) (TMDb: 17589)                                  |
+[2022-11-16 22:21:08,728] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | 12 Angry Men (1997) (TMDb: 12219)                               |
+[2022-11-16 22:21:08,739] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Ulee's Gold (1997) (TMDb: 55306)                                |
+[2022-11-16 22:21:08,751] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | George Wallace (1997) (TMDb: 61445)                             |
+[2022-11-16 22:21:08,767] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | My Life in Pink (1997) (TMDb: 27103)                            |
+[2022-11-16 22:21:08,962] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Don King: Only in America (1997) (TMDb: 31907)                  |
+[2022-11-16 22:21:09,115] [builder.py:2321]           [INFO]     | Golden Globe 1997 Collection | ? | Miss Evers' Boys (1997) (TMDb: 133958)                          |
+[2022-11-16 22:21:09,116] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:21:09,116] [builder.py:2327]           [INFO]     | 11 Movies Missing                                                                                  |
+[2022-11-16 22:21:12,781] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Golden Globe 1997 Collection                                     |
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 1997 Collection                                |
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 22:21:12,782] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,102 @@
+[2022-11-16 20:35:16,301] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:16,301] [builder.py:193]            [INFO]     |                           Oscars Winners 1989 Collection in Kids Movies                            |
+[2022-11-16 20:35:16,301] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:16,301] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,301] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:35:16,302] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,302] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:35:16,302] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,304] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:35:16,304] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,306] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:35:16,306] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,309] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:35:16,309] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,320] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:35:16,321] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,326] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:35:16,326] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,330] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,330] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:35:16,330] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,330] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 1989.', 'name': 'Oscars Winners 1989', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 1989', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1989.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:35:16,330] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,331] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 1989 Attributes =============================|
+[2022-11-16 20:35:16,331] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,331] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:35:16,331] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 1989                                                                         |
+[2022-11-16 20:35:16,331] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,331] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:35:16,331] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:35:16,331] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,331] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:35:16,332] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:35:16,332] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,332] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:35:16,332] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:35:16,332] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,332] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:35:16,332] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:35:16,332] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,332] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:35:16,333] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 20:35:16,333] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,333] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:35:16,333] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 20:35:16,775] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,776] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:35:16,776] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 1989.                                                   |
+[2022-11-16 20:35:16,776] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,776] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:35:16,776] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:35:16,776] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,776] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:35:16,777] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 1989                                                                     |
+[2022-11-16 20:35:16,777] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,777] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:35:16,777] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1989.jpg |
+[2022-11-16 20:35:16,910] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,910] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:35:16,910] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:35:16,915] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,915] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 1989                                                                   |
+[2022-11-16 20:35:16,915] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,915] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 1989 Collection ==============================|
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:35:16,916] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,917] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:35:16,920] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,920] [builder.py:1575]           [DEBUG]    | 16 IDs Found                                                                                       |
+[2022-11-16 20:35:16,920] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:16,933] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,933] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:35:16,933] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:16,955] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Dead Poets Society (1989) (TMDb: 207)                         |
+[2022-11-16 20:35:16,966] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Batman (1989) (TMDb: 268)                                     |
+[2022-11-16 20:35:16,980] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Indiana Jones and the Last Crusade (1989) (TMDb: 89)          |
+[2022-11-16 20:35:16,997] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | The Abyss (1989) (TMDb: 2756)                                 |
+[2022-11-16 20:35:17,015] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Glory (1989) (TMDb: 9665)                                     |
+[2022-11-16 20:35:17,032] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Born on the Fourth of July (1989) (TMDb: 2604)                |
+[2022-11-16 20:35:17,053] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | My Left Foot: The Story of Christy Brown (1989) (TMDb: 10161) |
+[2022-11-16 20:35:17,065] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Driving Miss Daisy (1989) (TMDb: 403)                         |
+[2022-11-16 20:35:17,076] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Henry V (1989) (TMDb: 10705)                                  |
+[2022-11-16 20:35:17,091] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Creature Comforts (1989) (TMDb: 54825)                        |
+[2022-11-16 20:35:17,104] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Balance (1989) (TMDb: 44338)                                  |
+[2022-11-16 20:35:17,115] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | The Lunch Date (1989) (TMDb: 44231)                           |
+[2022-11-16 20:35:17,127] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Common Threads: Stories from the Quilt (1989) (TMDb: 114524)  |
+[2022-11-16 20:35:17,137] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | Work Experience (1989) (TMDb: 244708)                         |
+[2022-11-16 20:35:17,148] [builder.py:2321]           [INFO]     | Oscars Winners 1989 Collection | ? | The Johnstown Flood (1989) (TMDb: 244712)                     |
+[2022-11-16 20:35:17,149] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:17,149] [builder.py:2327]           [INFO]     | 15 Movies Missing                                                                                  |
+[2022-11-16 20:35:21,536] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:21,536] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Oscars Winners 1989 Collection                                   |
+[2022-11-16 20:35:21,536] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:21,537] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:35:21,537] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 1989 Collection                               |
+[2022-11-16 20:35:21,537] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-16 20:35:21,537] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

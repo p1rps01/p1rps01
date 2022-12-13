@@ -1,0 +1,125 @@
+[2022-11-16 23:41:35,198] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:41:35,198] [builder.py:193]            [INFO]     |                        Critics Choice Awards 2022 Collection in New Movies                         |
+[2022-11-16 23:41:35,198] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:41:35,198] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,198] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:41:35,199] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,199] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 23:41:35,199] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,200] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 23:41:35,200] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,202] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:41:35,202] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,205] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:41:35,205] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,208] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,208] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 23:41:35,216] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 23:41:35,217] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,223] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 23:41:35,223] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,226] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,227] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:41:35,227] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,227] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2022-critic-s-choice', 'summary': '2022 Critics Choice Awards.', 'name': 'Critics Choice Awards 2022', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Critics Choice Awards 2022', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2022.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 23:41:35,227] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,227] [builder.py:223]            [INFO]     |========================= Validating Critics Choice Awards 2022 Attributes =========================|
+[2022-11-16 23:41:35,227] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,227] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:41:35,227] [builder.py:230]            [DEBUG]    | Value: Critics Choice Awards 2022                                                                  |
+[2022-11-16 23:41:35,227] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,228] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:41:35,228] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:41:35,228] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,228] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 23:41:35,228] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 23:41:35,228] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,228] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:41:35,228] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 23:41:35,228] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,228] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:41:35,228] [builder.py:651]            [DEBUG]    | Value: Critics Choice Awards                                                                       |
+[2022-11-16 23:41:35,229] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,229] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 23:41:35,229] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2022-critic-s-choice                                     |
+[2022-11-16 23:41:35,275] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,275] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:41:35,275] [builder.py:651]            [DEBUG]    | Value: 2022 Critics Choice Awards.                                                                 |
+[2022-11-16 23:41:35,275] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,275] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:41:35,275] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:41:35,276] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,276] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:41:35,276] [builder.py:651]            [DEBUG]    | Value: !16_Critics Choice Awards 2022                                                              |
+[2022-11-16 23:41:35,276] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,276] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:41:35,276] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/choice/2022.jpg |
+[2022-11-16 23:41:35,434] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,434] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 23:41:35,434] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 23:41:35,438] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,439] [plex.py:838]               [DEBUG]    | Looking for: Critics Choice Awards 2022                                                            |
+[2022-11-16 23:41:35,439] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,439] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:596]  [INFO]     |========================== Running Critics Choice Awards 2022 Collection ===========================|
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2022-critic-s-choice                       |
+[2022-11-16 23:41:35,439] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,440] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 23:41:35,442] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,443] [builder.py:1575]           [DEBUG]    | 40 IDs Found                                                                                       |
+[2022-11-16 23:41:35,443] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:41:35,443] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,443] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: New Movies ==============================|
+[2022-11-16 23:41:35,443] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,457] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Power of the Dog (2021) (TMDb: 600583)             |
+[2022-11-16 23:41:35,468] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | CODA (2021) (TMDb: 776503)                             |
+[2022-11-16 23:41:35,478] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | King Richard (2021) (TMDb: 614917)                     |
+[2022-11-16 23:41:35,488] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Belfast (2021) (TMDb: 777270)                          |
+[2022-11-16 23:41:35,500] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Dune (2021) (TMDb: 438631)                             |
+[2022-11-16 23:41:35,512] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Licorice Pizza (2021) (TMDb: 718032)                   |
+[2022-11-16 23:41:35,523] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Don't Look Up (2021) (TMDb: 646380)                    |
+[2022-11-16 23:41:35,533] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Nightmare Alley (2021) (TMDb: 597208)                  |
+[2022-11-16 23:41:35,548] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | tick, tick... BOOM! (2021) (TMDb: 537116)              |
+[2022-11-16 23:41:35,558] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Tragedy of Macbeth (2021) (TMDb: 591538)           |
+[2022-11-16 23:41:35,570] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Pig (2021) (TMDb: 635731)                              |
+[2022-11-16 23:41:35,582] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Cyrano (2021) (TMDb: 730047)                           |
+[2022-11-16 23:41:35,598] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Lost Daughter (2021) (TMDb: 554230)                |
+[2022-11-16 23:41:35,609] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | House of Gucci (2021) (TMDb: 644495)                   |
+[2022-11-16 23:41:35,622] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Spencer (2021) (TMDb: 716612)                          |
+[2022-11-16 23:41:35,633] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Eyes of Tammy Faye (2021) (TMDb: 601470)           |
+[2022-11-16 23:41:35,644] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Being the Ricardos (2021) (TMDb: 517088)               |
+[2022-11-16 23:41:35,661] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Mass (2021) (TMDb: 423333)                             |
+[2022-11-16 23:41:35,671] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Worst Person in the World (2021) (TMDb: 660120)    |
+[2022-11-16 23:41:35,685] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Drive My Car (2021) (TMDb: 758866)                     |
+[2022-11-16 23:41:35,697] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Hand of God (2021) (TMDb: 722778)                  |
+[2022-11-16 23:41:35,707] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | A Hero (2021) (TMDb: 672208)                           |
+[2022-11-16 23:41:35,719] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Flee (2021) (TMDb: 680813)                             |
+[2022-11-16 23:41:35,730] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The French Dispatch (2021) (TMDb: 542178)              |
+[2022-11-16 23:41:35,742] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Free Guy (2021) (TMDb: 550988)                         |
+[2022-11-16 23:41:35,758] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Barb & Star Go to Vista Del Mar (2021) (TMDb: 595813)  |
+[2022-11-16 23:41:35,769] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Cruella (2021) (TMDb: 337404)                          |
+[2022-11-16 23:41:35,785] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | No Time to Die (2021) (TMDb: 370172)                   |
+[2022-11-16 23:41:35,796] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Harder They Fall (2021) (TMDb: 618162)             |
+[2022-11-16 23:41:35,808] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | C'mon C'mon (2021) (TMDb: 632617)                      |
+[2022-11-16 23:41:35,820] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | The Matrix Resurrections (2021) (TMDb: 624860)         |
+[2022-11-16 23:41:35,830] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Shang-Chi and the Legend of the Ten Rings (2021) (TMDb: 566525) |
+[2022-11-16 23:41:35,849] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Encanto (2021) (TMDb: 568124)                          |
+[2022-11-16 23:41:35,866] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Bo Burnham: Inside (2021) (TMDb: 823754)               |
+[2022-11-16 23:41:35,877] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Nate Bargatze: The Greatest Average American (2021) (TMDb: 799573) |
+[2022-11-16 23:41:35,889] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | James Acaster: Cold Lasagne Hate Myself 1999 (2020) (TMDb: 763274) |
+[2022-11-16 23:41:35,901] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Good Timing with Jo Firestone (2021) (TMDb: 879537)    |
+[2022-11-16 23:41:35,910] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Joyelle Nicole Johnson: Love Joy (2021) (TMDb: 895504) |
+[2022-11-16 23:41:35,922] [builder.py:2321]           [INFO]     | Critics Choice Awards 2022 Collection | ? | Trixie Mattel: One Night Only (2021) (TMDb: 915887)    |
+[2022-11-16 23:41:35,922] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 23:41:35,922] [builder.py:2327]           [INFO]     | 39 Movies Missing                                                                                  |
+[2022-11-16 23:41:39,276] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Critics Choice Awards 2022 Collection                            |
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:737]  [INFO]     |                           Finished Critics Choice Awards 2022 Collection                           |
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 23:41:39,277] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

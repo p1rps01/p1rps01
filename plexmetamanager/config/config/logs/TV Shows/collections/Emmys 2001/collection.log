@@ -1,0 +1,173 @@
+[2022-11-17 02:24:50,945] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:24:50,946] [builder.py:193]            [INFO]     |                                 Emmys 2001 Collection in TV Shows                                  |
+[2022-11-17 02:24:50,947] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:24:50,947] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:24:50,948] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:24:50,948] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:50,949] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:24:50,950] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:50,952] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:24:50,953] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:50,956] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:24:50,958] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:50,984] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:24:50,986] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:50,993] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:24:50,994] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,012] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,012] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:24:51,013] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,014] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2001-01-01,2001-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2001', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2001.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:24:51,014] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,015] [builder.py:223]            [INFO]     |================================= Validating Emmys 2001 Attributes =================================|
+[2022-11-17 02:24:51,015] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,015] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:24:51,015] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:24:51,015] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,015] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:24:51,016] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:24:51,016] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,016] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:24:51,017] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:24:51,017] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,017] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:24:51,019] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:24:51,019] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,020] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:24:51,020] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2001-01-01,2001-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:24:51,628] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,630] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:24:51,631] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:24:51,631] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,632] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:24:51,633] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2001                                                                              |
+[2022-11-17 02:24:51,634] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,634] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:24:51,635] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2001.jpg |
+[2022-11-17 02:24:51,789] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,790] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:24:51,790] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:24:51,795] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,796] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2001                                                                            |
+[2022-11-17 02:24:51,796] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:24:51,796] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:24:51,796] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:24:51,797] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2001 Collection ===================================|
+[2022-11-17 02:24:51,797] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:24:51,797] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:24:51,797] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:51,797] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2001-01-01,2001-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:24:51,798] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:24:51,799] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2001-01-01,2001-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:24:54,352] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:54,352] [builder.py:1575]           [DEBUG]    | 42 IDs Found                                                                                       |
+[2022-11-17 02:24:54,352] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:24:54,547] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0235904                                             |
+[2022-11-17 02:24:54,853] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0288980                                             |
+[2022-11-17 02:24:54,854] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:54,854] [builder.py:2159]           [INFO]     |================================= Adding to Emmys 2001 Collection ==================================|
+[2022-11-17 02:24:54,854] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:54,855] [builder.py:2174]           [INFO]     | 1/2 | Emmys 2001 Collection | + | Scrubs                                                           |
+[2022-11-17 02:24:55,222] [builder.py:2174]           [INFO]     | 2/2 | Emmys 2001 Collection | + | Star Trek: Enterprise                                            |
+[2022-11-17 02:24:56,505] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:56,506] [builder.py:2196]           [INFO]     | 2 Shows Processed 2 Shows Added                                                                    |
+[2022-11-17 02:24:56,506] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:56,507] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:24:56,508] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:56,650] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Conspiracy (2001) (TMDb: 12900)                                        |
+[2022-11-17 02:24:56,883] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | 61* (2001) (TMDb: 20536)                                               |
+[2022-11-17 02:24:57,159] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Wit (2001) (TMDb: 26976)                                               |
+[2022-11-17 02:24:57,357] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Uprising (2001) (TMDb: 31010)                                          |
+[2022-11-17 02:24:57,638] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | James Dean (2001) (TMDb: 2141)                                         |
+[2022-11-17 02:24:57,823] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Feast of All Saints (2001) (TMDb: 74946)                               |
+[2022-11-17 02:24:57,846] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Victoria & Albert (2001) (TMDb: 177489)                                |
+[2022-11-17 02:24:57,983] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Sweeney Todd: The Demon Barber of Fleet Street in Concert (2001) (TMDb: 100960) |
+[2022-11-17 02:24:57,994] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Britney Spears: Live from Las Vegas (2001) (TMDb: 34900)               |
+[2022-11-17 02:24:58,011] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Living Dolls: The Making of a Child Beauty Queen (2001) (TMDb: 100672) |
+[2022-11-17 02:24:58,023] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | When Dinosaurs Roamed America (2001) (TMDb: 62261)                     |
+[2022-11-17 02:24:58,432] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Wild Iris (2001) (TMDb: 49937)                                         |
+[2022-11-17 02:24:58,444] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | America: A Tribute to Heroes (2001) (TMDb: 40196)                      |
+[2022-11-17 02:24:58,621] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Cirque du Soleil: Dralion (2001) (TMDb: 15548)                         |
+[2022-11-17 02:24:58,764] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Barbra Streisand: Timeless, Live in Concert (2001) (TMDb: 92584)       |
+[2022-11-17 02:24:58,775] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Sting: All this Time (2001) (TMDb: 53447)                              |
+[2022-11-17 02:24:58,953] [builder.py:2321]           [INFO]     | Emmys 2001 Collection | ? | Bruce Springsteen and the E Street Band : Live in New York City (2000) (TMDb: 37826) |
+[2022-11-17 02:24:58,953] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:24:58,954] [builder.py:2327]           [INFO]     | 17 Movies Missing                                                                                  |
+[2022-11-17 02:25:00,029] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:00,029] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2001 ==============================|
+[2022-11-17 02:25:00,029] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:00,080] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Band of Brothers (TVDb: 74205)                                         |
+[2022-11-17 02:25:00,147] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Smallville (TVDb: 72218)                                               |
+[2022-11-17 02:25:00,203] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | 24 (TVDb: 76290)                                                       |
+[2022-11-17 02:25:00,249] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Six Feet Under (TVDb: 75450)                                           |
+[2022-11-17 02:25:00,338] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Alias (TVDb: 75930)                                                    |
+[2022-11-17 02:25:00,402] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Amazing Race (TVDb: 77666)                                         |
+[2022-11-17 02:25:00,446] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Samurai Jack (TVDb: 75164)                                             |
+[2022-11-17 02:25:00,510] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Fairly OddParents (TVDb: 76372)                                    |
+[2022-11-17 02:25:00,564] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Robot Chicken (TVDb: 75734)                                            |
+[2022-11-17 02:25:00,612] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Grim Adventures of Billy & Mandy (TVDb: 78980)                     |
+[2022-11-17 02:25:00,653] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Invader ZIM (TVDb: 75545)                                              |
+[2022-11-17 02:25:00,704] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Bernie Mac Show (TVDb: 75825)                                      |
+[2022-11-17 02:25:00,752] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Blue Planet (TVDb: 74372)                                          |
+[2022-11-17 02:25:00,790] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Mists of Avalon (TVDb: 128661)                                     |
+[2022-11-17 02:25:00,827] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Anne Frank: The Whole Story (TVDb: 265780)                             |
+[2022-11-17 02:25:00,859] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Jack and the Beanstalk: The Real Story (TVDb: 96591)                   |
+[2022-11-17 02:25:00,887] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Life with Judy Garland: Me and My Shadows (TVDb: 332269)               |
+[2022-11-17 02:25:01,027] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Project Greenlight (TVDb: 78146)                                       |
+[2022-11-17 02:25:01,085] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Walking with Beasts (TVDb: 78854)                                      |
+[2022-11-17 02:25:01,109] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | Primetime Glick (TVDb: 76280)                                          |
+[2022-11-17 02:25:01,787] [builder.py:2366]           [INFO]     | Emmys 2001 Collection | ? | The Academy Awards (TVDb: 85269)                                       |
+[2022-11-17 02:25:01,787] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:01,788] [builder.py:2372]           [INFO]     | 21 Shows Missing                                                                                   |
+[2022-11-17 02:25:02,748] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:25:02,748] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:25:02,749] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:25:02,750] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [74205, 72218, 76290, 75450, 75930, 77666, 75164, 76372, 75734, 78980, 75545, 75825, 74372, 128661, 265780, 96591, 332269, 78146, 78854, 76280, 85269] |
+[2022-11-17 02:25:33,271] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:25:33,272] [sonarr.py:164]             [INFO]     | Added to Sonarr | 76280   | Primetime Glick                                                        |
+[2022-11-17 02:25:33,282] [sonarr.py:167]             [INFO]     | 1 Series added to Sonarr                                                                           |
+[2022-11-17 02:25:33,283] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:25:33,284] [sonarr.py:177]             [INFO]     | Already in Sonarr | 72218   | Smallville                                                           |
+[2022-11-17 02:25:33,302] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75450   | Six Feet Under                                                       |
+[2022-11-17 02:25:33,313] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75930   | Alias                                                                |
+[2022-11-17 02:25:33,325] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77666   | The Amazing Race                                                     |
+[2022-11-17 02:25:33,340] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75164   | Samurai Jack                                                         |
+[2022-11-17 02:25:33,351] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76372   | The Fairly OddParents                                                |
+[2022-11-17 02:25:33,367] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75734   | Robot Chicken                                                        |
+[2022-11-17 02:25:33,380] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78980   | The Grim Adventures of Billy & Mandy                                 |
+[2022-11-17 02:25:33,393] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75545   | Invader ZIM                                                          |
+[2022-11-17 02:25:33,409] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75825   | The Bernie Mac Show                                                  |
+[2022-11-17 02:25:33,423] [sonarr.py:177]             [INFO]     | Already in Sonarr | 128661  | The Mists of Avalon                                                  |
+[2022-11-17 02:25:33,439] [sonarr.py:177]             [INFO]     | Already in Sonarr | 265780  | Anne Frank: The Whole Story                                          |
+[2022-11-17 02:25:33,453] [sonarr.py:177]             [INFO]     | Already in Sonarr | 96591   | Jack and the Beanstalk: The Real Story                               |
+[2022-11-17 02:25:33,465] [sonarr.py:177]             [INFO]     | Already in Sonarr | 332269  | Life with Judy Garland: Me and My Shadows                            |
+[2022-11-17 02:25:33,477] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78146   | Project Greenlight                                                   |
+[2022-11-17 02:25:33,487] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78854   | Walking with Beasts                                                  |
+[2022-11-17 02:25:33,505] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74205                                                                          |
+[2022-11-17 02:25:33,505] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74372                                                                          |
+[2022-11-17 02:25:33,506] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85269                                                                          |
+[2022-11-17 02:25:33,506] [sonarr.py:187]             [INFO]     | 19 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:25:33,506] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:25:33,506] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [24]                                                                             |
+[2022-11-17 02:25:33,506] [sonarr.py:207]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2022-11-17 02:25:33,528] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:33,529] [builder.py:2528]           [INFO]     |============================ Updating Details of Emmys 2001 Collection =============================|
+[2022-11-17 02:25:33,529] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:33,537] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !16_Emmys 2001
+                                                                 | Label | +Emmy Awards, +PMM
+[2022-11-17 02:25:35,684] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 02:25:35,685] [builder.py:2603]           [INFO]     | 
+[2022-11-17 02:25:37,817] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-17 02:25:40,017] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-17 02:25:40,017] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-17 02:25:40,017] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2001.jpg
+[2022-11-17 02:25:40,367] [library.py:178]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2001.jpg
+[2022-11-17 02:25:40,426] [builder.py:2686]           [INFO]     | 
+[2022-11-17 02:25:40,426] [builder.py:2687]           [INFO]     |================================== Sorting Emmys 2001 Collection ===================================|
+[2022-11-17 02:25:40,427] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-17 02:25:40,427] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:25:40,427] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:25:40,428] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2001 Collection                                   |
+[2022-11-17 02:25:40,428] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:49                                    |
+[2022-11-17 02:25:40,428] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

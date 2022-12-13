@@ -1,0 +1,75 @@
+[2022-11-16 22:10:19,466] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:10:19,468] [builder.py:193]            [INFO]     |                              Robin Williams Collection in Old Movies                               |
+[2022-11-16 22:10:19,468] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:10:19,468] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,468] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:10:19,468] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,468] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:10:19,469] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,470] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,470] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:10:19,470] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,470] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2157, 'sort_title': '++_Robin Williams', 'collection_order': 'release'} |
+[2022-11-16 22:10:19,470] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,470] [builder.py:223]            [INFO]     |=============================== Validating Robin Williams Attributes ===============================|
+[2022-11-16 22:10:19,470] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,471] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:10:19,471] [builder.py:533]            [DEBUG]    | Value: 2157                                                                                        |
+[2022-11-16 22:10:19,483] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,484] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:10:19,484] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:10:19,484] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,484] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:10:19,484] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:10:19,785] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,785] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:10:19,785] [builder.py:651]            [DEBUG]    | Value: ++_Robin Williams                                                                           |
+[2022-11-16 22:10:19,791] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,791] [builder.py:796]            [ERROR]    | Collection Error: Converting Robin Williams to a normal collection                                 |
+[2022-11-16 22:10:19,798] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,799] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:10:19,799] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,799] [plex_meta_manager.py:596]  [INFO]     |================================ Running Robin Williams Collection =================================|
+[2022-11-16 22:10:19,799] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,800] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:10:19,800] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:10:19,800] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Robin Williams", '?type=1&sort=titleSort&push=1&actor=2990&pop=1') |
+[2022-11-16 22:10:19,800] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,800] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Robin Williams
+[2022-11-16 22:10:19,833] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:10:19,834] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 22:10:19,834] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:10:19,834] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:10:19,835] [builder.py:2159]           [INFO]     |=============================== Adding to Robin Williams Collection ================================|
+[2022-11-16 22:10:19,835] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:10:19,836] [builder.py:2174]           [INFO]     | 1/4 | Robin Williams Collection | + | Jumanji (1995)                                               |
+[2022-11-16 22:10:21,687] [builder.py:2174]           [INFO]     | 2/4 | Robin Williams Collection | + | Night at the Museum (2006)                                   |
+[2022-11-16 22:10:21,826] [builder.py:2174]           [INFO]     | 3/4 | Robin Williams Collection | + | Night at the Museum: Battle of the Smithsonian (2009)        |
+[2022-11-16 22:10:21,929] [builder.py:2174]           [INFO]     | 4/4 | Robin Williams Collection | + | Night at the Museum: Secret of the Tomb (2014)               |
+[2022-11-16 22:10:24,367] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:10:24,367] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 22:10:24,372] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:10:24,373] [builder.py:2528]           [INFO]     |========================== Updating Details of Robin Williams Collection ===========================|
+[2022-11-16 22:10:24,373] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:10:24,379] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Robin McLaurin Williams (July 21, 1951 – August 11, 2014) was an  American actor and stand-up comedian. Rising to fame with his role as  the alien Mork in the TV series Mork & Mindy  (1978–1982), Williams  went on to establish a successful career in both  stand-up comedy and  feature film acting. His film career included such  acclaimed films as  "The World According to Garp" (1982), Good Morning, Vietnam (1987), Dead  Poets Society (1989), Awakenings (1990), The Fisher King (1991), and  Good Will Hunting (1997), as well as financial successes such as Popeye  (1980), Hook (1991), Aladdin (1992), Mrs. Doubtfire (1993), Jumanji  (1995), The Birdcage (1996), Night at the Museum (2006), and Happy Feet  (2006).
+                                                                 | 
+                                                                 | He also appeared in the video "Don't Worry, Be Happy" by Bobby  McFerrin.  Nominated for the Academy Award for Best Actor three times, Williams  received the Academy Award for Best Supporting Actor for his performance  in Good Will Hunting (1997). He also received two Emmy Awards, four  Golden Globe Awards, two Screen Actors Guild Awards and five Grammy  Awards.
+                                                                 | 
+                                                                 | On August 11, 2014, Williams was found unconscious at his residence and  was pronounced dead at the scene. The Marin County, California,  coroner's office said they believe the cause of death was asphyxiation.
+                                                                 | Sort Title | ++_Robin Williams
+                                                                 | Label | +PMM
+[2022-11-16 22:10:26,412] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:10:26,412] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:10:26,413] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:10:26,413] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/iYdeP6K0qz44Wg2Nw9LPJGMBkQ5.jpg
+[2022-11-16 22:10:26,512] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/iYdeP6K0qz44Wg2Nw9LPJGMBkQ5.jpg
+[2022-11-16 22:10:26,568] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:10:26,569] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:10:26,569] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Robin Williams Collection                                 |
+[2022-11-16 22:10:26,569] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 22:10:26,569] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

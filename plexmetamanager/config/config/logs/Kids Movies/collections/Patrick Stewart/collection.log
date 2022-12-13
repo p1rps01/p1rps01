@@ -1,0 +1,76 @@
+[2022-11-16 20:22:30,021] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:30,021] [builder.py:193]            [INFO]     |                             Patrick Stewart Collection in Kids Movies                              |
+[2022-11-16 20:22:30,021] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:30,021] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,021] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:22:30,021] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,022] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:22:30,022] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,023] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,023] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:22:30,023] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,023] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2387, 'sort_title': '++_Patrick Stewart', 'collection_order': 'release'} |
+[2022-11-16 20:22:30,023] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,023] [builder.py:223]            [INFO]     |============================== Validating Patrick Stewart Attributes ===============================|
+[2022-11-16 20:22:30,024] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,024] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:22:30,024] [builder.py:533]            [DEBUG]    | Value: 2387                                                                                        |
+[2022-11-16 20:22:30,054] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,054] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:22:30,054] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:22:30,054] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,054] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:22:30,055] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:22:30,371] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,371] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:22:30,372] [builder.py:651]            [DEBUG]    | Value: ++_Patrick Stewart                                                                          |
+[2022-11-16 20:22:30,377] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,377] [builder.py:796]            [ERROR]    | Collection Error: Converting Patrick Stewart to a normal collection                                |
+[2022-11-16 20:22:30,382] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,383] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:596]  [INFO]     |================================ Running Patrick Stewart Collection ================================|
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Patrick Stewart", '?type=1&sort=titleSort&push=1&actor=5491&pop=1') |
+[2022-11-16 20:22:30,383] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,383] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Patrick Stewart
+[2022-11-16 20:22:30,405] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:22:30,405] [builder.py:1575]           [DEBUG]    | 9 IDs Found
+[2022-11-16 20:22:30,405] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:22:30,406] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:22:30,406] [builder.py:2159]           [INFO]     |=============================== Adding to Patrick Stewart Collection ===============================|
+[2022-11-16 20:22:30,406] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:30,406] [builder.py:2174]           [INFO]     | 1/9 | Patrick Stewart Collection | + | Bambi 2: The Great Prince of the Forest (2006)              |
+[2022-11-16 20:22:32,314] [builder.py:2174]           [INFO]     | 2/9 | Patrick Stewart Collection | + | Chicken Little (2005)                                       |
+[2022-11-16 20:22:34,371] [builder.py:2174]           [INFO]     | 3/9 | Patrick Stewart Collection | + | The Emoji Movie (2017)                                      |
+[2022-11-16 20:22:36,454] [builder.py:2174]           [INFO]     | 4/9 | Patrick Stewart Collection | + | Gnomeo & Juliet (2011)                                      |
+[2022-11-16 20:22:36,581] [builder.py:2174]           [INFO]     | 5/9 | Patrick Stewart Collection | + | Ice Age: Continental Drift (2012)                           |
+[2022-11-16 20:22:38,674] [builder.py:2174]           [INFO]     | 6/9 | Patrick Stewart Collection | + | Jimmy Neutron: Boy Genius (2001)                            |
+[2022-11-16 20:22:40,513] [builder.py:2174]           [INFO]     | 7/9 | Patrick Stewart Collection | + | The Pagemaster (1994)                                       |
+[2022-11-16 20:22:42,452] [builder.py:2174]           [INFO]     | 8/9 | Patrick Stewart Collection | + | The Prince of Egypt (1998)                                  |
+[2022-11-16 20:22:42,553] [builder.py:2174]           [INFO]     | 9/9 | Patrick Stewart Collection | + | Spark: A Space Tail (2016)                                  |
+[2022-11-16 20:22:46,950] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:46,951] [builder.py:2196]           [INFO]     | 9 Movies Processed 9 Movies Added                                                                  |
+[2022-11-16 20:22:46,956] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:46,956] [builder.py:2528]           [INFO]     |========================== Updating Details of Patrick Stewart Collection ==========================|
+[2022-11-16 20:22:46,956] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:46,963] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | An English film, television and stage actor. He has had a distinguished career in theatre and television for around half a century. He is most widely known for his television and film roles, as Captain Jean-Luc Picard in Star Trek: The Next Generation and as Professor Charles Xavier in the X-Men films. Stewart was born in Mirfield near Dewsbury in the West Riding of Yorkshire, England, the son of Gladys, a weaver and textile worker, and Alfred Stewart, a Regimental Sergeant Major in the British Army who served with the King's Own Yorkshire Light Infantry and previously worked as a general labourer and as a postman. Stewart and his first wife, Sheila Falconer, have two children: Daniel Freedom and Sophie Alexandra. Stewart and Falconer divorced in 1990. In 1997, he became engaged to Wendy Neuss, one of the producers of Star Trek: The Next Generation, and they married on 25 August 2000, divorcing three years later. Four months prior to his divorce from Neuss, Stewart played opposite actress Lisa Dillon in a production of The Master Builder. The two dated for four years, but are no longer together. He is now seeing Sunny Ozell; at 31, she is younger than his daughter. "I just don't meet women of my age," he explains. Stewart has been a prolific actor in performances by the Royal Shakespeare Company, appearing in over 60 productions.
+                                                                 | Sort Title | ++_Patrick Stewart
+                                                                 | Label | +PMM
+[2022-11-16 20:22:48,603] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:22:48,603] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:22:48,603] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:22:48,603] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg
+[2022-11-16 20:22:48,658] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/3yExCGqCMfSOVVHdEYTJhXaTtFZ.jpg
+[2022-11-16 20:22:48,719] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:22:48,719] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:22:48,719] [plex_meta_manager.py:737]  [INFO]     |                                Finished Patrick Stewart Collection                                 |
+[2022-11-16 20:22:48,720] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:18                                    |
+[2022-11-16 20:22:48,720] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

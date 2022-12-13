@@ -1,0 +1,217 @@
+[2022-11-16 18:54:31,281] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:31,281] [builder.py:193]            [INFO]     |                     Sundance Film Festival 2018 Collection in Halloween Movies                     |
+[2022-11-16 18:54:31,281] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:31,281] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,281] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:31,281] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,281] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:31,282] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,283] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:31,286] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,288] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:31,290] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,294] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:31,295] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,299] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,300] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:31,313] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:31,314] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,322] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:31,323] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,329] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,329] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:31,330] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,330] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2018-sundance', 'summary': 'Sundance Film Festival of 2018.', 'name': 'Sundance Film Festival 2018', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2018', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2018.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:31,330] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,331] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2018 Attributes =========================|
+[2022-11-16 18:54:31,331] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,331] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:31,331] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2018                                                                 |
+[2022-11-16 18:54:31,331] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,331] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:31,332] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:31,332] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,332] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:31,332] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:31,332] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,333] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:31,333] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:31,333] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,333] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:31,333] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:31,334] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,334] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:31,334] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 18:54:31,334] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,334] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:31,334] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2018-sundance                                            |
+[2022-11-16 18:54:31,391] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,391] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:31,391] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2018.                                                             |
+[2022-11-16 18:54:31,392] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,392] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:31,392] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:31,392] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,392] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:31,393] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2018                                                             |
+[2022-11-16 18:54:31,393] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,393] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:31,393] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2018.jpg |
+[2022-11-16 18:54:31,553] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,553] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:31,554] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:31,604] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,604] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:31,604] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,604] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2018 Collection ==========================|
+[2022-11-16 18:54:31,604] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,605] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:31,605] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,605] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2018-sundance                              |
+[2022-11-16 18:54:31,605] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,606] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:31,609] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,610] [builder.py:1575]           [DEBUG]    | 116 IDs Found                                                                                      |
+[2022-11-16 18:54:31,610] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:31,611] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,612] [builder.py:2159]           [INFO]     |========================= Adding to Sundance Film Festival 2018 Collection =========================|
+[2022-11-16 18:54:31,612] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,613] [builder.py:2174]           [INFO]     | 1/2 | Sundance Film Festival 2018 Collection | = | Mandy (2018)                                    |
+[2022-11-16 18:54:31,613] [builder.py:2174]           [INFO]     | 2/2 | Sundance Film Festival 2018 Collection | = | Summer of 84 (2018)                             |
+[2022-11-16 18:54:31,614] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,614] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:54:31,615] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,615] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:31,615] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:31,729] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Don't Worry, He Won't Get Far on Foot (2018) (TMDb: 443009) |
+[2022-11-16 18:54:31,743] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Futile and Stupid Gesture (2018) (TMDb: 391710)     |
+[2022-11-16 18:54:31,755] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Leave No Trace (2018) (TMDb: 443463)                  |
+[2022-11-16 18:54:31,773] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Puzzle (2018) (TMDb: 492998)                          |
+[2022-11-16 18:54:31,784] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Juliet, Naked (2018) (TMDb: 458344)                   |
+[2022-11-16 18:54:31,795] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Colette (2018) (TMDb: 454652)                         |
+[2022-11-16 18:54:31,806] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Private Life (2018) (TMDb: 458342)                    |
+[2022-11-16 18:54:31,819] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Kid Like Jake (2018) (TMDb: 467917)                 |
+[2022-11-16 18:54:31,830] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Happy Prince (2018) (TMDb: 427214)                |
+[2022-11-16 18:54:31,842] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Beirut (2018) (TMDb: 399248)                          |
+[2022-11-16 18:54:31,858] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Come Sunday (2018) (TMDb: 430446)                     |
+[2022-11-16 18:54:31,874] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Ophelia (2019) (TMDb: 428836)                         |
+[2022-11-16 18:54:31,901] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Long Dumb Road (2018) (TMDb: 457243)              |
+[2022-11-16 18:54:31,914] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | What They Had (2018) (TMDb: 451919)                   |
+[2022-11-16 18:54:31,925] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Catcher Was a Spy (2018) (TMDb: 467952)           |
+[2022-11-16 18:54:31,936] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Death of Stalin (2017) (TMDb: 402897)             |
+[2022-11-16 18:54:31,948] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | You Were Never Really Here (2017) (TMDb: 398181)      |
+[2022-11-16 18:54:31,960] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Rider (2018) (TMDb: 453278)                       |
+[2022-11-16 18:54:31,977] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | I Am Not a Witch (2017) (TMDb: 449757)                |
+[2022-11-16 18:54:31,991] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Foxtrot (2017) (TMDb: 444431)                         |
+[2022-11-16 18:54:31,994] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Sweet Country (2018) (TMDb: 468210)                   |
+[2022-11-16 18:54:32,009] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Beast (2018) (TMDb: 470918)                           |
+[2022-11-16 18:54:32,026] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Super Size Me 2: Holy Chicken! (2019) (TMDb: 468996)  |
+[2022-11-16 18:54:32,037] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Miseducation of Cameron Post (2018) (TMDb: 426613) |
+[2022-11-16 18:54:32,054] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Burden (2020) (TMDb: 424201)                          |
+[2022-11-16 18:54:32,066] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Kindergarten Teacher (2018) (TMDb: 489927)        |
+[2022-11-16 18:54:32,078] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Nancy (2018) (TMDb: 480853)                           |
+[2022-11-16 18:54:32,089] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | I Think We're Alone Now (2018) (TMDb: 451877)         |
+[2022-11-16 18:54:32,113] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Monsters and Men (2018) (TMDb: 489934)                |
+[2022-11-16 18:54:32,131] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Blaze (2018) (TMDb: 489928)                           |
+[2022-11-16 18:54:32,141] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Eighth Grade (2018) (TMDb: 489925)                    |
+[2022-11-16 18:54:32,197] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Wildlife (2018) (TMDb: 417812)                        |
+[2022-11-16 18:54:32,273] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | American Animals (2018) (TMDb: 489931)                |
+[2022-11-16 18:54:32,289] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Blindspotting (2018) (TMDb: 489930)                   |
+[2022-11-16 18:54:32,306] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Tale (2018) (TMDb: 369523)                        |
+[2022-11-16 18:54:32,321] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Sorry to Bother You (2018) (TMDb: 424781)             |
+[2022-11-16 18:54:32,337] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Monster (2021) (TMDb: 489932)                         |
+[2022-11-16 18:54:32,350] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Tyrel (2018) (TMDb: 454312)                           |
+[2022-11-16 18:54:32,374] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Butterflies (2018) (TMDb: 491303)                     |
+[2022-11-16 18:54:32,393] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Guilty (2018) (TMDb: 486947)                      |
+[2022-11-16 18:54:32,499] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | And Breathe Normally (2018) (TMDb: 489982)            |
+[2022-11-16 18:54:32,511] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Queen of Fear (2018) (TMDb: 491311)               |
+[2022-11-16 18:54:32,522] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Dead Pigs (2018) (TMDb: 491305)                       |
+[2022-11-16 18:54:32,536] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Time Share (2018) (TMDb: 387827)                      |
+[2022-11-16 18:54:32,548] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Loveling (2018) (TMDb: 490039)                        |
+[2022-11-16 18:54:32,561] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Pity (2018) (TMDb: 489990)                            |
+[2022-11-16 18:54:32,574] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Translator (2019) (TMDb: 491317)                    |
+[2022-11-16 18:54:32,577] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Rust (2018) (TMDb: 489991)                            |
+[2022-11-16 18:54:32,591] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Yardie (2018) (TMDb: 420915)                          |
+[2022-11-16 18:54:32,604] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Holiday (2018) (TMDb: 490033)                         |
+[2022-11-16 18:54:32,618] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Searching (2018) (TMDb: 489999)                       |
+[2022-11-16 18:54:32,631] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Night Comes On (2018) (TMDb: 489998)                  |
+[2022-11-16 18:54:32,644] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | We the Animals (2018) (TMDb: 490000)                  |
+[2022-11-16 18:54:32,670] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Skate Kitchen (2018) (TMDb: 491474)                   |
+[2022-11-16 18:54:32,690] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | 306 Hollywood (2018) (TMDb: 489995)                   |
+[2022-11-16 18:54:32,701] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | White Rabbit (2018) (TMDb: 490008)                    |
+[2022-11-16 18:54:32,713] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Boy. A Girl. A Dream (2018) (TMDb: 493003)          |
+[2022-11-16 18:54:32,724] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Madeline's Madeline (2018) (TMDb: 468735)             |
+[2022-11-16 18:54:32,737] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Clara's Ghost (2018) (TMDb: 489996)                   |
+[2022-11-16 18:54:32,759] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | An Evening with Beverly Luff Linn (2018) (TMDb: 446695) |
+[2022-11-16 18:54:32,779] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Arizona (2018) (TMDb: 490004)                         |
+[2022-11-16 18:54:32,810] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Assassination Nation (2018) (TMDb: 446101)            |
+[2022-11-16 18:54:32,824] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Never Goin' Back (2018) (TMDb: 490005)                |
+[2022-11-16 18:54:32,838] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Lords of Chaos (2018) (TMDb: 426249)                  |
+[2022-11-16 18:54:32,855] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Revenge (2017) (TMDb: 467938)                         |
+[2022-11-16 18:54:32,873] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Piercing (2018) (TMDb: 440444)                        |
+[2022-11-16 18:54:32,890] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Thousand Thoughts (2018) (TMDb: 501105)             |
+[2022-11-16 18:54:32,903] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Lu Over the Wall (2017) (TMDb: 436120)                |
+[2022-11-16 18:54:32,918] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | White Fang (2018) (TMDb: 456154)                      |
+[2022-11-16 18:54:32,929] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Science Fair (2018) (TMDb: 493121)                    |
+[2022-11-16 18:54:32,942] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Price of Free (2018) (TMDb: 490792)               |
+[2022-11-16 18:54:32,954] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Sentence (2018) (TMDb: 492638)                    |
+[2022-11-16 18:54:32,966] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | On Her Shoulders (2018) (TMDb: 490816)                |
+[2022-11-16 18:54:32,981] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Minding the Gap (2018) (TMDb: 489985)                 |
+[2022-11-16 18:54:32,995] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Hale County This Morning, This Evening (2018) (TMDb: 490785) |
+[2022-11-16 18:54:33,006] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Crime + Punishment (2018) (TMDb: 489983)              |
+[2022-11-16 18:54:33,018] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Three Identical Strangers (2018) (TMDb: 489988)       |
+[2022-11-16 18:54:33,029] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Seeing Allred (2018) (TMDb: 490818)                   |
+[2022-11-16 18:54:33,049] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Dark Money (2018) (TMDb: 490780)                      |
+[2022-11-16 18:54:33,065] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Devil We Know (2018) (TMDb: 489984)               |
+[2022-11-16 18:54:33,117] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Inventing Tomorrow (2019) (TMDb: 490788)              |
+[2022-11-16 18:54:33,129] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Hal (2019) (TMDb: 322520)                             |
+[2022-11-16 18:54:33,141] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Price of Everything (2018) (TMDb: 489987)         |
+[2022-11-16 18:54:33,158] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Bisbee '17 (2018) (TMDb: 490758)                      |
+[2022-11-16 18:54:33,170] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Last Race (2018) (TMDb: 490795)                   |
+[2022-11-16 18:54:33,181] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Kusama : Infinity (2018) (TMDb: 490794)               |
+[2022-11-16 18:54:33,196] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Of Fathers and Sons (2017) (TMDb: 488740)             |
+[2022-11-16 18:54:33,208] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | This Is Home: A Refugee Story (2018) (TMDb: 493114)   |
+[2022-11-16 18:54:33,220] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Shirkers (2018) (TMDb: 489994)                        |
+[2022-11-16 18:54:33,232] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Genesis 2.0 (2018) (TMDb: 493016)                     |
+[2022-11-16 18:54:33,244] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Matangi / Maya / M.I.A. (2018) (TMDb: 493106)         |
+[2022-11-16 18:54:33,261] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 490150                                                      |
+[2022-11-16 18:54:33,273] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Cleaners (2018) (TMDb: 492994)                    |
+[2022-11-16 18:54:33,283] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Woman Captured (2017) (TMDb: 488756)                |
+[2022-11-16 18:54:33,294] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Anote's Ark (2018) (TMDb: 471254)                     |
+[2022-11-16 18:54:33,306] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | A Polar Year (2018) (TMDb: 493017)                    |
+[2022-11-16 18:54:33,326] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Oslo Diaries (2018) (TMDb: 493110)                |
+[2022-11-16 18:54:33,339] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Westwood: Punk, Icon, Activist (2018) (TMDb: 478426)  |
+[2022-11-16 18:54:33,361] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Robin Williams: Come Inside My Mind (2018) (TMDb: 493100) |
+[2022-11-16 18:54:33,376] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The Game Changers (2019) (TMDb: 463088)               |
+[2022-11-16 18:54:33,398] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Generation Wealth (2018) (TMDb: 493014)               |
+[2022-11-16 18:54:33,415] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Studio 54 (2018) (TMDb: 493101)                       |
+[2022-11-16 18:54:33,435] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Half the Picture (2018) (TMDb: 490071)                |
+[2022-11-16 18:54:33,446] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Bad Reputation (2018) (TMDb: 493092)                  |
+[2022-11-16 18:54:33,462] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | RBG (2018) (TMDb: 493099)                             |
+[2022-11-16 18:54:33,478] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Won't You Be My Neighbor? (2018) (TMDb: 490003)       |
+[2022-11-16 18:54:33,493] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Jane Fonda in Five Acts (2018) (TMDb: 490082)         |
+[2022-11-16 18:54:33,505] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | King in the Wilderness (2018) (TMDb: 493001)          |
+[2022-11-16 18:54:33,517] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Chef Flynn (2018) (TMDb: 493089)                      |
+[2022-11-16 18:54:33,529] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Akicita: The Battle of Standing Rock (2018) (TMDb: 493919) |
+[2022-11-16 18:54:33,542] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Believer (2018) (TMDb: 490001)                        |
+[2022-11-16 18:54:33,559] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Quiet Heroes (2018) (TMDb: 490002)                    |
+[2022-11-16 18:54:33,590] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | The King (2018) (TMDb: 452226)                        |
+[2022-11-16 18:54:33,602] [builder.py:2321]           [INFO]     | Sundance Film Festival 2018 Collection | ? | Pass Over (2018) (TMDb: 501154)                       |
+[2022-11-16 18:54:33,603] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:33,603] [builder.py:2327]           [INFO]     | 113 Movies Missing                                                                                 |
+[2022-11-16 18:54:37,288] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:37,289] [builder.py:2528]           [INFO]     |==================== Updating Details of Sundance Film Festival 2018 Collection ====================|
+[2022-11-16 18:54:37,289] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:37,297] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:54:37,299] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:54:37,299] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2018.jpg |
+[2022-11-16 18:54:37,299] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Sundance Film Festival 2018/poster.jpg', 'prefix': "Sundance Film Festival 2018's ", 'is_poster': True, 'is_url': False, 'compare': 264032, 'message': "Sundance Film Festival 2018's poster to [File] /config/Halloween_Movies/Assets/Sundance Film Festival 2018/poster.jpg"} |
+[2022-11-16 18:54:37,300] [library.py:180]            [INFO]     | Detail: Sundance Film Festival 2018's poster update not needed                                     |
+[2022-11-16 18:54:37,343] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:37,343] [builder.py:2687]           [INFO]     |========================== Sorting Sundance Film Festival 2018 Collection ==========================|
+[2022-11-16 18:54:37,344] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:37,344] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:37,344] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:54:37,345] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2018 Collection                           |
+[2022-11-16 18:54:37,345] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 18:54:37,345] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

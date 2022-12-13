@@ -1,0 +1,241 @@
+[2022-11-16 18:51:13,986] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:51:13,987] [builder.py:193]            [INFO]     |                             Cannes 2022 Collection in Halloween Movies                             |
+[2022-11-16 18:51:13,987] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:51:13,988] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:51:13,988] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:51:13,988] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:13,988] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:51:13,989] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:13,991] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:51:13,992] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:13,995] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:51:13,995] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,000] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:51:14,002] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,009] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,009] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:51:14,023] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:51:14,025] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,035] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:51:14,036] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,043] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,043] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:51:14,044] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,044] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2022-cannes', 'summary': '2022 Cannes Awards.', 'name': 'Cannes 2022', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Cannes 2022', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2022.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:51:14,045] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,045] [builder.py:223]            [INFO]     |================================ Validating Cannes 2022 Attributes =================================|
+[2022-11-16 18:51:14,046] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,046] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:51:14,046] [builder.py:230]            [DEBUG]    | Value: Cannes 2022                                                                                 |
+[2022-11-16 18:51:14,047] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,048] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:51:14,048] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:51:14,049] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,049] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:51:14,050] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:51:14,052] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,052] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:51:14,053] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:51:14,054] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,054] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:51:14,055] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:51:14,056] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,056] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:51:14,057] [builder.py:651]            [DEBUG]    | Value: Cannes Awards                                                                               |
+[2022-11-16 18:51:14,057] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,058] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:51:14,058] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2022-cannes                                              |
+[2022-11-16 18:51:14,135] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,135] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:51:14,135] [builder.py:651]            [DEBUG]    | Value: 2022 Cannes Awards.                                                                         |
+[2022-11-16 18:51:14,136] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,136] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:51:14,136] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:51:14,136] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,137] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:51:14,137] [builder.py:651]            [DEBUG]    | Value: !16_Cannes 2022                                                                             |
+[2022-11-16 18:51:14,138] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,138] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:51:14,138] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2022.jpg |
+[2022-11-16 18:51:14,252] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,253] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:51:14,253] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:51:14,301] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,302] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:51:14,302] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,302] [plex_meta_manager.py:596]  [INFO]     |================================== Running Cannes 2022 Collection ==================================|
+[2022-11-16 18:51:14,302] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,303] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:51:14,303] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,303] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2022-cannes                                |
+[2022-11-16 18:51:14,303] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,304] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:51:14,307] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,308] [builder.py:1575]           [DEBUG]    | 141 IDs Found                                                                                      |
+[2022-11-16 18:51:14,308] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:14,309] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,309] [builder.py:2159]           [INFO]     |================================= Adding to Cannes 2022 Collection =================================|
+[2022-11-16 18:51:14,309] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,310] [builder.py:2174]           [INFO]     | 1/2 | Cannes 2022 Collection | = | Crimes of the Future (2022)                                     |
+[2022-11-16 18:51:14,310] [builder.py:2174]           [INFO]     | 2/2 | Cannes 2022 Collection | = | Men (2022)                                                      |
+[2022-11-16 18:51:14,310] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,311] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:51:14,311] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,311] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:51:14,311] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:14,389] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Triangle of Sadness (2022) (TMDb: 497828)                             |
+[2022-11-16 18:51:14,402] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Close (2022) (TMDb: 901563)                                           |
+[2022-11-16 18:51:14,414] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Stars at Noon (2022) (TMDb: 603204)                                   |
+[2022-11-16 18:51:14,426] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Decision to Leave (2022) (TMDb: 705996)                               |
+[2022-11-16 18:51:14,438] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Boy from Heaven (2022) (TMDb: 788977)                                 |
+[2022-11-16 18:51:14,455] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Broker (2022) (TMDb: 736732)                                          |
+[2022-11-16 18:51:14,472] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Holy Spider (2022) (TMDb: 889699)                                     |
+[2022-11-16 18:51:14,500] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Eight Mountains (2022) (TMDb: 803700)                             |
+[2022-11-16 18:51:14,513] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | EO (2022) (TMDb: 785398)                                              |
+[2022-11-16 18:51:14,527] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Tori and Lokita (2022) (TMDb: 914203)                                 |
+[2022-11-16 18:51:14,539] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Brother and Sister (2022) (TMDb: 836202)                              |
+[2022-11-16 18:51:14,552] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Showing Up (2022) (TMDb: 790416)                                      |
+[2022-11-16 18:51:14,565] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Leila's Brothers (2022) (TMDb: 962558)                                |
+[2022-11-16 18:51:14,577] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Armageddon Time (2022) (TMDb: 615952)                                 |
+[2022-11-16 18:51:14,591] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Nostalgia (2022) (TMDb: 541724)                                       |
+[2022-11-16 18:51:14,604] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | R.M.N. (2022) (TMDb: 919570)                                          |
+[2022-11-16 18:51:14,623] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Tchaikovsky’s Wife (2023) (TMDb: 901358)                              |
+[2022-11-16 18:51:14,637] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Forever Young (2022) (TMDb: 848958)                                   |
+[2022-11-16 18:51:14,650] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Mother and Son (2023) (TMDb: 926889)                                  |
+[2022-11-16 18:51:14,667] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Pacifiction (2022) (TMDb: 691214)                                     |
+[2022-11-16 18:51:14,682] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Worst Ones (2022) (TMDb: 962543)                                  |
+[2022-11-16 18:51:14,695] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Joyland (2022) (TMDb: 962571)                                         |
+[2022-11-16 18:51:14,709] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Metronom (2023) (TMDb: 962562)                                        |
+[2022-11-16 18:51:14,723] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Mediterranean Fever (2022) (TMDb: 958291)                             |
+[2022-11-16 18:51:14,741] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Corsage (2022) (TMDb: 888321)                                         |
+[2022-11-16 18:51:14,753] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Harka (2022) (TMDb: 849242)                                           |
+[2022-11-16 18:51:14,859] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Rodéo (2022) (TMDb: 936378)                                           |
+[2022-11-16 18:51:14,876] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | War Pony (2022) (TMDb: 962566)                                        |
+[2022-11-16 18:51:14,889] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Plan 75 (2022) (TMDb: 958487)                                         |
+[2022-11-16 18:51:14,901] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Blue Caftan (2023) (TMDb: 958279)                                 |
+[2022-11-16 18:51:14,912] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Return to Seoul (2023) (TMDb: 952701)                                 |
+[2022-11-16 18:51:14,925] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Burning Days (2022) (TMDb: 682152)                                    |
+[2022-11-16 18:51:14,939] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Butterfly Vision (2022) (TMDb: 962568)                                |
+[2022-11-16 18:51:14,958] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Domingo and the Mist (2022) (TMDb: 962565)                            |
+[2022-11-16 18:51:14,981] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Godland (2022) (TMDb: 960206)                                         |
+[2022-11-16 18:51:15,006] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | More Than Ever (2022) (TMDb: 843093)                                  |
+[2022-11-16 18:51:15,022] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Sick of Myself (2022) (TMDb: 788734)                                  |
+[2022-11-16 18:51:15,037] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Silent Twins (2022) (TMDb: 812025)                                |
+[2022-11-16 18:51:15,055] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Stranger (2022) (TMDb: 848791)                                    |
+[2022-11-16 18:51:15,073] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                               |
+[2022-11-16 18:51:15,087] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Final Cut (2022) (TMDb: 852438)                                       |
+[2022-11-16 18:51:15,105] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Three Thousand Years of Longing (2022) (TMDb: 556694)                 |
+[2022-11-16 18:51:15,126] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Elvis (2022) (TMDb: 614934)                                           |
+[2022-11-16 18:51:15,138] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Innocent (2022) (TMDb: 919573)                                    |
+[2022-11-16 18:51:15,156] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Masquerade (2022) (TMDb: 892515)                                      |
+[2022-11-16 18:51:15,171] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | November (2022) (TMDb: 823951)                                        |
+[2022-11-16 18:51:15,190] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Hunt (2022) (TMDb: 727340)                                            |
+[2022-11-16 18:51:15,205] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Moonage Daydream (2022) (TMDb: 957457)                                |
+[2022-11-16 18:51:15,218] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Rebel (2022) (TMDb: 853332)                                           |
+[2022-11-16 18:51:15,264] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Smoking Causes Coughing (2022) (TMDb: 872709)                         |
+[2022-11-16 18:51:15,278] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Remains of the Wind (2023) (TMDb: 965817)                             |
+[2022-11-16 18:51:15,296] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Vagabonds (2022) (TMDb: 965807)                                   |
+[2022-11-16 18:51:15,311] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Marcel! (2022) (TMDb: 919260)                                         |
+[2022-11-16 18:51:15,325] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Little Nicholas (2022) (TMDb: 893366)                                 |
+[2022-11-16 18:51:15,347] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | All That Breathes (2022) (TMDb: 913838)                               |
+[2022-11-16 18:51:15,367] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Mariupolis 2 (2022) (TMDb: 975017)                                    |
+[2022-11-16 18:51:15,386] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Jerry Lee Lewis: Trouble in Mind (2022) (TMDb: 962537)                |
+[2022-11-16 18:51:15,415] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | My Imaginary Country (2022) (TMDb: 958496)                            |
+[2022-11-16 18:51:15,433] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Natural History of Destruction (2022) (TMDb: 958000)              |
+[2022-11-16 18:51:15,455] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Riposte féministe (2022) (TMDb: 965824)                               |
+[2022-11-16 18:51:15,471] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Salam (2022) (TMDb: 969103)                                           |
+[2022-11-16 18:51:15,492] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | For the Sake of Peace (2022) (TMDb: 975028)                           |
+[2022-11-16 18:51:15,514] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Diary of a Fleeting Affair (2022) (TMDb: 794842)                      |
+[2022-11-16 18:51:15,537] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Dodo (2022) (TMDb: 927774)                                            |
+[2022-11-16 18:51:15,646] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Don Juan (2022) (TMDb: 657198)                                        |
+[2022-11-16 18:51:15,668] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Our Brothers (2022) (TMDb: 962541)                                    |
+[2022-11-16 18:51:15,684] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Night of the 12th (2022) (TMDb: 925102)                           |
+[2022-11-16 18:51:15,708] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Esterno Notte (2022) (TMDb: 977487)                                   |
+[2022-11-16 18:51:15,720] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | La Jauría (2022) (TMDb: 961735)                                       |
+[2022-11-16 18:51:15,736] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Aftersun (2022) (TMDb: 965150)                                        |
+[2022-11-16 18:51:15,750] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Woodcutter Story (2022) (TMDb: 716847)                            |
+[2022-11-16 18:51:15,763] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Love According to Dalva (2023) (TMDb: 958244)                         |
+[2022-11-16 18:51:15,790] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Alma Viva (2022) (TMDb: 958192)                                       |
+[2022-11-16 18:51:15,805] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Summer Scars (2023) (TMDb: 931982)                                    |
+[2022-11-16 18:51:15,820] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Imagine (2022) (TMDb: 965153)                                         |
+[2022-11-16 18:51:15,833] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | When You Finish Saving the World (2022) (TMDb: 691422)                |
+[2022-11-16 18:51:15,845] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Everybody Loves Jeanne (2022) (TMDb: 925096)                          |
+[2022-11-16 18:51:15,859] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Next Sohee (2022) (TMDb: 923344)                                      |
+[2022-11-16 18:51:15,871] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Sons of Ramses (2023) (TMDb: 928200)                                  |
+[2022-11-16 18:51:15,896] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | One Fine Morning (2022) (TMDb: 747779)                                |
+[2022-11-16 18:51:15,910] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Mountain (2023) (TMDb: 958736)                                    |
+[2022-11-16 18:51:15,920] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Will-o’-the-Wisp (2022) (TMDb: 964704)                                |
+[2022-11-16 18:51:16,046] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | 1976 (2023) (TMDb: 957461)                                            |
+[2022-11-16 18:51:16,060] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Ashkal (2023) (TMDb: 964679)                                          |
+[2022-11-16 18:51:16,075] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Dam (2023) (TMDb: 958296)                                         |
+[2022-11-16 18:51:16,087] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Continental Drift (South) (2022) (TMDb: 958978)                       |
+[2022-11-16 18:51:16,101] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Enys Men (2023) (TMDb: 740049)                                        |
+[2022-11-16 18:51:16,114] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | De Humani Corporis Fabrica (2022) (TMDb: 721232)                      |
+[2022-11-16 18:51:16,127] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Falcon Lake (2022) (TMDb: 946127)                                     |
+[2022-11-16 18:51:16,138] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Five Devils (2022) (TMDb: 820697)                                 |
+[2022-11-16 18:51:16,150] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Funny Pages (2022) (TMDb: 583095)                                     |
+[2022-11-16 18:51:16,170] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | God's Creatures (2022) (TMDb: 828558)                                 |
+[2022-11-16 18:51:16,187] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Green Perfume (2022) (TMDb: 950053)                               |
+[2022-11-16 18:51:16,199] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Harkis (2022) (TMDb: 934752)                                          |
+[2022-11-16 18:51:16,213] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | A Male (2022) (TMDb: 865587)                                          |
+[2022-11-16 18:51:16,235] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Pamfir (2022) (TMDb: 850297)                                          |
+[2022-11-16 18:51:16,250] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Paris Memories (2022) (TMDb: 915931)                                  |
+[2022-11-16 18:51:16,263] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | Scarlet (2023) (TMDb: 840111)                                         |
+[2022-11-16 18:51:16,284] [builder.py:2325]           [INFO]     | Cannes 2022 Collection | X | The Super 8 Years (2022) (TMDb: 964681)                               |
+[2022-11-16 18:51:16,302] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Water (2022) (TMDb: 936386)                                       |
+[2022-11-16 18:51:16,314] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Water Murmurs (2022) (TMDb: 966734)                               |
+[2022-11-16 18:51:16,335] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Melancholy of my Mother's Lullabies (2022) (TMDb: 966658)             |
+[2022-11-16 18:51:16,353] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | A Short Story (2022) (TMDb: 944934)                                   |
+[2022-11-16 18:51:16,374] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Cherries (2022) (TMDb: 966626)                                        |
+[2022-11-16 18:51:16,389] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Fire at the Lake (2022) (TMDb: 966641)                                |
+[2022-11-16 18:51:16,405] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Night Light (2022) (TMDb: 966739)                                     |
+[2022-11-16 18:51:16,419] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Persona (2022) (TMDb: 954056)                                         |
+[2022-11-16 18:51:16,433] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Same Old (2022) (TMDb: 966637)                                        |
+[2022-11-16 18:51:16,446] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Tsutsue (2022) (TMDb: 966616)                                         |
+[2022-11-16 18:51:16,459] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Mistida (2022) (TMDb: 966773)                                         |
+[2022-11-16 18:51:16,475] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | A Conspiracy Man (2022) (TMDb: 966757)                                |
+[2022-11-16 18:51:16,490] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Somewhere (2022) (TMDb: 966769)                                       |
+[2022-11-16 18:51:16,505] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Glorious Revolution (2022) (TMDb: 966778)                             |
+[2022-11-16 18:51:16,518] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Humans Are Dumber When Crammed Up Together (2022) (TMDb: 966751)      |
+[2022-11-16 18:51:16,544] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | All of This Belongs to You (2022) (TMDb: 966750)                      |
+[2022-11-16 18:51:16,564] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Craze (2022) (TMDb: 966774)                                           |
+[2022-11-16 18:51:16,584] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Kinship (2022) (TMDb: 966761)                                         |
+[2022-11-16 18:51:16,600] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Liquid Bread (2022) (TMDb: 966742)                                    |
+[2022-11-16 18:51:16,619] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | MumLife (2022) (TMDb: 966747)                                         |
+[2022-11-16 18:51:16,632] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Nauha (2022) (TMDb: 966763)                                           |
+[2022-11-16 18:51:16,645] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Spring Roll Dream (2022) (TMDb: 966776)                               |
+[2022-11-16 18:51:16,656] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | That's Amore (2022) (TMDb: 853561)                                    |
+[2022-11-16 18:51:16,680] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Pass (2022) (TMDb: 966759)                                        |
+[2022-11-16 18:51:16,774] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Silent Whistle (2022) (TMDb: 966771)                              |
+[2022-11-16 18:51:16,794] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | We Are Not There Tomorrow (2022) (TMDb: 966766)                       |
+[2022-11-16 18:51:16,816] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Ice Merchants (2022) (TMDb: 965171)                                   |
+[2022-11-16 18:51:16,842] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | On Xerxes' Throne (2022) (TMDb: 965183)                               |
+[2022-11-16 18:51:16,862] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Canker (2022) (TMDb: 965166)                                          |
+[2022-11-16 18:51:16,878] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Chords (2022) (TMDb: 965168)                                          |
+[2022-11-16 18:51:16,893] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | I Didn't Make It to Love Her (2022) (TMDb: 965180)                    |
+[2022-11-16 18:51:16,907] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | It’s Nice in Here (2022) (TMDb: 965175)                               |
+[2022-11-16 18:51:16,924] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | The Melting Creatures (2022) (TMDb: 965178)                           |
+[2022-11-16 18:51:16,942] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Manta Ray (2022) (TMDb: 965186)                                       |
+[2022-11-16 18:51:16,959] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Swan in the Center (2022) (TMDb: 965189)                              |
+[2022-11-16 18:51:16,973] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Will You Look at Me (2022) (TMDb: 965170)                             |
+[2022-11-16 18:51:16,987] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Amo (2022) (TMDb: 965191)                                             |
+[2022-11-16 18:51:17,007] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Hideous (2022) (TMDb: 961359)                                         |
+[2022-11-16 18:51:17,024] [builder.py:2321]           [INFO]     | Cannes 2022 Collection | ? | Scale (2022) (TMDb: 950825)                                           |
+[2022-11-16 18:51:17,025] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:17,026] [builder.py:2327]           [INFO]     | 112 Movies Missing                                                                                 |
+[2022-11-16 18:51:25,713] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:25,713] [builder.py:2528]           [INFO]     |============================ Updating Details of Cannes 2022 Collection ============================|
+[2022-11-16 18:51:25,714] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:25,721] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:51:25,723] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:51:25,723] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2022.jpg |
+[2022-11-16 18:51:25,723] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Cannes 2022/poster.jpg', 'prefix': "Cannes 2022's ", 'is_poster': True, 'is_url': False, 'compare': 279558, 'message': "Cannes 2022's poster to [File] /config/Halloween_Movies/Assets/Cannes 2022/poster.jpg"} |
+[2022-11-16 18:51:25,725] [library.py:180]            [INFO]     | Detail: Cannes 2022's poster update not needed                                                     |
+[2022-11-16 18:51:25,773] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:25,773] [builder.py:2687]           [INFO]     |================================== Sorting Cannes 2022 Collection ==================================|
+[2022-11-16 18:51:25,773] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:51:25,773] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:25,774] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:51:25,774] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Cannes 2022 Collection                                   |
+[2022-11-16 18:51:25,774] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 18:51:25,774] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

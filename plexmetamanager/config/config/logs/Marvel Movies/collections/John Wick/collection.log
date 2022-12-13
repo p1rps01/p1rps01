@@ -1,0 +1,63 @@
+[2022-11-17 00:29:05,384] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:29:05,388] [builder.py:193]            [INFO]     |                               John Wick Collection in Marvel Movies                                |
+[2022-11-17 00:29:05,388] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:29:05,388] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:29:05,388] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:29:05,388] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,389] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-17 00:29:05,389] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,392] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,392] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:29:05,392] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,393] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 404609, 'tmdb_summary': 404609, 'url_poster': 'https://theposterdb.com/api/assets/14054', 'sort_title': '+4_John Wick', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-17 00:29:05,393] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,393] [builder.py:223]            [INFO]     |================================= Validating John Wick Attributes ==================================|
+[2022-11-17 00:29:05,393] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,393] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:29:05,393] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:29:05,393] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,393] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:29:05,393] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 00:29:05,394] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,394] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-17 00:29:05,394] [builder.py:651]            [DEBUG]    | Value: 404609                                                                                      |
+[2022-11-17 00:29:05,402] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,402] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-17 00:29:05,403] [builder.py:651]            [DEBUG]    | Value: 404609                                                                                      |
+[2022-11-17 00:29:05,413] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:05,413] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 00:29:05,413] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/14054                                                    |
+[2022-11-17 00:29:06,042] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:06,042] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:29:06,042] [builder.py:651]            [DEBUG]    | Value: +4_John Wick                                                                                |
+[2022-11-17 00:29:06,047] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:06,047] [plex.py:838]               [DEBUG]    | Looking for: John Wick                                                                             |
+[2022-11-17 00:29:06,047] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,047] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:29:06,047] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,047] [plex_meta_manager.py:596]  [INFO]     |=================================== Running John Wick Collection ===================================|
+[2022-11-17 00:29:06,048] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,048] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 00:29:06,048] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:06,048] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 404609                                                                   |
+[2022-11-17 00:29:06,048] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,055] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (404609) John Wick Collection (4 Items)                                |
+[2022-11-17 00:29:06,056] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:06,056] [builder.py:1575]           [DEBUG]    | 4 IDs Found                                                                                        |
+[2022-11-17 00:29:06,056] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:29:06,056] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,056] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:29:06,056] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,069] [builder.py:2321]           [INFO]     | John Wick Collection | ? | John Wick (2014) (TMDb: 245891)                                         |
+[2022-11-17 00:29:06,081] [builder.py:2321]           [INFO]     | John Wick Collection | ? | John Wick: Chapter 2 (2017) (TMDb: 324552)                              |
+[2022-11-17 00:29:06,092] [builder.py:2321]           [INFO]     | John Wick Collection | ? | John Wick: Chapter 3 - Parabellum (2019) (TMDb: 458156)                 |
+[2022-11-17 00:29:06,105] [builder.py:2325]           [INFO]     | John Wick Collection | X | John Wick: Chapter 4 (2023) (TMDb: 603692)                              |
+[2022-11-17 00:29:06,105] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:29:06,105] [builder.py:2327]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-11-17 00:29:10,373] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for John Wick Collection                                             |
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:737]  [INFO]     |                                   Finished John Wick Collection                                    |
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-17 00:29:10,374] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

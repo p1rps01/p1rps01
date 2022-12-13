@@ -1,0 +1,124 @@
+[2022-11-25 15:09:38,529] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:09:38,529] [builder.py:193]            [INFO]     |                                  Trending Collection in TV Shows                                   |
+[2022-11-25 15:09:38,529] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:09:38,530] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:09:38,530] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:09:38,530] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,530] [meta.py:210]               [DEBUG]    |========================================== Template Chart ==========================================|
+[2022-11-25 15:09:38,530] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,532] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,532] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:09:38,532] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,532] [meta.py:515]               [DEBUG]    | {'sort_title': '+1_2Trending', 'sync_mode': 'sync', 'smart_label': 'random'}                       |
+[2022-11-25 15:09:38,532] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,532] [builder.py:223]            [INFO]     |================================== Validating Trending Attributes ==================================|
+[2022-11-25 15:09:38,533] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,533] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:09:38,533] [builder.py:428]            [DEBUG]    | Value: random                                                                                      |
+[2022-11-25 15:09:38,544] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,544] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:09:38,544] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:09:38,545] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,545] [builder.py:650]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-11-25 15:09:38,545] [builder.py:651]            [DEBUG]    | Value: 10                                                                                          |
+[2022-11-25 15:09:38,545] [builder.py:1464]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-11-25 15:09:38,545] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,545] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_trending_daily                                                             |
+[2022-11-25 15:09:38,546] [builder.py:651]            [DEBUG]    | Value: 10                                                                                          |
+[2022-11-25 15:09:38,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,546] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-11-25 15:09:38,546] [builder.py:651]            [DEBUG]    | Value: 10                                                                                          |
+[2022-11-25 15:09:38,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,546] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:09:38,547] [builder.py:651]            [DEBUG]    | Value: Shows Trending across the internet                                                          |
+[2022-11-25 15:09:38,547] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:38,547] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:09:38,547] [builder.py:651]            [DEBUG]    | Value: +1_2Trending                                                                                |
+[2022-11-25 15:09:38,602] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:09:38,602] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:09:38,602] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:09:38,603] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Trending Collection ====================================|
+[2022-11-25 15:09:38,603] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:09:38,603] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['random']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Trending
+[2022-11-25 15:09:38,604] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 15:09:38,604] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 15:09:38,604] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:09:38,605] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 10, 'time_period': None}
+[2022-11-25 15:09:38,607] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:09:38,608] [trakt.py:501]              [INFO]     | Processing Trakt Chart: 10 Trending Shows
+[2022-11-25 15:09:38,710] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:09:38,711] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-25 15:09:38,711] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:09:38,711] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:09:38,712] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_trending_daily: 10
+[2022-11-25 15:09:38,712] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:09:38,788] [tmdb.py:351]               [INFO]     | Processing TMDb Trending Daily: 10 Shows
+[2022-11-25 15:09:38,789] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:09:38,789] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-25 15:09:38,789] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:09:38,822] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 210955
+[2022-11-25 15:09:38,827] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:09:38,827] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_trending_weekly: 10
+[2022-11-25 15:09:38,827] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:09:38,854] [tmdb.py:351]               [INFO]     | Processing TMDb Trending Weekly: 10 Shows
+[2022-11-25 15:09:38,858] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:09:38,858] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-25 15:09:38,858] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:09:38,871] [builder.py:2158]           [INFO]     | 
+[2022-11-25 15:09:38,871] [builder.py:2159]           [INFO]     |================================== Adding to Trending Collection ===================================|
+[2022-11-25 15:09:38,871] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:09:38,903] [builder.py:2174]           [INFO]     | 1/8 | Trending Collection | = | Andor                                                              |
+[2022-11-25 15:09:38,909] [builder.py:2174]           [INFO]     | 2/8 | Trending Collection | = | The Peripheral                                                     |
+[2022-11-25 15:09:38,910] [builder.py:2174]           [INFO]     | 3/8 | Trending Collection | = | 1899                                                               |
+[2022-11-25 15:09:38,910] [builder.py:2174]           [INFO]     | 4/8 | Trending Collection | = | Yellowstone (2018)                                                 |
+[2022-11-25 15:09:38,910] [builder.py:2174]           [INFO]     | 5/8 | Trending Collection | + | The White Lotus                                                    |
+[2022-11-25 15:09:41,643] [builder.py:2174]           [INFO]     | 6/8 | Trending Collection | = | Echo 3                                                             |
+[2022-11-25 15:09:41,643] [builder.py:2174]           [INFO]     | 7/8 | Trending Collection | = | House of the Dragon                                                |
+[2022-11-25 15:09:41,643] [builder.py:2174]           [INFO]     | 8/8 | Trending Collection | = | Zootopia+                                                          |
+[2022-11-25 15:09:41,645] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:09:41,645] [builder.py:2196]           [INFO]     | 8 Shows Processed 1 Shows Added                                                                    |
+[2022-11-25 15:09:41,645] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:09:41,645] [builder.py:2353]           [INFO]     |=============================== Missing Shows from Library: Trending ===============================|
+[2022-11-25 15:09:41,645] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:09:41,835] [builder.py:2366]           [INFO]     | Trending Collection | ? | Wednesday (TVDb: 397060)                                                 |
+[2022-11-25 15:09:41,912] [builder.py:2366]           [INFO]     | Trending Collection | ? | The Walking Dead (TVDb: 153021)                                          |
+[2022-11-25 15:09:41,935] [builder.py:2366]           [INFO]     | Trending Collection | ? | The Crown (TVDb: 305574)                                                 |
+[2022-11-25 15:09:41,959] [builder.py:2366]           [INFO]     | Trending Collection | ? | Criminal Minds (TVDb: 75710)                                             |
+[2022-11-25 15:09:42,022] [builder.py:2366]           [INFO]     | Trending Collection | ? | The Handmaid's Tale (TVDb: 321239)                                       |
+[2022-11-25 15:09:42,050] [builder.py:2366]           [INFO]     | Trending Collection | ? | Blood, Sex & Royalty (TVDb: 426688)                                      |
+[2022-11-25 15:09:42,077] [builder.py:2366]           [INFO]     | Trending Collection | ? | Blood & Water (TVDb: 381969)                                             |
+[2022-11-25 15:09:42,115] [builder.py:2366]           [INFO]     | Trending Collection | ? | Bleach (TVDb: 74796)                                                     |
+[2022-11-25 15:09:42,139] [builder.py:2366]           [INFO]     | Trending Collection | ? | Chainsaw Man (TVDb: 397934)                                              |
+[2022-11-25 15:09:42,139] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:09:42,140] [builder.py:2372]           [INFO]     | 9 Shows Missing                                                                                    |
+[2022-11-25 15:09:42,142] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:09:42,142] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:09:42,143] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:09:42,143] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [397060, 153021, 305574, 75710, 321239, 426688, 381969, 74796, 397934]                |
+[2022-11-25 15:10:08,764] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397060                                                                         |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75710                                                                          |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 321239                                                                         |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 426688                                                                         |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 381969                                                                         |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74796                                                                          |
+[2022-11-25 15:10:08,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397934                                                                         |
+[2022-11-25 15:10:08,766] [sonarr.py:187]             [INFO]     | 7 Series already exist in Sonarr                                                                   |
+[2022-11-25 15:10:08,766] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,766] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Walking Dead]                                                               |
+[2022-11-25 15:10:08,766] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,766] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Crown]                                                                      |
+[2022-11-25 15:10:08,766] [sonarr.py:207]             [INFO]     | 2 Series with Invalid IDs                                                                          |
+[2022-11-25 15:10:08,858] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,860] [builder.py:2528]           [INFO]     |============================= Updating Details of Trending Collection ==============================|
+[2022-11-25 15:10:08,860] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,874] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:10:08,906] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,906] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:10:08,907] [plex_meta_manager.py:737]  [INFO]     |                                    Finished Trending Collection                                    |
+[2022-11-25 15:10:08,907] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:30                                    |
+[2022-11-25 15:10:08,907] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

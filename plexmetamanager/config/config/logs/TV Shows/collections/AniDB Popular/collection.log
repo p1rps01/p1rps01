@@ -1,0 +1,72 @@
+[2022-11-25 15:51:18,610] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:51:18,611] [builder.py:193]            [INFO]     |                                AniDB Popular Collection in TV Shows                                |
+[2022-11-25 15:51:18,611] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:51:18,612] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,612] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:51:18,612] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,612] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 15:51:18,612] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,612] [meta.py:210]               [DEBUG]    |========================================== Template anidb ==========================================|
+[2022-11-25 15:51:18,613] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,615] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:51:18,616] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,632] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 15:51:18,633] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,641] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 15:51:18,642] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,647] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:51:18,648] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,652] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,652] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:51:18,652] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,652] [meta.py:515]               [DEBUG]    | {'anidb_popular': 30, 'ignore_blank_results': True, 'sort_title': '!01_AniDB Popular', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniDB%20Popular.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of Popular Anime on AniDB.', 'name': 'AniDB Popular'} |
+[2022-11-25 15:51:18,652] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,653] [builder.py:223]            [INFO]     |=============================== Validating AniDB Popular Attributes ================================|
+[2022-11-25 15:51:18,653] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,653] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:51:18,653] [builder.py:230]            [DEBUG]    | Value: AniDB Popular                                                                               |
+[2022-11-25 15:51:18,653] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,653] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:51:18,653] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:51:18,654] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,654] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:51:18,654] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:51:18,654] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,654] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 15:51:18,654] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 15:51:18,654] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,654] [builder.py:650]            [DEBUG]    | Validating Method: anidb_popular                                                                   |
+[2022-11-25 15:51:18,654] [builder.py:651]            [DEBUG]    | Value: 30                                                                                          |
+[2022-11-25 15:51:18,654] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,655] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:51:18,655] [builder.py:651]            [DEBUG]    | Value: !01_AniDB Popular                                                                           |
+[2022-11-25 15:51:18,655] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,655] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:51:18,655] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/AniDB%20Popular.jpg |
+[2022-11-25 15:51:18,815] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,815] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 15:51:18,815] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 15:51:18,815] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,815] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:51:18,815] [builder.py:651]            [DEBUG]    | Value: A collection of Popular Anime on AniDB.                                                     |
+[2022-11-25 15:51:18,820] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,820] [plex.py:838]               [DEBUG]    | Looking for: AniDB Popular                                                                         |
+[2022-11-25 15:51:18,820] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,820] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:596]  [INFO]     |================================= Running AniDB Popular Collection =================================|
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:613]  [DEBUG]    | Builder: anidb_popular: 30                                                                         |
+[2022-11-25 15:51:18,821] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,822] [builder.py:1523]           [INFO]     | Builder: anidb_popular loaded from Cache                                                           |
+[2022-11-25 15:51:18,827] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,827] [builder.py:1575]           [DEBUG]    | 28 IDs Found                                                                                       |
+[2022-11-25 15:51:18,828] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,828] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-25 15:51:18,828] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,828] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:51:18,828] [plex_meta_manager.py:737]  [INFO]     |                                 Finished AniDB Popular Collection                                  |
+[2022-11-25 15:51:18,828] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:51:18,829] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

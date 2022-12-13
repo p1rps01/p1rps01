@@ -1,0 +1,261 @@
+[2022-11-16 20:30:53,051] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:30:53,052] [builder.py:193]            [INFO]     |                    Golden Globe Best Motion Pictures Collection in Kids Movies                     |
+[2022-11-16 20:30:53,052] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:30:53,052] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,052] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:30:53,052] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,052] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 20:30:53,052] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,052] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:30:53,054] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,066] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:30:53,067] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,074] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:30:53,074] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,078] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:30:53,079] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,081] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,082] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:30:53,082] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,082] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globes !1', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'Golden Globe Best Motion Pictures.', 'name': 'Golden Globe Best Motion Pictures'} |
+[2022-11-16 20:30:53,082] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,082] [builder.py:223]            [INFO]     |===================== Validating Golden Globe Best Motion Pictures Attributes ======================|
+[2022-11-16 20:30:53,082] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,082] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:30:53,082] [builder.py:230]            [DEBUG]    | Value: Golden Globe Best Motion Pictures                                                           |
+[2022-11-16 20:30:53,082] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,082] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:30:53,083] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:30:53,083] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,083] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:30:53,083] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:30:53,083] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,083] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:30:53,083] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:30:53,083] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,083] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:30:53,083] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:30:53,083] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,083] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 20:30:53,084] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/maxwelldeux/lists/golden-globe-award-best-motion-picture             |
+[2022-11-16 20:30:53,180] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,180] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:30:53,180] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:30:53,181] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,181] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:30:53,181] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globes !1                                                                        |
+[2022-11-16 20:30:53,181] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,181] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:30:53,181] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg |
+[2022-11-16 20:30:53,349] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,350] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:30:53,350] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:30:53,350] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,350] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:30:53,351] [builder.py:651]            [DEBUG]    | Value: Golden Globe Best Motion Pictures.                                                          |
+[2022-11-16 20:30:53,357] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,357] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe Best Motion Pictures                                                     |
+[2022-11-16 20:30:53,357] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,358] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:30:53,358] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,358] [plex_meta_manager.py:596]  [INFO]     |======================= Running Golden Globe Best Motion Pictures Collection =======================|
+[2022-11-16 20:30:53,358] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,358] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:30:53,358] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,359] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/golden-globe-award-best-motion-picture |
+[2022-11-16 20:30:53,359] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,360] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 20:30:53,363] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,364] [builder.py:1575]           [DEBUG]    | 155 IDs Found                                                                                      |
+[2022-11-16 20:30:53,364] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:30:53,365] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,365] [builder.py:2159]           [INFO]     |====================== Adding to Golden Globe Best Motion Pictures Collection ======================|
+[2022-11-16 20:30:53,366] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:30:53,366] [builder.py:2174]           [INFO]     | 1/5 | Golden Globe Best Motion Pictures Collection | + | E.T. the Extra-Terrestrial (1982)         |
+[2022-11-16 20:30:55,507] [builder.py:2174]           [INFO]     | 2/5 | Golden Globe Best Motion Pictures Collection | + | Beauty and the Beast (1991)               |
+[2022-11-16 20:30:57,577] [builder.py:2174]           [INFO]     | 3/5 | Golden Globe Best Motion Pictures Collection | + | The Lion King (1994)                      |
+[2022-11-16 20:30:59,701] [builder.py:2174]           [INFO]     | 4/5 | Golden Globe Best Motion Pictures Collection | + | Babe (1995)                               |
+[2022-11-16 20:31:02,086] [builder.py:2174]           [INFO]     | 5/5 | Golden Globe Best Motion Pictures Collection | + | Toy Story 2 (1999)                        |
+[2022-11-16 20:31:06,142] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:06,142] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:31:06,142] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:06,143] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:31:06,143] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:06,163] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Song of Bernadette (1943) (TMDb: 43516)     |
+[2022-11-16 20:31:06,175] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Going My Way (1944) (TMDb: 17661)               |
+[2022-11-16 20:31:06,187] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Lost Weekend (1945) (TMDb: 28580)           |
+[2022-11-16 20:31:06,199] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Best Years of Our Lives (1946) (TMDb: 887)  |
+[2022-11-16 20:31:06,215] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Gentleman's Agreement (1947) (TMDb: 33667)      |
+[2022-11-16 20:31:06,226] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Johnny Belinda (1948) (TMDb: 62000)             |
+[2022-11-16 20:31:06,248] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Treasure of the Sierra Madre (1948) (TMDb: 3090) |
+[2022-11-16 20:31:06,258] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | All the King's Men (1949) (TMDb: 25430)         |
+[2022-11-16 20:31:06,270] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Sunset Boulevard (1950) (TMDb: 599)             |
+[2022-11-16 20:31:06,284] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | A Place in the Sun (1951) (TMDb: 25673)         |
+[2022-11-16 20:31:06,297] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | An American in Paris (1951) (TMDb: 2769)        |
+[2022-11-16 20:31:06,309] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Greatest Show on Earth (1952) (TMDb: 27191) |
+[2022-11-16 20:31:06,320] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | With a Song in My Heart (1952) (TMDb: 65787)    |
+[2022-11-16 20:31:06,335] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Robe (1953) (TMDb: 29912)                   |
+[2022-11-16 20:31:06,346] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | On the Waterfront (1954) (TMDb: 654)            |
+[2022-11-16 20:31:06,358] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Carmen Jones (1954) (TMDb: 51044)               |
+[2022-11-16 20:31:06,370] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | East of Eden (1955) (TMDb: 220)                 |
+[2022-11-16 20:31:06,381] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Guys and Dolls (1955) (TMDb: 4825)              |
+[2022-11-16 20:31:06,394] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Around the World in Eighty Days (1956) (TMDb: 2897) |
+[2022-11-16 20:31:06,406] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The King and I (1956) (TMDb: 16520)             |
+[2022-11-16 20:31:06,420] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Bridge on the River Kwai (1957) (TMDb: 826) |
+[2022-11-16 20:31:06,433] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Les Girls (1957) (TMDb: 43232)                  |
+[2022-11-16 20:31:06,445] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Defiant Ones (1958) (TMDb: 11414)           |
+[2022-11-16 20:31:06,458] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Auntie Mame (1958) (TMDb: 16347)                |
+[2022-11-16 20:31:06,473] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Gigi (1958) (TMDb: 17281)                       |
+[2022-11-16 20:31:06,484] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Ben-Hur (1959) (TMDb: 665)                      |
+[2022-11-16 20:31:06,494] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Some Like It Hot (1959) (TMDb: 239)             |
+[2022-11-16 20:31:06,507] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Porgy and Bess (1959) (TMDb: 1940)              |
+[2022-11-16 20:31:06,520] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Spartacus (1960) (TMDb: 967)                    |
+[2022-11-16 20:31:06,532] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Apartment (1960) (TMDb: 284)                |
+[2022-11-16 20:31:06,542] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Song Without End (1960) (TMDb: 129553)          |
+[2022-11-16 20:31:06,554] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Guns of Navarone (1961) (TMDb: 10911)       |
+[2022-11-16 20:31:06,566] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | A Majority of One (1961) (TMDb: 158800)         |
+[2022-11-16 20:31:06,580] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | West Side Story (1961) (TMDb: 1725)             |
+[2022-11-16 20:31:06,594] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Lawrence of Arabia (1962) (TMDb: 947)           |
+[2022-11-16 20:31:06,606] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | That Touch of Mink (1962) (TMDb: 12708)         |
+[2022-11-16 20:31:06,629] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Music Man (1962) (TMDb: 13671)              |
+[2022-11-16 20:31:06,653] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Cardinal (1963) (TMDb: 3010)                |
+[2022-11-16 20:31:06,665] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Tom Jones (1963) (TMDb: 5769)                   |
+[2022-11-16 20:31:06,678] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Becket (1964) (TMDb: 15421)                     |
+[2022-11-16 20:31:06,689] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | My Fair Lady (1964) (TMDb: 11113)               |
+[2022-11-16 20:31:06,700] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Doctor Zhivago (1965) (TMDb: 907)               |
+[2022-11-16 20:31:06,710] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Sound of Music (1965) (TMDb: 15121)         |
+[2022-11-16 20:31:06,721] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | A Man for All Seasons (1966) (TMDb: 874)        |
+[2022-11-16 20:31:06,724] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Russians Are Coming! The Russians Are Coming! (1966) (TMDb: 31918) |
+[2022-11-16 20:31:06,737] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | In the Heat of the Night (1967) (TMDb: 10633)   |
+[2022-11-16 20:31:06,750] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Graduate (1967) (TMDb: 37247)               |
+[2022-11-16 20:31:06,763] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Lion in Winter (1968) (TMDb: 18988)         |
+[2022-11-16 20:31:06,776] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Funny Girl (1968) (TMDb: 16085)                 |
+[2022-11-16 20:31:06,787] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Anne of the Thousand Days (1969) (TMDb: 22522)  |
+[2022-11-16 20:31:06,804] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Secret of Santa Vittoria (1969) (TMDb: 30298) |
+[2022-11-16 20:31:06,815] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Love Story (1970) (TMDb: 9062)                  |
+[2022-11-16 20:31:06,826] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | M*A*S*H (1970) (TMDb: 651)                      |
+[2022-11-16 20:31:06,836] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The French Connection (1971) (TMDb: 1051)       |
+[2022-11-16 20:31:06,862] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Fiddler on the Roof (1971) (TMDb: 14811)        |
+[2022-11-16 20:31:06,886] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Godfather (1972) (TMDb: 238)                |
+[2022-11-16 20:31:06,898] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Cabaret (1972) (TMDb: 10784)                    |
+[2022-11-16 20:31:06,909] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Exorcist (1973) (TMDb: 9552)                |
+[2022-11-16 20:31:06,924] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | American Graffiti (1973) (TMDb: 838)            |
+[2022-11-16 20:31:06,936] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Chinatown (1974) (TMDb: 829)                    |
+[2022-11-16 20:31:06,947] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Longest Yard (1974) (TMDb: 4985)            |
+[2022-11-16 20:31:06,964] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | One Flew Over the Cuckoo's Nest (1975) (TMDb: 510) |
+[2022-11-16 20:31:06,976] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Sunshine Boys (1975) (TMDb: 16561)          |
+[2022-11-16 20:31:06,991] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Rocky (1976) (TMDb: 1366)                       |
+[2022-11-16 20:31:07,006] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | A Star Is Born (1976) (TMDb: 19610)             |
+[2022-11-16 20:31:07,027] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Turning Point (1977) (TMDb: 61280)          |
+[2022-11-16 20:31:07,041] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Goodbye Girl (1977) (TMDb: 14741)           |
+[2022-11-16 20:31:07,053] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Midnight Express (1978) (TMDb: 11327)           |
+[2022-11-16 20:31:07,063] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Heaven Can Wait (1978) (TMDb: 12185)            |
+[2022-11-16 20:31:07,074] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Kramer vs. Kramer (1979) (TMDb: 12102)          |
+[2022-11-16 20:31:07,088] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Breaking Away (1979) (TMDb: 20283)              |
+[2022-11-16 20:31:07,103] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Ordinary People (1980) (TMDb: 16619)            |
+[2022-11-16 20:31:07,115] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Coal Miner's Daughter (1980) (TMDb: 16769)      |
+[2022-11-16 20:31:07,141] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | On Golden Pond (1981) (TMDb: 11816)             |
+[2022-11-16 20:31:07,154] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Arthur (1981) (TMDb: 13665)                     |
+[2022-11-16 20:31:07,165] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Tootsie (1982) (TMDb: 9576)                     |
+[2022-11-16 20:31:07,178] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Terms of Endearment (1983) (TMDb: 11050)        |
+[2022-11-16 20:31:07,205] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Yentl (1983) (TMDb: 10269)                      |
+[2022-11-16 20:31:07,216] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Amadeus (1984) (TMDb: 279)                      |
+[2022-11-16 20:31:07,228] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Romancing the Stone (1984) (TMDb: 9326)         |
+[2022-11-16 20:31:07,241] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Out of Africa (1985) (TMDb: 606)                |
+[2022-11-16 20:31:07,253] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Prizzi's Honor (1985) (TMDb: 2075)              |
+[2022-11-16 20:31:07,265] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Platoon (1986) (TMDb: 792)                      |
+[2022-11-16 20:31:07,276] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Hannah and Her Sisters (1986) (TMDb: 5143)      |
+[2022-11-16 20:31:07,288] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Last Emperor (1987) (TMDb: 746)             |
+[2022-11-16 20:31:07,305] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Hope and Glory (1987) (TMDb: 32054)             |
+[2022-11-16 20:31:07,318] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Rain Man (1988) (TMDb: 380)                     |
+[2022-11-16 20:31:07,328] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Working Girl (1988) (TMDb: 3525)                |
+[2022-11-16 20:31:07,340] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Born on the Fourth of July (1989) (TMDb: 2604)  |
+[2022-11-16 20:31:07,350] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Driving Miss Daisy (1989) (TMDb: 403)           |
+[2022-11-16 20:31:07,374] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Dances with Wolves (1990) (TMDb: 581)           |
+[2022-11-16 20:31:07,386] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Green Card (1990) (TMDb: 12157)                 |
+[2022-11-16 20:31:07,389] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Bugsy (1991) (TMDb: 10337)                      |
+[2022-11-16 20:31:07,402] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Scent of a Woman (1992) (TMDb: 9475)            |
+[2022-11-16 20:31:07,414] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Player (1992) (TMDb: 10403)                 |
+[2022-11-16 20:31:07,424] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Schindler's List (1993) (TMDb: 424)             |
+[2022-11-16 20:31:07,436] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Mrs. Doubtfire (1993) (TMDb: 788)               |
+[2022-11-16 20:31:07,449] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Forrest Gump (1994) (TMDb: 13)                  |
+[2022-11-16 20:31:07,460] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Sense and Sensibility (1995) (TMDb: 4584)       |
+[2022-11-16 20:31:07,474] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The English Patient (1996) (TMDb: 409)          |
+[2022-11-16 20:31:07,485] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Evita (1996) (TMDb: 8818)                       |
+[2022-11-16 20:31:07,496] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Titanic (1997) (TMDb: 597)                      |
+[2022-11-16 20:31:07,508] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | As Good as It Gets (1997) (TMDb: 2898)          |
+[2022-11-16 20:31:07,520] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Saving Private Ryan (1998) (TMDb: 857)          |
+[2022-11-16 20:31:07,531] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Shakespeare in Love (1998) (TMDb: 1934)         |
+[2022-11-16 20:31:07,544] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | American Beauty (1999) (TMDb: 14)               |
+[2022-11-16 20:31:07,556] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Gladiator (2000) (TMDb: 98)                     |
+[2022-11-16 20:31:07,568] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Almost Famous (2000) (TMDb: 786)                |
+[2022-11-16 20:31:07,579] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | A Beautiful Mind (2001) (TMDb: 453)             |
+[2022-11-16 20:31:07,591] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Moulin Rouge! (2001) (TMDb: 824)                |
+[2022-11-16 20:31:07,602] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Hours (2002) (TMDb: 590)                    |
+[2022-11-16 20:31:07,614] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Chicago (2002) (TMDb: 1574)                     |
+[2022-11-16 20:31:07,626] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Lord of the Rings: The Return of the King (2003) (TMDb: 122) |
+[2022-11-16 20:31:07,640] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Lost in Translation (2003) (TMDb: 153)          |
+[2022-11-16 20:31:07,652] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Aviator (2004) (TMDb: 2567)                 |
+[2022-11-16 20:31:07,667] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Sideways (2004) (TMDb: 9675)                    |
+[2022-11-16 20:31:07,681] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Brokeback Mountain (2005) (TMDb: 142)           |
+[2022-11-16 20:31:07,694] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Walk the Line (2005) (TMDb: 69)                 |
+[2022-11-16 20:31:07,707] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Babel (2006) (TMDb: 1164)                       |
+[2022-11-16 20:31:07,718] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Dreamgirls (2006) (TMDb: 1125)                  |
+[2022-11-16 20:31:07,735] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Atonement (2007) (TMDb: 4347)                   |
+[2022-11-16 20:31:07,746] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Sweeney Todd: The Demon Barber of Fleet Street (2007) (TMDb: 13885) |
+[2022-11-16 20:31:07,757] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Slumdog Millionaire (2008) (TMDb: 12405)        |
+[2022-11-16 20:31:07,768] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Vicky Cristina Barcelona (2008) (TMDb: 5038)    |
+[2022-11-16 20:31:07,780] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Avatar (2009) (TMDb: 19995)                     |
+[2022-11-16 20:31:07,791] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Hangover (2009) (TMDb: 18785)               |
+[2022-11-16 20:31:07,802] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Social Network (2010) (TMDb: 37799)         |
+[2022-11-16 20:31:07,813] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Kids Are All Right (2010) (TMDb: 39781)     |
+[2022-11-16 20:31:07,826] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Descendants (2011) (TMDb: 65057)            |
+[2022-11-16 20:31:07,837] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Artist (2011) (TMDb: 74643)                 |
+[2022-11-16 20:31:07,848] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Argo (2012) (TMDb: 68734)                       |
+[2022-11-16 20:31:07,861] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Les Misérables (2012) (TMDb: 82695)             |
+[2022-11-16 20:31:07,873] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | 12 Years a Slave (2013) (TMDb: 76203)           |
+[2022-11-16 20:31:07,886] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | American Hustle (2013) (TMDb: 168672)           |
+[2022-11-16 20:31:07,898] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Boyhood (2014) (TMDb: 85350)                    |
+[2022-11-16 20:31:07,911] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Grand Budapest Hotel (2014) (TMDb: 120467)  |
+[2022-11-16 20:31:07,923] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Revenant (2015) (TMDb: 281957)              |
+[2022-11-16 20:31:07,934] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Martian (2015) (TMDb: 286217)               |
+[2022-11-16 20:31:07,946] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Moonlight (2016) (TMDb: 376867)                 |
+[2022-11-16 20:31:07,958] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | La La Land (2016) (TMDb: 313369)                |
+[2022-11-16 20:31:07,969] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Lady Bird (2017) (TMDb: 391713)                 |
+[2022-11-16 20:31:07,986] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Three Billboards Outside Ebbing, Missouri (2017) (TMDb: 359940) |
+[2022-11-16 20:31:08,016] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Green Book (2018) (TMDb: 490132)                |
+[2022-11-16 20:31:08,029] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)         |
+[2022-11-16 20:31:08,052] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | 1917 (2019) (TMDb: 530915)                      |
+[2022-11-16 20:31:08,068] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Once Upon a Time… in Hollywood (2019) (TMDb: 466272) |
+[2022-11-16 20:31:08,088] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Borat Subsequent Moviefilm (2020) (TMDb: 740985) |
+[2022-11-16 20:31:08,109] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | Nomadland (2020) (TMDb: 581734)                 |
+[2022-11-16 20:31:08,133] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | The Power of the Dog (2021) (TMDb: 600583)      |
+[2022-11-16 20:31:08,144] [builder.py:2321]           [INFO]     | Golden Globe Best Motion Pictures Collection | ? | West Side Story (2021) (TMDb: 511809)           |
+[2022-11-16 20:31:08,145] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:08,145] [builder.py:2327]           [INFO]     | 150 Movies Missing                                                                                 |
+[2022-11-16 20:31:11,935] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:11,936] [builder.py:2528]           [INFO]     |================= Updating Details of Golden Globe Best Motion Pictures Collection =================|
+[2022-11-16 20:31:11,936] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:11,951] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Golden Globe Best Motion Pictures.
+                                                                 | Sort Title | !16_Golden Globes !1
+                                                                 | Label | +PMM
+[2022-11-16 20:31:13,829] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:31:13,830] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:31:15,543] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:31:17,117] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 20:31:17,124] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Golden Globe Best Motion Pictures
+[2022-11-16 20:31:17,124] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:31:17,124] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/best_picture_winner.jpg
+[2022-11-16 20:31:17,305] [library.py:178]            [INFO]     | Detail: asset_directory updated Golden Globe Best Motion Pictures's poster to [File] config/Kids_Movies/Assets/Golden Globe Best Motion Pictures/poster.jpg
+[2022-11-16 20:31:17,399] [builder.py:2686]           [INFO]     | 
+[2022-11-16 20:31:17,399] [builder.py:2687]           [INFO]     |======================= Sorting Golden Globe Best Motion Pictures Collection =======================|
+[2022-11-16 20:31:17,400] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:31:17,400] [builder.py:2704]           [INFO]     | Moving The Lion King (1994) after Beauty and the Beast (1991)                                      |
+[2022-11-16 20:31:17,442] [builder.py:2704]           [INFO]     | Moving Babe (1995) after The Lion King (1994)                                                      |
+[2022-11-16 20:31:17,504] [builder.py:2704]           [INFO]     | Moving Toy Story 2 (1999) after Babe (1995)                                                        |
+[2022-11-16 20:31:17,548] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:17,549] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:31:17,549] [plex_meta_manager.py:737]  [INFO]     |                       Finished Golden Globe Best Motion Pictures Collection                        |
+[2022-11-16 20:31:17,549] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:24                                    |
+[2022-11-16 20:31:17,549] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

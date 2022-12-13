@@ -1,0 +1,53 @@
+[2022-11-16 18:21:21,894] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:21:21,894] [builder.py:193]            [INFO]     |                               History Collection in Halloween Movies                               |
+[2022-11-16 18:21:21,894] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:21:21,894] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:21:21,894] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:21:21,894] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:21,894] [meta.py:210]               [DEBUG]    |========================================= Template Dynamic =========================================|
+[2022-11-16 18:21:21,895] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:21,896] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:21,897] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:21:21,897] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:21,897] [meta.py:515]               [DEBUG]    | {'smart_filter': {'all': {'genre': 'History'}, 'sort_by': 'release.desc'}, 'url_poster': 'https://theposterdb.com/api/assets/213100', 'sort_title': '++++++++_History', 'collection_mode': 'hide'} |
+[2022-11-16 18:21:21,897] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:21,897] [builder.py:223]            [INFO]     |================================== Validating History Attributes ===================================|
+[2022-11-16 18:21:21,897] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 18:21:21,897] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 18:21:21,897] [builder.py:1791]           [DEBUG]    | Value: {'all': {'genre': 'History'}, 'sort_by': 'release.desc'}                                    |
+[2022-11-16 18:21:22,020] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&genre=13316                                   |
+[2022-11-16 18:21:22,020] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:22,020] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:21:22,020] [builder.py:651]            [DEBUG]    | Value: History films are a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History films are often accentuated by a sweeping musical score, lavish costumes, and high production value. |
+[2022-11-16 18:21:22,020] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:22,021] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:21:22,021] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213100                                                   |
+[2022-11-16 18:21:22,616] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:22,617] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:21:22,617] [builder.py:651]            [DEBUG]    | Value: ++++++++_History                                                                            |
+[2022-11-16 18:21:22,617] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:21:22,617] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:21:22,617] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:21:22,634] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:21:22,634] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:21:22,634] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:21:22,635] [plex_meta_manager.py:596]  [INFO]     |==================================== Running History Collection ====================================|
+[2022-11-16 18:21:22,635] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 18:21:22,635] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Genre is History
+[2022-11-16 18:21:22,652] [builder.py:2527]           [INFO]     | 
+[2022-11-16 18:21:22,652] [builder.py:2528]           [INFO]     |============================== Updating Details of History Collection ==============================|
+[2022-11-16 18:21:22,652] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:21:22,658] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:21:22,659] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:21:22,659] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213100                               |
+[2022-11-16 18:21:22,659] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/History/poster.png', 'prefix': "History's ", 'is_poster': True, 'is_url': False, 'compare': 1580940, 'message': "History's poster to [File] /config/Halloween_Movies/Assets/History/poster.png"} |
+[2022-11-16 18:21:22,660] [library.py:180]            [INFO]     | Detail: History's poster update not needed                                                         |
+[2022-11-16 18:21:22,668] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:21:22,668] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:21:22,668] [plex_meta_manager.py:737]  [INFO]     |                                    Finished History Collection                                     |
+[2022-11-16 18:21:22,668] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:21:22,669] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

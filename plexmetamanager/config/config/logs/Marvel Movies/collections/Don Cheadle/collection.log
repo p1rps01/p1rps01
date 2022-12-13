@@ -1,0 +1,76 @@
+[2022-11-17 00:32:38,558] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:32:38,559] [builder.py:193]            [INFO]     |                              Don Cheadle Collection in Marvel Movies                               |
+[2022-11-17 00:32:38,559] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:32:38,559] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,559] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:32:38,560] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,560] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-17 00:32:38,560] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,562] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,562] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:32:38,563] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,563] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1896, 'sort_title': '++_Don Cheadle', 'collection_order': 'release'} |
+[2022-11-17 00:32:38,563] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,563] [builder.py:223]            [INFO]     |================================ Validating Don Cheadle Attributes =================================|
+[2022-11-17 00:32:38,563] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,564] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-17 00:32:38,564] [builder.py:533]            [DEBUG]    | Value: 1896                                                                                        |
+[2022-11-17 00:32:38,573] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,574] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:32:38,574] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 00:32:38,574] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,574] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-17 00:32:38,574] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-17 00:32:38,914] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,915] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:32:38,915] [builder.py:651]            [DEBUG]    | Value: ++_Don Cheadle                                                                              |
+[2022-11-17 00:32:38,922] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,923] [builder.py:796]            [ERROR]    | Collection Error: Converting Don Cheadle to a normal collection                                    |
+[2022-11-17 00:32:38,934] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,935] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:32:38,935] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,935] [plex_meta_manager.py:596]  [INFO]     |================================== Running Don Cheadle Collection ==================================|
+[2022-11-17 00:32:38,935] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,935] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 00:32:38,936] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:32:38,936] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Don Cheadle", '?type=1&sort=titleSort&push=1&actor=45936&pop=1') |
+[2022-11-17 00:32:38,936] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,936] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Don Cheadle
+[2022-11-17 00:32:38,966] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:32:38,967] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-17 00:32:38,967] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:32:38,967] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:32:38,967] [builder.py:2159]           [INFO]     |================================= Adding to Don Cheadle Collection =================================|
+[2022-11-17 00:32:38,967] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:32:38,968] [builder.py:2174]           [INFO]     | 1/7 | Don Cheadle Collection | + | Avengers: Age of Ultron (2015)                                  |
+[2022-11-17 00:32:39,088] [builder.py:2174]           [INFO]     | 2/7 | Don Cheadle Collection | + | Avengers: Endgame (2019)                                        |
+[2022-11-17 00:32:39,214] [builder.py:2174]           [INFO]     | 3/7 | Don Cheadle Collection | + | Avengers: Infinity War (2018)                                   |
+[2022-11-17 00:32:39,319] [builder.py:2174]           [INFO]     | 4/7 | Don Cheadle Collection | + | Captain America: Civil War (2016)                               |
+[2022-11-17 00:32:39,413] [builder.py:2174]           [INFO]     | 5/7 | Don Cheadle Collection | + | Captain Marvel (2019)                                           |
+[2022-11-17 00:32:39,478] [builder.py:2174]           [INFO]     | 6/7 | Don Cheadle Collection | + | Iron Man 2 (2010)                                               |
+[2022-11-17 00:32:39,536] [builder.py:2174]           [INFO]     | 7/7 | Don Cheadle Collection | + | Iron Man 3 (2013)                                               |
+[2022-11-17 00:32:45,008] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:32:45,008] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-17 00:32:45,013] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 00:32:45,013] [builder.py:2528]           [INFO]     |============================ Updating Details of Don Cheadle Collection ============================|
+[2022-11-17 00:32:45,014] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:32:45,022] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Donald Frank Cheadle Jr. is an American actor, author, director, producer and writer. Following early roles in Hamburger Hill (1987), and as the gangster "Rocket" in the film Colors (1988), he built his career in the 1990s with roles in Devil in a Blue Dress (1995), Rosewood (1997), and Boogie Nights (1997). His collaboration with director Steven Soderbergh resulted in the films Out of Sight (1998), Traffic (2000), and The Ocean's Trilogy (2001–2007).
+                                                                 | 
+                                                                 | He was nominated for an Academy Award for Best Actor for his lead role as Rwandan hotel manager Paul Rusesabagina in the historical genocide drama film Hotel Rwanda (2004). From 2012 to 2016, he starred as Marty Kaan on the Showtime comedy series House of Lies; he won a Golden Globe Award in 2013 for the role. Since 2019, he has starred as Maurice Monroe in the Showtime series Black Monday, a role which earned him a Primetime Emmy Award nomination in 2019. He extended his global recognition with his role as the superhero War Machine in the Marvel Cinematic Universe, replacing Terrence Howard, appearing in Iron Man 2 (2010), Iron Man 3 (2013), Avengers: Age of Ultron (2015), Captain America: Civil War (2016), Avengers: Infinity War (2018), Captain Marvel (2019), and Avengers: Endgame (2019).
+                                                                 | Sort Title | ++_Don Cheadle
+                                                                 | Label | +PMM
+[2022-11-17 00:32:46,995] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 00:32:46,995] [builder.py:2603]           [INFO]     | 
+[2022-11-17 00:32:46,996] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-17 00:32:46,996] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/bynmDXiegMDjttb6x7I3ye2bCO1.jpg
+[2022-11-17 00:32:47,047] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/bynmDXiegMDjttb6x7I3ye2bCO1.jpg
+[2022-11-17 00:32:47,103] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 00:32:47,103] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:32:47,103] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Don Cheadle Collection                                   |
+[2022-11-17 00:32:47,103] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-17 00:32:47,103] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

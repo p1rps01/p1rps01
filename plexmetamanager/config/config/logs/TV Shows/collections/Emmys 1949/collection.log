@@ -1,0 +1,73 @@
+[2022-11-17 02:18:47,107] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:18:47,108] [builder.py:193]            [INFO]     |                                 Emmys 1949 Collection in TV Shows                                  |
+[2022-11-17 02:18:47,108] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:18:47,108] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:18:47,108] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:18:47,109] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,109] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:18:47,110] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,111] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:18:47,114] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,117] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:18:47,118] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,131] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:18:47,132] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,141] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:18:47,142] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,149] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,149] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:18:47,149] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,149] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1949-01-01,1949-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1949', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1949.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:18:47,149] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,149] [builder.py:223]            [INFO]     |================================= Validating Emmys 1949 Attributes =================================|
+[2022-11-17 02:18:47,150] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,150] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:18:47,150] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:18:47,150] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,150] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:18:47,150] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:18:47,150] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,151] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:18:47,151] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:18:47,151] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,151] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:18:47,151] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:18:47,151] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,151] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:18:47,151] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1949-01-01,1949-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:18:47,261] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,262] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:18:47,262] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:18:47,262] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,262] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:18:47,262] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1949                                                                              |
+[2022-11-17 02:18:47,263] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,263] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:18:47,263] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1949.jpg |
+[2022-11-17 02:18:47,378] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,378] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:18:47,378] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:18:47,383] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,383] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1949                                                                            |
+[2022-11-17 02:18:47,383] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:18:47,383] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1949 Collection ===================================|
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1949-01-01,1949-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:18:47,384] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:18:47,385] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1949-01-01,1949-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:18:49,600] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:49,601] [builder.py:1575]           [DEBUG]    | 4 IDs Found                                                                                        |
+[2022-11-17 02:18:49,601] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:18:49,608] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 13352                                                 |
+[2022-11-17 02:18:49,624] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 17931                                                 |
+[2022-11-17 02:18:49,638] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18694                                                 |
+[2022-11-17 02:18:49,644] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-17 02:18:49,645] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:18:49,645] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:18:49,645] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1949 Collection                                   |
+[2022-11-17 02:18:49,645] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 02:18:49,645] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

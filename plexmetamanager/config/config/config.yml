@@ -1,0 +1,324 @@
+## This file is a template remove the .template to use the file
+##############################################################################################
+##    Would Recommend you to refer to Wiki fisrt before making changes to the config file   ##
+##                     https://github.com/meisnate12/Plex-Meta-Manager-Wiki                 ##
+##############################################################################################
+libraries:                                                                # This is called out once within the config.yml file                                       
+  Christmas Movies:                                                       # Each library must match the Plex library name
+    library_name: Christmas Movies
+    template_variables:
+      sep_style: blue                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    use_separator: true     
+    report_path: /config/Reports/Christmas_Movies_report.yml
+    metadata_path:
+    - folder: /config/Christmas_Movies/
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+        use_separator: true  
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+        use_separator: true  
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+        use_separator: true  
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+        use_separator: true  
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+        use_separator: true  
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year
+        use_separator: true                          
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 30
+        sort_by: title.asc
+        use_separator: true
+        sep_style: blue  
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections
+    overlay_path:
+    - remove_overlays: true                                                # Set this to true to remove all overlays
+    - reapply_overlays: false
+    - reset_overlays: plex                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters
+    - file: /config/Christmas_Movies/award-overlays.yml
+    - file: /config/Christmas_Movies/MoviesOverlays.yml                    # This is a local file on the system
+    - file: /config/Christmas_Movies/movie-overlays.yml
+    - pmm: streaming                                                       # 8 - Streaming on Disney+, Netflix, etc.
+      template_variables:
+        horizontal_position: left                                          # default is left but you can put right
+        vertical_position: top                                             # default is center but you can have it at the top, center or bottom
+        horizontal_offset: 5
+        horizontal_align: left
+        vertical_offset: 10
+      vertical_align: top
+    - pmm: audio_codec                                                     # 2 - FLAC, DTS-X, TrueHD, etc. style: standard/compact. compact is default
+      template_variables:
+        horizontal_position: center                                        # default is left but you can put right
+        vertical_position: top                                             # default is center but you can have it at the top, center or bottom
+        use_dts: true
+        use_es: true
+        use_plus: true
+        use_hra: true
+        use_hd: true
+        use_truehd: true
+        use_plus-atmos: true
+        use_atmos: true
+        use_x: true
+        use_truehd-atmos: true        
+    - pmm: ribbon                                                          # 11, 12 Bottom right sash is used by more than one overlay so a weight for priority can be applied
+      template_variables:
+        horizontal_position: right                                         # default is left but you can put right
+        vertical_position: bottom                                          # default is center but you can have it at the top, center or bottom 
+    settings:
+      missing_path: config/Christmas_Movies/Missing
+      asset_directory:
+      - config/Christmas_Movies/Assets/
+    radarr:                                                               # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/christmas movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/christmas movies/
+      plex_path: /share/data/media/christmas movies/      
+    operations:
+      assets_for_all: true
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_audience_rating_update: imdb             # Update audience ratings with imdb information
+      mass_critic_rating_update: mdb_tomatoes       # Update critic ratings with mdb_tomatoes information
+      mass_user_rating_update: mdb                  # Update user rating with in plex with mdb ratings information
+      mass_genre_update: tmdb                       # Update all genres from tmdb information
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_imdb_parental_labels: with_none
+      radarr_remove_by_tag: Scripts-Meta-Manager-Christmas
+  TV Shows:
+    template_variables:
+    sep_style: gray                               # use the gray separators globally for this library
+    collection_mode: hide                         # hide the collections
+    language: en                                  # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    metadata_path:
+      - folder: /config/TV
+      - pmm: separator_award                          # An "index card"
+      - pmm: choice                                   # Critic's Choice Awards
+        template_variables:                           # based on when the award show started
+         data:
+          starting: 2014
+          ending: current_year
+      - pmm: golden                                   # Golden Globes Awards
+        template_variables:                           # based on when the award show started
+         data:
+          starting: 1943
+          ending: current_year
+      - pmm: emmy                                     # Emmy Awards
+        template_variables:                           # based on when the award show started
+        data:
+          starting: 1947
+          ending: current_year
+      - pmm: separator_chart                          # An "index card"
+      - pmm: imdb                                     # IMDb Charts (Popular, Trending, etc.)
+      - pmm: other_chart                              # Other Charts (Popular, Trending, etc.)
+      - pmm: tmdb                                     # TMDb Charts (Popular, Trending, etc.)
+      - pmm: trakt                                    # Trakt Charts (Popular, Trending, etc.)
+      - pmm: basic                                    # Some basic chart collections
+      - pmm: actor                                    # Actors
+        template_variables:                           # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 30
+      - pmm: resolution                               # 4K HDR, 1080P FHD, etc. with the standards style 
+        template_variables:
+        style: standards
+      - pmm: studio                                   # DreamWorks Studios, Lucasfilm Ltd, etc.
+      - pmm: year                                     # Year the media item was released starting from 1880 to current_year
+        template_variables:
+        data:
+          starting: 1880
+          ending: current_year
+      - pmm: decade                                   # Decade the media item was released
+      - pmm: network                                  # ABC, CBC, NBC, FOX, etc.
+      - pmm: streaming                                # Streaming on Disney+, Netflix, etc.
+    overlay_path:
+    - remove_overlays: true                           # Set to true if you want to remove overlays
+    - reapply_overlay: false                          # If you are doing a lot of testing and changes like me, keep this to true to always reapply overlays
+    - reset_overlays: plex                            # if you want to reset the poster to default poster from tmdb
+    - pmm: audio_codec                                # FLAC, DTS-X, TrueHD, etc. and works with overlay_level show, episode, and season
+    - pmm: audio_codec
+      template_variables:
+        overlay_level: episode
+    - pmm: audio_codec
+      template_variables:
+        overlay_level: season
+    - pmm: episode_info                             # SE##E## information in bottom right and works with overlay_level episode
+      template_variables:
+        overlay_level: episode
+    - pmm: ratings                                  # Ratings with custom fonts matched to the style of the rating, font_size, and on the right in 'square' format. overlay_level: show has 3 ratings max
+      template_variables:
+        rating1: user
+        rating1_image: rt_tomato
+
+        rating2: critic
+        rating2_image: imdb
+
+        rating3: audience
+        rating3_image: tmdb
+
+        horizontal_position: right
+    - pmm: ratings                                  # Ratings with custom fonts matched to the style of the rating, font_size, and on the right in 'square' format. overlay_level: episode has 2 ratings max
+      template_variables:
+
+        rating1: critic
+        rating1_image: imdb
+
+        rating2: audience
+        rating2_image: tmdb
+
+        horizontal_position: right
+        overlay_level: episode
+    - pmm: ribbon                                   # Used for ribbon in bottom right and works with overlay_level show and season
+    - pmm: ribbon
+      template_variables:
+        overlay_level: season
+    - pmm: runtimes                                 # Runtime information in bottom right and works with overlay_level episode
+      template_variables:
+        overlay_level: episode
+    - pmm: status                                   # Airing, Returning, Ended, Canceled and works with overlay_level show
+    - pmm: streaming                                # Streaming on Disney+, Netflix, etc. and works with overlay_level show, episode, and season
+    - pmm: streaming
+      template_variables:
+        overlay_level: episode
+    - pmm: streaming
+      template_variables:
+        overlay_level: season
+    operations:
+      assets_for_all: true
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none                
+    sonarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:35989
+      token: da3f07cf2a8341a3adef09557887a645
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/tv
+      monitor: all
+      quality_profile: HD-1080p
+      language_profile: English
+      series_type: standard
+      season_folder: false
+      tag:
+      search: false
+      cutoff_search: false
+      sonarr_path: /share/data/media/tv
+      plex_path: /share/data/media/tv
+      upgrade_existing: false    
+settings: # Can be individually specified per library as well
+  asset_folders: true
+  asset_depth: 3
+  asset_directory: config/Assets
+  assets_for_all: false
+  cache: true
+  cache_expiration: 60
+  check_nightly: false
+  create_asset_folders: true
+  create_asset_directories: true
+  custom_repo: https://raw.githubusercontent.com/FrostyWolf/PlexMetaManager/master/Configs
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  dimensional_asset_rename: true
+  download_url_assets: true
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  minimum_items: 2
+  missing_only_released: true
+  missing_path: config/Missing
+  only_filter_missing: false
+  prioritize_assets: false
+  playlist_report: true
+  playlist_sync_to_users: all
+  run_again_delay: 2
+  save_missing: true
+  save_report: true
+  show_asset_not_needed: true
+  show_filtered: true
+  show_options: true
+  show_missing: true
+  show_missing_assets: true
+  show_missing_season_assets: true
+  show_missing_episode_assets: true
+  show_unmanaged: true
+  sync_mode: append
+  tvdb_language: eng
+  verify_ssl: true
+  show_unconfigured: true
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://192.168.1.103:32400
+  token: GCS8b4aZeNGv7kGsx7cM
+  timeout: 60
+  clean_bundles: true
+  empty_trash: true
+  optimize: false
+tmdb:                                           # REQUIRED for the script to run
+  apikey: d876bab76198fc68ddc6d6600f9343f8
+  language: en
+  cache_expiration: 60
+  region: us
+mdblist:
+  apikey: 9njbrumoammztv7fjg2js0r8r
+  cache_expiration: 60
+trakt:
+  client_id: 24ebf330deac411c501ddb4dc358bd52b2c7bd58f460c97df522786d63a96cd9
+  client_secret: dbfe21ebc8e66071af1264c55201bb99e8b1c8477867602838d84d4fb5992363
+  # everything below is autofilled by the script
+  authorization:
+    access_token: d6870b1eab45964aae7bc44c6d38850e7aa1fbea6e48ae1d73499a91fe6fa8a9
+    token_type: Bearer
+    expires_in: 7889237
+    refresh_token: c9bdcc8b7b835cd009e0d8fadefade8f05726cce42b9414218a8f258174500aa
+    scope: public
+    created_at: 1667686901
+  pin:

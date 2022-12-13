@@ -1,0 +1,82 @@
+[2022-11-16 21:58:14,637] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:58:14,637] [builder.py:193]            [INFO]     |                                Ben Stiller Collection in Old Movies                                |
+[2022-11-16 21:58:14,638] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:58:14,638] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:58:14,638] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:58:14,638] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,638] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 21:58:14,639] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,640] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,641] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 21:58:14,641] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,641] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 7399, 'sort_title': '++_Ben Stiller', 'collection_order': 'release'} |
+[2022-11-16 21:58:14,641] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,641] [builder.py:223]            [INFO]     |================================ Validating Ben Stiller Attributes =================================|
+[2022-11-16 21:58:14,641] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,642] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 21:58:14,642] [builder.py:533]            [DEBUG]    | Value: 7399                                                                                        |
+[2022-11-16 21:58:14,656] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,656] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 21:58:14,656] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 21:58:14,656] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:14,656] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 21:58:14,656] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 21:58:15,018] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:15,019] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 21:58:15,019] [builder.py:651]            [DEBUG]    | Value: ++_Ben Stiller                                                                              |
+[2022-11-16 21:58:15,024] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,024] [builder.py:796]            [ERROR]    | Collection Error: Converting Ben Stiller to a normal collection                                    |
+[2022-11-16 21:58:15,032] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,032] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:58:15,032] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,032] [plex_meta_manager.py:596]  [INFO]     |================================== Running Ben Stiller Collection ==================================|
+[2022-11-16 21:58:15,033] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,033] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 21:58:15,033] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 21:58:15,033] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Ben Stiller", '?type=1&sort=titleSort&push=1&actor=459736&pop=1') |
+[2022-11-16 21:58:15,033] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,033] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Ben Stiller
+[2022-11-16 21:58:15,047] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 21:58:15,047] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 21:58:15,048] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 21:58:15,048] [builder.py:2158]           [INFO]     | 
+[2022-11-16 21:58:15,048] [builder.py:2159]           [INFO]     |================================= Adding to Ben Stiller Collection =================================|
+[2022-11-16 21:58:15,048] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 21:58:15,048] [builder.py:2174]           [INFO]     | 1/3 | Ben Stiller Collection | + | Night at the Museum (2006)                                      |
+[2022-11-16 21:58:17,220] [builder.py:2174]           [INFO]     | 2/3 | Ben Stiller Collection | + | Night at the Museum: Battle of the Smithsonian (2009)           |
+[2022-11-16 21:58:19,224] [builder.py:2174]           [INFO]     | 3/3 | Ben Stiller Collection | + | Night at the Museum: Secret of the Tomb (2014)                  |
+[2022-11-16 21:58:23,508] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 21:58:23,509] [builder.py:2196]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-11-16 21:58:23,514] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 21:58:23,514] [builder.py:2528]           [INFO]     |============================ Updating Details of Ben Stiller Collection ============================|
+[2022-11-16 21:58:23,514] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:58:23,521] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Benjamin Edward Meara Stiller (born November 30, 1965) is an American actor, comedian, producer, film director, and screenwriter. He is the son of the comedians and actors Jerry Stiller and Anne Meara.
+                                                                 | 
+                                                                 | After beginning his acting career with a play, Stiller wrote several mockumentaries and was offered his own variety sketch comedy show, titled The Ben Stiller Show, which he produced and hosted for its 13-episode run.
+                                                                 | 
+                                                                 | Throughout his career he has written, starred in, directed, or produced more than 50 films including The Secret Life of Walter Mitty, Zoolander 1 & 2, The Cable Guy, There's Something About Mary, the Meet the Parents trilogy, DodgeBall, Tropic Thunder, the Madagascar series, and the Night at the Museum trilogy. He made his directorial debut with Reality Bites.
+                                                                 | 
+                                                                 | He is also known for his performances in independent films such as Flirting with Disaster (1996), The Royal Tenenbaums (2001), Greenberg (2010), While We're Young (2014), and The Meyerowitz Stories (2017). He has also made numerous cameos in music videos, television shows, and films.
+                                                                 | 
+                                                                 | In 2018, he directed the Showtime limited series Escape at Dannemora earning himself a Directors Guild of America Award and two Primetime Emmy Award nominations for Outstanding Limited Series and Outstanding Directing for a Limtied Series.
+                                                                 | 
+                                                                 | In 2022, he served as a director and executive producer on the Apple TV+ series Severance earning two Primetime Emmy Award nominations for Outstanding Drama Series and Outstanding Directing in a Drama Series.
+                                                                 | 
+                                                                 | Stiller is a member of a group of comedic actors colloquially known as the Frat Pack. His films have grossed more than $2.6 billion in the United States and Canada, with an average of $79 million per film. Throughout his career, he has received various awards and honors, including an Emmy Award, multiple MTV Movie Awards, a Britannia Award and a Teen Choice Award.
+                                                                 | Sort Title | ++_Ben Stiller
+                                                                 | Label | +PMM
+[2022-11-16 21:58:25,195] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 21:58:25,195] [builder.py:2603]           [INFO]     | 
+[2022-11-16 21:58:25,196] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 21:58:25,196] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg
+[2022-11-16 21:58:25,269] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/scgpxhI05JpdNXXfmpK6z0rPOWN.jpg
+[2022-11-16 21:58:25,323] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 21:58:25,324] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:58:25,324] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Ben Stiller Collection                                   |
+[2022-11-16 21:58:25,324] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 21:58:25,324] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

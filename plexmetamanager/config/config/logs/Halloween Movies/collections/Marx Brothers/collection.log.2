@@ -1,0 +1,46 @@
+[2022-11-14 10:30:50,499] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 10:30:50,499] [builder.py:193]            [INFO]     |                            Marx Brothers Collection in Halloween Movies                            |
+[2022-11-14 10:30:50,499] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 10:30:50,500] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 10:30:50,500] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 10:30:50,500] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,500] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-14 10:30:50,500] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,501] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,502] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 10:30:50,502] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,502] [meta.py:515]               [DEBUG]    | {'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_Marx Brothers', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-14 10:30:50,502] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,502] [builder.py:223]            [INFO]     |=============================== Validating Marx Brothers Attributes ================================|
+[2022-11-14 10:30:50,502] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,502] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-14 10:30:50,503] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-14 10:30:50,503] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,503] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-14 10:30:50,503] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-14 10:30:50,503] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:50,503] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-14 10:30:50,503] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/list/ls068486735/                                                      |
+[2022-11-14 10:30:51,193] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:51,196] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-14 10:30:51,196] [builder.py:651]            [DEBUG]    | Value: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars, and fans to be among the greatest and most influential comedians of the 20th century. |
+[2022-11-14 10:30:51,196] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 10:30:51,196] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-14 10:30:51,196] [builder.py:651]            [DEBUG]    | Value: <<summary>>                                                                                 |
+[2022-11-14 10:30:51,196] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 700, in __init__
+                                                                 |     self._summary(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 821, in _summary
+                                                                 |     self.summaries[method_name] = self.config.TMDb.get_movie_show_or_collection(util.regex_first_int(method_data, "TMDb ID"), self.library.is_movie).overview
+                                                                 |   File "/modules/util.py", line 335, in regex_first_int
+                                                                 |     raise Failed(f"Regex Error: Failed to parse {id_type} from {data}")
+                                                                 | modules.util.Failed: Regex Error: Failed to parse TMDb ID from <<summary>>
+                                                                 | 
+[2022-11-14 10:30:51,197] [plex_meta_manager.py:725]  [ERROR]    | Regex Error: Failed to parse TMDb ID from <<summary>>
+[2022-11-14 10:30:51,197] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 10:30:51,197] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 10:30:51,198] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Marx Brothers Collection                                  |
+[2022-11-14 10:30:51,198] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-14 10:30:51,198] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-11-16 20:12:35,117] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:12:35,117] [builder.py:193]            [INFO]     |                             Antonio Banderas Collection in Kids Movies                             |
+[2022-11-16 20:12:35,117] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:12:35,118] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,118] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:12:35,118] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,118] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:12:35,118] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,120] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,120] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:12:35,123] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,123] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 3131, 'sort_title': '++_Antonio Banderas', 'collection_order': 'release'} |
+[2022-11-16 20:12:35,123] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,123] [builder.py:223]            [INFO]     |============================== Validating Antonio Banderas Attributes ==============================|
+[2022-11-16 20:12:35,124] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,124] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:12:35,124] [builder.py:533]            [DEBUG]    | Value: 3131                                                                                        |
+[2022-11-16 20:12:35,146] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,146] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:12:35,146] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:12:35,147] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,147] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:12:35,147] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:12:35,597] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,597] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:12:35,597] [builder.py:651]            [DEBUG]    | Value: ++_Antonio Banderas                                                                         |
+[2022-11-16 20:12:35,603] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,603] [builder.py:796]            [ERROR]    | Collection Error: Converting Antonio Banderas to a normal collection                               |
+[2022-11-16 20:12:35,610] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,610] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:12:35,610] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,610] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Antonio Banderas Collection ================================|
+[2022-11-16 20:12:35,610] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,610] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:12:35,611] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:35,611] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Antonio Banderas", '?type=1&sort=titleSort&push=1&actor=38598&pop=1') |
+[2022-11-16 20:12:35,611] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,611] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Antonio Banderas
+[2022-11-16 20:12:35,640] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:12:35,640] [builder.py:1575]           [DEBUG]    | 12 IDs Found
+[2022-11-16 20:12:35,640] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:12:35,640] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:12:35,640] [builder.py:2159]           [INFO]     |============================== Adding to Antonio Banderas Collection ===============================|
+[2022-11-16 20:12:35,641] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:35,641] [builder.py:2174]           [INFO]     |  1/12 | Antonio Banderas Collection | + | Justin and the Knights of Valour (2013)                  |
+[2022-11-16 20:12:37,973] [builder.py:2174]           [INFO]     |  2/12 | Antonio Banderas Collection | + | Puss in Boots (2011)                                     |
+[2022-11-16 20:12:38,123] [builder.py:2174]           [INFO]     |  3/12 | Antonio Banderas Collection | + | Puss in Boots: The Three Diablos (2012)                  |
+[2022-11-16 20:12:40,170] [builder.py:2174]           [INFO]     |  4/12 | Antonio Banderas Collection | + | Shrek 2 (2004)                                           |
+[2022-11-16 20:12:40,297] [builder.py:2174]           [INFO]     |  5/12 | Antonio Banderas Collection | + | Shrek Forever After (2010)                               |
+[2022-11-16 20:12:40,415] [builder.py:2174]           [INFO]     |  6/12 | Antonio Banderas Collection | + | Shrek the Halls (2007)                                   |
+[2022-11-16 20:12:42,909] [builder.py:2174]           [INFO]     |  7/12 | Antonio Banderas Collection | + | Shrek the Third (2007)                                   |
+[2022-11-16 20:12:43,233] [builder.py:2174]           [INFO]     |  8/12 | Antonio Banderas Collection | + | The SpongeBob Movie: Sponge Out of Water (2015)          |
+[2022-11-16 20:12:45,752] [builder.py:2174]           [INFO]     |  9/12 | Antonio Banderas Collection | + | Spy Kids (2001)                                          |
+[2022-11-16 20:12:48,135] [builder.py:2174]           [INFO]     | 10/12 | Antonio Banderas Collection | + | Spy Kids 2: Island of Lost Dreams (2002)                 |
+[2022-11-16 20:12:50,654] [builder.py:2174]           [INFO]     | 11/12 | Antonio Banderas Collection | + | Spy Kids 3: Game Over (2003)                             |
+[2022-11-16 20:12:53,288] [builder.py:2174]           [INFO]     | 12/12 | Antonio Banderas Collection | + | Spy Kids 4: All the Time in the World (2011)             |
+[2022-11-16 20:12:58,276] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:58,277] [builder.py:2196]           [INFO]     | 12 Movies Processed 12 Movies Added                                                                |
+[2022-11-16 20:12:58,283] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:58,283] [builder.py:2528]           [INFO]     |========================= Updating Details of Antonio Banderas Collection ==========================|
+[2022-11-16 20:12:58,283] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:58,289] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | José Antonio Domínguez Bandera (born August 10, 1960), known professionally as Antonio Banderas, is a Spanish actor, producer, director, and singer. He began his acting career at age 19 with a series of films by director Pedro Almodóvar and then appeared in high-profile Hollywood films, especially in the 1990s, including Assassins, Evita, Interview with the Vampire, Philadelphia, Desperado, The Mask of Zorro, Spy Kids, the Shrek sequels and Puss in Boots.
+                                                                 | Sort Title | ++_Antonio Banderas
+                                                                 | Label | +PMM
+[2022-11-16 20:13:00,145] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:13:00,145] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:13:00,146] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:13:00,146] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/iWIUEwgn2KW50MssR7tdPeFoRGW.jpg
+[2022-11-16 20:13:00,213] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/iWIUEwgn2KW50MssR7tdPeFoRGW.jpg
+[2022-11-16 20:13:00,656] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:13:00,657] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:13:00,657] [plex_meta_manager.py:737]  [INFO]     |                                Finished Antonio Banderas Collection                                |
+[2022-11-16 20:13:00,657] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2022-11-16 20:13:00,657] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

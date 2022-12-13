@@ -1,0 +1,79 @@
+[2022-11-17 02:20:50,903] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:20:50,904] [builder.py:193]            [INFO]     |                                 Emmys 1980 Collection in TV Shows                                  |
+[2022-11-17 02:20:50,904] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:20:50,904] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:20:50,904] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:20:50,904] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,905] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:20:50,905] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,907] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:20:50,907] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,909] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:20:50,910] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,926] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:20:50,927] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,933] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:20:50,933] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,937] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,937] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:20:50,937] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,937] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1980-01-01,1980-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1980', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1980.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:20:50,937] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,937] [builder.py:223]            [INFO]     |================================= Validating Emmys 1980 Attributes =================================|
+[2022-11-17 02:20:50,938] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,938] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:20:50,938] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:20:50,938] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,938] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:20:50,938] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:20:50,938] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,938] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:20:50,938] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:20:50,939] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,939] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:20:50,939] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:20:50,939] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:50,939] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:20:50,939] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1980-01-01,1980-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:20:51,629] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,631] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:20:51,631] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:20:51,631] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,631] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:20:51,631] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1980                                                                              |
+[2022-11-17 02:20:51,631] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,631] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:20:51,631] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1980.jpg |
+[2022-11-17 02:20:51,744] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,745] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:20:51,745] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:20:51,749] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,750] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1980                                                                            |
+[2022-11-17 02:20:51,750] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:20:51,750] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:20:51,750] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:51,750] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1980 Collection ===================================|
+[2022-11-17 02:20:51,750] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:51,750] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:20:51,750] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:51,751] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1980-01-01,1980-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:20:51,751] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:51,752] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1980-01-01,1980-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:20:54,288] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:54,288] [builder.py:1575]           [DEBUG]    | 39 IDs Found                                                                                       |
+[2022-11-17 02:20:54,288] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:20:54,615] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 48557                                                 |
+[2022-11-17 02:20:55,192] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0331646                                             |
+[2022-11-17 02:20:55,203] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56707                                                 |
+[2022-11-17 02:20:55,216] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49596                                                 |
+[2022-11-17 02:20:55,303] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0335263                                             |
+[2022-11-17 02:20:55,314] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49547                                                 |
+[2022-11-17 02:20:55,337] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0343988                                             |
+[2022-11-17 02:20:55,408] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0319665                                             |
+[2022-11-17 02:20:55,477] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0336059                                             |
+[2022-11-17 02:20:55,477] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-17 02:20:55,477] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:20:55,478] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:20:55,478] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1980 Collection                                   |
+[2022-11-17 02:20:55,478] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-17 02:20:55,478] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,73 @@
+[2022-11-16 20:25:21,971] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:25:21,971] [builder.py:193]            [INFO]     |                               Will Ferrell Collection in Kids Movies                               |
+[2022-11-16 20:25:21,971] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:25:21,971] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:21,972] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:25:21,972] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,972] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:25:21,973] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,975] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,975] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:25:21,976] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,976] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 23659, 'sort_title': '++_Will Ferrell', 'collection_order': 'release'} |
+[2022-11-16 20:25:21,976] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,976] [builder.py:223]            [INFO]     |================================ Validating Will Ferrell Attributes ================================|
+[2022-11-16 20:25:21,977] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:21,977] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:25:21,977] [builder.py:533]            [DEBUG]    | Value: 23659                                                                                       |
+[2022-11-16 20:25:22,011] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:22,011] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:25:22,011] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:25:22,011] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:22,011] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:25:22,011] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:25:22,418] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:22,419] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:25:22,419] [builder.py:651]            [DEBUG]    | Value: ++_Will Ferrell                                                                             |
+[2022-11-16 20:25:22,427] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,427] [builder.py:796]            [ERROR]    | Collection Error: Converting Will Ferrell to a normal collection                                   |
+[2022-11-16 20:25:22,435] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,435] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:25:22,435] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:596]  [INFO]     |================================= Running Will Ferrell Collection ==================================|
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Will Ferrell", '?type=1&sort=titleSort&push=1&actor=7596&pop=1') |
+[2022-11-16 20:25:22,436] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,437] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Will Ferrell
+[2022-11-16 20:25:22,465] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:25:22,465] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 20:25:22,466] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:25:22,466] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:25:22,466] [builder.py:2159]           [INFO]     |================================ Adding to Will Ferrell Collection =================================|
+[2022-11-16 20:25:22,466] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:22,467] [builder.py:2174]           [INFO]     | 1/4 | Will Ferrell Collection | + | Curious George (2006)                                          |
+[2022-11-16 20:25:24,549] [builder.py:2174]           [INFO]     | 2/4 | Will Ferrell Collection | + | The Lego Movie (2014)                                          |
+[2022-11-16 20:25:24,663] [builder.py:2174]           [INFO]     | 3/4 | Will Ferrell Collection | + | The Lego Movie 2: The Second Part (2019)                       |
+[2022-11-16 20:25:24,798] [builder.py:2174]           [INFO]     | 4/4 | Will Ferrell Collection | + | Megamind (2010)                                                |
+[2022-11-16 20:25:27,055] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:27,056] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 20:25:27,062] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:27,062] [builder.py:2528]           [INFO]     |=========================== Updating Details of Will Ferrell Collection ============================|
+[2022-11-16 20:25:27,062] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:27,068] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | A graduate of the University of Southern California, Will Ferrell became interested in performing while a student at University High School in Irvine, California, where he made his school's daily morning announcements over the public address system in disguised voices. He started as a member of the Los Angeles comedy/improvisation group The Groundlings, where fellow cast members Ana Gasteyer, Maya Rudolph and former Saturday Night Live repertory players such as Laraine Newman, Jon Lovitz and Phil Hartman began their careers. It was there he met Chris Kattan and the two became good friends and both went on to Saturday Night Live later. He has also appeared on several television programs, including Strangers with Candy, Grace Under Fire and Living Single during his time at The Groundlings. Will also lent his voice to the armless and legless dad of cartoon family The Oblongs.
+                                                                 | 
+                                                                 | In 1995 he became a feature cast member at Saturday Night Live during the show's rapid re-casting. He was declared quite possibly the worst cast member ever during his first season. However, his talents of impersonations and range of characters shot him forward to making him arguably the greatest Saturday Night Live cast member ever. During his seven year run he is one of the few cast members to ever be nominated for an Emmy for a performance and played George W. Bush during the 2000 elections. He's appeared in every Saturday Night Live movie since his premiere on the show in 1995. In 2002 he left  Saturday Night Live and was the only cast member to ever receive a farewell from all the current cast members at the end of the season finale show. Since leaving the show Will has pursued a career in films. In 2000 he married and now lives in L.A.
+                                                                 | Sort Title | ++_Will Ferrell
+                                                                 | Label | +PMM
+[2022-11-16 20:25:28,566] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:25:28,566] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:25:28,567] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:25:28,567] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xYPM1OOLXZguj4FsgmOzTSUXaXd.jpg
+[2022-11-16 20:25:28,661] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/xYPM1OOLXZguj4FsgmOzTSUXaXd.jpg
+[2022-11-16 20:25:28,768] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:25:28,768] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:25:28,768] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Will Ferrell Collection                                  |
+[2022-11-16 20:25:28,768] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 20:25:28,769] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

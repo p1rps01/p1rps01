@@ -1,0 +1,125 @@
+[2022-11-16 20:36:30,074] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:36:30,074] [builder.py:193]            [INFO]     |                           Oscars Winners 2006 Collection in Kids Movies                            |
+[2022-11-16 20:36:30,075] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:36:30,075] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,075] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:36:30,075] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,075] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:36:30,075] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,076] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:36:30,076] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,078] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:36:30,078] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,081] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:36:30,081] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,094] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:36:30,095] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,100] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:36:30,101] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,104] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,104] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:36:30,105] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,105] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2006-01-01,2006-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 2006.', 'name': 'Oscars Winners 2006', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 2006', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2006.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:36:30,105] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,105] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 2006 Attributes =============================|
+[2022-11-16 20:36:30,105] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,105] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:36:30,105] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 2006                                                                         |
+[2022-11-16 20:36:30,105] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,105] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:36:30,105] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:36:30,105] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,105] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:36:30,106] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:36:30,106] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,106] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:36:30,106] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:36:30,106] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,106] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:36:30,106] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:36:30,106] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,106] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:36:30,106] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 20:36:30,106] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,106] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:36:30,106] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2006-01-01,2006-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 20:36:30,360] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,362] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:36:30,362] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 2006.                                                   |
+[2022-11-16 20:36:30,362] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,362] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:36:30,362] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:36:30,362] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,362] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:36:30,363] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 2006                                                                     |
+[2022-11-16 20:36:30,363] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,363] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:36:30,363] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2006.jpg |
+[2022-11-16 20:36:30,502] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,502] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:36:30,502] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:36:30,508] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,508] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 2006                                                                   |
+[2022-11-16 20:36:30,509] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,509] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:36:30,509] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,509] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 2006 Collection ==============================|
+[2022-11-16 20:36:30,510] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,510] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:36:30,510] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,510] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2006-01-01,2006-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:36:30,511] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,512] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:36:30,516] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,516] [builder.py:1575]           [DEBUG]    | 17 IDs Found                                                                                       |
+[2022-11-16 20:36:30,516] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:30,529] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,529] [builder.py:2159]           [INFO]     |============================= Adding to Oscars Winners 2006 Collection =============================|
+[2022-11-16 20:36:30,529] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,529] [builder.py:2174]           [INFO]     | 1/2 | Oscars Winners 2006 Collection | + | Pan's Labyrinth (2006)                                  |
+[2022-11-16 20:36:32,828] [builder.py:2174]           [INFO]     | 2/2 | Oscars Winners 2006 Collection | + | Happy Feet (2006)                                       |
+[2022-11-16 20:36:37,105] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:37,106] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:36:37,106] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:37,106] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:36:37,106] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:37,130] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Departed (2006) (TMDb: 1422)                              |
+[2022-11-16 20:36:37,144] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Little Miss Sunshine (2006) (TMDb: 773)                       |
+[2022-11-16 20:36:37,159] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Lives of Others (2006) (TMDb: 582)                        |
+[2022-11-16 20:36:37,181] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Pirates of the Caribbean: Dead Man's Chest (2006) (TMDb: 58)  |
+[2022-11-16 20:36:37,192] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Babel (2006) (TMDb: 1164)                                     |
+[2022-11-16 20:36:37,204] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Marie Antoinette (2006) (TMDb: 1887)                          |
+[2022-11-16 20:36:37,215] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Queen (2006) (TMDb: 1165)                                 |
+[2022-11-16 20:36:37,225] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Last King of Scotland (2006) (TMDb: 1523)                 |
+[2022-11-16 20:36:37,237] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Letters from Iwo Jima (2006) (TMDb: 1251)                     |
+[2022-11-16 20:36:37,247] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Dreamgirls (2006) (TMDb: 1125)                                |
+[2022-11-16 20:36:37,259] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | An Inconvenient Truth (2006) (TMDb: 1781)                     |
+[2022-11-16 20:36:37,269] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | Peter & the Wolf (2006) (TMDb: 14518)                         |
+[2022-11-16 20:36:37,280] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Danish Poet (2006) (TMDb: 38635)                          |
+[2022-11-16 20:36:37,291] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Mozart of Pickpockets (2006) (TMDb: 116604)               |
+[2022-11-16 20:36:37,303] [builder.py:2321]           [INFO]     | Oscars Winners 2006 Collection | ? | The Blood of Yingzhou District (2006) (TMDb: 170057)          |
+[2022-11-16 20:36:37,303] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:37,303] [builder.py:2327]           [INFO]     | 15 Movies Missing                                                                                  |
+[2022-11-16 20:36:41,352] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:41,352] [builder.py:2528]           [INFO]     |======================== Updating Details of Oscars Winners 2006 Collection ========================|
+[2022-11-16 20:36:41,352] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:41,367] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Academy Awards (Oscars) Winners for 2006.
+                                                                 | Sort Title | !16_Oscars Winners 2006
+                                                                 | Label | +Oscars Winners Awards, +PMM
+[2022-11-16 20:36:43,018] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:36:43,019] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:36:44,512] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:36:45,905] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 20:36:45,911] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Oscars Winners 2006
+[2022-11-16 20:36:45,912] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:36:45,912] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2006.jpg
+[2022-11-16 20:36:46,047] [library.py:178]            [INFO]     | Detail: asset_directory updated Oscars Winners 2006's poster to [File] config/Kids_Movies/Assets/Oscars Winners 2006/poster.jpg
+[2022-11-16 20:36:46,100] [builder.py:2686]           [INFO]     | 
+[2022-11-16 20:36:46,101] [builder.py:2687]           [INFO]     |============================== Sorting Oscars Winners 2006 Collection ==============================|
+[2022-11-16 20:36:46,101] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:46,101] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:46,101] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:36:46,101] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 2006 Collection                               |
+[2022-11-16 20:36:46,101] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:16                                    |
+[2022-11-16 20:36:46,101] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

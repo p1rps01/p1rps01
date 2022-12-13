@@ -1,0 +1,73 @@
+[2022-11-16 22:00:47,694] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:00:47,695] [builder.py:193]            [INFO]     |                                Chris Pratt Collection in Old Movies                                |
+[2022-11-16 22:00:47,695] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:00:47,695] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:00:47,696] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:00:47,696] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,697] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:00:47,697] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,700] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,701] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:00:47,701] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,701] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 73457, 'sort_title': '++_Chris Pratt', 'collection_order': 'release'} |
+[2022-11-16 22:00:47,702] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,702] [builder.py:223]            [INFO]     |================================ Validating Chris Pratt Attributes =================================|
+[2022-11-16 22:00:47,703] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,703] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:00:47,703] [builder.py:533]            [DEBUG]    | Value: 73457                                                                                       |
+[2022-11-16 22:00:47,719] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,720] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:00:47,720] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:00:47,720] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:47,720] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:00:47,721] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:00:48,012] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:48,012] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:00:48,012] [builder.py:651]            [DEBUG]    | Value: ++_Chris Pratt                                                                              |
+[2022-11-16 22:00:48,020] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,020] [builder.py:796]            [ERROR]    | Collection Error: Converting Chris Pratt to a normal collection                                    |
+[2022-11-16 22:00:48,029] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,030] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:00:48,030] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,031] [plex_meta_manager.py:596]  [INFO]     |================================== Running Chris Pratt Collection ==================================|
+[2022-11-16 22:00:48,031] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,032] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:00:48,032] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:00:48,032] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Chris Pratt", '?type=1&sort=titleSort&push=1&actor=22880&pop=1') |
+[2022-11-16 22:00:48,032] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,032] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Chris Pratt
+[2022-11-16 22:00:48,050] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:00:48,050] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 22:00:48,050] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:00:48,051] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:00:48,051] [builder.py:2159]           [INFO]     |================================= Adding to Chris Pratt Collection =================================|
+[2022-11-16 22:00:48,051] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:00:48,051] [builder.py:2174]           [INFO]     | 1/2 | Chris Pratt Collection | + | Jurassic World (2015)                                           |
+[2022-11-16 22:00:50,467] [builder.py:2174]           [INFO]     | 2/2 | Chris Pratt Collection | + | Jurassic World: Fallen Kingdom (2018)                           |
+[2022-11-16 22:00:55,902] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:00:55,902] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:00:55,908] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:00:55,909] [builder.py:2528]           [INFO]     |============================ Updating Details of Chris Pratt Collection ============================|
+[2022-11-16 22:00:55,909] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:00:55,918] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Christopher Michael Pratt (born 21 June 1979) is an American actor, known for starring in both television and action films. He rose to prominence for his television roles, particularly in the NBC sitcom Parks and Recreation (2009–2015), for which he received critical acclaim and was nominated for the Critics' Choice Television Award for Best Supporting Actor in a Comedy Series in 2013. He also starred earlier in his career as Bright Abbott in The WB drama series Everwood (2002–2006) and had roles in Wanted (2008), Jennifer's Body (2009), Moneyball (2011), The Five-Year Engagement (2012), Zero Dark Thirty (2013), Delivery Man (2013), and Her (2013).
+                                                                 | 
+                                                                 | Pratt achieved leading man status in 2014, starring in two critically and commercially successful films: The Lego Movie as Emmet Brickowski, and Marvel Studios' Guardians of the Galaxy as Star-Lord. He starred in Jurassic World (2015) and Jurassic World: Fallen Kingdom (2018), and he reprised his Marvel role in Guardians of the Galaxy Vol. 2 (2017), Avengers: Infinity War (2018), Avengers: Endgame (2019), and the planned Guardians of the Galaxy Vol. 3. Meanwhile, in 2016 he was part of an ensemble cast in The Magnificent Seven and the male lead in Passengers.
+                                                                 | 
+                                                                 | Description above is from the Wikipedia article Chris Pratt, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Chris Pratt
+                                                                 | Label | +PMM
+[2022-11-16 22:00:58,231] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:00:58,231] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:00:58,231] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:00:58,232] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg
+[2022-11-16 22:00:58,338] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg
+[2022-11-16 22:00:58,388] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:00:58,389] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:00:58,389] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Chris Pratt Collection                                   |
+[2022-11-16 22:00:58,390] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 22:00:58,390] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

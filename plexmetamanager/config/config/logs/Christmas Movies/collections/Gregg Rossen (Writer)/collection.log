@@ -1,0 +1,66 @@
+[2022-11-20 17:04:37,768] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 17:04:37,772] [builder.py:193]            [INFO]     |                        Gregg Rossen (Writer) Collection in Christmas Movies                        |
+[2022-11-20 17:04:37,772] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 17:04:37,772] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-20 17:04:37,772] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-20 17:04:37,772] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,773] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-20 17:04:37,774] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,784] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-20 17:04:37,788] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,792] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-20 17:04:37,797] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,831] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,833] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-20 17:04:37,834] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,834] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Gregg Rossen'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}, 'summary': 'Movies written by Gregg Rossen.', 'name': 'Gregg Rossen (Writer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!20_Gregg Rossen (Writer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Gregg%20Rossen.jpg'} |
+[2022-11-20 17:04:37,835] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,839] [builder.py:223]            [INFO]     |=========================== Validating Gregg Rossen (Writer) Attributes ============================|
+[2022-11-20 17:04:37,841] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,842] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-20 17:04:37,842] [builder.py:230]            [DEBUG]    | Value: Gregg Rossen (Writer)                                                                       |
+[2022-11-20 17:04:37,843] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,843] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-20 17:04:37,845] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-20 17:04:37,846] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:37,846] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-20 17:04:37,847] [builder.py:533]            [DEBUG]    | Value: ['Gregg Rossen']                                                                            |
+[2022-11-20 17:04:37,910] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-20 17:04:37,912] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-20 17:04:37,912] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}                                         |
+[2022-11-20 17:04:38,568] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&writer=3316&pop=1                                         |
+[2022-11-20 17:04:38,570] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:38,570] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-20 17:04:38,571] [builder.py:651]            [DEBUG]    | Value: Top Writers                                                                                 |
+[2022-11-20 17:04:38,571] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:38,571] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-20 17:04:38,571] [builder.py:651]            [DEBUG]    | Value: Movies written by Gregg Rossen.                                                             |
+[2022-11-20 17:04:38,571] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:38,572] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-20 17:04:38,572] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-20 17:04:38,572] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:38,572] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-20 17:04:38,572] [builder.py:651]            [DEBUG]    | Value: !20_Gregg Rossen (Writer)                                                                   |
+[2022-11-20 17:04:38,573] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 17:04:38,573] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-20 17:04:38,573] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Gregg%20Rossen.jpg |
+[2022-11-20 17:04:38,728] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Gregg%20Rossen.jpg |
+[2022-11-20 17:04:38,906] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-20 17:04:38,907] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-20 17:04:38,908] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-20 17:04:38,909] [plex_meta_manager.py:596]  [INFO]     |============================= Running Gregg Rossen (Writer) Collection =============================|
+[2022-11-20 17:04:38,909] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-20 17:04:38,910] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is Gregg Rossen
+[2022-11-20 17:04:39,119] [builder.py:2527]           [INFO]     | 
+[2022-11-20 17:04:39,120] [builder.py:2528]           [INFO]     |======================= Updating Details of Gregg Rossen (Writer) Collection =======================|
+[2022-11-20 17:04:39,120] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-20 17:04:39,312] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-20 17:04:39,563] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-20 17:04:39,564] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-20 17:04:39,564] [plex_meta_manager.py:737]  [INFO]     |                             Finished Gregg Rossen (Writer) Collection                              |
+[2022-11-20 17:04:39,565] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-20 17:04:39,566] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,76 @@
+[2022-11-16 20:44:11,274] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:44:11,274] [builder.py:193]            [INFO]     |                          Ralph Wright (Writer) Collection in Kids Movies                           |
+[2022-11-16 20:44:11,274] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:44:11,274] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,274] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:44:11,275] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,275] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 20:44:11,275] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,280] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:44:11,281] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,283] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:44:11,284] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,294] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,294] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:44:11,294] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,295] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Ralph Wright'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}, 'summary': 'Movies written by Ralph Wright.', 'name': 'Ralph Wright (Writer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!20_Ralph Wright (Writer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ralph%20Wright.jpg'} |
+[2022-11-16 20:44:11,295] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,295] [builder.py:223]            [INFO]     |=========================== Validating Ralph Wright (Writer) Attributes ============================|
+[2022-11-16 20:44:11,295] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,295] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:44:11,295] [builder.py:230]            [DEBUG]    | Value: Ralph Wright (Writer)                                                                       |
+[2022-11-16 20:44:11,295] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,295] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:44:11,295] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:44:11,296] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,296] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:44:11,296] [builder.py:533]            [DEBUG]    | Value: ['Ralph Wright']                                                                            |
+[2022-11-16 20:44:11,432] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,433] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 20:44:11,433] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}                                         |
+[2022-11-16 20:44:11,565] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&writer=35588&pop=1                                        |
+[2022-11-16 20:44:11,566] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,566] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:44:11,566] [builder.py:651]            [DEBUG]    | Value: Top Writers                                                                                 |
+[2022-11-16 20:44:11,567] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,567] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:44:11,567] [builder.py:651]            [DEBUG]    | Value: Movies written by Ralph Wright.                                                             |
+[2022-11-16 20:44:11,567] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,568] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:44:11,568] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:44:11,568] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,569] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:44:11,569] [builder.py:651]            [DEBUG]    | Value: !20_Ralph Wright (Writer)                                                                   |
+[2022-11-16 20:44:11,570] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,570] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:44:11,571] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ralph%20Wright.jpg |
+[2022-11-16 20:44:11,664] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ralph%20Wright.jpg |
+[2022-11-16 20:44:11,669] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:44:11,669] [plex.py:838]               [DEBUG]    | Looking for: Ralph Wright (Writer)                                                                 |
+[2022-11-16 20:44:11,669] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,669] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:44:11,670] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,670] [plex_meta_manager.py:596]  [INFO]     |============================= Running Ralph Wright (Writer) Collection =============================|
+[2022-11-16 20:44:11,670] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,670] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is Ralph Wright
+[2022-11-16 20:44:11,696] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&writer=35588&pop=1
+[2022-11-16 20:44:11,701] [builder.py:2527]           [INFO]     | 
+[2022-11-16 20:44:11,702] [builder.py:2528]           [INFO]     |======================= Updating Details of Ralph Wright (Writer) Collection =======================|
+[2022-11-16 20:44:11,702] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:44:11,708] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies written by Ralph Wright.
+                                                                 | Sort Title | !20_Ralph Wright (Writer)
+                                                                 | Label | +Top Writers, +PMM
+[2022-11-16 20:44:13,204] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:44:13,204] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:44:14,533] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:44:14,542] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Ralph Wright (Writer)
+[2022-11-16 20:44:14,564] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:44:14,564] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:44:14,564] [plex_meta_manager.py:737]  [INFO]     |                             Finished Ralph Wright (Writer) Collection                              |
+[2022-11-16 20:44:14,565] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 20:44:14,565] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

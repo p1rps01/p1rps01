@@ -1,0 +1,74 @@
+[2022-11-16 20:21:34,659] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:34,660] [builder.py:193]            [INFO]     |                                Mike Myers Collection in Kids Movies                                |
+[2022-11-16 20:21:34,660] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:34,660] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:34,660] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:21:34,660] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,660] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:21:34,661] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,662] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,663] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:21:34,663] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,663] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 12073, 'sort_title': '++_Mike Myers', 'collection_order': 'release'} |
+[2022-11-16 20:21:34,663] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,663] [builder.py:223]            [INFO]     |================================= Validating Mike Myers Attributes =================================|
+[2022-11-16 20:21:34,663] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,663] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:21:34,664] [builder.py:533]            [DEBUG]    | Value: 12073                                                                                       |
+[2022-11-16 20:21:34,687] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,688] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:21:34,688] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:21:34,688] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:34,689] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:21:34,690] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:21:35,032] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:35,032] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:21:35,032] [builder.py:651]            [DEBUG]    | Value: ++_Mike Myers                                                                               |
+[2022-11-16 20:21:35,051] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,051] [builder.py:796]            [ERROR]    | Collection Error: Converting Mike Myers to a normal collection                                     |
+[2022-11-16 20:21:35,063] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,063] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:21:35,063] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,063] [plex_meta_manager.py:596]  [INFO]     |================================== Running Mike Myers Collection ===================================|
+[2022-11-16 20:21:35,063] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,063] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:21:35,064] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:35,064] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Mike Myers", '?type=1&sort=titleSort&push=1&actor=38567&pop=1') |
+[2022-11-16 20:21:35,064] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,064] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Mike Myers
+[2022-11-16 20:21:35,082] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:21:35,083] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 20:21:35,083] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:21:35,083] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:21:35,083] [builder.py:2159]           [INFO]     |================================= Adding to Mike Myers Collection ==================================|
+[2022-11-16 20:21:35,083] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:35,083] [builder.py:2174]           [INFO]     | 1/5 | Mike Myers Collection | + | Shrek (2001)                                                     |
+[2022-11-16 20:21:35,237] [builder.py:2174]           [INFO]     | 2/5 | Mike Myers Collection | + | Shrek 2 (2004)                                                   |
+[2022-11-16 20:21:35,378] [builder.py:2174]           [INFO]     | 3/5 | Mike Myers Collection | + | Shrek Forever After (2010)                                       |
+[2022-11-16 20:21:35,557] [builder.py:2174]           [INFO]     | 4/5 | Mike Myers Collection | + | Shrek the Halls (2007)                                           |
+[2022-11-16 20:21:35,672] [builder.py:2174]           [INFO]     | 5/5 | Mike Myers Collection | + | Shrek the Third (2007)                                           |
+[2022-11-16 20:21:37,961] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:37,961] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:21:37,967] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:37,967] [builder.py:2528]           [INFO]     |============================ Updating Details of Mike Myers Collection =============================|
+[2022-11-16 20:21:37,967] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:37,974] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Michael John "Mike" Myers (born May 25, 1963) is a Canadian actor, comedian, screenwriter, and film producer of British parentage. He was a long-time cast member on the NBC sketch show Saturday Night Live in the late 1980s and the early 1990s and starred as the title characters in the films Wayne's World, Austin Powers, and the Shrek film series.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Mike Myers, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Mike Myers
+                                                                 | Label | +PMM
+[2022-11-16 20:21:39,502] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:21:39,502] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:21:39,503] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:21:39,503] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/gjfDl52Kk02MPgUYFjs9bOy33OY.jpg
+[2022-11-16 20:21:39,595] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/gjfDl52Kk02MPgUYFjs9bOy33OY.jpg
+[2022-11-16 20:21:39,726] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:21:39,726] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:21:39,726] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Mike Myers Collection                                   |
+[2022-11-16 20:21:39,727] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-16 20:21:39,727] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

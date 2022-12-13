@@ -1,0 +1,42 @@
+[2022-11-05 18:44:40,543] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:40,543] [builder.py:197]            [INFO]     |                                  News Collection in Marvel Movies                                  |
+[2022-11-05 18:44:40,544] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:40,544] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:44:40,544] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:44:40,545] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,545] [meta.py:128]               [DEBUG]    | Template Dynamic                                                                                   |
+[2022-11-05 18:44:40,545] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Dynamic'), ('collection', 'News'), ('poster', (redacted))])           |
+[2022-11-05 18:44:40,545] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,546] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Dynamic'), ('collection', 'News'), ('collection_name', 'News'), ('mapping_name', 'News'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Dynamic'), ('collection_encoded', 'News'), ('collection_name_encoded', 'News'), ('mapping_name_encoded', 'News'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'News')]) |
+[2022-11-05 18:44:40,546] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,546] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 18:44:40,546] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,547] [meta.py:309]               [DEBUG]    | Optional: ['poster']                                                                               |
+[2022-11-05 18:44:40,548] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,548] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'smart_filter': {'all': {'genre': 'News'}, 'sort_by': 'release.desc'}, 'sort_title': '++++++++_News', 'collection_mode': 'hide'} |
+[2022-11-05 18:44:40,548] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:40,549] [builder.py:219]            [INFO]     |==================================== Validating News Attributes ====================================|
+[2022-11-05 18:44:40,549] [builder.py:1722]           [INFO]     |                                                                                                    |
+[2022-11-05 18:44:40,550] [builder.py:1723]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-05 18:44:40,551] [builder.py:1729]           [DEBUG]    | Value: {'all': {'genre': 'News'}, 'sort_by': 'release.desc'}                                       |
+[2022-11-05 18:44:40,777] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 573, in __init__
+                                                                 |     self.smart_type_key, self.smart_filter_details, self.smart_url = self.build_filter("smart_filter", self.data[methods["smart_filter"]], display=True, default_sort="random")
+                                                                 |   File "/modules/builder.py", line 1891, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1830, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 1977, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: News not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+                                                                 | 
+[2022-11-05 18:44:40,781] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: genre: News not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+[2022-11-05 18:44:40,782] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:44:40,782] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:44:40,782] [plex_meta_manager.py:709]  [INFO]     |                                      Finished News Collection                                      |
+[2022-11-05 18:44:40,783] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 18:44:40,783] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-11-17 00:44:51,456] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:44:51,456] [builder.py:193]            [INFO]     |                        Stephen McFeely (Writer) Collection in Marvel Movies                        |
+[2022-11-17 00:44:51,456] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:44:51,456] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,457] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:44:51,457] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,457] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-17 00:44:51,458] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,466] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-17 00:44:51,467] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,470] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 00:44:51,471] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,489] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,489] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:44:51,489] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,490] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Stephen McFeely'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}, 'summary': 'Movies written by Stephen McFeely.', 'name': 'Stephen McFeely (Writer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!20_Stephen McFeely (Writer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Stephen%20McFeely.jpg'} |
+[2022-11-17 00:44:51,490] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,490] [builder.py:223]            [INFO]     |========================== Validating Stephen McFeely (Writer) Attributes ==========================|
+[2022-11-17 00:44:51,490] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,490] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-17 00:44:51,490] [builder.py:230]            [DEBUG]    | Value: Stephen McFeely (Writer)                                                                    |
+[2022-11-17 00:44:51,490] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,491] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 00:44:51,491] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 00:44:51,491] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,491] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-17 00:44:51,491] [builder.py:533]            [DEBUG]    | Value: ['Stephen McFeely']                                                                         |
+[2022-11-17 00:44:51,549] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,550] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-17 00:44:51,550] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}                                         |
+[2022-11-17 00:44:51,610] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&writer=40879&pop=1                                        |
+[2022-11-17 00:44:51,610] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,610] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 00:44:51,610] [builder.py:651]            [DEBUG]    | Value: Top Writers                                                                                 |
+[2022-11-17 00:44:51,611] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,611] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:44:51,611] [builder.py:651]            [DEBUG]    | Value: Movies written by Stephen McFeely.                                                          |
+[2022-11-17 00:44:51,611] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,611] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 00:44:51,611] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 00:44:51,611] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,611] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:44:51,612] [builder.py:651]            [DEBUG]    | Value: !20_Stephen McFeely (Writer)                                                                |
+[2022-11-17 00:44:51,612] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,612] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 00:44:51,612] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Stephen%20McFeely.jpg |
+[2022-11-17 00:44:51,853] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:44:51,854] [plex.py:838]               [DEBUG]    | Looking for: Stephen McFeely (Writer)                                                              |
+[2022-11-17 00:44:51,854] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,854] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:44:51,854] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,854] [plex_meta_manager.py:596]  [INFO]     |=========================== Running Stephen McFeely (Writer) Collection ============================|
+[2022-11-17 00:44:51,854] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,854] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is Stephen McFeely
+[2022-11-17 00:44:51,878] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&writer=40879&pop=1
+[2022-11-17 00:44:51,884] [builder.py:2527]           [INFO]     | 
+[2022-11-17 00:44:51,885] [builder.py:2528]           [INFO]     |===================== Updating Details of Stephen McFeely (Writer) Collection ======================|
+[2022-11-17 00:44:51,885] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:44:51,891] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies written by Stephen McFeely.
+                                                                 | Sort Title | !20_Stephen McFeely (Writer)
+                                                                 | Label | +Top Writers, +PMM
+[2022-11-17 00:44:53,723] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 00:44:53,724] [builder.py:2603]           [INFO]     | 
+[2022-11-17 00:44:55,255] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-17 00:44:55,259] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Marvel_Movies/Assets/Stephen McFeely (Writer)
+[2022-11-17 00:44:55,259] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-17 00:44:55,260] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/hkn9D5L8TguJUmv8fXy5sHyMEtq.jpg
+[2022-11-17 00:44:55,260] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Stephen%20McFeely.jpg
+[2022-11-17 00:44:55,408] [library.py:178]            [INFO]     | Detail: asset_directory updated Stephen McFeely (Writer)'s poster to [File] config/Marvel_Movies/Assets/Stephen McFeely (Writer)/poster.jpg
+[2022-11-17 00:44:55,485] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 00:44:55,485] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:44:55,486] [plex_meta_manager.py:737]  [INFO]     |                            Finished Stephen McFeely (Writer) Collection                            |
+[2022-11-17 00:44:55,486] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-17 00:44:55,486] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

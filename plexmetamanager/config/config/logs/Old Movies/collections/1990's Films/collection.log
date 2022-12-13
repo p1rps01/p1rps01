@@ -1,0 +1,40 @@
+[2022-11-16 21:27:33,816] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:27:33,817] [builder.py:193]            [INFO]     |                               1990's Films Collection in Old Movies                                |
+[2022-11-16 21:27:33,817] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:27:33,817] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:27:33,817] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:27:33,817] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,817] [meta.py:210]               [DEBUG]    |========================================= Template Decade ==========================================|
+[2022-11-16 21:27:33,817] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,819] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,819] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 21:27:33,819] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,820] [meta.py:515]               [DEBUG]    | {'smart_filter': {'any': {'decade': 1990}, 'sort_by': 'release.desc', 'url_poster': 'https://theposterdb.com/api/assets/213586', 'sort_title': "+++++_1990's Films", 'collection_mode': 'hide'}} |
+[2022-11-16 21:27:33,820] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,820] [builder.py:223]            [INFO]     |================================ Validating 1990's Films Attributes ================================|
+[2022-11-16 21:27:33,820] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 21:27:33,820] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 21:27:33,820] [builder.py:1791]           [DEBUG]    | Value: {'any': {'decade': 1990}, 'sort_by': 'release.desc', 'url_poster': 'https://theposterdb.com/api/assets/213586', 'sort_title': "+++++_1990's Films", 'collection_mode': 'hide'} |
+[2022-11-16 21:27:33,820] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&push=1&decade=1990&pop=1                      |
+[2022-11-16 21:27:33,820] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:33,820] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 21:27:33,820] [builder.py:651]            [DEBUG]    | Value: A collection of films during the 1990s                                                      |
+[2022-11-16 21:27:33,978] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:27:33,978] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:27:33,978] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:33,978] [plex_meta_manager.py:596]  [INFO]     |================================= Running 1990's Films Collection ==================================|
+[2022-11-16 21:27:33,978] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:33,979] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Decade is 1990
+[2022-11-16 21:27:34,133] [builder.py:2527]           [INFO]     | 
+[2022-11-16 21:27:34,133] [builder.py:2528]           [INFO]     |=========================== Updating Details of 1990's Films Collection ============================|
+[2022-11-16 21:27:34,133] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:27:34,141] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 21:27:34,258] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:34,258] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:27:34,258] [plex_meta_manager.py:737]  [INFO]     |                                  Finished 1990's Films Collection                                  |
+[2022-11-16 21:27:34,258] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 21:27:34,258] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

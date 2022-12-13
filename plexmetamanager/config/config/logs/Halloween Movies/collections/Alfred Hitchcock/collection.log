@@ -1,0 +1,128 @@
+[2022-11-16 18:45:46,812] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:45:46,813] [builder.py:193]            [INFO]     |                          Alfred Hitchcock Collection in Halloween Movies                           |
+[2022-11-16 18:45:46,813] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:45:46,813] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:45:46,813] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:45:46,813] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,813] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 18:45:46,814] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,815] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,815] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:45:46,815] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,815] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2636, 'sort_title': '++_Alfred Hitchcock', 'collection_order': 'release'} |
+[2022-11-16 18:45:46,815] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,815] [builder.py:223]            [INFO]     |============================== Validating Alfred Hitchcock Attributes ==============================|
+[2022-11-16 18:45:46,815] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,816] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 18:45:46,816] [builder.py:533]            [DEBUG]    | Value: 2636                                                                                        |
+[2022-11-16 18:45:46,823] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,824] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:45:46,824] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 18:45:46,824] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,824] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 18:45:46,824] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 18:45:46,888] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,888] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:45:46,888] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/movistapp/lists/hitchcock                                            |
+[2022-11-16 18:45:46,942] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:46,942] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 18:45:46,943] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 18:45:47,407] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:47,408] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:45:47,408] [builder.py:651]            [DEBUG]    | Value: ++_Alfred Hitchcock                                                                         |
+[2022-11-16 18:45:47,415] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:47,416] [plex.py:838]               [DEBUG]    | Looking for: Alfred Hitchcock                                                                      |
+[2022-11-16 18:45:47,416] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:45:47,416] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:45:47,416] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Alfred Hitchcock Collection ================================|
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Alfred Hitchcock", '?type=1&sort=titleSort&push=1&director=25362&pop=1') |
+[2022-11-16 18:45:47,417] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:47,417] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Alfred Hitchcock
+[2022-11-16 18:45:47,425] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:45:47,425] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 18:45:47,425] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:45:47,425] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 18:45:47,426] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
+[2022-11-16 18:45:47,426] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 18:45:47,426] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/movistapp/lists/hitchcock
+[2022-11-16 18:45:47,475] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:45:47,475] [builder.py:1575]           [DEBUG]    | 48 IDs Found
+[2022-11-16 18:45:47,475] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:45:47,475] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 18:45:47,476] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Alfred Hitchcock", '?type=1&sort=titleSort&push=1&actor=25384&pop=1')
+[2022-11-16 18:45:47,476] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 18:45:47,476] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Alfred Hitchcock
+[2022-11-16 18:45:47,484] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:45:47,484] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 18:45:47,484] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:45:47,485] [builder.py:2306]           [INFO]     | 
+[2022-11-16 18:45:47,485] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:45:47,485] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:47,505] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Vertigo (1958) (TMDb: 426)                                       |
+[2022-11-16 18:45:47,526] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Birds (1963) (TMDb: 571)                                     |
+[2022-11-16 18:45:47,536] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Rear Window (1954) (TMDb: 567)                                   |
+[2022-11-16 18:45:47,546] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | North by Northwest (1959) (TMDb: 213)                            |
+[2022-11-16 18:45:47,558] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Rebecca (1940) (TMDb: 223)                                       |
+[2022-11-16 18:45:47,572] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Notorious (1946) (TMDb: 303)                                     |
+[2022-11-16 18:45:47,583] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Rope (1948) (TMDb: 1580)                                         |
+[2022-11-16 18:45:47,621] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Shadow of a Doubt (1943) (TMDb: 21734)                           |
+[2022-11-16 18:45:47,632] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Strangers on a Train (1951) (TMDb: 845)                          |
+[2022-11-16 18:45:47,648] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Man Who Knew Too Much (1934) (TMDb: 8208)                    |
+[2022-11-16 18:45:47,663] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Man Who Knew Too Much (1956) (TMDb: 574)                     |
+[2022-11-16 18:45:47,673] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Dial M for Murder (1954) (TMDb: 521)                             |
+[2022-11-16 18:45:47,684] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Marnie (1964) (TMDb: 506)                                        |
+[2022-11-16 18:45:47,695] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Frenzy (1972) (TMDb: 573)                                        |
+[2022-11-16 18:45:47,706] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Suspicion (1941) (TMDb: 11462)                                   |
+[2022-11-16 18:45:47,722] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Spellbound (1945) (TMDb: 4174)                                   |
+[2022-11-16 18:45:47,734] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | To Catch a Thief (1955) (TMDb: 381)                              |
+[2022-11-16 18:45:47,736] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The 39 Steps (1935) (TMDb: 260)                                  |
+[2022-11-16 18:45:47,753] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Family Plot (1976) (TMDb: 5854)                                  |
+[2022-11-16 18:45:47,781] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Trouble with Harry (1955) (TMDb: 11219)                      |
+[2022-11-16 18:45:47,799] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Saboteur (1942) (TMDb: 31997)                                    |
+[2022-11-16 18:45:47,810] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Wrong Man (1956) (TMDb: 22527)                               |
+[2022-11-16 18:45:47,825] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Blackmail (1929) (TMDb: 543)                                     |
+[2022-11-16 18:45:47,838] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Lifeboat (1944) (TMDb: 13321)                                    |
+[2022-11-16 18:45:47,858] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Torn Curtain (1966) (TMDb: 5780)                                 |
+[2022-11-16 18:45:47,870] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Topaz (1969) (TMDb: 2370)                                        |
+[2022-11-16 18:45:47,885] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Young and Innocent (1937) (TMDb: 2762)                           |
+[2022-11-16 18:45:47,894] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Murder! (1930) (TMDb: 31930)                                     |
+[2022-11-16 18:45:47,906] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Foreign Correspondent (1940) (TMDb: 25670)                       |
+[2022-11-16 18:45:47,923] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | I Confess (1953) (TMDb: 30159)                                   |
+[2022-11-16 18:45:47,934] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Paradine Case (1947) (TMDb: 31667)                           |
+[2022-11-16 18:45:47,945] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Stage Fright (1950) (TMDb: 1978)                                 |
+[2022-11-16 18:45:47,956] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Sabotage (1937) (TMDb: 12684)                                    |
+[2022-11-16 18:45:47,968] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Secret Agent (1936) (TMDb: 2761)                                 |
+[2022-11-16 18:45:47,979] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Under Capricorn (1949) (TMDb: 4175)                              |
+[2022-11-16 18:45:47,990] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Jamaica Inn (1939) (TMDb: 31995)                                 |
+[2022-11-16 18:45:48,003] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Ring (1927) (TMDb: 36056)                                    |
+[2022-11-16 18:45:48,016] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Pleasure Garden (1927) (TMDb: 64398)                         |
+[2022-11-16 18:45:48,027] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Waltzes from Vienna (1934) (TMDb: 52907)                         |
+[2022-11-16 18:45:48,038] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Manxman (1929) (TMDb: 20213)                                 |
+[2022-11-16 18:45:48,049] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Skin Game (1931) (TMDb: 52748)                               |
+[2022-11-16 18:45:48,060] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Mr. & Mrs. Smith (1941) (TMDb: 24197)                            |
+[2022-11-16 18:45:48,081] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Downhill (1927) (TMDb: 52782)                                    |
+[2022-11-16 18:45:48,100] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Bon Voyage (1944) (TMDb: 48140)                                  |
+[2022-11-16 18:45:48,114] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Rich and Strange (1931) (TMDb: 36049)                            |
+[2022-11-16 18:45:48,125] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | The Mountain Eagle (1926) (TMDb: 106439)                         |
+[2022-11-16 18:45:48,135] [builder.py:2321]           [INFO]     | Alfred Hitchcock Collection | ? | Number Seventeen (1932) (TMDb: 15007)                            |
+[2022-11-16 18:45:48,136] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:48,136] [builder.py:2327]           [INFO]     | 47 Movies Missing                                                                                  |
+[2022-11-16 18:45:50,065] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Alfred Hitchcock Collection                                      |
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:737]  [INFO]     |                                Finished Alfred Hitchcock Collection                                |
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 18:45:50,066] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

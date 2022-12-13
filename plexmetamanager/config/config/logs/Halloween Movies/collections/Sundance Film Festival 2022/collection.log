@@ -1,0 +1,227 @@
+[2022-11-16 18:54:53,475] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:53,475] [builder.py:193]            [INFO]     |                     Sundance Film Festival 2022 Collection in Halloween Movies                     |
+[2022-11-16 18:54:53,475] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:53,475] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,475] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:53,475] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,476] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:53,476] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,477] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:53,478] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,480] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:53,481] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,485] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:53,487] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,493] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,493] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:53,502] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:53,502] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,514] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:53,515] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,520] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,521] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:53,521] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,524] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2022-sundance', 'summary': 'Sundance Film Festival of 2022.', 'name': 'Sundance Film Festival 2022', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2022', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2022.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:53,524] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,525] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2022 Attributes =========================|
+[2022-11-16 18:54:53,525] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,525] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:53,525] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2022                                                                 |
+[2022-11-16 18:54:53,525] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,525] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:53,526] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:53,526] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,526] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:53,526] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:53,526] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,526] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:53,526] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:53,527] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,527] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:53,527] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:53,527] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,527] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:53,527] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 18:54:53,528] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,528] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:53,528] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2022-sundance                                            |
+[2022-11-16 18:54:53,614] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,615] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:53,615] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2022.                                                             |
+[2022-11-16 18:54:53,615] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,615] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:53,615] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:53,615] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,616] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:53,616] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2022                                                             |
+[2022-11-16 18:54:53,616] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,616] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:53,616] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2022.jpg |
+[2022-11-16 18:54:53,740] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,741] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:53,741] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:53,746] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,747] [plex.py:838]               [DEBUG]    | Looking for: Sundance Film Festival 2022                                                           |
+[2022-11-16 18:54:53,747] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,747] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:53,747] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2022 Collection ==========================|
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2022-sundance                              |
+[2022-11-16 18:54:53,748] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,750] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:53,753] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,754] [builder.py:1575]           [DEBUG]    | 142 IDs Found                                                                                      |
+[2022-11-16 18:54:53,754] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:53,755] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,755] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:53,755] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:53,809] [builder.py:2325]           [INFO]     | Sundance Film Festival 2022 Collection | X | Nanny (2022) (TMDb: 843932)                           |
+[2022-11-16 18:54:53,820] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Cha Cha Real Smooth (2022) (TMDb: 814340)             |
+[2022-11-16 18:54:53,845] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Palm Trees and Power Lines (2022) (TMDb: 872516)      |
+[2022-11-16 18:54:53,884] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Emergency (2022) (TMDb: 819309)                       |
+[2022-11-16 18:54:53,904] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Breaking (2022) (TMDb: 801965)                        |
+[2022-11-16 18:54:53,915] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Blood (2022) (TMDb: 913812)                           |
+[2022-11-16 18:54:53,933] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Dual (2022) (TMDb: 698128)                            |
+[2022-11-16 18:54:53,946] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Watcher (2022) (TMDb: 807356)                         |
+[2022-11-16 18:54:53,948] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Master (2022) (TMDb: 680829)                          |
+[2022-11-16 18:54:53,961] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Alice (2022) (TMDb: 714676)                           |
+[2022-11-16 18:54:53,975] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Utama (2022) (TMDb: 913820)                           |
+[2022-11-16 18:54:53,989] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Girl Picture (2022) (TMDb: 683363)                    |
+[2022-11-16 18:54:54,000] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Klondike (2022) (TMDb: 913760)                        |
+[2022-11-16 18:54:54,013] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Dos Estaciones (2022) (TMDb: 865584)                  |
+[2022-11-16 18:54:54,023] [builder.py:2325]           [INFO]     | Sundance Film Festival 2022 Collection | X | Leonor Will Never Die (2022) (TMDb: 913689)           |
+[2022-11-16 18:54:54,035] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Brian and Charles (2022) (TMDb: 913814)               |
+[2022-11-16 18:54:54,046] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Mars One (2022) (TMDb: 913816)                        |
+[2022-11-16 18:54:54,057] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Gentle (2022) (TMDb: 913815)                          |
+[2022-11-16 18:54:54,069] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Cow Who Sang a Song into the Future (2022) (TMDb: 906270) |
+[2022-11-16 18:54:54,080] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Exiles (2022) (TMDb: 913827)                      |
+[2022-11-16 18:54:54,090] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Navalny (2022) (TMDb: 926676)                         |
+[2022-11-16 18:54:54,102] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | I Didn't See You There (2022) (TMDb: 913825)          |
+[2022-11-16 18:54:54,118] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Fire of Love (2022) (TMDb: 913823)                    |
+[2022-11-16 18:54:54,138] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Aftershock (2022) (TMDb: 913821)                      |
+[2022-11-16 18:54:54,152] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Descendant (2022) (TMDb: 913822)                      |
+[2022-11-16 18:54:54,169] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Janes (2022) (TMDb: 913829)                       |
+[2022-11-16 18:54:54,182] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Free Chol Soo Lee (2022) (TMDb: 913824)               |
+[2022-11-16 18:54:54,195] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | TikTok, Boom. (2022) (TMDb: 913742)                   |
+[2022-11-16 18:54:54,207] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The UnRedacted (2022) (TMDb: 913826)                  |
+[2022-11-16 18:54:54,219] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | All That Breathes (2022) (TMDb: 913838)               |
+[2022-11-16 18:54:54,234] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Territory (2022) (TMDb: 913849)                   |
+[2022-11-16 18:54:54,246] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | A House Made of Splinters (2022) (TMDb: 913743)       |
+[2022-11-16 18:54:54,258] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Midwives (2022) (TMDb: 913844)                        |
+[2022-11-16 18:54:54,274] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Tantura (2022) (TMDb: 913847)                         |
+[2022-11-16 18:54:54,306] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Calendar Girls (2022) (TMDb: 913841)                  |
+[2022-11-16 18:54:54,318] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Nothing Compares (2022) (TMDb: 913845)                |
+[2022-11-16 18:54:54,329] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | We Met in Virtual Reality (2022) (TMDb: 913850)       |
+[2022-11-16 18:54:54,343] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Mission (2022) (TMDb: 913848)                     |
+[2022-11-16 18:54:54,357] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Sirens (2022) (TMDb: 913846)                          |
+[2022-11-16 18:54:54,381] [builder.py:2325]           [INFO]     | Sundance Film Festival 2022 Collection | X | 2nd Chance (2022) (TMDb: 901511)                      |
+[2022-11-16 18:54:54,394] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Am I Ok? (2022) (TMDb: 641934)                        |
+[2022-11-16 18:54:54,409] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Brainwashed: Sex-Camera-Power (2022) (TMDb: 817127)   |
+[2022-11-16 18:54:54,450] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Call Jane (2022) (TMDb: 579496)                       |
+[2022-11-16 18:54:54,462] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Downfall: The Case Against Boeing (2022) (TMDb: 913862) |
+[2022-11-16 18:54:54,477] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Emily the Criminal (2022) (TMDb: 862965)              |
+[2022-11-16 18:54:54,487] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | God's Country (2022) (TMDb: 879990)                   |
+[2022-11-16 18:54:54,508] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Good Luck to You, Leo Grande (2022) (TMDb: 758330)    |
+[2022-11-16 18:54:54,511] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Honk for Jesus. Save Your Soul. (2022) (TMDb: 848331) |
+[2022-11-16 18:54:54,523] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | La Guerra Civil (2022) (TMDb: 913864)                 |
+[2022-11-16 18:54:54,534] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Living (2022) (TMDb: 760099)                          |
+[2022-11-16 18:54:54,566] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Lucy and Desi (2022) (TMDb: 736280)                   |
+[2022-11-16 18:54:54,592] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | My Old School (2022) (TMDb: 913867)                   |
+[2022-11-16 18:54:54,611] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Resurrection (2022) (TMDb: 872497)                    |
+[2022-11-16 18:54:54,615] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Sharp Stick (2022) (TMDb: 801913)                     |
+[2022-11-16 18:54:54,625] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Princess (2022) (TMDb: 759175)                    |
+[2022-11-16 18:54:54,635] [builder.py:2325]           [INFO]     | Sundance Film Festival 2022 Collection | X | To the End (2022) (TMDb: 913869)                      |
+[2022-11-16 18:54:54,645] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | When You Finish Saving the World (2022) (TMDb: 691422) |
+[2022-11-16 18:54:54,656] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | After Yang (2022) (TMDb: 585378)                      |
+[2022-11-16 18:54:54,666] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Worst Person in the World (2021) (TMDb: 660120)   |
+[2022-11-16 18:54:54,678] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Happening (2021) (TMDb: 793998)                       |
+[2022-11-16 18:54:54,688] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Neptune Frost (2022) (TMDb: 671109)                   |
+[2022-11-16 18:54:54,699] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Three Minutes: A Lengthening (2021) (TMDb: 856369)    |
+[2022-11-16 18:54:54,713] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Framing Agnes (2022) (TMDb: 913854)                   |
+[2022-11-16 18:54:54,735] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | A Love Song (2022) (TMDb: 913851)                     |
+[2022-11-16 18:54:54,750] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Something in the Dirt (2022) (TMDb: 843621)           |
+[2022-11-16 18:54:54,761] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Cathedral (2021) (TMDb: 854546)                   |
+[2022-11-16 18:54:54,772] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Riotsville, USA (2022) (TMDb: 794252)                 |
+[2022-11-16 18:54:54,784] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Mija (2022) (TMDb: 913745)                            |
+[2022-11-16 18:54:54,803] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Every Day In Kaimukī (2022) (TMDb: 913852)            |
+[2022-11-16 18:54:54,814] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Babysitter (2022) (TMDb: 764837)                      |
+[2022-11-16 18:54:54,825] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Fresh (2022) (TMDb: 787752)                           |
+[2022-11-16 18:54:54,840] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Hatching (2022) (TMDb: 517302)                        |
+[2022-11-16 18:54:54,851] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Meet Me in the Bathroom (2022) (TMDb: 913792)         |
+[2022-11-16 18:54:54,864] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Piggy (2022) (TMDb: 848058)                           |
+[2022-11-16 18:54:54,921] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Speak No Evil (2022) (TMDb: 833339)                   |
+[2022-11-16 18:54:54,947] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Last Flight Home (2022) (TMDb: 913860)                |
+[2022-11-16 18:54:54,964] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The American Dream and Other Fairy Tales (2022) (TMDb: 927106) |
+[2022-11-16 18:54:54,979] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Maika: The Girl From Another Galaxy (2022) (TMDb: 913857) |
+[2022-11-16 18:54:54,995] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Summering (2022) (TMDb: 860155)                       |
+[2022-11-16 18:54:55,006] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | If I Go Will They Miss Me (2022) (TMDb: 914262)       |
+[2022-11-16 18:54:55,021] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 889351                                                      |
+[2022-11-16 18:54:55,039] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Champ (2022) (TMDb: 914247)                           |
+[2022-11-16 18:54:55,058] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Chaperone (2022) (TMDb: 914248)                       |
+[2022-11-16 18:54:55,082] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Close Ties to Home Country (2021) (TMDb: 847343)      |
+[2022-11-16 18:54:55,104] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Daddy's Girl (2022) (TMDb: 914252)                    |
+[2022-11-16 18:54:55,121] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | F^¢k ’€m R!ght B@¢k (2022) (TMDb: 914240)             |
+[2022-11-16 18:54:55,134] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Hallelujah (2022) (TMDb: 914256)                      |
+[2022-11-16 18:54:55,156] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Huella (2022) (TMDb: 842950)                          |
+[2022-11-16 18:54:55,175] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Starfuckers (2022) (TMDb: 914281)                     |
+[2022-11-16 18:54:55,194] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Training Wheels (2022) (TMDb: 914388)                 |
+[2022-11-16 18:54:55,211] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | While Mortals Sleep (2022) (TMDb: 914397)             |
+[2022-11-16 18:54:55,228] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Work (2022) (TMDb: 914398)                            |
+[2022-11-16 18:54:55,243] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | You Go Girl! (2022) (TMDb: 914400)                    |
+[2022-11-16 18:54:55,267] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Headhunter's Daughter (2022) (TMDb: 914257)       |
+[2022-11-16 18:54:55,279] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Warsha (2022) (TMDb: 914391)                          |
+[2022-11-16 18:54:55,291] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | A Wild Patience Has Taken Me Here (2021) (TMDb: 643185) |
+[2022-11-16 18:54:55,303] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Breathe (2022) (TMDb: 914246)                         |
+[2022-11-16 18:54:55,321] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Bump (2021) (TMDb: 825722)                            |
+[2022-11-16 18:54:55,336] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Egúngún (Masquerade) (2021) (TMDb: 855193)            |
+[2022-11-16 18:54:55,353] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Love Stories on the Move (2021) (TMDb: 843031)        |
+[2022-11-16 18:54:55,368] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Maidenhood (2022) (TMDb: 914266)                      |
+[2022-11-16 18:54:55,385] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Makassar Is a City for Football Fans (2021) (TMDb: 879730) |
+[2022-11-16 18:54:55,396] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Motorcyclist's Happiness Won't Fit Into His Suit (2021) (TMDb: 796004) |
+[2022-11-16 18:54:55,411] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Orthodontics (2021) (TMDb: 843016)                    |
+[2022-11-16 18:54:55,433] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Precious Hair & Beauty (2021) (TMDb: 871853)          |
+[2022-11-16 18:54:55,447] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | 2121: Reckless (2021) (TMDb: 914277)                  |
+[2022-11-16 18:54:55,459] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Right Words (2021) (TMDb: 842373)                 |
+[2022-11-16 18:54:55,476] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Sandstorm (2021) (TMDb: 854667)                       |
+[2022-11-16 18:54:55,491] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Shark (2021) (TMDb: 865355)                           |
+[2022-11-16 18:54:55,506] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Tundra (2021) (TMDb: 892142)                          |
+[2022-11-16 18:54:55,527] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Stranger Than Rotterdam with Sara Driver (2021) (TMDb: 914229) |
+[2022-11-16 18:54:55,546] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Chilly and Milly (2022) (TMDb: 914250)                |
+[2022-11-16 18:54:55,580] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Deerwoods Deathtrap (2022) (TMDb: 914253)             |
+[2022-11-16 18:54:55,591] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Kicking the Clouds (2022) (TMDb: 914263)              |
+[2022-11-16 18:54:55,601] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Long Line of Ladies (2022) (TMDb: 914265)             |
+[2022-11-16 18:54:55,613] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Martha Mitchell Effect (2022) (TMDb: 914268)      |
+[2022-11-16 18:54:55,626] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Panola Project (2022) (TMDb: 914385)              |
+[2022-11-16 18:54:55,636] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Sub Eleven Seconds (2022) (TMDb: 914282)              |
+[2022-11-16 18:54:55,648] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | ᎤᏕᏲᏅ (What They've Been Taught) (2022) (TMDb: 914406) |
+[2022-11-16 18:54:55,663] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | What Travelers Are Saying About Jornada del Muerto (2022) (TMDb: 914396) |
+[2022-11-16 18:54:55,679] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | You’ve Never Been Completely Honest (2022) (TMDb: 914403) |
+[2022-11-16 18:54:55,732] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Displaced (2022) (TMDb: 842369)                       |
+[2022-11-16 18:54:55,752] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | $75,000 (2021) (TMDb: 828816)                         |
+[2022-11-16 18:54:55,764] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Listen to the Beat of Our Images (2021) (TMDb: 809470) |
+[2022-11-16 18:54:55,777] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Prayers for Sweet Waters (2021) (TMDb: 902919)        |
+[2022-11-16 18:54:55,792] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Hork (2022) (TMDb: 914260)                        |
+[2022-11-16 18:54:55,808] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Meal On The Plate (2022) (TMDb: 914271)               |
+[2022-11-16 18:54:55,822] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Soft Animals (2021) (TMDb: 828881)                    |
+[2022-11-16 18:54:55,835] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | We Are Here (2022) (TMDb: 914394)                     |
+[2022-11-16 18:54:55,852] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Night Bus (2019) (TMDb: 633678)                       |
+[2022-11-16 18:54:55,864] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Bestia (2021) (TMDb: 828751)                          |
+[2022-11-16 18:54:55,877] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | The Fourth Wall (2021) (TMDb: 828928)                 |
+[2022-11-16 18:54:55,897] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Goodbye Jerome! (2022) (TMDb: 914255)                 |
+[2022-11-16 18:54:55,908] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Rendang of Death (2020) (TMDb: 769774)                |
+[2022-11-16 18:54:55,920] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | La odisea espeleológica de Sócrates (2021) (TMDb: 803183) |
+[2022-11-16 18:54:55,932] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Swallow the Universe (2021) (TMDb: 828794)            |
+[2022-11-16 18:54:55,949] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Sweet Nothing (2021) (TMDb: 828912)                   |
+[2022-11-16 18:54:55,963] [builder.py:2321]           [INFO]     | Sundance Film Festival 2022 Collection | ? | Zoon (2022) (TMDb: 914404)                            |
+[2022-11-16 18:54:55,963] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:55,963] [builder.py:2327]           [INFO]     | 133 Movies Missing                                                                                 |
+[2022-11-16 18:55:03,579] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 18:55:03,580] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Sundance Film Festival 2022 Collection                           |
+[2022-11-16 18:55:03,580] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:55:03,580] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:55:03,580] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2022 Collection                           |
+[2022-11-16 18:55:03,581] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 18:55:03,581] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,53 @@
+[2022-11-16 21:27:52,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:27:52,689] [builder.py:193]            [INFO]     |                              Science Fiction Collection in Old Movies                              |
+[2022-11-16 21:27:52,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:27:52,689] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:27:52,689] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:27:52,690] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,690] [meta.py:210]               [DEBUG]    |========================================= Template Dynamic =========================================|
+[2022-11-16 21:27:52,690] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,691] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,691] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 21:27:52,691] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,692] [meta.py:515]               [DEBUG]    | {'smart_filter': {'all': {'genre': 'Science Fiction'}, 'sort_by': 'release.desc'}, 'url_poster': 'https://theposterdb.com/api/assets/213085', 'sort_title': '++++++++_Science Fiction', 'collection_mode': 'hide'} |
+[2022-11-16 21:27:52,692] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,692] [builder.py:223]            [INFO]     |============================== Validating Science Fiction Attributes ===============================|
+[2022-11-16 21:27:52,692] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 21:27:52,692] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 21:27:52,692] [builder.py:1791]           [DEBUG]    | Value: {'all': {'genre': 'Science Fiction'}, 'sort_by': 'release.desc'}                            |
+[2022-11-16 21:27:52,812] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&genre=1019                                    |
+[2022-11-16 21:27:52,812] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,812] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 21:27:52,812] [builder.py:651]            [DEBUG]    | Value: Science Fiction (Sci-Fi) films are a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology. |
+[2022-11-16 21:27:52,813] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:52,813] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 21:27:52,813] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213085                                                   |
+[2022-11-16 21:27:53,452] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:53,452] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 21:27:53,452] [builder.py:651]            [DEBUG]    | Value: ++++++++_Science Fiction                                                                    |
+[2022-11-16 21:27:53,453] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:27:53,453] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 21:27:53,453] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 21:27:53,732] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:27:53,733] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:27:53,733] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:53,733] [plex_meta_manager.py:596]  [INFO]     |================================ Running Science Fiction Collection ================================|
+[2022-11-16 21:27:53,733] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:53,733] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Genre is Science Fiction
+[2022-11-16 21:27:54,111] [builder.py:2527]           [INFO]     | 
+[2022-11-16 21:27:54,111] [builder.py:2528]           [INFO]     |========================== Updating Details of Science Fiction Collection ==========================|
+[2022-11-16 21:27:54,111] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:27:54,122] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 21:27:54,123] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 21:27:54,123] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213085                               |
+[2022-11-16 21:27:54,123] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Old_Movies/Assets/Science Fiction/poster.png', 'prefix': "Science Fiction's ", 'is_poster': True, 'is_url': False, 'compare': 3350824, 'message': "Science Fiction's poster to [File] /config/Old_Movies/Assets/Science Fiction/poster.png"} |
+[2022-11-16 21:27:54,125] [library.py:180]            [INFO]     | Detail: Science Fiction's poster update not needed                                                 |
+[2022-11-16 21:27:54,421] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 21:27:54,421] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:27:54,421] [plex_meta_manager.py:737]  [INFO]     |                                Finished Science Fiction Collection                                 |
+[2022-11-16 21:27:54,422] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-16 21:27:54,422] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

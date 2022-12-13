@@ -1,0 +1,88 @@
+[2022-11-16 22:08:42,142] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:42,142] [builder.py:193]            [INFO]     |                                Michael Bay Collection in Old Movies                                |
+[2022-11-16 22:08:42,143] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:42,143] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,143] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:08:42,143] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,143] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:08:42,144] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,145] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,146] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:08:42,146] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,146] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 865, 'sort_title': '++_Michael Bay', 'collection_order': 'release'} |
+[2022-11-16 22:08:42,146] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,146] [builder.py:223]            [INFO]     |================================ Validating Michael Bay Attributes =================================|
+[2022-11-16 22:08:42,146] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,146] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:08:42,147] [builder.py:533]            [DEBUG]    | Value: 865                                                                                         |
+[2022-11-16 22:08:42,159] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,159] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:08:42,160] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:08:42,160] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,160] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 22:08:42,160] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:08:42,231] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,231] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:08:42,232] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:08:42,732] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,732] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:08:42,733] [builder.py:651]            [DEBUG]    | Value: ++_Michael Bay                                                                              |
+[2022-11-16 22:08:42,738] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,738] [builder.py:796]            [ERROR]    | Collection Error: Converting Michael Bay to a normal collection                                    |
+[2022-11-16 22:08:42,750] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,751] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:596]  [INFO]     |================================== Running Michael Bay Collection ==================================|
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Michael Bay", '?type=1&sort=titleSort&push=1&director=48251&pop=1') |
+[2022-11-16 22:08:42,751] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,752] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Michael Bay
+[2022-11-16 22:08:42,772] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:08:42,773] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-16 22:08:42,773] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:08:42,773] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 22:08:42,773] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Michael Bay", '?type=1&sort=titleSort&push=1&actor=56963&pop=1')
+[2022-11-16 22:08:42,773] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 22:08:42,773] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Michael Bay
+[2022-11-16 22:08:42,784] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:08:42,784] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 22:08:42,785] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:08:42,785] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:08:42,785] [builder.py:2159]           [INFO]     |================================= Adding to Michael Bay Collection =================================|
+[2022-11-16 22:08:42,785] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:42,785] [builder.py:2174]           [INFO]     | 1/7 | Michael Bay Collection | + | Armageddon (1998)                                               |
+[2022-11-16 22:08:42,877] [builder.py:2174]           [INFO]     | 2/7 | Michael Bay Collection | + | Pearl Harbor (2001)                                             |
+[2022-11-16 22:08:43,015] [builder.py:2174]           [INFO]     | 3/7 | Michael Bay Collection | + | Transformers (2007)                                             |
+[2022-11-16 22:08:43,148] [builder.py:2174]           [INFO]     | 4/7 | Michael Bay Collection | + | Transformers: Age of Extinction (2014)                          |
+[2022-11-16 22:08:43,240] [builder.py:2174]           [INFO]     | 5/7 | Michael Bay Collection | + | Transformers: Dark of the Moon (2011)                           |
+[2022-11-16 22:08:45,093] [builder.py:2174]           [INFO]     | 6/7 | Michael Bay Collection | + | Transformers: Revenge of the Fallen (2009)                      |
+[2022-11-16 22:08:45,224] [builder.py:2174]           [INFO]     | 7/7 | Michael Bay Collection | + | Transformers: The Last Knight (2017)                            |
+[2022-11-16 22:08:47,599] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:47,599] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 22:08:47,606] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:47,606] [builder.py:2528]           [INFO]     |============================ Updating Details of Michael Bay Collection ============================|
+[2022-11-16 22:08:47,606] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:47,613] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Michael Benjamin Bay (born February 17, 1965 in Los Angeles, California, USA) is a film director and producer. He is best known for directing high-budget action films characterized by fast edits, polished visuals and substantial use of practical effects. His films, which include "The Rock" (1996), "Armageddon" (1998), "Pearl Harbor" (2001) and entries in the "Bad Boys" (1995-2003) and "Transformers" (2007-2017) series, have grossed over three billion dollars worldwide. He is co-founder of commercial production house The Institute, a.k.a. The Institute for the Development of Enhanced Perceptual Awareness; he is co-chair and part-owner of the special effects house Digital Domain; and he co-owns Platinum Dunes, a production company which has remade horror movies including "The Texas Chainsaw Massacre" (2003), "Friday the 13th" (2009) and "A Nightmare on Elm Street" (2010).
+                                                                 | Sort Title | ++_Michael Bay
+                                                                 | Label | +PMM
+[2022-11-16 22:08:49,178] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:08:49,179] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:08:49,179] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:08:49,180] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/8I9H9IKROECFEn7usvyChbRMhbI.jpg
+[2022-11-16 22:08:49,421] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/8I9H9IKROECFEn7usvyChbRMhbI.jpg
+[2022-11-16 22:08:49,490] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:08:49,490] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:08:49,490] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Michael Bay Collection                                   |
+[2022-11-16 22:08:49,491] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 22:08:49,491] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

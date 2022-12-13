@@ -1,0 +1,235 @@
+[2022-11-25 15:27:22,065] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:27:22,065] [builder.py:193]            [INFO]     |                                     FX Collection in TV Shows                                      |
+[2022-11-25 15:27:22,065] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:27:22,065] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,066] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:27:22,066] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,066] [meta.py:210]               [DEBUG]    |========================================= Template network =========================================|
+[2022-11-25 15:27:22,066] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,067] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,068] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:27:22,068] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,068] [meta.py:515]               [DEBUG]    | {'tmdb_network': 88, 'sort_title': '+2_FX', 'sync_mode': 'sync', 'smart_label': 'episode_added.desc'} |
+[2022-11-25 15:27:22,068] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,068] [builder.py:223]            [INFO]     |===================================== Validating FX Attributes =====================================|
+[2022-11-25 15:27:22,069] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,069] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:27:22,069] [builder.py:428]            [DEBUG]    | Value: episode_added.desc                                                                          |
+[2022-11-25 15:27:22,084] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,084] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:27:22,084] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:27:22,084] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,085] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-25 15:27:22,085] [builder.py:651]            [DEBUG]    | Value: 88                                                                                          |
+[2022-11-25 15:27:22,094] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:22,095] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:27:22,095] [builder.py:651]            [DEBUG]    | Value: +2_FX                                                                                       |
+[2022-11-25 15:27:22,127] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,128] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:27:22,128] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,128] [plex_meta_manager.py:596]  [INFO]     |====================================== Running FX Collection =======================================|
+[2022-11-25 15:27:22,128] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,128] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['episode_added.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is FX
+[2022-11-25 15:27:22,129] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 15:27:22,129] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 15:27:22,129] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:27:22,129] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 88
+[2022-11-25 15:27:22,129] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:27:22,262] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (88) FX (88 Shows)
+[2022-11-25 15:27:22,262] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:27:22,262] [builder.py:1575]           [DEBUG]    | 88 IDs Found
+[2022-11-25 15:27:22,263] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:27:22,347] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 105763
+[2022-11-25 15:27:22,395] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 35241
+[2022-11-25 15:27:22,419] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93324
+[2022-11-25 15:27:22,433] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 29882
+[2022-11-25 15:27:22,447] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 23292
+[2022-11-25 15:27:22,466] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 34343
+[2022-11-25 15:27:22,486] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 16771
+[2022-11-25 15:27:22,486] [builder.py:2158]           [INFO]     | 
+[2022-11-25 15:27:22,486] [builder.py:2159]           [INFO]     |===================================== Adding to FX Collection ======================================|
+[2022-11-25 15:27:22,486] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,513] [builder.py:2174]           [INFO]     | 1/2 | FX Collection | = | The Old Man                                                              |
+[2022-11-25 15:27:22,513] [builder.py:2174]           [INFO]     | 2/2 | FX Collection | = | What We Do in the Shadows                                                |
+[2022-11-25 15:27:22,513] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,514] [builder.py:2196]           [INFO]     | 2 Shows Processed 0 Shows Added                                                                    |
+[2022-11-25 15:27:22,514] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,514] [builder.py:2353]           [INFO]     |================================== Missing Shows from Library: FX ==================================|
+[2022-11-25 15:27:22,514] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:22,559] [builder.py:2366]           [INFO]     | FX Collection | ? | American Horror Story (TVDb: 250487)                                           |
+[2022-11-25 15:27:22,594] [builder.py:2366]           [INFO]     | FX Collection | ? | Fargo (TVDb: 269613)                                                           |
+[2022-11-25 15:27:22,629] [builder.py:2366]           [INFO]     | FX Collection | ? | Mayans M.C. (TVDb: 349659)                                                     |
+[2022-11-25 15:27:22,692] [builder.py:2366]           [INFO]     | FX Collection | ? | Sons of Anarchy (TVDb: 82696)                                                  |
+[2022-11-25 15:27:22,729] [builder.py:2366]           [INFO]     | FX Collection | ? | Snowfall (2017) (TVDb: 328092)                                                 |
+[2022-11-25 15:27:22,799] [builder.py:2366]           [INFO]     | FX Collection | ? | It's Always Sunny in Philadelphia (TVDb: 75805)                                |
+[2022-11-25 15:27:22,846] [builder.py:2366]           [INFO]     | FX Collection | ? | Archer (2009) (TVDb: 110381)                                                   |
+[2022-11-25 15:27:22,900] [builder.py:2366]           [INFO]     | FX Collection | ? | The Strain (TVDb: 276564)                                                      |
+[2022-11-25 15:27:22,942] [builder.py:2366]           [INFO]     | FX Collection | ? | Nip/Tuck (TVDb: 72201)                                                         |
+[2022-11-25 15:27:22,966] [builder.py:2366]           [INFO]     | FX Collection | ? | Justified (TVDb: 134241)                                                       |
+[2022-11-25 15:27:23,011] [builder.py:2366]           [INFO]     | FX Collection | ? | The Shield (TVDb: 78261)                                                       |
+[2022-11-25 15:27:23,060] [builder.py:2366]           [INFO]     | FX Collection | ? | Legion (TVDb: 320724)                                                          |
+[2022-11-25 15:27:23,088] [builder.py:2366]           [INFO]     | FX Collection | ? | The Americans (TVDb: 261690)                                                   |
+[2022-11-25 15:27:23,117] [builder.py:2366]           [INFO]     | FX Collection | ? | Anger Management (TVDb: 253350)                                                |
+[2022-11-25 15:27:23,160] [builder.py:2366]           [INFO]     | FX Collection | ? | Pose (TVDb: 346026)                                                            |
+[2022-11-25 15:27:23,218] [builder.py:2366]           [INFO]     | FX Collection | ? | Damages (TVDb: 80367)                                                          |
+[2022-11-25 15:27:23,253] [builder.py:2366]           [INFO]     | FX Collection | ? | Atlanta (TVDb: 313999)                                                         |
+[2022-11-25 15:27:23,286] [builder.py:2366]           [INFO]     | FX Collection | ? | American Crime Story (TVDb: 289108)                                            |
+[2022-11-25 15:27:23,337] [builder.py:2366]           [INFO]     | FX Collection | ? | The League (TVDb: 114701)                                                      |
+[2022-11-25 15:27:23,367] [builder.py:2366]           [INFO]     | FX Collection | ? | Taboo (2017) (TVDb: 292157)                                                    |
+[2022-11-25 15:27:23,411] [builder.py:2366]           [INFO]     | FX Collection | ? | Rescue Me (TVDb: 73741)                                                        |
+[2022-11-25 15:27:23,437] [builder.py:2366]           [INFO]     | FX Collection | ? | Welcome to Wrexham (TVDb: 403119)                                              |
+[2022-11-25 15:27:23,461] [builder.py:2366]           [INFO]     | FX Collection | ? | You're the Worst (TVDb: 281776)                                                |
+[2022-11-25 15:27:23,488] [builder.py:2366]           [INFO]     | FX Collection | ? | Mr Inbetween (TVDb: 349743)                                                    |
+[2022-11-25 15:27:23,529] [builder.py:2366]           [INFO]     | FX Collection | ? | Better Things (TVDb: 313270)                                                   |
+[2022-11-25 15:27:23,592] [builder.py:2366]           [INFO]     | FX Collection | ? | The Ultimate Fighter (TVDb: 75382)                                             |
+[2022-11-25 15:27:23,629] [builder.py:2366]           [INFO]     | FX Collection | ? | Louie (TVDb: 155201)                                                           |
+[2022-11-25 15:27:23,824] [builder.py:2366]           [INFO]     | FX Collection | ? | Wilfred (US) (TVDb: 239761)                                                    |
+[2022-11-25 15:27:23,861] [builder.py:2366]           [INFO]     | FX Collection | ? | Baskets (TVDb: 303069)                                                         |
+[2022-11-25 15:27:23,883] [builder.py:2366]           [INFO]     | FX Collection | ? | Tyrant (TVDb: 268094)                                                          |
+[2022-11-25 15:27:23,919] [builder.py:2366]           [INFO]     | FX Collection | ? | The Bridge (2013) (TVDb: 264085)                                               |
+[2022-11-25 15:27:23,943] [builder.py:2366]           [INFO]     | FX Collection | ? | Trust (2018) (TVDb: 340523)                                                    |
+[2022-11-25 15:27:23,971] [builder.py:2366]           [INFO]     | FX Collection | ? | Man Seeking Woman (TVDb: 283346)                                               |
+[2022-11-25 15:27:23,995] [builder.py:2366]           [INFO]     | FX Collection | ? | Black Narcissus (TVDb: 382164)                                                 |
+[2022-11-25 15:27:24,223] [builder.py:2366]           [INFO]     | FX Collection | ? | Son of the Beach (TVDb: 78853)                                                 |
+[2022-11-25 15:27:24,260] [builder.py:2366]           [INFO]     | FX Collection | ? | Breeders (TVDb: 363777)                                                        |
+[2022-11-25 15:27:24,282] [builder.py:2366]           [INFO]     | FX Collection | ? | Feud (TVDb: 322466)                                                            |
+[2022-11-25 15:27:24,314] [builder.py:2366]           [INFO]     | FX Collection | ? | Terriers (TVDb: 180791)                                                        |
+[2022-11-25 15:27:24,339] [builder.py:2366]           [INFO]     | FX Collection | ? | Dirt (TVDb: 79679)                                                             |
+[2022-11-25 15:27:24,368] [builder.py:2366]           [INFO]     | FX Collection | ? | Legit (2013) (TVDb: 264450)                                                    |
+[2022-11-25 15:27:24,392] [builder.py:2366]           [INFO]     | FX Collection | ? | The Bastard Executioner (TVDb: 279227)                                         |
+[2022-11-25 15:27:24,417] [builder.py:2366]           [INFO]     | FX Collection | ? | Sex&Drugs&Rock&Roll (TVDb: 283345)                                             |
+[2022-11-25 15:27:24,595] [builder.py:2366]           [INFO]     | FX Collection | ? | Partners (2014) (TVDb: 281664)                                                 |
+[2022-11-25 15:27:24,631] [builder.py:2366]           [INFO]     | FX Collection | ? | The Riches (TVDb: 79876)                                                       |
+[2022-11-25 15:27:24,655] [builder.py:2366]           [INFO]     | FX Collection | ? | The Booth at the End (TVDb: 240971)                                            |
+[2022-11-25 15:27:24,688] [builder.py:2366]           [INFO]     | FX Collection | ? | Married (TVDb: 280756)                                                         |
+[2022-11-25 15:27:24,722] [builder.py:2366]           [INFO]     | FX Collection | ? | Fosse/Verdon (TVDb: 357907)                                                    |
+[2022-11-25 15:27:24,783] [builder.py:2366]           [INFO]     | FX Collection | ? | Lights Out (TVDb: 194051)                                                      |
+[2022-11-25 15:27:24,810] [builder.py:2366]           [INFO]     | FX Collection | ? | Over There (TVDb: 72045)                                                       |
+[2022-11-25 15:27:24,938] [builder.py:2366]           [INFO]     | FX Collection | ? | Unsupervised (TVDb: 254561)                                                    |
+[2022-11-25 15:27:25,051] [builder.py:2366]           [INFO]     | FX Collection | ? | The New York Times Presents (TVDb: 362237)                                     |
+[2022-11-25 15:27:25,199] [builder.py:2366]           [INFO]     | FX Collection | ? | Harsh Realm (TVDb: 71768)                                                      |
+[2022-11-25 15:27:25,221] [builder.py:2366]           [INFO]     | FX Collection | ? | Pride (2021) (TVDb: 400252)                                                    |
+[2022-11-25 15:27:25,343] [builder.py:2370]           [INFO]     | FX Collection | X | Pretty/Handsome (TVDb: 367958)                                                 |
+[2022-11-25 15:27:25,427] [builder.py:2366]           [INFO]     | FX Collection | ? | Lucky (TVDb: 70876)                                                            |
+[2022-11-25 15:27:25,455] [builder.py:2366]           [INFO]     | FX Collection | ? | The Most Dangerous Animal of All (TVDb: 375356)                                |
+[2022-11-25 15:27:25,580] [builder.py:2366]           [INFO]     | FX Collection | ? | Chozen (TVDb: 275126)                                                          |
+[2022-11-25 15:27:25,608] [builder.py:2366]           [INFO]     | FX Collection | ? | A Wilderness of Error (TVDb: 386156)                                           |
+[2022-11-25 15:27:25,726] [builder.py:2366]           [INFO]     | FX Collection | ? | The Choe Show (TVDb: 404367)                                                   |
+[2022-11-25 15:27:25,858] [builder.py:2366]           [INFO]     | FX Collection | ? | Brand X with Russell Brand (TVDb: 259286)                                      |
+[2022-11-25 15:27:25,888] [builder.py:2366]           [INFO]     | FX Collection | ? | Starved (TVDb: 78858)                                                          |
+[2022-11-25 15:27:26,045] [builder.py:2366]           [INFO]     | FX Collection | ? | UFC Primetime (TVDb: 247926)                                                   |
+[2022-11-25 15:27:26,075] [builder.py:2366]           [INFO]     | FX Collection | ? | Children of the Underground (TVDb: 420841)                                     |
+[2022-11-25 15:27:26,233] [builder.py:2366]           [INFO]     | FX Collection | ? | 30 Days (TVDb: 78818)                                                          |
+[2022-11-25 15:27:26,340] [builder.py:2370]           [INFO]     | FX Collection | X | The Sterling Affairs (TVDb: 418670)                                            |
+[2022-11-25 15:27:26,368] [builder.py:2366]           [INFO]     | FX Collection | ? | Thief (TVDb: 74334)                                                            |
+[2022-11-25 15:27:26,394] [builder.py:2366]           [INFO]     | FX Collection | ? | Hip Hop Uncovered (TVDb: 393673)                                               |
+[2022-11-25 15:27:26,504] [builder.py:2366]           [INFO]     | FX Collection | ? | The Comedians (2015) (TVDb: 290176)                                            |
+[2022-11-25 15:27:26,541] [builder.py:2366]           [INFO]     | FX Collection | ? | Saint George (TVDb: 277844)                                                    |
+[2022-11-25 15:27:26,702] [builder.py:2370]           [INFO]     | FX Collection | X | Great Expectations (2022) (TVDb: 411028)                                       |
+[2022-11-25 15:27:26,826] [builder.py:2370]           [INFO]     | FX Collection | X | Justified: City Primeval (TVDb: 414677)                                        |
+[2022-11-25 15:27:26,898] [builder.py:2366]           [INFO]     | FX Collection | ? | Swan Boy (TVDb: 410765)                                                        |
+[2022-11-25 15:27:27,080] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 410207                                                    |
+[2022-11-25 15:27:27,152] [builder.py:2366]           [INFO]     | FX Collection | ? | Black. White. (TVDb: 79262)                                                    |
+[2022-11-25 15:27:27,228] [builder.py:2370]           [INFO]     | FX Collection | X | American Love Story (TVDb: 408694)                                             |
+[2022-11-25 15:27:27,343] [builder.py:2370]           [INFO]     | FX Collection | X | American Sports Story (TVDb: 408693)                                           |
+[2022-11-25 15:27:27,427] [builder.py:2366]           [INFO]     | FX Collection | ? | Todd TV (TVDb: 73678)                                                          |
+[2022-11-25 15:27:27,508] [builder.py:2370]           [INFO]     | FX Collection | X | Dear Mama (TVDb: 419932)                                                       |
+[2022-11-25 15:27:27,578] [builder.py:2366]           [INFO]     | FX Collection | ? | Maggie... At Home With (TVDb: 71427)                                           |
+[2022-11-25 15:27:27,578] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:27,578] [builder.py:2372]           [INFO]     | 71 Shows Missing                                                                                   |
+[2022-11-25 15:27:28,465] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:27:28,465] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:27:28,465] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:27:28,465] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [250487, 269613, 349659, 82696, 328092, 75805, 110381, 276564, 72201, 134241, 78261, 320724, 261690, 253350, 346026, 80367, 313999, 289108, 114701, 292157, 73741, 403119, 281776, 349743, 313270, 75382, 155201, 239761, 303069, 268094, 264085, 340523, 283346, 382164, 78853, 363777, 322466, 180791, 79679, 264450, 279227, 283345, 281664, 79876, 240971, 280756, 357907, 194051, 72045, 254561, 362237, 71768, 400252, 70876, 375356, 275126, 386156, 404367, 259286, 78858, 247926, 420841, 78818, 74334, 393673, 290176, 277844, 410765, 79262, 73678, 71427] |
+[2022-11-25 15:27:54,797] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,797] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269613                                                                         |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349659                                                                         |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328092                                                                         |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75805                                                                          |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 110381                                                                         |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276564                                                                         |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72201                                                                          |
+[2022-11-25 15:27:54,798] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 320724                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 253350                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 346026                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80367                                                                          |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 313999                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289108                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 114701                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 292157                                                                         |
+[2022-11-25 15:27:54,799] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73741                                                                          |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 403119                                                                         |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281776                                                                         |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349743                                                                         |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 313270                                                                         |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75382                                                                          |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 155201                                                                         |
+[2022-11-25 15:27:54,800] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 239761                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303069                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 268094                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264085                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 340523                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283346                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382164                                                                         |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78853                                                                          |
+[2022-11-25 15:27:54,801] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 363777                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 322466                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 180791                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79679                                                                          |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264450                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 279227                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283345                                                                         |
+[2022-11-25 15:27:54,802] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281664                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79876                                                                          |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 240971                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 280756                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357907                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 194051                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72045                                                                          |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254561                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 362237                                                                         |
+[2022-11-25 15:27:54,803] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71768                                                                          |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400252                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70876                                                                          |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 375356                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 275126                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386156                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 404367                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259286                                                                         |
+[2022-11-25 15:27:54,804] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78858                                                                          |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 247926                                                                         |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420841                                                                         |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78818                                                                          |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74334                                                                          |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393673                                                                         |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 290176                                                                         |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 277844                                                                         |
+[2022-11-25 15:27:54,805] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410765                                                                         |
+[2022-11-25 15:27:54,806] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79262                                                                          |
+[2022-11-25 15:27:54,806] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73678                                                                          |
+[2022-11-25 15:27:54,806] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71427                                                                          |
+[2022-11-25 15:27:54,806] [sonarr.py:187]             [INFO]     | 66 Series already exist in Sonarr                                                                  |
+[2022-11-25 15:27:54,806] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,806] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [American Horror Story]                                                          |
+[2022-11-25 15:27:54,806] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,806] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Sons of Anarchy]                                                                |
+[2022-11-25 15:27:54,807] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,807] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Justified]                                                                      |
+[2022-11-25 15:27:54,807] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,807] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Shield]                                                                     |
+[2022-11-25 15:27:54,807] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:27:54,807] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Americans]                                                                  |
+[2022-11-25 15:27:54,807] [sonarr.py:207]             [INFO]     | 5 Series with Invalid IDs                                                                          |
+[2022-11-25 15:27:55,594] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:55,594] [builder.py:2528]           [INFO]     |================================ Updating Details of FX Collection =================================|
+[2022-11-25 15:27:55,594] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:27:55,608] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:27:55,617] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:27:55,617] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:27:55,617] [plex_meta_manager.py:737]  [INFO]     |                                       Finished FX Collection                                       |
+[2022-11-25 15:27:55,618] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:33                                    |
+[2022-11-25 15:27:55,618] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

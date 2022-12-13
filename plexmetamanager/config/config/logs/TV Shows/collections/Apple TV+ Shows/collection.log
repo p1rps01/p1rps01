@@ -1,0 +1,244 @@
+[2022-11-25 16:04:32,532] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 16:04:32,533] [builder.py:193]            [INFO]     |                               Apple TV+ Shows Collection in TV Shows                               |
+[2022-11-25 16:04:32,533] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 16:04:32,533] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 16:04:32,533] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 16:04:32,533] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,534] [meta.py:210]               [DEBUG]    |======================================== Template mdb_smart ========================================|
+[2022-11-25 16:04:32,534] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,541] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 16:04:32,542] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,559] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 16:04:32,561] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,586] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 16:04:32,587] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,597] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,598] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 16:04:32,599] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,599] [meta.py:515]               [DEBUG]    | {'cache_builders': 1, 'smart_label': 'release.desc', 'sync_mode': 'sync', 'mdblist_list': 'https://mdblist.com/lists/plexmetamanager/appletv-shows', 'summary': 'Shows streaming on Apple TV+.', 'name': 'Apple TV+ Shows', 'ignore_blank_results': True, 'sort_title': '!03_Apple TV+ Shows', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Apple%20TV%2B.jpg'} |
+[2022-11-25 16:04:32,599] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,599] [builder.py:223]            [INFO]     |============================== Validating Apple TV+ Shows Attributes ===============================|
+[2022-11-25 16:04:32,600] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,600] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 16:04:32,600] [builder.py:230]            [DEBUG]    | Value: Apple TV+ Shows                                                                             |
+[2022-11-25 16:04:32,600] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,600] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 16:04:32,601] [builder.py:428]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-25 16:04:32,623] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,626] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 16:04:32,627] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 16:04:32,627] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,627] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 16:04:32,628] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 16:04:32,628] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,628] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-25 16:04:32,628] [builder.py:651]            [DEBUG]    | Value: Streaming                                                                                   |
+[2022-11-25 16:04:32,628] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,629] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 16:04:32,629] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 16:04:32,629] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,629] [builder.py:650]            [DEBUG]    | Validating Method: mdblist_list                                                                    |
+[2022-11-25 16:04:32,629] [builder.py:651]            [DEBUG]    | Value: https://mdblist.com/lists/plexmetamanager/appletv-shows                                     |
+[2022-11-25 16:04:32,632] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,634] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 16:04:32,634] [builder.py:651]            [DEBUG]    | Value: Shows streaming on Apple TV+.                                                               |
+[2022-11-25 16:04:32,634] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,634] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 16:04:32,634] [builder.py:651]            [DEBUG]    | Value: !03_Apple TV+ Shows                                                                         |
+[2022-11-25 16:04:32,635] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:32,635] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 16:04:32,635] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Apple%20TV%2B.jpg |
+[2022-11-25 16:04:33,008] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,009] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 16:04:33,009] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,009] [plex_meta_manager.py:596]  [INFO]     |================================ Running Apple TV+ Shows Collection ================================|
+[2022-11-25 16:04:33,010] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,010] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Apple TV+ Shows
+[2022-11-25 16:04:33,013] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 16:04:33,013] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 16:04:33,013] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 16:04:33,013] [plex_meta_manager.py:613]  [DEBUG]    | Builder: mdblist_list: {'url': 'https://mdblist.com/lists/plexmetamanager/appletv-shows', 'limit': 0, 'sort_by': 'rank.asc'}
+[2022-11-25 16:04:33,014] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 16:04:33,015] [builder.py:1523]           [INFO]     | Builder: mdblist_list loaded from Cache
+[2022-11-25 16:04:33,022] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 16:04:33,022] [builder.py:1575]           [DEBUG]    | 82 IDs Found
+[2022-11-25 16:04:33,022] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 16:04:33,173] [builder.py:2158]           [INFO]     | 
+[2022-11-25 16:04:33,175] [builder.py:2159]           [INFO]     |=============================== Adding to Apple TV+ Shows Collection ===============================|
+[2022-11-25 16:04:33,175] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,260] [builder.py:2174]           [INFO]     |  1/20 | Apple TV+ Shows Collection | = | Shantaram                                                 |
+[2022-11-25 16:04:33,260] [builder.py:2174]           [INFO]     |  2/20 | Apple TV+ Shows Collection | = | Five Days at Memorial                                     |
+[2022-11-25 16:04:33,261] [builder.py:2174]           [INFO]     |  3/20 | Apple TV+ Shows Collection | = | Black Bird                                                |
+[2022-11-25 16:04:33,261] [builder.py:2174]           [INFO]     |  4/20 | Apple TV+ Shows Collection | = | The Essex Serpent                                         |
+[2022-11-25 16:04:33,261] [builder.py:2174]           [INFO]     |  5/20 | Apple TV+ Shows Collection | = | Shining Girls                                             |
+[2022-11-25 16:04:33,262] [builder.py:2174]           [INFO]     |  6/20 | Apple TV+ Shows Collection | = | Slow Horses                                               |
+[2022-11-25 16:04:33,262] [builder.py:2174]           [INFO]     |  7/20 | Apple TV+ Shows Collection | = | The Last Days of Ptolemy Grey                             |
+[2022-11-25 16:04:33,262] [builder.py:2174]           [INFO]     |  8/20 | Apple TV+ Shows Collection | = | Severance                                                 |
+[2022-11-25 16:04:33,262] [builder.py:2174]           [INFO]     |  9/20 | Apple TV+ Shows Collection | = | The Shrink Next Door                                      |
+[2022-11-25 16:04:33,263] [builder.py:2174]           [INFO]     | 10/20 | Apple TV+ Shows Collection | = | Invasion (2021)                                           |
+[2022-11-25 16:04:33,263] [builder.py:2174]           [INFO]     | 11/20 | Apple TV+ Shows Collection | = | Foundation                                                |
+[2022-11-25 16:04:33,263] [builder.py:2174]           [INFO]     | 12/20 | Apple TV+ Shows Collection | = | Lisey's Story                                             |
+[2022-11-25 16:04:33,263] [builder.py:2174]           [INFO]     | 13/20 | Apple TV+ Shows Collection | = | The Mosquito Coast                                        |
+[2022-11-25 16:04:33,264] [builder.py:2174]           [INFO]     | 14/20 | Apple TV+ Shows Collection | = | The Snoopy Show                                           |
+[2022-11-25 16:04:33,264] [builder.py:2174]           [INFO]     | 15/20 | Apple TV+ Shows Collection | = | Tehran                                                    |
+[2022-11-25 16:04:33,264] [builder.py:2174]           [INFO]     | 16/20 | Apple TV+ Shows Collection | = | Defending Jacob                                           |
+[2022-11-25 16:04:33,264] [builder.py:2174]           [INFO]     | 17/20 | Apple TV+ Shows Collection | = | Amazing Stories (2020)                                    |
+[2022-11-25 16:04:33,265] [builder.py:2174]           [INFO]     | 18/20 | Apple TV+ Shows Collection | = | See                                                       |
+[2022-11-25 16:04:33,265] [builder.py:2174]           [INFO]     | 19/20 | Apple TV+ Shows Collection | = | For All Mankind                                           |
+[2022-11-25 16:04:33,265] [builder.py:2174]           [INFO]     | 20/20 | Apple TV+ Shows Collection | = | Dickinson                                                 |
+[2022-11-25 16:04:33,265] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,265] [builder.py:2196]           [INFO]     | 20 Shows Processed 0 Shows Added                                                                   |
+[2022-11-25 16:04:33,266] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,266] [builder.py:2353]           [INFO]     |=========================== Missing Shows from Library: Apple TV+ Shows ============================|
+[2022-11-25 16:04:33,266] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 16:04:33,477] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Gutsy (TVDb: 422500)                                              |
+[2022-11-25 16:04:33,605] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Surfside Girls (TVDb: 414549)                                     |
+[2022-11-25 16:04:33,696] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Bad Sisters (TVDb: 418182)                                        |
+[2022-11-25 16:04:33,795] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Surface (2022) (TVDb: 392740)                                     |
+[2022-11-25 16:04:34,114] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Amber Brown (TVDb: 410661)                                        |
+[2022-11-25 16:04:34,218] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Best Foot Forward (TVDb: 420906)                                  |
+[2022-11-25 16:04:34,377] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Loot (TVDb: 417559)                                               |
+[2022-11-25 16:04:34,571] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Prehistoric Planet (2022) (TVDb: 418505)                          |
+[2022-11-25 16:04:34,930] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Now & Then (TVDb: 401411)                                         |
+[2022-11-25 16:04:35,057] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Big Conn (TVDb: 416610)                                       |
+[2022-11-25 16:04:35,162] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Make or Break (TVDb: 418943)                                      |
+[2022-11-25 16:04:35,480] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | They Call Me Magic (TVDb: 415810)                                 |
+[2022-11-25 16:04:35,602] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Roar (2022) (TVDb: 398102)                                        |
+[2022-11-25 16:04:35,696] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Pachinko (TVDb: 368124)                                           |
+[2022-11-25 16:04:35,801] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | WeCrashed (TVDb: 393499)                                          |
+[2022-11-25 16:04:35,924] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Lincoln's Dilemma (TVDb: 414706)                                  |
+[2022-11-25 16:04:36,016] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Suspicion (2022) (TVDb: 385690)                                   |
+[2022-11-25 16:04:36,135] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Afterparty (TVDb: 384495)                                     |
+[2022-11-25 16:04:36,433] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Fraggle Rock: Back to the Rock (TVDb: 412536)                     |
+[2022-11-25 16:04:36,627] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Little America (2021) (TVDb: 412808)                              |
+[2022-11-25 16:04:36,719] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Line (TVDb: 402178)                                           |
+[2022-11-25 16:04:36,816] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Dr. Brain (TVDb: 396362)                                          |
+[2022-11-25 16:04:36,904] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Swagger (TVDb: 365914)                                            |
+[2022-11-25 16:04:36,992] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Acapulco (2021) (TVDb: 393155)                                    |
+[2022-11-25 16:04:37,360] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Problem With Jon Stewart (TVDb: 400756)                       |
+[2022-11-25 16:04:37,620] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Wolfboy and the Everything Factory (TVDb: 409758)                 |
+[2022-11-25 16:04:37,722] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Mr. Corman (TVDb: 393156)                                         |
+[2022-11-25 16:04:37,838] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Watch the Sound with Mark Ronson (TVDb: 401054)                   |
+[2022-11-25 16:04:37,925] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Schmigadoon! (TVDb: 393154)                                       |
+[2022-11-25 16:04:38,034] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Physical (TVDb: 396346)                                           |
+[2022-11-25 16:04:38,159] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | 1971: The Year That Music Changed Everything (TVDb: 401953)       |
+[2022-11-25 16:04:38,252] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Me You Can't See (TVDb: 402511)                               |
+[2022-11-25 16:04:38,373] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Calls (US) (TVDb: 349334)                                         |
+[2022-11-25 16:04:38,479] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Earth at Night in Color (TVDb: 390128)                            |
+[2022-11-25 16:04:38,783] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Stillwater (TVDb: 388611)                                         |
+[2022-11-25 16:04:39,040] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Becoming You (TVDb: 387543)                                       |
+[2022-11-25 16:04:39,120] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Tiny World (TVDb: 387542)                                         |
+[2022-11-25 16:04:39,421] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Long Way Up (TVDb: 376752)                                        |
+[2022-11-25 16:04:39,644] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Ted Lasso (TVDb: 383203)                                          |
+[2022-11-25 16:04:40,033] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Oprah Conversation (TVDb: 386008)                             |
+[2022-11-25 16:04:40,131] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Little Voice (TVDb: 361564)                                       |
+[2022-11-25 16:04:40,226] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Greatness Code (TVDb: 383320)                                     |
+[2022-11-25 16:04:40,480] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Losing Alice (TVDb: 377682)                                       |
+[2022-11-25 16:04:40,597] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Dear... (TVDb: 371674)                                            |
+[2022-11-25 16:04:40,684] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Central Park (TVDb: 368121)                                       |
+[2022-11-25 16:04:40,772] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Trying (TVDb: 375903)                                             |
+[2022-11-25 16:04:41,053] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Home (2020) (TVDb: 379326)                                        |
+[2022-11-25 16:04:41,390] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Home Before Dark (TVDb: 362004)                                   |
+[2022-11-25 16:04:41,507] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Visible: Out on Television (TVDb: 374895)                         |
+[2022-11-25 16:04:41,609] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Mythic Quest (TVDb: 362829)                                       |
+[2022-11-25 16:04:41,700] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Little America (TVDb: 368123)                                     |
+[2022-11-25 16:04:41,802] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Truth Be Told (2019) (TVDb: 351527)                               |
+[2022-11-25 16:04:41,910] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Servant (TVDb: 368126)                                            |
+[2022-11-25 16:04:42,003] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Helpsters (TVDb: 369782)                                          |
+[2022-11-25 16:04:42,114] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | The Morning Show (TVDb: 361563)                                   |
+[2022-11-25 16:04:42,217] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Snoopy in Space (TVDb: 367015)                                    |
+[2022-11-25 16:04:42,557] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Ghostwriter (2019) (TVDb: 369490)                                 |
+[2022-11-25 16:04:42,671] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Carpool Karaoke: The Series (TVDb: 332954)                        |
+[2022-11-25 16:04:42,927] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Long Way Down (TVDb: 80731)                                       |
+[2022-11-25 16:04:43,169] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Long Way Round (TVDb: 75233)                                      |
+[2022-11-25 16:04:43,505] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | King Arthur and the Knights of Justice (TVDb: 70453)              |
+[2022-11-25 16:04:43,607] [builder.py:2366]           [INFO]     | Apple TV+ Shows Collection | ? | Fraggle Rock (TVDb: 76085)                                        |
+[2022-11-25 16:04:43,608] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 16:04:43,608] [builder.py:2372]           [INFO]     | 62 Shows Missing                                                                                   |
+[2022-11-25 16:04:45,093] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 16:04:45,094] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 16:04:45,094] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 16:04:45,094] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [422500, 414549, 418182, 392740, 410661, 420906, 417559, 418505, 401411, 416610, 418943, 415810, 398102, 368124, 393499, 414706, 385690, 384495, 412536, 412808, 402178, 396362, 365914, 393155, 400756, 409758, 393156, 401054, 393154, 396346, 401953, 402511, 349334, 390128, 388611, 387543, 387542, 376752, 383203, 386008, 361564, 383320, 377682, 371674, 368121, 375903, 379326, 362004, 374895, 362829, 368123, 351527, 368126, 369782, 361563, 367015, 369490, 332954, 80731, 75233, 70453, 76085] |
+[2022-11-25 16:05:32,822] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422500                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414549                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418182                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392740                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410661                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420906                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417559                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418505                                                                         |
+[2022-11-25 16:05:32,823] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401411                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 416610                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418943                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 415810                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 398102                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368124                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414706                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385690                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384495                                                                         |
+[2022-11-25 16:05:32,824] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412536                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412808                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402178                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396362                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365914                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393155                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400756                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409758                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393156                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401054                                                                         |
+[2022-11-25 16:05:32,825] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393154                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396346                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401953                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402511                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349334                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390128                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388611                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387543                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387542                                                                         |
+[2022-11-25 16:05:32,826] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383203                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386008                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361564                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383320                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377682                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371674                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368121                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 375903                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 379326                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 362004                                                                         |
+[2022-11-25 16:05:32,827] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 374895                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 362829                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368123                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 351527                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368126                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 369782                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361563                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367015                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 369490                                                                         |
+[2022-11-25 16:05:32,828] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332954                                                                         |
+[2022-11-25 16:05:32,829] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80731                                                                          |
+[2022-11-25 16:05:32,829] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75233                                                                          |
+[2022-11-25 16:05:32,829] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70453                                                                          |
+[2022-11-25 16:05:32,829] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76085                                                                          |
+[2022-11-25 16:05:32,829] [sonarr.py:187]             [INFO]     | 60 Series already exist in Sonarr                                                                  |
+[2022-11-25 16:05:32,829] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 16:05:32,829] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [WeCrashed]                                                                      |
+[2022-11-25 16:05:32,829] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 16:05:32,829] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Long Way Up]                                                                    |
+[2022-11-25 16:05:32,830] [sonarr.py:207]             [INFO]     | 2 Series with Invalid IDs                                                                          |
+[2022-11-25 16:05:32,960] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 16:05:32,960] [builder.py:2528]           [INFO]     |========================== Updating Details of Apple TV+ Shows Collection ==========================|
+[2022-11-25 16:05:32,960] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 16:05:32,976] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 16:05:32,977] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 16:05:32,977] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Apple%20TV%2B.jpg |
+[2022-11-25 16:05:32,978] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 16:05:33,054] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 16:05:33,055] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 16:05:33,055] [plex_meta_manager.py:737]  [INFO]     |                                Finished Apple TV+ Shows Collection                                 |
+[2022-11-25 16:05:33,055] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:00                                    |
+[2022-11-25 16:05:33,055] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

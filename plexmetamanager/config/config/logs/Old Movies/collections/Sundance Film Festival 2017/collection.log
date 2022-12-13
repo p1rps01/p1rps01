@@ -1,0 +1,208 @@
+[2022-11-16 22:30:08,694] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:30:08,694] [builder.py:193]            [INFO]     |                        Sundance Film Festival 2017 Collection in Old Movies                        |
+[2022-11-16 22:30:08,694] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:30:08,694] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:30:08,694] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:30:08,694] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,694] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:30:08,695] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,696] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 22:30:08,696] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,697] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:30:08,698] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,701] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:30:08,701] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,704] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 22:30:08,705] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 22:30:08,713] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:30:08,713] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,719] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:30:08,719] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,723] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,723] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:30:08,723] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,723] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2017-sundance', 'summary': 'Sundance Film Festival of 2017.', 'name': 'Sundance Film Festival 2017', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2017', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2017.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:30:08,723] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,724] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2017 Attributes =========================|
+[2022-11-16 22:30:08,724] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,724] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:30:08,724] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2017                                                                 |
+[2022-11-16 22:30:08,724] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,724] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:30:08,724] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:30:08,724] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,724] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:30:08,724] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:30:08,725] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,725] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:30:08,725] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:30:08,725] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,725] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:30:08,725] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:30:08,725] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,725] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:30:08,725] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 22:30:08,725] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,725] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:30:08,726] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2017-sundance                                            |
+[2022-11-16 22:30:08,905] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,905] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:30:08,905] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2017.                                                             |
+[2022-11-16 22:30:08,906] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,906] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:30:08,906] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:30:08,906] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,906] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:30:08,907] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2017                                                             |
+[2022-11-16 22:30:08,907] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:08,907] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:30:08,907] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2017.jpg |
+[2022-11-16 22:30:09,042] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:09,043] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:30:09,043] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:30:09,049] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:09,050] [plex.py:838]               [DEBUG]    | Looking for: Sundance Film Festival 2017                                                           |
+[2022-11-16 22:30:09,050] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,050] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:30:09,050] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,050] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2017 Collection ==========================|
+[2022-11-16 22:30:09,051] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,051] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:30:09,051] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:09,051] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2017-sundance                              |
+[2022-11-16 22:30:09,051] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,054] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:30:09,057] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:09,058] [builder.py:1575]           [DEBUG]    | 120 IDs Found                                                                                      |
+[2022-11-16 22:30:09,058] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:09,059] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,060] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:30:09,060] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:09,083] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Big Sick (2017) (TMDb: 416477)                    |
+[2022-11-16 22:30:09,094] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Mudbound (2017) (TMDb: 414425)                        |
+[2022-11-16 22:30:09,106] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Wind River (2017) (TMDb: 395834)                      |
+[2022-11-16 22:30:09,250] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Where Is Kyra? (2018) (TMDb: 385955)                  |
+[2022-11-16 22:30:09,280] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Marjorie Prime (2017) (TMDb: 426254)                  |
+[2022-11-16 22:30:09,511] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Before I Fall (2017) (TMDb: 397837)                   |
+[2022-11-16 22:30:09,525] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Discovery (2017) (TMDb: 376134)                   |
+[2022-11-16 22:30:09,735] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Beatriz at Dinner (2017) (TMDb: 429107)               |
+[2022-11-16 22:30:09,994] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Polka King (2017) (TMDb: 419472)                  |
+[2022-11-16 22:30:10,216] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Wilson (2017) (TMDb: 346681)                          |
+[2022-11-16 22:30:10,227] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Vanishing of Sidney Hall (2018) (TMDb: 353066)    |
+[2022-11-16 22:30:10,387] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Manifesto (2017) (TMDb: 382127)                       |
+[2022-11-16 22:30:10,399] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Rebel in the Rye (2017) (TMDb: 390056)                |
+[2022-11-16 22:30:10,562] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Last Word (2017) (TMDb: 396810)                   |
+[2022-11-16 22:30:10,577] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Newness (2017) (TMDb: 434203)                         |
+[2022-11-16 22:30:10,753] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Incredible Jessica James (2017) (TMDb: 432789)    |
+[2022-11-16 22:30:11,023] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Rememory (2017) (TMDb: 395814)                        |
+[2022-11-16 22:30:11,277] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Fun Mom Dinner (2017) (TMDb: 432787)                  |
+[2022-11-16 22:30:11,290] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Call Me by Your Name (2017) (TMDb: 398818)            |
+[2022-11-16 22:30:11,301] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Raw (2016) (TMDb: 393519)                             |
+[2022-11-16 22:30:11,313] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Lady Macbeth (2016) (TMDb: 410117)                    |
+[2022-11-16 22:30:11,588] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Colossal (2017) (TMDb: 339967)                        |
+[2022-11-16 22:30:11,779] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Sami Blood (2016) (TMDb: 408435)                      |
+[2022-11-16 22:30:11,794] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Frantz (2016) (TMDb: 377263)                          |
+[2022-11-16 22:30:11,804] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Their Finest (2017) (TMDb: 340101)                    |
+[2022-11-16 22:30:11,930] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Look & See: A Portrait of Wendell Berry (2017) (TMDb: 381026) |
+[2022-11-16 22:30:11,948] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | I Don't Feel at Home in This World Anymore (2017) (TMDb: 425591) |
+[2022-11-16 22:30:11,970] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Crown Heights (2017) (TMDb: 425507)                   |
+[2022-11-16 22:30:12,144] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Ingrid Goes West (2017) (TMDb: 411741)                |
+[2022-11-16 22:30:12,156] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Novitiate (2017) (TMDb: 411976)                       |
+[2022-11-16 22:30:12,328] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Yellow Birds (2017) (TMDb: 383585)                |
+[2022-11-16 22:30:12,344] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Roxanne Roxanne (2017) (TMDb: 426257)                 |
+[2022-11-16 22:30:12,619] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Brigsby Bear (2017) (TMDb: 403431)                    |
+[2022-11-16 22:30:12,849] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | To the Bone (2017) (TMDb: 401104)                     |
+[2022-11-16 22:30:12,861] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Band Aid (2017) (TMDb: 426230)                        |
+[2022-11-16 22:30:12,890] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Hero (2017) (TMDb: 425751)                        |
+[2022-11-16 22:30:12,910] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Patti Cake$ (2017) (TMDb: 426256)                     |
+[2022-11-16 22:30:13,105] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Walking Out (2017) (TMDb: 428446)                     |
+[2022-11-16 22:30:13,287] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Burning Sands (2017) (TMDb: 426265)                   |
+[2022-11-16 22:30:13,472] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Landline (2017) (TMDb: 419459)                        |
+[2022-11-16 22:30:13,626] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Golden Exits (2018) (TMDb: 407719)                    |
+[2022-11-16 22:30:13,804] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Beach Rats (2017) (TMDb: 426238)                      |
+[2022-11-16 22:30:14,023] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Nile Hilton Incident (2017) (TMDb: 428495)        |
+[2022-11-16 22:30:14,035] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | I Dream in Another Language (2017) (TMDb: 355196)     |
+[2022-11-16 22:30:14,185] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Pop Aye (2017) (TMDb: 428497)                         |
+[2022-11-16 22:30:14,306] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Free and Easy (2017) (TMDb: 428481)                   |
+[2022-11-16 22:30:14,317] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Axolotl Overkill (2017) (TMDb: 427025)                |
+[2022-11-16 22:30:14,529] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Berlin Syndrome (2017) (TMDb: 363126)                 |
+[2022-11-16 22:30:14,706] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | My Happy Family (2017) (TMDb: 432226)                 |
+[2022-11-16 22:30:14,831] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Woodpeckers (2017) (TMDb: 428479)                     |
+[2022-11-16 22:30:14,847] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Wound (2017) (TMDb: 428498)                       |
+[2022-11-16 22:30:14,949] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Family Life (2017) (TMDb: 428614)                     |
+[2022-11-16 22:30:15,042] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Don't Swallow My Heart, Alligator Girl (2017) (TMDb: 364691) |
+[2022-11-16 22:30:15,053] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | God's Own Country (2017) (TMDb: 428493)               |
+[2022-11-16 22:30:15,064] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Gook (2017) (TMDb: 432942)                            |
+[2022-11-16 22:30:15,076] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Thoroughbreds (2018) (TMDb: 397722)                   |
+[2022-11-16 22:30:15,087] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | A Ghost Story (2017) (TMDb: 428449)                   |
+[2022-11-16 22:30:15,098] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Columbus (2017) (TMDb: 414453)                        |
+[2022-11-16 22:30:15,118] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Menashe (2017) (TMDb: 428584)                         |
+[2022-11-16 22:30:15,234] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Dayveon (2017) (TMDb: 422052)                         |
+[2022-11-16 22:30:15,526] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Deidra & Laney Rob a Train (2017) (TMDb: 428687)      |
+[2022-11-16 22:30:15,621] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | It Happened in L.A. (2017) (TMDb: 432612)             |
+[2022-11-16 22:30:15,821] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Person to Person (2017) (TMDb: 386623)                |
+[2022-11-16 22:30:15,963] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Lemon (2017) (TMDb: 428585)                           |
+[2022-11-16 22:30:16,109] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | 78/52 (2017) (TMDb: 359749)                           |
+[2022-11-16 22:30:16,119] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Little Hours (2017) (TMDb: 411873)                |
+[2022-11-16 22:30:16,337] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Bad Day for the Cut (2017) (TMDb: 430043)             |
+[2022-11-16 22:30:16,505] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Killing Ground (2017) (TMDb: 409617)                  |
+[2022-11-16 22:30:16,740] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Bushwick (2017) (TMDb: 430354)                        |
+[2022-11-16 22:30:16,928] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Bitch (2017) (TMDb: 431867)                           |
+[2022-11-16 22:30:17,311] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | XX (2017) (TMDb: 297160)                              |
+[2022-11-16 22:30:17,640] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Kuso (2017) (TMDb: 411549)                            |
+[2022-11-16 22:30:17,753] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Did You Wonder Who Fired the Gun? (2017) (TMDb: 445238) |
+[2022-11-16 22:30:18,002] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | World Without End (No Reported Incidents) (2016) (TMDb: 447079) |
+[2022-11-16 22:30:18,018] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | My Life as a Zucchini (2016) (TMDb: 393559)           |
+[2022-11-16 22:30:18,206] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Mars Generation (2017) (TMDb: 433878)             |
+[2022-11-16 22:30:18,221] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Red Dog: True Blue (2016) (TMDb: 403570)              |
+[2022-11-16 22:30:18,232] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Icarus (2017) (TMDb: 432976)                          |
+[2022-11-16 22:30:18,243] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Dina (2017) (TMDb: 432607)                            |
+[2022-11-16 22:30:18,385] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Force (2017) (TMDb: 432972)                       |
+[2022-11-16 22:30:18,396] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Step (2017) (TMDb: 433010)                            |
+[2022-11-16 22:30:18,405] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Unrest (2017) (TMDb: 433033)                          |
+[2022-11-16 22:30:18,416] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Strong Island (2017) (TMDb: 428612)                   |
+[2022-11-16 22:30:18,432] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Quest (2017) (TMDb: 432987)                           |
+[2022-11-16 22:30:18,443] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | City of Ghosts (2017) (TMDb: 428501)                  |
+[2022-11-16 22:30:18,446] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Trophy (2017) (TMDb: 433029)                          |
+[2022-11-16 22:30:18,568] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Water & Power: A California Heist (2017) (TMDb: 430834) |
+[2022-11-16 22:30:18,692] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The New Radical (2017) (TMDb: 432984)                 |
+[2022-11-16 22:30:18,704] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Dolores (2017) (TMDb: 432619)                         |
+[2022-11-16 22:30:18,873] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Nobody Speak: Trials of the Free Press (2017) (TMDb: 430830) |
+[2022-11-16 22:30:19,110] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Casting JonBenet (2017) (TMDb: 430826)                |
+[2022-11-16 22:30:19,120] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Whose Streets? (2017) (TMDb: 433036)                  |
+[2022-11-16 22:30:19,278] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Last Men in Aleppo (2017) (TMDb: 433085)              |
+[2022-11-16 22:30:19,421] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Joshua: Teenager vs. Superpower (2017) (TMDb: 433084) |
+[2022-11-16 22:30:19,562] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Winnie (2017) (TMDb: 433095)                          |
+[2022-11-16 22:30:19,647] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Motherland (2017) (TMDb: 433088)                      |
+[2022-11-16 22:30:19,800] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Machines (2017) (TMDb: 433086)                        |
+[2022-11-16 22:30:19,812] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Rumble: The Indians Who Rocked the World (2017) (TMDb: 433091) |
+[2022-11-16 22:30:19,944] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Plastic China (2017) (TMDb: 428574)                   |
+[2022-11-16 22:30:20,044] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | It's Not Yet Dark (2016) (TMDb: 433078)               |
+[2022-11-16 22:30:20,126] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Good Postman (2016) (TMDb: 428566)                |
+[2022-11-16 22:30:20,295] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | The Workers Cup (2017) (TMDb: 433096)                 |
+[2022-11-16 22:30:20,315] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | School Life (2019) (TMDb: 433074)                     |
+[2022-11-16 22:30:20,326] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Tokyo Idols (2017) (TMDb: 433092)                     |
+[2022-11-16 22:30:20,479] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Oklahoma City (2017) (TMDb: 433056)                   |
+[2022-11-16 22:30:20,602] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Trumped: Inside the Greatest Political Upset of All Time (2017) (TMDb: 434178) |
+[2022-11-16 22:30:20,647] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | An Inconvenient Sequel: Truth to Power (2017) (TMDb: 432602) |
+[2022-11-16 22:30:20,665] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Long Strange Trip (2017) (TMDb: 431714)               |
+[2022-11-16 22:30:20,856] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Cries from Syria (2017) (TMDb: 433051)                |
+[2022-11-16 22:30:21,035] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Rancher, Farmer, Fisherman (2017) (TMDb: 433058)      |
+[2022-11-16 22:30:21,181] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Tell Them We Are Rising: The Story of Black Colleges and Universities (2017) (TMDb: 433073) |
+[2022-11-16 22:30:21,309] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | This Is Everything: Gigi Gorgeous (2017) (TMDb: 433067) |
+[2022-11-16 22:30:21,347] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | 500 Years (2017) (TMDb: 433046)                       |
+[2022-11-16 22:30:21,497] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Take Every Wave: The Life of Laird Hamilton (2017) (TMDb: 433059) |
+[2022-11-16 22:30:21,661] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Legion of Brothers (2017) (TMDb: 433054)              |
+[2022-11-16 22:30:21,673] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Give Me Future: Major Lazer in Cuba (2017) (TMDb: 433053) |
+[2022-11-16 22:30:21,812] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Strangers (2017) (TMDb: 488770)                       |
+[2022-11-16 22:30:21,830] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Reservoir Dogs (1992) (TMDb: 500)                     |
+[2022-11-16 22:30:21,852] [builder.py:2321]           [INFO]     | Sundance Film Festival 2017 Collection | ? | Desert Hearts (1985) (TMDb: 294)                      |
+[2022-11-16 22:30:21,852] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:21,852] [builder.py:2327]           [INFO]     | 119 Movies Missing                                                                                 |
+[2022-11-16 22:30:25,478] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:25,478] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Sundance Film Festival 2017 Collection                           |
+[2022-11-16 22:30:25,479] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:25,479] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:30:25,479] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2017 Collection                           |
+[2022-11-16 22:30:25,479] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:16                                    |
+[2022-11-16 22:30:25,479] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

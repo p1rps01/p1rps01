@@ -1,0 +1,70 @@
+[2022-11-16 22:32:14,951] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:32:14,952] [builder.py:193]            [INFO]     |                           Directors Collections Collection in Old Movies                           |
+[2022-11-16 22:32:14,952] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:32:14,953] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:32:14,953] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:32:14,954] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,954] [meta.py:210]               [DEBUG]    |======================================== Template separator ========================================|
+[2022-11-16 22:32:14,957] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,957] [meta.py:337]               [DEBUG]    | Conditional: use_blank                                                                             |
+[2022-11-16 22:32:14,957] [meta.py:365]               [DEBUG]    | Condition 1 Failed: placeholder_tmdb_movie.exists: true does not exist                             |
+[2022-11-16 22:32:14,957] [meta.py:365]               [DEBUG]    | Condition 2 Failed: placeholder_tvdb_show.exists: true does not exist                              |
+[2022-11-16 22:32:14,958] [meta.py:365]               [DEBUG]    | Condition 3 Failed: placeholder_imdb_id.exists: true does not exist                                |
+[2022-11-16 22:32:14,958] [meta.py:402]               [DEBUG]    | Conditional Variable: use_blank defaults to "True"                                                 |
+[2022-11-16 22:32:14,958] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,971] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:32:14,972] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,977] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,977] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:32:14,977] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,977] [meta.py:515]               [DEBUG]    | {'allowed_library_types': True, 'collection_mode': 'hide', 'sort_title': '!18_!Directors Collections', 'blank_collection': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/director.jpg', 'summary': 'Section separator for Directors Collections.', 'name': 'Directors Collections'} |
+[2022-11-16 22:32:14,977] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,978] [builder.py:223]            [INFO]     |=========================== Validating Directors Collections Attributes ============================|
+[2022-11-16 22:32:14,978] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,978] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:32:14,979] [builder.py:230]            [DEBUG]    | Value: Directors Collections                                                                       |
+[2022-11-16 22:32:14,979] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,979] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:32:14,979] [builder.py:240]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:32:14,980] [builder.py:509]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,980] [builder.py:510]            [DEBUG]    | Validating Method: blank_collection                                                                |
+[2022-11-16 22:32:14,980] [builder.py:511]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:32:14,981] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,981] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:32:14,981] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:32:14,981] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,982] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:32:14,982] [builder.py:651]            [DEBUG]    | Value: !18_!Directors Collections                                                                  |
+[2022-11-16 22:32:14,982] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:14,983] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:32:14,983] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/director.jpg |
+[2022-11-16 22:32:15,105] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:15,105] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:32:15,105] [builder.py:651]            [DEBUG]    | Value: Section separator for Directors Collections.                                                |
+[2022-11-16 22:32:15,110] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:32:15,111] [plex.py:838]               [DEBUG]    | Looking for: Directors Collections                                                                 |
+[2022-11-16 22:32:15,111] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:32:15,111] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:32:15,111] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:32:15,111] [plex_meta_manager.py:596]  [INFO]     |============================= Running Directors Collections Collection =============================|
+[2022-11-16 22:32:15,126] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:32:15,126] [builder.py:2528]           [INFO]     |======================= Updating Details of Directors Collections Collection =======================|
+[2022-11-16 22:32:15,126] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:32:15,137] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Section separator for Directors Collections.
+                                                                 | Sort Title | !18_!Directors Collections
+                                                                 | Label | +PMM
+[2022-11-16 22:32:17,391] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:32:17,392] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:32:19,330] [builder.py:2611]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:32:21,015] [builder.py:2613]           [INFO]     | Collection Mode | default
+[2022-11-16 22:32:23,084] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:32:23,103] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Directors Collections
+[2022-11-16 22:32:23,103] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:32:23,104] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/director.jpg
+[2022-11-16 22:32:23,222] [library.py:178]            [INFO]     | Detail: asset_directory updated Directors Collections's poster to [File] config/Old_Movies/Assets/Directors Collections/poster.jpg
+[2022-11-16 22:32:23,268] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:32:23,269] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:32:23,269] [plex_meta_manager.py:737]  [INFO]     |                             Finished Directors Collections Collection                              |
+[2022-11-16 22:32:23,269] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 22:32:23,269] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-11-16 20:22:57,184] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:57,184] [builder.py:193]            [INFO]     |                              Robert De Niro Collection in Kids Movies                              |
+[2022-11-16 20:22:57,184] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:57,184] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,185] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:22:57,185] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,185] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:22:57,185] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,186] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,186] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:22:57,187] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,187] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 380, 'sort_title': '++_Robert De Niro', 'collection_order': 'release'} |
+[2022-11-16 20:22:57,187] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,187] [builder.py:223]            [INFO]     |=============================== Validating Robert De Niro Attributes ===============================|
+[2022-11-16 20:22:57,187] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,187] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:22:57,187] [builder.py:533]            [DEBUG]    | Value: 380                                                                                         |
+[2022-11-16 20:22:57,209] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,209] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:22:57,209] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:22:57,209] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,209] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:22:57,210] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:22:57,533] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,533] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:22:57,533] [builder.py:651]            [DEBUG]    | Value: ++_Robert De Niro                                                                           |
+[2022-11-16 20:22:57,541] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,542] [builder.py:796]            [ERROR]    | Collection Error: Converting Robert De Niro to a normal collection                                 |
+[2022-11-16 20:22:57,549] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,549] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:22:57,549] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,549] [plex_meta_manager.py:596]  [INFO]     |================================ Running Robert De Niro Collection =================================|
+[2022-11-16 20:22:57,549] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,549] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:22:57,549] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:57,550] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Robert De Niro", '?type=1&sort=titleSort&push=1&actor=35247&pop=1') |
+[2022-11-16 20:22:57,550] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,550] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Robert De Niro
+[2022-11-16 20:22:57,560] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:22:57,560] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:22:57,560] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:22:57,560] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:22:57,560] [builder.py:2159]           [INFO]     |=============================== Adding to Robert De Niro Collection ================================|
+[2022-11-16 20:22:57,560] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:57,561] [builder.py:2174]           [INFO]     | 1/2 | Robert De Niro Collection | + | Arthur and the Invisibles (2006)                             |
+[2022-11-16 20:22:57,692] [builder.py:2174]           [INFO]     | 2/2 | Robert De Niro Collection | + | Shark Tale (2004)                                            |
+[2022-11-16 20:22:59,874] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:59,875] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:22:59,881] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:59,881] [builder.py:2528]           [INFO]     |========================== Updating Details of Robert De Niro Collection ===========================|
+[2022-11-16 20:22:59,881] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:59,886] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Robert Anthony De Niro Jr. (born August 17, 1943) is an American actor, producer, and director. He is particularly known for his nine collaborations with filmmaker Martin Scorsese, and is the recipient of various accolades, including two Academy Awards, a Golden Globe Award, the Cecil B. DeMille Award, and a Screen Actors Guild Life Achievement Award. In 2009, De Niro received the Kennedy Center Honor, and received a Presidential Medal of Freedom from U.S. President Barack Obama in 2016.
+                                                                 | 
+                                                                 | Born in Manhattan in New York City, De Niro studied acting at HB Studio, Stella Adler Conservatory, and Lee Strasberg's Actors Studio. His first major role was in Greetings (1968), and gained recognition with his role as a baseball player in the sports drama Bang the Drum Slowly (1973). His first collaboration with Scorsese was Mean Streets (1973), where he played small-time criminal "Johnny Boy". Stardom followed with his role as young Vito Corleone in Francis Ford Coppola's crime epic The Godfather Part II (1974), which won De Niro the Academy Award for Best Supporting Actor. For his portrayal of Travis Bickle in Taxi Driver (1976) and a soldier in the Vietnam War drama The Deer Hunter (1978), he earned two nominations for the Academy Award for Best Actor.
+                                                                 | 
+                                                                 | De Niro portrayed Jake LaMotta in Scorsese's biographical drama Raging Bull (1980), for which he won the Academy Award for Best Actor, his first in this category. He diversified to other roles, playing a stand-up comic in The King of Comedy (1982), and gained further recognition for his performances in Bernardo Bertolucci's epic 1900 (1976), Sergio Leone's crime epic Once Upon a Time in America (1984), Terry Gilliam's dystopian satire Brazil (1985), the religious epic The Mission (1986), and the comedy Midnight Run (1988). De Niro portrayed gangster Jimmy Conway in Goodfellas (1990), a catatonic patient in the drama Awakenings (1990), and a criminal in the psychological thriller Cape Fear (1991). All three films received praise for De Niro's performances. He then starred in This Boy's Life (1993), and directed his first feature film with 1993's A Bronx Tale. His other critical successes include the crime films Heat (1995) and Casino (1995).
+                                                                 | 
+                                                                 | He is also known for his comic roles in Wag the Dog (1997), Analyze This (1999), and Meet the Parents (2000). After appearing in several critically panned and commercially unsuccessful films, he earned an Academy Award nomination for Best Supporting Actor for his performance in David O. Russell's 2012 romantic comedy Silver Linings Playbook. In 2017, De Niro portrayed Bernie Madoff in The Wizard of Lies, earning a Primetime Emmy Award nomination. He then starred in the psychological thriller Joker (2019) and Scorsese's crime epic The Irishman (2019).
+                                                                 | 
+                                                                 | De Niro and producer Jane Rosenthal founded the film and television production company TriBeCa Productions in 1989, which has produced several films alongside his own. Also with Rosenthal, he founded the Tribeca Film Festival in 2002. Six of De Niro's films have been inducted into the United States National Film Registry by the Library of Congress as being "culturally, historically, or aesthetically significant".
+                                                                 | 
+                                                                 | From Wikipedia, the free encyclopedia
+                                                                 | Sort Title | ++_Robert De Niro
+                                                                 | Label | +PMM
+[2022-11-16 20:23:01,623] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:23:01,623] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:23:01,624] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:23:01,624] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg
+[2022-11-16 20:23:01,722] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg
+[2022-11-16 20:23:01,768] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:23:01,768] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:23:01,768] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Robert De Niro Collection                                 |
+[2022-11-16 20:23:01,769] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:23:01,769] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

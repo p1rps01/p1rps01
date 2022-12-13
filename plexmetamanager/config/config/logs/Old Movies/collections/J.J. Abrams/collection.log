@@ -1,0 +1,94 @@
+[2022-11-16 22:05:21,461] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:21,462] [builder.py:193]            [INFO]     |                                J.J. Abrams Collection in Old Movies                                |
+[2022-11-16 22:05:21,462] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:21,462] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:21,462] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:05:21,462] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,462] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:05:21,463] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,464] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,465] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:05:21,465] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,465] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 15344, 'sort_title': '++_J.J. Abrams', 'collection_order': 'release'} |
+[2022-11-16 22:05:21,465] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,465] [builder.py:223]            [INFO]     |================================ Validating J.J. Abrams Attributes =================================|
+[2022-11-16 22:05:21,465] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,465] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:05:21,465] [builder.py:533]            [DEBUG]    | Value: 15344                                                                                       |
+[2022-11-16 22:05:21,538] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,539] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:05:21,539] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:05:21,540] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,540] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 22:05:21,540] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:21,594] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:21,594] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:05:21,594] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:22,041] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:22,041] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:05:22,041] [builder.py:651]            [DEBUG]    | Value: ++_J.J. Abrams                                                                              |
+[2022-11-16 22:05:22,049] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,050] [builder.py:796]            [ERROR]    | Collection Error: Converting J.J. Abrams to a normal collection                                    |
+[2022-11-16 22:05:22,066] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,066] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:05:22,067] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,068] [plex_meta_manager.py:596]  [INFO]     |================================== Running J.J. Abrams Collection ==================================|
+[2022-11-16 22:05:22,071] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,071] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:05:22,071] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:22,071] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is J.J. Abrams", '?type=1&sort=titleSort&push=1&director=52013&pop=1') |
+[2022-11-16 22:05:22,072] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,072] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is J.J. Abrams
+[2022-11-16 22:05:22,104] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:22,105] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 22:05:22,105] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:22,105] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 22:05:22,105] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is J.J. Abrams", '?type=1&sort=titleSort&push=1&actor=62550&pop=1')
+[2022-11-16 22:05:22,105] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 22:05:22,105] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is J.J. Abrams
+[2022-11-16 22:05:22,134] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:22,135] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 22:05:22,135] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:22,135] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:05:22,135] [builder.py:2159]           [INFO]     |================================= Adding to J.J. Abrams Collection =================================|
+[2022-11-16 22:05:22,135] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:22,135] [builder.py:2174]           [INFO]     | 1/5 | J.J. Abrams Collection | + | Mission: Impossible III (2006)                                  |
+[2022-11-16 22:05:23,979] [builder.py:2174]           [INFO]     | 2/5 | J.J. Abrams Collection | + | Star Trek (2009)                                                |
+[2022-11-16 22:05:24,068] [builder.py:2174]           [INFO]     | 3/5 | J.J. Abrams Collection | + | Star Trek Into Darkness (2013)                                  |
+[2022-11-16 22:05:24,160] [builder.py:2174]           [INFO]     | 4/5 | J.J. Abrams Collection | + | Star Wars: Episode IX - The Rise of Skywalker (2019)            |
+[2022-11-16 22:05:24,299] [builder.py:2174]           [INFO]     | 5/5 | J.J. Abrams Collection | + | Star Wars: Episode VII - The Force Awakens (2015)               |
+[2022-11-16 22:05:26,913] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:26,914] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 22:05:26,919] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:26,920] [builder.py:2528]           [INFO]     |============================ Updating Details of J.J. Abrams Collection ============================|
+[2022-11-16 22:05:26,920] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:26,928] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Jeffrey Jacob Abrams (born June 27, 1966) is an American filmmaker. He is best known for his work in the genres of action, drama, and science fiction. Abrams wrote or produced such films as Regarding Henry (1991), Forever Young (1992), Armageddon (1998), Cloverfield (2008), Star Trek (2009), Star Wars: The Force Awakens (2015), and Star Wars: The Rise of Skywalker (2019).
+                                                                 | 
+                                                                 | Abrams has created numerous television series, including Felicity (co-creator, 1998–2002), Alias (creator, 2001–2006), Lost (co-creator, 2004–2010), and Fringe (co-creator, 2008–2013). He won two Emmy Awards for Lost — Outstanding Directing for a Drama Series and Outstanding Drama Series.
+                                                                 | 
+                                                                 | His directorial film work includes Mission: Impossible III (2006), Star Trek (2009), Super 8 (2011), and Star Trek Into Darkness (2013). He also directed, produced and co-wrote Star Wars: The Force Awakens (2015), the seventh episode of the Star Wars saga, the first film of the sequel trilogy, his highest-grossing film, as well as the fourth-highest-grossing film of all time not adjusted for inflation. He returned to Star Wars by co-writing, producing and directing the ninth and final installment of the saga, Star Wars: The Rise of Skywalker (2019).
+                                                                 | 
+                                                                 | Abrams's frequent collaborators include producer Bryan Burk, actors Greg Grunberg, Simon Pegg and Keri Russell, composer Michael Giacchino, writers Alex Kurtzman and Roberto Orci, cinematographers Daniel Mindel and Larry Fong, and editors Maryann Brandon and Mary Jo Markey.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article J.J. Abrams, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_J.J. Abrams
+                                                                 | Label | +PMM
+[2022-11-16 22:05:28,633] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:05:28,633] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:05:28,634] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:05:28,634] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/k4IWd2RV5kY1kAL2VgKQwFvnCLP.jpg
+[2022-11-16 22:05:28,680] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/k4IWd2RV5kY1kAL2VgKQwFvnCLP.jpg
+[2022-11-16 22:05:28,745] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:05:28,746] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:05:28,746] [plex_meta_manager.py:737]  [INFO]     |                                  Finished J.J. Abrams Collection                                   |
+[2022-11-16 22:05:28,746] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 22:05:28,746] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

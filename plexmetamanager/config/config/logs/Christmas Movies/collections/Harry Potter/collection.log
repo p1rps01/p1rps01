@@ -1,0 +1,64 @@
+[2022-11-17 08:55:16,289] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:55:16,289] [builder.py:193]            [INFO]     |                            Harry Potter Collection in Christmas Movies                             |
+[2022-11-17 08:55:16,289] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:55:16,289] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,290] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 08:55:16,290] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,290] [meta.py:210]               [DEBUG]    |========================================== Template Movie ==========================================|
+[2022-11-17 08:55:16,291] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,293] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,294] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 08:55:16,294] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,294] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 1241, 'tmdb_summary': 1241, 'url_poster': 'https://theposterdb.com/api/assets/737', 'sort_title': '++++_Harry Potter', 'collection_order': 'release'} |
+[2022-11-17 08:55:16,294] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,294] [builder.py:223]            [INFO]     |================================ Validating Harry Potter Attributes ================================|
+[2022-11-17 08:55:16,294] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,295] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 08:55:16,295] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 08:55:16,295] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,295] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-17 08:55:16,295] [builder.py:651]            [DEBUG]    | Value: 1241                                                                                        |
+[2022-11-17 08:55:16,323] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,323] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-17 08:55:16,323] [builder.py:651]            [DEBUG]    | Value: 1241                                                                                        |
+[2022-11-17 08:55:16,335] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,335] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 08:55:16,335] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/737                                                      |
+[2022-11-17 08:55:16,971] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,972] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 08:55:16,972] [builder.py:651]            [DEBUG]    | Value: ++++_Harry Potter                                                                           |
+[2022-11-17 08:55:16,980] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,981] [plex.py:838]               [DEBUG]    | Looking for: Harry Potter                                                                          |
+[2022-11-17 08:55:16,981] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,981] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 08:55:16,982] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,982] [plex_meta_manager.py:596]  [INFO]     |================================= Running Harry Potter Collection ==================================|
+[2022-11-17 08:55:16,982] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,983] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 08:55:16,983] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,983] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 1241                                                                     |
+[2022-11-17 08:55:16,984] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,994] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (1241) Harry Potter Collection (8 Items)                               |
+[2022-11-17 08:55:16,995] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,995] [builder.py:1575]           [DEBUG]    | 8 IDs Found                                                                                        |
+[2022-11-17 08:55:16,995] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 08:55:16,996] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:16,996] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Christmas Movies ===========================|
+[2022-11-17 08:55:16,996] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:17,014] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)          |
+[2022-11-17 08:55:17,031] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Chamber of Secrets (2002) (TMDb: 672)           |
+[2022-11-17 08:55:17,060] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Goblet of Fire (2005) (TMDb: 674)               |
+[2022-11-17 08:55:17,071] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Half-Blood Prince (2009) (TMDb: 767)            |
+[2022-11-17 08:55:17,086] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Prisoner of Azkaban (2004) (TMDb: 673)          |
+[2022-11-17 08:55:17,096] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Order of the Phoenix (2007) (TMDb: 675)         |
+[2022-11-17 08:55:17,098] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Deathly Hallows: Part 1 (2010) (TMDb: 12444)    |
+[2022-11-17 08:55:17,110] [builder.py:2321]           [INFO]     | Harry Potter Collection | ? | Harry Potter and the Deathly Hallows: Part 2 (2011) (TMDb: 12445)    |
+[2022-11-17 08:55:17,110] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 08:55:17,110] [builder.py:2327]           [INFO]     | 8 Movies Missing                                                                                   |
+[2022-11-17 08:55:17,232] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:17,233] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Harry Potter Collection                                          |
+[2022-11-17 08:55:17,233] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 08:55:17,233] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 08:55:17,233] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Harry Potter Collection                                  |
+[2022-11-17 08:55:17,234] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 08:55:17,234] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,149 @@
+[2022-11-16 18:54:18,572] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:18,573] [builder.py:193]            [INFO]     |                     Sundance Film Festival 2012 Collection in Halloween Movies                     |
+[2022-11-16 18:54:18,573] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:18,573] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,573] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:18,573] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,574] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:18,574] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,576] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:18,576] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,579] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:18,580] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,584] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:18,585] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,590] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,591] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:18,606] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:18,607] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,617] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:18,617] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,623] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,623] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:18,624] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,624] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2012-sundance', 'summary': 'Sundance Film Festival of 2012.', 'name': 'Sundance Film Festival 2012', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2012', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2012.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:18,624] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,624] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2012 Attributes =========================|
+[2022-11-16 18:54:18,624] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,624] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:18,624] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2012                                                                 |
+[2022-11-16 18:54:18,624] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,624] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:18,625] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:18,625] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,625] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:18,625] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:18,625] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,625] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:18,625] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:18,625] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,625] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:18,625] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:18,626] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,626] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:18,626] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 18:54:18,626] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,626] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:18,626] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2012-sundance                                            |
+[2022-11-16 18:54:18,674] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,674] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:18,674] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2012.                                                             |
+[2022-11-16 18:54:18,675] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,675] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:18,675] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:18,675] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,675] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:18,675] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2012                                                             |
+[2022-11-16 18:54:18,675] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,676] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:18,676] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2012.jpg |
+[2022-11-16 18:54:18,821] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,821] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:18,822] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:18,828] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,828] [plex.py:838]               [DEBUG]    | Looking for: Sundance Film Festival 2012                                                           |
+[2022-11-16 18:54:18,828] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,828] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:18,828] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2012 Collection ==========================|
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2012-sundance                              |
+[2022-11-16 18:54:18,829] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,830] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:18,833] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,833] [builder.py:1575]           [DEBUG]    | 61 IDs Found                                                                                       |
+[2022-11-16 18:54:18,833] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:18,834] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,834] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:18,834] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:18,851] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Beasts of the Southern Wild (2012) (TMDb: 84175)      |
+[2022-11-16 18:54:18,865] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Sessions (2012) (TMDb: 113947)                    |
+[2022-11-16 18:54:18,878] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Safety Not Guaranteed (2012) (TMDb: 84332)            |
+[2022-11-16 18:54:18,890] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Sleepwalk with Me (2012) (TMDb: 84340)                |
+[2022-11-16 18:54:18,905] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Robot & Frank (2012) (TMDb: 84329)                    |
+[2022-11-16 18:54:18,926] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Liberal Arts (2012) (TMDb: 84306)                     |
+[2022-11-16 18:54:18,946] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | 2 Days in New York (2012) (TMDb: 84165)               |
+[2022-11-16 18:54:18,971] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Celeste & Jesse Forever (2012) (TMDb: 84184)          |
+[2022-11-16 18:54:18,984] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Shadow Dancer (2012) (TMDb: 84336)                    |
+[2022-11-16 18:54:19,002] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Monsieur Lazhar (2011) (TMDb: 78480)                  |
+[2022-11-16 18:54:19,028] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Your Sister's Sister (2011) (TMDb: 84355)             |
+[2022-11-16 18:54:19,051] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Compliance (2012) (TMDb: 84188)                       |
+[2022-11-16 18:54:19,081] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | I Am Not a Hipster (2013) (TMDb: 84283)               |
+[2022-11-16 18:54:19,099] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Shut Up and Play the Hits (2012) (TMDb: 83589)        |
+[2022-11-16 18:54:19,115] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Searching for Sugar Man (2012) (TMDb: 84334)          |
+[2022-11-16 18:54:19,132] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Middle of Nowhere (2012) (TMDb: 83588)                |
+[2022-11-16 18:54:19,140] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Violeta Went to Heaven (2011) (TMDb: 80717)           |
+[2022-11-16 18:54:19,156] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Can (2011) (TMDb: 84182)                              |
+[2022-11-16 18:54:19,174] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Teddy Bear (2012) (TMDb: 84344)                       |
+[2022-11-16 18:54:19,190] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | My Brother the Devil (2012) (TMDb: 84316)             |
+[2022-11-16 18:54:19,203] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Valley of Saints (2012) (TMDb: 84349)                 |
+[2022-11-16 18:54:19,218] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Young and Wild (2012) (TMDb: 84354)                   |
+[2022-11-16 18:54:19,228] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Words (2012) (TMDb: 83686)                        |
+[2022-11-16 18:54:19,239] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Arbitrage (2012) (TMDb: 60599)                        |
+[2022-11-16 18:54:19,251] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | California Solo (2012) (TMDb: 84180)                  |
+[2022-11-16 18:54:19,262] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Red Lights (2012) (TMDb: 75638)                       |
+[2022-11-16 18:54:19,274] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | For a Good Time, Call... (2012) (TMDb: 84200)         |
+[2022-11-16 18:54:19,286] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Goats (2012) (TMDb: 84203)                            |
+[2022-11-16 18:54:19,302] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Price Check (2012) (TMDb: 84323)                      |
+[2022-11-16 18:54:19,313] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Bachelorette (2012) (TMDb: 84174)                     |
+[2022-11-16 18:54:19,325] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Red Hook Summer (2012) (TMDb: 84328)                  |
+[2022-11-16 18:54:19,337] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Lay the Favorite (2012) (TMDb: 84305)                 |
+[2022-11-16 18:54:19,349] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Raid (2012) (TMDb: 94329)                         |
+[2022-11-16 18:54:19,381] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Where Do We Go Now? (2011) (TMDb: 77461)              |
+[2022-11-16 18:54:19,396] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Orator (2011) (TMDb: 77322)                       |
+[2022-11-16 18:54:19,411] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Declaration of War (2011) (TMDb: 73562)               |
+[2022-11-16 18:54:19,422] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Corpo Celeste (2011) (TMDb: 64835)                    |
+[2022-11-16 18:54:19,437] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Wuthering Heights (2011) (TMDb: 9364)                 |
+[2022-11-16 18:54:19,474] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Grabbers (2012) (TMDb: 84204)                         |
+[2022-11-16 18:54:19,486] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Excision (2012) (TMDb: 84194)                         |
+[2022-11-16 18:54:19,497] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Pact (2012) (TMDb: 111440)                        |
+[2022-11-16 18:54:19,507] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Tim and Eric's Billion Dollar Movie (2012) (TMDb: 79940) |
+[2022-11-16 18:54:19,547] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Black Rock (2012) (TMDb: 84178)                       |
+[2022-11-16 18:54:19,563] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Kid-Thing (2012) (TMDb: 84291)                        |
+[2022-11-16 18:54:19,578] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Mosquita y Mari (2012) (TMDb: 84312)                  |
+[2022-11-16 18:54:19,604] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | 28 Hotel Rooms (2012) (TMDb: 84166)                   |
+[2022-11-16 18:54:19,618] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | My Best Day (2012) (TMDb: 84314)                      |
+[2022-11-16 18:54:19,631] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | That's What She Said (2012) (TMDb: 84345)             |
+[2022-11-16 18:54:19,645] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Pursuit of Loneliness (2012) (TMDb: 84325)            |
+[2022-11-16 18:54:19,658] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The House I Live In (2012) (TMDb: 84284)              |
+[2022-11-16 18:54:19,673] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Chasing Ice (2012) (TMDb: 84185)                      |
+[2022-11-16 18:54:19,685] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Invisible War (2012) (TMDb: 84288)                |
+[2022-11-16 18:54:19,706] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Ai Weiwei: Never Sorry (2012) (TMDb: 84169)           |
+[2022-11-16 18:54:19,718] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Love Free or Die (2012) (TMDb: 84307)                 |
+[2022-11-16 18:54:19,732] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Queen of Versailles (2012) (TMDb: 84327)          |
+[2022-11-16 18:54:19,744] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Detropia (2012) (TMDb: 84190)                         |
+[2022-11-16 18:54:19,759] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Five Broken Cameras (2011) (TMDb: 84170)              |
+[2022-11-16 18:54:19,772] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Indie Game: The Movie (2012) (TMDb: 80215)            |
+[2022-11-16 18:54:19,787] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | The Law in These Parts (2011) (TMDb: 84304)           |
+[2022-11-16 18:54:19,799] [builder.py:2321]           [INFO]     | Sundance Film Festival 2012 Collection | ? | Putin's Kiss (2011) (TMDb: 84326)                     |
+[2022-11-16 18:54:19,799] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:19,799] [builder.py:2327]           [INFO]     | 60 Movies Missing                                                                                  |
+[2022-11-16 18:54:23,954] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:23,954] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Sundance Film Festival 2012 Collection                           |
+[2022-11-16 18:54:23,954] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:23,954] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:54:23,954] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2012 Collection                           |
+[2022-11-16 18:54:23,955] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-16 18:54:23,955] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

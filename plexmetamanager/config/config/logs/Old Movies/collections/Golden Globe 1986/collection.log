@@ -1,0 +1,119 @@
+[2022-11-16 22:20:49,323] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:20:49,324] [builder.py:193]            [INFO]     |                             Golden Globe 1986 Collection in Old Movies                             |
+[2022-11-16 22:20:49,324] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:20:49,324] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,324] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:20:49,324] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,324] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:20:49,325] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,326] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 22:20:49,326] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,328] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:20:49,329] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,332] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:20:49,332] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,343] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:20:49,344] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,349] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:20:49,350] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,355] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,355] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:20:49,355] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,355] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1986-01-01,1986-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '1986 Golden Globe Winners.', 'name': 'Golden Globe 1986', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 1986', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1986.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:20:49,355] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,356] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 1986 Attributes ==============================|
+[2022-11-16 22:20:49,356] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,356] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:20:49,356] [builder.py:230]            [DEBUG]    | Value: Golden Globe 1986                                                                           |
+[2022-11-16 22:20:49,356] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,356] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:20:49,356] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:20:49,356] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,356] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:20:49,356] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:20:49,356] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,357] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:20:49,357] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:20:49,357] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,357] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:20:49,357] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 22:20:49,357] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,357] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 22:20:49,357] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1986-01-01,1986-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 22:20:49,508] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,509] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:20:49,509] [builder.py:651]            [DEBUG]    | Value: 1986 Golden Globe Winners.                                                                  |
+[2022-11-16 22:20:49,509] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,509] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:20:49,509] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:20:49,510] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,510] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:20:49,510] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 1986                                                                       |
+[2022-11-16 22:20:49,510] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,510] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:20:49,510] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1986.jpg |
+[2022-11-16 22:20:49,648] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,648] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:20:49,648] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:20:49,653] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,653] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 1986                                                                     |
+[2022-11-16 22:20:49,653] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,654] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 1986 Collection ===============================|
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1986-01-01,1986-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 22:20:49,654] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,655] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 22:20:49,657] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,657] [builder.py:1575]           [DEBUG]    | 13 IDs Found                                                                                       |
+[2022-11-16 22:20:49,657] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:20:49,664] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,664] [builder.py:2159]           [INFO]     |============================== Adding to Golden Globe 1986 Collection ==============================|
+[2022-11-16 22:20:49,665] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:49,665] [builder.py:2174]           [INFO]     | 1/2 | Golden Globe 1986 Collection | + | Top Gun (1986)                                            |
+[2022-11-16 22:20:49,774] [builder.py:2174]           [INFO]     | 2/2 | Golden Globe 1986 Collection | + | Platoon (1986)                                            |
+[2022-11-16 22:20:53,315] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:53,315] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:20:53,316] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:53,316] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:20:53,316] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:53,349] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Crocodile Dundee (1986) (TMDb: 9671)                            |
+[2022-11-16 22:20:53,365] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | The Mission (1986) (TMDb: 11416)                                |
+[2022-11-16 22:20:53,376] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Hannah and Her Sisters (1986) (TMDb: 5143)                      |
+[2022-11-16 22:20:53,388] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Children of a Lesser God (1986) (TMDb: 1890)                    |
+[2022-11-16 22:20:53,401] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Mona Lisa (1986) (TMDb: 10002)                                  |
+[2022-11-16 22:20:53,411] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Crimes of the Heart (1986) (TMDb: 48259)                        |
+[2022-11-16 22:20:53,423] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Anastasia: The Mystery of Anna (1986) (TMDb: 36486)             |
+[2022-11-16 22:20:53,436] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | The Assault (1986) (TMDb: 2753)                                 |
+[2022-11-16 22:20:53,446] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Christmas Eve (1986) (TMDb: 374438)                             |
+[2022-11-16 22:20:53,703] [builder.py:2321]           [INFO]     | Golden Globe 1986 Collection | ? | Promise (1986) (TMDb: 150140)                                   |
+[2022-11-16 22:20:53,704] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:53,704] [builder.py:2327]           [INFO]     | 10 Movies Missing                                                                                  |
+[2022-11-16 22:20:58,188] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:58,189] [builder.py:2528]           [INFO]     |========================= Updating Details of Golden Globe 1986 Collection =========================|
+[2022-11-16 22:20:58,189] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:20:58,196] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | 1986 Golden Globe Winners.
+                                                                 | Sort Title | !16_Golden Globe 1986
+                                                                 | Label | +Golden Globes Awards, +PMM
+[2022-11-16 22:21:00,371] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:21:00,371] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:21:02,163] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:21:03,567] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 22:21:03,576] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Golden Globe 1986
+[2022-11-16 22:21:03,576] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:21:03,576] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1986.jpg
+[2022-11-16 22:21:03,805] [library.py:178]            [INFO]     | Detail: asset_directory updated Golden Globe 1986's poster to [File] config/Old_Movies/Assets/Golden Globe 1986/poster.jpg
+[2022-11-16 22:21:03,872] [builder.py:2686]           [INFO]     | 
+[2022-11-16 22:21:03,872] [builder.py:2687]           [INFO]     |=============================== Sorting Golden Globe 1986 Collection ===============================|
+[2022-11-16 22:21:03,872] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 22:21:03,872] [builder.py:2704]           [INFO]     | Moving Top Gun (1986) to the beginning                                                             |
+[2022-11-16 22:21:03,906] [builder.py:2704]           [INFO]     | Moving Platoon (1986) after Top Gun (1986)                                                         |
+[2022-11-16 22:21:03,977] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:21:03,977] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:21:03,977] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 1986 Collection                                |
+[2022-11-16 22:21:03,977] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-16 22:21:03,977] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

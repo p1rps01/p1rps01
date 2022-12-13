@@ -1,0 +1,53 @@
+[2022-11-16 23:08:10,894] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:10,895] [builder.py:193]            [INFO]     |                                  Horror Collection in New Movies                                   |
+[2022-11-16 23:08:10,895] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:10,895] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:10,895] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:08:10,895] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:10,895] [meta.py:210]               [DEBUG]    |========================================= Template Dynamic =========================================|
+[2022-11-16 23:08:10,895] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:10,898] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:10,898] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:08:10,898] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:10,898] [meta.py:515]               [DEBUG]    | {'smart_filter': {'all': {'genre': 'Horror'}, 'sort_by': 'release.desc'}, 'url_poster': 'https://theposterdb.com/api/assets/213106', 'sort_title': '++++++++_Horror', 'collection_mode': 'hide'} |
+[2022-11-16 23:08:10,898] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:10,898] [builder.py:223]            [INFO]     |=================================== Validating Horror Attributes ===================================|
+[2022-11-16 23:08:10,899] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:10,899] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:08:10,899] [builder.py:1791]           [DEBUG]    | Value: {'all': {'genre': 'Horror'}, 'sort_by': 'release.desc'}                                     |
+[2022-11-16 23:08:11,023] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&genre=514                                     |
+[2022-11-16 23:08:11,023] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:11,023] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:08:11,024] [builder.py:651]            [DEBUG]    | Value: Horror films are a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres. |
+[2022-11-16 23:08:11,024] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:11,024] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:08:11,024] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213106                                                   |
+[2022-11-16 23:08:11,721] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:11,721] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:08:11,721] [builder.py:651]            [DEBUG]    | Value: ++++++++_Horror                                                                             |
+[2022-11-16 23:08:11,721] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:11,721] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:08:11,721] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:08:11,809] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:11,809] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:08:11,809] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:11,809] [plex_meta_manager.py:596]  [INFO]     |==================================== Running Horror Collection =====================================|
+[2022-11-16 23:08:11,810] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:11,810] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Genre is Horror
+[2022-11-16 23:08:11,871] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:08:11,872] [builder.py:2528]           [INFO]     |============================== Updating Details of Horror Collection ===============================|
+[2022-11-16 23:08:11,872] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:11,879] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 23:08:11,882] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 23:08:11,882] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213106                               |
+[2022-11-16 23:08:11,882] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/New_Movies/Assets/Horror/poster.png', 'prefix': "Horror's ", 'is_poster': True, 'is_url': False, 'compare': 2804876, 'message': "Horror's poster to [File] /config/New_Movies/Assets/Horror/poster.png"} |
+[2022-11-16 23:08:11,883] [library.py:180]            [INFO]     | Detail: Horror's poster update not needed                                                          |
+[2022-11-16 23:08:11,932] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:11,933] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:08:11,933] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Horror Collection                                     |
+[2022-11-16 23:08:11,933] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-16 23:08:11,933] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

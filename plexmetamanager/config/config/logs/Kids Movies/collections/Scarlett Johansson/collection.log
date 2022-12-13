@@ -1,0 +1,78 @@
+[2022-11-16 20:23:51,190] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:23:51,190] [builder.py:193]            [INFO]     |                            Scarlett Johansson Collection in Kids Movies                            |
+[2022-11-16 20:23:51,190] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:23:51,191] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,191] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:23:51,191] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,191] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:23:51,191] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,193] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,193] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:23:51,193] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,193] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1245, 'sort_title': '++_Scarlett Johansson', 'collection_order': 'release'} |
+[2022-11-16 20:23:51,193] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,193] [builder.py:223]            [INFO]     |============================= Validating Scarlett Johansson Attributes =============================|
+[2022-11-16 20:23:51,194] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,194] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:23:51,194] [builder.py:533]            [DEBUG]    | Value: 1245                                                                                        |
+[2022-11-16 20:23:51,214] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,214] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:23:51,214] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:23:51,215] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,215] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:23:51,215] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:23:51,544] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,544] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:23:51,544] [builder.py:651]            [DEBUG]    | Value: ++_Scarlett Johansson                                                                       |
+[2022-11-16 20:23:51,551] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,551] [builder.py:796]            [ERROR]    | Collection Error: Converting Scarlett Johansson to a normal collection                             |
+[2022-11-16 20:23:51,557] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,557] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:23:51,557] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:596]  [INFO]     |============================== Running Scarlett Johansson Collection ===============================|
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Scarlett Johansson", '?type=1&sort=titleSort&push=1&actor=38696&pop=1') |
+[2022-11-16 20:23:51,558] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,558] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Scarlett Johansson
+[2022-11-16 20:23:51,573] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:23:51,573] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 20:23:51,573] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:23:51,573] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:23:51,573] [builder.py:2159]           [INFO]     |============================= Adding to Scarlett Johansson Collection ==============================|
+[2022-11-16 20:23:51,573] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:23:51,574] [builder.py:2174]           [INFO]     | 1/5 | Scarlett Johansson Collection | + | Home Alone 3 (1997)                                      |
+[2022-11-16 20:23:53,400] [builder.py:2174]           [INFO]     | 2/5 | Scarlett Johansson Collection | + | The Jungle Book (2016)                                   |
+[2022-11-16 20:23:53,513] [builder.py:2174]           [INFO]     | 3/5 | Scarlett Johansson Collection | + | Sing (2016)                                              |
+[2022-11-16 20:23:53,627] [builder.py:2174]           [INFO]     | 4/5 | Scarlett Johansson Collection | + | Sing 2 (2021)                                            |
+[2022-11-16 20:23:53,732] [builder.py:2174]           [INFO]     | 5/5 | Scarlett Johansson Collection | + | The SpongeBob SquarePants Movie (2004)                   |
+[2022-11-16 20:23:57,745] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:23:57,745] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:23:57,750] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:23:57,750] [builder.py:2528]           [INFO]     |======================== Updating Details of Scarlett Johansson Collection =========================|
+[2022-11-16 20:23:57,751] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:23:57,757] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Scarlett Ingrid Johansson (born November 22, 1984) is an American actress. The world's highest-paid actress in 2018 and 2019, she has featured multiple times on the Forbes Celebrity 100 list. Her films have grossed over $14.3 billion worldwide, making Johansson the ninth-highest-grossing box office star of all time. She has received various accolades, including a Tony Award and a British Academy Film Award, in addition to nominations for two Academy Awards and five Golden Globe Awards.
+                                                                 | 
+                                                                 | Johansson aspired to be an actress from an early age and first appeared on stage in an Off-Broadway play as a child actor. She made her film debut in the fantasy comedy North (1994), and gained early recognition for her roles in Manny & Lo (1996), The Horse Whisperer (1998), and Ghost World (2001). Johansson shifted to adult roles in 2003 with her performances in Lost in Translation, which won her a BAFTA Award for Best Actress, and Girl with a Pearl Earring. She was nominated for Golden Globe Awards for these films, and for playing a troubled teenager in the drama A Love Song for Bobby Long (2004) and a seductress in psychological thriller Match Point (2005). The latter was her first collaboration with Woody Allen, who later directed her in Scoop (2006) and Vicky Cristina Barcelona (2008).
+                                                                 | 
+                                                                 | Johansson's other works of this period include The Prestige (2006) and the albums Anywhere I Lay My Head (2008) and Break Up (2009), both of which charted on the Billboard 200. In 2010, Johansson debuted on Broadway in a revival of A View from the Bridge, which won her a Tony Award for Best Featured Actress, and began portraying Black Widow in the Marvel Cinematic Universe film Iron Man 2. She reprised the role in eight films, most recently in her solo feature Black Widow (2021), gaining global recognition for her performances. During this period, Johansson starred in the science fiction films Her (2013), Under the Skin (2013) and Lucy (2014).
+                                                                 | 
+                                                                 | She received two simultaneous Academy Award nominations—Best Actress and Best Supporting Actress—for the respective roles of an actress going through a divorce in the drama Marriage Story (2019) and a single mother in Nazi Germany in the satire Jojo Rabbit (2019). Labeled a sex symbol, Johansson has been referred to as one of the world's most attractive women by various media outlets. She is a prominent brand endorser and supports several charitable causes. Divorced from actor Ryan Reynolds and businessman Romain Dauriac, Johansson has been married to comedian Colin Jost since 2020. She has two children, one with Dauriac and another with Jost.
+                                                                 | Sort Title | ++_Scarlett Johansson
+                                                                 | Label | +PMM
+[2022-11-16 20:23:59,358] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:23:59,358] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:23:59,359] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:23:59,359] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg
+[2022-11-16 20:23:59,434] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg
+[2022-11-16 20:23:59,509] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:23:59,510] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:23:59,510] [plex_meta_manager.py:737]  [INFO]     |                               Finished Scarlett Johansson Collection                               |
+[2022-11-16 20:23:59,510] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 20:23:59,510] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

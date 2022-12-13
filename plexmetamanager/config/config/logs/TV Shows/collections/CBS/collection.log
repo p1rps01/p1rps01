@@ -1,0 +1,63 @@
+[2022-11-25 15:59:35,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:35,689] [builder.py:193]            [INFO]     |                                     CBS Collection in TV Shows                                     |
+[2022-11-25 15:59:35,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:35,690] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,690] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:59:35,690] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,690] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-25 15:59:35,691] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,702] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:59:35,703] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,707] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:59:35,710] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,730] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,731] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:59:35,731] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,732] [meta.py:515]               [DEBUG]    | {'smart_filter': {'sort_by': 'release.desc', 'any': {'network': ['CBS', 'CBS All Access']}}, 'summary': 'Shows broadcast on CBS.', 'name': 'CBS', 'ignore_blank_results': True, 'sort_title': '!04_CBS', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/CBS.jpg'} |
+[2022-11-25 15:59:35,732] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,732] [builder.py:223]            [INFO]     |==================================== Validating CBS Attributes =====================================|
+[2022-11-25 15:59:35,732] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,733] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:59:35,733] [builder.py:230]            [DEBUG]    | Value: CBS                                                                                         |
+[2022-11-25 15:59:35,733] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,733] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:59:35,733] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:59:35,733] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,733] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-25 15:59:35,734] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'network': ['CBS', 'CBS All Access']}}                  |
+[2022-11-25 15:59:35,746] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.network=518599&or=1&show.network=547306&pop=1 |
+[2022-11-25 15:59:35,746] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,746] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-25 15:59:35,747] [builder.py:651]            [DEBUG]    | Value: Network                                                                                     |
+[2022-11-25 15:59:35,747] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,747] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:59:35,747] [builder.py:651]            [DEBUG]    | Value: Shows broadcast on CBS.                                                                     |
+[2022-11-25 15:59:35,747] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,747] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:59:35,747] [builder.py:651]            [DEBUG]    | Value: !04_CBS                                                                                     |
+[2022-11-25 15:59:35,748] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:35,748] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:59:35,748] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/CBS.jpg |
+[2022-11-25 15:59:35,890] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,891] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:59:35,891] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,894] [plex_meta_manager.py:596]  [INFO]     |====================================== Running CBS Collection ======================================|
+[2022-11-25 15:59:35,895] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,895] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Network is CBS
+                                                                 |     Network is CBS All Access
+[2022-11-25 15:59:35,937] [builder.py:2527]           [INFO]     | 
+[2022-11-25 15:59:35,937] [builder.py:2528]           [INFO]     |================================ Updating Details of CBS Collection ================================|
+[2022-11-25 15:59:35,938] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:35,957] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:59:35,957] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 15:59:35,957] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/network/CBS.jpg |
+[2022-11-25 15:59:35,958] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:59:36,001] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:36,007] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:59:36,007] [plex_meta_manager.py:737]  [INFO]     |                                      Finished CBS Collection                                       |
+[2022-11-25 15:59:36,007] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:59:36,007] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

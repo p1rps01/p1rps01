@@ -1,0 +1,52 @@
+[2022-11-16 22:05:33,518] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:33,518] [builder.py:193]            [INFO]     |                                Jackie Chan Collection in Old Movies                                |
+[2022-11-16 22:05:33,519] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:33,519] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,519] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:05:33,519] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,519] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:05:33,520] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,522] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,522] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:05:33,523] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,523] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 18897, 'sort_title': '++_Jackie Chan', 'collection_order': 'release'} |
+[2022-11-16 22:05:33,523] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,523] [builder.py:223]            [INFO]     |================================ Validating Jackie Chan Attributes =================================|
+[2022-11-16 22:05:33,523] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,523] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:05:33,524] [builder.py:533]            [DEBUG]    | Value: 18897                                                                                       |
+[2022-11-16 22:05:33,545] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,545] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:05:33,546] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:05:33,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,547] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:05:33,547] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:33,931] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,931] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:05:33,932] [builder.py:651]            [DEBUG]    | Value: ++_Jackie Chan                                                                              |
+[2022-11-16 22:05:33,937] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,937] [plex.py:838]               [DEBUG]    | Looking for: Jackie Chan                                                                           |
+[2022-11-16 22:05:33,937] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,938] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:596]  [INFO]     |================================== Running Jackie Chan Collection ==================================|
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,938] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jackie Chan", '?type=1&sort=titleSort&push=1&actor=42169&pop=1') |
+[2022-11-16 22:05:33,939] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,939] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jackie Chan
+[2022-11-16 22:05:33,952] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:33,953] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 22:05:33,953] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:33,953] [plex_meta_manager.py:652]  [INFO]     | 
+[2022-11-16 22:05:33,953] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Jackie Chan Collection
+[2022-11-16 22:05:33,953] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:05:33,954] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:05:33,954] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Jackie Chan Collection                                   |
+[2022-11-16 22:05:33,954] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 22:05:33,954] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

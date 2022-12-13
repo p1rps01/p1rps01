@@ -1,0 +1,240 @@
+[2022-11-16 22:39:19,511] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:39:19,511] [builder.py:193]            [INFO]     |                               Trakt Popular Collection in Old Movies                               |
+[2022-11-16 22:39:19,511] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:39:19,512] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,512] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:39:19,512] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,512] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 22:39:19,512] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,512] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 22:39:19,513] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,515] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:39:19,516] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,529] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:39:19,530] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,537] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:39:19,538] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,541] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:39:19,542] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,544] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,544] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:39:19,544] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,544] [meta.py:515]               [DEBUG]    | {'trakt_chart': {'chart': 'popular', 'limit': 100}, 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_Trakt Popular', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Popular.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Popular List.", 'name': 'Trakt Popular'} |
+[2022-11-16 22:39:19,544] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,545] [builder.py:223]            [INFO]     |=============================== Validating Trakt Popular Attributes ================================|
+[2022-11-16 22:39:19,545] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,545] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:39:19,545] [builder.py:230]            [DEBUG]    | Value: Trakt Popular                                                                               |
+[2022-11-16 22:39:19,545] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,545] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:39:19,545] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:39:19,545] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,545] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:39:19,545] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:39:19,546] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,546] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:39:19,546] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:39:19,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,546] [builder.py:650]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-11-16 22:39:19,546] [builder.py:651]            [DEBUG]    | Value: {'chart': 'popular', 'limit': 100}                                                          |
+[2022-11-16 22:39:19,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,546] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:39:19,546] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:39:19,547] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,547] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:39:19,547] [builder.py:651]            [DEBUG]    | Value: !01_Trakt Popular                                                                           |
+[2022-11-16 22:39:19,547] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,547] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:39:19,547] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Popular.jpg |
+[2022-11-16 22:39:19,669] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,669] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:39:19,669] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:39:19,670] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,670] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:39:19,670] [builder.py:651]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Popular List.                                          |
+[2022-11-16 22:39:19,885] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,885] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:39:19,885] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,885] [plex_meta_manager.py:596]  [INFO]     |================================= Running Trakt Popular Collection =================================|
+[2022-11-16 22:39:19,885] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,886] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:39:19,886] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,886] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'popular', 'limit': 100, 'time_period': None}                      |
+[2022-11-16 22:39:19,886] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,887] [builder.py:1523]           [INFO]     | Builder: trakt_chart loaded from Cache                                                             |
+[2022-11-16 22:39:19,889] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,889] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-16 22:39:19,889] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:39:19,891] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,892] [builder.py:2159]           [INFO]     |================================ Adding to Trakt Popular Collection ================================|
+[2022-11-16 22:39:19,892] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,892] [builder.py:2174]           [INFO]     |  1/47 | Trakt Popular Collection | = | The Dark Knight (2008)                                      |
+[2022-11-16 22:39:19,892] [builder.py:2174]           [INFO]     |  2/47 | Trakt Popular Collection | = | Interstellar (2014)                                         |
+[2022-11-16 22:39:19,892] [builder.py:2174]           [INFO]     |  3/47 | Trakt Popular Collection | = | Interstellar (2014)                                         |
+[2022-11-16 22:39:19,893] [builder.py:2174]           [INFO]     |  4/47 | Trakt Popular Collection | = | Logan (2017)                                                |
+[2022-11-16 22:39:19,893] [builder.py:2174]           [INFO]     |  5/47 | Trakt Popular Collection | = | The Matrix (1999)                                           |
+[2022-11-16 22:39:19,893] [builder.py:2174]           [INFO]     |  6/47 | Trakt Popular Collection | = | Wonder Woman (2017)                                         |
+[2022-11-16 22:39:19,893] [builder.py:2174]           [INFO]     |  7/47 | Trakt Popular Collection | = | Avatar (2009)                                               |
+[2022-11-16 22:39:19,893] [builder.py:2174]           [INFO]     |  8/47 | Trakt Popular Collection | = | Suicide Squad (2016)                                        |
+[2022-11-16 22:39:19,894] [builder.py:2174]           [INFO]     |  9/47 | Trakt Popular Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001)    |
+[2022-11-16 22:39:19,894] [builder.py:2174]           [INFO]     | 10/47 | Trakt Popular Collection | = | Star Wars: Episode VII - The Force Awakens (2015)           |
+[2022-11-16 22:39:19,894] [builder.py:2174]           [INFO]     | 11/47 | Trakt Popular Collection | = | The Martian (2015)                                          |
+[2022-11-16 22:39:19,894] [builder.py:2174]           [INFO]     | 12/47 | Trakt Popular Collection | = | Thor: Ragnarok (2017)                                       |
+[2022-11-16 22:39:19,895] [builder.py:2174]           [INFO]     | 13/47 | Trakt Popular Collection | = | John Wick (2014)                                            |
+[2022-11-16 22:39:19,895] [builder.py:2174]           [INFO]     | 14/47 | Trakt Popular Collection | = | Fantastic Beasts and Where to Find Them (2016)              |
+[2022-11-16 22:39:19,895] [builder.py:2174]           [INFO]     | 15/47 | Trakt Popular Collection | = | Rogue One: A Star Wars Story (2016)                         |
+[2022-11-16 22:39:19,895] [builder.py:2174]           [INFO]     | 16/47 | Trakt Popular Collection | = | The Lord of the Rings: The Return of the King (2003)        |
+[2022-11-16 22:39:19,896] [builder.py:2174]           [INFO]     | 17/47 | Trakt Popular Collection | = | John Wick: Chapter 2 (2017)                                 |
+[2022-11-16 22:39:19,896] [builder.py:2174]           [INFO]     | 18/47 | Trakt Popular Collection | = | The Dark Knight Rises (2012)                                |
+[2022-11-16 22:39:19,896] [builder.py:2174]           [INFO]     | 19/47 | Trakt Popular Collection | = | Mad Max: Fury Road (2015)                                   |
+[2022-11-16 22:39:19,897] [builder.py:2174]           [INFO]     | 20/47 | Trakt Popular Collection | = | The Lord of the Rings: The Two Towers (2002)                |
+[2022-11-16 22:39:19,897] [builder.py:2174]           [INFO]     | 21/47 | Trakt Popular Collection | = | Joker (2019)                                                |
+[2022-11-16 22:39:19,897] [builder.py:2174]           [INFO]     | 22/47 | Trakt Popular Collection | = | Harry Potter and the Sorcerer's Stone (2001)                |
+[2022-11-16 22:39:19,897] [builder.py:2174]           [INFO]     | 23/47 | Trakt Popular Collection | = | The Shawshank Redemption (1994)                             |
+[2022-11-16 22:39:19,898] [builder.py:2174]           [INFO]     | 24/47 | Trakt Popular Collection | = | Star Wars: Episode IV - A New Hope (1977)                   |
+[2022-11-16 22:39:19,898] [builder.py:2174]           [INFO]     | 25/47 | Trakt Popular Collection | = | Batman Begins (2005)                                        |
+[2022-11-16 22:39:19,898] [builder.py:2174]           [INFO]     | 26/47 | Trakt Popular Collection | = | Kingsman: The Secret Service (2015)                         |
+[2022-11-16 22:39:19,899] [builder.py:2174]           [INFO]     | 27/47 | Trakt Popular Collection | = | Jurassic World (2015)                                       |
+[2022-11-16 22:39:19,899] [builder.py:2174]           [INFO]     | 28/47 | Trakt Popular Collection | = | Edge of Tomorrow (2014)                                     |
+[2022-11-16 22:39:19,899] [builder.py:2174]           [INFO]     | 29/47 | Trakt Popular Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980)       |
+[2022-11-16 22:39:19,899] [builder.py:2174]           [INFO]     | 30/47 | Trakt Popular Collection | = | Harry Potter and the Chamber of Secrets (2002)              |
+[2022-11-16 22:39:19,900] [builder.py:2174]           [INFO]     | 31/47 | Trakt Popular Collection | = | Thor (2011)                                                 |
+[2022-11-16 22:39:19,900] [builder.py:2174]           [INFO]     | 32/47 | Trakt Popular Collection | = | Harry Potter and the Prisoner of Azkaban (2004)             |
+[2022-11-16 22:39:19,900] [builder.py:2174]           [INFO]     | 33/47 | Trakt Popular Collection | = | X-Men: Apocalypse (2016)                                    |
+[2022-11-16 22:39:19,900] [builder.py:2174]           [INFO]     | 34/47 | Trakt Popular Collection | = | The Hobbit: An Unexpected Journey (2012)                    |
+[2022-11-16 22:39:19,901] [builder.py:2174]           [INFO]     | 35/47 | Trakt Popular Collection | = | Harry Potter and the Goblet of Fire (2005)                  |
+[2022-11-16 22:39:19,901] [builder.py:2174]           [INFO]     | 36/47 | Trakt Popular Collection | = | Harry Potter and the Deathly Hallows: Part 2 (2011)         |
+[2022-11-16 22:39:19,901] [builder.py:2174]           [INFO]     | 37/47 | Trakt Popular Collection | = | Thor: The Dark World (2013)                                 |
+[2022-11-16 22:39:19,902] [builder.py:2174]           [INFO]     | 38/47 | Trakt Popular Collection | = | Star Wars: Episode VI - Return of the Jedi (1983)           |
+[2022-11-16 22:39:19,902] [builder.py:2174]           [INFO]     | 39/47 | Trakt Popular Collection | = | Jumanji: Welcome to the Jungle (2017)                       |
+[2022-11-16 22:39:19,902] [builder.py:2174]           [INFO]     | 40/47 | Trakt Popular Collection | = | Harry Potter and the Order of the Phoenix (2007)            |
+[2022-11-16 22:39:19,902] [builder.py:2174]           [INFO]     | 41/47 | Trakt Popular Collection | = | Spider-Man: Into the Spider-Verse (2018)                    |
+[2022-11-16 22:39:19,903] [builder.py:2174]           [INFO]     | 42/47 | Trakt Popular Collection | = | Star Wars: Episode VIII - The Last Jedi (2017)              |
+[2022-11-16 22:39:19,903] [builder.py:2174]           [INFO]     | 43/47 | Trakt Popular Collection | = | Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
+[2022-11-16 22:39:19,903] [builder.py:2174]           [INFO]     | 44/47 | Trakt Popular Collection | = | Harry Potter and the Half-Blood Prince (2009)               |
+[2022-11-16 22:39:19,904] [builder.py:2174]           [INFO]     | 45/47 | Trakt Popular Collection | = | Kong: Skull Island (2017)                                   |
+[2022-11-16 22:39:19,904] [builder.py:2174]           [INFO]     | 46/47 | Trakt Popular Collection | = | Venom (2018)                                                |
+[2022-11-16 22:39:19,904] [builder.py:2174]           [INFO]     | 47/47 | Trakt Popular Collection | = | Harry Potter and the Deathly Hallows: Part 1 (2010)         |
+[2022-11-16 22:39:19,904] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,904] [builder.py:2196]           [INFO]     | 47 Movies Processed 0 Movies Added                                                                 |
+[2022-11-16 22:39:19,904] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,904] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:39:19,905] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:19,916] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Deadpool (2016) (TMDb: 293660)                                      |
+[2022-11-16 22:39:19,926] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Guardians of the Galaxy (2014) (TMDb: 118340)                       |
+[2022-11-16 22:39:19,936] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Inception (2010) (TMDb: 27205)                                      |
+[2022-11-16 22:39:19,947] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Avengers (2012) (TMDb: 24428)                                   |
+[2022-11-16 22:39:19,958] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Doctor Strange (2016) (TMDb: 284052)                                |
+[2022-11-16 22:39:19,968] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Guardians of the Galaxy Vol. 2 (2017) (TMDb: 283995)                |
+[2022-11-16 22:39:19,978] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                        |
+[2022-11-16 22:39:19,990] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Captain America: Civil War (2016) (TMDb: 271110)                    |
+[2022-11-16 22:39:20,000] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Arrival (2016) (TMDb: 329865)                                       |
+[2022-11-16 22:39:20,012] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Iron Man (2008) (TMDb: 1726)                                        |
+[2022-11-16 22:39:20,024] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Spider-Man: Homecoming (2017) (TMDb: 315635)                        |
+[2022-11-16 22:39:20,036] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Moana (2016) (TMDb: 277834)                                         |
+[2022-11-16 22:39:20,048] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Fight Club (1999) (TMDb: 550)                                       |
+[2022-11-16 22:39:20,059] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                             |
+[2022-11-16 22:39:20,071] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Frozen (2013) (TMDb: 109445)                                        |
+[2022-11-16 22:39:20,082] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Wolf of Wall Street (2013) (TMDb: 106646)                       |
+[2022-11-16 22:39:20,106] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Avengers: Age of Ultron (2015) (TMDb: 99861)                        |
+[2022-11-16 22:39:20,132] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Black Panther (2018) (TMDb: 284054)                                 |
+[2022-11-16 22:39:20,144] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Zootopia (2016) (TMDb: 269149)                                      |
+[2022-11-16 22:39:20,156] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Captain America: The Winter Soldier (2014) (TMDb: 100402)           |
+[2022-11-16 22:39:20,169] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Django Unchained (2012) (TMDb: 68718)                               |
+[2022-11-16 22:39:20,183] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Forrest Gump (1994) (TMDb: 13)                                      |
+[2022-11-16 22:39:20,193] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Ant-Man (2015) (TMDb: 102899)                                       |
+[2022-11-16 22:39:20,206] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Inside Out (2015) (TMDb: 150540)                                    |
+[2022-11-16 22:39:20,217] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Pulp Fiction (1994) (TMDb: 680)                                     |
+[2022-11-16 22:39:20,231] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Passengers (2016) (TMDb: 274870)                                    |
+[2022-11-16 22:39:20,242] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Batman v Superman: Dawn of Justice (2016) (TMDb: 209112)            |
+[2022-11-16 22:39:20,253] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | WALL·E (2008) (TMDb: 10681)                                         |
+[2022-11-16 22:39:20,266] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Deadpool 2 (2018) (TMDb: 383498)                                    |
+[2022-11-16 22:39:20,278] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Captain America: The First Avenger (2011) (TMDb: 1771)              |
+[2022-11-16 22:39:20,290] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Get Out (2017) (TMDb: 419430)                                       |
+[2022-11-16 22:39:20,304] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Finding Nemo (2003) (TMDb: 12)                                      |
+[2022-11-16 22:39:20,316] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Back to the Future (1985) (TMDb: 105)                               |
+[2022-11-16 22:39:20,332] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Up (2009) (TMDb: 14160)                                             |
+[2022-11-16 22:39:20,345] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Iron Man 3 (2013) (TMDb: 68721)                                     |
+[2022-11-16 22:39:20,357] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Baby Driver (2017) (TMDb: 339403)                                   |
+[2022-11-16 22:39:20,368] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Iron Man 2 (2010) (TMDb: 10138)                                     |
+[2022-11-16 22:39:20,379] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Lion King (1994) (TMDb: 8587)                                   |
+[2022-11-16 22:39:20,394] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Hunger Games (2012) (TMDb: 70160)                               |
+[2022-11-16 22:39:20,406] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Toy Story (1995) (TMDb: 862)                                        |
+[2022-11-16 22:39:20,418] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Monsters, Inc. (2001) (TMDb: 585)                                   |
+[2022-11-16 22:39:20,431] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Incredibles (2004) (TMDb: 9806)                                 |
+[2022-11-16 22:39:20,444] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Inglourious Basterds (2009) (TMDb: 16869)                           |
+[2022-11-16 22:39:20,456] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Ready Player One (2018) (TMDb: 333339)                              |
+[2022-11-16 22:39:20,476] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Big Hero 6 (2014) (TMDb: 177572)                                    |
+[2022-11-16 22:39:20,488] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Captain Marvel (2019) (TMDb: 299537)                                |
+[2022-11-16 22:39:20,513] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Revenant (2015) (TMDb: 281957)                                  |
+[2022-11-16 22:39:20,531] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Se7en (1995) (TMDb: 807)                                            |
+[2022-11-16 22:39:20,546] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Now You See Me (2013) (TMDb: 75656)                                 |
+[2022-11-16 22:39:20,558] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Despicable Me (2010) (TMDb: 20352)                                  |
+[2022-11-16 22:39:20,580] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Secret Life of Pets (2016) (TMDb: 328111)                       |
+[2022-11-16 22:39:20,592] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | The Hunger Games: Catching Fire (2013) (TMDb: 101299)               |
+[2022-11-16 22:39:20,604] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Gone Girl (2014) (TMDb: 210577)                                     |
+[2022-11-16 22:39:20,616] [builder.py:2321]           [INFO]     | Trakt Popular Collection | ? | Spider-Man: Far from Home (2019) (TMDb: 429617)                     |
+[2022-11-16 22:39:20,616] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:20,616] [builder.py:2327]           [INFO]     | 54 Movies Missing                                                                                  |
+[2022-11-16 22:39:24,438] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:24,438] [builder.py:2528]           [INFO]     |=========================== Updating Details of Trakt Popular Collection ===========================|
+[2022-11-16 22:39:24,438] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:24,445] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 22:39:26,073] [builder.py:2615]           [INFO]     | Collection Mode | hide                                                                             |
+[2022-11-16 22:39:26,074] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 22:39:26,074] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Popular.jpg |
+[2022-11-16 22:39:26,074] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Old_Movies/Assets/Trakt Popular/poster.jpg', 'prefix': "Trakt Popular's ", 'is_poster': True, 'is_url': False, 'compare': 264061, 'message': "Trakt Popular's poster to [File] /config/Old_Movies/Assets/Trakt Popular/poster.jpg"} |
+[2022-11-16 22:39:26,075] [library.py:180]            [INFO]     | Detail: Trakt Popular's poster update not needed                                                   |
+[2022-11-16 22:39:26,334] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:26,334] [builder.py:2687]           [INFO]     |================================= Sorting Trakt Popular Collection =================================|
+[2022-11-16 22:39:26,334] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 22:39:26,334] [builder.py:2704]           [INFO]     | Moving Interstellar (2014) after The Dark Knight (2008)                                            |
+[2022-11-16 22:39:26,516] [builder.py:2704]           [INFO]     | Moving Interstellar (2014) after Interstellar (2014)                                               |
+[2022-11-16 22:39:26,658] [builder.py:2704]           [INFO]     | Moving Logan (2017) after Interstellar (2014)                                                      |
+[2022-11-16 22:39:26,784] [builder.py:2704]           [INFO]     | Moving The Matrix (1999) after Logan (2017)                                                        |
+[2022-11-16 22:39:26,947] [builder.py:2704]           [INFO]     | Moving Avatar (2009) after Wonder Woman (2017)                                                     |
+[2022-11-16 22:39:27,095] [builder.py:2704]           [INFO]     | Moving Suicide Squad (2016) after Avatar (2009)                                                    |
+[2022-11-16 22:39:27,239] [builder.py:2704]           [INFO]     | Moving The Lord of the Rings: The Fellowship of the Ring (2001) after Suicide Squad (2016)         |
+[2022-11-16 22:39:27,392] [builder.py:2704]           [INFO]     | Moving Star Wars: Episode VII - The Force Awakens (2015) after The Lord of the Rings: The Fellowship of the Ring (2001) |
+[2022-11-16 22:39:27,536] [builder.py:2704]           [INFO]     | Moving The Martian (2015) after Star Wars: Episode VII - The Force Awakens (2015)                  |
+[2022-11-16 22:39:27,643] [builder.py:2704]           [INFO]     | Moving Thor: Ragnarok (2017) after The Martian (2015)                                              |
+[2022-11-16 22:39:27,788] [builder.py:2704]           [INFO]     | Moving John Wick (2014) after Thor: Ragnarok (2017)                                                |
+[2022-11-16 22:39:28,014] [builder.py:2704]           [INFO]     | Moving Fantastic Beasts and Where to Find Them (2016) after John Wick (2014)                       |
+[2022-11-16 22:39:28,163] [builder.py:2704]           [INFO]     | Moving Rogue One: A Star Wars Story (2016) after Fantastic Beasts and Where to Find Them (2016)    |
+[2022-11-16 22:39:28,300] [builder.py:2704]           [INFO]     | Moving The Lord of the Rings: The Return of the King (2003) after Rogue One: A Star Wars Story (2016) |
+[2022-11-16 22:39:28,514] [builder.py:2704]           [INFO]     | Moving John Wick: Chapter 2 (2017) after The Lord of the Rings: The Return of the King (2003)      |
+[2022-11-16 22:39:28,649] [builder.py:2704]           [INFO]     | Moving The Dark Knight Rises (2012) after John Wick: Chapter 2 (2017)                              |
+[2022-11-16 22:39:28,784] [builder.py:2704]           [INFO]     | Moving Mad Max: Fury Road (2015) after The Dark Knight Rises (2012)                                |
+[2022-11-16 22:39:28,912] [builder.py:2704]           [INFO]     | Moving The Lord of the Rings: The Two Towers (2002) after Mad Max: Fury Road (2015)                |
+[2022-11-16 22:39:29,087] [builder.py:2704]           [INFO]     | Moving Joker (2019) after The Lord of the Rings: The Two Towers (2002)                             |
+[2022-11-16 22:39:29,233] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Sorcerer's Stone (2001) after Joker (2019)                             |
+[2022-11-16 22:39:29,396] [builder.py:2704]           [INFO]     | Moving The Shawshank Redemption (1994) after Harry Potter and the Sorcerer's Stone (2001)          |
+[2022-11-16 22:39:29,547] [builder.py:2704]           [INFO]     | Moving Star Wars: Episode IV - A New Hope (1977) after The Shawshank Redemption (1994)             |
+[2022-11-16 22:39:29,669] [builder.py:2704]           [INFO]     | Moving Batman Begins (2005) after Star Wars: Episode IV - A New Hope (1977)                        |
+[2022-11-16 22:39:29,792] [builder.py:2704]           [INFO]     | Moving Kingsman: The Secret Service (2015) after Batman Begins (2005)                              |
+[2022-11-16 22:39:29,898] [builder.py:2704]           [INFO]     | Moving Jurassic World (2015) after Kingsman: The Secret Service (2015)                             |
+[2022-11-16 22:39:30,013] [builder.py:2704]           [INFO]     | Moving Edge of Tomorrow (2014) after Jurassic World (2015)                                         |
+[2022-11-16 22:39:30,162] [builder.py:2704]           [INFO]     | Moving Star Wars: Episode V - The Empire Strikes Back (1980) after Edge of Tomorrow (2014)         |
+[2022-11-16 22:39:30,280] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Chamber of Secrets (2002) after Star Wars: Episode V - The Empire Strikes Back (1980) |
+[2022-11-16 22:39:30,391] [builder.py:2704]           [INFO]     | Moving Thor (2011) after Harry Potter and the Chamber of Secrets (2002)                            |
+[2022-11-16 22:39:30,513] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Prisoner of Azkaban (2004) after Thor (2011)                           |
+[2022-11-16 22:39:30,696] [builder.py:2704]           [INFO]     | Moving X-Men: Apocalypse (2016) after Harry Potter and the Prisoner of Azkaban (2004)              |
+[2022-11-16 22:39:30,893] [builder.py:2704]           [INFO]     | Moving The Hobbit: An Unexpected Journey (2012) after X-Men: Apocalypse (2016)                     |
+[2022-11-16 22:39:31,136] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Goblet of Fire (2005) after The Hobbit: An Unexpected Journey (2012)   |
+[2022-11-16 22:39:31,257] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Deathly Hallows: Part 2 (2011) after Harry Potter and the Goblet of Fire (2005) |
+[2022-11-16 22:39:31,368] [builder.py:2704]           [INFO]     | Moving Thor: The Dark World (2013) after Harry Potter and the Deathly Hallows: Part 2 (2011)       |
+[2022-11-16 22:39:31,474] [builder.py:2704]           [INFO]     | Moving Star Wars: Episode VI - Return of the Jedi (1983) after Thor: The Dark World (2013)         |
+[2022-11-16 22:39:31,588] [builder.py:2704]           [INFO]     | Moving Jumanji: Welcome to the Jungle (2017) after Star Wars: Episode VI - Return of the Jedi (1983) |
+[2022-11-16 22:39:31,689] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Order of the Phoenix (2007) after Jumanji: Welcome to the Jungle (2017) |
+[2022-11-16 22:39:31,803] [builder.py:2704]           [INFO]     | Moving Spider-Man: Into the Spider-Verse (2018) after Harry Potter and the Order of the Phoenix (2007) |
+[2022-11-16 22:39:31,934] [builder.py:2704]           [INFO]     | Moving Star Wars: Episode VIII - The Last Jedi (2017) after Spider-Man: Into the Spider-Verse (2018) |
+[2022-11-16 22:39:32,051] [builder.py:2704]           [INFO]     | Moving Pirates of the Caribbean: The Curse of the Black Pearl (2003) after Star Wars: Episode VIII - The Last Jedi (2017) |
+[2022-11-16 22:39:32,153] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Half-Blood Prince (2009) after Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
+[2022-11-16 22:39:32,339] [builder.py:2704]           [INFO]     | Moving Kong: Skull Island (2017) after Harry Potter and the Half-Blood Prince (2009)               |
+[2022-11-16 22:39:32,501] [builder.py:2704]           [INFO]     | Moving Venom (2018) after Kong: Skull Island (2017)                                                |
+[2022-11-16 22:39:32,688] [builder.py:2704]           [INFO]     | Moving Harry Potter and the Deathly Hallows: Part 1 (2010) after Venom (2018)                      |
+[2022-11-16 22:39:32,810] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:39:32,810] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:39:32,810] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Trakt Popular Collection                                  |
+[2022-11-16 22:39:32,810] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-11-16 22:39:32,810] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

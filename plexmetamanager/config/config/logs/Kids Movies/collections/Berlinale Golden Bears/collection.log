@@ -1,0 +1,187 @@
+[2022-11-16 20:38:12,809] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:38:12,810] [builder.py:193]            [INFO]     |                          Berlinale Golden Bears Collection in Kids Movies                          |
+[2022-11-16 20:38:12,810] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:38:12,810] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:38:12,810] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:38:12,810] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,810] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 20:38:12,810] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,810] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:38:12,811] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,822] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:38:12,823] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,830] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:38:12,830] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,834] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:38:12,834] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,837] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,837] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:38:12,837] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,837] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Berlinale Golden Bears', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/berlinale/winner.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "Up to 400 films are shown every year as part of the Berlinale's (Berlin International Film Festival) public programme, the vast majority of which are world or European premieres. Films of every genre, length and format can be submitted for consideration. The Golden Bear (German Goldener Bär) is the highest prize awarded for the best film shown during this festival.", 'name': 'Berlinale Golden Bears'} |
+[2022-11-16 20:38:12,837] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,838] [builder.py:223]            [INFO]     |=========================== Validating Berlinale Golden Bears Attributes ===========================|
+[2022-11-16 20:38:12,838] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,838] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:38:12,838] [builder.py:230]            [DEBUG]    | Value: Berlinale Golden Bears                                                                      |
+[2022-11-16 20:38:12,838] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,838] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:38:12,838] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:38:12,838] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,838] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:38:12,838] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:38:12,839] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,839] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:38:12,839] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:38:12,839] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,839] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:38:12,839] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:38:12,839] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,839] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 20:38:12,839] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/maxwelldeux/lists/berlin-international-film-festival-golden-bears    |
+[2022-11-16 20:38:12,927] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,927] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:38:12,927] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:38:12,927] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,927] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:38:12,927] [builder.py:651]            [DEBUG]    | Value: !16_Berlinale Golden Bears                                                                  |
+[2022-11-16 20:38:12,927] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:12,927] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:38:12,927] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/berlinale/winner.jpg |
+[2022-11-16 20:38:13,063] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,063] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:38:13,063] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:38:13,063] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,063] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:38:13,063] [builder.py:651]            [DEBUG]    | Value: Up to 400 films are shown every year as part of the Berlinale's (Berlin International Film Festival) public programme, the vast majority of which are world or European premieres. Films of every genre, length and format can be submitted for consideration. The Golden Bear (German Goldener Bär) is the highest prize awarded for the best film shown during this festival. |
+[2022-11-16 20:38:13,068] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,068] [plex.py:838]               [DEBUG]    | Looking for: Berlinale Golden Bears                                                                |
+[2022-11-16 20:38:13,068] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,068] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:38:13,068] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,068] [plex_meta_manager.py:596]  [INFO]     |============================ Running Berlinale Golden Bears Collection =============================|
+[2022-11-16 20:38:13,068] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,068] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:38:13,069] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,069] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/berlin-international-film-festival-golden-bears |
+[2022-11-16 20:38:13,069] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,070] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 20:38:13,072] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,072] [builder.py:1575]           [DEBUG]    | 84 IDs Found                                                                                       |
+[2022-11-16 20:38:13,072] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:38:13,073] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,073] [builder.py:2159]           [INFO]     |=========================== Adding to Berlinale Golden Bears Collection ============================|
+[2022-11-16 20:38:13,073] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:13,073] [builder.py:2174]           [INFO]     | 1/2 | Berlinale Golden Bears Collection | + | Cinderella (1950)                                    |
+[2022-11-16 20:38:15,025] [builder.py:2174]           [INFO]     | 2/2 | Berlinale Golden Bears Collection | + | Spirited Away (2001)                                 |
+[2022-11-16 20:38:18,574] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:18,574] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:38:18,574] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:18,575] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:38:18,575] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:18,932] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Four in a Jeep (1951) (TMDb: 162339)                       |
+[2022-11-16 20:38:19,223] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Without Leaving an Address (1951) (TMDb: 162344)           |
+[2022-11-16 20:38:19,233] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Beaver Valley (1950) (TMDb: 162352)                        |
+[2022-11-16 20:38:19,471] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Justice Is Done (1950) (TMDb: 67731)                       |
+[2022-11-16 20:38:19,732] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | One Summer of Happiness (1951) (TMDb: 56719)               |
+[2022-11-16 20:38:19,745] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Wages of Fear (1953) (TMDb: 204)                       |
+[2022-11-16 20:38:19,755] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Hobson's Choice (1954) (TMDb: 16410)                       |
+[2022-11-16 20:38:20,020] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Rats (1955) (TMDb: 148836)                             |
+[2022-11-16 20:38:20,151] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Invitation to the Dance (1956) (TMDb: 47310)               |
+[2022-11-16 20:38:20,164] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | 12 Angry Men (1957) (TMDb: 389)                            |
+[2022-11-16 20:38:20,174] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Wild Strawberries (1957) (TMDb: 614)                       |
+[2022-11-16 20:38:20,402] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Cousins (1959) (TMDb: 2363)                            |
+[2022-11-16 20:38:20,674] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | El Lazarillo de Tormes (1959) (TMDb: 162368)               |
+[2022-11-16 20:38:20,844] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | La Notte (1961) (TMDb: 41050)                              |
+[2022-11-16 20:38:20,855] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | A Kind of Loving (1962) (TMDb: 33765)                      |
+[2022-11-16 20:38:20,867] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | To Bed or Not to Bed (1963) (TMDb: 162382)                 |
+[2022-11-16 20:38:21,107] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Bushido: The Cruel Code of the Samurai (1963) (TMDb: 90299) |
+[2022-11-16 20:38:21,316] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Dry Summer (1963) (TMDb: 58897)                            |
+[2022-11-16 20:38:21,330] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Alphaville (1965) (TMDb: 8072)                             |
+[2022-11-16 20:38:21,476] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Cul-de-sac (1966) (TMDb: 4772)                             |
+[2022-11-16 20:38:21,667] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Departure (1967) (TMDb: 137726)                        |
+[2022-11-16 20:38:21,882] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Who Saw Him Die? (1968) (TMDb: 122671)                     |
+[2022-11-16 20:38:22,170] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Early Works (1969) (TMDb: 162421)                          |
+[2022-11-16 20:38:22,180] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Garden of the Finzi-Continis (1970) (TMDb: 4789)       |
+[2022-11-16 20:38:22,225] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Canterbury Tales (1972) (TMDb: 5691)                   |
+[2022-11-16 20:38:22,488] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Distant Thunder (1973) (TMDb: 113012)                      |
+[2022-11-16 20:38:22,498] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Apprenticeship of Duddy Kravitz (1974) (TMDb: 42451)   |
+[2022-11-16 20:38:22,718] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Adoption (1975) (TMDb: 61703)                              |
+[2022-11-16 20:38:22,909] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Buffalo Bill and the Indians, or Sitting Bull's History Lesson (1976) (TMDb: 42233) |
+[2022-11-16 20:38:23,104] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Ascent (1977) (TMDb: 50183)                            |
+[2022-11-16 20:38:23,346] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Trout (1978) (TMDb: 162438)                                |
+[2022-11-16 20:38:23,583] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Ascensor (1978) (TMDb: 162443)                             |
+[2022-11-16 20:38:23,914] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | What Max Said (1978) (TMDb: 162439)                        |
+[2022-11-16 20:38:24,151] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | David (1979) (TMDb: 163133)                                |
+[2022-11-16 20:38:24,283] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Heartland (1979) (TMDb: 49427)                             |
+[2022-11-16 20:38:24,401] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Palermo or Wolfsburg (1980) (TMDb: 130544)                 |
+[2022-11-16 20:38:24,690] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Faster, Faster (1981) (TMDb: 47211)                        |
+[2022-11-16 20:38:24,923] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Veronika Voss (1982) (TMDb: 2262)                          |
+[2022-11-16 20:38:25,172] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Ascendancy (1983) (TMDb: 163143)                           |
+[2022-11-16 20:38:25,339] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Beehive (1982) (TMDb: 104435)                          |
+[2022-11-16 20:38:25,542] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Love Streams (1984) (TMDb: 52109)                          |
+[2022-11-16 20:38:25,812] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Woman and the Stranger (1985) (TMDb: 163149)           |
+[2022-11-16 20:38:25,976] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Wetherby (1985) (TMDb: 147747)                             |
+[2022-11-16 20:38:26,108] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Baader-Meinhof Gang on Trial (1986) (TMDb: 52327)      |
+[2022-11-16 20:38:26,263] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Theme (1979) (TMDb: 131349)                            |
+[2022-11-16 20:38:26,274] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Red Sorghum (1988) (TMDb: 42006)                           |
+[2022-11-16 20:38:26,284] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Rain Man (1988) (TMDb: 380)                                |
+[2022-11-16 20:38:26,524] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Music Box (1989) (TMDb: 2263)                              |
+[2022-11-16 20:38:26,536] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Larks on a String (1969) (TMDb: 12078)                     |
+[2022-11-16 20:38:26,805] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The House of Smiles (1991) (TMDb: 148757)                  |
+[2022-11-16 20:38:27,022] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Grand Canyon (1991) (TMDb: 13697)                          |
+[2022-11-16 20:38:27,231] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Women from the Lake of Scented Souls (1993) (TMDb: 162841) |
+[2022-11-16 20:38:27,252] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Wedding Banquet (1993) (TMDb: 9261)                    |
+[2022-11-16 20:38:27,263] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | In the Name of the Father (1993) (TMDb: 7984)              |
+[2022-11-16 20:38:27,509] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Fresh Bait (1995) (TMDb: 38414)                            |
+[2022-11-16 20:38:27,521] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Sense and Sensibility (1995) (TMDb: 4584)                  |
+[2022-11-16 20:38:27,532] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The People vs. Larry Flynt (1996) (TMDb: 1630)             |
+[2022-11-16 20:38:27,546] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Central Station (1998) (TMDb: 666)                         |
+[2022-11-16 20:38:27,744] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Thin Red Line (1998) (TMDb: 8741)                      |
+[2022-11-16 20:38:27,755] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Magnolia (1999) (TMDb: 334)                                |
+[2022-11-16 20:38:27,771] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Intimacy (2001) (TMDb: 11845)                              |
+[2022-11-16 20:38:28,020] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Bloody Sunday (2002) (TMDb: 4107)                          |
+[2022-11-16 20:38:28,306] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | In This World (2002) (TMDb: 36791)                         |
+[2022-11-16 20:38:28,315] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Head-On (2004) (TMDb: 363)                                 |
+[2022-11-16 20:38:28,325] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | U-Carmen eKhayelitsha (2005) (TMDb: 79706)                 |
+[2022-11-16 20:38:28,552] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Grbavica: The Land of My Dreams (2006) (TMDb: 317)         |
+[2022-11-16 20:38:28,569] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Tuya's Marriage (2006) (TMDb: 2694)                        |
+[2022-11-16 20:38:28,580] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Elite Squad (2007) (TMDb: 7347)                            |
+[2022-11-16 20:38:28,582] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | The Milk of Sorrow (2009) (TMDb: 28644)                    |
+[2022-11-16 20:38:28,782] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Honey (2010) (TMDb: 44160)                                 |
+[2022-11-16 20:38:28,794] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | A Separation (2011) (TMDb: 60243)                          |
+[2022-11-16 20:38:29,069] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Caesar Must Die (2012) (TMDb: 96821)                       |
+[2022-11-16 20:38:29,079] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Child's Pose (2013) (TMDb: 160118)                         |
+[2022-11-16 20:38:29,246] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Black Coal, Thin Ice (2014) (TMDb: 255756)                 |
+[2022-11-16 20:38:29,262] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Taxi (2015) (TMDb: 320006)                                 |
+[2022-11-16 20:38:29,275] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Fire at Sea (2016) (TMDb: 377151)                          |
+[2022-11-16 20:38:29,290] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | On Body and Soul (2017) (TMDb: 436343)                     |
+[2022-11-16 20:38:29,469] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Touch Me Not (2018) (TMDb: 499155)                         |
+[2022-11-16 20:38:29,699] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Synonyms (2019) (TMDb: 501590)                             |
+[2022-11-16 20:38:29,711] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | There Is No Evil (2020) (TMDb: 667935)                     |
+[2022-11-16 20:38:29,888] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Bad Luck Banging or Loony Porn (2021) (TMDb: 790496)       |
+[2022-11-16 20:38:30,018] [builder.py:2321]           [INFO]     | Berlinale Golden Bears Collection | ? | Alcarràs (2022) (TMDb: 804251)                             |
+[2022-11-16 20:38:30,018] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:30,018] [builder.py:2327]           [INFO]     | 82 Movies Missing                                                                                  |
+[2022-11-16 20:38:33,715] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:33,715] [builder.py:2528]           [INFO]     |====================== Updating Details of Berlinale Golden Bears Collection =======================|
+[2022-11-16 20:38:33,715] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:33,721] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Up to 400 films are shown every year as part of the Berlinale's (Berlin International Film Festival) public programme, the vast majority of which are world or European premieres. Films of every genre, length and format can be submitted for consideration. The Golden Bear (German Goldener Bär) is the highest prize awarded for the best film shown during this festival.
+                                                                 | Sort Title | !16_Berlinale Golden Bears
+                                                                 | Label | +PMM
+[2022-11-16 20:38:35,418] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:38:35,418] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:38:37,062] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:38:38,827] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 20:38:38,834] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Berlinale Golden Bears
+[2022-11-16 20:38:38,834] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:38:38,835] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/berlinale/winner.jpg
+[2022-11-16 20:38:39,005] [library.py:178]            [INFO]     | Detail: asset_directory updated Berlinale Golden Bears's poster to [File] config/Kids_Movies/Assets/Berlinale Golden Bears/poster.jpg
+[2022-11-16 20:38:39,062] [builder.py:2686]           [INFO]     | 
+[2022-11-16 20:38:39,062] [builder.py:2687]           [INFO]     |============================ Sorting Berlinale Golden Bears Collection =============================|
+[2022-11-16 20:38:39,063] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:38:39,063] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:38:39,063] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:38:39,063] [plex_meta_manager.py:737]  [INFO]     |                             Finished Berlinale Golden Bears Collection                             |
+[2022-11-16 20:38:39,063] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:26                                    |
+[2022-11-16 20:38:39,063] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,75 @@
+[2022-11-16 22:04:00,727] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:04:00,727] [builder.py:193]            [INFO]     |                               Ewan McGregor Collection in Old Movies                               |
+[2022-11-16 22:04:00,727] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:04:00,727] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:00,727] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:04:00,728] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,728] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:04:00,728] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,729] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,729] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:04:00,729] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,729] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 3061, 'sort_title': '++_Ewan McGregor', 'collection_order': 'release'} |
+[2022-11-16 22:04:00,730] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,730] [builder.py:223]            [INFO]     |=============================== Validating Ewan McGregor Attributes ================================|
+[2022-11-16 22:04:00,730] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,730] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:04:00,730] [builder.py:533]            [DEBUG]    | Value: 3061                                                                                        |
+[2022-11-16 22:04:00,744] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,744] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:04:00,745] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:04:00,745] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:00,746] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:04:00,746] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:04:01,085] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:01,086] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:04:01,086] [builder.py:651]            [DEBUG]    | Value: ++_Ewan McGregor                                                                            |
+[2022-11-16 22:04:01,094] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,094] [builder.py:796]            [ERROR]    | Collection Error: Converting Ewan McGregor to a normal collection                                  |
+[2022-11-16 22:04:01,101] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,101] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:04:01,101] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:596]  [INFO]     |================================= Running Ewan McGregor Collection =================================|
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Ewan McGregor", '?type=1&sort=titleSort&push=1&actor=35633&pop=1') |
+[2022-11-16 22:04:01,102] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,102] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Ewan McGregor
+[2022-11-16 22:04:01,128] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:04:01,128] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-16 22:04:01,128] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:04:01,128] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:04:01,129] [builder.py:2159]           [INFO]     |================================ Adding to Ewan McGregor Collection ================================|
+[2022-11-16 22:04:01,129] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:04:01,129] [builder.py:2174]           [INFO]     | 1/6 | Ewan McGregor Collection | + | Black Hawk Down (2001)                                        |
+[2022-11-16 22:04:03,187] [builder.py:2174]           [INFO]     | 2/6 | Ewan McGregor Collection | + | Star Wars: Episode I - The Phantom Menace (1999)              |
+[2022-11-16 22:04:05,144] [builder.py:2174]           [INFO]     | 3/6 | Ewan McGregor Collection | + | Star Wars: Episode II - Attack of the Clones (2002)           |
+[2022-11-16 22:04:09,735] [builder.py:2174]           [INFO]     | 4/6 | Ewan McGregor Collection | + | Star Wars: Episode III - Revenge of the Sith (2005)           |
+[2022-11-16 22:04:11,720] [builder.py:2174]           [INFO]     | 5/6 | Ewan McGregor Collection | + | Star Wars: Episode IX - The Rise of Skywalker (2019)          |
+[2022-11-16 22:04:11,811] [builder.py:2174]           [INFO]     | 6/6 | Ewan McGregor Collection | + | Star Wars: Episode VII - The Force Awakens (2015)             |
+[2022-11-16 22:04:14,526] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:04:14,527] [builder.py:2196]           [INFO]     | 6 Movies Processed 6 Movies Added                                                                  |
+[2022-11-16 22:04:14,916] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:04:14,916] [builder.py:2528]           [INFO]     |=========================== Updating Details of Ewan McGregor Collection ===========================|
+[2022-11-16 22:04:14,917] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:04:15,487] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Ewan Gordon McGregor (born 31 March 1971) is a Scottish actor who has starred in numerous film and musical roles. His first professional role was in 1993, as a leading role in the British Channel 4 series Lipstick on Your Collar. He then achieved international fame with his portrayals of heroin addict Mark Renton in the drama films Trainspotting (1996) and T2 Trainspotting (2017), Obi-Wan Kenobi in the Star Wars prequel trilogy (1999–2005) and the Disney+ series Obi-Wan Kenobi (2022), poet Christian in the musical film Moulin Rouge! (2001), SPC John Grimes in Black Hawk Down (2001), young Edward Bloom in Big Fish (2003), Rodney Copperbottom in Robots (2005), Camerlengo Father Patrick McKenna in Angels and Demons (2009), "the ghost" in Roman Polanski's political thriller The Ghost Writer (2010), Dr. Alfred Jones in the romantic comedy-drama Salmon Fishing in the Yemen (2011), Lumière in the live-action adaptation of the musical romantic fantasy Beauty and the Beast (2017), the adult version of the titular character in the fantasy comedy-drama Christopher Robin (2018), the adult version of Dan Torrance in the horror film Doctor Sleep (2019), and Black Mask in the DC Extended Universe superhero film Birds of Prey (2020). In 2021, he portrayed fashion designer Halston in a Netflix miniseries Halston.
+                                                                 | 
+                                                                 | In 2018, McGregor won a Golden Globe Award for Best Actor – Miniseries or Television Film for his dual role as brothers Ray & Emmit Stussy in the third season of FX anthology series Fargo, and received Golden Globe nominations for Best Actor – Musical or Comedy for both Moulin Rouge! and Salmon Fishing in the Yemen. McGregor has also starred in theatre productions of Guys and Dolls (2005–2007) and Othello (2007–2008). He was ranked number 36 on Empire magazine's "The Top 100 Movie Stars of All Time" list in 1997. In a 2004 poll for the BBC, McGregor was named the fourth most influential person in British culture.
+                                                                 | Sort Title | ++_Ewan McGregor
+                                                                 | Label | +PMM
+[2022-11-16 22:04:19,379] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:04:19,379] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:04:19,380] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:04:19,381] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/qYRGu6NIqkUYIO7ftso110WNQ6P.jpg
+[2022-11-16 22:04:19,456] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/qYRGu6NIqkUYIO7ftso110WNQ6P.jpg
+[2022-11-16 22:04:19,526] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:04:19,527] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:04:19,527] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Ewan McGregor Collection                                  |
+[2022-11-16 22:04:19,527] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:18                                    |
+[2022-11-16 22:04:19,527] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

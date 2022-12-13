@@ -1,0 +1,88 @@
+[2022-11-16 22:02:33,435] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:02:33,435] [builder.py:193]            [INFO]     |                              Dwayne Johnson Collection in Old Movies                               |
+[2022-11-16 22:02:33,436] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:02:33,436] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:02:33,436] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:02:33,436] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,436] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:02:33,437] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,439] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,439] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:02:33,439] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,439] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 18918, 'sort_title': '++_Dwayne Johnson', 'collection_order': 'release'} |
+[2022-11-16 22:02:33,440] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,440] [builder.py:223]            [INFO]     |=============================== Validating Dwayne Johnson Attributes ===============================|
+[2022-11-16 22:02:33,440] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,440] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:02:33,440] [builder.py:533]            [DEBUG]    | Value: 18918                                                                                       |
+[2022-11-16 22:02:33,468] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,468] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:02:33,468] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:02:33,469] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,469] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:02:33,469] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:02:33,997] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:33,997] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:02:33,998] [builder.py:651]            [DEBUG]    | Value: ++_Dwayne Johnson                                                                           |
+[2022-11-16 22:02:34,005] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,006] [builder.py:796]            [ERROR]    | Collection Error: Converting Dwayne Johnson to a normal collection                                 |
+[2022-11-16 22:02:34,021] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,021] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:02:34,022] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,022] [plex_meta_manager.py:596]  [INFO]     |================================ Running Dwayne Johnson Collection =================================|
+[2022-11-16 22:02:34,022] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,022] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:02:34,022] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:02:34,023] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Dwayne Johnson", '?type=1&sort=titleSort&push=1&actor=52783&pop=1') |
+[2022-11-16 22:02:34,023] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,023] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Dwayne Johnson
+[2022-11-16 22:02:34,075] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:02:34,076] [builder.py:1575]           [DEBUG]    | 11 IDs Found
+[2022-11-16 22:02:34,076] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:02:34,077] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:02:34,078] [builder.py:2159]           [INFO]     |=============================== Adding to Dwayne Johnson Collection ================================|
+[2022-11-16 22:02:34,078] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:02:34,078] [builder.py:2174]           [INFO]     |  1/11 | Dwayne Johnson Collection | + | Fast & Furious 6 (2013)                                    |
+[2022-11-16 22:02:37,348] [builder.py:2174]           [INFO]     |  2/11 | Dwayne Johnson Collection | + | Fast Five (2011)                                           |
+[2022-11-16 22:02:40,596] [builder.py:2174]           [INFO]     |  3/11 | Dwayne Johnson Collection | + | The Fate of the Furious (2017)                             |
+[2022-11-16 22:02:40,742] [builder.py:2174]           [INFO]     |  4/11 | Dwayne Johnson Collection | + | Free Guy (2021)                                            |
+[2022-11-16 22:02:40,895] [builder.py:2174]           [INFO]     |  5/11 | Dwayne Johnson Collection | + | Furious 7 (2015)                                           |
+[2022-11-16 22:02:44,505] [builder.py:2174]           [INFO]     |  6/11 | Dwayne Johnson Collection | + | Jumanji: The Next Level (2019)                             |
+[2022-11-16 22:02:48,069] [builder.py:2174]           [INFO]     |  7/11 | Dwayne Johnson Collection | + | Jumanji: Welcome to the Jungle (2017)                      |
+[2022-11-16 22:02:51,261] [builder.py:2174]           [INFO]     |  8/11 | Dwayne Johnson Collection | + | Jungle Cruise (2021)                                       |
+[2022-11-16 22:02:54,713] [builder.py:2174]           [INFO]     |  9/11 | Dwayne Johnson Collection | + | The Mummy Returns (2001)                                   |
+[2022-11-16 22:02:54,847] [builder.py:2174]           [INFO]     | 10/11 | Dwayne Johnson Collection | + | Red Notice (2021)                                          |
+[2022-11-16 22:02:59,063] [builder.py:2174]           [INFO]     | 11/11 | Dwayne Johnson Collection | + | San Andreas (2015)                                         |
+[2022-11-16 22:03:07,818] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:07,818] [builder.py:2196]           [INFO]     | 11 Movies Processed 11 Movies Added                                                                |
+[2022-11-16 22:03:07,827] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:07,828] [builder.py:2528]           [INFO]     |========================== Updating Details of Dwayne Johnson Collection ===========================|
+[2022-11-16 22:03:07,829] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:07,851] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | An American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE.  Johnson is half-Black and half-Samoan. His father, Rocky Johnson, is a Black Canadian, from Nova Scotia, and part of the first Black tag team champions in WWE history back when it was known as the WWF along with Tony Atlas. His mother is Samoan and the daughter of Peter Maivia, who was also a pro wrestler. Maivia's wife, Lia Maivia, was one of wrestling's few female promoters, taking over Polynesian Pacific Pro Wrestling after her husband's death in 1982, until 1988. Through his mother, he is considered a non-blood relative of the Anoa'i wrestling family. On March 29, 2008, The Rock inducted his father and his grandfather into the WWE Hall of Fame.
+                                                                 | 
+                                                                 | As of 2014, Johnson has a home in Southwest Ranches, Florida as well as Los Angeles, California. He also owns a farm in Virginia. In 2009, Johnson gained citizenship in Canada in honor of his father's background. Though Johnson was previously registered as a Republican, he voted for Barack Obama in the 2008 and 2012 United States presidential elections and is now an independent voter. He stated he did not vote in the 2016 U.S. election.
+                                                                 | 
+                                                                 | In recognition of his service to the Samoan people, and because he is a descendant of Samoan chiefs, Johnson had the noble title of Seiuli bestowed upon him by Malietoa Tanumafili II during his visit there in July 2004. He received a partial Samoan pe'a tattoo on his left side in 2003,and, in 2017, had the small "Brahma bull" tattoo on his right arm covered with a larger half-sleeve tattoo of a bull's skull.
+                                                                 | 
+                                                                 | Johnson married Dany Garcia on May 3, 1997. Their only child together, a daughter named Simone, was born in August 2001. On June 1, 2007, they announced they were splitting up amicably. Johnson then began dating Lauren Hashian, daughter of Boston drummer Sib Hashian. They first met in 2006 while Johnson was filming The Game Plan. Their first child together, a daughter, was born in December 2015. Their second child, another daughter, was born in April 2018.
+                                                                 | 
+                                                                 | Johnson attended the 2000 Democratic National Convention as part of WWE's non-partisan "Smackdown Your Vote" campaign, which aimed to influence young people to vote. He also had a speaking role at the 2000 Republican National Convention that same year.
+                                                                 | 
+                                                                 | In 2006, Johnson founded the Dwayne Johnson Rock Foundation, a charity working with at-risk and terminally ill children. On October 2, 2007, he and his ex-wife donated $1 million to the University of Miami to support the renovation of its football facilities; it was noted as the largest donation ever given to the university's athletics department by former students. The University of Miami renamed the Hurricanes' locker room in Johnson's honor. In 2015, Johnson donated $1,500 to a GoFundMe to pay for an abandoned dog's surgery. In 2017, he donated $25,000 to Hurricane Harvey relief efforts. In 2018, Johnson donated a gym to a military base in Oahu, Hawaii. After the 2018 Hawaii floods, he worked with Malama Kauai, a nonprofit organization, to help repair damages caused by the floods.
+                                                                 | Sort Title | ++_Dwayne Johnson
+                                                                 | Label | +PMM
+[2022-11-16 22:03:11,363] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:03:11,364] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:03:11,364] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:03:11,365] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/cgoy7t5Ve075naBPcewZrc08qGw.jpg
+[2022-11-16 22:03:11,501] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/cgoy7t5Ve075naBPcewZrc08qGw.jpg
+[2022-11-16 22:03:11,616] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:03:11,616] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:03:11,617] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Dwayne Johnson Collection                                 |
+[2022-11-16 22:03:11,617] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:38                                    |
+[2022-11-16 22:03:11,617] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

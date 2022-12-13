@@ -1,0 +1,154 @@
+[2022-11-17 02:32:14,649] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:32:14,649] [builder.py:193]            [INFO]     |                                 Emmys 2014 Collection in TV Shows                                  |
+[2022-11-17 02:32:14,649] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:32:14,649] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:32:14,649] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:32:14,649] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,650] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:32:14,650] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,651] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:32:14,652] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,654] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:32:14,655] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,684] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:32:14,685] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,702] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:32:14,704] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,707] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,707] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:32:14,707] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,708] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2014', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2014.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:32:14,708] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,708] [builder.py:223]            [INFO]     |================================= Validating Emmys 2014 Attributes =================================|
+[2022-11-17 02:32:14,708] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,708] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:32:14,708] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:32:14,709] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,709] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:32:14,709] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:32:14,709] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,709] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:32:14,709] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:32:14,710] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,710] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:32:14,710] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:32:14,710] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:14,710] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:32:14,710] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:32:15,166] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,171] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:32:15,171] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:32:15,172] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,172] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:32:15,172] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2014                                                                              |
+[2022-11-17 02:32:15,172] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,173] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:32:15,173] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2014.jpg |
+[2022-11-17 02:32:15,325] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,326] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:32:15,327] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:32:15,331] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,332] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2014                                                                            |
+[2022-11-17 02:32:15,333] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:32:15,333] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:32:15,334] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:32:15,334] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2014 Collection ===================================|
+[2022-11-17 02:32:15,335] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:32:15,336] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:32:15,336] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:15,337] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:32:15,337] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:32:15,339] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:32:17,969] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:17,971] [builder.py:1575]           [DEBUG]    | 39 IDs Found                                                                                       |
+[2022-11-17 02:32:17,971] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:18,038] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2796782                                             |
+[2022-11-17 02:32:18,059] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3446082                                             |
+[2022-11-17 02:32:18,179] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 75855                                                 |
+[2022-11-17 02:32:18,198] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3488436                                             |
+[2022-11-17 02:32:18,211] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4114290                                             |
+[2022-11-17 02:32:18,211] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:18,211] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:32:18,211] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:18,232] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | The Normal Heart (2014) (TMDb: 113833)                                 |
+[2022-11-17 02:32:18,242] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | Citizenfour (2014) (TMDb: 293310)                                      |
+[2022-11-17 02:32:18,258] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | Virunga (2014) (TMDb: 263614)                                          |
+[2022-11-17 02:32:18,272] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | Robot Chicken DC Comics Special II: Villains in Paradise (2014) (TMDb: 263484) |
+[2022-11-17 02:32:18,515] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | The Powerpuff Girls: Dance Pantsed (2014) (TMDb: 287018)               |
+[2022-11-17 02:32:18,631] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | The Night That Changed America: A Grammy Salute to the Beatles (2014) (TMDb: 255190) |
+[2022-11-17 02:32:18,642] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | One Last Hug (2014) (TMDb: 265497)                                     |
+[2022-11-17 02:32:18,653] [builder.py:2321]           [INFO]     | Emmys 2014 Collection | ? | Live from Space (2014) (TMDb: 476841)                                  |
+[2022-11-17 02:32:18,653] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:18,654] [builder.py:2327]           [INFO]     | 8 Movies Missing                                                                                   |
+[2022-11-17 02:32:19,588] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:19,589] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2014 ==============================|
+[2022-11-17 02:32:19,589] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:19,636] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | True Detective (TVDb: 270633)                                          |
+[2022-11-17 02:32:19,681] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Fargo (TVDb: 269613)                                                   |
+[2022-11-17 02:32:19,733] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Gotham (TVDb: 274431)                                                  |
+[2022-11-17 02:32:19,761] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | How to Get Away with Murder (TVDb: 281620)                             |
+[2022-11-17 02:32:19,815] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Silicon Valley (TVDb: 277165)                                          |
+[2022-11-17 02:32:19,857] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Black Sails (TVDb: 262407)                                             |
+[2022-11-17 02:32:19,907] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Over the Garden Wall (TVDb: 281643)                                    |
+[2022-11-17 02:32:19,956] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | black-ish (TVDb: 281511)                                               |
+[2022-11-17 02:32:20,004] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Last Week Tonight with John Oliver (TVDb: 278518)                      |
+[2022-11-17 02:32:20,054] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Cosmos (2014) (TVDb: 260586)                                           |
+[2022-11-17 02:32:20,109] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Broad City (TVDb: 275557)                                              |
+[2022-11-17 02:32:20,139] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | The Knick (TVDb: 279977)                                               |
+[2022-11-17 02:32:20,182] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Nicky, Ricky, Dicky & Dawn (TVDb: 280882)                              |
+[2022-11-17 02:32:20,218] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Olive Kitteridge (TVDb: 276842)                                        |
+[2022-11-17 02:32:20,249] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Mozart in the Jungle (TVDb: 278335)                                    |
+[2022-11-17 02:32:20,286] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Transparent (TVDb: 278334)                                             |
+[2022-11-17 02:32:20,309] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Manhattan (TVDb: 278468)                                               |
+[2022-11-17 02:32:20,340] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | The Tonight Show Starring Jimmy Fallon (TVDb: 270261)                  |
+[2022-11-17 02:32:20,366] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | The Roosevelts: An Intimate History (TVDb: 282249)                     |
+[2022-11-17 02:32:20,392] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Years of Living Dangerously (TVDb: 274880)                             |
+[2022-11-17 02:32:20,427] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Foo Fighters: Sonic Highways (TVDb: 285877)                            |
+[2022-11-17 02:32:20,537] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | HitRECord on TV with Joseph Gordon-Levitt (TVDb: 276093)               |
+[2022-11-17 02:32:20,643] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Park Bench (TVDb: 283671)                                              |
+[2022-11-17 02:32:20,672] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | Long Live the Royals (TVDb: 303341)                                    |
+[2022-11-17 02:32:20,798] [builder.py:2366]           [INFO]     | Emmys 2014 Collection | ? | How We Got to Now (TVDb: 282551)                                       |
+[2022-11-17 02:32:20,798] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:20,798] [builder.py:2372]           [INFO]     | 25 Shows Missing                                                                                   |
+[2022-11-17 02:32:21,793] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:32:21,793] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:32:21,794] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:32:21,794] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [270633, 269613, 274431, 281620, 277165, 262407, 281643, 281511, 278518, 260586, 275557, 279977, 280882, 276842, 278335, 278334, 278468, 270261, 282249, 274880, 285877, 276093, 283671, 303341, 282551] |
+[2022-11-17 02:33:26,858] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:33:26,859] [sonarr.py:164]             [INFO]     | Added to Sonarr | 283671  | Park Bench                                                             |
+[2022-11-17 02:33:26,872] [sonarr.py:164]             [INFO]     | Added to Sonarr | 303341  | Long Live the Royals                                                   |
+[2022-11-17 02:33:26,890] [sonarr.py:164]             [INFO]     | Added to Sonarr | 282551  | How We Got to Now                                                      |
+[2022-11-17 02:33:26,902] [sonarr.py:167]             [INFO]     | 3 Series added to Sonarr                                                                           |
+[2022-11-17 02:33:26,902] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:33:26,903] [sonarr.py:177]             [INFO]     | Already in Sonarr | 274431  | Gotham                                                               |
+[2022-11-17 02:33:26,915] [sonarr.py:177]             [INFO]     | Already in Sonarr | 281620  | How to Get Away with Murder                                          |
+[2022-11-17 02:33:26,925] [sonarr.py:177]             [INFO]     | Already in Sonarr | 281511  | black-ish                                                            |
+[2022-11-17 02:33:26,937] [sonarr.py:177]             [INFO]     | Already in Sonarr | 275557  | Broad City                                                           |
+[2022-11-17 02:33:26,955] [sonarr.py:177]             [INFO]     | Already in Sonarr | 280882  | Nicky, Ricky, Dicky & Dawn                                           |
+[2022-11-17 02:33:26,965] [sonarr.py:177]             [INFO]     | Already in Sonarr | 276842  | Olive Kitteridge                                                     |
+[2022-11-17 02:33:26,977] [sonarr.py:177]             [INFO]     | Already in Sonarr | 278335  | Mozart in the Jungle                                                 |
+[2022-11-17 02:33:26,992] [sonarr.py:177]             [INFO]     | Already in Sonarr | 278334  | Transparent                                                          |
+[2022-11-17 02:33:27,002] [sonarr.py:177]             [INFO]     | Already in Sonarr | 278468  | Manhattan                                                            |
+[2022-11-17 02:33:27,016] [sonarr.py:177]             [INFO]     | Already in Sonarr | 270261  | The Tonight Show Starring Jimmy Fallon                               |
+[2022-11-17 02:33:27,026] [sonarr.py:177]             [INFO]     | Already in Sonarr | 282249  | The Roosevelts: An Intimate History                                  |
+[2022-11-17 02:33:27,038] [sonarr.py:177]             [INFO]     | Already in Sonarr | 285877  | Foo Fighters: Sonic Highways                                         |
+[2022-11-17 02:33:27,055] [sonarr.py:177]             [INFO]     | Already in Sonarr | 276093  | HitRECord on TV with Joseph Gordon-Levitt                            |
+[2022-11-17 02:33:27,079] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270633                                                                         |
+[2022-11-17 02:33:27,080] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269613                                                                         |
+[2022-11-17 02:33:27,080] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262407                                                                         |
+[2022-11-17 02:33:27,080] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281643                                                                         |
+[2022-11-17 02:33:27,080] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278518                                                                         |
+[2022-11-17 02:33:27,080] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260586                                                                         |
+[2022-11-17 02:33:27,081] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 279977                                                                         |
+[2022-11-17 02:33:27,081] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 274880                                                                         |
+[2022-11-17 02:33:27,081] [sonarr.py:187]             [INFO]     | 21 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:33:27,081] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:33:27,081] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Silicon Valley]                                                                 |
+[2022-11-17 02:33:27,082] [sonarr.py:207]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2022-11-17 02:33:27,094] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:33:27,094] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 2014 Collection                                            |
+[2022-11-17 02:33:27,094] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:33:27,095] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:33:27,095] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2014 Collection                                   |
+[2022-11-17 02:33:27,095] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:12                                    |
+[2022-11-17 02:33:27,095] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,64 @@
+[2022-11-16 20:09:22,025] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:09:22,025] [builder.py:193]            [INFO]     |                            Mission Impossible Collection in Kids Movies                            |
+[2022-11-16 20:09:22,026] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:09:22,027] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,027] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:09:22,028] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,029] [meta.py:210]               [DEBUG]    |========================================== Template Movie ==========================================|
+[2022-11-16 20:09:22,030] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,035] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,035] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:09:22,035] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,036] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 87359, 'tmdb_summary': 87359, 'url_poster': 'https://theposterdb.com/api/assets/65202', 'sort_title': '++++_Mission Impossible', 'collection_order': 'release'} |
+[2022-11-16 20:09:22,036] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,036] [builder.py:223]            [INFO]     |============================= Validating Mission Impossible Attributes =============================|
+[2022-11-16 20:09:22,036] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,037] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:09:22,037] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:09:22,037] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,037] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-16 20:09:22,037] [builder.py:651]            [DEBUG]    | Value: 87359                                                                                       |
+[2022-11-16 20:09:22,058] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,058] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-16 20:09:22,059] [builder.py:651]            [DEBUG]    | Value: 87359                                                                                       |
+[2022-11-16 20:09:22,071] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,072] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:09:22,072] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/65202                                                    |
+[2022-11-16 20:09:22,689] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,689] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:09:22,689] [builder.py:651]            [DEBUG]    | Value: ++++_Mission Impossible                                                                     |
+[2022-11-16 20:09:22,696] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,697] [plex.py:838]               [DEBUG]    | Looking for: Mission Impossible                                                                    |
+[2022-11-16 20:09:22,697] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,697] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:09:22,697] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,697] [plex_meta_manager.py:596]  [INFO]     |============================== Running Mission Impossible Collection ===============================|
+[2022-11-16 20:09:22,697] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,697] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:09:22,698] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,698] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 87359                                                                    |
+[2022-11-16 20:09:22,698] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,711] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (87359) Mission: Impossible Collection (8 Items)                       |
+[2022-11-16 20:09:22,711] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,711] [builder.py:1575]           [DEBUG]    | 8 IDs Found                                                                                        |
+[2022-11-16 20:09:22,712] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:09:22,712] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,712] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:09:22,712] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,825] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible (1996) (TMDb: 954)                         |
+[2022-11-16 20:09:22,837] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible II (2000) (TMDb: 955)                      |
+[2022-11-16 20:09:22,851] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible III (2006) (TMDb: 956)                     |
+[2022-11-16 20:09:22,866] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible - Ghost Protocol (2011) (TMDb: 56292)      |
+[2022-11-16 20:09:22,878] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible - Rogue Nation (2015) (TMDb: 177677)       |
+[2022-11-16 20:09:22,896] [builder.py:2321]           [INFO]     | Mission Impossible Collection | ? | Mission: Impossible - Fallout (2018) (TMDb: 353081)            |
+[2022-11-16 20:09:22,915] [builder.py:2325]           [INFO]     | Mission Impossible Collection | X | Mission: Impossible - Dead Reckoning Part One (2023) (TMDb: 575264) |
+[2022-11-16 20:09:22,930] [builder.py:2325]           [INFO]     | Mission Impossible Collection | X | Mission: Impossible - Dead Reckoning Part Two (2024) (TMDb: 575265) |
+[2022-11-16 20:09:22,931] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:09:22,931] [builder.py:2327]           [INFO]     | 6 Movies Missing                                                                                   |
+[2022-11-16 20:09:30,457] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:09:30,458] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Mission Impossible Collection                                    |
+[2022-11-16 20:09:30,458] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:09:30,458] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:09:30,458] [plex_meta_manager.py:737]  [INFO]     |                               Finished Mission Impossible Collection                               |
+[2022-11-16 20:09:30,459] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 20:09:30,459] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

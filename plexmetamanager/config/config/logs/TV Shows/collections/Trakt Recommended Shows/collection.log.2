@@ -1,0 +1,96 @@
+[2022-11-25 11:39:14,557] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 11:39:14,557] [builder.py:193]            [INFO]     |                           Trakt Recommended Shows Collection in TV Shows                           |
+[2022-11-25 11:39:14,557] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 11:39:14,558] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,558] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 11:39:14,558] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,558] [meta.py:210]               [DEBUG]    |======================================= Template sonarr_add ========================================|
+[2022-11-25 11:39:14,558] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 11:39:14,559] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [meta.py:515]               [DEBUG]    | {'sync_mode': 'sync', 'sonarr_add': True, 'sonarr_search': True, 'build_collection': False}        |
+[2022-11-25 11:39:14,559] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [builder.py:223]            [INFO]     |========================== Validating Trakt Recommended Shows Attributes ===========================|
+[2022-11-25 11:39:14,559] [builder.py:495]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [builder.py:496]            [DEBUG]    | Validating Method: build_collection                                                                |
+[2022-11-25 11:39:14,559] [builder.py:497]            [DEBUG]    | Value: False                                                                                       |
+[2022-11-25 11:39:14,559] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,559] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 11:39:14,560] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 11:39:14,560] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,560] [builder.py:650]            [DEBUG]    | Validating Method: trakt_recommended_weekly                                                        |
+[2022-11-25 11:39:14,560] [builder.py:651]            [DEBUG]    | Value: 30                                                                                          |
+[2022-11-25 11:39:14,560] [builder.py:1464]           [WARNING]  | Collection Warning: trakt_recommended_weekly will run as trakt_chart                               |
+[2022-11-25 11:39:14,560] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,560] [plex.py:1372]              [WARNING]  | Collection Warning: sonarr_add attribute will run as sonarr_add_missing                            |
+[2022-11-25 11:39:14,560] [builder.py:650]            [DEBUG]    | Validating Method: sonarr_add                                                                      |
+[2022-11-25 11:39:14,560] [builder.py:651]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 11:39:14,560] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,560] [builder.py:650]            [DEBUG]    | Validating Method: sonarr_search                                                                   |
+[2022-11-25 11:39:14,560] [builder.py:651]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 11:39:14,560] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,560] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:596]  [INFO]     |============================ Running Trakt Recommended Shows Collection ============================|
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'recommended', 'limit': 30, 'time_period': 'weekly'}               |
+[2022-11-25 11:39:14,561] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,561] [trakt.py:501]              [INFO]     | Processing Trakt Chart: 30 Weekly Recommended Shows                                                |
+[2022-11-25 11:39:14,588] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,588] [builder.py:1575]           [DEBUG]    | 30 IDs Found                                                                                       |
+[2022-11-25 11:39:14,588] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:14,588] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,588] [builder.py:2353]           [INFO]     |======================= Missing Shows from Library: Trakt Recommended Shows ========================|
+[2022-11-25 11:39:14,589] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 11:39:14,612] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Warrior Nun (TVDb: 382544)                                |
+[2022-11-25 11:39:14,649] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Breaking Bad (TVDb: 81189)                                |
+[2022-11-25 11:39:14,788] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Wednesday (TVDb: 397060)                                  |
+[2022-11-25 11:39:14,847] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The Walking Dead (TVDb: 153021)                           |
+[2022-11-25 11:39:14,885] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Better Call Saul (TVDb: 273181)                           |
+[2022-11-25 11:39:14,905] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Arcane (TVDb: 371028)                                     |
+[2022-11-25 11:39:14,926] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Inside Job (2021) (TVDb: 365098)                          |
+[2022-11-25 11:39:14,964] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The Boys (TVDb: 355567)                                   |
+[2022-11-25 11:39:14,987] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Dead to Me (TVDb: 361857)                                 |
+[2022-11-25 11:39:15,107] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Attack on Titan (TVDb: 267440)                            |
+[2022-11-25 11:39:15,156] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Friends (TVDb: 79168)                                     |
+[2022-11-25 11:39:15,194] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The Devil's Hour (TVDb: 397807)                           |
+[2022-11-25 11:39:15,255] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The Handmaid's Tale (TVDb: 321239)                        |
+[2022-11-25 11:39:15,279] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The English (TVDb: 402602)                                |
+[2022-11-25 11:39:15,319] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | The Wire (TVDb: 79126)                                    |
+[2022-11-25 11:39:15,400] [builder.py:2366]           [INFO]     | Trakt Recommended Shows Collection | ? | Rick and Morty (TVDb: 275274)                             |
+[2022-11-25 11:39:15,400] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 11:39:15,401] [builder.py:2372]           [INFO]     | 16 Shows Missing                                                                                   |
+[2022-11-25 11:39:15,963] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 11:39:15,964] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 11:39:15,964] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 11:39:15,964] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [382544, 81189, 397060, 153021, 273181, 371028, 365098, 355567, 361857, 267440, 79168, 397807, 321239, 402602, 79126, 275274] |
+[2022-11-25 11:39:31,031] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 11:39:31,031] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382544                                                                         |
+[2022-11-25 11:39:31,031] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81189                                                                          |
+[2022-11-25 11:39:31,031] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397060                                                                         |
+[2022-11-25 11:39:31,031] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273181                                                                         |
+[2022-11-25 11:39:31,031] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371028                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365098                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361857                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 267440                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79168                                                                          |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397807                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 321239                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402602                                                                         |
+[2022-11-25 11:39:31,032] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79126                                                                          |
+[2022-11-25 11:39:31,032] [sonarr.py:187]             [INFO]     | 13 Series already exist in Sonarr                                                                  |
+[2022-11-25 11:39:31,032] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 11:39:31,032] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Walking Dead]                                                               |
+[2022-11-25 11:39:31,032] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 11:39:31,032] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Boys]                                                                       |
+[2022-11-25 11:39:31,032] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 11:39:31,032] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Rick and Morty]                                                                 |
+[2022-11-25 11:39:31,032] [sonarr.py:207]             [INFO]     | 3 Series with Invalid IDs                                                                          |
+[2022-11-25 11:39:31,060] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 11:39:31,061] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 11:39:31,061] [plex_meta_manager.py:737]  [INFO]     |                            Finished Trakt Recommended Shows Collection                             |
+[2022-11-25 11:39:31,061] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:16                                    |
+[2022-11-25 11:39:31,061] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

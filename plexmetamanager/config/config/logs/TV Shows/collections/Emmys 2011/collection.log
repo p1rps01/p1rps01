@@ -1,0 +1,163 @@
+[2022-11-17 02:30:41,544] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:30:41,544] [builder.py:193]            [INFO]     |                                 Emmys 2011 Collection in TV Shows                                  |
+[2022-11-17 02:30:41,544] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:30:41,545] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,545] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:30:41,545] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,545] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:30:41,546] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,547] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:30:41,547] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,549] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:30:41,550] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,571] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:30:41,573] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,585] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:30:41,586] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,592] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,592] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:30:41,592] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,592] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2011-01-01,2011-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2011', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2011.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:30:41,592] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,592] [builder.py:223]            [INFO]     |================================= Validating Emmys 2011 Attributes =================================|
+[2022-11-17 02:30:41,592] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,593] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:30:41,593] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:30:41,593] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,593] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:30:41,593] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:30:41,593] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,593] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:30:41,593] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:30:41,593] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,594] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:30:41,594] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:30:41,594] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:41,594] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:30:41,594] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2011-01-01,2011-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:30:42,164] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,168] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:30:42,168] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:30:42,169] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,169] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:30:42,169] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2011                                                                              |
+[2022-11-17 02:30:42,170] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,170] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:30:42,170] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2011.jpg |
+[2022-11-17 02:30:42,299] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,299] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:30:42,299] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:30:42,305] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,306] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2011                                                                            |
+[2022-11-17 02:30:42,306] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:30:42,307] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:30:42,307] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:30:42,308] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2011 Collection ===================================|
+[2022-11-17 02:30:42,308] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:30:42,309] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:30:42,310] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:42,310] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2011-01-01,2011-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:30:42,313] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:30:42,314] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2011-01-01,2011-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:30:44,803] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:44,804] [builder.py:1575]           [DEBUG]    | 33 IDs Found                                                                                       |
+[2022-11-17 02:30:44,804] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:45,056] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2187127                                             |
+[2022-11-17 02:30:45,140] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2078628                                             |
+[2022-11-17 02:30:45,194] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2317154                                             |
+[2022-11-17 02:30:45,207] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56261                                                 |
+[2022-11-17 02:30:45,207] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:45,207] [builder.py:2159]           [INFO]     |================================= Adding to Emmys 2011 Collection ==================================|
+[2022-11-17 02:30:45,208] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:45,208] [builder.py:2174]           [INFO]     | 1/2 | Emmys 2011 Collection | + | Game of Thrones                                                  |
+[2022-11-17 02:30:48,019] [builder.py:2174]           [INFO]     | 2/2 | Emmys 2011 Collection | + | 2 Broke Girls                                                    |
+[2022-11-17 02:30:49,264] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:49,264] [builder.py:2196]           [INFO]     | 2 Shows Processed 2 Shows Added                                                                    |
+[2022-11-17 02:30:49,264] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:49,264] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:30:49,264] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:49,314] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Page Eight (2011) (TMDb: 73358)                                        |
+[2022-11-17 02:30:49,336] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | George Harrison: Living in the Material World (2011) (TMDb: 75964)     |
+[2022-11-17 02:30:49,354] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Prep & Landing: Naughty vs. Nice (2011) (TMDb: 88096)                  |
+[2022-11-17 02:30:49,514] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Cinema Verite (2011) (TMDb: 64566)                                     |
+[2022-11-17 02:30:49,529] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Gettysburg (2011) (TMDb: 123928)                                       |
+[2022-11-17 02:30:49,548] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Louis C.K.: Live at the Beacon Theater (2011) (TMDb: 80379)            |
+[2022-11-17 02:30:49,720] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | Lady Gaga Presents: The Monster Ball Tour at Madison Square Garden (2011) (TMDb: 63513) |
+[2022-11-17 02:30:49,962] [builder.py:2321]           [INFO]     | Emmys 2011 Collection | ? | A Child's Garden of Poetry (2011) (TMDb: 268248)                       |
+[2022-11-17 02:30:49,963] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:49,963] [builder.py:2327]           [INFO]     | 8 Movies Missing                                                                                   |
+[2022-11-17 02:30:50,919] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:50,920] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2011 ==============================|
+[2022-11-17 02:30:50,921] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:50,983] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | American Horror Story (TVDb: 250487)                                   |
+[2022-11-17 02:30:51,068] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Black Mirror (TVDb: 253463)                                            |
+[2022-11-17 02:30:51,136] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Shameless (US) (TVDb: 161511)                                          |
+[2022-11-17 02:30:51,183] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Bob's Burgers (TVDb: 194031)                                           |
+[2022-11-17 02:30:51,224] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Homeland (TVDb: 247897)                                                |
+[2022-11-17 02:30:51,278] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | The Borgias (TVDb: 187881)                                             |
+[2022-11-17 02:30:51,306] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Harry's Law (TVDb: 163581)                                             |
+[2022-11-17 02:30:51,346] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | The Voice (TVDb: 247824)                                               |
+[2022-11-17 02:30:51,370] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Mildred Pierce (TVDb: 211681)                                          |
+[2022-11-17 02:30:51,422] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Portlandia (TVDb: 213221)                                              |
+[2022-11-17 02:30:51,469] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | The Hour (TVDb: 248503)                                                |
+[2022-11-17 02:30:51,498] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Great Expectations (2011) (TVDb: 254143)                               |
+[2022-11-17 02:30:51,541] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Frozen Planet (TVDb: 251418)                                           |
+[2022-11-17 02:30:51,682] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Supah Ninjas (TVDb: 220991)                                            |
+[2022-11-17 02:30:51,721] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | The Kennedys (TVDb: 232911)                                            |
+[2022-11-17 02:30:51,830] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | The X Factor (US) (TVDb: 230121)                                       |
+[2022-11-17 02:30:51,862] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Prohibition (TVDb: 251965)                                             |
+[2022-11-17 02:30:52,426] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Tony Awards (TVDb: 249480)                                             |
+[2022-11-17 02:30:52,611] [builder.py:2366]           [INFO]     | Emmys 2011 Collection | ? | Grammy Awards (TVDb: 85401)                                            |
+[2022-11-17 02:30:52,612] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:52,612] [builder.py:2372]           [INFO]     | 19 Shows Missing                                                                                   |
+[2022-11-17 02:30:53,575] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:30:53,576] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:30:53,576] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:53,576] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [250487, 253463, 161511, 194031, 247897, 187881, 163581, 247824, 211681, 213221, 248503, 254143, 251418, 220991, 232911, 230121, 251965, 249480, 85401] |
+[2022-11-17 02:31:59,816] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:31:59,817] [sonarr.py:177]             [INFO]     | Already in Sonarr | 163581  | Harry's Law                                                          |
+[2022-11-17 02:31:59,874] [sonarr.py:177]             [INFO]     | Already in Sonarr | 247824  | The Voice                                                            |
+[2022-11-17 02:31:59,893] [sonarr.py:177]             [INFO]     | Already in Sonarr | 213221  | Portlandia                                                           |
+[2022-11-17 02:31:59,902] [sonarr.py:177]             [INFO]     | Already in Sonarr | 248503  | The Hour                                                             |
+[2022-11-17 02:31:59,911] [sonarr.py:177]             [INFO]     | Already in Sonarr | 254143  | Great Expectations (2011)                                            |
+[2022-11-17 02:31:59,924] [sonarr.py:177]             [INFO]     | Already in Sonarr | 220991  | Supah Ninjas                                                         |
+[2022-11-17 02:31:59,937] [sonarr.py:177]             [INFO]     | Already in Sonarr | 232911  | The Kennedys                                                         |
+[2022-11-17 02:31:59,952] [sonarr.py:177]             [INFO]     | Already in Sonarr | 230121  | The X Factor (US)                                                    |
+[2022-11-17 02:31:59,968] [sonarr.py:177]             [INFO]     | Already in Sonarr | 251965  | Prohibition                                                          |
+[2022-11-17 02:31:59,978] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 253463                                                                         |
+[2022-11-17 02:31:59,978] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 161511                                                                         |
+[2022-11-17 02:31:59,979] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 194031                                                                         |
+[2022-11-17 02:31:59,979] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 187881                                                                         |
+[2022-11-17 02:31:59,979] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 211681                                                                         |
+[2022-11-17 02:31:59,979] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 251418                                                                         |
+[2022-11-17 02:31:59,980] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249480                                                                         |
+[2022-11-17 02:31:59,980] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85401                                                                          |
+[2022-11-17 02:31:59,980] [sonarr.py:187]             [INFO]     | 17 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:31:59,980] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:31:59,980] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [American Horror Story]                                                          |
+[2022-11-17 02:31:59,980] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:31:59,981] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Homeland]                                                                       |
+[2022-11-17 02:31:59,981] [sonarr.py:207]             [INFO]     | 2 Series with Invalid IDs                                                                          |
+[2022-11-17 02:32:00,012] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:00,012] [builder.py:2528]           [INFO]     |============================ Updating Details of Emmys 2011 Collection =============================|
+[2022-11-17 02:32:00,013] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:00,021] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !16_Emmys 2011
+                                                                 | Label | +Emmy Awards, +PMM
+[2022-11-17 02:32:02,546] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 02:32:02,546] [builder.py:2603]           [INFO]     | 
+[2022-11-17 02:32:04,781] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-17 02:32:07,019] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-17 02:32:07,020] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-17 02:32:07,020] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2011.jpg
+[2022-11-17 02:32:07,170] [library.py:178]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2011.jpg
+[2022-11-17 02:32:07,226] [builder.py:2686]           [INFO]     | 
+[2022-11-17 02:32:07,226] [builder.py:2687]           [INFO]     |================================== Sorting Emmys 2011 Collection ===================================|
+[2022-11-17 02:32:07,227] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-17 02:32:07,228] [builder.py:2704]           [INFO]     | Moving Game of Thrones to the beginning                                                            |
+[2022-11-17 02:32:07,259] [builder.py:2704]           [INFO]     | Moving 2 Broke Girls after Game of Thrones                                                         |
+[2022-11-17 02:32:07,298] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:32:07,298] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:32:07,298] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2011 Collection                                   |
+[2022-11-17 02:32:07,299] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:25                                    |
+[2022-11-17 02:32:07,299] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

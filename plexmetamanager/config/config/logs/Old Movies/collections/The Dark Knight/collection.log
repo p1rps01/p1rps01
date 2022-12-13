@@ -1,0 +1,66 @@
+[2022-11-16 21:53:43,010] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:53:43,010] [builder.py:193]            [INFO]     |                              The Dark Knight Collection in Old Movies                              |
+[2022-11-16 21:53:43,010] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:53:43,010] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,010] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:53:43,010] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,011] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-16 21:53:43,011] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,014] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,014] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 21:53:43,015] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,015] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 263, 'tmdb_summary': 263, 'url_poster': 'https://theposterdb.com/api/assets/8485', 'sort_title': '+4_The Dark Knight', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-16 21:53:43,015] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,015] [builder.py:223]            [INFO]     |============================== Validating The Dark Knight Attributes ===============================|
+[2022-11-16 21:53:43,015] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,015] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 21:53:43,015] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 21:53:43,015] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,016] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 21:53:43,016] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 21:53:43,016] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,016] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-16 21:53:43,016] [builder.py:651]            [DEBUG]    | Value: 263                                                                                         |
+[2022-11-16 21:53:43,030] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,030] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-16 21:53:43,030] [builder.py:651]            [DEBUG]    | Value: 263                                                                                         |
+[2022-11-16 21:53:43,041] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,042] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 21:53:43,042] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/8485                                                     |
+[2022-11-16 21:53:43,631] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,631] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 21:53:43,631] [builder.py:651]            [DEBUG]    | Value: +4_The Dark Knight                                                                          |
+[2022-11-16 21:53:43,666] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,667] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:596]  [INFO]     |================================ Running The Dark Knight Collection ================================|
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 263                                                                      |
+[2022-11-16 21:53:43,667] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,731] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (263) The Dark Knight Collection (3 Items)                             |
+[2022-11-16 21:53:43,731] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,731] [builder.py:1575]           [DEBUG]    | 3 IDs Found                                                                                        |
+[2022-11-16 21:53:43,732] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 21:53:43,732] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,732] [builder.py:2159]           [INFO]     |=============================== Adding to The Dark Knight Collection ===============================|
+[2022-11-16 21:53:43,732] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,732] [builder.py:2174]           [INFO]     | 1/3 | The Dark Knight Collection | = | The Dark Knight (2008)                                      |
+[2022-11-16 21:53:43,732] [builder.py:2174]           [INFO]     | 2/3 | The Dark Knight Collection | = | The Dark Knight Rises (2012)                                |
+[2022-11-16 21:53:43,732] [builder.py:2174]           [INFO]     | 3/3 | The Dark Knight Collection | = | Batman Begins (2005)                                        |
+[2022-11-16 21:53:43,733] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,733] [builder.py:2196]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 21:53:43,740] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,740] [builder.py:2528]           [INFO]     |========================== Updating Details of The Dark Knight Collection ==========================|
+[2022-11-16 21:53:43,740] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,747] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 21:53:43,750] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 21:53:43,750] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/8485                                 |
+[2022-11-16 21:53:43,750] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Old_Movies/Assets/The Dark Knight/poster.jpg', 'prefix': "The Dark Knight's ", 'is_poster': True, 'is_url': False, 'compare': 1290274, 'message': "The Dark Knight's poster to [File] /config/Old_Movies/Assets/The Dark Knight/poster.jpg"} |
+[2022-11-16 21:53:43,751] [library.py:180]            [INFO]     | Detail: The Dark Knight's poster update not needed                                                 |
+[2022-11-16 21:53:43,789] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 21:53:43,790] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:53:43,790] [plex_meta_manager.py:737]  [INFO]     |                                Finished The Dark Knight Collection                                 |
+[2022-11-16 21:53:43,790] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 21:53:43,790] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

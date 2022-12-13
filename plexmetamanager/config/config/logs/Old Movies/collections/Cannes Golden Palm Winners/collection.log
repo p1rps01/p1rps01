@@ -1,0 +1,175 @@
+[2022-11-16 22:17:15,240] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:17:15,240] [builder.py:193]            [INFO]     |                        Cannes Golden Palm Winners Collection in Old Movies                         |
+[2022-11-16 22:17:15,240] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:17:15,240] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,240] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:17:15,240] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,240] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 22:17:15,241] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,241] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:17:15,242] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,253] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:17:15,254] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,260] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:17:15,260] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,264] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:17:15,264] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,267] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,267] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:17:15,267] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,267] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Cannes !', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/winner.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'Cannes Golden Palm Winners.', 'name': 'Cannes Golden Palm Winners'} |
+[2022-11-16 22:17:15,267] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,268] [builder.py:223]            [INFO]     |========================= Validating Cannes Golden Palm Winners Attributes =========================|
+[2022-11-16 22:17:15,268] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,268] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:17:15,268] [builder.py:230]            [DEBUG]    | Value: Cannes Golden Palm Winners                                                                  |
+[2022-11-16 22:17:15,268] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,268] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:17:15,268] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:17:15,268] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,268] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:17:15,268] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:17:15,268] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,268] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:17:15,268] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:17:15,269] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,269] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:17:15,269] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:17:15,269] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,269] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:17:15,269] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/maxwelldeux/lists/cannes-film-festival-palme-d-or                    |
+[2022-11-16 22:17:15,348] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,349] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:17:15,349] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:17:15,349] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,349] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:17:15,350] [builder.py:651]            [DEBUG]    | Value: !16_Cannes !                                                                                |
+[2022-11-16 22:17:15,350] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,350] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:17:15,350] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/winner.jpg |
+[2022-11-16 22:17:15,503] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,503] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:17:15,504] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:17:15,504] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,504] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:17:15,504] [builder.py:651]            [DEBUG]    | Value: Cannes Golden Palm Winners.                                                                 |
+[2022-11-16 22:17:15,508] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,509] [plex.py:838]               [DEBUG]    | Looking for: Cannes Golden Palm Winners                                                            |
+[2022-11-16 22:17:15,509] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,509] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:596]  [INFO]     |========================== Running Cannes Golden Palm Winners Collection ===========================|
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/cannes-film-festival-palme-d-or      |
+[2022-11-16 22:17:15,509] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,510] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:17:15,512] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,513] [builder.py:1575]           [DEBUG]    | 94 IDs Found                                                                                       |
+[2022-11-16 22:17:15,513] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:17:15,513] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,513] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:17:15,514] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:17:15,525] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Union Pacific (1939) (TMDb: 43837)                     |
+[2022-11-16 22:17:15,686] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Men Without Wings (1946) (TMDb: 154623)                |
+[2022-11-16 22:17:15,691] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Maria Candelaria (1944) (TMDb: 60225)                  |
+[2022-11-16 22:17:15,706] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Torment (1944) (TMDb: 51144)                           |
+[2022-11-16 22:17:15,720] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Lost Weekend (1945) (TMDb: 28580)                  |
+[2022-11-16 22:17:15,860] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Red Meadows (1945) (TMDb: 99272)                       |
+[2022-11-16 22:17:15,872] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Brief Encounter (1945) (TMDb: 851)                     |
+[2022-11-16 22:17:16,124] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Rome, Open City (1945) (TMDb: 307)                     |
+[2022-11-16 22:17:16,315] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Turning Point (1945) (TMDb: 154620)                |
+[2022-11-16 22:17:16,328] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Last Chance (1945) (TMDb: 101772)                  |
+[2022-11-16 22:17:16,699] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Neecha Nagar (1946) (TMDb: 154879)                     |
+[2022-11-16 22:17:16,836] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Pastoral Symphony (1946) (TMDb: 117500)                |
+[2022-11-16 22:17:16,845] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Third Man (1949) (TMDb: 1092)                      |
+[2022-11-16 22:17:16,860] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Miss Julie (1951) (TMDb: 18650)                        |
+[2022-11-16 22:17:17,105] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Miracle in Milan (1951) (TMDb: 43379)                  |
+[2022-11-16 22:17:17,116] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Othello (1951) (TMDb: 47697)                           |
+[2022-11-16 22:17:17,235] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Two Cents Worth of Hope (1952) (TMDb: 117478)          |
+[2022-11-16 22:17:17,244] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Wages of Fear (1953) (TMDb: 204)                   |
+[2022-11-16 22:17:17,255] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Gate of Hell (1953) (TMDb: 43349)                      |
+[2022-11-16 22:17:17,266] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Marty (1955) (TMDb: 15919)                             |
+[2022-11-16 22:17:17,276] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Silent World (1956) (TMDb: 60234)                  |
+[2022-11-16 22:17:17,287] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Friendly Persuasion (1956) (TMDb: 43258)               |
+[2022-11-16 22:17:17,297] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Cranes Are Flying (1957) (TMDb: 38360)             |
+[2022-11-16 22:17:17,308] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Black Orpheus (1959) (TMDb: 40423)                     |
+[2022-11-16 22:17:17,319] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | La Dolce Vita (1960) (TMDb: 439)                       |
+[2022-11-16 22:17:17,524] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Long Absence (1961) (TMDb: 131836)                 |
+[2022-11-16 22:17:17,792] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Viridiana (1961) (TMDb: 4497)                          |
+[2022-11-16 22:17:17,989] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Given Word (1962) (TMDb: 59990)                    |
+[2022-11-16 22:17:18,229] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Leopard (1963) (TMDb: 1040)                        |
+[2022-11-16 22:17:18,239] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Umbrellas of Cherbourg (1964) (TMDb: 5967)         |
+[2022-11-16 22:17:18,416] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Knack... and How to Get It (1965) (TMDb: 42744)    |
+[2022-11-16 22:17:18,429] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | A Man and a Woman (1966) (TMDb: 42726)                 |
+[2022-11-16 22:17:18,676] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Birds, the Bees and the Italians (1966) (TMDb: 17974) |
+[2022-11-16 22:17:18,896] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Blow-Up (1966) (TMDb: 1052)                            |
+[2022-11-16 22:17:18,907] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | if.... (1968) (TMDb: 14794)                            |
+[2022-11-16 22:17:18,923] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | M*A*S*H (1970) (TMDb: 651)                             |
+[2022-11-16 22:17:18,939] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Go-Between (1971) (TMDb: 36194)                    |
+[2022-11-16 22:17:19,108] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Working Class Goes to Heaven (1971) (TMDb: 56231)  |
+[2022-11-16 22:17:19,364] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Mattei Affair (1972) (TMDb: 62382)                 |
+[2022-11-16 22:17:19,477] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Hireling (1973) (TMDb: 80382)                      |
+[2022-11-16 22:17:19,487] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Scarecrow (1973) (TMDb: 31587)                         |
+[2022-11-16 22:17:19,498] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Conversation (1974) (TMDb: 592)                    |
+[2022-11-16 22:17:19,649] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Chronicle of the Years of Fire (1975) (TMDb: 52555)    |
+[2022-11-16 22:17:19,664] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Taxi Driver (1976) (TMDb: 103)                         |
+[2022-11-16 22:17:19,846] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Padre Padrone (1977) (TMDb: 42225)                     |
+[2022-11-16 22:17:20,028] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Tree of Wooden Clogs (1978) (TMDb: 31542)          |
+[2022-11-16 22:17:20,038] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Tin Drum (1979) (TMDb: 659)                        |
+[2022-11-16 22:17:20,048] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | All That Jazz (1979) (TMDb: 16858)                     |
+[2022-11-16 22:17:20,244] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Kagemusha (1980) (TMDb: 11953)                         |
+[2022-11-16 22:17:20,287] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Man of Iron (1981) (TMDb: 225)                         |
+[2022-11-16 22:17:20,297] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Missing (1982) (TMDb: 15600)                           |
+[2022-11-16 22:17:20,483] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Yol (1982) (TMDb: 52556)                               |
+[2022-11-16 22:17:20,684] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Ballad of Narayama (1983) (TMDb: 42113)            |
+[2022-11-16 22:17:20,900] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Paris, Texas (1984) (TMDb: 655)                        |
+[2022-11-16 22:17:21,100] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | When Father Was Away on Business (1985) (TMDb: 21042)  |
+[2022-11-16 22:17:21,110] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Mission (1986) (TMDb: 11416)                       |
+[2022-11-16 22:17:21,273] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Under the Sun of Satan (1987) (TMDb: 31300)            |
+[2022-11-16 22:17:21,285] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Pelle the Conqueror (1987) (TMDb: 11174)               |
+[2022-11-16 22:17:21,492] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Sex, Lies, and Videotape (1989) (TMDb: 1412)           |
+[2022-11-16 22:17:21,768] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Wild at Heart (1990) (TMDb: 483)                       |
+[2022-11-16 22:17:21,951] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Barton Fink (1991) (TMDb: 290)                         |
+[2022-11-16 22:17:21,962] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Best Intentions (1992) (TMDb: 41764)               |
+[2022-11-16 22:17:21,973] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Farewell My Concubine (1993) (TMDb: 10997)             |
+[2022-11-16 22:17:21,984] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Piano (1993) (TMDb: 713)                           |
+[2022-11-16 22:17:21,995] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Pulp Fiction (1994) (TMDb: 680)                        |
+[2022-11-16 22:17:22,162] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Underground (1995) (TMDb: 11902)                       |
+[2022-11-16 22:17:22,176] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Secrets & Lies (1996) (TMDb: 11159)                    |
+[2022-11-16 22:17:22,356] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Taste of Cherry (1997) (TMDb: 30020)                   |
+[2022-11-16 22:17:22,505] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Eel (1997) (TMDb: 20506)                           |
+[2022-11-16 22:17:22,688] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Eternity and a Day (1998) (TMDb: 24858)                |
+[2022-11-16 22:17:22,700] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Rosetta (1999) (TMDb: 11489)                           |
+[2022-11-16 22:17:22,869] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Dancer in the Dark (2000) (TMDb: 16)                   |
+[2022-11-16 22:17:23,085] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Son's Room (2001) (TMDb: 11447)                    |
+[2022-11-16 22:17:23,099] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Pianist (2002) (TMDb: 423)                         |
+[2022-11-16 22:17:23,301] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Elephant (2003) (TMDb: 1807)                           |
+[2022-11-16 22:17:23,493] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Fahrenheit 9/11 (2004) (TMDb: 1777)                    |
+[2022-11-16 22:17:23,505] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Child (2005) (TMDb: 11490)                         |
+[2022-11-16 22:17:23,516] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Wind That Shakes the Barley (2006) (TMDb: 1116)    |
+[2022-11-16 22:17:23,718] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | 4 Months, 3 Weeks and 2 Days (2007) (TMDb: 2009)       |
+[2022-11-16 22:17:23,889] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Class (2008) (TMDb: 8841)                          |
+[2022-11-16 22:17:23,902] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The White Ribbon (2009) (TMDb: 37903)                  |
+[2022-11-16 22:17:24,081] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Uncle Boonmee Who Can Recall His Past Lives (2010) (TMDb: 38368) |
+[2022-11-16 22:17:24,319] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Tree of Life (2011) (TMDb: 8967)                   |
+[2022-11-16 22:17:24,331] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Amour (2012) (TMDb: 86837)                             |
+[2022-11-16 22:17:24,340] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Blue Is the Warmest Color (2013) (TMDb: 152584)        |
+[2022-11-16 22:17:24,581] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Winter Sleep (2014) (TMDb: 265169)                     |
+[2022-11-16 22:17:24,767] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Dheepan (2015) (TMDb: 314402)                          |
+[2022-11-16 22:17:24,777] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | I, Daniel Blake (2016) (TMDb: 374473)                  |
+[2022-11-16 22:17:24,993] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | The Square (2017) (TMDb: 401246)                       |
+[2022-11-16 22:17:24,995] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Shoplifters (2018) (TMDb: 505192)                      |
+[2022-11-16 22:17:25,007] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Parasite (2019) (TMDb: 496243)                         |
+[2022-11-16 22:17:25,018] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Titane (2021) (TMDb: 630240)                           |
+[2022-11-16 22:17:25,030] [builder.py:2321]           [INFO]     | Cannes Golden Palm Winners Collection | ? | Triangle of Sadness (2022) (TMDb: 497828)              |
+[2022-11-16 22:17:25,030] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:17:25,030] [builder.py:2327]           [INFO]     | 93 Movies Missing                                                                                  |
+[2022-11-16 22:17:29,094] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 22:17:29,094] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Cannes Golden Palm Winners Collection                            |
+[2022-11-16 22:17:29,095] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:17:29,095] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:17:29,095] [plex_meta_manager.py:737]  [INFO]     |                           Finished Cannes Golden Palm Winners Collection                           |
+[2022-11-16 22:17:29,095] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-11-16 22:17:29,095] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

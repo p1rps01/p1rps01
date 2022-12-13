@@ -1,0 +1,52 @@
+[2022-11-16 18:46:50,236] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:46:50,236] [builder.py:193]            [INFO]     |                            Steve Martin Collection in Halloween Movies                             |
+[2022-11-16 18:46:50,236] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:46:50,236] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:46:50,236] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:46:50,236] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,237] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 18:46:50,237] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,238] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,238] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:46:50,238] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,239] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 67773, 'sort_title': '++_Steve Martin', 'collection_order': 'release'} |
+[2022-11-16 18:46:50,239] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,239] [builder.py:223]            [INFO]     |================================ Validating Steve Martin Attributes ================================|
+[2022-11-16 18:46:50,239] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,239] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 18:46:50,239] [builder.py:533]            [DEBUG]    | Value: 67773                                                                                       |
+[2022-11-16 18:46:50,247] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,247] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:46:50,247] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 18:46:50,247] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,248] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 18:46:50,248] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 18:46:50,677] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,677] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:46:50,677] [builder.py:651]            [DEBUG]    | Value: ++_Steve Martin                                                                             |
+[2022-11-16 18:46:50,681] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,681] [plex.py:838]               [DEBUG]    | Looking for: Steve Martin                                                                          |
+[2022-11-16 18:46:50,682] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:46:50,682] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:596]  [INFO]     |================================= Running Steve Martin Collection ==================================|
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Steve Martin", '?type=1&sort=titleSort&push=1&actor=23342&pop=1') |
+[2022-11-16 18:46:50,682] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:50,682] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Steve Martin
+[2022-11-16 18:46:50,689] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:46:50,689] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 18:46:50,689] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:652]  [INFO]     | 
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Steve Martin Collection
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Steve Martin Collection                                  |
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:46:50,689] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

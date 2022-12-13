@@ -1,0 +1,75 @@
+[2022-11-16 20:19:42,198] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:19:42,199] [builder.py:193]            [INFO]     |                              Julia Roberts Collection in Kids Movies                               |
+[2022-11-16 20:19:42,199] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:19:42,199] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,199] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:19:42,199] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,199] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:19:42,200] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,201] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,201] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:19:42,201] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,201] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1204, 'sort_title': '++_Julia Roberts', 'collection_order': 'release'} |
+[2022-11-16 20:19:42,201] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,201] [builder.py:223]            [INFO]     |=============================== Validating Julia Roberts Attributes ================================|
+[2022-11-16 20:19:42,202] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,202] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:19:42,202] [builder.py:533]            [DEBUG]    | Value: 1204                                                                                        |
+[2022-11-16 20:19:42,231] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,231] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:19:42,231] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:19:42,231] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,231] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:19:42,231] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:19:42,567] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,567] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:19:42,567] [builder.py:651]            [DEBUG]    | Value: ++_Julia Roberts                                                                            |
+[2022-11-16 20:19:42,573] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,574] [builder.py:796]            [ERROR]    | Collection Error: Converting Julia Roberts to a normal collection                                  |
+[2022-11-16 20:19:42,580] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,580] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:19:42,580] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,580] [plex_meta_manager.py:596]  [INFO]     |================================= Running Julia Roberts Collection =================================|
+[2022-11-16 20:19:42,580] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,580] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:19:42,581] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:19:42,581] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Julia Roberts", '?type=1&sort=titleSort&push=1&actor=36742&pop=1') |
+[2022-11-16 20:19:42,581] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,581] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Julia Roberts
+[2022-11-16 20:19:42,596] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:19:42,596] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 20:19:42,596] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:19:42,596] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:19:42,596] [builder.py:2159]           [INFO]     |================================ Adding to Julia Roberts Collection ================================|
+[2022-11-16 20:19:42,596] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:42,597] [builder.py:2174]           [INFO]     | 1/4 | Julia Roberts Collection | + | The Ant Bully (2006)                                          |
+[2022-11-16 20:19:44,866] [builder.py:2174]           [INFO]     | 2/4 | Julia Roberts Collection | + | Charlotte's Web (2006)                                        |
+[2022-11-16 20:19:47,164] [builder.py:2174]           [INFO]     | 3/4 | Julia Roberts Collection | + | Hook (1991)                                                   |
+[2022-11-16 20:19:47,374] [builder.py:2174]           [INFO]     | 4/4 | Julia Roberts Collection | + | Smurfs: The Lost Village (2017)                               |
+[2022-11-16 20:19:51,595] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:51,595] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 20:19:51,602] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:51,603] [builder.py:2528]           [INFO]     |=========================== Updating Details of Julia Roberts Collection ===========================|
+[2022-11-16 20:19:51,604] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:19:51,610] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Julia Fiona Roberts (born October 28, 1967) is an American actress and producer. She has won three Golden Globe Awards, from eight nominations, and has been nominated for four Academy Awards, winning the Academy Award for Best Actress for her performance in Erin Brockovich (2000).
+                                                                 | 
+                                                                 | She established herself as a leading lady in Hollywood after headlining the romantic comedy film Pretty Woman (1990). Her films have collectively brought box office receipts of over US$2.8 billion, making her one of the most bankable actresses in Hollywood. Her most successful films include Mystic Pizza (1988), Steel Magnolias (1989), Pretty Woman (1990), Sleeping with the Enemy (1991), The Pelican Brief (1993), My Best Friend's Wedding (1997), Notting Hill (1999), Runaway Bride (1999), Erin Brockovich (2000), Ocean's Eleven (2001), Ocean's Twelve (2004), Charlie Wilson's War (2007), Valentine's Day (2010), Eat Pray Love (2010), Money Monster (2016), and Wonder (2017). In 2018, she starred in the Prime Video psychological thriller series Homecoming.
+                                                                 | 
+                                                                 | Roberts was nominated for the Primetime Emmy Award for Outstanding Supporting Actress in a Limited Series or Movie for her performance in the HBO television film The Normal Heart (2014).  Roberts was the highest-paid actress in the world throughout most of the 1990s and in the first half of the 2000s. People magazine has named her the most beautiful woman in the world a record five times.
+                                                                 | Sort Title | ++_Julia Roberts
+                                                                 | Label | +PMM
+[2022-11-16 20:19:53,159] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:19:53,159] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:19:53,160] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:19:53,161] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/pahtuRDpaopvO6rH1RYS2omrO8L.jpg
+[2022-11-16 20:19:53,264] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/pahtuRDpaopvO6rH1RYS2omrO8L.jpg
+[2022-11-16 20:19:53,321] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:19:53,322] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:19:53,322] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Julia Roberts Collection                                  |
+[2022-11-16 20:19:53,322] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 20:19:53,322] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

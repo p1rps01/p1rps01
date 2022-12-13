@@ -1,0 +1,100 @@
+[2022-11-16 20:35:22,034] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:22,034] [builder.py:193]            [INFO]     |                           Oscars Winners 1991 Collection in Kids Movies                            |
+[2022-11-16 20:35:22,035] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:22,035] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,035] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:35:22,035] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,035] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:35:22,036] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,038] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:35:22,039] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,041] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:35:22,042] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,044] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:35:22,045] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,065] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:35:22,066] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,074] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:35:22,075] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,080] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,081] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:35:22,081] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,081] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1991-01-01,1991-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 1991.', 'name': 'Oscars Winners 1991', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 1991', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1991.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:35:22,081] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,081] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 1991 Attributes =============================|
+[2022-11-16 20:35:22,081] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,082] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:35:22,082] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 1991                                                                         |
+[2022-11-16 20:35:22,082] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,083] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:35:22,083] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:35:22,083] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,084] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:35:22,084] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:35:22,084] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,084] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:35:22,084] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:35:22,084] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,085] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:35:22,085] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:35:22,085] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,085] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:35:22,085] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 20:35:22,085] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,086] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:35:22,086] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1991-01-01,1991-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 20:35:22,296] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,298] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:35:22,298] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 1991.                                                   |
+[2022-11-16 20:35:22,298] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,298] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:35:22,298] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:35:22,298] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,299] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:35:22,299] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 1991                                                                     |
+[2022-11-16 20:35:22,299] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,299] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:35:22,299] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1991.jpg |
+[2022-11-16 20:35:22,404] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,404] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:35:22,404] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:35:22,409] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,410] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 1991                                                                   |
+[2022-11-16 20:35:22,410] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,410] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 1991 Collection ==============================|
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1991-01-01,1991-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:35:22,411] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,412] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:35:22,415] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,415] [builder.py:1575]           [DEBUG]    | 14 IDs Found                                                                                       |
+[2022-11-16 20:35:22,416] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:22,426] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,427] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:35:22,427] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,445] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | The Silence of the Lambs (1991) (TMDb: 274)                   |
+[2022-11-16 20:35:22,465] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Terminator 2: Judgment Day (1991) (TMDb: 280)                 |
+[2022-11-16 20:35:22,478] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Thelma & Louise (1991) (TMDb: 1541)                           |
+[2022-11-16 20:35:22,492] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | City Slickers (1991) (TMDb: 1406)                             |
+[2022-11-16 20:35:22,504] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | JFK (1991) (TMDb: 820)                                        |
+[2022-11-16 20:35:22,516] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | The Fisher King (1991) (TMDb: 177)                            |
+[2022-11-16 20:35:22,530] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Bugsy (1991) (TMDb: 10337)                                    |
+[2022-11-16 20:35:22,541] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Mediterraneo (1991) (TMDb: 38251)                             |
+[2022-11-16 20:35:22,552] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | In the Shadow of the Stars (1991) (TMDb: 114525)              |
+[2022-11-16 20:35:22,563] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Manipulation (1991) (TMDb: 47207)                             |
+[2022-11-16 20:35:22,574] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Session Man (1991) (TMDb: 244729)                             |
+[2022-11-16 20:35:22,584] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Days of Waiting: The Life & Art of Estelle Ishigo (1991) (TMDb: 244724) |
+[2022-11-16 20:35:22,596] [builder.py:2321]           [INFO]     | Oscars Winners 1991 Collection | ? | Deadly Deception: General Electric, Nuclear Weapons and Our Environment (1991) (TMDb: 244733) |
+[2022-11-16 20:35:22,596] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:22,596] [builder.py:2327]           [INFO]     | 13 Movies Missing                                                                                  |
+[2022-11-16 20:35:26,564] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:26,564] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Oscars Winners 1991 Collection                                   |
+[2022-11-16 20:35:26,565] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:26,565] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:35:26,565] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 1991 Collection                               |
+[2022-11-16 20:35:26,565] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:35:26,565] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-11-17 00:43:56,490] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:43:56,490] [builder.py:193]            [INFO]     |                        Simon Kinberg (Producer) Collection in Marvel Movies                        |
+[2022-11-17 00:43:56,490] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:43:56,491] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,491] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:43:56,491] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,491] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-17 00:43:56,492] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,502] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-17 00:43:56,502] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,507] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 00:43:56,508] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,533] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,534] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:43:56,535] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,535] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Simon Kinberg'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}, 'summary': 'Movies produced by Simon Kinberg.', 'name': 'Simon Kinberg (Producer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!19_Simon Kinberg (Producer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Simon%20Kinberg.jpg'} |
+[2022-11-17 00:43:56,535] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,535] [builder.py:223]            [INFO]     |========================== Validating Simon Kinberg (Producer) Attributes ==========================|
+[2022-11-17 00:43:56,536] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,536] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-17 00:43:56,536] [builder.py:230]            [DEBUG]    | Value: Simon Kinberg (Producer)                                                                    |
+[2022-11-17 00:43:56,539] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,539] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 00:43:56,542] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 00:43:56,545] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,545] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-17 00:43:56,579] [builder.py:533]            [DEBUG]    | Value: ['Simon Kinberg']                                                                           |
+[2022-11-17 00:43:56,663] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,663] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-17 00:43:56,663] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}                                       |
+[2022-11-17 00:43:56,703] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&producer=37157&pop=1                                      |
+[2022-11-17 00:43:56,704] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,704] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 00:43:56,704] [builder.py:651]            [DEBUG]    | Value: Top Producers                                                                               |
+[2022-11-17 00:43:56,704] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,704] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:43:56,704] [builder.py:651]            [DEBUG]    | Value: Movies produced by Simon Kinberg.                                                           |
+[2022-11-17 00:43:56,705] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,705] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 00:43:56,705] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 00:43:56,705] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,706] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:43:56,706] [builder.py:651]            [DEBUG]    | Value: !19_Simon Kinberg (Producer)                                                                |
+[2022-11-17 00:43:56,706] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,706] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 00:43:56,706] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Simon%20Kinberg.jpg |
+[2022-11-17 00:43:56,955] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:43:56,955] [plex.py:838]               [DEBUG]    | Looking for: Simon Kinberg (Producer)                                                              |
+[2022-11-17 00:43:56,955] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,955] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:43:56,956] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,956] [plex_meta_manager.py:596]  [INFO]     |=========================== Running Simon Kinberg (Producer) Collection ============================|
+[2022-11-17 00:43:56,956] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,956] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Producer is Simon Kinberg
+[2022-11-17 00:43:56,978] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&producer=37157&pop=1
+[2022-11-17 00:43:56,983] [builder.py:2527]           [INFO]     | 
+[2022-11-17 00:43:56,983] [builder.py:2528]           [INFO]     |===================== Updating Details of Simon Kinberg (Producer) Collection ======================|
+[2022-11-17 00:43:56,983] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:43:56,990] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies produced by Simon Kinberg.
+                                                                 | Sort Title | !19_Simon Kinberg (Producer)
+                                                                 | Label | +Top Producers, +PMM
+[2022-11-17 00:43:58,602] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 00:43:58,603] [builder.py:2603]           [INFO]     | 
+[2022-11-17 00:44:00,199] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-17 00:44:00,204] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Marvel_Movies/Assets/Simon Kinberg (Producer)
+[2022-11-17 00:44:00,204] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-17 00:44:00,204] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/3xvTvkIaKfU276cpajiAoGjvaaO.jpg
+[2022-11-17 00:44:00,204] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Simon%20Kinberg.jpg
+[2022-11-17 00:44:00,350] [library.py:178]            [INFO]     | Detail: asset_directory updated Simon Kinberg (Producer)'s poster to [File] config/Marvel_Movies/Assets/Simon Kinberg (Producer)/poster.jpg
+[2022-11-17 00:44:00,394] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 00:44:00,395] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:44:00,395] [plex_meta_manager.py:737]  [INFO]     |                            Finished Simon Kinberg (Producer) Collection                            |
+[2022-11-17 00:44:00,395] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-17 00:44:00,395] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

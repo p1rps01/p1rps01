@@ -1,0 +1,76 @@
+[2022-11-16 20:24:33,279] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:33,279] [builder.py:193]            [INFO]     |                               Steve Martin Collection in Kids Movies                               |
+[2022-11-16 20:24:33,279] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:33,279] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,280] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:24:33,280] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,280] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:24:33,280] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,281] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,282] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:24:33,282] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,282] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 67773, 'sort_title': '++_Steve Martin', 'collection_order': 'release'} |
+[2022-11-16 20:24:33,282] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,282] [builder.py:223]            [INFO]     |================================ Validating Steve Martin Attributes ================================|
+[2022-11-16 20:24:33,282] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,282] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:24:33,282] [builder.py:533]            [DEBUG]    | Value: 67773                                                                                       |
+[2022-11-16 20:24:33,309] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,310] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:24:33,310] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:24:33,310] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,310] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:24:33,310] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:24:33,643] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,643] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:24:33,643] [builder.py:651]            [DEBUG]    | Value: ++_Steve Martin                                                                             |
+[2022-11-16 20:24:33,648] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,648] [builder.py:796]            [ERROR]    | Collection Error: Converting Steve Martin to a normal collection                                   |
+[2022-11-16 20:24:33,653] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,654] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:596]  [INFO]     |================================= Running Steve Martin Collection ==================================|
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Steve Martin", '?type=1&sort=titleSort&push=1&actor=23342&pop=1') |
+[2022-11-16 20:24:33,654] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,655] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Steve Martin
+[2022-11-16 20:24:33,669] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:24:33,669] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 20:24:33,669] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:24:33,669] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:24:33,669] [builder.py:2159]           [INFO]     |================================ Adding to Steve Martin Collection =================================|
+[2022-11-16 20:24:33,669] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:33,669] [builder.py:2174]           [INFO]     | 1/5 | Steve Martin Collection | + | Fantasia 2000 (1999)                                           |
+[2022-11-16 20:24:35,652] [builder.py:2174]           [INFO]     | 2/5 | Steve Martin Collection | + | Home (2015)                                                    |
+[2022-11-16 20:24:37,615] [builder.py:2174]           [INFO]     | 3/5 | Steve Martin Collection | + | Looney Tunes: Back in Action (2003)                            |
+[2022-11-16 20:24:37,721] [builder.py:2174]           [INFO]     | 4/5 | Steve Martin Collection | + | The Muppet Movie (1979)                                        |
+[2022-11-16 20:24:39,550] [builder.py:2174]           [INFO]     | 5/5 | Steve Martin Collection | + | The Prince of Egypt (1998)                                     |
+[2022-11-16 20:24:41,869] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:41,869] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:24:41,874] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:41,874] [builder.py:2528]           [INFO]     |=========================== Updating Details of Steve Martin Collection ============================|
+[2022-11-16 20:24:41,874] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:41,880] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Stephen Glenn "Steve" Martin (born August 14, 1945) is an American actor, comedian, writer, playwright, producer, musician and composer.
+                                                                 | 
+                                                                 | Martin was born in Waco, Texas, and raised in Southern California, where his early influences were working at Disneyland and Knott's Berry Farm and working magic and comedy acts at these and other smaller venues in the area. His ascent to fame picked up when he became a writer for the Smothers Brothers Comedy Hour, and later became a frequent guest on The Tonight Show. In the 1970s, Martin performed his offbeat, absurdist comedy routines before packed houses on national tours. Since the 1980s, having branched away from stand-up comedy, he has become a successful actor, playwright, pianist, banjo player, and juggler, eventually earning Emmy, Grammy, and American Comedy awards.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Steve Martin, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Steve Martin
+                                                                 | Label | +PMM
+[2022-11-16 20:24:43,213] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:24:43,213] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:24:43,213] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:24:43,214] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/d0KthX8hVWU9BxTCG1QUO8FURRm.jpg
+[2022-11-16 20:24:43,312] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/d0KthX8hVWU9BxTCG1QUO8FURRm.jpg
+[2022-11-16 20:24:43,385] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:24:43,385] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:24:43,385] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Steve Martin Collection                                  |
+[2022-11-16 20:24:43,385] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 20:24:43,385] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

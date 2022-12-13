@@ -1,0 +1,66 @@
+[2022-11-14 03:31:12,450] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 03:31:12,450] [builder.py:193]            [INFO]     |                             Steven Spielberg Collection in Old Movies                              |
+[2022-11-14 03:31:12,450] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 03:31:12,451] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 03:31:12,451] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 03:31:12,451] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,451] [meta.py:210]               [DEBUG]    |========================================= Template Person ==========================================|
+[2022-11-14 03:31:12,452] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,455] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,455] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 03:31:12,455] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,456] [meta.py:515]               [DEBUG]    | {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 488, 'sort_title': '+5_Steven Spielberg'} |
+[2022-11-14 03:31:12,456] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,456] [builder.py:223]            [INFO]     |============================== Validating Steven Spielberg Attributes ==============================|
+[2022-11-14 03:31:12,456] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:12,457] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-14 03:31:12,457] [builder.py:533]            [DEBUG]    | Value: 488                                                                                         |
+[2022-11-14 03:31:12,467] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-14 03:31:12,467] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-14 03:31:12,467] [builder.py:1791]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-14 03:31:13,330] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=59656&or=1&director=40554&or=1&writer=59656&or=1&producer=25188&pop=1 |
+[2022-11-14 03:31:13,330] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:13,330] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-14 03:31:13,331] [builder.py:651]            [DEBUG]    | Value: +5_Steven Spielberg                                                                         |
+[2022-11-14 03:31:13,336] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:31:13,336] [plex.py:838]               [DEBUG]    | Looking for: Steven Spielberg                                                                      |
+[2022-11-14 03:31:13,336] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-14 03:31:13,336] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-14 03:31:13,336] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-14 03:31:13,336] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Steven Spielberg Collection ================================|
+[2022-11-14 03:31:13,336] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-14 03:31:13,337] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['random']
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Steven Spielberg
+                                                                 |     Director is Steven Spielberg
+                                                                 |     Writer is Steven Spielberg
+                                                                 |     Producer is Steven Spielberg
+[2022-11-14 03:31:13,374] [plex.py:756]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&push=1&actor=59656&or=1&director=40554&or=1&writer=59656&or=1&producer=25188&pop=1
+[2022-11-14 03:31:13,431] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=random&push=1&actor=59656&or=1&director=40554&or=1&writer=59656&or=1&producer=25188&pop=1
+[2022-11-14 03:31:13,441] [builder.py:2527]           [INFO]     | 
+[2022-11-14 03:31:13,441] [builder.py:2528]           [INFO]     |========================= Updating Details of Steven Spielberg Collection ==========================|
+[2022-11-14 03:31:13,441] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-14 03:31:13,451] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Steven Allan Spielberg (born December 18, 1946) is an American film director, producer, and screenwriter. He began his career in the New Hollywood era and is currently the most commercially successful director. Spielberg is the recipient of various accolades, including three Academy Awards (with two for Best Director), a Kennedy Center honor, a Cecil B. DeMille Award, and an AFI Life Achievement Award.
+                                                                 | 
+                                                                 | Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He later moved to California and studied film in college. After directing television episodes and several minor films for Universal Studios, he became a household name for directing 1975's summer blockbuster Jaws. He then directed box office successes Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982), and the adventure films in the Indiana Jones series. Spielberg later explored drama in The Color Purple (1985) and Empire of the Sun (1987).
+                                                                 | 
+                                                                 | After a brief hiatus, he directed back to back box office successes with the acclaimed science fiction action film Jurassic Park and the holocaust drama Schindler's List (both 1993). In 1998, he directed the World War II epic Saving Private Ryan, which was both a critical and commercial success. Spielberg continued in the 2000s with science fiction, including A.I. Artificial Intelligence (2001), Minority Report (2002) and War of the Worlds (2005). He has since directed several fantasy films including The Adventures of Tintin (2011), and Ready Player One (2018), the historical dramas War Horse (2011), Lincoln (2012), The Post (2017), and the musical West Side Story (2021).
+                                                                 | 
+                                                                 | In addition to filmmaking, he co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many television series and films. Spielberg is also known for his long time collaboration with composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing films of all time and have received acclaim; seven of his films have been inducted into the National Film Registry by the Library of Congress as being "culturally, historically, or aesthetically significant".
+                                                                 | Sort Title | +5_Steven Spielberg
+                                                                 | Label | +PMM
+[2022-11-14 03:31:15,103] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-14 03:31:15,103] [builder.py:2603]           [INFO]     | 
+[2022-11-14 03:31:15,110] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Steven Spielberg
+[2022-11-14 03:31:15,110] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-14 03:31:15,110] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg
+[2022-11-14 03:31:15,155] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg
+[2022-11-14 03:31:15,207] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 03:31:15,207] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 03:31:15,207] [plex_meta_manager.py:737]  [INFO]     |                                Finished Steven Spielberg Collection                                |
+[2022-11-14 03:31:15,207] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-14 03:31:15,207] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

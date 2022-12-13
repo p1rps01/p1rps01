@@ -1,0 +1,58 @@
+[2022-11-05 18:44:47,877] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:47,877] [builder.py:197]            [INFO]     |                              Martial Arts Collection in Marvel Movies                              |
+[2022-11-05 18:44:47,878] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:47,878] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:44:47,878] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:44:47,878] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,878] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-11-05 18:44:47,879] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre'), ('genre', 'Martial Arts'), ('poster', 213140)])              |
+[2022-11-05 18:44:47,879] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,879] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('genre', 'Martial Arts'), ('poster', 213140), ('collection_name', 'Martial Arts'), ('mapping_name', 'Martial Arts'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Genre'), ('genre_encoded', 'Martial%20Arts'), ('poster_encoded', '213140'), ('collection_name_encoded', 'Martial%20Arts'), ('mapping_name_encoded', 'Martial%20Arts'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Martial Arts')]) |
+[2022-11-05 18:44:47,879] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,880] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 18:44:47,880] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,880] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 18:44:47,881] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,881] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'genre': 'Martial Arts'}, 'url_poster': 'https://theposterdb.com/api/assets/213140', 'collection_mode': 'hide', 'collection_order': 'release.desc'} |
+[2022-11-05 18:44:47,881] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,882] [builder.py:219]            [INFO]     |================================ Validating Martial Arts Attributes ================================|
+[2022-11-05 18:44:47,882] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,882] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 18:44:47,882] [builder.py:611]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-05 18:44:47,883] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,883] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 18:44:47,883] [builder.py:632]            [DEBUG]    | Value: ++++++++_Martial_Arts                                                                       |
+[2022-11-05 18:44:47,883] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,883] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-05 18:44:47,884] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/jjjonesjr33/lists/the-top-250-greatest-martial-arts-movies-of-all-time'] |
+[2022-11-05 18:44:47,965] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,966] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-05 18:44:47,966] [builder.py:632]            [DEBUG]    | Value: Martial Arts films are a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights. |
+[2022-11-05 18:44:47,966] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:47,966] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-05 18:44:47,966] [builder.py:632]            [DEBUG]    | Value: {'genre': 'Martial Arts'}                                                                   |
+[2022-11-05 18:44:48,155] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 709, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1273, in _plex
+                                                                 |     self.builders.append((method_name, self.build_filter("plex_search", dict_data)))
+                                                                 |   File "/modules/builder.py", line 1891, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1825, in _filter
+                                                                 |     inside_filter, inside_display = _filter(dict_data, is_all=attr == "all", level=level)
+                                                                 |   File "/modules/builder.py", line 1830, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 1977, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Martial Arts not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+                                                                 | 
+[2022-11-05 18:44:48,159] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: genre: Martial Arts not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+[2022-11-05 18:44:48,159] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:44:48,159] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:44:48,160] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Martial Arts Collection                                  |
+[2022-11-05 18:44:48,160] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 18:44:48,160] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,77 @@
+[2022-11-16 20:22:20,406] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:20,406] [builder.py:193]            [INFO]     |                               Owen Wilson Collection in Kids Movies                                |
+[2022-11-16 20:22:20,406] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:20,406] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,406] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:22:20,406] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,406] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:22:20,407] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,408] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,408] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:22:20,408] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,408] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 887, 'sort_title': '++_Owen Wilson', 'collection_order': 'release'} |
+[2022-11-16 20:22:20,408] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,408] [builder.py:223]            [INFO]     |================================ Validating Owen Wilson Attributes =================================|
+[2022-11-16 20:22:20,408] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,408] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:22:20,408] [builder.py:533]            [DEBUG]    | Value: 887                                                                                         |
+[2022-11-16 20:22:20,434] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,434] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:22:20,434] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:22:20,434] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,434] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:22:20,434] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:22:20,771] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,771] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:22:20,771] [builder.py:651]            [DEBUG]    | Value: ++_Owen Wilson                                                                              |
+[2022-11-16 20:22:20,776] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,777] [builder.py:796]            [ERROR]    | Collection Error: Converting Owen Wilson to a normal collection                                    |
+[2022-11-16 20:22:20,783] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,783] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:596]  [INFO]     |================================== Running Owen Wilson Collection ==================================|
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Owen Wilson", '?type=1&sort=titleSort&push=1&actor=29840&pop=1') |
+[2022-11-16 20:22:20,783] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,784] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Owen Wilson
+[2022-11-16 20:22:20,796] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:22:20,796] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 20:22:20,796] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:22:20,796] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:22:20,796] [builder.py:2159]           [INFO]     |================================= Adding to Owen Wilson Collection =================================|
+[2022-11-16 20:22:20,797] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:20,797] [builder.py:2174]           [INFO]     | 1/4 | Owen Wilson Collection | + | Cars (2006)                                                     |
+[2022-11-16 20:22:20,901] [builder.py:2174]           [INFO]     | 2/4 | Owen Wilson Collection | + | Cars 2 (2011)                                                   |
+[2022-11-16 20:22:21,008] [builder.py:2174]           [INFO]     | 3/4 | Owen Wilson Collection | + | Cars 3 (2017)                                                   |
+[2022-11-16 20:22:23,346] [builder.py:2174]           [INFO]     | 4/4 | Owen Wilson Collection | + | Free Birds (2013)                                               |
+[2022-11-16 20:22:28,305] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:28,305] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 20:22:28,312] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:28,312] [builder.py:2528]           [INFO]     |============================ Updating Details of Owen Wilson Collection ============================|
+[2022-11-16 20:22:28,312] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:28,318] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Owen Cunningham Wilson (born November 18, 1968) is an American actor. He has had a long association with filmmaker Wes Anderson with whom he shared writing and acting credits for Bottle Rocket (1996), Rushmore (1998), and The Royal Tenenbaums (2001), the last of which earned him a nomination for the Academy Award and BAFTA Award for Best Screenplay. He has also appeared in Anderson's The Life Aquatic with Steve Zissou (2004), The Darjeeling Limited (2007), The Grand Budapest Hotel (2014), and The French Dispatch (2021). Wilson also starred in the Woody Allen romantic comedy Midnight in Paris (2011) as unsatisfied screenwriter Gil Pender, a role which earned him a Golden Globe Award nomination. In 2014 he appeared in Paul Thomas Anderson's Inherent Vice, and Peter Bogdanovich's She's Funny That Way.
+                                                                 | 
+                                                                 | Wilson is also known for his career as an onscreen comedian and member of the Frat Pack including starring in such comedies as Zoolander (2001), Starsky & Hutch (2004), Wedding Crashers (2005), You, Me and Dupree (2006), How Do You Know (2010), The Big Year (2011), and The Internship (2013). He is also known for the family films Marley and Me (2008), and the Night at the Museum film series (2005–2014). He voices Lightning McQueen in the Cars film series (2006–present), Coach Skip in Fantastic Mr. Fox (2009), the title character in Marmaduke (2010) and Reggie in Free Birds (2013). He stars as Mobius M. Mobius in the Disney+ series Loki (2021–present).
+                                                                 | 
+                                                                 | Wilson's accolades include an Oscar and BAFTA nomination for Best Original Screenplay (for The Royal Tenenbaums), a Golden Globe and two SAG acting nominations (for Midnight in Paris and The Grand Budapest Hotel) and an Independent Spirit Award (for Inherent Vice).
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Owen Wilson, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Owen Wilson
+                                                                 | Label | +PMM
+[2022-11-16 20:22:29,805] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:22:29,805] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:22:29,806] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:22:29,806] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/op8sGD20k3EQZLR92XtaHoIbW0o.jpg
+[2022-11-16 20:22:29,972] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/op8sGD20k3EQZLR92XtaHoIbW0o.jpg
+[2022-11-16 20:22:30,020] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:22:30,020] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:22:30,020] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Owen Wilson Collection                                   |
+[2022-11-16 20:22:30,020] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-11-16 20:22:30,020] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

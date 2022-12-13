@@ -1,0 +1,93 @@
+[2022-11-16 20:33:00,209] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:33:00,209] [builder.py:193]            [INFO]     |                            Golden Globe 2007 Collection in Kids Movies                             |
+[2022-11-16 20:33:00,209] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:33:00,210] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,210] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:33:00,210] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,210] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:33:00,210] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,211] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:33:00,211] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,213] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:33:00,213] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,215] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:33:00,216] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,226] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:33:00,227] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,232] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:33:00,232] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,235] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,235] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:33:00,236] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,236] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2007-01-01,2007-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '2007 Golden Globe Winners.', 'name': 'Golden Globe 2007', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 2007', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2007.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:33:00,236] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,236] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 2007 Attributes ==============================|
+[2022-11-16 20:33:00,236] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,236] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:33:00,236] [builder.py:230]            [DEBUG]    | Value: Golden Globe 2007                                                                           |
+[2022-11-16 20:33:00,236] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,236] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:33:00,236] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:33:00,236] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,236] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:33:00,237] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:33:00,237] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,237] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:33:00,237] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:33:00,237] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,237] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:33:00,237] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 20:33:00,237] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,237] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:33:00,237] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2007-01-01,2007-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 20:33:00,459] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,461] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:33:00,461] [builder.py:651]            [DEBUG]    | Value: 2007 Golden Globe Winners.                                                                  |
+[2022-11-16 20:33:00,461] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,462] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:33:00,462] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:33:00,462] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,463] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:33:00,463] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 2007                                                                       |
+[2022-11-16 20:33:00,463] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,463] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:33:00,463] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2007.jpg |
+[2022-11-16 20:33:00,668] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,668] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:33:00,668] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:33:00,675] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,675] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 2007                                                                     |
+[2022-11-16 20:33:00,675] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,675] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:33:00,675] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 2007 Collection ===============================|
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2007-01-01,2007-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:33:00,676] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,678] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:33:00,681] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,681] [builder.py:1575]           [DEBUG]    | 13 IDs Found                                                                                       |
+[2022-11-16 20:33:00,681] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:00,698] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,698] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:33:00,698] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:00,711] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | No Country for Old Men (2007) (TMDb: 6977)                      |
+[2022-11-16 20:33:00,724] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | There Will Be Blood (2007) (TMDb: 7345)                         |
+[2022-11-16 20:33:00,749] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | Into the Wild (2007) (TMDb: 5915)                               |
+[2022-11-16 20:33:00,772] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | Atonement (2007) (TMDb: 4347)                                   |
+[2022-11-16 20:33:00,785] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | Sweeney Todd: The Demon Barber of Fleet Street (2007) (TMDb: 13885) |
+[2022-11-16 20:33:00,798] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | I'm Not There (2007) (TMDb: 3902)                               |
+[2022-11-16 20:33:00,813] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | La Vie en Rose (2007) (TMDb: 1407)                              |
+[2022-11-16 20:33:00,828] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | The Diving Bell and the Butterfly (2007) (TMDb: 2013)           |
+[2022-11-16 20:33:01,018] [builder.py:2321]           [INFO]     | Golden Globe 2007 Collection | ? | Life Support (2007) (TMDb: 56555)                               |
+[2022-11-16 20:33:01,019] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:01,019] [builder.py:2327]           [INFO]     | 9 Movies Missing                                                                                   |
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Golden Globe 2007 Collection                                     |
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 2007 Collection                                |
+[2022-11-16 20:33:04,267] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:33:04,268] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

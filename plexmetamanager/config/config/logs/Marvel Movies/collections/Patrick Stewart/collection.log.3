@@ -1,0 +1,51 @@
+[2022-11-05 19:20:44,383] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:20:44,384] [builder.py:197]            [INFO]     |                            Patrick Stewart Collection in Marvel Movies                             |
+[2022-11-05 19:20:44,384] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:20:44,384] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 19:20:44,385] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 19:20:44,385] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,385] [meta.py:128]               [DEBUG]    | Template Person                                                                                    |
+[2022-11-05 19:20:44,386] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Person'), ('person', 2387)])                                          |
+[2022-11-05 19:20:44,386] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,387] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Person'), ('person', 2387), ('collection_name', 'Patrick Stewart'), ('mapping_name', 'Patrick Stewart'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Person'), ('person_encoded', '2387'), ('collection_name_encoded', 'Patrick%20Stewart'), ('mapping_name_encoded', 'Patrick%20Stewart'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Patrick Stewart')]) |
+[2022-11-05 19:20:44,387] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,387] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 19:20:44,388] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,388] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 19:20:44,389] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,390] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 2387, 'sort_title': '+5_Patrick Stewart'} |
+[2022-11-05 19:20:44,391] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,391] [builder.py:219]            [INFO]     |============================== Validating Patrick Stewart Attributes ===============================|
+[2022-11-05 19:20:44,392] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:44,392] [builder.py:501]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-05 19:20:44,393] [builder.py:505]            [DEBUG]    | Value: 2387                                                                                        |
+[2022-11-05 19:20:44,402] [builder.py:1722]           [INFO]     |                                                                                                    |
+[2022-11-05 19:20:44,403] [builder.py:1723]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-05 19:20:44,403] [builder.py:1729]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-05 19:20:45,730] [builder.py:1900]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=5491&or=1&director=5491&or=1&writer=5491&or=1&producer=5491&pop=1 |
+[2022-11-05 19:20:45,732] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:45,732] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:20:45,732] [builder.py:632]            [DEBUG]    | Value: +5_Patrick Stewart                                                                          |
+[2022-11-05 19:20:45,740] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:20:45,741] [plex.py:793]               [DEBUG]    | Looking for: Patrick Stewart                                                                       |
+[2022-11-05 19:20:45,741] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-11-05 19:20:45,741] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:20:45,742] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-11-05 19:20:45,742] [plex_meta_manager.py:563]  [INFO]     |================================ Running Patrick Stewart Collection ================================|
+[2022-11-05 19:20:45,742] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-11-05 19:20:45,743] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: random
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Patrick Stewart
+                                                                 |     Director is Patrick Stewart
+                                                                 |     Writer is Patrick Stewart
+                                                                 |     Producer is Patrick Stewart
+[2022-11-05 19:20:45,759] [plex_meta_manager.py:624]  [INFO]     | 
+[2022-11-05 19:20:45,759] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Patrick Stewart Collection
+[2022-11-05 19:20:45,759] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 19:20:45,760] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 19:20:45,760] [plex_meta_manager.py:709]  [INFO]     |                                Finished Patrick Stewart Collection                                 |
+[2022-11-05 19:20:45,760] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-05 19:20:45,760] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

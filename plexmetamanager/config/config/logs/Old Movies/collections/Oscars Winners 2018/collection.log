@@ -1,0 +1,125 @@
+[2022-11-16 22:28:12,952] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:28:12,952] [builder.py:193]            [INFO]     |                            Oscars Winners 2018 Collection in Old Movies                            |
+[2022-11-16 22:28:12,952] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:28:12,952] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:28:12,952] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:28:12,952] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,952] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:28:12,953] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,954] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 22:28:12,955] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,957] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:28:12,957] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,961] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:28:12,962] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,973] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:28:12,973] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,978] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:28:12,979] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,982] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,982] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:28:12,983] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,983] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2018-01-01,2018-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 2018.', 'name': 'Oscars Winners 2018', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 2018', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2018.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:28:12,983] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,983] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 2018 Attributes =============================|
+[2022-11-16 22:28:12,983] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,983] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:28:12,983] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 2018                                                                         |
+[2022-11-16 22:28:12,983] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,983] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:28:12,983] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:28:12,984] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,984] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:28:12,984] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:28:12,984] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,984] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:28:12,984] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:28:12,984] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,984] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:28:12,984] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:28:12,984] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,985] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:28:12,985] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 22:28:12,985] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:12,985] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 22:28:12,985] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2018-01-01,2018-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 22:28:13,150] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,151] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:28:13,151] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 2018.                                                   |
+[2022-11-16 22:28:13,151] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,151] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:28:13,151] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:28:13,151] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,151] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:28:13,151] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 2018                                                                     |
+[2022-11-16 22:28:13,152] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,152] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:28:13,152] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2018.jpg |
+[2022-11-16 22:28:13,244] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,245] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:28:13,245] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:28:13,250] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,250] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 2018                                                                   |
+[2022-11-16 22:28:13,250] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,250] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:28:13,250] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 2018 Collection ==============================|
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2018-01-01,2018-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 22:28:13,251] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,252] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 22:28:13,255] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,255] [builder.py:1575]           [DEBUG]    | 15 IDs Found                                                                                       |
+[2022-11-16 22:28:13,255] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:28:13,267] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,267] [builder.py:2159]           [INFO]     |============================= Adding to Oscars Winners 2018 Collection =============================|
+[2022-11-16 22:28:13,267] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:13,267] [builder.py:2174]           [INFO]     | 1/2 | Oscars Winners 2018 Collection | + | Spider-Man: Into the Spider-Verse (2018)                |
+[2022-11-16 22:28:13,424] [builder.py:2174]           [INFO]     | 2/2 | Oscars Winners 2018 Collection | + | A Star Is Born (2018)                                   |
+[2022-11-16 22:28:18,168] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:18,168] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:28:18,168] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:18,169] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:28:18,169] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:18,187] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Black Panther (2018) (TMDb: 284054)                           |
+[2022-11-16 22:28:18,199] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | The Favourite (2018) (TMDb: 375262)                           |
+[2022-11-16 22:28:18,210] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Green Book (2018) (TMDb: 490132)                              |
+[2022-11-16 22:28:18,227] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)                       |
+[2022-11-16 22:28:18,232] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Vice (2018) (TMDb: 429197)                                    |
+[2022-11-16 22:28:18,247] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | BlacKkKlansman (2018) (TMDb: 487558)                          |
+[2022-11-16 22:28:18,259] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | First Man (2018) (TMDb: 369972)                               |
+[2022-11-16 22:28:18,271] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | If Beale Street Could Talk (2018) (TMDb: 465914)              |
+[2022-11-16 22:28:18,287] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Roma (2018) (TMDb: 426426)                                    |
+[2022-11-16 22:28:18,315] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Free Solo (2018) (TMDb: 515042)                               |
+[2022-11-16 22:28:18,336] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Bao (2018) (TMDb: 514754)                                     |
+[2022-11-16 22:28:18,350] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Skin (2018) (TMDb: 569485)                                    |
+[2022-11-16 22:28:18,364] [builder.py:2321]           [INFO]     | Oscars Winners 2018 Collection | ? | Period. End of Sentence. (2018) (TMDb: 524288)                |
+[2022-11-16 22:28:18,365] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:18,365] [builder.py:2327]           [INFO]     | 13 Movies Missing                                                                                  |
+[2022-11-16 22:28:22,779] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:22,780] [builder.py:2528]           [INFO]     |======================== Updating Details of Oscars Winners 2018 Collection ========================|
+[2022-11-16 22:28:22,780] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:22,790] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Academy Awards (Oscars) Winners for 2018.
+                                                                 | Sort Title | !16_Oscars Winners 2018
+                                                                 | Label | +Oscars Winners Awards, +PMM
+[2022-11-16 22:28:25,422] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:28:25,423] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:28:27,806] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:28:30,238] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 22:28:30,251] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Oscars Winners 2018
+[2022-11-16 22:28:30,252] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:28:30,252] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2018.jpg
+[2022-11-16 22:28:30,378] [library.py:178]            [INFO]     | Detail: asset_directory updated Oscars Winners 2018's poster to [File] config/Old_Movies/Assets/Oscars Winners 2018/poster.jpg
+[2022-11-16 22:28:30,427] [builder.py:2686]           [INFO]     | 
+[2022-11-16 22:28:30,427] [builder.py:2687]           [INFO]     |============================== Sorting Oscars Winners 2018 Collection ==============================|
+[2022-11-16 22:28:30,427] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 22:28:30,427] [builder.py:2704]           [INFO]     | Moving Spider-Man: Into the Spider-Verse (2018) to the beginning                                   |
+[2022-11-16 22:28:30,461] [builder.py:2704]           [INFO]     | Moving A Star Is Born (2018) after Spider-Man: Into the Spider-Verse (2018)                        |
+[2022-11-16 22:28:30,494] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:28:30,494] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:28:30,494] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 2018 Collection                               |
+[2022-11-16 22:28:30,494] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:17                                    |
+[2022-11-16 22:28:30,494] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

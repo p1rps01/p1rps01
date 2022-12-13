@@ -1,0 +1,944 @@
+[2022-11-16 18:42:44,584] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:42:44,584] [builder.py:193]            [INFO]     |                              Christmas Collection in Halloween Movies                              |
+[2022-11-16 18:42:44,584] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:42:44,585] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:42:44,585] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:42:44,585] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,585] [meta.py:210]               [DEBUG]    |========================================= Template Holiday =========================================|
+[2022-11-16 18:42:44,586] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,587] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,587] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:42:44,588] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,588] [meta.py:515]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/111696', 'sort_title': '+++++++_Christmas', 'collection_order': 'release'} |
+[2022-11-16 18:42:44,588] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,588] [builder.py:223]            [INFO]     |================================= Validating Christmas Attributes ==================================|
+[2022-11-16 18:42:44,588] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,589] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:42:44,589] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 18:42:44,589] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,589] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:42:44,589] [builder.py:651]            [DEBUG]    | Value: ['https://trakt.tv/users/movistapp/lists/christmas-movies', 'https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza', 'https://trakt.tv/users/pualani78/lists/christmas-2020', 'https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy'] |
+[2022-11-16 18:42:44,665] [trakt.py:429]              [ERROR]    | Trakt Error: List https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza not found   |
+[2022-11-16 18:42:44,814] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:44,815] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 18:42:44,815] [builder.py:651]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls025976544/', 'https://www.imdb.com/list/ls003863000/', 'https://www.imdb.com/list/ls027454200/', 'https://www.imdb.com/list/ls027886673/', 'https://www.imdb.com/list/ls097998599/'] |
+[2022-11-16 18:42:56,192] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,196] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:42:56,199] [builder.py:651]            [DEBUG]    | Value: Christmas film is a genre that revolves around the plot involving Christmas.                |
+[2022-11-16 18:42:56,199] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,199] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:42:56,199] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/111696                                                   |
+[2022-11-16 18:42:56,828] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,828] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:42:56,829] [builder.py:651]            [DEBUG]    | Value: +++++++_Christmas                                                                           |
+[2022-11-16 18:42:56,887] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:42:56,888] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:42:56,888] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:56,888] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Christmas Collection ===================================|
+[2022-11-16 18:42:56,888] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:56,888] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 18:42:56,889] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,889] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/movistapp/lists/christmas-movies                       |
+[2022-11-16 18:42:56,889] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:56,889] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/movistapp/lists/christmas-movies                     |
+[2022-11-16 18:42:56,941] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,941] [builder.py:1575]           [DEBUG]    | 50 IDs Found                                                                                       |
+[2022-11-16 18:42:56,941] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,942] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:56,942] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pualani78/lists/christmas-2020                         |
+[2022-11-16 18:42:56,942] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:56,942] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/pualani78/lists/christmas-2020                       |
+[2022-11-16 18:42:57,031] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,032] [builder.py:1575]           [DEBUG]    | 202 IDs Found                                                                                      |
+[2022-11-16 18:42:57,032] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,033] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,033] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy            |
+[2022-11-16 18:42:57,033] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:57,033] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy          |
+[2022-11-16 18:42:57,085] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,086] [builder.py:1575]           [DEBUG]    | 92 IDs Found                                                                                       |
+[2022-11-16 18:42:57,086] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,086] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:42:57,086] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls025976544/', 'limit': 0}                  |
+[2022-11-16 18:42:57,086] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:42:57,086] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls025976544/                                       |
+[2022-11-16 18:43:05,985] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:05,986] [builder.py:1575]           [DEBUG]    | 131 IDs Found                                                                                      |
+[2022-11-16 18:43:05,986] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:06,085] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:06,088] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls003863000/', 'limit': 0}                  |
+[2022-11-16 18:43:06,090] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:43:06,090] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls003863000/                                       |
+[2022-11-16 18:43:16,814] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:16,815] [builder.py:1575]           [DEBUG]    | 200 IDs Found                                                                                      |
+[2022-11-16 18:43:16,815] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:16,909] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0883411                                             |
+[2022-11-16 18:43:16,953] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1799503                                             |
+[2022-11-16 18:43:16,963] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2022482                                             |
+[2022-11-16 18:43:16,985] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:16,985] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls027454200/', 'limit': 0}                  |
+[2022-11-16 18:43:16,985] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:43:16,985] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls027454200/                                       |
+[2022-11-16 18:43:26,176] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:26,177] [builder.py:1575]           [DEBUG]    | 101 IDs Found                                                                                      |
+[2022-11-16 18:43:26,177] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:26,254] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:26,255] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls027886673/', 'limit': 0}                  |
+[2022-11-16 18:43:26,255] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:43:26,255] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls027886673/                                       |
+[2022-11-16 18:43:48,254] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:48,255] [builder.py:1575]           [DEBUG]    | 420 IDs Found                                                                                      |
+[2022-11-16 18:43:48,255] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:48,362] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7008874                                             |
+[2022-11-16 18:43:48,414] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0060236                                             |
+[2022-11-16 18:43:48,496] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0451139                                             |
+[2022-11-16 18:43:48,608] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4313876                                             |
+[2022-11-16 18:43:48,640] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:48,640] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls097998599/', 'limit': 0}                  |
+[2022-11-16 18:43:48,640] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:43:48,641] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls097998599/                                       |
+[2022-11-16 18:43:53,674] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:53,675] [builder.py:1575]           [DEBUG]    | 81 IDs Found                                                                                       |
+[2022-11-16 18:43:53,675] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:43:53,730] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0820261                                             |
+[2022-11-16 18:43:53,738] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0825948                                             |
+[2022-11-16 18:43:53,744] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:43:53,745] [builder.py:2159]           [INFO]     |================================== Adding to Christmas Collection ==================================|
+[2022-11-16 18:43:53,745] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:43:53,750] [builder.py:2174]           [INFO]     | 1/5 | Christmas Collection | = | Silent Night, Deadly Night (1984)                                 |
+[2022-11-16 18:43:53,750] [builder.py:2174]           [INFO]     | 2/5 | Christmas Collection | = | Silent Night, Deadly Night Part 2 (1987)                          |
+[2022-11-16 18:43:53,750] [builder.py:2174]           [INFO]     | 3/5 | Christmas Collection | = | Santa's Slay (2005)                                               |
+[2022-11-16 18:43:53,750] [builder.py:2174]           [INFO]     | 4/5 | Christmas Collection | = | Krampus (2015)                                                    |
+[2022-11-16 18:43:53,750] [builder.py:2174]           [INFO]     | 5/5 | Christmas Collection | = | Silent Night, Deadly Night 3: Better Watch Out! (1989)            |
+[2022-11-16 18:43:53,750] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:43:53,750] [builder.py:2196]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:43:53,750] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:43:53,751] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:43:53,751] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:43:53,764] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It's a Wonderful Life (1946) (TMDb: 1585)                               |
+[2022-11-16 18:43:53,774] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Elf (2003) (TMDb: 10719)                                                |
+[2022-11-16 18:43:53,776] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bad Santa (2003) (TMDb: 10147)                                          |
+[2022-11-16 18:43:53,786] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Gremlins (1984) (TMDb: 927)                                             |
+[2022-11-16 18:43:53,795] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home Alone (1990) (TMDb: 771)                                           |
+[2022-11-16 18:43:53,806] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Edward Scissorhands (1990) (TMDb: 162)                                  |
+[2022-11-16 18:43:53,816] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Snowman (1982) (TMDb: 13396)                                        |
+[2022-11-16 18:43:53,829] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Kiss Kiss Bang Bang (2005) (TMDb: 5236)                                 |
+[2022-11-16 18:43:53,838] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Charlie Brown Christmas (1965) (TMDb: 13187)                          |
+[2022-11-16 18:43:53,848] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Batman Returns (1992) (TMDb: 364)                                       |
+[2022-11-16 18:43:53,858] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Scrooged (1988) (TMDb: 9647)                                            |
+[2022-11-16 18:43:53,868] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 8 Women (2002) (TMDb: 1958)                                             |
+[2022-11-16 18:43:53,879] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) (TMDb: 411) |
+[2022-11-16 18:43:53,890] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Miracle on 34th Street (1947) (TMDb: 11881)                             |
+[2022-11-16 18:43:53,900] [builder.py:2321]           [INFO]     | Christmas Collection | ? | In Bruges (2008) (TMDb: 8321)                                           |
+[2022-11-16 18:43:53,911] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Long Kiss Goodnight (1996) (TMDb: 11412)                            |
+[2022-11-16 18:43:53,924] [builder.py:2321]           [INFO]     | Christmas Collection | ? | How the Grinch Stole Christmas (2000) (TMDb: 8871)                      |
+[2022-11-16 18:43:53,935] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Muppet Christmas Carol (1992) (TMDb: 10437)                         |
+[2022-11-16 18:43:53,944] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nightmare Before Christmas (1993) (TMDb: 9479)                      |
+[2022-11-16 18:43:53,954] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bridget Jones's Diary (2001) (TMDb: 634)                                |
+[2022-11-16 18:43:53,967] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Brazil (1985) (TMDb: 68)                                                |
+[2022-11-16 18:43:53,981] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Trading Places (1983) (TMDb: 1621)                                      |
+[2022-11-16 18:43:53,992] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Arthur Christmas (2011) (TMDb: 51052)                                   |
+[2022-11-16 18:43:54,002] [builder.py:2321]           [INFO]     | Christmas Collection | ? | While You Were Sleeping (1995) (TMDb: 2064)                             |
+[2022-11-16 18:43:54,013] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (1938) (TMDb: 25842)                                  |
+[2022-11-16 18:43:54,028] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Die Hard 2 (1990) (TMDb: 1573)                                          |
+[2022-11-16 18:43:54,052] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Die Hard (1988) (TMDb: 562)                                             |
+[2022-11-16 18:43:54,063] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Evil (1980) (TMDb: 27230)                                     |
+[2022-11-16 18:43:54,074] [builder.py:2321]           [INFO]     | Christmas Collection | ? | About a Boy (2002) (TMDb: 245)                                          |
+[2022-11-16 18:43:54,098] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Meet Me in St. Louis (1944) (TMDb: 909)                                 |
+[2022-11-16 18:43:54,108] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 'R Xmas (2001) (TMDb: 49110)                                            |
+[2022-11-16 18:43:54,118] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Babes in Toyland (1934) (TMDb: 25898)                                   |
+[2022-11-16 18:43:54,129] [builder.py:2321]           [INFO]     | Christmas Collection | ? | National Lampoon's Christmas Vacation (1989) (TMDb: 5825)               |
+[2022-11-16 18:43:54,139] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey's Christmas Carol (1983) (TMDb: 14813)                           |
+[2022-11-16 18:43:54,149] [builder.py:2321]           [INFO]     | Christmas Collection | ? | White Christmas (1954) (TMDb: 13368)                                    |
+[2022-11-16 18:43:54,159] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Inn (1942) (TMDb: 13485)                                        |
+[2022-11-16 18:43:54,169] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Prancer (1989) (TMDb: 24951)                                            |
+[2022-11-16 18:43:54,190] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ghostbusters II (1989) (TMDb: 2978)                                     |
+[2022-11-16 18:43:54,205] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Lethal Weapon (1987) (TMDb: 941)                                        |
+[2022-11-16 18:43:54,215] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Planes, Trains and Automobiles (1987) (TMDb: 2609)                      |
+[2022-11-16 18:43:54,225] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Holiday (2006) (TMDb: 1581)                                         |
+[2022-11-16 18:43:54,236] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Story (1983) (TMDb: 850)                                    |
+[2022-11-16 18:43:54,247] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Polar Express (2004) (TMDb: 5255)                                   |
+[2022-11-16 18:43:54,258] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Connecticut (1945) (TMDb: 13669)                           |
+[2022-11-16 18:43:54,268] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Joyeux Noel (2005) (TMDb: 11661)                                        |
+[2022-11-16 18:43:54,278] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Christmas, Mr. Lawrence (1983) (TMDb: 11948)                      |
+[2022-11-16 18:43:54,288] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Love Actually (2003) (TMDb: 508)                                        |
+[2022-11-16 18:43:54,303] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Family Stone (2005) (TMDb: 9043)                                    |
+[2022-11-16 18:43:54,314] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Reindeer Games (2000) (TMDb: 2155)                                      |
+[2022-11-16 18:43:54,324] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Clause (1994) (TMDb: 11395)                                   |
+[2022-11-16 18:43:54,334] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Chronicles: Part Two (2020) (TMDb: 654028)                |
+[2022-11-16 18:43:54,344] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jingle Jangle: A Christmas Journey (2020) (TMDb: 622855)                |
+[2022-11-16 18:43:54,355] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Star (2017) (TMDb: 355547)                                          |
+[2022-11-16 18:43:54,374] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Daddy's Home 2 (2017) (TMDb: 419680)                                    |
+[2022-11-16 18:43:54,392] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nativity! (2009) (TMDb: 49522)                                          |
+[2022-11-16 18:43:54,406] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nativity 2: Danger in the Manger! (2012) (TMDb: 139380)                 |
+[2022-11-16 18:43:54,418] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Just Another Christmas (2020) (TMDb: 755339)                            |
+[2022-11-16 18:43:54,429] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Candy Cane Christmas (2020) (TMDb: 724425)                              |
+[2022-11-16 18:43:54,440] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Aunt (2020) (TMDb: 744929)                                |
+[2022-11-16 18:43:54,450] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Cranberry Christmas (2020) (TMDb: 737795)                               |
+[2022-11-16 18:43:54,460] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Crafty Christmas Romance (2020) (TMDb: 744927)                        |
+[2022-11-16 18:43:54,471] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Royal Holiday (2020) (TMDb: 737762)                                 |
+[2022-11-16 18:43:54,481] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Last Christmas Party (2020) (TMDb: 666793)                          |
+[2022-11-16 18:43:54,491] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Picture Perfect Royal Christmas (2019) (TMDb: 655466)                   |
+[2022-11-16 18:43:54,501] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Crush (2019) (TMDb: 657293)                                   |
+[2022-11-16 18:43:54,512] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Project Christmas Wish (2020) (TMDb: 746480)                            |
+[2022-11-16 18:43:54,522] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Break (2020) (TMDb: 744958)                                 |
+[2022-11-16 18:43:54,524] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Lonestar Christmas (2020) (TMDb: 744954)                                |
+[2022-11-16 18:43:54,535] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Unlocking Christmas (2020) (TMDb: 746476)                               |
+[2022-11-16 18:43:54,548] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Inn Love by Christmas (2020) (TMDb: 744950)                             |
+[2022-11-16 18:43:54,558] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Glenbrooke Christmas (2020) (TMDb: 746056)                            |
+[2022-11-16 18:43:54,568] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Time for Us to Come Home for Christmas (2020) (TMDb: 746049)            |
+[2022-11-16 18:43:54,577] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Squad (2020) (TMDb: 744949)                                   |
+[2022-11-16 18:43:54,595] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Ever After (2020) (TMDb: 744948)                              |
+[2022-11-16 18:43:54,607] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Spotlight on Christmas (2020) (TMDb: 744945)                            |
+[2022-11-16 18:43:54,631] [builder.py:2321]           [INFO]     | Christmas Collection | ? | USS Christmas (2020) (TMDb: 746467)                                     |
+[2022-11-16 18:43:54,641] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Once Upon a Main Street (2020) (TMDb: 744943)                           |
+[2022-11-16 18:43:54,653] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Liddle Christmas Wedding (2020) (TMDb: 744942)                    |
+[2022-11-16 18:43:54,663] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Five Star Christmas (2020) (TMDb: 746060)                               |
+[2022-11-16 18:43:54,672] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas by Starlight (2020) (TMDb: 746045)                            |
+[2022-11-16 18:43:54,683] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Happiest Season (2020) (TMDb: 520172)                                   |
+[2022-11-16 18:43:54,692] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dear Christmas (2020) (TMDb: 744941)                                    |
+[2022-11-16 18:43:54,701] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Tree Grows in Colorado (2020) (TMDb: 737764)                |
+[2022-11-16 18:43:54,716] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Good Morning Christmas! (2020) (TMDb: 746043)                           |
+[2022-11-16 18:43:54,731] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Godwink Christmas: Second Chance, First Love (2020) (TMDb: 746051)    |
+[2022-11-16 18:43:54,740] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas House (2020) (TMDb: 746042)                               |
+[2022-11-16 18:43:54,750] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Timeless Christmas (2020) (TMDb: 746039)                              |
+[2022-11-16 18:43:54,759] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas on Wheels (2020) (TMDb: 744936)                               |
+[2022-11-16 18:43:54,768] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with the Darlings (2020) (TMDb: 746032)                       |
+[2022-11-16 18:43:54,778] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Ring (2020) (TMDb: 746035)                                |
+[2022-11-16 18:43:54,787] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holidate (2020) (TMDb: 615665)                                          |
+[2022-11-16 18:43:54,797] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Chateau Christmas (2020) (TMDb: 737779)                                 |
+[2022-11-16 18:43:54,807] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mr. 365 (2018) (TMDb: 569982)                                           |
+[2022-11-16 18:43:54,819] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Once Upon a Snowman (2020) (TMDb: 741074)                               |
+[2022-11-16 18:43:54,832] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Unwrapped (2020) (TMDb: 734278)                               |
+[2022-11-16 18:43:54,849] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas on Ice (2020) (TMDb: 744925)                                  |
+[2022-11-16 18:43:54,862] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Days of Christmas (2020) (TMDb: 736422)                              |
+[2022-11-16 18:43:54,877] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Love in Winterland (2020) (TMDb: 631430)                                |
+[2022-11-16 18:43:54,888] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Double Holiday (2019) (TMDb: 630913)                                    |
+[2022-11-16 18:43:54,899] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Montana (2019) (TMDb: 631409)                              |
+[2022-11-16 18:43:54,909] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas at Dollywood (2019) (TMDb: 626309)                            |
+[2022-11-16 18:43:54,919] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Eloise at Christmastime (2003) (TMDb: 59191)                            |
+[2022-11-16 18:43:54,940] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Story (2007) (TMDb: 21501)                                    |
+[2022-11-16 18:43:54,960] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Cupid (2010) (TMDb: 52060)                                    |
+[2022-11-16 18:43:54,971] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Mail (2010) (TMDb: 76706)                                     |
+[2022-11-16 18:43:54,982] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Search for Santa Paws (2010) (TMDb: 48844)                          |
+[2022-11-16 18:43:54,992] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Golden Christmas (2009) (TMDb: 51848)                                 |
+[2022-11-16 18:43:55,003] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with Holly (2012) (TMDb: 149786)                              |
+[2022-11-16 18:43:55,019] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Buddies (2009) (TMDb: 24833)                                      |
+[2022-11-16 18:43:55,030] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nutcracker: The Untold Story (2010) (TMDb: 49852)                   |
+[2022-11-16 18:43:55,043] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Perfect Day (2006) (TMDb: 53659)                                      |
+[2022-11-16 18:43:55,054] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Shoes (2002) (TMDb: 30768)                                |
+[2022-11-16 18:43:55,063] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Dog Who Saved Christmas Vacation (2010) (TMDb: 52268)               |
+[2022-11-16 18:43:55,083] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Consultant (2012) (TMDb: 150709)                          |
+[2022-11-16 18:43:55,093] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Recipe for a Perfect Christmas (2005) (TMDb: 52925)                     |
+[2022-11-16 18:43:55,103] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Get Santa (2014) (TMDb: 250535)                                         |
+[2022-11-16 18:43:55,113] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Incident (2010) (TMDb: 112340)                                |
+[2022-11-16 18:43:55,123] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Switch (2014) (TMDb: 249059)                                      |
+[2022-11-16 18:43:55,132] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Tree Miracle (2013) (TMDb: 233481)                          |
+[2022-11-16 18:43:55,146] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Country Christmas (2013) (TMDb: 249033)                               |
+[2022-11-16 18:43:55,156] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Very Merry Mix-Up (2013) (TMDb: 238749)                               |
+[2022-11-16 18:43:55,170] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Naughty or Nice (2012) (TMDb: 145711)                                   |
+[2022-11-16 18:43:55,172] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Angel (2013) (TMDb: 142322)                                   |
+[2022-11-16 18:43:55,182] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Under Wraps (2014) (TMDb: 299584)                             |
+[2022-11-16 18:43:55,191] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Matchmaker Santa (2012) (TMDb: 144785)                                  |
+[2022-11-16 18:43:55,201] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Family for Christmas (2015) (TMDb: 348393)                              |
+[2022-11-16 18:43:55,222] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Starry Christmas (2014) (TMDb: 299574)                              |
+[2022-11-16 18:43:55,232] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Belle for Christmas (2014) (TMDb: 298539)                             |
+[2022-11-16 18:43:55,241] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Journey to the Christmas Star (2012) (TMDb: 149427)                     |
+[2022-11-16 18:43:55,253] [builder.py:2321]           [INFO]     | Christmas Collection | ? | All About Christmas Eve (2012) (TMDb: 149490)                           |
+[2022-11-16 18:43:55,268] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holly's Holiday (2012) (TMDb: 231385)                                   |
+[2022-11-16 18:43:55,270] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Boston (2005) (TMDb: 7088)                                 |
+[2022-11-16 18:43:55,280] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claus: The Movie (1985) (TMDb: 13764)                             |
+[2022-11-16 18:43:55,291] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Unaccompanied Minors (2006) (TMDb: 18147)                               |
+[2022-11-16 18:43:55,300] [builder.py:2321]           [INFO]     | Christmas Collection | ? | All I Want for Christmas (1991) (TMDb: 13644)                           |
+[2022-11-16 18:43:55,311] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rudolph and Frosty's Christmas in July (1979) (TMDb: 40246)             |
+[2022-11-16 18:43:55,320] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Just Friends (2005) (TMDb: 10033)                                       |
+[2022-11-16 18:43:55,330] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ernest Saves Christmas (1988) (TMDb: 26386)                             |
+[2022-11-16 18:43:55,345] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Saturday Night Live: Christmas (1999) (TMDb: 295720)                    |
+[2022-11-16 18:43:55,356] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Little Drummer Boy (1968) (TMDb: 18846)                             |
+[2022-11-16 18:43:55,358] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Frosty's Winter Wonderland (1976) (TMDb: 26539)                         |
+[2022-11-16 18:43:55,580] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 48878                                                       |
+[2022-11-16 18:43:55,597] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Pluto's Christmas Tree (1952) (TMDb: 61080)                             |
+[2022-11-16 18:43:55,608] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas & Co. (2017) (TMDb: 451500)                                   |
+[2022-11-16 18:43:55,617] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Angela's Christmas (2017) (TMDb: 563710)                                |
+[2022-11-16 18:43:55,629] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Land (2015) (TMDb: 369054)                                    |
+[2022-11-16 18:43:55,638] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Black Christmas (1974) (TMDb: 16938)                                    |
+[2022-11-16 18:43:55,648] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Icetastrophe (2014) (TMDb: 301816)                            |
+[2022-11-16 18:43:55,658] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Magic (2011) (TMDb: 81420)                                    |
+[2022-11-16 18:43:55,668] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Homegrown Christmas (2018) (TMDb: 550030)                               |
+[2022-11-16 18:43:55,678] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Twister (2012) (TMDb: 208466)                                 |
+[2022-11-16 18:43:55,699] [builder.py:2321]           [INFO]     | Christmas Collection | ? | El Camino Christmas (2017) (TMDb: 485504)                               |
+[2022-11-16 18:43:55,714] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Knight Before Christmas (2019) (TMDb: 611207)                       |
+[2022-11-16 18:43:55,729] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Operation Christmas Drop (2020) (TMDb: 738646)                          |
+[2022-11-16 18:43:55,740] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Ranch (2016) (TMDb: 424399)                                   |
+[2022-11-16 18:43:55,750] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Christmas (2001) (TMDb: 43557)                                    |
+[2022-11-16 18:43:55,760] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Reservations (2019) (TMDb: 626276)                            |
+[2022-11-16 18:43:55,769] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Saving Christmas (2014) (TMDb: 295884)                                  |
+[2022-11-16 18:43:55,780] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Stealing Christmas (2003) (TMDb: 40836)                                 |
+[2022-11-16 18:43:55,790] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Crash (2009) (TMDb: 140662)                                   |
+[2022-11-16 18:43:55,803] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Pinocchio's Christmas (1980) (TMDb: 50934)                              |
+[2022-11-16 18:43:55,812] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Eve (1947) (TMDb: 58799)                                      |
+[2022-11-16 18:43:55,822] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Evergreen (2017) (TMDb: 474977)                            |
+[2022-11-16 18:43:55,833] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Kiwi Christmas (2017) (TMDb: 476860)                                    |
+[2022-11-16 18:43:55,843] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Candle (2013) (TMDb: 226354)                              |
+[2022-11-16 18:43:55,864] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mole's Christmas (1994) (TMDb: 373120)                                  |
+[2022-11-16 18:43:55,874] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Tail (2014) (TMDb: 369607)                                  |
+[2022-11-16 18:43:55,884] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Small Town Christmas (2018) (TMDb: 555277)                              |
+[2022-11-16 18:43:55,901] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Blood (2017) (TMDb: 475249)                                   |
+[2022-11-16 18:43:55,911] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Shepherd (2014) (TMDb: 299583)                            |
+[2022-11-16 18:43:55,921] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Swap (2016) (TMDb: 428526)                                |
+[2022-11-16 18:43:55,931] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Disney Christmas Gift (1982) (TMDb: 177868)                           |
+[2022-11-16 18:43:55,959] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 29447                                                       |
+[2022-11-16 18:43:55,969] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Walt Disney Christmas (1982) (TMDb: 276984)                           |
+[2022-11-16 18:43:55,983] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Scooby-Doo! Christmas (2002) (TMDb: 511301)                           |
+[2022-11-16 18:43:55,993] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Celebrate Christmas With Mickey, Donald & Friends (2000) (TMDb: 61549)  |
+[2022-11-16 18:43:56,003] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Charlie Brown's Christmas Tales (2002) (TMDb: 37556)                    |
+[2022-11-16 18:43:56,012] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Classic Cartoon Favorites Volume 8: Holiday Celebration with Mickey and Pals (2005) (TMDb: 368664) |
+[2022-11-16 18:43:56,023] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Classic Christmas Favorites (2008) (TMDb: 265538)                       |
+[2022-11-16 18:43:56,034] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Classic Cartoon Favorites, Vol. 9 - Classic Holiday Stories (2005) (TMDb: 281607) |
+[2022-11-16 18:43:56,056] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Frosty the Snowman (1969) (TMDb: 13675)                                 |
+[2022-11-16 18:43:56,075] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Frosty Returns (1992) (TMDb: 28042)                                     |
+[2022-11-16 18:43:56,084] [builder.py:2321]           [INFO]     | Christmas Collection | ? | I Want a Dog for Christmas, Charlie Brown (2003) (TMDb: 24251)          |
+[2022-11-16 18:43:56,095] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Legend of Frosty the Snowman (2005) (TMDb: 27933)                   |
+[2022-11-16 18:43:56,104] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey's Good Deed (1932) (TMDb: 81338)                                 |
+[2022-11-16 18:43:56,115] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night Before Christmas (1941) (TMDb: 39894)                         |
+[2022-11-16 18:43:56,125] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Original Christmas Classics (2012) (TMDb: 410405)                   |
+[2022-11-16 18:43:56,138] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rudolph the Red-Nosed Reindeer & the Island of Misfit Toys (2001) (TMDb: 43575) |
+[2022-11-16 18:43:56,148] [builder.py:2321]           [INFO]     | Christmas Collection | ? | VeggieTales: The Little Drummer Boy (2011) (TMDb: 289545)               |
+[2022-11-16 18:43:56,159] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Winnie the Pooh: Seasons of Giving (1999) (TMDb: 261339)                |
+[2022-11-16 18:43:56,170] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Year Without a Santa Claus (1974) (TMDb: 13397)                     |
+[2022-11-16 18:43:56,180] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Winter Wonderland (2003) (TMDb: 260787)                                 |
+[2022-11-16 18:43:56,190] [builder.py:2321]           [INFO]     | Christmas Collection | ? | How Murray Saved Christmas (2014) (TMDb: 306449)                        |
+[2022-11-16 18:43:56,213] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Frozen Christmas (2016) (TMDb: 498276)                                |
+[2022-11-16 18:43:56,235] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Miser Brothers' Christmas (2008) (TMDb: 305355)                       |
+[2022-11-16 18:43:56,245] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey Mouse Clubhouse: Mickey Saves Santa (2006) (TMDb: 287681)        |
+[2022-11-16 18:43:56,263] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Berenstain Bears' Christmas Tree (1979) (TMDb: 83477)               |
+[2022-11-16 18:43:56,285] [builder.py:2321]           [INFO]     | Christmas Collection | ? | DreamWorks Home: For the Holidays (2017) (TMDb: 490156)                 |
+[2022-11-16 18:43:56,294] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Niko & the Way to the Stars (2008) (TMDb: 25741)                        |
+[2022-11-16 18:43:56,304] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Trolls Holiday (2017) (TMDb: 484510)                                    |
+[2022-11-16 18:43:56,315] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An Elf's Story (2011) (TMDb: 79579)                                     |
+[2022-11-16 18:43:56,329] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 704660                                                      |
+[2022-11-16 18:43:56,339] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Letter (2019) (TMDb: 657912)                              |
+[2022-11-16 18:43:56,350] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nutcracker and the Four Realms (2018) (TMDb: 426543)                |
+[2022-11-16 18:43:56,360] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Let It Snow (2019) (TMDb: 295151)                                       |
+[2022-11-16 18:43:56,370] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Noelle (2020) (TMDb: 454467)                                            |
+[2022-11-16 18:43:56,380] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas List (2016) (TMDb: 416251)                                    |
+[2022-11-16 18:43:56,395] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Gifts of Christmas (2015) (TMDb: 363483)                             |
+[2022-11-16 18:43:56,405] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Broadcasting Christmas (2016) (TMDb: 421759)                            |
+[2022-11-16 18:43:56,415] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Bishop's Wife (1947) (TMDb: 19490)                                  |
+[2022-11-16 18:43:56,425] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas to Remember (2016) (TMDb: 423893)                           |
+[2022-11-16 18:43:56,436] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Winnie the Pooh: A Very Merry Pooh Year (2002) (TMDb: 13706)            |
+[2022-11-16 18:43:56,448] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Snowman and The Snowdog (2012) (TMDb: 185025)                       |
+[2022-11-16 18:43:56,458] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dolly Parton's Christmas of Many Colors: Circle of Love (2016) (TMDb: 426670) |
+[2022-11-16 18:43:56,469] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Snow Queen (2012) (TMDb: 164372)                                    |
+[2022-11-16 18:43:56,479] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Curious George: A Very Monkey Christmas (2009) (TMDb: 263945)           |
+[2022-11-16 18:43:56,490] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Gift Wrapped Christmas (2015) (TMDb: 367536)                          |
+[2022-11-16 18:43:56,503] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Noel (2004) (TMDb: 41171)                                               |
+[2022-11-16 18:43:56,515] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Letters to Santa (2011) (TMDb: 79221)                                   |
+[2022-11-16 18:43:56,527] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Murder, She Baked: A Plum Pudding Mystery (2015) (TMDb: 361751)         |
+[2022-11-16 18:43:56,539] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Flight Before Christmas (2015) (TMDb: 367538)                       |
+[2022-11-16 18:43:56,556] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Shoe Addict's Christmas (2018) (TMDb: 535809)                         |
+[2022-11-16 18:43:56,568] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Finding Mrs. Claus (2012) (TMDb: 150654)                                |
+[2022-11-16 18:43:56,578] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Northpole (2014) (TMDb: 299579)                                         |
+[2022-11-16 18:43:56,593] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nativity 3: Dude, Where's My Donkey?! (2014) (TMDb: 295049)             |
+[2022-11-16 18:43:56,603] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jack Frost (1979) (TMDb: 26538)                                         |
+[2022-11-16 18:43:56,615] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Most Wonderful Time of the Year (2008) (TMDb: 35830)                |
+[2022-11-16 18:43:56,627] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Cookie Cutter Christmas (2014) (TMDb: 299578)                         |
+[2022-11-16 18:43:56,638] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Becoming Santa (2015) (TMDb: 367541)                                    |
+[2022-11-16 18:43:56,649] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas at Graceland (2018) (TMDb: 535808)                            |
+[2022-11-16 18:43:56,659] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa's Workshop (1932) (TMDb: 67167)                                   |
+[2022-11-16 18:43:56,669] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nothing Like the Holidays (2008) (TMDb: 25852)                          |
+[2022-11-16 18:43:56,679] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Time in South Park (2000) (TMDb: 148039)                      |
+[2022-11-16 18:43:56,689] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Joy (2016) (TMDb: 428845)                                       |
+[2022-11-16 18:43:56,699] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rudolph the Red-Nosed Reindeer (1948) (TMDb: 81294)                     |
+[2022-11-16 18:43:56,710] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Rooftop Christmas Tree (2016) (TMDb: 428119)                        |
+[2022-11-16 18:43:56,721] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Calendar (2017) (TMDb: 488262)                            |
+[2022-11-16 18:43:56,732] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas on Honeysuckle Lane (2018) (TMDb: 553798)                     |
+[2022-11-16 18:43:56,743] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nutcracker Prince (1990) (TMDb: 13759)                              |
+[2022-11-16 18:43:56,755] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Alone for Christmas (2013) (TMDb: 241742)                               |
+[2022-11-16 18:43:56,770] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Gingerbread Romance (2018) (TMDb: 550033)                             |
+[2022-11-16 18:43:56,780] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Very Nutty Christmas (2018) (TMDb: 550651)                            |
+[2022-11-16 18:43:56,782] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Winnie the Pooh & Christmas Too (1991) (TMDb: 80357)                    |
+[2022-11-16 18:43:56,793] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Same Time, Next Christmas (2019) (TMDb: 639422)                         |
+[2022-11-16 18:43:56,805] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Ultimate Christmas Present (2000) (TMDb: 71887)                     |
+[2022-11-16 18:43:56,817] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Wonderland (2007) (TMDb: 14094)                            |
+[2022-11-16 18:43:56,828] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nestor, the Long-Eared Christmas Donkey (1977) (TMDb: 26537)            |
+[2022-11-16 18:43:56,839] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Who? (2000) (TMDb: 42332)                                         |
+[2022-11-16 18:43:56,854] [builder.py:2321]           [INFO]     | Christmas Collection | ? | You, Me and the Christmas Trees (2021) (TMDb: 877692)                   |
+[2022-11-16 18:43:56,894] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Boyfriends of Christmas Past (2021) (TMDb: 874162)                      |
+[2022-11-16 18:43:56,903] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Stakeout (2021) (TMDb: 874238)                                |
+[2022-11-16 18:43:56,915] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Harmony (2021) (TMDb: 874220)                              |
+[2022-11-16 18:43:56,933] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Coyote Creek Christmas (2021) (TMDb: 874127)                            |
+[2022-11-16 18:43:56,944] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Open by Christmas (2021) (TMDb: 874161)                                 |
+[2022-11-16 18:43:56,959] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Sail (2021) (TMDb: 874228)                                    |
+[2022-11-16 18:43:56,972] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Next Stop, Christmas (2021) (TMDb: 877004)                              |
+[2022-11-16 18:43:56,984] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Treasure (2021) (TMDb: 866660)                              |
+[2022-11-16 18:43:56,997] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Sister Swap: Christmas in the City (2021) (TMDb: 866669)                |
+[2022-11-16 18:43:57,008] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Contest (2021) (TMDb: 874144)                             |
+[2022-11-16 18:43:57,018] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nine Kittens of Christmas (2021) (TMDb: 876119)                     |
+[2022-11-16 18:43:57,028] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Sister Swap: A Hometown Holiday (2021) (TMDb: 866665)                   |
+[2022-11-16 18:43:57,039] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Every Time a Bell Rings (2021) (TMDb: 874239)                           |
+[2022-11-16 18:43:57,049] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas at Castle Hart (2021) (TMDb: 874166)                          |
+[2022-11-16 18:43:57,058] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas House 2: Deck Those Halls (2021) (TMDb: 874196)           |
+[2022-11-16 18:43:57,068] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Kiss Before Christmas (2021) (TMDb: 874260)                           |
+[2022-11-16 18:43:57,078] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One December Night (2021) (TMDb: 876444)                                |
+[2022-11-16 18:43:57,088] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nantucket Noel (2021) (TMDb: 874122)                                    |
+[2022-11-16 18:43:57,098] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Together With You (2021) (TMDb: 876103)                     |
+[2022-11-16 18:43:57,109] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An Ice Wine Christmas (2021) (TMDb: 879227)                             |
+[2022-11-16 18:43:57,119] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Picture Perfect Holiday (2021) (TMDb: 879229)                         |
+[2022-11-16 18:43:57,143] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 880520                                                      |
+[2022-11-16 18:43:57,158] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Baking Spirits Bright (2021) (TMDb: 874199)                             |
+[2022-11-16 18:43:57,168] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Tune (2021) (TMDb: 880536)                                 |
+[2022-11-16 18:43:57,171] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Liddle Christmas Baby (2021) (TMDb: 880545)                       |
+[2022-11-16 18:43:57,180] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Miracle in Motor City (2021) (TMDb: 880550)                             |
+[2022-11-16 18:43:57,190] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Welcome to the Christmas Family Reunion (2021) (TMDb: 880554)           |
+[2022-11-16 18:43:57,201] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Saying Yes to Christmas (2021) (TMDb: 880934)                           |
+[2022-11-16 18:43:57,217] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It Takes a Christmas Village (2021) (TMDb: 874252)                      |
+[2022-11-16 18:43:57,233] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Dance Reunion (2021) (TMDb: 832128)                         |
+[2022-11-16 18:43:57,245] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Movie Magic (2021) (TMDb: 880595)                             |
+[2022-11-16 18:43:57,256] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas With a Crown (2020) (TMDb: 757771)                            |
+[2022-11-16 18:43:57,269] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas by Chance (2021) (TMDb: 774260)                               |
+[2022-11-16 18:43:57,279] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Toying with the Holidays (2021) (TMDb: 878384)                          |
+[2022-11-16 18:43:57,289] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Candy Cane Candidate (2021) (TMDb: 879170)                              |
+[2022-11-16 18:43:57,300] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Ball (2021) (TMDb: 734274)                                |
+[2022-11-16 18:43:57,310] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Hot Chocolate Holiday (2021) (TMDb: 777405)                             |
+[2022-11-16 18:43:57,321] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Match Made in Mistletoe (2021) (TMDb: 854199)                           |
+[2022-11-16 18:43:57,331] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Kirk Franklin's A Gospel Christmas (2021) (TMDb: 881077)                |
+[2022-11-16 18:43:57,342] [builder.py:2321]           [INFO]     | Christmas Collection | ? | My Favorite Christmas Melody (2021) (TMDb: 881087)                      |
+[2022-11-16 18:43:57,352] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Secretly Santa (2021) (TMDb: 838189)                                    |
+[2022-11-16 18:43:57,361] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Fiancé for Christmas (2021) (TMDb: 881233)                            |
+[2022-11-16 18:43:57,371] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday in Santa Fe (2021) (TMDb: 881239)                               |
+[2022-11-16 18:43:57,382] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Holiday Fix Up (2021) (TMDb: 881245)                                |
+[2022-11-16 18:43:57,397] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Blending Christmas (2021) (TMDb: 881246)                                |
+[2022-11-16 18:43:57,408] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Enchanted Christmas Cake (2021) (TMDb: 881853)                      |
+[2022-11-16 18:43:57,434] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mistletoe in Montana (2021) (TMDb: 881857)                              |
+[2022-11-16 18:43:57,451] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Maps and Mistletoe (2021) (TMDb: 883955)                                |
+[2022-11-16 18:43:57,461] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ghosts of Christmas Past (2021) (TMDb: 883951)                          |
+[2022-11-16 18:43:57,481] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Under the Christmas Tree (2021) (TMDb: 883936)                          |
+[2022-11-16 18:43:57,499] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rebuilding a Dream Christmas (2021) (TMDb: 770593)                      |
+[2022-11-16 18:43:57,510] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas at Maple Creek (2020) (TMDb: 749546)                          |
+[2022-11-16 18:43:57,526] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Writing Around the Christmas Tree (2021) (TMDb: 883884)                 |
+[2022-11-16 18:43:57,536] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in My Heart (2021) (TMDb: 874152)                             |
+[2022-11-16 18:43:57,549] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Promise (2021) (TMDb: 874147)                             |
+[2022-11-16 18:43:57,564] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Debbie Macomber's A Mrs. Miracle Christmas (2021) (TMDb: 877690)        |
+[2022-11-16 18:43:57,579] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Our Christmas Journey (2021) (TMDb: 874190)                             |
+[2022-11-16 18:43:57,595] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Much Ado About Christmas (2021) (TMDb: 878410)                          |
+[2022-11-16 18:43:57,613] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Great Christmas Switch (2021) (TMDb: 874246)                        |
+[2022-11-16 18:43:57,629] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Time Is Here (2021) (TMDb: 878417)                            |
+[2022-11-16 18:43:57,639] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Kindhearted Christmas (2021) (TMDb: 878424)                           |
+[2022-11-16 18:43:57,650] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Royally Wrapped For Christmas (2021) (TMDb: 878419)                     |
+[2022-11-16 18:43:57,660] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Is You (2021) (TMDb: 874227)                                  |
+[2022-11-16 18:43:57,672] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jingle Bell Princess (2021) (TMDb: 874257)                              |
+[2022-11-16 18:43:57,685] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dancing Through the Snow (2021) (TMDb: 879111)                          |
+[2022-11-16 18:43:57,697] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Royal Christmas Engagement (2020) (TMDb: 748897)                      |
+[2022-11-16 18:43:57,708] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Snowy Christmas (2021) (TMDb: 818857)                                 |
+[2022-11-16 18:43:57,720] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snowed In for Christmas (2021) (TMDb: 838184)                           |
+[2022-11-16 18:43:57,731] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Fixing Up Christmas (2021) (TMDb: 849452)                               |
+[2022-11-16 18:43:57,741] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in the Rockies (2021) (TMDb: 769635)                          |
+[2022-11-16 18:43:57,751] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Furry Little Christmas (2021) (TMDb: 882995)                          |
+[2022-11-16 18:43:57,761] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Miracle for Daisy (2021) (TMDb: 881500)                     |
+[2022-11-16 18:43:57,771] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Together (2020) (TMDb: 748898)                                |
+[2022-11-16 18:43:57,785] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Beneath the Stars (2021) (TMDb: 882978)                       |
+[2022-11-16 18:43:57,797] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas on 5th Avenue (2021) (TMDb: 882968)                           |
+[2022-11-16 18:43:57,807] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Star (2021) (TMDb: 883876)                                  |
+[2022-11-16 18:43:57,810] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mistletoe & Molly (2021) (TMDb: 882956)                                 |
+[2022-11-16 18:43:57,825] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with a Prince: The Royal Baby (2021) (TMDb: 882224)           |
+[2022-11-16 18:43:57,839] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Gingerbread Miracle (2021) (TMDb: 874244)                               |
+[2022-11-16 18:43:57,848] [builder.py:2321]           [INFO]     | Christmas Collection | ? | My Christmas Family Tree (2021) (TMDb: 874194)                          |
+[2022-11-16 18:43:57,859] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas CEO (2021) (TMDb: 874193)                                     |
+[2022-11-16 18:43:57,871] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An Unexpected Christmas (2021) (TMDb: 874124)                           |
+[2022-11-16 18:43:57,883] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Making Spirits Bright (2021) (TMDb: 874140)                             |
+[2022-11-16 18:43:57,896] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Tahoe (2021) (TMDb: 874226)                                |
+[2022-11-16 18:43:57,907] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Dickens of a Holiday! (2021) (TMDb: 877828)                           |
+[2022-11-16 18:43:57,917] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Time for Them to Come Home for Christmas (2021) (TMDb: 874230)          |
+[2022-11-16 18:43:57,927] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas for Keeps (2021) (TMDb: 877833)                               |
+[2022-11-16 18:43:57,939] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Lot Like Christmas (2021) (TMDb: 877819)                              |
+[2022-11-16 18:43:57,950] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Joy For Christmas (2021) (TMDb: 886771)                                 |
+[2022-11-16 18:43:57,963] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with the Kranks (2004) (TMDb: 13673)                          |
+[2022-11-16 18:43:57,975] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home Alone 2: Lost in New York (1992) (TMDb: 772)                       |
+[2022-11-16 18:43:57,994] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Ref (1994) (TMDb: 10872)                                            |
+[2022-11-16 18:43:58,006] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (2009) (TMDb: 17979)                                  |
+[2022-11-16 18:43:58,018] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Four Christmases (2008) (TMDb: 12193)                                   |
+[2022-11-16 18:43:58,029] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Miracle on 34th Street (1994) (TMDb: 10510)                             |
+[2022-11-16 18:43:58,042] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Fred Claus (2007) (TMDb: 5375)                                          |
+[2022-11-16 18:43:58,052] [builder.py:2321]           [INFO]     | Christmas Collection | ? | This Christmas (2007) (TMDb: 15250)                                     |
+[2022-11-16 18:43:58,072] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Deck the Halls (2006) (TMDb: 9969)                                      |
+[2022-11-16 18:43:58,083] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jingle All the Way (1996) (TMDb: 9279)                                  |
+[2022-11-16 18:43:58,093] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Clause 2 (2002) (TMDb: 9021)                                  |
+[2022-11-16 18:43:58,104] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Kristin's Christmas Past (2013) (TMDb: 239347)                          |
+[2022-11-16 18:43:58,118] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Family Man (2000) (TMDb: 5994)                                      |
+[2022-11-16 18:43:58,128] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Coming Home for Christmas (2014) (TMDb: 240723)                         |
+[2022-11-16 18:43:58,142] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The March Sisters at Christmas (2014) (TMDb: 239351)                    |
+[2022-11-16 18:43:58,158] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Surviving Christmas (2004) (TMDb: 15566)                                |
+[2022-11-16 18:43:58,168] [builder.py:2321]           [INFO]     | Christmas Collection | ? | I'll Be Home for Christmas (1998) (TMDb: 17037)                         |
+[2022-11-16 18:43:58,178] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Santa Clause 3: The Escape Clause (2006) (TMDb: 13767)              |
+[2022-11-16 18:43:58,188] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Oranges (2012) (TMDb: 149023)                                 |
+[2022-11-16 18:43:58,198] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Fitzgerald Family Christmas (2012) (TMDb: 127916)                   |
+[2022-11-16 18:43:58,208] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday in Handcuffs (2007) (TMDb: 24446)                               |
+[2022-11-16 18:43:58,218] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Carol Christmas (2003) (TMDb: 72853)                                  |
+[2022-11-16 18:43:58,229] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Muppet Family Christmas (1987) (TMDb: 13247)                          |
+[2022-11-16 18:43:58,239] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Almost Christmas (2016) (TMDb: 340402)                                  |
+[2022-11-16 18:43:58,253] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Wish (2011) (TMDb: 80544)                                   |
+[2022-11-16 18:43:58,263] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Battle of the Bulbs (2010) (TMDb: 150308)                               |
+[2022-11-16 18:43:58,274] [builder.py:2321]           [INFO]     | Christmas Collection | ? | How Sarah Got Her Wings (2015) (TMDb: 369059)                           |
+[2022-11-16 18:43:58,284] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Note (2015) (TMDb: 369055)                                |
+[2022-11-16 18:43:58,299] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Secret (2014) (TMDb: 310972)                              |
+[2022-11-16 18:43:58,308] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Angels in the Snow (2015) (TMDb: 365762)                                |
+[2022-11-16 18:43:58,318] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Pete's Christmas (2013) (TMDb: 237710)                                  |
+[2022-11-16 18:43:58,328] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Christmas, Drake & Josh (2008) (TMDb: 33871)                      |
+[2022-11-16 18:43:58,339] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with Tucker (2014) (TMDb: 239899)                             |
+[2022-11-16 18:43:58,354] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home Alone 4 (2002) (TMDb: 12536)                                       |
+[2022-11-16 18:43:58,365] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Dog Named Christmas (2009) (TMDb: 31143)                              |
+[2022-11-16 18:43:58,375] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snow Day (2000) (TMDb: 15489)                                           |
+[2022-11-16 18:43:58,386] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Hope (2009) (TMDb: 51505)                                 |
+[2022-11-16 18:43:58,397] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Paws 2: The Santa Pups (2012) (TMDb: 142308)                      |
+[2022-11-16 18:43:58,407] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Good Luck Charlie, It's Christmas! (2011) (TMDb: 81440)                 |
+[2022-11-16 18:43:58,418] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Girlfriends of Christmas Past (2016) (TMDb: 420967)                     |
+[2022-11-16 18:43:58,428] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Best Man Holiday (2013) (TMDb: 146304)                              |
+[2022-11-16 18:43:58,440] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Office Christmas Party (2016) (TMDb: 384682)                            |
+[2022-11-16 18:43:58,451] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home Alone: The Holiday Heist (2012) (TMDb: 134375)                     |
+[2022-11-16 18:43:58,461] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jack Frost (1998) (TMDb: 9745)                                          |
+[2022-11-16 18:43:58,472] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Love the Coopers (2015) (TMDb: 333348)                                  |
+[2022-11-16 18:43:58,483] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Switch (2012) (TMDb: 80663)                                     |
+[2022-11-16 18:43:58,494] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Eve's Christmas (2004) (TMDb: 69016)                                    |
+[2022-11-16 18:43:58,505] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Clause (2008) (TMDb: 52687)                               |
+[2022-11-16 18:43:58,516] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Country Christmas Story (2013) (TMDb: 235494)                         |
+[2022-11-16 18:43:58,539] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Holiday Heist (2011) (TMDb: 243599)                                   |
+[2022-11-16 18:43:58,550] [builder.py:2321]           [INFO]     | Christmas Collection | ? | My One Christmas Wish (2015) (TMDb: 362883)                             |
+[2022-11-16 18:43:58,577] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Wish Upon a Christmas (2015) (TMDb: 367543)                             |
+[2022-11-16 18:43:58,587] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Bad Moms Christmas (2017) (TMDb: 431530)                              |
+[2022-11-16 18:43:58,598] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Magic Stocking (2015) (TMDb: 369056)                                    |
+[2022-11-16 18:43:58,609] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Madea Christmas (2013) (TMDb: 175555)                                 |
+[2022-11-16 18:43:58,620] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Reunited at Christmas (2018) (TMDb: 550084)                             |
+[2022-11-16 18:43:58,630] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Ex-Mas (2014) (TMDb: 312167)                                      |
+[2022-11-16 18:43:58,642] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Unlikely Angel (1996) (TMDb: 103409)                                    |
+[2022-11-16 18:43:58,655] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ms. Scrooge (1997) (TMDb: 149187)                                       |
+[2022-11-16 18:43:58,667] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Tree (1996) (TMDb: 80612)                                 |
+[2022-11-16 18:43:58,682] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Heavenly Christmas (2016) (TMDb: 421760)                              |
+[2022-11-16 18:43:58,698] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Single Santa Seeks Mrs. Claus (2004) (TMDb: 55739)                      |
+[2022-11-16 18:43:58,709] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dashing Through the Snow (2015) (TMDb: 369052)                          |
+[2022-11-16 18:43:58,722] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Canaan (2009) (TMDb: 144253)                               |
+[2022-11-16 18:43:58,734] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Dog Days Till Christmas (2014) (TMDb: 307115)                        |
+[2022-11-16 18:43:58,744] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home for the Holidays (1995) (TMDb: 9089)                               |
+[2022-11-16 18:43:58,759] [builder.py:2321]           [INFO]     | Christmas Collection | ? | On Strike for Christmas (2010) (TMDb: 74424)                            |
+[2022-11-16 18:43:58,775] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Star (1986) (TMDb: 13705)                                 |
+[2022-11-16 18:43:58,786] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Magic Christmas (1985) (TMDb: 13380)                                |
+[2022-11-16 18:43:58,798] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Kiss (2011) (TMDb: 81332)                                   |
+[2022-11-16 18:43:58,812] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Hats Off to Christmas! (2014) (TMDb: 244027)                            |
+[2022-11-16 18:43:58,829] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mandie and the Forgotten Christmas (2011) (TMDb: 276633)                |
+[2022-11-16 18:43:58,839] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The National Tree (2009) (TMDb: 34426)                                  |
+[2022-11-16 18:43:58,850] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An Accidental Christmas (2007) (TMDb: 67589)                            |
+[2022-11-16 18:43:58,860] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Our First Christmas (2008) (TMDb: 80897)                                |
+[2022-11-16 18:43:58,871] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 3 Holiday Tails (2011) (TMDb: 137475)                                   |
+[2022-11-16 18:43:58,880] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Man Who Invented Christmas (2017) (TMDb: 450322)                    |
+[2022-11-16 18:43:58,891] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Inheritance (2017) (TMDb: 449755)                             |
+[2022-11-16 18:43:58,901] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Twist of Christmas (2018) (TMDb: 550650)                              |
+[2022-11-16 18:43:58,928] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Spruces and the Pines (2017) (TMDb: 487055)                         |
+[2022-11-16 18:43:58,940] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Last Train to Christmas (2021) (TMDb: 887609)                           |
+[2022-11-16 18:43:58,958] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Too Close for Christmas (2020) (TMDb: 764104)                           |
+[2022-11-16 18:43:58,975] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Memories of Christmas (2018) (TMDb: 549326)                             |
+[2022-11-16 18:43:58,986] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Wish (2019) (TMDb: 626285)                                  |
+[2022-11-16 18:43:58,996] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holly & Ivy (2020) (TMDb: 737793)                                       |
+[2022-11-16 18:43:59,007] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Men of Christmas (2009) (TMDb: 42556)                                |
+[2022-11-16 18:43:59,023] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nostalgic Christmas (2019) (TMDb: 630894)                               |
+[2022-11-16 18:43:59,039] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Carolina (2020) (TMDb: 779759)                             |
+[2022-11-16 18:43:59,049] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Boyfriend for Christmas (2004) (TMDb: 26463)                          |
+[2022-11-16 18:43:59,060] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Everlasting (2018) (TMDb: 549319)                             |
+[2022-11-16 18:43:59,070] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Чудо (2016) (TMDb: 427506)                                              |
+[2022-11-16 18:43:59,080] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Fare to Remember (1999) (TMDb: 108228)                                |
+[2022-11-16 18:43:59,095] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Wishes of Christmas (2011) (TMDb: 145186)                            |
+[2022-11-16 18:43:59,107] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Getaway (2017) (TMDb: 480623)                                 |
+[2022-11-16 18:43:59,129] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Wishes (2006) (TMDb: 81303)                                     |
+[2022-11-16 18:43:59,152] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Scrooge (1935) (TMDb: 41118)                                            |
+[2022-11-16 18:43:59,167] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Beyond Tomorrow (1940) (TMDb: 31445)                                    |
+[2022-11-16 18:43:59,178] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Remember the Night (1940) (TMDb: 29617)                                 |
+[2022-11-16 18:43:59,194] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Affair (1949) (TMDb: 24863)                                     |
+[2022-11-16 18:43:59,204] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Toy Tinkers (1949) (TMDb: 67697)                                        |
+[2022-11-16 18:43:59,215] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Scrooge (1951) (TMDb: 13188)                                            |
+[2022-11-16 18:43:59,225] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Babes in Toyland (1961) (TMDb: 32611)                                   |
+[2022-11-16 18:43:59,236] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mister Magoo's Christmas Carol (1962) (TMDb: 49742)                     |
+[2022-11-16 18:43:59,247] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claus Conquers the Martians (1964) (TMDb: 32307)                  |
+[2022-11-16 18:43:59,258] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rudolph the Red-Nosed Reindeer (1964) (TMDb: 13382)                     |
+[2022-11-16 18:43:59,271] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa's Christmas Circus (1966) (TMDb: 129964)                          |
+[2022-11-16 18:43:59,286] [builder.py:2321]           [INFO]     | Christmas Collection | ? | How the Grinch Stole Christmas! (1966) (TMDb: 13377)                    |
+[2022-11-16 18:43:59,299] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Scrooge (1970) (TMDb: 13765)                                            |
+[2022-11-16 18:43:59,302] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claus Is Comin' to Town (1970) (TMDb: 13400)                      |
+[2022-11-16 18:43:59,317] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Silent Night, Bloody Night (1972) (TMDb: 29852)                         |
+[2022-11-16 18:43:59,336] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rudolph's Shiny New Year (1976) (TMDb: 30059)                           |
+[2022-11-16 18:43:59,347] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas to Remember (1978) (TMDb: 359050)                           |
+[2022-11-16 18:43:59,358] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Lion, the Witch and the Wardrobe (1979) (TMDb: 40611)               |
+[2022-11-16 18:43:59,374] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An American Christmas Carol (1979) (TMDb: 52055)                        |
+[2022-11-16 18:43:59,385] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Chipmunk Christmas (1981) (TMDb: 21767)                               |
+[2022-11-16 18:43:59,387] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claus is Coming to Town (1982) (TMDb: 380576)                     |
+[2022-11-16 18:43:59,400] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Don't Open Till Christmas (1984) (TMDb: 84422)                          |
+[2022-11-16 18:43:59,411] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night They Saved Christmas (1984) (TMDb: 40934)                     |
+[2022-11-16 18:43:59,428] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (1984) (TMDb: 13189)                                  |
+[2022-11-16 18:43:59,442] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nutcracker: The Motion Picture (1986) (TMDb: 71316)                     |
+[2022-11-16 18:43:59,455] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Smoky Mountain Christmas (1986) (TMDb: 60629)                         |
+[2022-11-16 18:43:59,477] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Uncle Buck (1989) (TMDb: 2616)                                          |
+[2022-11-16 18:43:59,501] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home for Christmas (1990) (TMDb: 210322)                                |
+[2022-11-16 18:43:59,518] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nutcracker (1993) (TMDb: 73191)                                     |
+[2022-11-16 18:43:59,528] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Flintstone Family Christmas (1993) (TMDb: 48873)                      |
+[2022-11-16 18:43:59,542] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mixed Nuts (1994) (TMDb: 24070)                                         |
+[2022-11-16 18:43:59,552] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (1994) (TMDb: 81907)                                  |
+[2022-11-16 18:43:59,563] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night Before Christmas (1994) (TMDb: 103097)                        |
+[2022-11-16 18:43:59,574] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Flintstones Christmas Carol (1994) (TMDb: 48874)                      |
+[2022-11-16 18:43:59,585] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Day of the Beast (1995) (TMDb: 10722)                               |
+[2022-11-16 18:43:59,597] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Elves (1995) (TMDb: 102923)                               |
+[2022-11-16 18:43:59,609] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claws (1996) (TMDb: 27766)                                        |
+[2022-11-16 18:43:59,621] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Satan Claus (1996) (TMDb: 139747)                                       |
+[2022-11-16 18:43:59,631] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Flintstones Christmas in Bedrock (1996) (TMDb: 776903)              |
+[2022-11-16 18:43:59,642] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Babes in Toyland (1997) (TMDb: 72850)                                   |
+[2022-11-16 18:43:59,652] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (1997) (TMDb: 47257)                                  |
+[2022-11-16 18:43:59,663] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jack Frost (1997) (TMDb: 27318)                                         |
+[2022-11-16 18:43:59,674] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas List (1997) (TMDb: 82375)                                 |
+[2022-11-16 18:43:59,690] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dear Santa (1998) (TMDb: 150792)                                        |
+[2022-11-16 18:43:59,702] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Path (1998) (TMDb: 444323)                                |
+[2022-11-16 18:43:59,718] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Richie Rich's Christmas Wish (1998) (TMDb: 73961)                       |
+[2022-11-16 18:43:59,736] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Feeders 2: Slay Bells (1998) (TMDb: 146138)                             |
+[2022-11-16 18:43:59,749] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey's Once Upon a Christmas (1999) (TMDb: 15400)                     |
+[2022-11-16 18:43:59,762] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (1999) (TMDb: 16716)                                  |
+[2022-11-16 18:43:59,774] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Jack Frost 2: The Revenge of the Mutant Killer Snowman (2000) (TMDb: 27320) |
+[2022-11-16 18:43:59,791] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Diva's Christmas Carol (2000) (TMDb: 24436)                           |
+[2022-11-16 18:43:59,802] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Prancer Returns (2001) (TMDb: 51210)                                    |
+[2022-11-16 18:43:59,818] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Season Massacre (2001) (TMDb: 139748)                     |
+[2022-11-16 18:43:59,828] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey's Magical Christmas: Snowed in at the House of Mouse (2001) (TMDb: 21448) |
+[2022-11-16 18:43:59,849] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Eight Crazy Nights (2002) (TMDb: 13376)                                 |
+[2022-11-16 18:43:59,873] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Friday After Next (2002) (TMDb: 10426)                                  |
+[2022-11-16 18:43:59,884] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Hell of a Christmas (2002) (TMDb: 256452)                           |
+[2022-11-16 18:43:59,897] [builder.py:2321]           [INFO]     | Christmas Collection | ? | I Saw Mommy Kissing Santa Claus (2002) (TMDb: 36427)                    |
+[2022-11-16 18:43:59,912] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Rush (2002) (TMDb: 31066)                                     |
+[2022-11-16 18:43:59,923] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa, Jr. (2002) (TMDb: 153219)                                        |
+[2022-11-16 18:43:59,934] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mr. St. Nick (2002) (TMDb: 60825)                                       |
+[2022-11-16 18:43:59,948] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It's a Very Merry Muppet Christmas Movie (2002) (TMDb: 13352)           |
+[2022-11-16 18:43:59,960] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Child (2004) (TMDb: 71312)                                    |
+[2022-11-16 18:43:59,974] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Blizzard (2003) (TMDb: 22081)                                           |
+[2022-11-16 18:43:59,986] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Comfort and Joy (2003) (TMDb: 59711)                                    |
+[2022-11-16 18:43:59,999] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Busted: Christmas for Everyone (2003) (TMDb: 430414)                    |
+[2022-11-16 18:44:00,016] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Vacation 2: Cousin Eddie's Island Adventure (2003) (TMDb: 11155) |
+[2022-11-16 18:44:00,026] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mickey's Twice Upon a Christmas (2004) (TMDb: 13378)                    |
+[2022-11-16 18:44:00,036] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Puppet Master vs Demonic Toys (2004) (TMDb: 26962)                      |
+[2022-11-16 18:44:00,051] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Carol (2004) (TMDb: 28769)                                  |
+[2022-11-16 18:44:00,076] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The 12 Dogs of Christmas (2005) (TMDb: 26985)                           |
+[2022-11-16 18:44:00,086] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Chasing Christmas (2005) (TMDb: 16412)                                  |
+[2022-11-16 18:44:00,096] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Black Christmas (2006) (TMDb: 9656)                                     |
+[2022-11-16 18:44:00,106] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Stalking Santa (2006) (TMDb: 74925)                                     |
+[2022-11-16 18:44:00,117] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Ultimate Gift (2007) (TMDb: 14624)                                  |
+[2022-11-16 18:44:00,128] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Two Front Teeth (2006) (TMDb: 141611)                                   |
+[2022-11-16 18:44:00,138] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Under the Mistletoe (2006) (TMDb: 77848)                                |
+[2022-11-16 18:44:00,149] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Do-Over (2006) (TMDb: 26987)                                  |
+[2022-11-16 18:44:00,160] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Card (2006) (TMDb: 46526)                                 |
+[2022-11-16 18:44:00,170] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Baby (2006) (TMDb: 26847)                                         |
+[2022-11-16 18:44:00,172] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Perfect Holiday (2007) (TMDb: 26990)                                |
+[2022-11-16 18:44:00,188] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Shrek the Halls (2007) (TMDb: 13394)                                    |
+[2022-11-16 18:44:00,198] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Children (2008) (TMDb: 16342)                                       |
+[2022-11-16 18:44:00,209] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Cottage (2008) (TMDb: 13610)                                  |
+[2022-11-16 18:44:00,218] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Muppets Christmas: Letters to Santa (2008) (TMDb: 27190)              |
+[2022-11-16 18:44:00,228] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Moonlight & Mistletoe (2008) (TMDb: 51443)                              |
+[2022-11-16 18:44:00,243] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Deadly Little Christmas (2009) (TMDb: 57293)                            |
+[2022-11-16 18:44:00,255] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Dog Who Saved Christmas (2009) (TMDb: 28904)                        |
+[2022-11-16 18:44:00,266] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Prep & Landing (2009) (TMDb: 26809)                                     |
+[2022-11-16 18:44:00,279] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa's Apprentice (2010) (TMDb: 51450)                                 |
+[2022-11-16 18:44:00,289] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Saint (2010) (TMDb: 45756)                                              |
+[2022-11-16 18:44:00,309] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snowmen (2010) (TMDb: 71726)                                            |
+[2022-11-16 18:44:00,321] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rare Exports: A Christmas Tale (2010) (TMDb: 48395)                     |
+[2022-11-16 18:44:00,334] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Nanny for Christmas (2010) (TMDb: 50652)                              |
+[2022-11-16 18:44:00,345] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Kung Fu Panda Holiday (2010) (TMDb: 50393)                              |
+[2022-11-16 18:44:00,360] [builder.py:2321]           [INFO]     | Christmas Collection | ? | November Christmas (2011) (TMDb: 52688)                                 |
+[2022-11-16 18:44:00,370] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Very Harold & Kumar Christmas (2011) (TMDb: 55465)                    |
+[2022-11-16 18:44:00,380] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mr. Popper's Penguins (2011) (TMDb: 58224)                              |
+[2022-11-16 18:44:00,396] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Beethoven's Christmas Adventure (2011) (TMDb: 78080)                    |
+[2022-11-16 18:44:00,418] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Tyler Perry's A Madea Christmas - The Play (2011) (TMDb: 239650)        |
+[2022-11-16 18:44:00,429] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ice Age: A Mammoth Christmas (2011) (TMDb: 79218)                       |
+[2022-11-16 18:44:00,439] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Prep & Landing: Naughty vs. Nice (2011) (TMDb: 88096)                   |
+[2022-11-16 18:44:00,449] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Elf-Man (2012) (TMDb: 143569)                                           |
+[2022-11-16 18:44:00,459] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Story 2 (2012) (TMDb: 125504)                               |
+[2022-11-16 18:44:00,469] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Chilly Christmas (2012) (TMDb: 144085)                                  |
+[2022-11-16 18:44:00,480] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Cat in the Hat Knows a Lot About Christmas! (2012) (TMDb: 145152)   |
+[2022-11-16 18:44:00,491] [builder.py:2321]           [INFO]     | Christmas Collection | ? | White Reindeer (2013) (TMDb: 176085)                                    |
+[2022-11-16 18:44:00,504] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Angels Sing (2013) (TMDb: 57210)                                        |
+[2022-11-16 18:44:00,517] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Merry Friggin' Christmas (2014) (TMDb: 286532)                        |
+[2022-11-16 18:44:00,528] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Happy Christmas (2014) (TMDb: 244534)                                   |
+[2022-11-16 18:44:00,539] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Grumpy Cat's Worst Christmas Ever (2014) (TMDb: 300441)                 |
+[2022-11-16 18:44:00,554] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Royal Christmas (2014) (TMDb: 299582)                                 |
+[2022-11-16 18:44:00,566] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An En Vogue Christmas (2014) (TMDb: 308688)                             |
+[2022-11-16 18:44:00,577] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night Before (2015) (TMDb: 296100)                                  |
+[2022-11-16 18:44:00,586] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Wish for Christmas (2016) (TMDb: 424062)                                |
+[2022-11-16 18:44:00,596] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa's Boot Camp (2016) (TMDb: 426325)                                 |
+[2022-11-16 18:44:00,607] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Yes Virginia, There Is a Santa Claus (1991) (TMDb: 190879)              |
+[2022-11-16 18:44:00,610] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Shop Around the Corner (1940) (TMDb: 20334)                         |
+[2022-11-16 18:44:00,637] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Box (1995) (TMDb: 57857)                                  |
+[2022-11-16 18:44:00,655] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Better Off Dead... (1985) (TMDb: 13667)                                 |
+[2022-11-16 18:44:00,669] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Ice Harvest (2005) (TMDb: 9005)                                     |
+[2022-11-16 18:44:00,683] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 3 Godfathers (1948) (TMDb: 29244)                                       |
+[2022-11-16 18:44:00,697] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Horror Story (2015) (TMDb: 311539)                          |
+[2022-11-16 18:44:00,711] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Big (1988) (TMDb: 2280)                                                 |
+[2022-11-16 18:44:00,726] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Preacher's Wife (1996) (TMDb: 21539)                                |
+[2022-11-16 18:44:00,741] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dear Santa (2011) (TMDb: 145312)                                        |
+[2022-11-16 18:44:00,754] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Cheaters (1945) (TMDb: 195405)                                      |
+[2022-11-16 18:44:00,772] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bell, Book and Candle (1958) (TMDb: 2006)                               |
+[2022-11-16 18:44:00,778] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Apartment (1960) (TMDb: 284)                                        |
+[2022-11-16 18:44:00,788] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Silent Night (2002) (TMDb: 17639)                                       |
+[2022-11-16 18:44:00,818] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nice Guys (2016) (TMDb: 290250)                                     |
+[2022-11-16 18:44:00,842] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Eyes Wide Shut (1999) (TMDb: 345)                                       |
+[2022-11-16 18:44:00,856] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Holly and the Ivy (1952) (TMDb: 79817)                              |
+[2022-11-16 18:44:00,878] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Eve (2015) (TMDb: 340816)                                     |
+[2022-11-16 18:44:00,892] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Silent Night (2012) (TMDb: 139455)                                      |
+[2022-11-16 18:44:00,905] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Unholy Three (1930) (TMDb: 27504)                                   |
+[2022-11-16 18:44:00,922] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Bill of Divorcement (1932) (TMDb: 73125)                              |
+[2022-11-16 18:44:00,939] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Thin Man (1934) (TMDb: 3529)                                        |
+[2022-11-16 18:44:00,959] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Love Finds Andy Hardy (1938) (TMDb: 43846)                              |
+[2022-11-16 18:44:00,969] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Blue Bird (1940) (TMDb: 60400)                                      |
+[2022-11-16 18:44:00,986] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Meet John Doe (1941) (TMDb: 32574)                                      |
+[2022-11-16 18:44:01,000] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Curse of the Cat People (1944) (TMDb: 28436)                        |
+[2022-11-16 18:44:01,022] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Bells of St. Mary's (1945) (TMDb: 32430)                            |
+[2022-11-16 18:44:01,037] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mr. Soft Touch (1949) (TMDb: 50731)                                     |
+[2022-11-16 18:44:01,049] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Great Rupert (1950) (TMDb: 50926)                                   |
+[2022-11-16 18:44:01,062] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Lemon Drop Kid (1951) (TMDb: 24512)                                 |
+[2022-11-16 18:44:01,073] [builder.py:2321]           [INFO]     | Christmas Collection | ? | We're No Angels (1955) (TMDb: 5996)                                     |
+[2022-11-16 18:44:01,086] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night of the Hunter (1955) (TMDb: 3112)                             |
+[2022-11-16 18:44:01,098] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Claus (1959) (TMDb: 13383)                                        |
+[2022-11-16 18:44:01,112] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Pocketful of Miracles (1961) (TMDb: 248)                                |
+[2022-11-16 18:44:01,123] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Kid (1967) (TMDb: 99737)                                  |
+[2022-11-16 18:44:01,138] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Female Trouble (1974) (TMDb: 14267)                                     |
+[2022-11-16 18:44:01,149] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rocky IV (1985) (TMDb: 1374)                                            |
+[2022-11-16 18:44:01,162] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Less Than Zero (1987) (TMDb: 13703)                                     |
+[2022-11-16 18:44:01,173] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Game Over (1990) (TMDb: 46959)                                          |
+[2022-11-16 18:44:01,187] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Trapped in Paradise (1994) (TMDb: 23719)                                |
+[2022-11-16 18:44:01,197] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home Alone 3 (1997) (TMDb: 9714)                                        |
+[2022-11-16 18:44:01,229] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Go (1999) (TMDb: 9430)                                                  |
+[2022-11-16 18:44:01,240] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Serendipity (2001) (TMDb: 9778)                                         |
+[2022-11-16 18:44:01,251] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nativity Story (2006) (TMDb: 2447)                                  |
+[2022-11-16 18:44:01,266] [builder.py:2321]           [INFO]     | Christmas Collection | ? | What Would Jesus Buy? (2007) (TMDb: 16117)                              |
+[2022-11-16 18:44:01,279] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Everybody's Fine (2009) (TMDb: 26171)                                   |
+[2022-11-16 18:44:01,294] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home for Christmas (2010) (TMDb: 52320)                                 |
+[2022-11-16 18:44:01,308] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Compton (2012) (TMDb: 135652)                              |
+[2022-11-16 18:44:01,321] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ira Finkelstein's Christmas (2012) (TMDb: 142303)                       |
+[2022-11-16 18:44:01,332] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Black Nativity (2013) (TMDb: 175541)                                    |
+[2022-11-16 18:44:01,342] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Iron Man 3 (2013) (TMDb: 68721)                                         |
+[2022-11-16 18:44:01,361] [builder.py:2321]           [INFO]     | Christmas Collection | ? | All Through the House (2015) (TMDb: 373048)                             |
+[2022-11-16 18:44:01,372] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bad Santa 2 (2016) (TMDb: 338964)                                       |
+[2022-11-16 18:44:01,382] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Why Him? (2016) (TMDb: 356305)                                          |
+[2022-11-16 18:44:01,397] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Grinch (2018) (TMDb: 360920)                                        |
+[2022-11-16 18:44:01,407] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 12 Dates of Christmas (2011) (TMDb: 81393)                              |
+[2022-11-16 18:44:01,418] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Angel of Pennsylvania Avenue (1996) (TMDb: 131102)                  |
+[2022-11-16 18:44:01,428] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Babes in Toyland (1986) (TMDb: 26984)                                   |
+[2022-11-16 18:44:01,438] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Benji's Very Own Christmas Story (1978) (TMDb: 44418)                   |
+[2022-11-16 18:44:01,452] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bernard and the Genie (1991) (TMDb: 24046)                              |
+[2022-11-16 18:44:01,464] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Best Christmas Pageant Ever (1983) (TMDb: 27163)                    |
+[2022-11-16 18:44:01,474] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Booky & the Secret Santa (2007) (TMDb: 150407)                          |
+[2022-11-16 18:44:01,485] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Borrowed Hearts (1997) (TMDb: 70417)                                    |
+[2022-11-16 18:44:01,495] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Call Me Claus (2001) (TMDb: 17007)                                      |
+[2022-11-16 18:44:01,506] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Carol for Another Christmas (1964) (TMDb: 86778)                        |
+[2022-11-16 18:44:01,517] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Catch a Christmas Star (2013) (TMDb: 238304)                            |
+[2022-11-16 18:44:01,527] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Chance of Snow (1998) (TMDb: 149762)                                  |
+[2022-11-16 18:44:01,537] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas at Water's Edge (2004) (TMDb: 100103)                         |
+[2022-11-16 18:44:01,549] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Blessing (2005) (TMDb: 57854)                             |
+[2022-11-16 18:44:01,560] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Caper (2007) (TMDb: 51593)                                    |
+[2022-11-16 18:44:01,570] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Comes to Willow Creek (1987) (TMDb: 51591)                    |
+[2022-11-16 18:44:01,585] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Every Day (1996) (TMDb: 61550)                                |
+[2022-11-16 18:44:01,595] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Heart (2014) (TMDb: 149229)                               |
+[2022-11-16 18:44:01,604] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Kiss II (2014) (TMDb: 311093)                               |
+[2022-11-16 18:44:01,614] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Lilies of the Field (1979) (TMDb: 445534)                     |
+[2022-11-16 18:44:01,629] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Cottage (2017) (TMDb: 480626)                             |
+[2022-11-16 18:44:01,640] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Memory (1997) (TMDb: 79818)                                 |
+[2022-11-16 18:44:01,650] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Miracle in Caufield, U.S.A. (1977) (TMDb: 279926)             |
+[2022-11-16 18:44:01,661] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Miracle of Jonathan Toomey (2007) (TMDb: 15964)           |
+[2022-11-16 18:44:01,671] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas to Remember (2015) (TMDb: 429151)                           |
+[2022-11-16 18:44:01,681] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Secret (2000) (TMDb: 81307)                               |
+[2022-11-16 18:44:01,704] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Snow (1986) (TMDb: 72263)                                     |
+[2022-11-16 18:44:01,715] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Snow (2010) (TMDb: 124601)                                  |
+[2022-11-16 18:44:01,725] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Town (2008) (TMDb: 26381)                                     |
+[2022-11-16 18:44:01,736] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Visitor (2002) (TMDb: 26934)                                |
+[2022-11-16 18:44:01,751] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Wedding (2006) (TMDb: 42559)                                |
+[2022-11-16 18:44:01,762] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Wish (1998) (TMDb: 44349)                                 |
+[2022-11-16 18:44:01,774] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with a Capital C (2011) (TMDb: 80254)                         |
+[2022-11-16 18:44:01,786] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Without Snow (1980) (TMDb: 46465)                           |
+[2022-11-16 18:44:01,797] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Clarence (1990) (TMDb: 291400)                                          |
+[2022-11-16 18:44:01,807] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Custom Mary (2011) (TMDb: 277112)                                   |
+[2022-11-16 18:44:01,819] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dear Secret Santa (2013) (TMDb: 240357)                                 |
+[2022-11-16 18:44:01,830] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Deck the Halls (2011) (TMDb: 81438)                                     |
+[2022-11-16 18:44:01,841] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Dennis the Menace Christmas (2007) (TMDb: 13358)                      |
+[2022-11-16 18:44:01,854] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Dog Who Saved the Holidays (2012) (TMDb: 147763)                    |
+[2022-11-16 18:44:01,869] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ebbie (1995) (TMDb: 125060)                                             |
+[2022-11-16 18:44:01,884] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ebenezer (1998) (TMDb: 35385)                                           |
+[2022-11-16 18:44:01,897] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Fairly Odd Christmas (2013) (TMDb: 146712)                            |
+[2022-11-16 18:44:01,923] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Finding John Christmas (2003) (TMDb: 52752)                             |
+[2022-11-16 18:44:01,938] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Gathering (1977) (TMDb: 146401)                                     |
+[2022-11-16 18:44:01,950] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Golden Christmas 3 (2012) (TMDb: 236417)                              |
+[2022-11-16 18:44:01,952] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Grandpa for Christmas (2007) (TMDb: 72140)                            |
+[2022-11-16 18:44:01,962] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Greatest Store In The World (1999) (TMDb: 23105)                    |
+[2022-11-16 18:44:01,971] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Heart of Christmas (2011) (TMDb: 135682)                            |
+[2022-11-16 18:44:01,974] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Hank Zipzer's Christmas Catastrophe (2016) (TMDb: 430754)               |
+[2022-11-16 18:44:01,985] [builder.py:2321]           [INFO]     | Christmas Collection | ? | His and Her Christmas (2005) (TMDb: 82376)                              |
+[2022-11-16 18:44:02,000] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Hobo's Christmas (1987) (TMDb: 144082)                                |
+[2022-11-16 18:44:02,015] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Hogfather (2007) (TMDb: 11910)                                          |
+[2022-11-16 18:44:02,025] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Affair (1996) (TMDb: 144307)                                    |
+[2022-11-16 18:44:02,034] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Song for the Season (1999) (TMDb: 307325)                             |
+[2022-11-16 18:44:02,045] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Holiday to Remember (1995) (TMDb: 144087)                             |
+[2022-11-16 18:44:02,054] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Homecoming: A Christmas Story (1971) (TMDb: 56308)                  |
+[2022-11-16 18:44:02,064] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The House Without a Christmas Tree (1972) (TMDb: 70393)                 |
+[2022-11-16 18:44:02,075] [builder.py:2321]           [INFO]     | Christmas Collection | ? | If You Believe (1999) (TMDb: 39877)                                     |
+[2022-11-16 18:44:02,085] [builder.py:2321]           [INFO]     | Christmas Collection | ? | I'll Be Home for Christmas (1988) (TMDb: 357901)                        |
+[2022-11-16 18:44:02,095] [builder.py:2321]           [INFO]     | Christmas Collection | ? | In the Nick of Time (1991) (TMDb: 472294)                               |
+[2022-11-16 18:44:02,105] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It Came Upon the Midnight Clear (1984) (TMDb: 81419)                    |
+[2022-11-16 18:44:02,115] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It Happened One Christmas (1977) (TMDb: 146393)                         |
+[2022-11-16 18:44:02,125] [builder.py:2321]           [INFO]     | Christmas Collection | ? | It's Christmas, Carol! (2012) (TMDb: 151071)                            |
+[2022-11-16 18:44:02,135] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Karroll's Christmas (2004) (TMDb: 144758)                               |
+[2022-11-16 18:44:02,145] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Like Father, Like Santa (1998) (TMDb: 97294)                            |
+[2022-11-16 18:44:02,162] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Love You Like Christmas (2016) (TMDb: 421624)                           |
+[2022-11-16 18:44:02,175] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Karen Kingsbury's Maggie's Christmas Miracle (2017) (TMDb: 480632)      |
+[2022-11-16 18:44:02,187] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Man in the Santa Claus Suit (1979) (TMDb: 238428)                   |
+[2022-11-16 18:44:02,197] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Man Who Saved Christmas (2002) (TMDb: 44761)                        |
+[2022-11-16 18:44:02,208] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mary Christmas (2004) (TMDb: 142046)                                    |
+[2022-11-16 18:44:02,218] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Miracle on 34th Street (1973) (TMDb: 252539)                            |
+[2022-11-16 18:44:02,228] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Mom for Christmas (1990) (TMDb: 51310)                                |
+[2022-11-16 18:44:02,239] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Monster's Christmas (1981) (TMDb: 102404)                           |
+[2022-11-16 18:44:02,249] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mr. Krueger's Christmas (1980) (TMDb: 50941)                            |
+[2022-11-16 18:44:02,258] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Mrs. Santa Claus (1996) (TMDb: 110433)                                  |
+[2022-11-16 18:44:02,269] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Must Be Santa (1999) (TMDb: 374353)                                     |
+[2022-11-16 18:44:02,278] [builder.py:2321]           [INFO]     | Christmas Collection | ? | My Santa (2013) (TMDb: 240911)                                          |
+[2022-11-16 18:44:02,288] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Nativity (1978) (TMDb: 293380)                                      |
+[2022-11-16 18:44:02,299] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Night Before the Night Before Christmas (2010) (TMDb: 74352)        |
+[2022-11-16 18:44:02,308] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Northpole: Open for Christmas (2015) (TMDb: 339543)                     |
+[2022-11-16 18:44:02,318] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Nutcracker Christmas (2016) (TMDb: 421623)                            |
+[2022-11-16 18:44:02,335] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Once Upon A Christmas (2000) (TMDb: 80376)                              |
+[2022-11-16 18:44:02,356] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Christmas (1994) (TMDb: 147135)                                     |
+[2022-11-16 18:44:02,385] [builder.py:2321]           [INFO]     | Christmas Collection | ? | One Special Night (1999) (TMDb: 50616)                                  |
+[2022-11-16 18:44:02,401] [builder.py:2321]           [INFO]     | Christmas Collection | ? | On the Second Day of Christmas (1997) (TMDb: 82378)                     |
+[2022-11-16 18:44:02,425] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Picking Up & Dropping Off (2003) (TMDb: 95512)                          |
+[2022-11-16 18:44:02,445] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rich Little's Christmas Carol (1978) (TMDb: 52515)                      |
+[2022-11-16 18:44:02,460] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Road to Christmas (2006) (TMDb: 51790)                              |
+[2022-11-16 18:44:02,469] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Roots: The Gift (1988) (TMDb: 88655)                                    |
+[2022-11-16 18:44:02,481] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Samantha: An American Girl Holiday (2004) (TMDb: 25786)                 |
+[2022-11-16 18:44:02,490] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Santa Baby 2 (2009) (TMDb: 42673)                                       |
+[2022-11-16 18:44:02,500] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Season for Miracles (1999) (TMDb: 146405)                             |
+[2022-11-16 18:44:02,512] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Silent Night Deadly Night 4: Initiation (1990) (TMDb: 59762)            |
+[2022-11-16 18:44:02,539] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Silent Night, Deadly Night 5: The Toy Maker (1991) (TMDb: 70984)        |
+[2022-11-16 18:44:02,556] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snow (2004) (TMDb: 50332)                                               |
+[2022-11-16 18:44:02,570] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snow 2: Brain Freeze (2009) (TMDb: 51836)                               |
+[2022-11-16 18:44:02,583] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snowglobe (2007) (TMDb: 68591)                                          |
+[2022-11-16 18:44:02,593] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Snow Wonder (2005) (TMDb: 208296)                                       |
+[2022-11-16 18:44:02,608] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Sons of Mistletoe (2001) (TMDb: 310797)                             |
+[2022-11-16 18:44:02,619] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Special Delivery (2000) (TMDb: 309920)                                  |
+[2022-11-16 18:44:02,641] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Switched for Christmas (2017) (TMDb: 475830)                            |
+[2022-11-16 18:44:02,659] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Three Days (2001) (TMDb: 63809)                                         |
+[2022-11-16 18:44:02,674] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Three Wise Guys (2005) (TMDb: 38546)                                    |
+[2022-11-16 18:44:02,684] [builder.py:2321]           [INFO]     | Christmas Collection | ? | To Grandmother's House We Go (1992) (TMDb: 50327)                       |
+[2022-11-16 18:44:02,693] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Town Without Christmas (2001) (TMDb: 13755)                           |
+[2022-11-16 18:44:02,703] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The True Meaning of Christmas Specials (2002) (TMDb: 172413)            |
+[2022-11-16 18:44:02,713] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 'Twas the Night (2001) (TMDb: 103014)                                   |
+[2022-11-16 18:44:02,723] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Twice Upon a Christmas (2001) (TMDb: 96114)                             |
+[2022-11-16 18:44:02,734] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Undercover Christmas (2003) (TMDb: 145327)                              |
+[2022-11-16 18:44:02,745] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Very Brady Christmas (1988) (TMDb: 49358)                             |
+[2022-11-16 18:44:02,755] [builder.py:2321]           [INFO]     | Christmas Collection | ? | When Angels Come to Town (2004) (TMDb: 205868)                          |
+[2022-11-16 18:44:02,765] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Will You Merry Me? (2008) (TMDb: 72858)                                 |
+[2022-11-16 18:44:02,781] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Winter Stallion (1992) (TMDb: 18980)                                |
+[2022-11-16 18:44:02,796] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Wishin' and Hopin' (2014) (TMDb: 308919)                                |
+[2022-11-16 18:44:02,807] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Annabelle's Wish (1997) (TMDb: 13664)                                   |
+[2022-11-16 18:44:02,825] [builder.py:2321]           [INFO]     | Christmas Collection | ? | An All Dogs Christmas Carol (1998) (TMDb: 51985)                        |
+[2022-11-16 18:44:02,840] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Arthur's Perfect Christmas (2000) (TMDb: 366978)                        |
+[2022-11-16 18:44:02,843] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bah, Humduck!: A Looney Tunes Christmas (2006) (TMDb: 13248)            |
+[2022-11-16 18:44:02,854] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Barbie: A Perfect Christmas (2011) (TMDb: 77499)                        |
+[2022-11-16 18:44:02,868] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Barbie in 'A Christmas Carol' (2008) (TMDb: 13459)                      |
+[2022-11-16 18:44:02,891] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Bear Who Slept Through Christmas (1973) (TMDb: 147492)              |
+[2022-11-16 18:44:02,904] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Beauty and the Beast: The Enchanted Christmas (1997) (TMDb: 13313)      |
+[2022-11-16 18:44:02,915] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bugs Bunny's Christmas Carol (1979) (TMDb: 197766)                      |
+[2022-11-16 18:44:02,927] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Buster & Chauncey's Silent Night (1998) (TMDb: 26312)                   |
+[2022-11-16 18:44:02,948] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Care Bears: The Nutcracker (1988) (TMDb: 28557)                         |
+[2022-11-16 18:44:02,971] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Casper's Haunted Christmas (2000) (TMDb: 5833)                          |
+[2022-11-16 18:44:02,982] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Child's Christmas in Wales (1987) (TMDb: 102431)                      |
+[2022-11-16 18:44:02,992] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Eve on Sesame Street (1978) (TMDb: 306685)                    |
+[2022-11-16 18:44:03,003] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Is Here Again (2007) (TMDb: 25758)                            |
+[2022-11-16 18:44:03,016] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Toy (1986) (TMDb: 47670)                                  |
+[2022-11-16 18:44:03,036] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Cosmic Christmas (1977) (TMDb: 125464)                                |
+[2022-11-16 18:44:03,049] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Elf: Buddy's Musical Christmas (2014) (TMDb: 312100)                    |
+[2022-11-16 18:44:03,059] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Sesame Street: Elmo Saves Christmas (1997) (TMDb: 278818)               |
+[2022-11-16 18:44:03,070] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Sesame Street: Elmo's Christmas Countdown (2007) (TMDb: 310524)         |
+[2022-11-16 18:44:03,081] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Emmet Otter's Jug-Band Christmas (1977) (TMDb: 20785)                   |
+[2022-11-16 18:44:03,091] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The First Christmas: The Story of the First Christmas Snow (1975) (TMDb: 80529) |
+[2022-11-16 18:44:03,102] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Garfield Christmas Special (1987) (TMDb: 13246)                       |
+[2022-11-16 18:44:03,112] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Dragons: Gift of the Night Fury (2011) (TMDb: 91417)                    |
+[2022-11-16 18:44:03,123] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holly Hobbie and Friends: Christmas Wishes (2006) (TMDb: 80452)         |
+[2022-11-16 18:44:03,133] [builder.py:2321]           [INFO]     | Christmas Collection | ? | How the Toys Saved Christmas (1996) (TMDb: 52989)                       |
+[2022-11-16 18:44:03,144] [builder.py:2321]           [INFO]     | Christmas Collection | ? | John Denver and the Muppets: A Christmas Together (1979) (TMDb: 45731)  |
+[2022-11-16 18:44:03,154] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Life & Adventures of Santa Claus (1985) (TMDb: 48880)               |
+[2022-11-16 18:44:03,164] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Life & Adventures of Santa Claus (2000) (TMDb: 118727)              |
+[2022-11-16 18:44:03,174] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Niko 2: Little Brother, Big Trouble (2012) (TMDb: 141614)               |
+[2022-11-16 18:44:03,183] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Nilus the Sandman: The Boy Who Dreamed Christmas (1991) (TMDb: 212356)  |
+[2022-11-16 18:44:03,193] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Olive, the Other Reindeer (1999) (TMDb: 13379)                          |
+[2022-11-16 18:44:03,203] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Special Sesame Street Christmas (1978) (TMDb: 431763)                 |
+[2022-11-16 18:44:03,214] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Toot & Puddle: I'll Be Home for Christmas (2006) (TMDb: 140373)         |
+[2022-11-16 18:44:03,224] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 'Twas the Night Before Christmas (1974) (TMDb: 26547)                   |
+[2022-11-16 18:44:03,239] [builder.py:2321]           [INFO]     | Christmas Collection | ? | VeggieTales: It's a Meaningful Life (2010) (TMDb: 261411)               |
+[2022-11-16 18:44:03,249] [builder.py:2321]           [INFO]     | Christmas Collection | ? | VeggieTales: Saint Nicholas - A Story of Joyful Giving (2009) (TMDb: 272811) |
+[2022-11-16 18:44:03,260] [builder.py:2321]           [INFO]     | Christmas Collection | ? | VeggieTales: The Star of Christmas (2002) (TMDb: 275068)                |
+[2022-11-16 18:44:03,270] [builder.py:2321]           [INFO]     | Christmas Collection | ? | VeggieTales: The Toy That Saved Christmas (1996) (TMDb: 265923)         |
+[2022-11-16 18:44:03,280] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Will Vinton's Claymation Christmas Celebration (1987) (TMDb: 21386)     |
+[2022-11-16 18:44:03,290] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Yes, Virginia (2009) (TMDb: 54443)                                      |
+[2022-11-16 18:44:03,304] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Yes, Virginia, There Is a Santa Claus (1974) (TMDb: 147490)             |
+[2022-11-16 18:44:03,314] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ziggy's Gift (1982) (TMDb: 50742)                                       |
+[2022-11-16 18:44:03,324] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Prince (2017) (TMDb: 483104)                                |
+[2022-11-16 18:44:03,334] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Spirit of Christmas (2015) (TMDb: 367544)                           |
+[2022-11-16 18:44:03,343] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 48 Christmas Wishes (2017) (TMDb: 490410)                               |
+[2022-11-16 18:44:03,357] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Wish for Christmas (2016) (TMDb: 410314)                              |
+[2022-11-16 18:44:03,379] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Miss Me This Christmas (2017) (TMDb: 488969)                            |
+[2022-11-16 18:44:03,397] [builder.py:2321]           [INFO]     | Christmas Collection | ? | You Can't Fight Christmas (2017) (TMDb: 488971)                         |
+[2022-11-16 18:44:03,411] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Dogwalker's Christmas Tale (2015) (TMDb: 365756)                      |
+[2022-11-16 18:44:03,421] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Prince: The Royal Wedding (2018) (TMDb: 525041)             |
+[2022-11-16 18:44:03,431] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Chronicles (2018) (TMDb: 527435)                          |
+[2022-11-16 18:44:03,441] [builder.py:2321]           [INFO]     | Christmas Collection | ? | 5 Star Christmas (2018) (TMDb: 563766)                                  |
+[2022-11-16 18:44:03,459] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Holiday Calendar (2018) (TMDb: 555850)                              |
+[2022-11-16 18:44:03,469] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with a View (2018) (TMDb: 550385)                             |
+[2022-11-16 18:44:03,479] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Wedding Planner (2017) (TMDb: 488113)                         |
+[2022-11-16 18:44:03,488] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Princess Switch (2018) (TMDb: 556803)                               |
+[2022-11-16 18:44:03,497] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Merry Kissmas (2015) (TMDb: 369058)                                     |
+[2022-11-16 18:44:03,516] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday in the Wild (2019) (TMDb: 531438)                               |
+[2022-11-16 18:44:03,538] [builder.py:2321]           [INFO]     | Christmas Collection | ? | New Year's Eve (2011) (TMDb: 62838)                                     |
+[2022-11-16 18:44:03,550] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Bob's Broken Sleigh (2015) (TMDb: 372449)                               |
+[2022-11-16 18:44:03,562] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Rise of the Guardians (2012) (TMDb: 81188)                              |
+[2022-11-16 18:44:03,574] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Trading Christmas (2011) (TMDb: 120055)                                 |
+[2022-11-16 18:44:03,584] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in the Smokies (2015) (TMDb: 366242)                          |
+[2022-11-16 18:44:03,594] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Window Wonderland (2013) (TMDb: 239180)                                 |
+[2022-11-16 18:44:03,606] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holiday Rush (2019) (TMDb: 639609)                                      |
+[2022-11-16 18:44:03,621] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Klaus (2019) (TMDb: 508965)                                             |
+[2022-11-16 18:44:03,631] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Cinderella Story: Christmas Wish (2019) (TMDb: 606117)                |
+[2022-11-16 18:44:03,641] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Christmas Prince: The Royal Baby (2019) (TMDb: 587693)                |
+[2022-11-16 18:44:03,651] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Hide & Seek (2010) (TMDb: 43665)                                        |
+[2022-11-16 18:44:03,662] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Lady and the Tramp (2019) (TMDb: 512895)                                |
+[2022-11-16 18:44:03,676] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Case for Christmas (2011) (TMDb: 148888)                            |
+[2022-11-16 18:44:03,692] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Very Cool Christmas (2004) (TMDb: 66106)                              |
+[2022-11-16 18:44:03,702] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home for the Holidays (2005) (TMDb: 83795)                              |
+[2022-11-16 18:44:03,714] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Christmas Choir (2008) (TMDb: 57860)                                |
+[2022-11-16 18:44:03,726] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in the Heartland (2017) (TMDb: 485612)                        |
+[2022-11-16 18:44:03,737] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas in Connecticut (1992) (TMDb: 55596)                           |
+[2022-11-16 18:44:03,753] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Lodge (2011) (TMDb: 79987)                                    |
+[2022-11-16 18:44:03,766] [builder.py:2321]           [INFO]     | Christmas Collection | ? | My Dad Is Scrooge (2014) (TMDb: 306220)                                 |
+[2022-11-16 18:44:03,781] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Married by Christmas (2016) (TMDb: 406129)                              |
+[2022-11-16 18:44:03,791] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas with the Andersons (2016) (TMDb: 429743)                      |
+[2022-11-16 18:44:03,801] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Naughty & Nice (2014) (TMDb: 303601)                                    |
+[2022-11-16 18:44:03,810] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Back to Christmas (2014) (TMDb: 313945)                                 |
+[2022-11-16 18:44:03,820] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Puppy for Christmas (2016) (TMDb: 428058)                             |
+[2022-11-16 18:44:03,830] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Christmas Belle (2013) (TMDb: 245792)                                   |
+[2022-11-16 18:44:03,840] [builder.py:2321]           [INFO]     | Christmas Collection | ? | A Cinderella Christmas (2016) (TMDb: 426808)                            |
+[2022-11-16 18:44:03,850] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Ghosting: The Spirit of Christmas (2019) (TMDb: 646732)                 |
+[2022-11-16 18:44:03,860] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Holidaze: The Christmas That Almost Didn't Happen (2006) (TMDb: 265982) |
+[2022-11-16 18:44:03,869] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Home By Christmas (2006) (TMDb: 82097)                                  |
+[2022-11-16 18:44:03,882] [builder.py:2321]           [INFO]     | Christmas Collection | ? | No Sleep 'Til Christmas (2018) (TMDb: 550097)                           |
+[2022-11-16 18:44:03,892] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Deck the Halls (2005) (TMDb: 144903)                                    |
+[2022-11-16 18:44:03,907] [builder.py:2321]           [INFO]     | Christmas Collection | ? | The Truth About Christmas (2018) (TMDb: 550096)                         |
+[2022-11-16 18:44:03,920] [builder.py:2321]           [INFO]     | Christmas Collection | ? | Second Chance Christmas (2017) (TMDb: 485614)                           |
+[2022-11-16 18:44:03,920] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:44:03,920] [builder.py:2327]           [INFO]     | 808 Movies Missing                                                                                 |
+[2022-11-16 18:44:06,632] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:44:06,633] [builder.py:2528]           [INFO]     |============================= Updating Details of Christmas Collection =============================|
+[2022-11-16 18:44:06,633] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:44:06,641] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:44:06,642] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:44:06,642] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/111696                               |
+[2022-11-16 18:44:06,642] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Christmas/poster.png', 'prefix': "Christmas's ", 'is_poster': True, 'is_url': False, 'compare': 464065, 'message': "Christmas's poster to [File] /config/Halloween_Movies/Assets/Christmas/poster.png"} |
+[2022-11-16 18:44:06,643] [library.py:180]            [INFO]     | Detail: Christmas's poster update not needed                                                       |
+[2022-11-16 18:44:06,691] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:44:06,691] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:44:06,691] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Christmas Collection                                    |
+[2022-11-16 18:44:06,691] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:22                                    |
+[2022-11-16 18:44:06,691] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

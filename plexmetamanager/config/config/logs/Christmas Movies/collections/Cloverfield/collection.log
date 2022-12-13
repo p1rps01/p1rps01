@@ -1,0 +1,42 @@
+[2022-11-17 09:21:10,470] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:21:10,470] [builder.py:193]            [INFO]     |                             Cloverfield Collection in Christmas Movies                             |
+[2022-11-17 09:21:10,470] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:21:10,471] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 09:21:10,471] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 09:21:10,471] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,471] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-17 09:21:10,472] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,475] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,475] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 09:21:10,475] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,475] [meta.py:515]               [DEBUG]    | {'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_Cloverfield', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-17 09:21:10,476] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,476] [builder.py:223]            [INFO]     |================================ Validating Cloverfield Attributes =================================|
+[2022-11-17 09:21:10,476] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,476] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 09:21:10,477] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 09:21:10,477] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,477] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 09:21:10,477] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 09:21:10,478] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,478] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 09:21:10,478] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/list/ls021933730/                                                      |
+[2022-11-17 09:21:10,604] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 724, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1160, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists
+                                                                 |     self._total(imdb_url, language)
+                                                                 |   File "/modules/imdb.py", line 115, in _total
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/
+                                                                 | 
+[2022-11-17 09:21:10,606] [plex_meta_manager.py:725]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/
+[2022-11-17 09:21:10,607] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 09:21:10,607] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 09:21:10,607] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Cloverfield Collection                                   |
+[2022-11-17 09:21:10,607] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 09:21:10,607] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

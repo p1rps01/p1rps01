@@ -1,0 +1,96 @@
+[2022-11-16 22:11:29,380] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:11:29,380] [builder.py:193]            [INFO]     |                             Steven Spielberg Collection in Old Movies                              |
+[2022-11-16 22:11:29,380] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:11:29,380] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,380] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:11:29,381] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,381] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:11:29,381] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,382] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,383] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:11:29,383] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,383] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 488, 'sort_title': '++_Steven Spielberg', 'collection_order': 'release'} |
+[2022-11-16 22:11:29,383] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,383] [builder.py:223]            [INFO]     |============================== Validating Steven Spielberg Attributes ==============================|
+[2022-11-16 22:11:29,383] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,383] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:11:29,384] [builder.py:533]            [DEBUG]    | Value: 488                                                                                         |
+[2022-11-16 22:11:29,414] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,414] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:11:29,414] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:11:29,414] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,414] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 22:11:29,414] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:11:29,463] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,463] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:11:29,463] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:11:29,880] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,880] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:11:29,880] [builder.py:651]            [DEBUG]    | Value: ++_Steven Spielberg                                                                         |
+[2022-11-16 22:11:29,886] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,886] [builder.py:796]            [ERROR]    | Collection Error: Converting Steven Spielberg to a normal collection                               |
+[2022-11-16 22:11:29,893] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,893] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:11:29,893] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,893] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Steven Spielberg Collection ================================|
+[2022-11-16 22:11:29,893] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,894] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:11:29,894] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:29,894] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Steven Spielberg", '?type=1&sort=titleSort&push=1&director=40554&pop=1') |
+[2022-11-16 22:11:29,894] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,894] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Steven Spielberg
+[2022-11-16 22:11:29,915] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:11:29,916] [builder.py:1575]           [DEBUG]    | 8 IDs Found
+[2022-11-16 22:11:29,916] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:11:29,916] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 22:11:29,916] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Steven Spielberg", '?type=1&sort=titleSort&push=1&actor=59656&pop=1')
+[2022-11-16 22:11:29,916] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 22:11:29,916] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Steven Spielberg
+[2022-11-16 22:11:29,929] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:11:29,930] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 22:11:29,930] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:11:29,930] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:11:29,930] [builder.py:2159]           [INFO]     |============================== Adding to Steven Spielberg Collection ===============================|
+[2022-11-16 22:11:29,930] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:29,930] [builder.py:2174]           [INFO]     | 1/9 | Steven Spielberg Collection | + | Indiana Jones and the Kingdom of the Crystal Skull (2008)  |
+[2022-11-16 22:11:30,073] [builder.py:2174]           [INFO]     | 2/9 | Steven Spielberg Collection | + | Indiana Jones and the Last Crusade (1989)                  |
+[2022-11-16 22:11:30,169] [builder.py:2174]           [INFO]     | 3/9 | Steven Spielberg Collection | + | Indiana Jones and the Raiders of the Lost Ark (1981)       |
+[2022-11-16 22:11:30,307] [builder.py:2174]           [INFO]     | 4/9 | Steven Spielberg Collection | + | Indiana Jones and the Temple of Doom (1984)                |
+[2022-11-16 22:11:30,410] [builder.py:2174]           [INFO]     | 5/9 | Steven Spielberg Collection | + | Jaws (1975)                                                |
+[2022-11-16 22:11:32,428] [builder.py:2174]           [INFO]     | 6/9 | Steven Spielberg Collection | + | Jurassic Park (1993)                                       |
+[2022-11-16 22:11:32,528] [builder.py:2174]           [INFO]     | 7/9 | Steven Spielberg Collection | + | The Lost World: Jurassic Park (1997)                       |
+[2022-11-16 22:11:32,626] [builder.py:2174]           [INFO]     | 8/9 | Steven Spielberg Collection | + | Saving Private Ryan (1998)                                 |
+[2022-11-16 22:11:32,724] [builder.py:2174]           [INFO]     | 9/9 | Steven Spielberg Collection | + | Men in Black (1997)                                        |
+[2022-11-16 22:11:36,953] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:36,953] [builder.py:2196]           [INFO]     | 9 Movies Processed 9 Movies Added                                                                  |
+[2022-11-16 22:11:36,958] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:36,959] [builder.py:2528]           [INFO]     |========================= Updating Details of Steven Spielberg Collection ==========================|
+[2022-11-16 22:11:36,959] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:36,965] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Steven Allan Spielberg (born December 18, 1946) is an American film director, producer, and screenwriter. He began his career in the New Hollywood era and is currently the most commercially successful director. Spielberg is the recipient of various accolades, including three Academy Awards (with two for Best Director), a Kennedy Center honor, a Cecil B. DeMille Award, and an AFI Life Achievement Award.
+                                                                 | 
+                                                                 | Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He later moved to California and studied film in college. After directing television episodes and several minor films for Universal Studios, he became a household name for directing 1975's summer blockbuster Jaws. He then directed box office successes Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982), and the adventure films in the Indiana Jones series. Spielberg later explored drama in The Color Purple (1985) and Empire of the Sun (1987).
+                                                                 | 
+                                                                 | After a brief hiatus, he directed back to back box office successes with the acclaimed science fiction action film Jurassic Park and the holocaust drama Schindler's List (both 1993). In 1998, he directed the World War II epic Saving Private Ryan, which was both a critical and commercial success. Spielberg continued in the 2000s with science fiction, including A.I. Artificial Intelligence (2001), Minority Report (2002) and War of the Worlds (2005). He has since directed several fantasy films including The Adventures of Tintin (2011), and Ready Player One (2018), the historical dramas War Horse (2011), Lincoln (2012), The Post (2017), and the musical West Side Story (2021).
+                                                                 | 
+                                                                 | In addition to filmmaking, he co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many television series and films. Spielberg is also known for his long time collaboration with composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing films of all time and have received acclaim; seven of his films have been inducted into the National Film Registry by the Library of Congress as being "culturally, historically, or aesthetically significant".
+                                                                 | Sort Title | ++_Steven Spielberg
+                                                                 | Label | +PMM
+[2022-11-16 22:11:38,826] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:11:38,826] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:11:38,826] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:11:38,826] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg
+[2022-11-16 22:11:38,903] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg
+[2022-11-16 22:11:38,980] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:11:38,980] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:11:38,980] [plex_meta_manager.py:737]  [INFO]     |                                Finished Steven Spielberg Collection                                |
+[2022-11-16 22:11:38,980] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-11-16 22:11:38,980] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

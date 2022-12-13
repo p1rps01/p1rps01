@@ -1,0 +1,74 @@
+[2022-11-16 22:07:40,081] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:07:40,088] [builder.py:193]            [INFO]     |                               Mark Wahlberg Collection in Old Movies                               |
+[2022-11-16 22:07:40,088] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:07:40,088] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,088] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:07:40,088] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,088] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:07:40,089] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,090] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,090] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:07:40,090] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,090] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 13240, 'sort_title': '++_Mark Wahlberg', 'collection_order': 'release'} |
+[2022-11-16 22:07:40,090] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,090] [builder.py:223]            [INFO]     |=============================== Validating Mark Wahlberg Attributes ================================|
+[2022-11-16 22:07:40,090] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,090] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:07:40,090] [builder.py:533]            [DEBUG]    | Value: 13240                                                                                       |
+[2022-11-16 22:07:40,107] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,108] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:07:40,108] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:07:40,108] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,108] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:07:40,108] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:07:40,390] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,390] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:07:40,390] [builder.py:651]            [DEBUG]    | Value: ++_Mark Wahlberg                                                                            |
+[2022-11-16 22:07:40,398] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,399] [builder.py:796]            [ERROR]    | Collection Error: Converting Mark Wahlberg to a normal collection                                  |
+[2022-11-16 22:07:40,423] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,423] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:596]  [INFO]     |================================= Running Mark Wahlberg Collection =================================|
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Mark Wahlberg", '?type=1&sort=titleSort&push=1&actor=50148&pop=1') |
+[2022-11-16 22:07:40,424] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,424] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Mark Wahlberg
+[2022-11-16 22:07:40,456] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:07:40,457] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 22:07:40,457] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:07:40,457] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:07:40,457] [builder.py:2159]           [INFO]     |================================ Adding to Mark Wahlberg Collection ================================|
+[2022-11-16 22:07:40,458] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:07:40,458] [builder.py:2174]           [INFO]     | 1/5 | Mark Wahlberg Collection | + | Infinite (2021)                                               |
+[2022-11-16 22:07:42,360] [builder.py:2174]           [INFO]     | 2/5 | Mark Wahlberg Collection | + | Lone Survivor (2013)                                          |
+[2022-11-16 22:07:44,254] [builder.py:2174]           [INFO]     | 3/5 | Mark Wahlberg Collection | + | The Perfect Storm (2000)                                      |
+[2022-11-16 22:07:44,351] [builder.py:2174]           [INFO]     | 4/5 | Mark Wahlberg Collection | + | Transformers: Age of Extinction (2014)                        |
+[2022-11-16 22:07:46,259] [builder.py:2174]           [INFO]     | 5/5 | Mark Wahlberg Collection | + | Transformers: The Last Knight (2017)                          |
+[2022-11-16 22:07:50,518] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:07:50,518] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 22:07:50,523] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:07:50,524] [builder.py:2528]           [INFO]     |=========================== Updating Details of Mark Wahlberg Collection ===========================|
+[2022-11-16 22:07:50,524] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:07:50,530] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Mark Robert Michael Wahlberg (born June 5, 1971), former stage name Marky Mark, is an American actor, producer, businessman and former rapper. Wahlberg was born in Boston, Massachusetts in 1971. In the 1990s, Wahlberg was a member of the music group Marky Mark and the Funky Bunch, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg transitioned from music to acting, with his screen debut in Renaissance Man (1994) and his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997). In the early 2000s, he ventured into big budget action-oriented movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for the sports drama biopic The Fighter (2010), in which he starred as Micky Ward. In the 2010s, he landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also became the protagonist in two films in the Transformers live-action film franchise, Transformers: Age of Extinction and Transformers: The Last Knight. He was the world's highest-paid actor in 2017. Wahlberg also served as executive producer of five HBO series: the comedy-drama Entourage (2004–2011), the period crime drama Boardwalk Empire (2010–2014), the comedy-dramas How to Make It in America (2010–2011) and Ballers (2015–2019), and the documentary McMillions (2020). He is co-owner of the Wahlburgers chain and co-starred in the reality TV series about it. He received a star on the Hollywood Walk of Fame in 2010.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Mark Wahlberg, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Mark Wahlberg
+                                                                 | Label | +PMM
+[2022-11-16 22:07:52,144] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:07:52,144] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:07:52,145] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:07:52,146] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg
+[2022-11-16 22:07:52,525] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg
+[2022-11-16 22:07:52,575] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:07:52,576] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:07:52,576] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Mark Wahlberg Collection                                  |
+[2022-11-16 22:07:52,576] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-11-16 22:07:52,576] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,73 @@
+[2022-11-16 22:03:23,504] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:03:23,505] [builder.py:193]            [INFO]     |                                Elliot Page Collection in Old Movies                                |
+[2022-11-16 22:03:23,505] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:03:23,505] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:03:23,506] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:03:23,507] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,507] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:03:23,507] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,509] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,509] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:03:23,510] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,510] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 27578, 'sort_title': '++_Elliot Page', 'collection_order': 'release'} |
+[2022-11-16 22:03:23,510] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,510] [builder.py:223]            [INFO]     |================================ Validating Elliot Page Attributes =================================|
+[2022-11-16 22:03:23,510] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,510] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:03:23,510] [builder.py:533]            [DEBUG]    | Value: 27578                                                                                       |
+[2022-11-16 22:03:23,525] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,525] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:03:23,525] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:03:23,526] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:23,526] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:03:23,526] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:03:24,087] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:24,088] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:03:24,088] [builder.py:651]            [DEBUG]    | Value: ++_Elliot Page                                                                              |
+[2022-11-16 22:03:24,095] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,095] [builder.py:796]            [ERROR]    | Collection Error: Converting Elliot Page to a normal collection                                    |
+[2022-11-16 22:03:24,102] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,102] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:03:24,103] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,103] [plex_meta_manager.py:596]  [INFO]     |================================== Running Elliot Page Collection ==================================|
+[2022-11-16 22:03:24,103] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,104] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:03:24,104] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:03:24,104] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Elliot Page", '?type=1&sort=titleSort&push=1&actor=113601&pop=1') |
+[2022-11-16 22:03:24,104] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,104] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Elliot Page
+[2022-11-16 22:03:24,116] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:03:24,117] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 22:03:24,117] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:03:24,117] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:03:24,117] [builder.py:2159]           [INFO]     |================================= Adding to Elliot Page Collection =================================|
+[2022-11-16 22:03:24,118] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:24,118] [builder.py:2174]           [INFO]     | 1/2 | Elliot Page Collection | + | X-Men: Days of Future Past (2014)                               |
+[2022-11-16 22:03:26,864] [builder.py:2174]           [INFO]     | 2/2 | Elliot Page Collection | + | X-Men: The Last Stand (2006)                                    |
+[2022-11-16 22:03:32,745] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:32,747] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:03:32,753] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:32,753] [builder.py:2528]           [INFO]     |============================ Updating Details of Elliot Page Collection ============================|
+[2022-11-16 22:03:32,753] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:03:32,760] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Elliot Page (born February 21, 1987) is a Canadian actor and producer.
+                                                                 | 
+                                                                 | He first became known for his role in the series Pit Pony (1997–2000), for which he won a Young Artist Award, and for his recurring roles in Trailer Park Boys (2002) and ReGenesis (2004). He then received recognition for his role in the film Hard Candy (2005) and won the Austin Film Critics Association's Award for Best Actress. Page had his breakthrough with the title role in Jason Reitman's film Juno (2007), earning nominations for an Academy Award, a BAFTA Award, a Critics' Choice Awards, a Golden Globe Award, and a Screen Actors Guild Award. He also earned praise for his roles in The Tracey Fragments (2007), Whip It (2009), Super (2010), Inception (2010), and Tallulah (2016). He has also portrayed Kitty Pryde in two X-Men films (2006, 2014), and had voice roles in the films Window Horses (2016) and My Life as a Zucchini (2016). In 2017, Page was cast as Vanya Hargreeves in the Netflix series The Umbrella Academy (2019–present). He provided the voice, motion capture, and likeness of Jodie Holmes in the video game Beyond: Two Souls (2013). He produced the film Freeheld (2015), in which he also starred, and made his directorial debut with the documentary There's Something in the Water (2019).
+                                                                 | 
+                                                                 | On December 1, 2020, Page came out as transgender on his social media accounts, specified his pronouns as he/him and they/them, and revealed his new name, Elliot Page.
+                                                                 | Sort Title | ++_Elliot Page
+                                                                 | Label | +PMM
+[2022-11-16 22:03:35,144] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:03:35,144] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:03:35,146] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:03:35,146] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/596bLvD4iEz8VGc6TOEhzmPwTMe.jpg
+[2022-11-16 22:03:35,221] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/596bLvD4iEz8VGc6TOEhzmPwTMe.jpg
+[2022-11-16 22:03:35,256] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:03:35,256] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:03:35,256] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Elliot Page Collection                                   |
+[2022-11-16 22:03:35,256] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 22:03:35,256] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

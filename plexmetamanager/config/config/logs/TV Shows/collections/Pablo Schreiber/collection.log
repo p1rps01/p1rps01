@@ -1,0 +1,78 @@
+[2022-11-17 03:15:29,587] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 03:15:29,587] [builder.py:193]            [INFO]     |                               Pablo Schreiber Collection in TV Shows                               |
+[2022-11-17 03:15:29,587] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 03:15:29,587] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 03:15:29,587] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 03:15:29,587] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,588] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-17 03:15:29,588] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,594] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-17 03:15:29,595] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,597] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 03:15:29,598] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,613] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,613] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 03:15:29,613] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,613] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Pablo Schreiber'], 'smart_filter': {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}, 'summary': 'Shows with Pablo Schreiber.', 'name': 'Pablo Schreiber', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!17_Pablo Schreiber', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Pablo%20Schreiber.jpg'} |
+[2022-11-17 03:15:29,613] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,614] [builder.py:223]            [INFO]     |============================== Validating Pablo Schreiber Attributes ===============================|
+[2022-11-17 03:15:29,614] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,614] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-17 03:15:29,614] [builder.py:230]            [DEBUG]    | Value: Pablo Schreiber                                                                             |
+[2022-11-17 03:15:29,614] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,614] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 03:15:29,614] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 03:15:29,614] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:29,614] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-17 03:15:29,615] [builder.py:533]            [DEBUG]    | Value: ['Pablo Schreiber']                                                                         |
+[2022-11-17 03:15:29,715] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-17 03:15:29,715] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-17 03:15:29,716] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}                                       |
+[2022-11-17 03:15:30,001] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.actor=54159&pop=1                 |
+[2022-11-17 03:15:30,002] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,002] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 03:15:30,002] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-17 03:15:30,002] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,002] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 03:15:30,002] [builder.py:651]            [DEBUG]    | Value: Shows with Pablo Schreiber.                                                                 |
+[2022-11-17 03:15:30,002] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,002] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 03:15:30,002] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 03:15:30,003] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,003] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 03:15:30,003] [builder.py:651]            [DEBUG]    | Value: !17_Pablo Schreiber                                                                         |
+[2022-11-17 03:15:30,003] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,003] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 03:15:30,003] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Pablo%20Schreiber.jpg |
+[2022-11-17 03:15:30,231] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 03:15:30,231] [plex.py:838]               [DEBUG]    | Looking for: Pablo Schreiber                                                                       |
+[2022-11-17 03:15:30,231] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 03:15:30,232] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 03:15:30,232] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 03:15:30,232] [plex_meta_manager.py:596]  [INFO]     |================================ Running Pablo Schreiber Collection ================================|
+[2022-11-17 03:15:30,232] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 03:15:30,232] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Pablo Schreiber
+[2022-11-17 03:15:30,250] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.actor=54159&pop=1
+[2022-11-17 03:15:30,254] [builder.py:2527]           [INFO]     | 
+[2022-11-17 03:15:30,254] [builder.py:2528]           [INFO]     |========================== Updating Details of Pablo Schreiber Collection ==========================|
+[2022-11-17 03:15:30,254] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 03:15:30,261] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Shows with Pablo Schreiber.
+                                                                 | Sort Title | !17_Pablo Schreiber
+                                                                 | Label | +Top Actors, +PMM
+[2022-11-17 03:15:31,908] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 03:15:31,908] [builder.py:2603]           [INFO]     | 
+[2022-11-17 03:15:33,510] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-17 03:15:33,510] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-17 03:15:33,511] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/wOze8R9lgoZxZoTsPSHID4Nt2Ee.jpg
+[2022-11-17 03:15:33,511] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Pablo%20Schreiber.jpg
+[2022-11-17 03:15:33,661] [library.py:178]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Pablo%20Schreiber.jpg
+[2022-11-17 03:15:33,703] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 03:15:33,704] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 03:15:33,704] [plex_meta_manager.py:737]  [INFO]     |                                Finished Pablo Schreiber Collection                                 |
+[2022-11-17 03:15:33,704] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-17 03:15:33,704] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

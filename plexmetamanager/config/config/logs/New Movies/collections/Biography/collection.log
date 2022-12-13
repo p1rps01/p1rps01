@@ -1,0 +1,49 @@
+[2022-11-16 23:08:02,287] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:02,287] [builder.py:193]            [INFO]     |                                 Biography Collection in New Movies                                 |
+[2022-11-16 23:08:02,287] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:08:02,288] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:02,288] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:08:02,288] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,288] [meta.py:210]               [DEBUG]    |========================================= Template Dynamic =========================================|
+[2022-11-16 23:08:02,289] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,291] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,291] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:08:02,292] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,292] [meta.py:515]               [DEBUG]    | {'smart_filter': {'all': {'genre': 'Biography'}, 'sort_by': 'release.desc'}, 'url_poster': 'https://theposterdb.com/api/assets/213332', 'sort_title': '++++++++_Biography', 'collection_mode': 'hide'} |
+[2022-11-16 23:08:02,292] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,292] [builder.py:223]            [INFO]     |================================= Validating Biography Attributes ==================================|
+[2022-11-16 23:08:02,292] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:08:02,292] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:08:02,292] [builder.py:1791]           [DEBUG]    | Value: {'all': {'genre': 'Biography'}, 'sort_by': 'release.desc'}                                  |
+[2022-11-16 23:08:02,419] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&genre=13315                                   |
+[2022-11-16 23:08:02,419] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,419] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:08:02,419] [builder.py:651]            [DEBUG]    | Value: Biography films are a genre that dramatizes the life of a non-fictional or historically-based person or people. Such films show the life of a historical person and the central character's real name is used. |
+[2022-11-16 23:08:02,419] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:02,419] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:08:02,420] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213332                                                   |
+[2022-11-16 23:08:03,010] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:03,010] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:08:03,010] [builder.py:651]            [DEBUG]    | Value: ++++++++_Biography                                                                          |
+[2022-11-16 23:08:03,010] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:08:03,011] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:08:03,011] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:08:03,045] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:08:03,046] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:08:03,047] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:03,050] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Biography Collection ===================================|
+[2022-11-16 23:08:03,051] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:08:03,056] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Genre is Biography
+[2022-11-16 23:08:03,070] [plex_meta_manager.py:652]  [INFO]     | 
+[2022-11-16 23:08:03,070] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Biography Collection
+[2022-11-16 23:08:03,070] [plex_meta_manager.py:657]  [INFO]     | 
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:658]  [INFO]     | Collection Biography deleted
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Biography Collection                                    |
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 23:08:03,078] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

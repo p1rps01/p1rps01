@@ -1,0 +1,567 @@
+[2022-11-25 15:51:18,832] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:51:18,832] [builder.py:193]            [INFO]     |                           Common Sense Selection Collection in TV Shows                            |
+[2022-11-25 15:51:18,832] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:51:18,832] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:51:18,833] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:51:18,833] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,833] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 15:51:18,833] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,833] [meta.py:210]               [DEBUG]    |======================================= Template commonsense =======================================|
+[2022-11-25 15:51:18,834] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,835] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:51:18,843] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,866] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 15:51:18,886] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,907] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 15:51:18,908] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,917] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:51:18,918] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,922] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,922] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:51:18,922] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,922] [meta.py:515]               [DEBUG]    | {'mdblist_list': 'https://mdblist.com/lists/plexmetamanager/cssfamiliesshows', 'ignore_blank_results': True, 'sort_title': '!01_Common Sense Selection', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Common%20Sense%20Selection.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of Common Sense shows. Common Sense recognizes outstanding entertainment with an official seal for quality and impact. Common Sense Selections include age-appropriate media with the potential to spark family conversations, entertain families of all kinds, and have a positive, lasting effect on society.', 'name': 'Common Sense Selection'} |
+[2022-11-25 15:51:18,922] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,922] [builder.py:223]            [INFO]     |=========================== Validating Common Sense Selection Attributes ===========================|
+[2022-11-25 15:51:18,923] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,923] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:51:18,923] [builder.py:230]            [DEBUG]    | Value: Common Sense Selection                                                                      |
+[2022-11-25 15:51:18,923] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,923] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:51:18,923] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:51:18,923] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,923] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:51:18,923] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:51:18,923] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,923] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 15:51:18,924] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 15:51:18,924] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,924] [builder.py:650]            [DEBUG]    | Validating Method: mdblist_list                                                                    |
+[2022-11-25 15:51:18,924] [builder.py:651]            [DEBUG]    | Value: https://mdblist.com/lists/plexmetamanager/cssfamiliesshows                                  |
+[2022-11-25 15:51:18,924] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,924] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:51:18,924] [builder.py:651]            [DEBUG]    | Value: !01_Common Sense Selection                                                                  |
+[2022-11-25 15:51:18,924] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:18,924] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:51:18,924] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Common%20Sense%20Selection.jpg |
+[2022-11-25 15:51:19,039] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:19,039] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 15:51:19,039] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 15:51:19,039] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:19,039] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:51:19,039] [builder.py:651]            [DEBUG]    | Value: A collection of Common Sense shows. Common Sense recognizes outstanding entertainment with an official seal for quality and impact. Common Sense Selections include age-appropriate media with the potential to spark family conversations, entertain families of all kinds, and have a positive, lasting effect on society. |
+[2022-11-25 15:51:19,117] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,118] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:51:19,118] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,118] [plex_meta_manager.py:596]  [INFO]     |============================ Running Common Sense Selection Collection =============================|
+[2022-11-25 15:51:19,118] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,118] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 15:51:19,118] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:19,119] [plex_meta_manager.py:613]  [DEBUG]    | Builder: mdblist_list: {'url': 'https://mdblist.com/lists/plexmetamanager/cssfamiliesshows', 'limit': 0, 'sort_by': 'rank.asc'} |
+[2022-11-25 15:51:19,119] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,120] [builder.py:1523]           [INFO]     | Builder: mdblist_list loaded from Cache                                                            |
+[2022-11-25 15:51:19,126] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:19,126] [builder.py:1575]           [DEBUG]    | 248 IDs Found                                                                                      |
+[2022-11-25 15:51:19,126] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:19,369] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 133152                                                |
+[2022-11-25 15:51:19,471] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 90422                                                 |
+[2022-11-25 15:51:19,482] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 95140                                                 |
+[2022-11-25 15:51:19,495] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 95830                                                 |
+[2022-11-25 15:51:19,511] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96885                                                 |
+[2022-11-25 15:51:19,523] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93548                                                 |
+[2022-11-25 15:51:19,540] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 72219                                                 |
+[2022-11-25 15:51:19,558] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 108137                                                |
+[2022-11-25 15:51:19,573] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 113098                                                |
+[2022-11-25 15:51:19,600] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 76605                                                 |
+[2022-11-25 15:51:19,611] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 128072                                                |
+[2022-11-25 15:51:19,624] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 99628                                                 |
+[2022-11-25 15:51:19,635] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 75578                                                 |
+[2022-11-25 15:51:19,653] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 195062                                                |
+[2022-11-25 15:51:19,688] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155434                                                |
+[2022-11-25 15:51:19,698] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213573                                                |
+[2022-11-25 15:51:19,699] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,699] [builder.py:2159]           [INFO]     |=========================== Adding to Common Sense Selection Collection ============================|
+[2022-11-25 15:51:19,699] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  1/14 | Common Sense Selection Collection | = | Star Trek: Strange New Worlds                      |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  2/14 | Common Sense Selection Collection | = | Shadow and Bone                                    |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  3/14 | Common Sense Selection Collection | = | Dug Days                                           |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  4/14 | Common Sense Selection Collection | = | Superman & Lois                                    |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  5/14 | Common Sense Selection Collection | = | The Falcon and The Winter Soldier                  |
+[2022-11-25 15:51:19,700] [builder.py:2174]           [INFO]     |  6/14 | Common Sense Selection Collection | = | Secrets of Sulphur Springs                         |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     |  7/14 | Common Sense Selection Collection | = | The Mysterious Benedict Society                    |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     |  8/14 | Common Sense Selection Collection | = | Raising Dion                                       |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     |  9/14 | Common Sense Selection Collection | = | Star Trek: Prodigy                                 |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     | 10/14 | Common Sense Selection Collection | = | Star Trek: Picard                                  |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     | 11/14 | Common Sense Selection Collection | = | The Lord of the Rings: The Rings of Power          |
+[2022-11-25 15:51:19,701] [builder.py:2174]           [INFO]     | 12/14 | Common Sense Selection Collection | = | Monsters at Work                                   |
+[2022-11-25 15:51:19,702] [builder.py:2174]           [INFO]     | 13/14 | Common Sense Selection Collection | = | Zootopia+                                          |
+[2022-11-25 15:51:19,702] [builder.py:2174]           [INFO]     | 14/14 | Common Sense Selection Collection | = | Cesar Millan: Better Human Better Dog              |
+[2022-11-25 15:51:19,702] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,702] [builder.py:2196]           [INFO]     | 14 Shows Processed 0 Shows Added                                                                   |
+[2022-11-25 15:51:19,702] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,702] [builder.py:2353]           [INFO]     |======================== Missing Shows from Library: Common Sense Selection ========================|
+[2022-11-25 15:51:19,702] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:19,740] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Planet Earth II (TVDb: 318408)                             |
+[2022-11-25 15:51:19,764] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Heartstopper (TVDb: 395494)                                |
+[2022-11-25 15:51:19,787] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Extraordinary Attorney Woo (TVDb: 419950)                  |
+[2022-11-25 15:51:19,810] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Hilda (TVDb: 349643)                                       |
+[2022-11-25 15:51:19,846] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Owl House (TVDb: 349578)                               |
+[2022-11-25 15:51:20,002] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Beatles: Get Back (TVDb: 405144)                       |
+[2022-11-25 15:51:20,036] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Kipo and the Age of Wonderbeasts (TVDb: 365463)            |
+[2022-11-25 15:51:20,072] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Prehistoric Planet (2022) (TVDb: 418505)                   |
+[2022-11-25 15:51:20,100] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Dragon Prince (TVDb: 350123)                           |
+[2022-11-25 15:51:20,127] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | She-Ra and the Princesses of Power (TVDb: 350399)          |
+[2022-11-25 15:51:20,152] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Julie and the Phantoms (US) (TVDb: 385735)                 |
+[2022-11-25 15:51:20,182] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Star Wars: Tales of the Jedi (TVDb: 420659)                |
+[2022-11-25 15:51:20,212] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | One Day at a Time (2017) (TVDb: 318363)                    |
+[2022-11-25 15:51:20,247] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ted Lasso (TVDb: 383203)                                   |
+[2022-11-25 15:51:20,286] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | DuckTales (2017) (TVDb: 330134)                            |
+[2022-11-25 15:51:20,318] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Carmen Sandiego (TVDb: 356574)                             |
+[2022-11-25 15:51:20,367] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Loki (TVDb: 362472)                                        |
+[2022-11-25 15:51:20,404] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Alexa & Katie (TVDb: 330132)                               |
+[2022-11-25 15:51:20,461] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | We Bare Bears (TVDb: 297271)                               |
+[2022-11-25 15:51:20,491] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Wizards: Tales of Arcadia (TVDb: 365658)                   |
+[2022-11-25 15:51:20,529] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Anne with an E (TVDb: 322971)                              |
+[2022-11-25 15:51:20,587] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Amphibia (TVDb: 350984)                                    |
+[2022-11-25 15:51:20,614] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Atypical (TVDb: 330374)                                    |
+[2022-11-25 15:51:20,650] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Voltron: Legendary Defender (TVDb: 307899)                 |
+[2022-11-25 15:51:20,688] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | On My Block (TVDb: 339273)                                 |
+[2022-11-25 15:51:20,727] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | All Creatures Great and Small (2020) (TVDb: 378982)        |
+[2022-11-25 15:51:20,761] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dynasties (2018) (TVDb: 352054)                            |
+[2022-11-25 15:51:20,784] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | One Strange Rock (TVDb: 342190)                            |
+[2022-11-25 15:51:20,810] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Cheer (2020) (TVDb: 374441)                                |
+[2022-11-25 15:51:20,834] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Jurassic World: Camp Cretaceous (TVDb: 365066)             |
+[2022-11-25 15:51:20,857] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dash & Lily (TVDb: 371940)                                 |
+[2022-11-25 15:51:20,883] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | A League of Their Own (2022) (TVDb: 402931)                |
+[2022-11-25 15:51:20,906] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Welcome to Wrexham (TVDb: 403119)                          |
+[2022-11-25 15:51:20,929] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Pantheon (TVDb: 417208)                                    |
+[2022-11-25 15:51:20,958] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Marvel's Agent Carter (TVDb: 281485)                       |
+[2022-11-25 15:51:20,985] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Fresh Off the Boat (TVDb: 281618)                          |
+[2022-11-25 15:51:21,008] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Maya and the Three (TVDb: 396222)                          |
+[2022-11-25 15:51:21,053] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Good Witch (TVDb: 289855)                                  |
+[2022-11-25 15:51:21,179] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dead End: Paranormal Park (TVDb: 401726)                   |
+[2022-11-25 15:51:21,225] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Speechless (TVDb: 311875)                                  |
+[2022-11-25 15:51:21,258] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Light & Magic (TVDb: 419829)                               |
+[2022-11-25 15:51:21,280] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Pitch (TVDb: 311835)                                       |
+[2022-11-25 15:51:21,304] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Hollow (TVDb: 347726)                                  |
+[2022-11-25 15:51:21,327] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Tiny World (TVDb: 387542)                                  |
+[2022-11-25 15:51:21,354] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Lost Ollie (TVDb: 389788)                                  |
+[2022-11-25 15:51:21,381] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Schmigadoon! (TVDb: 393154)                                |
+[2022-11-25 15:51:21,407] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Steven Universe Future (TVDb: 370471)                      |
+[2022-11-25 15:51:21,447] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Just Add Magic (TVDb: 299140)                              |
+[2022-11-25 15:51:21,469] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Milo Murphy's Law (TVDb: 315954)                           |
+[2022-11-25 15:51:21,498] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | High School Musical: The Musical: The Series (TVDb: 359728) |
+[2022-11-25 15:51:21,526] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Baymax! (TVDb: 393207)                                     |
+[2022-11-25 15:51:21,638] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | We Are Lady Parts (TVDb: 380221)                           |
+[2022-11-25 15:51:21,671] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Our Great National Parks (TVDb: 417835)                    |
+[2022-11-25 15:51:21,700] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Cars on the Road (TVDb: 412436)                            |
+[2022-11-25 15:51:21,730] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Gifted (TVDb: 328552)                                  |
+[2022-11-25 15:51:21,769] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Mr. Iglesias (TVDb: 352207)                                |
+[2022-11-25 15:51:21,805] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | God Friended Me (TVDb: 349684)                             |
+[2022-11-25 15:51:32,117] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 358179                                                    |
+[2022-11-25 15:51:32,156] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Black Lightning (TVDb: 332525)                             |
+[2022-11-25 15:51:32,384] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Loud House (TVDb: 309726)                              |
+[2022-11-25 15:51:32,434] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Glitch Techs (TVDb: 343279)                                |
+[2022-11-25 15:51:32,459] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Rilakkuma and Kaoru (TVDb: 347929)                         |
+[2022-11-25 15:51:32,488] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Locke & Key (TVDb: 361594)                                 |
+[2022-11-25 15:51:32,526] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Supergirl (TVDb: 295759)                                   |
+[2022-11-25 15:51:32,560] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Book of Boba Fett (TVDb: 393589)                       |
+[2022-11-25 15:51:32,583] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Andi Mack (TVDb: 324948)                                   |
+[2022-11-25 15:51:32,626] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | American Ninja Warrior (TVDb: 212411)                      |
+[2022-11-25 15:51:32,656] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Kid Cosmic (TVDb: 395064)                                  |
+[2022-11-25 15:51:32,682] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Boss Baby: Back in Business (TVDb: 342858)             |
+[2022-11-25 15:51:32,715] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Northern Rescue (TVDb: 360229)                             |
+[2022-11-25 15:51:32,742] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Masters of the Universe: Revelation (TVDb: 368321)         |
+[2022-11-25 15:51:32,766] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Centaurworld (TVDb: 369122)                                |
+[2022-11-25 15:51:32,874] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Alaska Daily (TVDb: 420107)                                |
+[2022-11-25 15:51:32,897] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Kids Are Alright (TVDb: 350668)                        |
+[2022-11-25 15:51:33,054] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Astronauts (TVDb: 382105)                              |
+[2022-11-25 15:51:33,092] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Wonder Years (2021) (TVDb: 402907)                     |
+[2022-11-25 15:51:33,117] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Great North (TVDb: 353887)                             |
+[2022-11-25 15:51:33,142] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Thai Cave Rescue (TVDb: 422799)                            |
+[2022-11-25 15:51:33,169] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Doogie Kamealoha, M.D. (TVDb: 395130)                      |
+[2022-11-25 15:51:33,212] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Snoopy in Space (TVDb: 367015)                             |
+[2022-11-25 15:51:33,254] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Good Cop (TVDb: 348800)                                |
+[2022-11-25 15:51:33,279] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Making It (TVDb: 338260)                                   |
+[2022-11-25 15:51:33,316] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Rapunzel's Tangled Adventure (TVDb: 318990)                |
+[2022-11-25 15:51:33,354] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Rise (2018) (TVDb: 333622)                                 |
+[2022-11-25 15:51:33,378] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Degrassi: Next Class (TVDb: 305913)                        |
+[2022-11-25 15:51:33,501] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Connected (2020) (TVDb: 385705)                            |
+[2022-11-25 15:51:33,535] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Rutherford Falls (TVDb: 380211)                            |
+[2022-11-25 15:51:33,565] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | White Rabbit Project (TVDb: 316581)                        |
+[2022-11-25 15:51:33,744] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Secrets of the Whales (TVDb: 393225)                       |
+[2022-11-25 15:51:33,789] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Bluey (2018) (TVDb: 353546)                                |
+[2022-11-25 15:51:33,817] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Lion Guard (TVDb: 282756)                              |
+[2022-11-25 15:51:33,849] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Colin in Black and White (TVDb: 396895)                    |
+[2022-11-25 15:51:33,885] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Mayor (2017) (TVDb: 328594)                            |
+[2022-11-25 15:51:33,928] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Big City Greens (TVDb: 342059)                             |
+[2022-11-25 15:51:33,952] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Party of Five (2020) (TVDb: 361187)                        |
+[2022-11-25 15:51:34,101] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Skylanders Academy (TVDb: 317886)                          |
+[2022-11-25 15:51:34,137] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Waffles + Mochi (TVDb: 396636)                             |
+[2022-11-25 15:51:34,163] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Last Bus (TVDb: 417447)                                |
+[2022-11-25 15:51:34,206] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Step Up (TVDb: 339544)                                     |
+[2022-11-25 15:51:34,308] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Muppets Now (TVDb: 368781)                                 |
+[2022-11-25 15:51:34,336] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Stuck in the Middle (TVDb: 306143)                         |
+[2022-11-25 15:51:34,361] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Lab Rats: Elite Force (TVDb: 306990)                       |
+[2022-11-25 15:51:34,394] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Magic School Bus Rides Again (TVDb: 334579)            |
+[2022-11-25 15:51:34,421] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Mao Mao: Heroes of Pure Heart (TVDb: 364343)               |
+[2022-11-25 15:51:34,447] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Kung Fu Panda: The Paws of Destiny (TVDb: 353844)          |
+[2022-11-25 15:51:34,479] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Project Mc² (TVDb: 299260)                                 |
+[2022-11-25 15:51:34,516] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Elena of Avalor (TVDb: 312964)                             |
+[2022-11-25 15:51:34,560] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Thunderbirds Are Go! (TVDb: 266631)                        |
+[2022-11-25 15:51:34,587] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Samurai Rabbit: The Usagi Chronicles (TVDb: 400145)        |
+[2022-11-25 15:51:34,610] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Harry Potter: Hogwarts Tournament of Houses (TVDb: 411461) |
+[2022-11-25 15:51:34,633] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Oni: Thunder God's Tale (TVDb: 419975)                     |
+[2022-11-25 15:51:34,657] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Spirit Riding Free (TVDb: 327985)                          |
+[2022-11-25 15:51:34,684] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Bravest Knight (TVDb: 365893)                          |
+[2022-11-25 15:51:34,726] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Summer Camp Island (TVDb: 338738)                          |
+[2022-11-25 15:51:34,836] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Trolls: The Beat Goes On! (TVDb: 339243)                   |
+[2022-11-25 15:51:34,864] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | LOST SONG (TVDb: 341395)                                   |
+[2022-11-25 15:51:34,887] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Mystery Lab (TVDb: 385468)                                 |
+[2022-11-25 15:51:34,912] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Ghost and Molly McGee (TVDb: 367316)                   |
+[2022-11-25 15:51:34,939] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Marvel Rising (TVDb: 350537)                               |
+[2022-11-25 15:51:34,965] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Deep (2015) (TVDb: 304075)                             |
+[2022-11-25 15:51:35,076] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Lost & Found Music Studios (TVDb: 307057)                  |
+[2022-11-25 15:51:35,212] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ben and Holly's Little Kingdom (TVDb: 136941)              |
+[2022-11-25 15:51:35,252] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | I Am Jazz (TVDb: 297378)                                   |
+[2022-11-25 15:51:35,301] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Crikey! It's the Irwins (TVDb: 352803)                     |
+[2022-11-25 15:51:35,339] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Hotel Transylvania: The Series (TVDb: 328994)              |
+[2022-11-25 15:51:35,383] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Hey Duggee (TVDb: 289541)                                  |
+[2022-11-25 15:51:35,416] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Super Monsters (TVDb: 336299)                              |
+[2022-11-25 15:51:35,460] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Age of A.I. (TVDb: 373745)                             |
+[2022-11-25 15:51:35,506] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Vampirina (TVDb: 335717)                                   |
+[2022-11-25 15:51:35,627] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Fast Layne (TVDb: 349670)                                  |
+[2022-11-25 15:51:35,782] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Casagrandes (TVDb: 344898)                             |
+[2022-11-25 15:51:35,906] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Kicks (2015) (TVDb: 316182)                            |
+[2022-11-25 15:51:35,938] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Best.Worst.Weekend.Ever. (TVDb: 347767)                    |
+[2022-11-25 15:51:35,965] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Rocketeer (TVDb: 371012)                               |
+[2022-11-25 15:51:35,994] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Costume Quest (TVDb: 359650)                               |
+[2022-11-25 15:51:36,023] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dinotrux (TVDb: 299414)                                    |
+[2022-11-25 15:51:36,048] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Nella the Princess Knight (TVDb: 322934)                   |
+[2022-11-25 15:51:36,074] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Goldie and Bear (TVDb: 300622)                             |
+[2022-11-25 15:51:36,219] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Muppet Babies (2018) (TVDb: 343395)                        |
+[2022-11-25 15:51:36,321] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Top Chef Junior (TVDb: 336676)                             |
+[2022-11-25 15:51:36,349] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Mira, Royal Detective (TVDb: 373754)                       |
+[2022-11-25 15:51:36,475] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Project Runway Junior (TVDb: 300486)                       |
+[2022-11-25 15:51:36,517] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Danger Mouse (2015) (TVDb: 300969)                         |
+[2022-11-25 15:51:36,612] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Nature Cat (TVDb: 303225)                                  |
+[2022-11-25 15:51:36,723] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Taste the Nation (TVDb: 382650)                            |
+[2022-11-25 15:51:36,757] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | A Little Help with Carol Burnett (TVDb: 332761)            |
+[2022-11-25 15:51:36,783] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Brainchild (TVDb: 354944)                                  |
+[2022-11-25 15:51:36,905] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Kulipari: An Army of Frogs (TVDb: 316530)                  |
+[2022-11-25 15:51:37,086] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Charlie's Colorforms City (TVDb: 361402)                   |
+[2022-11-25 15:51:37,120] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Archibald's Next Big Thing Is Here! (TVDb: 368927)         |
+[2022-11-25 15:51:37,147] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Twelve Forever (TVDb: 366765)                              |
+[2022-11-25 15:51:37,312] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Pete the Cat (TVDb: 340595)                                |
+[2022-11-25 15:51:37,344] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Go! Go! Cory Carson (TVDb: 374939)                         |
+[2022-11-25 15:51:37,389] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Niko and the Sword of Light (TVDb: 325935)                 |
+[2022-11-25 15:51:37,551] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Llama Llama (TVDb: 339245)                                 |
+[2022-11-25 15:51:37,687] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Beat Bugs (TVDb: 307418)                                   |
+[2022-11-25 15:51:37,718] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Encore! (TVDb: 337854)                                     |
+[2022-11-25 15:51:37,860] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Savage Builds (TVDb: 363058)                               |
+[2022-11-25 15:51:37,888] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Big Family Cooking Showdown (TVDb: 332933)             |
+[2022-11-25 15:51:38,027] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Rhyme Time Town (TVDb: 384116)                             |
+[2022-11-25 15:51:38,120] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Esme & Roy (TVDb: 350883)                                  |
+[2022-11-25 15:51:38,160] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Abby Hatcher, Fuzzly Catcher (TVDb: 356827)                |
+[2022-11-25 15:51:38,262] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Family Food Showdown (TVDb: 360519)                        |
+[2022-11-25 15:51:38,330] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Just Roll With It (TVDb: 363327)                           |
+[2022-11-25 15:51:38,455] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ranger Rob (TVDb: 322314)                                  |
+[2022-11-25 15:51:38,548] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ready Jet Go! (TVDb: 306317)                               |
+[2022-11-25 15:51:38,640] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | I Promise (TVDb: 378251)                                   |
+[2022-11-25 15:51:38,679] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Julie's Greenroom (TVDb: 313883)                           |
+[2022-11-25 15:51:38,791] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Cousins for Life (TVDb: 349673)                            |
+[2022-11-25 15:51:38,904] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ride (TVDb: 316632)                                        |
+[2022-11-25 15:51:39,106] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Danger & Eggs (TVDb: 324296)                               |
+[2022-11-25 15:51:39,206] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Benjamin Franklin (TVDb: 108501)                           |
+[2022-11-25 15:51:39,229] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Helpsters (TVDb: 369782)                                   |
+[2022-11-25 15:51:39,332] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Wishenpoof! (TVDb: 284428)                                 |
+[2022-11-25 15:51:39,371] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Clangers (TVDb: 79166)                                 |
+[2022-11-25 15:51:39,523] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Jessy & Nessy (TVDb: 378085)                               |
+[2022-11-25 15:51:39,551] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Junior Bake Off (TVDb: 277114)                             |
+[2022-11-25 15:51:39,582] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Fungies! (TVDb: 367110)                                |
+[2022-11-25 15:51:39,607] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Black Hollywood: 'They've Gotta Have Us' (TVDb: 354205)    |
+[2022-11-25 15:51:39,716] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Emily's Wonder Lab (TVDb: 386764)                          |
+[2022-11-25 15:51:39,827] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dino Dana (TVDb: 331706)                                   |
+[2022-11-25 15:51:39,854] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Izzy's Koala World (TVDb: 388488)                          |
+[2022-11-25 15:51:39,971] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Becoming (TVDb: 387110)                                    |
+[2022-11-25 15:51:40,115] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | VeggieTales in the City (TVDb: 330756)                     |
+[2022-11-25 15:51:40,194] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Genius Junior (TVDb: 343136)                               |
+[2022-11-25 15:51:40,218] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dancing with the Stars: Juniors (TVDb: 350838)             |
+[2022-11-25 15:51:40,320] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Zoe Valentine (TVDb: 357534)                               |
+[2022-11-25 15:51:40,455] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Peanuts (2014) (TVDb: 297291)                              |
+[2022-11-25 15:51:40,564] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Equal (TVDb: 387400)                                       |
+[2022-11-25 15:51:40,678] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Stillwater (TVDb: 388611)                                  |
+[2022-11-25 15:51:40,804] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Fresh Beat Band of Spies (TVDb: 296855)                    |
+[2022-11-25 15:51:40,840] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Little Ellen (TVDb: 383820)                                |
+[2022-11-25 15:51:40,996] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The G Word with Adam Conover (TVDb: 392358)                |
+[2022-11-25 15:51:41,044] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Theodosia (TVDb: 397532)                                   |
+[2022-11-25 15:51:41,115] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Duff's Happy Fun Bake Time (TVDb: 400735)                  |
+[2022-11-25 15:51:41,211] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Eureka! (2022) (TVDb: 400822)                              |
+[2022-11-25 15:51:41,246] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Greta Thunberg: A Year to Change the World (TVDb: 400987)  |
+[2022-11-25 15:51:41,386] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Turning the Tables with Robin Roberts (TVDb: 403377)       |
+[2022-11-25 15:51:41,490] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Dodo (TVDb: 405359)                                        |
+[2022-11-25 15:51:41,525] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Bake Squad (TVDb: 407030)                                  |
+[2022-11-25 15:51:41,550] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Ada Twist, Scientist (TVDb: 407349)                        |
+[2022-11-25 15:51:41,676] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Fraggle Rock: Back to the Rock (TVDb: 412536)              |
+[2022-11-25 15:51:41,783] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Hello, Jack! The Kindness Show (TVDb: 404951)              |
+[2022-11-25 15:51:41,934] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Wolfboy and the Everything Factory (TVDb: 409758)          |
+[2022-11-25 15:51:42,060] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Amber Brown (TVDb: 410661)                                 |
+[2022-11-25 15:51:42,156] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | El Deafo (TVDb: 413544)                                    |
+[2022-11-25 15:51:42,258] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Pretzel and the Puppies (TVDb: 415815)                     |
+[2022-11-25 15:51:42,400] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Making Fun (TVDb: 416348)                                  |
+[2022-11-25 15:51:42,434] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Creature Cases (TVDb: 418091)                          |
+[2022-11-25 15:51:42,546] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Pinecone & Pony (TVDb: 417923)                             |
+[2022-11-25 15:51:42,665] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Brené Brown: Atlas of the Heart (TVDb: 417680)             |
+[2022-11-25 15:51:42,694] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Gordita Chronicles (TVDb: 402708)                          |
+[2022-11-25 15:51:42,722] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | America the Beautiful (2022) (TVDb: 393227)                |
+[2022-11-25 15:51:42,748] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Best Foot Forward (TVDb: 420906)                           |
+[2022-11-25 15:51:42,859] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | The Great Muslim American Road Trip (TVDb: 421522)         |
+[2022-11-25 15:51:42,886] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Super/Natural (TVDb: 423144)                               |
+[2022-11-25 15:51:42,910] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Life by Ella (TVDb: 423138)                                |
+[2022-11-25 15:51:43,014] [builder.py:2366]           [INFO]     | Common Sense Selection Collection | ? | Interrupting Chicken (TVDb: 424176)                        |
+[2022-11-25 15:51:43,015] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:51:43,015] [builder.py:2372]           [INFO]     | 217 Shows Missing                                                                                  |
+[2022-11-25 15:51:44,337] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:51:44,338] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:51:44,338] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:51:44,338] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [318408, 395494, 419950, 349643, 349578, 405144, 365463, 418505, 350123, 350399, 385735, 420659, 318363, 383203, 330134, 356574, 362472, 330132, 297271, 365658, 322971, 350984, 330374, 307899, 339273, 378982, 352054, 342190, 374441, 365066, 371940, 402931, 403119, 417208, 281485, 281618, 396222, 289855, 401726, 311875, 419829, 311835, 347726, 387542, 389788, 393154, 370471, 299140, 315954, 359728, 393207, 380221, 417835, 412436, 328552, 352207, 349684, 332525, 309726, 343279, 347929, 361594, 295759, 393589, 324948, 212411, 395064, 342858, 360229, 368321, 369122, 420107, 350668, 382105, 402907, 353887, 422799, 395130, 367015, 348800, 338260, 318990, 333622, 305913, 385705, 380211, 316581, 393225, 353546, 282756, 396895, 328594, 342059, 361187, 317886, 396636, 417447, 339544, 368781, 306143, 306990, 334579, 364343, 353844, 299260, 312964, 266631, 400145, 411461, 419975, 327985, 365893, 338738, 339243, 341395, 385468, 367316, 350537, 304075, 307057, 136941, 297378, 352803, 328994, 289541, 336299, 373745, 335717, 349670, 344898, 316182, 347767, 371012, 359650, 299414, 322934, 300622, 343395, 336676, 373754, 300486, 300969, 303225, 382650, 332761, 354944, 316530, 361402, 368927, 366765, 340595, 374939, 325935, 339245, 307418, 337854, 363058, 332933, 384116, 350883, 356827, 360519, 363327, 322314, 306317, 378251, 313883, 349673, 316632, 324296, 108501, 369782, 284428, 79166, 378085, 277114, 367110, 354205, 386764, 331706, 388488, 387110, 330756, 343136, 350838, 357534, 297291, 387400, 388611, 296855, 383820, 392358, 397532, 400735, 400822, 400987, 403377, 405359, 407030, 407349, 412536, 404951, 409758, 410661, 413544, 415815, 416348, 418091, 417923, 417680, 402708, 393227, 420906, 421522, 423144, 423138, 424176] |
+[2022-11-25 15:52:52,551] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 318408                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395494                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 419950                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349643                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349578                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405144                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365463                                                                         |
+[2022-11-25 15:52:52,551] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418505                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350123                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350399                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385735                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420659                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 318363                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383203                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330134                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 356574                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330132                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297271                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365658                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350984                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330374                                                                         |
+[2022-11-25 15:52:52,552] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307899                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339273                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378982                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352054                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342190                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 374441                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365066                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371940                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402931                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 403119                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417208                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281618                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396222                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401726                                                                         |
+[2022-11-25 15:52:52,553] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 311875                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 419829                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 311835                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347726                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387542                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 389788                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393154                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 370471                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299140                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 315954                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359728                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393207                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380221                                                                         |
+[2022-11-25 15:52:52,554] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417835                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412436                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328552                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352207                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349684                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332525                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 309726                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343279                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347929                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361594                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393589                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 324948                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 212411                                                                         |
+[2022-11-25 15:52:52,555] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395064                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342858                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360229                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368321                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 369122                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420107                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350668                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382105                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402907                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 353887                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422799                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395130                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367015                                                                         |
+[2022-11-25 15:52:52,556] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348800                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338260                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 318990                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 333622                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 305913                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385705                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380211                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316581                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393225                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 353546                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282756                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396895                                                                         |
+[2022-11-25 15:52:52,557] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328594                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342059                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361187                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317886                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396636                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417447                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339544                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368781                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306143                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306990                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 334579                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364343                                                                         |
+[2022-11-25 15:52:52,558] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 353844                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299260                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 312964                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266631                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400145                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411461                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 419975                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 327985                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365893                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338738                                                                         |
+[2022-11-25 15:52:52,559] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339243                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 341395                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385468                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367316                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350537                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 304075                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307057                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 136941                                                                         |
+[2022-11-25 15:52:52,569] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297378                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352803                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328994                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289541                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 336299                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 373745                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 335717                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349670                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 344898                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316182                                                                         |
+[2022-11-25 15:52:52,570] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347767                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371012                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359650                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299414                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 322934                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 300622                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343395                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 336676                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 373754                                                                         |
+[2022-11-25 15:52:52,571] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 300486                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 300969                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303225                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382650                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332761                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354944                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316530                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361402                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368927                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366765                                                                         |
+[2022-11-25 15:52:52,572] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 340595                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 374939                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 325935                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339245                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307418                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 337854                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 363058                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332933                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384116                                                                         |
+[2022-11-25 15:52:52,573] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350883                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 356827                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360519                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 363327                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 322314                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306317                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378251                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 313883                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349673                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316632                                                                         |
+[2022-11-25 15:52:52,574] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 324296                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 108501                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 369782                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 284428                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79166                                                                          |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378085                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 277114                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367110                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354205                                                                         |
+[2022-11-25 15:52:52,575] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386764                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 331706                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388488                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387110                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330756                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343136                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350838                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357534                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297291                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387400                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388611                                                                         |
+[2022-11-25 15:52:52,576] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 296855                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383820                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392358                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400735                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400822                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400987                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 403377                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405359                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 407030                                                                         |
+[2022-11-25 15:52:52,577] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 407349                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412536                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 404951                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409758                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410661                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 413544                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 415815                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 416348                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418091                                                                         |
+[2022-11-25 15:52:52,578] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417923                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417680                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402708                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393227                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420906                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421522                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 423144                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 423138                                                                         |
+[2022-11-25 15:52:52,586] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 424176                                                                         |
+[2022-11-25 15:52:52,587] [sonarr.py:187]             [INFO]     | 211 Series already exist in Sonarr                                                                 |
+[2022-11-25 15:52:52,587] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,587] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Loki]                                                                           |
+[2022-11-25 15:52:52,587] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,587] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Anne with an E]                                                                 |
+[2022-11-25 15:52:52,587] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,587] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Marvel's Agent Carter]                                                          |
+[2022-11-25 15:52:52,587] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,588] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Good Witch]                                                                     |
+[2022-11-25 15:52:52,588] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,588] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Supergirl]                                                                      |
+[2022-11-25 15:52:52,588] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,588] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Theodosia]                                                                      |
+[2022-11-25 15:52:52,588] [sonarr.py:207]             [INFO]     | 6 Series with Invalid IDs                                                                          |
+[2022-11-25 15:52:52,687] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,687] [builder.py:2528]           [INFO]     |====================== Updating Details of Common Sense Selection Collection =======================|
+[2022-11-25 15:52:52,687] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,700] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:52:52,700] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 15:52:52,701] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Common%20Sense%20Selection.jpg |
+[2022-11-25 15:52:52,702] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:52:52,778] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,778] [builder.py:2687]           [INFO]     |============================ Sorting Common Sense Selection Collection =============================|
+[2022-11-25 15:52:52,778] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,778] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,778] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:52:52,783] [plex_meta_manager.py:737]  [INFO]     |                             Finished Common Sense Selection Collection                             |
+[2022-11-25 15:52:52,783] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:33                                    |
+[2022-11-25 15:52:52,783] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

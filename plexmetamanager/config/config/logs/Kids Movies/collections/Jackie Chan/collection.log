@@ -1,0 +1,78 @@
+[2022-11-16 20:18:09,138] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:18:09,138] [builder.py:193]            [INFO]     |                               Jackie Chan Collection in Kids Movies                                |
+[2022-11-16 20:18:09,138] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:18:09,138] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,138] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:18:09,138] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,138] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:18:09,139] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,140] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,140] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:18:09,140] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,140] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 18897, 'sort_title': '++_Jackie Chan', 'collection_order': 'release'} |
+[2022-11-16 20:18:09,140] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,140] [builder.py:223]            [INFO]     |================================ Validating Jackie Chan Attributes =================================|
+[2022-11-16 20:18:09,140] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,140] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:18:09,140] [builder.py:533]            [DEBUG]    | Value: 18897                                                                                       |
+[2022-11-16 20:18:09,174] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,174] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:18:09,174] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:18:09,175] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,175] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:18:09,175] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:18:09,661] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,662] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:18:09,662] [builder.py:651]            [DEBUG]    | Value: ++_Jackie Chan                                                                              |
+[2022-11-16 20:18:09,667] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,667] [builder.py:796]            [ERROR]    | Collection Error: Converting Jackie Chan to a normal collection                                    |
+[2022-11-16 20:18:09,673] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,674] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:18:09,674] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,674] [plex_meta_manager.py:596]  [INFO]     |================================== Running Jackie Chan Collection ==================================|
+[2022-11-16 20:18:09,674] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,674] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:18:09,675] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:09,675] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jackie Chan", '?type=1&sort=titleSort&push=1&actor=42169&pop=1') |
+[2022-11-16 20:18:09,675] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,675] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jackie Chan
+[2022-11-16 20:18:09,691] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:18:09,691] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 20:18:09,691] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:18:09,692] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:18:09,692] [builder.py:2159]           [INFO]     |================================= Adding to Jackie Chan Collection =================================|
+[2022-11-16 20:18:09,692] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:09,692] [builder.py:2174]           [INFO]     | 1/5 | Jackie Chan Collection | + | Kung Fu Panda (2008)                                            |
+[2022-11-16 20:18:09,803] [builder.py:2174]           [INFO]     | 2/5 | Jackie Chan Collection | + | Kung Fu Panda 2 (2011)                                          |
+[2022-11-16 20:18:10,013] [builder.py:2174]           [INFO]     | 3/5 | Jackie Chan Collection | + | Kung Fu Panda 3 (2016)                                          |
+[2022-11-16 20:18:10,187] [builder.py:2174]           [INFO]     | 4/5 | Jackie Chan Collection | + | The Lego Ninjago Movie (2017)                                   |
+[2022-11-16 20:18:12,605] [builder.py:2174]           [INFO]     | 5/5 | Jackie Chan Collection | + | The Nut Job 2: Nutty by Nature (2017)                           |
+[2022-11-16 20:18:19,098] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:19,098] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 20:18:19,105] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:19,105] [builder.py:2528]           [INFO]     |============================ Updating Details of Jackie Chan Collection ============================|
+[2022-11-16 20:18:19,106] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:19,114] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Jackie Chan (Chinese: 成龍; born 7 April 1954), born Chan Kong-sang, is a Hong Kong actor, action choreographer, filmmaker, comedian, producer, martial artist, screenwriter, entrepreneur, singer and stunt performer. In his movies, he is known for his acrobatic fighting style, comic timing, use of improvised weapons, and innovative stunts. Jackie Chan has been acting since the 1970s and has appeared in over 100 films.
+                                                                 | 
+                                                                 | Chan has received stars on the Hong Kong Avenue of Stars and the Hollywood Walk of Fame. As a cultural icon, Chan has been referenced in various pop songs, cartoons, and video games. Chan is also a Cantopop and Mandopop star, having released a number of albums and sung many of the theme songs for the films in which he has starred.
+                                                                 | 
+                                                                 | Chan was born on April 7, 1954, in Victoria Peak, in the former Crown colony of Hong Kong, as Chan Kong-sang (meaning "born in Hong Kong") to Charles and Lee-Lee Chan, refugees from the Chinese Civil War. He was nicknamed Paopao (Chinese: 炮炮, literally meaning "Cannonball") because he was such a big baby, weighing 12 pounds, or about 5.4 kgs. Since his parents worked for the French Consul to Hong Kong, Chan spent his formative years within the grounds of the consul's residence in the Victoria Peak district. Chan attended the Nah-Hwa Primary School on Hong Kong Island, where he failed his first year, after which his parents withdrew him from the school.
+                                                                 | 
+                                                                 | In 1960, his father immigrated to Canberra, Australia, to work as the head cook for the American embassy, and Chan was sent to the China Drama Academy, a Peking Opera School run by Master Yu Jim-yuen. Chan trained rigorously for the next decade, excelling in martial arts and acrobatics. He eventually became part of the Seven Little Fortunes, a performance group made up of the school's best students, gaining the stage name Yuen Lo in homage to his master. Chan became close friends with fellow group members Sammo Hung and Yuen Biao, the three of them later to be known as the Three Brothers or Three Dragons. At the age of 17, he worked as a stuntman in the Bruce Lee films Fist of Fury and Enter the Dragon under the stage name Chan Yuen Lung. He received his first starring role later that year, in Little Tiger of Canton, which had a limited release in Hong Kong in 1973.
+                                                                 | Sort Title | ++_Jackie Chan
+                                                                 | Label | +PMM
+[2022-11-16 20:18:21,514] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:18:21,514] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:18:21,515] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:18:21,515] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg
+[2022-11-16 20:18:21,782] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg
+[2022-11-16 20:18:21,962] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:18:21,963] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:18:21,963] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Jackie Chan Collection                                   |
+[2022-11-16 20:18:21,963] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-11-16 20:18:21,963] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

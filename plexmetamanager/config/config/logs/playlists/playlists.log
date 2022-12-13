@@ -1,0 +1,497 @@
+[2022-11-25 14:14:28,193] [plex_meta_manager.py:280]  [INFO]     |                                                                                                    |
+[2022-11-25 14:14:28,194] [plex_meta_manager.py:281]  [INFO]     |====================================================================================================|
+[2022-11-25 14:14:28,194] [plex_meta_manager.py:281]  [INFO]     |                                   RSMediaServer1 Playlist Report                                   |
+[2022-11-25 14:14:28,194] [plex_meta_manager.py:281]  [INFO]     |====================================================================================================|
+[2022-11-25 14:14:28,194] [plex_meta_manager.py:282]  [INFO]     |                                                                                                    |
+[2022-11-25 14:14:29,663] [plex_meta_manager.py:288]  [INFO]     | Playlist Title                                     | Users                                         |
+[2022-11-25 14:14:29,663] [plex_meta_manager.py:289]  [INFO]     |====================================================|===============================================|
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | *NSYNC Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | #ThrowbackThursday                                 | all                                           |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | 2 Chainz Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | 2Pac Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | 6LACK Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | 21 Savage Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,664] [plex_meta_manager.py:291]  [INFO]     | 42 Dugg Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 50 Cent Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 90's babbby                                        | all                                           |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 112 Essentials                                     | all                                           |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 1990s Hip-Hop Hits                                 | p1rps01                                       |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 2000s Hip-Hop Hits                                 | p1rps01                                       |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 2009 Hits                                          | all                                           |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | 2010s Hip-Hop Hits                                 | p1rps01                                       |
+[2022-11-25 14:14:29,665] [plex_meta_manager.py:291]  [INFO]     | A$AP Ferg Essentials                               | all                                           |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | A$AP Mob Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | A$AP Rocky Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | Abba Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | AC/DC Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | Adele Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,666] [plex_meta_manager.py:291]  [INFO]     | Al Green Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Alicia Keys Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | All Out 00s                                        | all                                           |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Amy Winehouse Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Anita Baker Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Anthony Hamilton Essentials                        | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Arcade Fire Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,667] [plex_meta_manager.py:291]  [INFO]     | Arctic Monkeys Essentials                          | all                                           |
+[2022-11-25 14:14:29,668] [plex_meta_manager.py:291]  [INFO]     | Aretha Franklin - TIDAL Masters                    | p1rps01                                       |
+[2022-11-25 14:14:29,668] [plex_meta_manager.py:291]  [INFO]     | Aretha Franklin Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,668] [plex_meta_manager.py:291]  [INFO]     | Ariana Grande Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,669] [plex_meta_manager.py:291]  [INFO]     | Ashanti Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,669] [plex_meta_manager.py:291]  [INFO]     | Avicii Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,669] [plex_meta_manager.py:291]  [INFO]     | B.B. King Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,669] [plex_meta_manager.py:291]  [INFO]     | Backstreet Boys Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,669] [plex_meta_manager.py:291]  [INFO]     | The Beach Boys - TIDAL Masters                     | p1rps01                                       |
+[2022-11-25 14:14:29,670] [plex_meta_manager.py:291]  [INFO]     | Beastie Boys Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | The Beatles Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | Bebe Rexha Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | Beck Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | Bee Gees Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | Best of 2021 So Far                                | p1rps01                                       |
+[2022-11-25 14:14:29,673] [plex_meta_manager.py:291]  [INFO]     | The Best Of John Lennon - Listen To This Playlist. | all                                           |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Best Songs of 2022 So far                          | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Beyoncé Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Big K.R.I.T. Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Big Sean Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Big Sean TIDAL Masters                             | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Billboard Hot Country Songs                        | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Billboard Hot Hip-Hop/R&B Songs                    | p1rps01                                       |
+[2022-11-25 14:14:29,674] [plex_meta_manager.py:291]  [INFO]     | Billie Eilish Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Billie Holiday Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Billy Joel Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Biz Markie Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Black Eyed Peas Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | The Black Keys Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Black Thought Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | BLACKPINK Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,675] [plex_meta_manager.py:291]  [INFO]     | Blake Shelton - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,676] [plex_meta_manager.py:291]  [INFO]     | blink-182 Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,676] [plex_meta_manager.py:291]  [INFO]     | Bob Dylan Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,676] [plex_meta_manager.py:291]  [INFO]     | Bob Dylan: Best of Bootleg Bob                     | p1rps01                                       |
+[2022-11-25 14:14:29,678] [plex_meta_manager.py:291]  [INFO]     | Bob Marley Best Of                                 | all                                           |
+[2022-11-25 14:14:29,678] [plex_meta_manager.py:291]  [INFO]     | Bob Marley Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,678] [plex_meta_manager.py:291]  [INFO]     | Bon Jovi Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Boyz II Men Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Brandy - TIDAL Masters                             | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Brandy Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Brent Faiyaz Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Britney Spears Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Bruce Springsteen Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Bruno Mars Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,679] [plex_meta_manager.py:291]  [INFO]     | Bryan Adams Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | BSA                                                | all                                           |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | BTS Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | Bubbly Beats                                       | all                                           |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | Burna Boy Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | Busta Rhymes Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | Cardi B - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | Cardi B Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,680] [plex_meta_manager.py:291]  [INFO]     | The Cars - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | The Carters Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | Celtic Roots                                       | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | Chance The Rapper Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | Chet Baker Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | Childish Gambino Essentials                        | p1rps01                                       |
+[2022-11-25 14:14:29,681] [plex_meta_manager.py:291]  [INFO]     | chill                                              | all                                           |
+[2022-11-25 14:14:29,684] [plex_meta_manager.py:291]  [INFO]     | Chris Brown Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Chris Cornell Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Christian & Gospel: Best of 2021 So Far            | p1rps01                                       |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Christian Currents                                 | p1rps01                                       |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Christmas Classics                                 | all                                           |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Christmas Hits                                     | all                                           |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | Christmas Music                                    | all                                           |
+[2022-11-25 14:14:29,685] [plex_meta_manager.py:291]  [INFO]     | christmas tunesss                                  | all                                           |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Ciara Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Classic Rock Classics                              | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Classical Focus                                    | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Clipse Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Coldplay - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | Coldplay Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,686] [plex_meta_manager.py:291]  [INFO]     | College Rock: Campus Favorites                     | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Cookout                                            | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Coolio Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Country - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Country Drive                                      | all                                           |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Country Hits                                       | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Country Kind of Love                               | all                                           |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Creedence Clearwater Revival Essentials            | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | Crosby, Stills & Nash - TIDAL Masters              | p1rps01                                       |
+[2022-11-25 14:14:29,687] [plex_meta_manager.py:291]  [INFO]     | DaBaby Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Daft Punk Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Damian Marley Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Daryl Hall & John Oates Essentials                 | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | David Bowie - TIDAL Masters                        | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | David Bowie Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | David Guetta Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Day Drink                                          | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Depeche Mode Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Destiny's Child Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,688] [plex_meta_manager.py:291]  [INFO]     | Diddy Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Dire Straits Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Disney Favorites                                   | all                                           |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | DJ Khaled Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | DMX Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Doja Cat Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | The Doors - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | The Doors Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Dr. Dre Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Dr. John Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,689] [plex_meta_manager.py:291]  [INFO]     | Drake - TIDAL Masters                              | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Drake Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Dua Lipa - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Dua Lipa Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Eagles - TIDAL Masters                             | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Eagles Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,690] [plex_meta_manager.py:291]  [INFO]     | Earth, Wind & Fire Essentials                      | p1rps01                                       |
+[2022-11-25 14:14:29,694] [plex_meta_manager.py:291]  [INFO]     | Ed Sheeran Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Electric Light Orchestra Essentials                | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Electronic Party Mix                               | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Ella Fitzgerald Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Elton John Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Elvis Presley Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | Eminem Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,698] [plex_meta_manager.py:291]  [INFO]     | emo                                                | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | emo 2000's                                         | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | En Vogue - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Encore: New in Classical                           | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Eric Church Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Eric Clapton - TIDAL Masters                       | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Eric Clapton Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Erykah Badu Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Eurythmics Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,699] [plex_meta_manager.py:291]  [INFO]     | Fabolous Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,700] [plex_meta_manager.py:291]  [INFO]     | Fall Hip-Hop                                       | p1rps01                                       |
+[2022-11-25 14:14:29,700] [plex_meta_manager.py:291]  [INFO]     | Fall R&B and Soul                                  | p1rps01                                       |
+[2022-11-25 14:14:29,700] [plex_meta_manager.py:291]  [INFO]     | Family Road Trip: Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,700] [plex_meta_manager.py:291]  [INFO]     | Family Road Trip: Rock                             | p1rps01                                       |
+[2022-11-25 14:14:29,700] [plex_meta_manager.py:291]  [INFO]     | Fat Joe Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,703] [plex_meta_manager.py:291]  [INFO]     | feeel good                                         | p1rps01                                       |
+[2022-11-25 14:14:29,704] [plex_meta_manager.py:291]  [INFO]     | Fire Starters                                      | p1rps01                                       |
+[2022-11-25 14:14:29,704] [plex_meta_manager.py:291]  [INFO]     | Fleetwood Mac - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,704] [plex_meta_manager.py:291]  [INFO]     | Fleetwood Mac Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,704] [plex_meta_manager.py:291]  [INFO]     | Foo Fighters Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,704] [plex_meta_manager.py:291]  [INFO]     | Frank Ocean Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,705] [plex_meta_manager.py:291]  [INFO]     | Frank Sinatra Best Of                              | all                                           |
+[2022-11-25 14:14:29,705] [plex_meta_manager.py:291]  [INFO]     | Frank Sinatra Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,705] [plex_meta_manager.py:291]  [INFO]     | French Montana Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,707] [plex_meta_manager.py:291]  [INFO]     | Future Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,708] [plex_meta_manager.py:291]  [INFO]     | The Game Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,708] [plex_meta_manager.py:291]  [INFO]     | George Gershwin Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,708] [plex_meta_manager.py:291]  [INFO]     | George Michael Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,708] [plex_meta_manager.py:291]  [INFO]     | get hype                                           | all                                           |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Get Uplifted                                       | p1rps01                                       |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | gH3tT0                                             | all                                           |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Ghostface Killah Essentials                        | p1rps01                                       |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Ginuwine Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Gloria Estefan Esenciales                          | p1rps01                                       |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Gospel & Christian: Best of 2022 So Far            | p1rps01                                       |
+[2022-11-25 14:14:29,709] [plex_meta_manager.py:291]  [INFO]     | Grave Digger                                       | all                                           |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Green Day - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Green Day Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Grown Jazz                                         | p1rps01                                       |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Gucci Mane Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Guilty Pleasures                                   | all                                           |
+[2022-11-25 14:14:29,710] [plex_meta_manager.py:291]  [INFO]     | Gunna Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Guns N' Roses Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Gwen Stefani Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Halloween Classics                                 | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Halsey Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Happy Hits!                                        | all                                           |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Hard Rock Classics - TIDAL Masters                 | p1rps01                                       |
+[2022-11-25 14:14:29,711] [plex_meta_manager.py:291]  [INFO]     | Heart - TIDAL Masters                              | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Heartache                                          | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hip-Hop - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hip-Hop Classics                                   | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hip-Hop Producers: Best of 2022 So Far             | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hip-Hop Workout                                    | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hip-Hop: Best of 2021 So Far                       | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Horror Soundtrack Classics                         | p1rps01                                       |
+[2022-11-25 14:14:29,712] [plex_meta_manager.py:291]  [INFO]     | Hot Billboard                                      | p1rps01                                       |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | Hot Country                                        | all                                           |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | Ice Cube Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | Imagine Dragons Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | Instrumental Jazz - TIDAL Masters                  | p1rps01                                       |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | Iron Maiden Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,713] [plex_meta_manager.py:291]  [INFO]     | The Isley Brothers Essentials                      | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | iTunes Hot Tracks US                               | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | J. Cole Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | Ja Rule Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | Jack White Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | Jacquees Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,714] [plex_meta_manager.py:291]  [INFO]     | Jadakiss Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | Jagged Edge Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | James Brown Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | James Taylor Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | Janet Jackson Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | Jason Aldean Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,715] [plex_meta_manager.py:291]  [INFO]     | JAY-Z - TIDAL Masters                              | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | JAY-Z Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | Jazz Classics - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | Jazz: Best of 2021 So Far                          | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | Jazz: Expanded - TIDAL Masters                     | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | Jeezy Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,716] [plex_meta_manager.py:291]  [INFO]     | Jennifer Lopez Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | Jhené Aiko Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | Jimi Hendrix Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | Joey Bada$$ Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | John Coltrane Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | John Legend Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,717] [plex_meta_manager.py:291]  [INFO]     | John Lennon - TIDAL Masters                        | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | John Lennon: A Tribute                             | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | John Mellencamp Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | Johnny Cash Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | Juice WRLD Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | Justin Bieber Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,718] [plex_meta_manager.py:291]  [INFO]     | Justin Timberlake Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Kanye West Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Katy Perry Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Kehlani Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Keith Sweat Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Kendrick Lamar Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,719] [plex_meta_manager.py:291]  [INFO]     | Kenny Chesney Radio                                | all                                           |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | Kenny Rogers: A Family Tribute                     | p1rps01                                       |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | Kevin Gates Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | Khalid Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | Kid Cudi Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | The Killers Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,720] [plex_meta_manager.py:291]  [INFO]     | Kings Of Leon Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | The Kinks - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | Kodak Black Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | Korn Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | KT Tunstall Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | Kygo Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | Lady Gaga - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,721] [plex_meta_manager.py:291]  [INFO]     | Lady Gaga Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,722] [plex_meta_manager.py:291]  [INFO]     | Lake it easy                                       | all                                           |
+[2022-11-25 14:14:29,722] [plex_meta_manager.py:291]  [INFO]     | Lana Del Rey Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,722] [plex_meta_manager.py:291]  [INFO]     | Lazy Days                                          | p1rps01                                       |
+[2022-11-25 14:14:29,722] [plex_meta_manager.py:291]  [INFO]     | Lazy Sunday                                        | all                                           |
+[2022-11-25 14:14:29,723] [plex_meta_manager.py:291]  [INFO]     | Led Zeppelin - TIDAL Masters                       | p1rps01                                       |
+[2022-11-25 14:14:29,723] [plex_meta_manager.py:291]  [INFO]     | Led Zeppelin Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,723] [plex_meta_manager.py:291]  [INFO]     | Liked from Radio                                   | p1rps01                                       |
+[2022-11-25 14:14:29,723] [plex_meta_manager.py:291]  [INFO]     | Lil Baby - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Lil Baby Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Lil Durk Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Lil Uzi Vert Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Lil Wayne Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Linkin Park Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,724] [plex_meta_manager.py:291]  [INFO]     | Lizzo Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,725] [plex_meta_manager.py:291]  [INFO]     | LL Cool J Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,725] [plex_meta_manager.py:291]  [INFO]     | Lloyd Banks Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,725] [plex_meta_manager.py:291]  [INFO]     | Lorde Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,725] [plex_meta_manager.py:291]  [INFO]     | The LOX Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,725] [plex_meta_manager.py:291]  [INFO]     | Luke Bryan Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | Luke Comb’s Summer Playlist                        | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | Lupe Fiasco - TIDAL Masters                        | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | Luther Vandross Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | M83 Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | Mac Miller Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,726] [plex_meta_manager.py:291]  [INFO]     | Madonna - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,727] [plex_meta_manager.py:291]  [INFO]     | Madonna Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,727] [plex_meta_manager.py:291]  [INFO]     | Mariah Carey Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,727] [plex_meta_manager.py:291]  [INFO]     | Maroon 5 Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,727] [plex_meta_manager.py:291]  [INFO]     | Martha & The Vandellas Essentials                  | p1rps01                                       |
+[2022-11-25 14:14:29,727] [plex_meta_manager.py:291]  [INFO]     | Marvin Gaye Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,728] [plex_meta_manager.py:291]  [INFO]     | Mary J. Blige Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,728] [plex_meta_manager.py:291]  [INFO]     | MAX Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,728] [plex_meta_manager.py:291]  [INFO]     | Maxwell Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,728] [plex_meta_manager.py:291]  [INFO]     | Meek Mill - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,728] [plex_meta_manager.py:291]  [INFO]     | Meek Mill Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,729] [plex_meta_manager.py:291]  [INFO]     | Mega Hit Mix                                       | all                                           |
+[2022-11-25 14:14:29,729] [plex_meta_manager.py:291]  [INFO]     | Megadeth Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,729] [plex_meta_manager.py:291]  [INFO]     | Megan Thee Stallion Essentials                     | p1rps01                                       |
+[2022-11-25 14:14:29,729] [plex_meta_manager.py:291]  [INFO]     | 'Merica                                            | all                                           |
+[2022-11-25 14:14:29,729] [plex_meta_manager.py:291]  [INFO]     | Metallica - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,730] [plex_meta_manager.py:291]  [INFO]     | Metallica Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,730] [plex_meta_manager.py:291]  [INFO]     | Michael Jackson Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,730] [plex_meta_manager.py:291]  [INFO]     | Migos Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,730] [plex_meta_manager.py:291]  [INFO]     | Miguel Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,730] [plex_meta_manager.py:291]  [INFO]     | Miles Davis Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,731] [plex_meta_manager.py:291]  [INFO]     | Missy Elliott - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,731] [plex_meta_manager.py:291]  [INFO]     | Missy Elliott Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,731] [plex_meta_manager.py:291]  [INFO]     | Mobb Deep Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,731] [plex_meta_manager.py:291]  [INFO]     | Moneybagg Yo Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,732] [plex_meta_manager.py:291]  [INFO]     | Most Streamed Songs of the Decade                  | all                                           |
+[2022-11-25 14:14:29,732] [plex_meta_manager.py:291]  [INFO]     | Mötley Crüe Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,732] [plex_meta_manager.py:291]  [INFO]     | Ms. Lauryn Hill Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,732] [plex_meta_manager.py:291]  [INFO]     | Muse Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,733] [plex_meta_manager.py:291]  [INFO]     | Musiq Soulchild Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,733] [plex_meta_manager.py:291]  [INFO]     | My Chemical Romance Essentials                     | p1rps01                                       |
+[2022-11-25 14:14:29,733] [plex_meta_manager.py:291]  [INFO]     | My Shazam Tracks                                   | all                                           |
+[2022-11-25 14:14:29,733] [plex_meta_manager.py:291]  [INFO]     | N.W.A Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,733] [plex_meta_manager.py:291]  [INFO]     | Nas Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,734] [plex_meta_manager.py:291]  [INFO]     | Ne-Yo Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,734] [plex_meta_manager.py:291]  [INFO]     | Neil Young Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,734] [plex_meta_manager.py:291]  [INFO]     | New Arrivals: Hip-Hop and R&B                      | p1rps01                                       |
+[2022-11-25 14:14:29,734] [plex_meta_manager.py:291]  [INFO]     | New Jazz - TIDAL Masters                           | p1rps01                                       |
+[2022-11-25 14:14:29,735] [plex_meta_manager.py:291]  [INFO]     | Nicki Minaj Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,735] [plex_meta_manager.py:291]  [INFO]     | Nina Simone Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,735] [plex_meta_manager.py:291]  [INFO]     | Nipsey Hussle Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,735] [plex_meta_manager.py:291]  [INFO]     | Nirvana Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | Norah Jones - TIDAL Masters                        | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | Norah Jones Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | The Notorious B.I.G. - TIDAL Masters               | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | The Notorious B.I.G. Essentials                    | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | Oasis Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,736] [plex_meta_manager.py:291]  [INFO]     | Office Rotation: Best New Music                    | p1rps01                                       |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | Office Rotation: Best New Music Videos             | p1rps01                                       |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | Old School R&B BBQ                                 | p1rps01                                       |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | oldies                                             | all                                           |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | One Tree Hill                                      | all                                           |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | Otis Redding Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,737] [plex_meta_manager.py:291]  [INFO]     | OutKast Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Paul McCartney Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Paul Simon Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Pearl Jam Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Peter Gabriel - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Peter Gabriel Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,738] [plex_meta_manager.py:291]  [INFO]     | Phife Dawg Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | Phil Collins Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | Piano Studio                                       | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | Pink Floyd Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | PnB Rock Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | Pop - TIDAL Masters                                | p1rps01                                       |
+[2022-11-25 14:14:29,739] [plex_meta_manager.py:291]  [INFO]     | Pop Hits                                           | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Pop Smoke Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Pop: Best of 2022 So Far                           | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Popcaan Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Post Malone Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Praise & Worship                                   | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Prince Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,740] [plex_meta_manager.py:291]  [INFO]     | Prodigy Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | Produced By: Dr. Dre                               | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | Produced By: Pharrell                              | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | Public Enemy Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | Pusha T Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | Queen Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,741] [plex_meta_manager.py:291]  [INFO]     | R.E.M. - TIDAL Masters                             | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | R.E.M. Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | R&B Classics                                       | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | R&B Hits                                           | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | R&B: Best of 2021 So Far                           | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | Radiohead Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,742] [plex_meta_manager.py:291]  [INFO]     | Rage Against the Machine Essentials                | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Rakim Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Ramones - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Rap Hits                                           | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Ray Charles Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Red Hot Chili Peppers - TIDAL Masters              | p1rps01                                       |
+[2022-11-25 14:14:29,743] [plex_meta_manager.py:291]  [INFO]     | Red Hot Chili Peppers Essentials                   | p1rps01                                       |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Relaxing Classics - TIDAL Masters                  | p1rps01                                       |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Release Radar                                      | all                                           |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Rick Ross Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Ride Vibes                                         | p1rps01                                       |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Rihanna - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,744] [plex_meta_manager.py:291]  [INFO]     | Rihanna Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | Rock - TIDAL Masters                               | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | Rock Hits                                          | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | Rock: Best of 2022 So Far                          | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | Rod Wave Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | Roddy Ricch Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,745] [plex_meta_manager.py:291]  [INFO]     | The Rolling Stones - TIDAL Masters                 | p1rps01                                       |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | The Rolling Stones Essentials                      | p1rps01                                       |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | The Roots Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | run happy                                          | all                                           |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | Run It                                             | p1rps01                                       |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | Run The Jewels Essentials                          | p1rps01                                       |
+[2022-11-25 14:14:29,746] [plex_meta_manager.py:291]  [INFO]     | Rush - TIDAL Masters                               | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | Russ Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | Sade Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | Sam Cooke - TIDAL Masters                          | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | Sampha Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | Santana Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,747] [plex_meta_manager.py:291]  [INFO]     | ScHoolboy Q Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | Shania Twain - TIDAL Masters                       | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | Shawn Mendes - TIDAL Masters                       | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | Singer-Songwriter Classics                         | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | The Smiths Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | Snoop Dogg Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,748] [plex_meta_manager.py:291]  [INFO]     | Soft Piano                                         | p1rps01                                       |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | Solange Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | Songs to Sing in the Car                           | all                                           |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | sri lanka                                          | all                                           |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | Steely Dan Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | Steve Miller Band Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,749] [plex_meta_manager.py:291]  [INFO]     | Stevie Wonder - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Stevie Wonder Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Summer Bangers: Drake                              | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 1960s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 1970s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 1980s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,750] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 1990s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 2000s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 2010s                                 | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 2018                                  | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 2019                                  | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summer Hits: 2020                                  | p1rps01                                       |
+[2022-11-25 14:14:29,751] [plex_meta_manager.py:291]  [INFO]     | Summertime Hip-Hop                                 | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | Sunset Volume                                      | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | SZA Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | T-Pain Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | T.I. Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | Talking Heads - TIDAL Masters                      | p1rps01                                       |
+[2022-11-25 14:14:29,752] [plex_meta_manager.py:291]  [INFO]     | Taylor Swift Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | taylor swift oldies :) :(                          | all                                           |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | Tears for Fears Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | Tems Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | The-Dream Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | Thievery Corporation Essentials                    | p1rps01                                       |
+[2022-11-25 14:14:29,753] [plex_meta_manager.py:291]  [INFO]     | Three 6 Mafia Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | Thunder Spirit                                     | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | TIDAL Credits Playlist                             | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | TIDAL's Top Hits                                   | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | Timeless Pop Classics                              | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | Tinashe Essentials                                 | p1rps01                                       |
+[2022-11-25 14:14:29,754] [plex_meta_manager.py:291]  [INFO]     | Tom Petty Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | Toni Braxton - TIDAL Masters                       | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | Toni Braxton Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | Tony Bennett Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | Too $hort Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | TOOL Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,755] [plex_meta_manager.py:291]  [INFO]     | The Top 100 Most Played                            | all                                           |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | Tory Lanez Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | Tracks & Traces: Marvin Gaye                       | p1rps01                                       |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | Trey Songz - TIDAL Masters                         | p1rps01                                       |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | twenty one pilots Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | Twerkout                                           | p1rps01                                       |
+[2022-11-25 14:14:29,756] [plex_meta_manager.py:291]  [INFO]     | Ty Dolla $ign Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | Tyler, The Creator Essentials                      | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | U2 Essentials                                      | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | UGK Essentials                                     | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | Untitled                                           | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | Unwind 00s                                         | all                                           |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | Usher Essentials                                   | p1rps01                                       |
+[2022-11-25 14:14:29,757] [plex_meta_manager.py:291]  [INFO]     | Vacation Vibes: Drake                              | p1rps01                                       |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | Van Halen Essentials                               | p1rps01                                       |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | Van Morrison Essentials                            | p1rps01                                       |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | Vince Staples Essentials                           | p1rps01                                       |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | The Vineyard jamz                                  | all                                           |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | Vladimir Horowitz Essentials                       | p1rps01                                       |
+[2022-11-25 14:14:29,758] [plex_meta_manager.py:291]  [INFO]     | Vocal Jazz - TIDAL Masters                         | p1rps01                                       |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | Wale Essentials                                    | p1rps01                                       |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | Warm Fuzzy Feeling                                 | all                                           |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | wedding                                            | p1rps01                                       |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | The Weeknd Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | Weezer Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,759] [plex_meta_manager.py:291]  [INFO]     | Whitney Houston Essentials                         | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | The Who - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | Wiz Khalifa - TIDAL Masters                        | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | Wiz Khalifa Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | Wizkid Essentials                                  | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | Woodstock 1969                                     | p1rps01                                       |
+[2022-11-25 14:14:29,760] [plex_meta_manager.py:291]  [INFO]     | Woodstock Classics - TIDAL Masters                 | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Workout - TIDAL Masters                            | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Written By: Aretha Franklin                        | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Written By: James Brown                            | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Written By: Marvin Gaye                            | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Written By: Stevie Wonder                          | p1rps01                                       |
+[2022-11-25 14:14:29,761] [plex_meta_manager.py:291]  [INFO]     | Yes - TIDAL Masters                                | p1rps01                                       |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Yo Gotti Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Yo-Yo Ma Essentials                                | p1rps01                                       |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Young Dolph Essentials                             | p1rps01                                       |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Young Thug Essentials                              | p1rps01                                       |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Your Summer Rewind                                 | all                                           |
+[2022-11-25 14:14:29,762] [plex_meta_manager.py:291]  [INFO]     | Your Time Capsule                                  | all                                           |
+[2022-11-25 14:14:29,763] [plex_meta_manager.py:291]  [INFO]     | Your Top Songs 2016                                | all                                           |
+[2022-11-25 14:14:29,763] [plex_meta_manager.py:291]  [INFO]     | Your Top Songs 2018                                | all                                           |
+[2022-11-25 14:14:29,763] [plex_meta_manager.py:291]  [INFO]     | Your Top Songs 2019                                | all                                           |
+[2022-11-25 14:14:29,763] [plex_meta_manager.py:291]  [INFO]     | Your Top Songs 2020                                | all                                           |

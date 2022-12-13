@@ -1,0 +1,62 @@
+[2022-11-20 15:24:17,155] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 15:24:17,156] [builder.py:193]            [INFO]     |                            Vietnamese Subtitles Collection in TV Shows                             |
+[2022-11-20 15:24:17,156] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 15:24:17,157] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,157] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-20 15:24:17,158] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,158] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-20 15:24:17,159] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,166] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-20 15:24:17,167] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,169] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-20 15:24:17,170] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,179] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,179] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-20 15:24:17,179] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,179] [meta.py:515]               [DEBUG]    | {'smart_filter': {'sort_by': 'release.desc', 'any': {'subtitle_language': ['vi']}}, 'summary': 'Shows with Vietnamese Subtitles.', 'name': 'Vietnamese Subtitles', 'ignore_blank_results': True, 'sort_title': '!11_Vietnamese Subtitles', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/subtitle_language/vi.jpg'} |
+[2022-11-20 15:24:17,179] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,180] [builder.py:223]            [INFO]     |============================ Validating Vietnamese Subtitles Attributes ============================|
+[2022-11-20 15:24:17,180] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,180] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-20 15:24:17,180] [builder.py:230]            [DEBUG]    | Value: Vietnamese Subtitles                                                                        |
+[2022-11-20 15:24:17,180] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,180] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-20 15:24:17,180] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-20 15:24:17,180] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,181] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-20 15:24:17,181] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'subtitle_language': ['vi']}}                           |
+[2022-11-20 15:24:17,606] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&episode.subtitleLanguage=vi&pop=1      |
+[2022-11-20 15:24:17,606] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,606] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-20 15:24:17,607] [builder.py:651]            [DEBUG]    | Value: Subtitle Language                                                                           |
+[2022-11-20 15:24:17,607] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,607] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-20 15:24:17,608] [builder.py:651]            [DEBUG]    | Value: Shows with Vietnamese Subtitles.                                                            |
+[2022-11-20 15:24:17,608] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,608] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-20 15:24:17,608] [builder.py:651]            [DEBUG]    | Value: !11_Vietnamese Subtitles                                                                    |
+[2022-11-20 15:24:17,608] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:24:17,608] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-20 15:24:17,608] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/subtitle_language/vi.jpg |
+[2022-11-20 15:24:17,770] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,770] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-20 15:24:17,770] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,770] [plex_meta_manager.py:596]  [INFO]     |============================= Running Vietnamese Subtitles Collection ==============================|
+[2022-11-20 15:24:17,770] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,770] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Subtitle Language is vi
+[2022-11-20 15:24:17,986] [builder.py:2527]           [INFO]     | 
+[2022-11-20 15:24:17,986] [builder.py:2528]           [INFO]     |======================= Updating Details of Vietnamese Subtitles Collection ========================|
+[2022-11-20 15:24:17,987] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-20 15:24:17,995] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-20 15:24:17,995] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-20 15:24:17,995] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/subtitle_language/vi.jpg |
+[2022-11-20 15:24:17,996] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-20 15:24:18,161] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-20 15:24:18,161] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-20 15:24:18,161] [plex_meta_manager.py:737]  [INFO]     |                              Finished Vietnamese Subtitles Collection                              |
+[2022-11-20 15:24:18,161] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-20 15:24:18,161] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

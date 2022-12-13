@@ -1,0 +1,79 @@
+[2022-11-16 23:45:10,262] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:45:10,262] [builder.py:193]            [INFO]     |                          Edward Drake (Director) Collection in New Movies                          |
+[2022-11-16 23:45:10,262] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:45:10,262] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,262] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:45:10,262] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,262] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 23:45:10,263] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,269] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:45:10,270] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,272] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:45:10,273] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,285] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,285] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:45:10,286] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,286] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Edward Drake'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}, 'summary': 'Movies directed by Edward Drake.', 'name': 'Edward Drake (Director)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!18_Edward Drake (Director)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Edward%20Drake.jpg'} |
+[2022-11-16 23:45:10,286] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,286] [builder.py:223]            [INFO]     |========================== Validating Edward Drake (Director) Attributes ===========================|
+[2022-11-16 23:45:10,286] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,286] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:45:10,286] [builder.py:230]            [DEBUG]    | Value: Edward Drake (Director)                                                                     |
+[2022-11-16 23:45:10,286] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,286] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:45:10,287] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:45:10,287] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,287] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:45:10,287] [builder.py:533]            [DEBUG]    | Value: ['Edward Drake']                                                                            |
+[2022-11-16 23:45:10,362] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,362] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:45:10,362] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}                                       |
+[2022-11-16 23:45:10,415] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&director=50259&pop=1                                      |
+[2022-11-16 23:45:10,415] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,415] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:45:10,416] [builder.py:651]            [DEBUG]    | Value: Top Directors                                                                               |
+[2022-11-16 23:45:10,416] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,416] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:45:10,416] [builder.py:651]            [DEBUG]    | Value: Movies directed by Edward Drake.                                                            |
+[2022-11-16 23:45:10,417] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,417] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:45:10,417] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:45:10,417] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,418] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:45:10,418] [builder.py:651]            [DEBUG]    | Value: !18_Edward Drake (Director)                                                                 |
+[2022-11-16 23:45:10,418] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,418] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:45:10,418] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Edward%20Drake.jpg |
+[2022-11-16 23:45:10,581] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Edward%20Drake.jpg |
+[2022-11-16 23:45:10,587] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:10,587] [plex.py:838]               [DEBUG]    | Looking for: Edward Drake (Director)                                                               |
+[2022-11-16 23:45:10,588] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,589] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:45:10,590] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,590] [plex_meta_manager.py:596]  [INFO]     |============================ Running Edward Drake (Director) Collection ============================|
+[2022-11-16 23:45:10,591] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,592] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Edward Drake
+[2022-11-16 23:45:10,616] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&director=50259&pop=1
+[2022-11-16 23:45:10,625] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:45:10,625] [builder.py:2528]           [INFO]     |====================== Updating Details of Edward Drake (Director) Collection ======================|
+[2022-11-16 23:45:10,626] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:45:10,640] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies directed by Edward Drake.
+                                                                 | Sort Title | !18_Edward Drake (Director)
+                                                                 | Label | +Top Directors, +PMM
+[2022-11-16 23:45:12,201] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:45:12,201] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:45:13,762] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 23:45:13,765] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/New_Movies/Assets/Edward Drake (Director)
+[2022-11-16 23:45:13,765] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 23:45:13,766] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/il6fHejjJ4J7YQt0wKLf7VfpAhN.jpg
+[2022-11-16 23:45:13,806] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/il6fHejjJ4J7YQt0wKLf7VfpAhN.jpg
+[2022-11-16 23:45:13,831] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:45:13,832] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:45:13,832] [plex_meta_manager.py:737]  [INFO]     |                            Finished Edward Drake (Director) Collection                             |
+[2022-11-16 23:45:13,832] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 23:45:13,833] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

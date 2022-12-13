@@ -1,0 +1,204 @@
+[2022-11-16 21:56:27,632] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:56:27,632] [builder.py:193]            [INFO]     |                                10's Movies Collection in Old Movies                                |
+[2022-11-16 21:56:27,632] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:56:27,632] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:56:27,633] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:56:27,633] [builder.py:223]            [INFO]     |================================ Validating 10's Movies Attributes =================================|
+[2022-11-16 21:56:27,633] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:56:27,633] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 21:56:27,633] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-16 21:56:27,633] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:56:27,633] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-16 21:56:27,633] [builder.py:651]            [DEBUG]    | Value: ordereddict([('decade', 2010)])                                                             |
+[2022-11-16 21:56:27,634] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:56:27,634] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 21:56:27,634] [builder.py:651]            [DEBUG]    | Value: +++_Decade                                                                                  |
+[2022-11-16 21:56:28,204] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,204] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:56:28,204] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,204] [plex_meta_manager.py:596]  [INFO]     |================================== Running 10's Movies Collection ==================================|
+[2022-11-16 21:56:28,204] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,205] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 21:56:28,205] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 21:56:28,205] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Decade is 2010", '?type=1&sort=titleSort&push=1&decade=2010&pop=1') |
+[2022-11-16 21:56:28,205] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,205] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Decade is 2010
+[2022-11-16 21:56:28,617] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 21:56:28,617] [builder.py:1575]           [DEBUG]    | 157 IDs Found
+[2022-11-16 21:56:28,617] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 21:56:28,639] [builder.py:2158]           [INFO]     | 
+[2022-11-16 21:56:28,639] [builder.py:2159]           [INFO]     |================================= Adding to 10's Movies Collection =================================|
+[2022-11-16 21:56:28,639] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   1/157 | 10's Movies Collection | = | 12 Strong (2018)                                            |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   2/157 | 10's Movies Collection | = | 47 Meters Down (2017)                                       |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   3/157 | 10's Movies Collection | = | 47 Meters Down: Uncaged (2019)                              |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   4/157 | 10's Movies Collection | = | 47 Ronin (2013)                                             |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   5/157 | 10's Movies Collection | = | Abroad: Finding Faith (2018)                                |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   6/157 | 10's Movies Collection | = | After (2019)                                                |
+[2022-11-16 21:56:28,640] [builder.py:2174]           [INFO]     |   7/157 | 10's Movies Collection | = | American Sniper (2014)                                      |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |   8/157 | 10's Movies Collection | = | Apostle (2018)                                              |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |   9/157 | 10's Movies Collection | = | Aquaman (2018)                                              |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |  10/157 | 10's Movies Collection | = | Bedevilled (2010)                                           |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |  11/157 | 10's Movies Collection | = | The Bourne Legacy (2012)                                    |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |  12/157 | 10's Movies Collection | = | Bring It On: Worldwide #Cheersmack (2017)                   |
+[2022-11-16 21:56:28,641] [builder.py:2174]           [INFO]     |  13/157 | 10's Movies Collection | = | Chasing Coral (2017)                                        |
+[2022-11-16 21:56:28,642] [builder.py:2174]           [INFO]     |  14/157 | 10's Movies Collection | = | Citizenfour (2014)                                          |
+[2022-11-16 21:56:28,642] [builder.py:2174]           [INFO]     |  15/157 | 10's Movies Collection | = | Creed (2015)                                                |
+[2022-11-16 21:56:28,642] [builder.py:2174]           [INFO]     |  16/157 | 10's Movies Collection | = | Creed II (2018)                                             |
+[2022-11-16 21:56:28,642] [builder.py:2174]           [INFO]     |  17/157 | 10's Movies Collection | = | Dark Crimes (2016)                                          |
+[2022-11-16 21:56:28,643] [builder.py:2174]           [INFO]     |  18/157 | 10's Movies Collection | = | The Dark Knight Rises (2012)                                |
+[2022-11-16 21:56:28,643] [builder.py:2174]           [INFO]     |  19/157 | 10's Movies Collection | = | Deep Blue Sea 2 (2018)                                      |
+[2022-11-16 21:56:28,643] [builder.py:2174]           [INFO]     |  20/157 | 10's Movies Collection | = | Dunkirk (2017)                                              |
+[2022-11-16 21:56:28,643] [builder.py:2174]           [INFO]     |  21/157 | 10's Movies Collection | = | Earth: One Amazing Day (2017)                               |
+[2022-11-16 21:56:28,643] [builder.py:2174]           [INFO]     |  22/157 | 10's Movies Collection | = | ECCO (2019)                                                 |
+[2022-11-16 21:56:28,644] [builder.py:2174]           [INFO]     |  23/157 | 10's Movies Collection | = | Edge of Tomorrow (2014)                                     |
+[2022-11-16 21:56:28,644] [builder.py:2174]           [INFO]     |  24/157 | 10's Movies Collection | = | Escape Room (2019)                                          |
+[2022-11-16 21:56:28,644] [builder.py:2174]           [INFO]     |  25/157 | 10's Movies Collection | = | Everest (2015)                                              |
+[2022-11-16 21:56:28,645] [builder.py:2174]           [INFO]     |  26/157 | 10's Movies Collection | = | The Expendables (2010)                                      |
+[2022-11-16 21:56:28,645] [builder.py:2174]           [INFO]     |  27/157 | 10's Movies Collection | = | The Expendables 2 (2012)                                    |
+[2022-11-16 21:56:28,645] [builder.py:2174]           [INFO]     |  28/157 | 10's Movies Collection | = | The Expendables 3 (2014)                                    |
+[2022-11-16 21:56:28,646] [builder.py:2174]           [INFO]     |  29/157 | 10's Movies Collection | = | Fantastic Beasts and Where to Find Them (2016)              |
+[2022-11-16 21:56:28,646] [builder.py:2174]           [INFO]     |  30/157 | 10's Movies Collection | = | Fantastic Beasts: The Crimes of Grindelwald (2018)          |
+[2022-11-16 21:56:28,646] [builder.py:2174]           [INFO]     |  31/157 | 10's Movies Collection | = | Fast & Furious 6 (2013)                                     |
+[2022-11-16 21:56:28,647] [builder.py:2174]           [INFO]     |  32/157 | 10's Movies Collection | = | Fast Five (2011)                                            |
+[2022-11-16 21:56:28,647] [builder.py:2174]           [INFO]     |  33/157 | 10's Movies Collection | = | The Fate of the Furious (2017)                              |
+[2022-11-16 21:56:28,647] [builder.py:2174]           [INFO]     |  34/157 | 10's Movies Collection | = | The Fault in Our Stars (2014)                               |
+[2022-11-16 21:56:28,648] [builder.py:2174]           [INFO]     |  35/157 | 10's Movies Collection | = | Fifty Shades Darker (2017)                                  |
+[2022-11-16 21:56:28,648] [builder.py:2174]           [INFO]     |  36/157 | 10's Movies Collection | = | Fifty Shades Freed (2018)                                   |
+[2022-11-16 21:56:28,648] [builder.py:2174]           [INFO]     |  37/157 | 10's Movies Collection | = | Fifty Shades of Grey (2015)                                 |
+[2022-11-16 21:56:28,649] [builder.py:2174]           [INFO]     |  38/157 | 10's Movies Collection | = | Fullmetal Alchemist (2017)                                  |
+[2022-11-16 21:56:28,649] [builder.py:2174]           [INFO]     |  39/157 | 10's Movies Collection | = | Furious 7 (2015)                                            |
+[2022-11-16 21:56:28,650] [builder.py:2174]           [INFO]     |  40/157 | 10's Movies Collection | = | Godzilla (2014)                                             |
+[2022-11-16 21:56:28,650] [builder.py:2174]           [INFO]     |  41/157 | 10's Movies Collection | = | Godzilla: King of the Monsters (2019)                       |
+[2022-11-16 21:56:28,650] [builder.py:2174]           [INFO]     |  42/157 | 10's Movies Collection | = | A Good Day to Die Hard (2013)                               |
+[2022-11-16 21:56:28,651] [builder.py:2174]           [INFO]     |  43/157 | 10's Movies Collection | = | Grace Unplugged (2013)                                      |
+[2022-11-16 21:56:28,651] [builder.py:2174]           [INFO]     |  44/157 | 10's Movies Collection | = | Gravity (2013)                                              |
+[2022-11-16 21:56:28,652] [builder.py:2174]           [INFO]     |  45/157 | 10's Movies Collection | = | Hacksaw Ridge (2016)                                        |
+[2022-11-16 21:56:28,652] [builder.py:2174]           [INFO]     |  46/157 | 10's Movies Collection | = | Harry Potter and the Deathly Hallows: Part 1 (2010)         |
+[2022-11-16 21:56:28,652] [builder.py:2174]           [INFO]     |  47/157 | 10's Movies Collection | = | Harry Potter and the Deathly Hallows: Part 2 (2011)         |
+[2022-11-16 21:56:28,653] [builder.py:2174]           [INFO]     |  48/157 | 10's Movies Collection | = | The Hobbit: An Unexpected Journey (2012)                    |
+[2022-11-16 21:56:28,653] [builder.py:2174]           [INFO]     |  49/157 | 10's Movies Collection | = | The Hobbit: The Battle of the Five Armies (2014)            |
+[2022-11-16 21:56:28,654] [builder.py:2174]           [INFO]     |  50/157 | 10's Movies Collection | = | The Hobbit: The Desolation of Smaug (2013)                  |
+[2022-11-16 21:56:28,654] [builder.py:2174]           [INFO]     |  51/157 | 10's Movies Collection | = | Independence Day: Resurgence (2016)                         |
+[2022-11-16 21:56:28,655] [builder.py:2174]           [INFO]     |  52/157 | 10's Movies Collection | = | The Informer (2019)                                         |
+[2022-11-16 21:56:28,655] [builder.py:2174]           [INFO]     |  53/157 | 10's Movies Collection | = | Interstellar (2014)                                         |
+[2022-11-16 21:56:28,656] [builder.py:2174]           [INFO]     |  54/157 | 10's Movies Collection | = | Interstellar (2014)                                         |
+[2022-11-16 21:56:28,656] [builder.py:2174]           [INFO]     |  55/157 | 10's Movies Collection | = | Jason Bourne (2016)                                         |
+[2022-11-16 21:56:28,656] [builder.py:2174]           [INFO]     |  56/157 | 10's Movies Collection | = | John Wick (2014)                                            |
+[2022-11-16 21:56:28,657] [builder.py:2174]           [INFO]     |  57/157 | 10's Movies Collection | = | John Wick: Chapter 2 (2017)                                 |
+[2022-11-16 21:56:28,657] [builder.py:2174]           [INFO]     |  58/157 | 10's Movies Collection | = | John Wick: Chapter 3 - Parabellum (2019)                    |
+[2022-11-16 21:56:28,658] [builder.py:2174]           [INFO]     |  59/157 | 10's Movies Collection | = | Joker (2019)                                                |
+[2022-11-16 21:56:28,658] [builder.py:2174]           [INFO]     |  60/157 | 10's Movies Collection | = | Jumanji: The Next Level (2019)                              |
+[2022-11-16 21:56:28,659] [builder.py:2174]           [INFO]     |  61/157 | 10's Movies Collection | = | Jumanji: Welcome to the Jungle (2017)                       |
+[2022-11-16 21:56:28,659] [builder.py:2174]           [INFO]     |  62/157 | 10's Movies Collection | = | Jurassic World (2015)                                       |
+[2022-11-16 21:56:28,660] [builder.py:2174]           [INFO]     |  63/157 | 10's Movies Collection | = | Jurassic World: Fallen Kingdom (2018)                       |
+[2022-11-16 21:56:28,660] [builder.py:2174]           [INFO]     |  64/157 | 10's Movies Collection | = | Kingsman: The Golden Circle (2017)                          |
+[2022-11-16 21:56:28,661] [builder.py:2174]           [INFO]     |  65/157 | 10's Movies Collection | = | Kingsman: The Secret Service (2015)                         |
+[2022-11-16 21:56:28,661] [builder.py:2174]           [INFO]     |  66/157 | 10's Movies Collection | = | Kong: Skull Island (2017)                                   |
+[2022-11-16 21:56:28,662] [builder.py:2174]           [INFO]     |  67/157 | 10's Movies Collection | = | The Last Sharknado: It's About Time (2018)                  |
+[2022-11-16 21:56:28,663] [builder.py:2174]           [INFO]     |  68/157 | 10's Movies Collection | = | Logan (2017)                                                |
+[2022-11-16 21:56:28,663] [builder.py:2174]           [INFO]     |  69/157 | 10's Movies Collection | = | Lone Survivor (2013)                                        |
+[2022-11-16 21:56:28,664] [builder.py:2174]           [INFO]     |  70/157 | 10's Movies Collection | = | Love Begins (2011)                                          |
+[2022-11-16 21:56:28,664] [builder.py:2174]           [INFO]     |  71/157 | 10's Movies Collection | = | Love's Everlasting Courage (2011)                           |
+[2022-11-16 21:56:28,665] [builder.py:2174]           [INFO]     |  72/157 | 10's Movies Collection | = | Mad Max: Fury Road (2015)                                   |
+[2022-11-16 21:56:28,665] [builder.py:2174]           [INFO]     |  73/157 | 10's Movies Collection | = | A Madea Family Funeral (2019)                               |
+[2022-11-16 21:56:28,666] [builder.py:2174]           [INFO]     |  74/157 | 10's Movies Collection | = | Madea's Big Happy Family (2011)                             |
+[2022-11-16 21:56:28,667] [builder.py:2174]           [INFO]     |  75/157 | 10's Movies Collection | = | Madea's Witness Protection (2012)                           |
+[2022-11-16 21:56:28,667] [builder.py:2174]           [INFO]     |  76/157 | 10's Movies Collection | = | The Martian (2015)                                          |
+[2022-11-16 21:56:28,668] [builder.py:2174]           [INFO]     |  77/157 | 10's Movies Collection | = | The Meg (2018)                                              |
+[2022-11-16 21:56:28,668] [builder.py:2174]           [INFO]     |  78/157 | 10's Movies Collection | = | Megalodon (2018)                                            |
+[2022-11-16 21:56:28,669] [builder.py:2174]           [INFO]     |  79/157 | 10's Movies Collection | = | Megan Is Missing (2011)                                     |
+[2022-11-16 21:56:28,669] [builder.py:2174]           [INFO]     |  80/157 | 10's Movies Collection | = | Men in Black 3 (2012)                                       |
+[2022-11-16 21:56:28,670] [builder.py:2174]           [INFO]     |  81/157 | 10's Movies Collection | = | Mission: Impossible - Fallout (2018)                        |
+[2022-11-16 21:56:28,671] [builder.py:2174]           [INFO]     |  82/157 | 10's Movies Collection | = | Mission: Impossible - Ghost Protocol (2011)                 |
+[2022-11-16 21:56:28,671] [builder.py:2174]           [INFO]     |  83/157 | 10's Movies Collection | = | Mission: Impossible - Rogue Nation (2015)                   |
+[2022-11-16 21:56:28,672] [builder.py:2174]           [INFO]     |  84/157 | 10's Movies Collection | = | Monsters (2010)                                             |
+[2022-11-16 21:56:28,673] [builder.py:2174]           [INFO]     |  85/157 | 10's Movies Collection | = | Monsters: Dark Continent (2014)                             |
+[2022-11-16 21:56:28,673] [builder.py:2174]           [INFO]     |  86/157 | 10's Movies Collection | = | Murder on the Orient Express (2017)                         |
+[2022-11-16 21:56:28,674] [builder.py:2174]           [INFO]     |  87/157 | 10's Movies Collection | = | My Friend Dahmer (2017)                                     |
+[2022-11-16 21:56:28,675] [builder.py:2174]           [INFO]     |  88/157 | 10's Movies Collection | = | Night at the Museum: Secret of the Tomb (2014)              |
+[2022-11-16 21:56:28,676] [builder.py:2174]           [INFO]     |  89/157 | 10's Movies Collection | = | Open Water 3: Cage Dive (2017)                              |
+[2022-11-16 21:56:28,676] [builder.py:2174]           [INFO]     |  90/157 | 10's Movies Collection | = | Percy Jackson & the Olympians: The Lightning Thief (2010)   |
+[2022-11-16 21:56:28,677] [builder.py:2174]           [INFO]     |  91/157 | 10's Movies Collection | = | Pirates of the Caribbean: Dead Men Tell No Tales (2017)     |
+[2022-11-16 21:56:28,678] [builder.py:2174]           [INFO]     |  92/157 | 10's Movies Collection | = | Pirates of the Caribbean: On Stranger Tides (2011)          |
+[2022-11-16 21:56:28,679] [builder.py:2174]           [INFO]     |  93/157 | 10's Movies Collection | = | Pitch Perfect (2012)                                        |
+[2022-11-16 21:56:28,680] [builder.py:2174]           [INFO]     |  94/157 | 10's Movies Collection | = | Pitch Perfect 2 (2015)                                      |
+[2022-11-16 21:56:28,680] [builder.py:2174]           [INFO]     |  95/157 | 10's Movies Collection | = | Pitch Perfect 3 (2017)                                      |
+[2022-11-16 21:56:28,681] [builder.py:2174]           [INFO]     |  96/157 | 10's Movies Collection | = | The Predator (2018)                                         |
+[2022-11-16 21:56:28,682] [builder.py:2174]           [INFO]     |  97/157 | 10's Movies Collection | = | Predators (2010)                                            |
+[2022-11-16 21:56:28,683] [builder.py:2174]           [INFO]     |  98/157 | 10's Movies Collection | = | A Quiet Place (2018)                                        |
+[2022-11-16 21:56:28,683] [builder.py:2174]           [INFO]     |  99/157 | 10's Movies Collection | = | The Reef (2010)                                             |
+[2022-11-16 21:56:28,684] [builder.py:2174]           [INFO]     | 100/157 | 10's Movies Collection | = | Rogue One: A Star Wars Story (2016)                         |
+[2022-11-16 21:56:28,685] [builder.py:2174]           [INFO]     | 101/157 | 10's Movies Collection | = | Royal New Year's Eve (2017)                                 |
+[2022-11-16 21:56:28,685] [builder.py:2174]           [INFO]     | 102/157 | 10's Movies Collection | = | A Royal Winter (2017)                                       |
+[2022-11-16 21:56:28,686] [builder.py:2174]           [INFO]     | 103/157 | 10's Movies Collection | = | San Andreas (2015)                                          |
+[2022-11-16 21:56:28,687] [builder.py:2174]           [INFO]     | 104/157 | 10's Movies Collection | = | The Shallows (2016)                                         |
+[2022-11-16 21:56:28,688] [builder.py:2174]           [INFO]     | 105/157 | 10's Movies Collection | = | Sharknado (2013)                                            |
+[2022-11-16 21:56:28,689] [builder.py:2174]           [INFO]     | 106/157 | 10's Movies Collection | = | Sharknado 2: The Second One (2014)                          |
+[2022-11-16 21:56:28,690] [builder.py:2174]           [INFO]     | 107/157 | 10's Movies Collection | = | Sharknado 3: Oh Hell No! (2015)                             |
+[2022-11-16 21:56:28,690] [builder.py:2174]           [INFO]     | 108/157 | 10's Movies Collection | = | Sharknado 4: The 4th Awakens (2016)                         |
+[2022-11-16 21:56:28,691] [builder.py:2174]           [INFO]     | 109/157 | 10's Movies Collection | = | Sharknado 5: Global Swarming (2017)                         |
+[2022-11-16 21:56:28,692] [builder.py:2174]           [INFO]     | 110/157 | 10's Movies Collection | = | Shazam! (2019)                                              |
+[2022-11-16 21:56:28,693] [builder.py:2174]           [INFO]     | 111/157 | 10's Movies Collection | = | Sherlock Holmes: A Game of Shadows (2011)                   |
+[2022-11-16 21:56:28,694] [builder.py:2174]           [INFO]     | 112/157 | 10's Movies Collection | = | Signed, Sealed, Delivered (2013)                            |
+[2022-11-16 21:56:28,695] [builder.py:2174]           [INFO]     | 113/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: From Paris with Love (2015)      |
+[2022-11-16 21:56:28,695] [builder.py:2174]           [INFO]     | 114/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: From the Heart (2016)            |
+[2022-11-16 21:56:28,696] [builder.py:2174]           [INFO]     | 115/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: Higher Ground (2017)             |
+[2022-11-16 21:56:28,697] [builder.py:2174]           [INFO]     | 116/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: Home Again (2017)                |
+[2022-11-16 21:56:28,698] [builder.py:2174]           [INFO]     | 117/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: Lost Without You (2016)          |
+[2022-11-16 21:56:28,699] [builder.py:2174]           [INFO]     | 118/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: One in a Million (2016)          |
+[2022-11-16 21:56:28,699] [builder.py:2174]           [INFO]     | 119/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: The Impossible Dream (2015)      |
+[2022-11-16 21:56:28,700] [builder.py:2174]           [INFO]     | 120/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: The Road Less Traveled (2018)    |
+[2022-11-16 21:56:28,701] [builder.py:2174]           [INFO]     | 121/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: To the Altar (2018)              |
+[2022-11-16 21:56:28,702] [builder.py:2174]           [INFO]     | 122/157 | 10's Movies Collection | = | Signed, Sealed, Delivered: Truth Be Told (2015)             |
+[2022-11-16 21:56:28,703] [builder.py:2174]           [INFO]     | 123/157 | 10's Movies Collection | = | Skyfall (2012)                                              |
+[2022-11-16 21:56:28,703] [builder.py:2174]           [INFO]     | 124/157 | 10's Movies Collection | = | Sniper: Ghost Shooter (2016)                                |
+[2022-11-16 21:56:28,704] [builder.py:2174]           [INFO]     | 125/157 | 10's Movies Collection | = | Sniper: Legacy (2014)                                       |
+[2022-11-16 21:56:28,705] [builder.py:2174]           [INFO]     | 126/157 | 10's Movies Collection | = | Sniper: Reloaded (2011)                                     |
+[2022-11-16 21:56:28,706] [builder.py:2174]           [INFO]     | 127/157 | 10's Movies Collection | = | Sniper: Ultimate Kill (2017)                                |
+[2022-11-16 21:56:28,707] [builder.py:2174]           [INFO]     | 128/157 | 10's Movies Collection | = | Solo: A Star Wars Story (2018)                              |
+[2022-11-16 21:56:28,708] [builder.py:2174]           [INFO]     | 129/157 | 10's Movies Collection | = | Spectre (2015)                                              |
+[2022-11-16 21:56:28,709] [builder.py:2174]           [INFO]     | 130/157 | 10's Movies Collection | = | Spider-Man: Into the Spider-Verse (2018)                    |
+[2022-11-16 21:56:28,710] [builder.py:2174]           [INFO]     | 131/157 | 10's Movies Collection | = | A Star Is Born (2018)                                       |
+[2022-11-16 21:56:28,711] [builder.py:2174]           [INFO]     | 132/157 | 10's Movies Collection | = | Star Trek Beyond (2016)                                     |
+[2022-11-16 21:56:28,711] [builder.py:2174]           [INFO]     | 133/157 | 10's Movies Collection | = | Star Trek Into Darkness (2013)                              |
+[2022-11-16 21:56:28,712] [builder.py:2174]           [INFO]     | 134/157 | 10's Movies Collection | = | Star Wars: Episode IX - The Rise of Skywalker (2019)        |
+[2022-11-16 21:56:28,713] [builder.py:2174]           [INFO]     | 135/157 | 10's Movies Collection | = | Star Wars: Episode VII - The Force Awakens (2015)           |
+[2022-11-16 21:56:28,714] [builder.py:2174]           [INFO]     | 136/157 | 10's Movies Collection | = | Star Wars: Episode VIII - The Last Jedi (2017)              |
+[2022-11-16 21:56:28,715] [builder.py:2174]           [INFO]     | 137/157 | 10's Movies Collection | = | Suicide Squad (2016)                                        |
+[2022-11-16 21:56:28,716] [builder.py:2174]           [INFO]     | 138/157 | 10's Movies Collection | = | Terminator Genisys (2015)                                   |
+[2022-11-16 21:56:28,717] [builder.py:2174]           [INFO]     | 139/157 | 10's Movies Collection | = | Terminator: Dark Fate (2019)                                |
+[2022-11-16 21:56:28,718] [builder.py:2174]           [INFO]     | 140/157 | 10's Movies Collection | = | Thor (2011)                                                 |
+[2022-11-16 21:56:28,719] [builder.py:2174]           [INFO]     | 141/157 | 10's Movies Collection | = | Thor: Ragnarok (2017)                                       |
+[2022-11-16 21:56:28,720] [builder.py:2174]           [INFO]     | 142/157 | 10's Movies Collection | = | Thor: The Dark World (2013)                                 |
+[2022-11-16 21:56:28,721] [builder.py:2174]           [INFO]     | 143/157 | 10's Movies Collection | = | Transformer (2018)                                          |
+[2022-11-16 21:56:28,722] [builder.py:2174]           [INFO]     | 144/157 | 10's Movies Collection | = | Transformers: Age of Extinction (2014)                      |
+[2022-11-16 21:56:28,723] [builder.py:2174]           [INFO]     | 145/157 | 10's Movies Collection | = | Transformers: Dark of the Moon (2011)                       |
+[2022-11-16 21:56:28,724] [builder.py:2174]           [INFO]     | 146/157 | 10's Movies Collection | = | Transformers: The Last Knight (2017)                        |
+[2022-11-16 21:56:28,725] [builder.py:2174]           [INFO]     | 147/157 | 10's Movies Collection | = | TRON: Legacy (2010)                                         |
+[2022-11-16 21:56:28,726] [builder.py:2174]           [INFO]     | 148/157 | 10's Movies Collection | = | Universal Soldier: Day of Reckoning (2012)                  |
+[2022-11-16 21:56:28,727] [builder.py:2174]           [INFO]     | 149/157 | 10's Movies Collection | = | Venom (2018)                                                |
+[2022-11-16 21:56:28,728] [builder.py:2174]           [INFO]     | 150/157 | 10's Movies Collection | = | A Very Country Wedding (2019)                               |
+[2022-11-16 21:56:28,729] [builder.py:2174]           [INFO]     | 151/157 | 10's Movies Collection | = | The Vow (2012)                                              |
+[2022-11-16 21:56:28,730] [builder.py:2174]           [INFO]     | 152/157 | 10's Movies Collection | = | The Wolverine (2013)                                        |
+[2022-11-16 21:56:28,731] [builder.py:2174]           [INFO]     | 153/157 | 10's Movies Collection | = | Wonder Woman (2017)                                         |
+[2022-11-16 21:56:28,732] [builder.py:2174]           [INFO]     | 154/157 | 10's Movies Collection | = | X-Men: Apocalypse (2016)                                    |
+[2022-11-16 21:56:28,733] [builder.py:2174]           [INFO]     | 155/157 | 10's Movies Collection | = | X-Men: Dark Phoenix (2019)                                  |
+[2022-11-16 21:56:28,734] [builder.py:2174]           [INFO]     | 156/157 | 10's Movies Collection | = | X-Men: Days of Future Past (2014)                           |
+[2022-11-16 21:56:28,735] [builder.py:2174]           [INFO]     | 157/157 | 10's Movies Collection | = | X-Men: First Class (2011)                                   |
+[2022-11-16 21:56:28,736] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,736] [builder.py:2196]           [INFO]     | 157 Movies Processed 0 Movies Added                                                                |
+[2022-11-16 21:56:28,742] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,742] [builder.py:2528]           [INFO]     |============================ Updating Details of 10's Movies Collection ============================|
+[2022-11-16 21:56:28,743] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:56:28,749] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 21:56:29,289] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 21:56:29,290] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:56:29,290] [plex_meta_manager.py:737]  [INFO]     |                                  Finished 10's Movies Collection                                   |
+[2022-11-16 21:56:29,290] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-16 21:56:29,290] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

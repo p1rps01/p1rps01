@@ -1,0 +1,125 @@
+[2022-11-16 20:35:34,754] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:34,754] [builder.py:193]            [INFO]     |                           Oscars Winners 1995 Collection in Kids Movies                            |
+[2022-11-16 20:35:34,754] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:35:34,754] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:34,755] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:35:34,755] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,755] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:35:34,755] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,756] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:35:34,757] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,759] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:35:34,760] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,763] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:35:34,764] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,783] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:35:34,784] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,790] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:35:34,790] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,794] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,795] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:35:34,795] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,795] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 1995.', 'name': 'Oscars Winners 1995', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 1995', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1995.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:35:34,795] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,795] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 1995 Attributes =============================|
+[2022-11-16 20:35:34,795] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,795] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:35:34,795] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 1995                                                                         |
+[2022-11-16 20:35:34,796] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,796] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:35:34,796] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:35:34,796] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,796] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:35:34,796] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:35:34,796] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,796] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:35:34,796] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:35:34,796] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,797] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:35:34,797] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:35:34,797] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,797] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:35:34,797] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 20:35:34,797] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:34,797] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:35:34,797] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 20:35:35,074] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,076] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:35:35,076] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 1995.                                                   |
+[2022-11-16 20:35:35,076] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,076] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:35:35,076] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:35:35,076] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,076] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:35:35,077] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 1995                                                                     |
+[2022-11-16 20:35:35,077] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,077] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:35:35,077] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1995.jpg |
+[2022-11-16 20:35:35,217] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,217] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:35:35,217] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:35:35,221] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,221] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 1995                                                                   |
+[2022-11-16 20:35:35,222] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,222] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 1995 Collection ==============================|
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:35:35,222] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,223] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:35:35,225] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,225] [builder.py:1575]           [DEBUG]    | 15 IDs Found                                                                                       |
+[2022-11-16 20:35:35,225] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:35:35,233] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,233] [builder.py:2159]           [INFO]     |============================= Adding to Oscars Winners 1995 Collection =============================|
+[2022-11-16 20:35:35,233] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:35,233] [builder.py:2174]           [INFO]     | 1/2 | Oscars Winners 1995 Collection | + | Pocahontas (1995)                                       |
+[2022-11-16 20:35:35,372] [builder.py:2174]           [INFO]     | 2/2 | Oscars Winners 1995 Collection | + | Babe (1995)                                             |
+[2022-11-16 20:35:38,733] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:38,734] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:35:38,734] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:38,734] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:35:38,734] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:38,751] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | The Usual Suspects (1995) (TMDb: 629)                         |
+[2022-11-16 20:35:38,761] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Braveheart (1995) (TMDb: 197)                                 |
+[2022-11-16 20:35:38,771] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Sense and Sensibility (1995) (TMDb: 4584)                     |
+[2022-11-16 20:35:38,781] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Apollo 13 (1995) (TMDb: 568)                                  |
+[2022-11-16 20:35:38,791] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Leaving Las Vegas (1995) (TMDb: 451)                          |
+[2022-11-16 20:35:38,801] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Dead Man Walking (1995) (TMDb: 687)                           |
+[2022-11-16 20:35:38,811] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Mighty Aphrodite (1995) (TMDb: 11448)                         |
+[2022-11-16 20:35:38,821] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Restoration (1995) (TMDb: 35196)                              |
+[2022-11-16 20:35:38,838] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | A Close Shave (1995) (TMDb: 532)                              |
+[2022-11-16 20:35:38,857] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Antonia's Line (1995) (TMDb: 880)                             |
+[2022-11-16 20:35:38,870] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Anne Frank Remembered (1995) (TMDb: 51352)                    |
+[2022-11-16 20:35:38,883] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | Lieberman in Love (1995) (TMDb: 244887)                       |
+[2022-11-16 20:35:38,885] [builder.py:2321]           [INFO]     | Oscars Winners 1995 Collection | ? | One Survivor Remembers (1996) (TMDb: 57130)                   |
+[2022-11-16 20:35:38,886] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:38,886] [builder.py:2327]           [INFO]     | 13 Movies Missing                                                                                  |
+[2022-11-16 20:35:43,273] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:43,273] [builder.py:2528]           [INFO]     |======================== Updating Details of Oscars Winners 1995 Collection ========================|
+[2022-11-16 20:35:43,273] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:43,279] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Academy Awards (Oscars) Winners for 1995.
+                                                                 | Sort Title | !16_Oscars Winners 1995
+                                                                 | Label | +Oscars Winners Awards, +PMM
+[2022-11-16 20:35:44,774] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:35:44,774] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:35:46,032] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:35:47,376] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 20:35:47,388] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Oscars Winners 1995
+[2022-11-16 20:35:47,388] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:35:47,388] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1995.jpg
+[2022-11-16 20:35:47,532] [library.py:178]            [INFO]     | Detail: asset_directory updated Oscars Winners 1995's poster to [File] config/Kids_Movies/Assets/Oscars Winners 1995/poster.jpg
+[2022-11-16 20:35:47,643] [builder.py:2686]           [INFO]     | 
+[2022-11-16 20:35:47,643] [builder.py:2687]           [INFO]     |============================== Sorting Oscars Winners 1995 Collection ==============================|
+[2022-11-16 20:35:47,644] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:35:47,644] [builder.py:2704]           [INFO]     | Moving Pocahontas (1995) to the beginning                                                          |
+[2022-11-16 20:35:47,685] [builder.py:2704]           [INFO]     | Moving Babe (1995) after Pocahontas (1995)                                                         |
+[2022-11-16 20:35:47,728] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:35:47,728] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:35:47,728] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 1995 Collection                               |
+[2022-11-16 20:35:47,729] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-11-16 20:35:47,729] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

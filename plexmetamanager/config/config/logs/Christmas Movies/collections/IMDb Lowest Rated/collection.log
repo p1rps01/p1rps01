@@ -1,0 +1,194 @@
+[2022-11-25 14:34:12,867] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 14:34:12,867] [builder.py:193]            [INFO]     |                          IMDb Lowest Rated Collection in Christmas Movies                          |
+[2022-11-25 14:34:12,867] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 14:34:12,867] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 14:34:12,867] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 14:34:12,868] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,868] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 14:34:12,868] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,868] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 14:34:12,869] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,905] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 14:34:12,908] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,924] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 14:34:12,925] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,933] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 14:34:12,935] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,940] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,941] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 14:34:12,941] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,941] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_IMDb Lowest Rated', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Lowest%20Rated.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'List of IMDb Lowest Rated movies.', 'name': 'IMDb Lowest Rated'} |
+[2022-11-25 14:34:12,941] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,942] [builder.py:223]            [INFO]     |============================= Validating IMDb Lowest Rated Attributes ==============================|
+[2022-11-25 14:34:12,942] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,943] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 14:34:12,943] [builder.py:230]            [DEBUG]    | Value: IMDb Lowest Rated                                                                           |
+[2022-11-25 14:34:12,943] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,943] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-25 14:34:12,943] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-25 14:34:12,943] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,943] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 14:34:12,943] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 14:34:12,944] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,944] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 14:34:12,944] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 14:34:12,944] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,944] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 14:34:12,944] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 14:34:12,944] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,944] [builder.py:650]            [DEBUG]    | Validating Method: imdb_chart                                                                      |
+[2022-11-25 14:34:12,944] [builder.py:651]            [DEBUG]    | Value: lowest_rated                                                                                |
+[2022-11-25 14:34:12,945] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,949] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-25 14:34:12,949] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-25 14:34:12,949] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,949] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 14:34:12,949] [builder.py:651]            [DEBUG]    | Value: !01_IMDb Lowest Rated                                                                       |
+[2022-11-25 14:34:12,949] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:12,949] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 14:34:12,949] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Lowest%20Rated.jpg |
+[2022-11-25 14:34:13,045] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:13,046] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 14:34:13,046] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 14:34:13,046] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:13,046] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 14:34:13,047] [builder.py:651]            [DEBUG]    | Value: List of IMDb Lowest Rated movies.                                                           |
+[2022-11-25 14:34:13,108] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,108] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 14:34:13,108] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:596]  [INFO]     |=============================== Running IMDb Lowest Rated Collection ===============================|
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_chart: lowest_rated                                                                  |
+[2022-11-25 14:34:13,109] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,110] [builder.py:1523]           [INFO]     | Builder: imdb_chart loaded from Cache                                                              |
+[2022-11-25 14:34:13,115] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:13,121] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-25 14:34:13,121] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 14:34:13,304] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,304] [builder.py:2159]           [INFO]     |============================== Adding to IMDb Lowest Rated Collection ==============================|
+[2022-11-25 14:34:13,304] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,305] [builder.py:2174]           [INFO]     | 1/2 | IMDb Lowest Rated Collection | = | Kirk Cameron's Saving Christmas (2014)                    |
+[2022-11-25 14:34:13,305] [builder.py:2174]           [INFO]     | 2/2 | IMDb Lowest Rated Collection | = | Black Christmas (2019)                                    |
+[2022-11-25 14:34:13,305] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,305] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-25 14:34:13,305] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,305] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Christmas Movies ===========================|
+[2022-11-25 14:34:13,305] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:13,326] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Disaster Movie (2008) (TMDb: 13805)                             |
+[2022-11-25 14:34:13,337] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Manos: The Hands of Fate (1966) (TMDb: 22293)                   |
+[2022-11-25 14:34:13,358] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Birdemic: Shock and Terror (2010) (TMDb: 40016)                 |
+[2022-11-25 14:34:13,373] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Superbabies: Baby Geniuses 2 (2004) (TMDb: 31117)               |
+[2022-11-25 14:34:13,383] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Hottie & The Nottie (2008) (TMDb: 63315)                    |
+[2022-11-25 14:34:13,393] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | House of the Dead (2003) (TMDb: 11059)                          |
+[2022-11-25 14:34:13,404] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Son of the Mask (2005) (TMDb: 10214)                            |
+[2022-11-25 14:34:13,418] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Epic Movie (2007) (TMDb: 9760)                                  |
+[2022-11-25 14:34:13,431] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Battlefield Earth (2000) (TMDb: 5491)                           |
+[2022-11-25 14:34:13,441] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Pledge This! (2006) (TMDb: 19213)                               |
+[2022-11-25 14:34:13,451] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Alone in the Dark (2005) (TMDb: 12142)                          |
+[2022-11-25 14:34:13,466] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Radhe (2021) (TMDb: 679844)                                     |
+[2022-11-25 14:34:13,477] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Dragonball Evolution (2009) (TMDb: 14164)                       |
+[2022-11-25 14:34:13,512] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | From Justin to Kelly (2003) (TMDb: 31246)                       |
+[2022-11-25 14:34:13,523] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Going Overboard (1989) (TMDb: 19157)                            |
+[2022-11-25 14:34:13,533] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Race 3 (2018) (TMDb: 496320)                                    |
+[2022-11-25 14:34:13,543] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Meet the Spartans (2008) (TMDb: 7278)                           |
+[2022-11-25 14:34:13,553] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Turks in Space (2006) (TMDb: 31279)                             |
+[2022-11-25 14:34:13,563] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Gigli (2003) (TMDb: 8046)                                       |
+[2022-11-25 14:34:13,600] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Foodfight! (2012) (TMDb: 116977)                                |
+[2022-11-25 14:34:13,625] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Date Movie (2006) (TMDb: 10073)                                 |
+[2022-11-25 14:34:13,639] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Cats (2019) (TMDb: 536869)                                      |
+[2022-11-25 14:34:13,650] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Baby Geniuses (1999) (TMDb: 22345)                              |
+[2022-11-25 14:34:13,659] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Daniel, the Wizard (2004) (TMDb: 9596)                          |
+[2022-11-25 14:34:13,669] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Glitter (2001) (TMDb: 10696)                                    |
+[2022-11-25 14:34:13,680] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Jaws: The Revenge (1987) (TMDb: 580)                            |
+[2022-11-25 14:34:13,703] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Troll 2 (1990) (TMDb: 26914)                                    |
+[2022-11-25 14:34:13,719] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Human Centipede 3 (Final Sequence) (2015) (TMDb: 94365)     |
+[2022-11-25 14:34:13,732] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | BloodRayne (2005) (TMDb: 168705)                                |
+[2022-11-25 14:34:13,743] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Hobgoblins (1988) (TMDb: 31245)                                 |
+[2022-11-25 14:34:13,754] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Cosmic Sin (2021) (TMDb: 681887)                                |
+[2022-11-25 14:34:13,768] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Left Behind (2014) (TMDb: 218043)                               |
+[2022-11-25 14:34:13,782] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | 365 Days: This Day (2022) (TMDb: 829557)                        |
+[2022-11-25 14:34:13,797] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | 365 Days (2020) (TMDb: 664413)                                  |
+[2022-11-25 14:34:13,807] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Who's Your Caddy? (2007) (TMDb: 15581)                          |
+[2022-11-25 14:34:13,821] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Jack and Jill (2011) (TMDb: 71880)                              |
+[2022-11-25 14:34:13,833] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Rollerball (2002) (TMDb: 11535)                                 |
+[2022-11-25 14:34:13,843] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Santa Claus Conquers the Martians (1964) (TMDb: 32307)          |
+[2022-11-25 14:34:13,852] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Catwoman (2004) (TMDb: 314)                                     |
+[2022-11-25 14:34:13,862] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Kazaam (1996) (TMDb: 11511)                                     |
+[2022-11-25 14:34:13,878] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Slender Man (2018) (TMDb: 439015)                               |
+[2022-11-25 14:34:13,888] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Enes Batur (2018) (TMDb: 495339)                                |
+[2022-11-25 14:34:13,919] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Cost of Deception (2021) (TMDb: 876671)                     |
+[2022-11-25 14:34:13,933] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Emoji Movie (2017) (TMDb: 378236)                           |
+[2022-11-25 14:34:13,947] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Vampires Suck (2010) (TMDb: 40264)                              |
+[2022-11-25 14:34:13,957] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Steel (1997) (TMDb: 8854)                                       |
+[2022-11-25 14:34:13,967] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Starving Games (2013) (TMDb: 225703)                        |
+[2022-11-25 14:34:13,977] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Open House (2018) (TMDb: 485774)                            |
+[2022-11-25 14:34:13,987] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Scary Movie 5 (2013) (TMDb: 4258)                               |
+[2022-11-25 14:34:13,989] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Student of the Year 2 (2019) (TMDb: 503129)                     |
+[2022-11-25 14:34:14,006] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Tees Maar Khan (2010) (TMDb: 46040)                             |
+[2022-11-25 14:34:14,015] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Dumb and Dumberer: When Harry Met Lloyd (2003) (TMDb: 10152)    |
+[2022-11-25 14:34:14,038] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Return of the Texas Chainsaw Massacre (1995) (TMDb: 16780)  |
+[2022-11-25 14:34:14,060] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Room (2003) (TMDb: 17473)                                   |
+[2022-11-25 14:34:14,075] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Gunday (2014) (TMDb: 250551)                                    |
+[2022-11-25 14:34:14,085] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Laxmii (2020) (TMDb: 603673)                                    |
+[2022-11-25 14:34:14,095] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Master of Disguise (2002) (TMDb: 13908)                     |
+[2022-11-25 14:34:14,112] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Bratz (2007) (TMDb: 14123)                                      |
+[2022-11-25 14:34:14,122] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Police Academy: Mission to Moscow (1994) (TMDb: 11546)          |
+[2022-11-25 14:34:14,131] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Breach (2020) (TMDb: 651571)                                    |
+[2022-11-25 14:34:14,146] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Daddy Day Camp (2007) (TMDb: 14144)                             |
+[2022-11-25 14:34:14,155] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Hercules in New York (1970) (TMDb: 5227)                        |
+[2022-11-25 14:34:14,166] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Barb Wire (1996) (TMDb: 11867)                                  |
+[2022-11-25 14:34:14,176] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Far Cry (2008) (TMDb: 7916)                                     |
+[2022-11-25 14:34:14,185] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Mortal Kombat: Annihilation (1997) (TMDb: 9823)                 |
+[2022-11-25 14:34:14,195] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | FearDotCom (2002) (TMDb: 9544)                                  |
+[2022-11-25 14:34:14,206] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | 3 Ninjas: High Noon at Mega Mountain (1998) (TMDb: 32302)       |
+[2022-11-25 14:34:14,216] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Batman & Robin (1997) (TMDb: 415)                               |
+[2022-11-25 14:34:14,226] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Crossroads (2002) (TMDb: 17130)                                 |
+[2022-11-25 14:34:14,235] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Spice World (1997) (TMDb: 6116)                                 |
+[2022-11-25 14:34:14,248] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Fifty Shades of Black (2016) (TMDb: 351819)                     |
+[2022-11-25 14:34:14,262] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The NeverEnding Story III (1994) (TMDb: 27793)                  |
+[2022-11-25 14:34:14,277] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Spy Kids: All the Time in the World (2011) (TMDb: 56288)        |
+[2022-11-25 14:34:14,291] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Jaws 3-D (1983) (TMDb: 17692)                                   |
+[2022-11-25 14:34:14,301] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Captain America (1990) (TMDb: 13995)                            |
+[2022-11-25 14:34:14,322] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Superman IV: The Quest for Peace (1987) (TMDb: 11411)           |
+[2022-11-25 14:34:14,332] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Smolensk (2016) (TMDb: 415861)                                  |
+[2022-11-25 14:34:14,343] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Wicker Man (2006) (TMDb: 9708)                              |
+[2022-11-25 14:34:14,356] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Fog (2005) (TMDb: 791)                                      |
+[2022-11-25 14:34:14,366] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Mac and Me (1988) (TMDb: 20196)                                 |
+[2022-11-25 14:34:14,376] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Dungeons & Dragons (2000) (TMDb: 11849)                         |
+[2022-11-25 14:34:14,398] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Adventures of Sharkboy and Lavagirl (2005) (TMDb: 14199)    |
+[2022-11-25 14:34:14,410] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Baaghi 3 (2020) (TMDb: 594669)                                  |
+[2022-11-25 14:34:14,420] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Dragon Wars (2007) (TMDb: 10253)                                |
+[2022-11-25 14:34:14,431] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Bucky Larson: Born to Be a Star (2011) (TMDb: 67911)            |
+[2022-11-25 14:34:14,441] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | I Know Who Killed Me (2007) (TMDb: 5857)                        |
+[2022-11-25 14:34:14,455] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Piranha 3DD (2012) (TMDb: 71668)                                |
+[2022-11-25 14:34:14,469] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Love Guru (2008) (TMDb: 12177)                              |
+[2022-11-25 14:34:14,479] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | In the Name of the King: A Dungeon Siege Tale (2007) (TMDb: 2312) |
+[2022-11-25 14:34:14,489] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Flintstones in Viva Rock Vegas (2000) (TMDb: 889)           |
+[2022-11-25 14:34:14,499] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Avengers (1998) (TMDb: 9320)                                |
+[2022-11-25 14:34:14,514] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Hungover Games (2014) (TMDb: 244688)                        |
+[2022-11-25 14:34:14,527] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Street Fighter: The Legend of Chun-Li (2009) (TMDb: 15268)      |
+[2022-11-25 14:34:14,537] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Stan Helsing (2009) (TMDb: 23988)                               |
+[2022-11-25 14:34:14,547] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | The Human Centipede 2 (Full Sequence) (2011) (TMDb: 74997)      |
+[2022-11-25 14:34:14,561] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Speed 2: Cruise Control (1997) (TMDb: 1639)                     |
+[2022-11-25 14:34:14,571] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | Ballistic: Ecks vs. Sever (2002) (TMDb: 10550)                  |
+[2022-11-25 14:34:14,581] [builder.py:2321]           [INFO]     | IMDb Lowest Rated Collection | ? | 2001: A Space Travesty (2000) (TMDb: 7290)                      |
+[2022-11-25 14:34:14,582] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:14,582] [builder.py:2327]           [INFO]     | 98 Movies Missing                                                                                  |
+[2022-11-25 14:34:15,219] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:15,220] [builder.py:2528]           [INFO]     |========================= Updating Details of IMDb Lowest Rated Collection =========================|
+[2022-11-25 14:34:15,220] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:15,235] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 14:34:15,236] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-25 14:34:15,236] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/IMDb%20Lowest%20Rated.jpg |
+[2022-11-25 14:34:15,236] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Christmas_Movies/Assets/IMDb Lowest Rated/poster.jpg', 'prefix': "IMDb Lowest Rated's ", 'is_poster': True, 'is_url': False, 'compare': 289662, 'message': "IMDb Lowest Rated's poster to [File] /config/Christmas_Movies/Assets/IMDb Lowest Rated/poster.jpg"} |
+[2022-11-25 14:34:15,237] [library.py:180]            [INFO]     | Detail: IMDb Lowest Rated's poster update not needed                                               |
+[2022-11-25 14:34:15,274] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:15,274] [builder.py:2687]           [INFO]     |=============================== Sorting IMDb Lowest Rated Collection ===============================|
+[2022-11-25 14:34:15,274] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-25 14:34:15,274] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 14:34:15,274] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 14:34:15,274] [plex_meta_manager.py:737]  [INFO]     |                               Finished IMDb Lowest Rated Collection                                |
+[2022-11-25 14:34:15,275] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-25 14:34:15,275] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

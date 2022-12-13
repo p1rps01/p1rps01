@@ -1,0 +1,77 @@
+[2022-11-16 20:11:53,134] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:11:53,134] [builder.py:193]            [INFO]     |                              Angelina Jolie Collection in Kids Movies                              |
+[2022-11-16 20:11:53,134] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:11:53,134] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,135] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:11:53,135] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,135] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:11:53,135] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,137] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,137] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:11:53,137] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,137] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 11701, 'sort_title': '++_Angelina Jolie', 'collection_order': 'release'} |
+[2022-11-16 20:11:53,137] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,138] [builder.py:223]            [INFO]     |=============================== Validating Angelina Jolie Attributes ===============================|
+[2022-11-16 20:11:53,138] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,138] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:11:53,138] [builder.py:533]            [DEBUG]    | Value: 11701                                                                                       |
+[2022-11-16 20:11:53,161] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,161] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:11:53,162] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:11:53,162] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,162] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:11:53,162] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:11:53,571] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,571] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:11:53,571] [builder.py:651]            [DEBUG]    | Value: ++_Angelina Jolie                                                                           |
+[2022-11-16 20:11:53,578] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,578] [builder.py:796]            [ERROR]    | Collection Error: Converting Angelina Jolie to a normal collection                                 |
+[2022-11-16 20:11:53,583] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,584] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:596]  [INFO]     |================================ Running Angelina Jolie Collection =================================|
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Angelina Jolie", '?type=1&sort=titleSort&push=1&actor=38481&pop=1') |
+[2022-11-16 20:11:53,584] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,584] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Angelina Jolie
+[2022-11-16 20:11:53,607] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:11:53,607] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-16 20:11:53,607] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:11:53,608] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:11:53,608] [builder.py:2159]           [INFO]     |=============================== Adding to Angelina Jolie Collection ================================|
+[2022-11-16 20:11:53,608] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:11:53,608] [builder.py:2174]           [INFO]     | 1/6 | Angelina Jolie Collection | + | Kung Fu Panda (2008)                                         |
+[2022-11-16 20:11:55,647] [builder.py:2174]           [INFO]     | 2/6 | Angelina Jolie Collection | + | Kung Fu Panda 2 (2011)                                       |
+[2022-11-16 20:11:58,078] [builder.py:2174]           [INFO]     | 3/6 | Angelina Jolie Collection | + | Kung Fu Panda 3 (2016)                                       |
+[2022-11-16 20:12:00,715] [builder.py:2174]           [INFO]     | 4/6 | Angelina Jolie Collection | + | Maleficent (2014)                                            |
+[2022-11-16 20:12:03,411] [builder.py:2174]           [INFO]     | 5/6 | Angelina Jolie Collection | + | Maleficent: Mistress of Evil (2019)                          |
+[2022-11-16 20:12:05,600] [builder.py:2174]           [INFO]     | 6/6 | Angelina Jolie Collection | + | Shark Tale (2004)                                            |
+[2022-11-16 20:12:10,744] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:10,744] [builder.py:2196]           [INFO]     | 6 Movies Processed 6 Movies Added                                                                  |
+[2022-11-16 20:12:10,751] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:10,751] [builder.py:2528]           [INFO]     |========================== Updating Details of Angelina Jolie Collection ===========================|
+[2022-11-16 20:12:10,751] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:10,758] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Angelina Jolie is an American actress. She has received an Academy Award, two Screen Actors Guild Awards, and three Golden Globe Awards. Jolie has promoted humanitarian causes throughout the world, and is noted for her work with refugees as a Goodwill Ambassador for the United Nations High Commissioner for Refugees (UNHCR). She has been cited as one of the world's most beautiful women and her off-screen life is widely reported.
+                                                                 | 
+                                                                 | Though she made her screen debut as a child alongside her father Jon Voight in the 1982 film Lookin' to Get Out, Jolie's acting career began in earnest a decade later with the low-budget production Cyborg 2 (1993). Her first leading role in a major film was in Hackers (1995). She starred in the critically acclaimed biographical films George Wallace (1997) and Gia (1998), and won an Academy Award for Best Supporting Actress for her performance in the drama Girl, Interrupted (1999). Jolie achieved wider fame after her portrayal of video game heroine Lara Croft in Lara Croft: Tomb Raider (2001), and since then has established herself as one of the best-known and highest-paid actresses in Hollywood. She has had her biggest commercial successes with the action-comedy Mr. & Mrs. Smith (2005) and the animated film Kung Fu Panda (2008).
+                                                                 | 
+                                                                 | Divorced from actors Jonny Lee Miller and Billy Bob Thornton, Jolie currently lives with actor Brad Pitt, in a relationship that has attracted worldwide media attention. Jolie and Pitt have three adopted children, Maddox, Pax, and Zahara, as well as three biological children, Shiloh, Knox, and Vivienne.
+                                                                 | Sort Title | ++_Angelina Jolie
+                                                                 | Label | +PMM
+[2022-11-16 20:12:12,867] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:12:12,868] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:12:12,870] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:12:12,870] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/wYqFJp7HXyNQ3hggB4XRRmT3YTg.jpg
+[2022-11-16 20:12:13,096] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/wYqFJp7HXyNQ3hggB4XRRmT3YTg.jpg
+[2022-11-16 20:12:13,242] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:12:13,243] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:12:13,243] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Angelina Jolie Collection                                 |
+[2022-11-16 20:12:13,243] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:20                                    |
+[2022-11-16 20:12:13,243] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

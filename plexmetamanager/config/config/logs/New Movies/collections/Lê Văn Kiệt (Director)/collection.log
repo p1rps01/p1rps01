@@ -1,0 +1,79 @@
+[2022-11-16 23:45:17,699] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:45:17,700] [builder.py:193]            [INFO]     |                          Lê Văn Kiệt (Director) Collection in New Movies                           |
+[2022-11-16 23:45:17,700] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:45:17,700] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:45:17,700] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:45:17,700] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,700] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 23:45:17,701] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,707] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:45:17,708] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,711] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:45:17,712] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,723] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,724] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:45:17,724] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,724] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Lê Văn Kiệt'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}, 'summary': 'Movies directed by Lê Văn Kiệt.', 'name': 'Lê Văn Kiệt (Director)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!18_Lê Văn Kiệt (Director)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/L%C3%AA%20V%C4%83n%20Ki%E1%BB%87t.jpg'} |
+[2022-11-16 23:45:17,724] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,724] [builder.py:223]            [INFO]     |=========================== Validating Lê Văn Kiệt (Director) Attributes ===========================|
+[2022-11-16 23:45:17,724] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,724] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:45:17,724] [builder.py:230]            [DEBUG]    | Value: Lê Văn Kiệt (Director)                                                                      |
+[2022-11-16 23:45:17,725] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,725] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:45:17,725] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:45:17,725] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,725] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:45:17,725] [builder.py:533]            [DEBUG]    | Value: ['Lê Văn Kiệt']                                                                             |
+[2022-11-16 23:45:17,801] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:45:17,801] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:45:17,802] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}                                       |
+[2022-11-16 23:45:17,851] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&director=54758&pop=1                                      |
+[2022-11-16 23:45:17,851] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,851] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:45:17,851] [builder.py:651]            [DEBUG]    | Value: Top Directors                                                                               |
+[2022-11-16 23:45:17,851] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,851] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:45:17,851] [builder.py:651]            [DEBUG]    | Value: Movies directed by Lê Văn Kiệt.                                                             |
+[2022-11-16 23:45:17,852] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,852] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:45:17,852] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:45:17,852] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,852] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:45:17,852] [builder.py:651]            [DEBUG]    | Value: !18_Lê Văn Kiệt (Director)                                                                  |
+[2022-11-16 23:45:17,852] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,852] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:45:17,852] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/L%C3%AA%20V%C4%83n%20Ki%E1%BB%87t.jpg |
+[2022-11-16 23:45:17,950] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/L%C3%AA%20V%C4%83n%20Ki%E1%BB%87t.jpg |
+[2022-11-16 23:45:17,954] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:45:17,955] [plex.py:838]               [DEBUG]    | Looking for: Lê Văn Kiệt (Director)                                                                |
+[2022-11-16 23:45:17,955] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:45:17,955] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:45:17,955] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:45:17,955] [plex_meta_manager.py:596]  [INFO]     |============================ Running Lê Văn Kiệt (Director) Collection =============================|
+[2022-11-16 23:45:17,955] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:45:17,956] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Lê Văn Kiệt
+[2022-11-16 23:45:18,003] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&director=54758&pop=1
+[2022-11-16 23:45:18,008] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:45:18,009] [builder.py:2528]           [INFO]     |====================== Updating Details of Lê Văn Kiệt (Director) Collection =======================|
+[2022-11-16 23:45:18,009] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:45:18,016] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies directed by Lê Văn Kiệt.
+                                                                 | Sort Title | !18_Lê Văn Kiệt (Director)
+                                                                 | Label | +Top Directors, +PMM
+[2022-11-16 23:45:19,548] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:45:19,548] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:45:20,958] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 23:45:20,962] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/New_Movies/Assets/Lê Văn Kiệt (Director)
+[2022-11-16 23:45:20,962] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 23:45:20,962] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/i8sojickGYGbPnIYRj5KBjQmxjr.jpg
+[2022-11-16 23:45:21,006] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/i8sojickGYGbPnIYRj5KBjQmxjr.jpg
+[2022-11-16 23:45:21,033] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:45:21,033] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:45:21,034] [plex_meta_manager.py:737]  [INFO]     |                             Finished Lê Văn Kiệt (Director) Collection                             |
+[2022-11-16 23:45:21,034] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 23:45:21,035] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

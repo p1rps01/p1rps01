@@ -1,0 +1,141 @@
+[2022-11-17 02:21:50,838] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:21:50,838] [builder.py:193]            [INFO]     |                                 Emmys 1989 Collection in TV Shows                                  |
+[2022-11-17 02:21:50,838] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:21:50,839] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:21:50,839] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:21:50,839] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,839] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:21:50,840] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,840] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:21:50,841] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,842] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:21:50,843] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,854] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:21:50,855] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,860] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:21:50,861] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,864] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,865] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:21:50,865] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,865] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1989', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1989.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:21:50,865] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,865] [builder.py:223]            [INFO]     |================================= Validating Emmys 1989 Attributes =================================|
+[2022-11-17 02:21:50,866] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,866] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:21:50,866] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:21:50,866] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,866] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:21:50,866] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:21:50,866] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,867] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:21:50,867] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:21:50,867] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,867] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:21:50,867] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:21:50,868] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:50,868] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:21:50,868] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:21:51,622] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,624] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:21:51,624] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:21:51,624] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,624] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:21:51,624] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1989                                                                              |
+[2022-11-17 02:21:51,624] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,625] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:21:51,625] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1989.jpg |
+[2022-11-17 02:21:51,781] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,781] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:21:51,781] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:21:51,791] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,791] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1989                                                                            |
+[2022-11-17 02:21:51,792] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:21:51,792] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:21:51,792] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:51,792] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1989 Collection ===================================|
+[2022-11-17 02:21:51,792] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:51,793] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:21:51,793] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:51,793] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:21:51,793] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:51,794] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1989-01-01,1989-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:21:54,379] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:54,379] [builder.py:1575]           [DEBUG]    | 39 IDs Found                                                                                       |
+[2022-11-17 02:21:54,379] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:54,755] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 17139                                                 |
+[2022-11-17 02:21:55,125] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0380985                                             |
+[2022-11-17 02:21:55,319] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47485                                                 |
+[2022-11-17 02:21:55,341] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0419877                                             |
+[2022-11-17 02:21:55,364] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2401370                                             |
+[2022-11-17 02:21:55,427] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0191519                                             |
+[2022-11-17 02:21:55,485] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0268603                                             |
+[2022-11-17 02:21:55,508] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0301200                                             |
+[2022-11-17 02:21:55,553] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:55,553] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:21:55,554] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:55,571] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Roe vs. Wade (1989) (TMDb: 263036)                                     |
+[2022-11-17 02:21:55,754] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | My Name Is Bill W. (1989) (TMDb: 15727)                                |
+[2022-11-17 02:21:55,876] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | The Shell Seekers (1989) (TMDb: 156657)                                |
+[2022-11-17 02:21:56,076] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Day One (1989) (TMDb: 44688)                                           |
+[2022-11-17 02:21:56,323] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Murderers Among Us: The Simon Wiesenthal Story (1989) (TMDb: 213559)   |
+[2022-11-17 02:21:56,550] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Those She Left Behind (1989) (TMDb: 357894)                            |
+[2022-11-17 02:21:56,788] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Sammy Davis, Jr. 60th Anniversary Celebration (1990) (TMDb: 343835)    |
+[2022-11-17 02:21:56,820] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Garfield's Babes and Bullets (1989) (TMDb: 64168)                      |
+[2022-11-17 02:21:56,911] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | A Mother's Courage: The Mary Thomas Story (1989) (TMDb: 265749)        |
+[2022-11-17 02:21:57,003] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Age-Old Friends (1989) (TMDb: 265674)                                  |
+[2022-11-17 02:21:57,168] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Sesame Street: 20 Years ... and Still Counting! (1989) (TMDb: 340557)  |
+[2022-11-17 02:21:57,346] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Kenny, Dolly & Willie: Something Inside So Strong (1989) (TMDb: 759796) |
+[2022-11-17 02:21:57,356] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Billy Crystal: Midnight Train to Moscow (1989) (TMDb: 214823)          |
+[2022-11-17 02:21:57,509] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Cirque du Soleil: The Magic Circus (1989) (TMDb: 731621)               |
+[2022-11-17 02:21:57,694] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Eighth Van Cliburn International Piano Competition: Here to Make Music (1989) (TMDb: 608647) |
+[2022-11-17 02:21:57,899] [builder.py:2321]           [INFO]     | Emmys 1989 Collection | ? | Aida (1989) (TMDb: 90988)                                              |
+[2022-11-17 02:21:57,900] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:57,900] [builder.py:2327]           [INFO]     | 16 Movies Missing                                                                                  |
+[2022-11-17 02:21:58,593] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:58,593] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 1989 ==============================|
+[2022-11-17 02:21:58,593] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:58,642] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | The Simpsons (TVDb: 71663)                                             |
+[2022-11-17 02:21:58,700] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Seinfeld (TVDb: 79169)                                                 |
+[2022-11-17 02:21:58,742] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Twin Peaks (TVDb: 70533)                                               |
+[2022-11-17 02:21:58,770] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Lonesome Dove (TVDb: 80305)                                            |
+[2022-11-17 02:21:58,794] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Life Goes On (TVDb: 76120)                                             |
+[2022-11-17 02:21:58,919] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Coach (TVDb: 76905)                                                    |
+[2022-11-17 02:21:58,953] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Doogie Howser, M.D. (TVDb: 72203)                                      |
+[2022-11-17 02:21:59,039] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | The Young Riders (TVDb: 71589)                                         |
+[2022-11-17 02:21:59,073] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Alien Nation (TVDb: 72358)                                             |
+[2022-11-17 02:21:59,158] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | The Arsenio Hall Show (TVDb: 72332)                                    |
+[2022-11-17 02:21:59,249] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Summer's Lease (TVDb: 115351)                                          |
+[2022-11-17 02:21:59,369] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | The Jim Henson Hour (TVDb: 70713)                                      |
+[2022-11-17 02:21:59,449] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | The Famous Teddy Z (TVDb: 73408)                                       |
+[2022-11-17 02:21:59,759] [builder.py:2366]           [INFO]     | Emmys 1989 Collection | ? | Great Performances (TVDb: 76548)                                       |
+[2022-11-17 02:21:59,759] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:59,760] [builder.py:2372]           [INFO]     | 14 Shows Missing                                                                                   |
+[2022-11-17 02:22:00,471] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:22:00,471] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:22:00,471] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:00,471] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [71663, 79169, 70533, 80305, 76120, 76905, 72203, 71589, 72358, 72332, 115351, 70713, 73408, 76548] |
+[2022-11-17 02:22:14,635] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:22:14,635] [sonarr.py:164]             [INFO]     | Added to Sonarr | 70713   | The Jim Henson Hour                                                    |
+[2022-11-17 02:22:14,647] [sonarr.py:164]             [INFO]     | Added to Sonarr | 73408   | The Famous Teddy Z                                                     |
+[2022-11-17 02:22:14,662] [sonarr.py:167]             [INFO]     | 2 Series added to Sonarr                                                                           |
+[2022-11-17 02:22:14,663] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:22:14,663] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76120   | Life Goes On                                                         |
+[2022-11-17 02:22:14,689] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76905   | Coach                                                                |
+[2022-11-17 02:22:14,703] [sonarr.py:177]             [INFO]     | Already in Sonarr | 72203   | Doogie Howser, M.D.                                                  |
+[2022-11-17 02:22:14,714] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71589   | The Young Riders                                                     |
+[2022-11-17 02:22:14,725] [sonarr.py:177]             [INFO]     | Already in Sonarr | 72358   | Alien Nation                                                         |
+[2022-11-17 02:22:14,736] [sonarr.py:177]             [INFO]     | Already in Sonarr | 72332   | The Arsenio Hall Show                                                |
+[2022-11-17 02:22:14,748] [sonarr.py:177]             [INFO]     | Already in Sonarr | 115351  | Summer's Lease                                                       |
+[2022-11-17 02:22:14,763] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76548   | Great Performances                                                   |
+[2022-11-17 02:22:14,774] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71663                                                                          |
+[2022-11-17 02:22:14,775] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79169                                                                          |
+[2022-11-17 02:22:14,775] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70533                                                                          |
+[2022-11-17 02:22:14,775] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80305                                                                          |
+[2022-11-17 02:22:14,775] [sonarr.py:187]             [INFO]     | 12 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:22:14,798] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:14,798] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 1989 Collection                                            |
+[2022-11-17 02:22:14,799] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:14,799] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:22:14,800] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1989 Collection                                   |
+[2022-11-17 02:22:14,800] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2022-11-17 02:22:14,801] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

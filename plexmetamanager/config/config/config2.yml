@@ -1,0 +1,750 @@
+  Halloween Movies:                               # Each library must match the Plex library name  
+    library_name: Halloween Movies
+    template_variables:
+      sep_style: gray                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    use_separator: true
+    report_path: /config/Reports/Halloween_Movies_report.yml         
+    metadata_path:
+    - folder: /config/Halloween_Movies/
+    - /config/Halloween_Movies/Awards.yml
+    - /config/Halloween_Movies/Holidays.yml
+    - /config/Halloween_Movies/People.yml
+    - pmm: separator_award                                                # An "index card"
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year                        
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple  
+    - pmm: director                                                       # Directors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple    
+    - pmm: producer                                                        # Producers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple          
+    - pmm: writer                                                          # Writers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections
+    overlay_path:
+    - remove_overlays: false                                                # Set this to true to remove all overlays
+    - reapply_overlays: true
+    - reset_overlays: tmdb                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters   
+    - file: /config/Movies/MoviesOverlays.yml     # This is a local file on the system
+    - git: PMM/overlays/imdb_top_250              # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+    settings:
+      missing_path: config/Halloween_Movies/Missing
+      asset_directory:
+      - config/Halloween_Movies/Assets/
+    radarr:                                       # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/halloween movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/halloween movies/
+      plex_path: /share/data/media/halloween movies/      
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none
+  Kids Movies:                                    # Each library must match the Plex library name
+    library_name: Kids Movies
+    template_variables:
+      sep_style: gray                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    use_separator: true         
+    report_path: /config/Reports/Kids_Movies_report.yml
+    metadata_path:
+    - folder: /config/Kids_Movies/
+    - /config/Kids_Movies/Awards.yml
+    - /config/Kids_Movies/People.yml
+    - pmm: separator_award                                                # An "index card"
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year                        
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple  
+    - pmm: director                                                       # Directors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple    
+    - pmm: producer                                                        # Producers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple          
+    - pmm: writer                                                          # Writers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections
+    overlay_path:
+    - remove_overlays: false                                                # Set this to true to remove all overlays
+    - reapply_overlays: true
+    - reset_overlays: tmdb                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters
+    - file: /config/Movies/MoviesOverlays.yml     # This is a local file on the system
+    - git: PMM/overlays/imdb_top_250              # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+    settings:
+      missing_path: config/Kids_Movies/Missing
+      asset_directory:
+      - config/Kids_Movies/Assets/
+    radarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/kids movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/kids movies/
+      plex_path: /share/data/media/kids movies/      
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none
+  Old Movies:                                   # Each library must match the Plex library name
+    library_name: Old Movies
+    template_variables:
+      sep_style: gray                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated    
+    report_path: /config/Reports/Old_Movies_report.yml
+    metadata_path:
+    - folder: /config/Old_Movies/
+    - /config/Old_Movies/Awards.yml
+    - /config/Old_Movies/People.yml
+    - pmm: separator_award                                                # An "index card"
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year                        
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple  
+    - pmm: director                                                       # Directors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple    
+    - pmm: producer                                                        # Producers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple          
+    - pmm: writer                                                          # Writers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections
+    overlay_path:
+    - remove_overlays: false                                                # Set this to true to remove all overlays
+    - reapply_overlays: true
+    - reset_overlays: tmdb                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters    
+    - file: /config/Movies/MoviesOverlays.yml     # This is a local file on the system
+    - git: PMM/overlays/imdb_top_250              # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+    settings:
+      missing_path: config/Old_Movies/Missing
+      asset_directory:
+      - config/Old_Movies/Assets/
+    radarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/old movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/old movies/
+      plex_path: /share/data/media/old movies/      
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none
+  New Movies:                                   # Each library must match the Plex library name
+    library_name: New Movies
+    template_variables:
+      sep_style: gray                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    report_path: /config/Reports/New_Movies_report.yml
+    metadata_path:
+    - folder: /config/New_Movies/
+    - /config/New_Movies/Awards.yml
+    - /config/New_Movies/People.yml
+    - pmm: separator_award                                                # An "index card"
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year                        
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple  
+    - pmm: director                                                       # Directors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple    
+    - pmm: producer                                                        # Producers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple          
+    - pmm: writer                                                          # Writers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections          
+    overlay_path:
+    - remove_overlays: false                                                # Set this to true to remove all overlays
+    - reapply_overlays: true
+    - reset_overlays: tmdb                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters    
+    - file: /config/Movies/MoviesOverlays.yml     # This is a local file on the system
+    - git: PMM/overlays/imdb_top_250              # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+    settings:
+      missing_path: config/New_Movies/Missing
+      asset_directory:
+      - config/New_Movies/Assets/
+    radarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/new movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/new movies/
+      plex_path: /share/data/media/new movies/      
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none
+  Marvel Movies:                                # Each library must match the Plex library name
+    library_name: Marvel Movies
+    template_variables:
+      sep_style: gray                                                     # use the gray separators globally for this library
+      collection_mode: hide                                               # hide the collections
+      language: en                                                        # could be default, de, fr, pt-br or another lang code that we have tranlsated    
+    report_path: /config/Reports/Marvel_Movies_report.yml
+    metadata_path:
+    - folder: /config/Marvel_Movies/                                      # This is a local directory on the system         
+    - /config/Marvel_Movies/Awards.yml
+    - /config/Marvel_Movies/People.yml
+    - pmm: separator_award                                                # An "index card"
+    - pmm: cannes                                                         # Cannes Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2016
+          ending: current_year
+    - pmm: choice                                                         # Critic's Choice Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                                         # Golden Globes Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: oscars                                                         # The Oscars
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 1927
+          ending: current_year-1
+    - pmm: other_award                                                    # Other award collections
+    - pmm: spirit                                                         # Independent Spirit Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: sundance                                                       # Sundance Film Festival Awards
+      template_variables:                                                 # based on when the award show started
+        data:
+          starting: 2010
+          ending: current_year                        
+    - pmm: actor                                                          # Actors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple  
+    - pmm: director                                                       # Directors
+      template_variables:                                                 # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple    
+    - pmm: producer                                                        # Producers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple          
+    - pmm: writer                                                          # Writers
+      template_variables:                                                  # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+        sort_by: title.asc
+        use_separator: true
+        sep_style: purple
+    - pmm: separator_chart                                                 # An "index card"
+    - pmm: imdb                                                            # IMDb Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                                            # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                                           # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                                           # Some basic chart collections         
+    overlay_path:
+    - remove_overlays: false                                                # Set this to true to remove all overlays
+    - reapply_overlays: true
+    - reset_overlays: tmdb                                                 # This rests all Posters to the tmdb poster rather than the Plex default - helps fix missing posters
+    - file: /config/Movies/MoviesOverlays.yml   # This is a local file on the system
+    - git: PMM/overlays/imdb_top_250            # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+    settings:
+      missing_path: config/Marvel_Movies/Missing
+      asset_directory:
+      - config/Marvel_Movies/Assets/
+    radarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:36878
+      token: a3e022f7c1344c0198057df7d716cd83
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/marvel movies/
+      monitor: true
+      availability: announced
+      quality_profile: HD-1080p
+      tag:
+      search: false
+      radarr_path: /share/data/media/marvel movies/
+      plex_path: /share/data/media/marvel movies/      
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none
+  TV Shows:
+    template_variables:
+      sep_style: gray                               # use the gray separators globally for this library
+      collection_mode: hide                         # hide the collections
+      language: en                                  # could be default, de, fr, pt-br or another lang code that we have tranlsated
+    metadata_path:
+    - file: /config/TV/Networks.yml
+    - folder: /config/TV
+    - pmm: separator_award                          # An "index card"
+    - pmm: choice                                   # Critic's Choice Awards
+      template_variables:                           # based on when the award show started
+        data:
+          starting: 2014
+          ending: current_year
+    - pmm: golden                                   # Golden Globes Awards
+      template_variables:                           # based on when the award show started
+        data:
+          starting: 1943
+          ending: current_year
+    - pmm: emmy                                     # Emmy Awards
+      template_variables:                           # based on when the award show started
+        data:
+          starting: 1947
+          ending: current_year
+    - pmm: separator_chart                          # An "index card"
+    - pmm: imdb                                     # IMDb Charts (Popular, Trending, etc.)
+    - pmm: other_chart                              # Other Charts (Popular, Trending, etc.)
+    - pmm: tmdb                                     # TMDb Charts (Popular, Trending, etc.)
+    - pmm: trakt                                    # Trakt Charts (Popular, Trending, etc.)
+    - pmm: basic                                    # Some basic chart collections
+    - pmm: actor                                    # Actors
+      template_variables:                           # bw, rainier, or orig style is used. depth and limit is set low but sometimes I boost to 10, 150
+        style: rainier
+        data:
+          depth: 10
+          limit: 20
+    - pmm: genre                                    # Action, Comedy, Drama, etc.
+    - pmm: resolution                               # 4K HDR, 1080P FHD, etc. with the standards style 
+      template_variables:
+        style: standards
+    - pmm: studio                                   # DreamWorks Studios, Lucasfilm Ltd, etc.
+    - pmm: studio_anime                             # Anime Studios etc.
+    - pmm: subtitle_language                        # English, French, Arabic, German, etc. subtitles
+    - pmm: year                                     # Year the media item was released starting from 1880 to current_year
+      template_variables:
+        data:
+          starting: 1880
+          ending: current_year
+    - pmm: decade                                   # Decade the media item was released
+    - pmm: network                                  # ABC, CBC, NBC, FOX, etc.
+    - pmm: streaming                                # Streaming on Disney+, Netflix, etc.
+    overlay_path:
+    - remove_overlays: false                        # Set to true if you want to remove overlays
+    - reapply_overlay: true                         # If you are doing a lot of testing and changes like me, keep this to true to always reapply overlays
+    # - reset_overlays: tmdb                          # if you want to reset the poster to default poster from tmdb
+    - pmm: audio_codec                              # FLAC, DTS-X, TrueHD, etc. and works with overlay_level show, episode, and season
+    - pmm: audio_codec
+      template_variables:
+        overlay_level: episode
+    - pmm: audio_codec
+      template_variables:
+        overlay_level: season
+    - pmm: commonsense                              # Age 2+, Age 14+, etc. and works with overlay_level show, episode, and season
+    - pmm: commonsense
+      template_variables:
+        overlay_level: episode
+    - pmm: commonsense
+      template_variables:
+        overlay_level: season
+    - pmm: episode_info                             # SE##E## information in bottom right and works with overlay_level episode
+      template_variables:
+        overlay_level: episode
+    - pmm: ratings                                  # Ratings with custom fonts matched to the style of the rating, font_size, and on the right in 'square' format. overlay_level: show has 3 ratings max
+      template_variables:
+        rating1: user
+        rating1_image: rt_tomato
+
+        rating2: critic
+        rating2_image: imdb
+
+        rating3: audience
+        rating3_image: tmdb
+
+        horizontal_position: right
+    - pmm: ratings                                  # Ratings with custom fonts matched to the style of the rating, font_size, and on the right in 'square' format. overlay_level: episode has 2 ratings max
+      template_variables:
+
+        rating1: critic
+        rating1_image: imdb
+
+        rating2: audience
+        rating2_image: tmdb
+
+        horizontal_position: right
+        overlay_level: episode
+    - pmm: resolution                               # 4K HDR, 1080P FHD, etc. and works with overlay_level show, episode, and season
+    - pmm: resolution
+      template_variables:
+        overlay_level: episode
+    - pmm: resolution
+      template_variables:
+        overlay_level: season
+    - pmm: ribbon                                   # Used for ribbon in bottom right and works with overlay_level show and season
+    - pmm: ribbon
+      template_variables:
+        overlay_level: season
+    - pmm: runtimes                                 # Runtime information in bottom right and works with overlay_level episode
+      template_variables:
+        overlay_level: episode
+    - pmm: status                                   # Airing, Returning, Ended, Canceled and works with overlay_level show
+    - pmm: streaming                                # Streaming on Disney+, Netflix, etc. and works with overlay_level show, episode, and season
+    - pmm: streaming
+      template_variables:
+        overlay_level: episode
+    - pmm: streaming
+      template_variables:
+        overlay_level: season
+    operations:
+      assets_for_all: false
+      split_duplicates: false
+      delete_collections_with_less: 2
+      delete_unmanaged_collections: true
+      mass_critic_rating_update: imdb               # Update critic ratings with imdb
+      mass_audience_rating_update: tmdb             # Update audience ratings with tmdb
+      mass_genre_update: tmdb                       # Update all genres from tmdb
+      mass_content_rating_update: mdb_commonsense   # Changes Content Rating to "1", "2" etc. to specify appropriate age
+      mass_originally_available_update: tmdb        # Update all original available date from tmdb
+      mass_user_rating_update: mdb_tomatoes
+      mass_imdb_parental_labels: with_none                
+    sonarr:                                         # Can be individually specified per library as well
+      url: http://192.168.1.103:35989
+      token: da3f07cf2a8341a3adef09557887a645
+      add_missing: true
+      add_existing: false
+      root_folder_path: /share/data/media/tv
+      monitor: all
+      quality_profile: HD-1080p
+      language_profile: English
+      series_type: standard
+      season_folder: false
+      tag:
+      search: false
+      cutoff_search: false
+      sonarr_path: /share/data/media/tv
+      plex_path: /share/data/media/tv
+      upgrade_existing: false
+  Music:
+    metadata_path:
+    - file: config/Music.yml
+  playlist_files:
+  - file: config/Playlists.yml
+  - git: PMM/playlist                                 # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository

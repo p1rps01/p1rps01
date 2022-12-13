@@ -1,0 +1,77 @@
+[2022-11-16 20:22:13,032] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:13,032] [builder.py:193]            [INFO]     |                              Nicole Kidman Collection in Kids Movies                               |
+[2022-11-16 20:22:13,033] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:22:13,033] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,033] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:22:13,033] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,034] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:22:13,035] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,038] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,038] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:22:13,039] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,039] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2227, 'sort_title': '++_Nicole Kidman', 'collection_order': 'release'} |
+[2022-11-16 20:22:13,039] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,040] [builder.py:223]            [INFO]     |=============================== Validating Nicole Kidman Attributes ================================|
+[2022-11-16 20:22:13,040] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,041] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:22:13,041] [builder.py:533]            [DEBUG]    | Value: 2227                                                                                        |
+[2022-11-16 20:22:13,066] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,067] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:22:13,067] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:22:13,068] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,068] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:22:13,069] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:22:13,696] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,697] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:22:13,697] [builder.py:651]            [DEBUG]    | Value: ++_Nicole Kidman                                                                            |
+[2022-11-16 20:22:13,705] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,705] [builder.py:796]            [ERROR]    | Collection Error: Converting Nicole Kidman to a normal collection                                  |
+[2022-11-16 20:22:13,711] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,712] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:596]  [INFO]     |================================= Running Nicole Kidman Collection =================================|
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Nicole Kidman", '?type=1&sort=titleSort&push=1&actor=48301&pop=1') |
+[2022-11-16 20:22:13,712] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,712] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Nicole Kidman
+[2022-11-16 20:22:13,726] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:22:13,727] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:22:13,727] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:22:13,727] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:22:13,727] [builder.py:2159]           [INFO]     |================================ Adding to Nicole Kidman Collection ================================|
+[2022-11-16 20:22:13,728] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:13,728] [builder.py:2174]           [INFO]     | 1/2 | Nicole Kidman Collection | + | Happy Feet (2006)                                             |
+[2022-11-16 20:22:13,877] [builder.py:2174]           [INFO]     | 2/2 | Nicole Kidman Collection | + | Paddington (2014)                                             |
+[2022-11-16 20:22:18,350] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:18,350] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:22:18,355] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:18,355] [builder.py:2528]           [INFO]     |=========================== Updating Details of Nicole Kidman Collection ===========================|
+[2022-11-16 20:22:18,355] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:18,361] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Nicole Mary Kidman (born 20 June 1967) is an American and Australian actress and producer. Known for her work across various film and television productions from several genres, she has continuously remained one of the world's highest-paid actresses. She is the recipient of numerous accolades, including an Academy Award, a British Academy Film Award, a Screen Actors Guild Award, two Primetime Emmy Awards and six Golden Globe Awards.
+                                                                 | 
+                                                                 | Kidman began her acting career in Australia with the 1983 films Bush Christmas and BMX Bandits. Her breakthrough came in 1989 with the thriller film Dead Calm and the miniseries Bangkok Hilton. In 1990, she achieved international success with the action film Days of Thunder. She received greater recognition with lead roles in Far and Away (1992), Batman Forever (1995), To Die For (1995) and Eyes Wide Shut (1999). In 2003, she won the Academy Award for Best Actress for her portrayal of writer Virginia Woolf in the drama film The Hours (2002). She received additional Academy Award nominations for her roles in the musical Moulin Rouge! (2001) and the dramas Rabbit Hole (2010), Lion (2016) and Being the Ricardos (2021).
+                                                                 | 
+                                                                 | Kidman's television roles include Hemingway & Gellhorn (2012), Big Little Lies (2017–2019), Top of the Lake: China Girl (2017), The Undoing (2020) and Nine Perfect Strangers (2021). For Big Little Lies, she received two Primetime Emmy Awards, one for Outstanding Lead Actress and the other for Outstanding Limited Series as an executive producer.
+                                                                 | 
+                                                                 | Kidman has served as a Goodwill Ambassador for UNICEF since 1994 and for UNIFEM since 2006. In 2006, she was appointed Companion of the Order of Australia. She was married to actor Tom Cruise from 1990 to 2001 and has been married to country music singer Keith Urban since 2006. In 2010, she founded the production company Blossom Films. In 2004 and 2018, Time magazine included her on its list of the 100 most influential people in the world, and in 2020, The New York Times named her one of the greatest actors of the 21st century.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Nicole Kidman, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Nicole Kidman
+                                                                 | Label | +PMM
+[2022-11-16 20:22:19,846] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:22:19,846] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:22:19,847] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:22:19,848] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/dlcNtb7y0Be1pOWdsogowLEsOta.jpg
+[2022-11-16 20:22:19,934] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/dlcNtb7y0Be1pOWdsogowLEsOta.jpg
+[2022-11-16 20:22:19,982] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:22:19,982] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:22:19,982] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Nicole Kidman Collection                                  |
+[2022-11-16 20:22:19,982] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 20:22:19,982] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

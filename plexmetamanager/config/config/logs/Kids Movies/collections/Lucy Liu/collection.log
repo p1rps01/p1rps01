@@ -1,0 +1,83 @@
+[2022-11-16 20:20:20,528] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:20:20,528] [builder.py:193]            [INFO]     |                                 Lucy Liu Collection in Kids Movies                                 |
+[2022-11-16 20:20:20,528] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:20:20,528] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,528] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:20:20,528] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,529] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:20:20,529] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,530] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,530] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:20:20,530] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,530] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 140, 'sort_title': '++_Lucy Liu', 'collection_order': 'release'}  |
+[2022-11-16 20:20:20,530] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,530] [builder.py:223]            [INFO]     |================================== Validating Lucy Liu Attributes ==================================|
+[2022-11-16 20:20:20,531] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,531] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:20:20,531] [builder.py:533]            [DEBUG]    | Value: 140                                                                                         |
+[2022-11-16 20:20:20,549] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,549] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:20:20,549] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:20:20,549] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,549] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:20:20,549] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:20:20,848] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,848] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:20:20,849] [builder.py:651]            [DEBUG]    | Value: ++_Lucy Liu                                                                                 |
+[2022-11-16 20:20:20,856] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,857] [builder.py:796]            [ERROR]    | Collection Error: Converting Lucy Liu to a normal collection                                       |
+[2022-11-16 20:20:20,862] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,863] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Lucy Liu Collection ====================================|
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Lucy Liu", '?type=1&sort=titleSort&push=1&actor=44378&pop=1') |
+[2022-11-16 20:20:20,863] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,863] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Lucy Liu
+[2022-11-16 20:20:20,896] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:20:20,896] [builder.py:1575]           [DEBUG]    | 12 IDs Found
+[2022-11-16 20:20:20,896] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:20:20,897] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:20:20,897] [builder.py:2159]           [INFO]     |================================== Adding to Lucy Liu Collection ===================================|
+[2022-11-16 20:20:20,897] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:20:20,897] [builder.py:2174]           [INFO]     |  1/12 | Lucy Liu Collection | + | Kung Fu Panda (2008)                                             |
+[2022-11-16 20:20:21,012] [builder.py:2174]           [INFO]     |  2/12 | Lucy Liu Collection | + | Kung Fu Panda 2 (2011)                                           |
+[2022-11-16 20:20:21,109] [builder.py:2174]           [INFO]     |  3/12 | Lucy Liu Collection | + | Kung Fu Panda 3 (2016)                                           |
+[2022-11-16 20:20:21,258] [builder.py:2174]           [INFO]     |  4/12 | Lucy Liu Collection | + | Mulan II (2004)                                                  |
+[2022-11-16 20:20:23,162] [builder.py:2174]           [INFO]     |  5/12 | Lucy Liu Collection | + | The Pirate Fairy (2014)                                          |
+[2022-11-16 20:20:24,998] [builder.py:2174]           [INFO]     |  6/12 | Lucy Liu Collection | + | Pixie Hollow Bake Off (2013)                                     |
+[2022-11-16 20:20:26,968] [builder.py:2174]           [INFO]     |  7/12 | Lucy Liu Collection | + | Pixie Hollow Games (2011)                                        |
+[2022-11-16 20:20:29,042] [builder.py:2174]           [INFO]     |  8/12 | Lucy Liu Collection | + | Secret of the Wings (2012)                                       |
+[2022-11-16 20:20:30,928] [builder.py:2174]           [INFO]     |  9/12 | Lucy Liu Collection | + | Tinker Bell (2008)                                               |
+[2022-11-16 20:20:33,001] [builder.py:2174]           [INFO]     | 10/12 | Lucy Liu Collection | + | Tinker Bell and the Great Fairy Rescue (2010)                    |
+[2022-11-16 20:20:34,881] [builder.py:2174]           [INFO]     | 11/12 | Lucy Liu Collection | + | Tinker Bell and the Legend of the NeverBeast (2014)              |
+[2022-11-16 20:20:36,814] [builder.py:2174]           [INFO]     | 12/12 | Lucy Liu Collection | + | Tinker Bell and the Lost Treasure (2009)                         |
+[2022-11-16 20:20:41,146] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:20:41,146] [builder.py:2196]           [INFO]     | 12 Movies Processed 12 Movies Added                                                                |
+[2022-11-16 20:20:41,151] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:20:41,151] [builder.py:2528]           [INFO]     |============================= Updating Details of Lucy Liu Collection ==============================|
+[2022-11-16 20:20:41,152] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:20:41,158] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Lucy Alexis Liu (born Lucy Liu; December 2, 1968) is an American actress, voice actress, director, producer, singer and artist. She became known for playing the role of the vicious and ill-mannered Ling Woo in the television series Ally McBeal (1998–2002), for which she was nominated for a Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series and a Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Comedy Series. Liu's film work includes starring as one of the heroines in Charlie's Angels (2000), portraying O-Ren Ishii in Kill Bill (2003), and starring roles in the main casts of Payback (1999), Chicago (2002), and the animated film series Kung Fu Panda (2008–present) portraying the character Master Viper.
+                                                                 | 
+                                                                 | In 2008, she starred in an ABC comedy-drama, Cashmere Mafia, which ended after one abbreviated season. The show was one of only a few American television shows to have an Asian American series lead. In 2012, Liu joined the cast of the TNT series Southland in the recurring role of Jessica Tang, for which she won the Critics' Choice Television Award for Best Drama Guest Actress. She is currently co-starring in the Sherlock Holmes–inspired crime drama series Elementary as Joan Watson for which she won the Seoul International Drama Award for Best Actress, and voicing Silvermist in Disney's Tinker Bell film series.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Lucy Liu, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Lucy Liu
+                                                                 | Label | +PMM
+[2022-11-16 20:20:42,625] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:20:42,626] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:20:42,626] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:20:42,626] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg
+[2022-11-16 20:20:42,699] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg
+[2022-11-16 20:20:42,778] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:20:42,779] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:20:42,779] [plex_meta_manager.py:737]  [INFO]     |                                    Finished Lucy Liu Collection                                    |
+[2022-11-16 20:20:42,779] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:22                                    |
+[2022-11-16 20:20:42,779] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

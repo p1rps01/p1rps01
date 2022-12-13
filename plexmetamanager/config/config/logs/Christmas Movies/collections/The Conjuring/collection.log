@@ -1,0 +1,62 @@
+[2022-11-17 09:21:10,608] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:21:10,608] [builder.py:193]            [INFO]     |                            The Conjuring Collection in Christmas Movies                            |
+[2022-11-17 09:21:10,608] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:21:10,609] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 09:21:10,609] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 09:21:10,609] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,609] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-17 09:21:10,610] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,613] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,613] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 09:21:10,614] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,614] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 313086, 'tmdb_summary': 313086, 'url_poster': 'https://theposterdb.com/api/assets/156081', 'sort_title': '+4_The Conjuring', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-17 09:21:10,614] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,614] [builder.py:223]            [INFO]     |=============================== Validating The Conjuring Attributes ================================|
+[2022-11-17 09:21:10,614] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,615] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 09:21:10,615] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 09:21:10,615] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,615] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 09:21:10,615] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 09:21:10,616] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,616] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-17 09:21:10,616] [builder.py:651]            [DEBUG]    | Value: 313086                                                                                      |
+[2022-11-17 09:21:10,642] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,643] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-17 09:21:10,643] [builder.py:651]            [DEBUG]    | Value: 313086                                                                                      |
+[2022-11-17 09:21:10,656] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:10,657] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 09:21:10,658] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/156081                                                   |
+[2022-11-17 09:21:11,444] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:11,445] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 09:21:11,445] [builder.py:651]            [DEBUG]    | Value: +4_The Conjuring                                                                            |
+[2022-11-17 09:21:11,453] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:11,453] [plex.py:838]               [DEBUG]    | Looking for: The Conjuring                                                                         |
+[2022-11-17 09:21:11,453] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,453] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 09:21:11,453] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,454] [plex_meta_manager.py:596]  [INFO]     |================================= Running The Conjuring Collection =================================|
+[2022-11-17 09:21:11,454] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,455] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 09:21:11,455] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:11,456] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 313086                                                                   |
+[2022-11-17 09:21:11,457] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,467] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (313086) The Conjuring Collection (3 Items)                            |
+[2022-11-17 09:21:11,467] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:11,468] [builder.py:1575]           [DEBUG]    | 3 IDs Found                                                                                        |
+[2022-11-17 09:21:11,469] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 09:21:11,469] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,469] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Christmas Movies ===========================|
+[2022-11-17 09:21:11,470] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,507] [builder.py:2321]           [INFO]     | The Conjuring Collection | ? | The Conjuring (2013) (TMDb: 138843)                                 |
+[2022-11-17 09:21:11,511] [builder.py:2321]           [INFO]     | The Conjuring Collection | ? | The Conjuring 2 (2016) (TMDb: 259693)                               |
+[2022-11-17 09:21:11,523] [builder.py:2321]           [INFO]     | The Conjuring Collection | ? | The Conjuring: The Devil Made Me Do It (2021) (TMDb: 423108)        |
+[2022-11-17 09:21:11,524] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 09:21:11,524] [builder.py:2327]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-11-17 09:21:13,744] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 09:21:13,744] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for The Conjuring Collection                                         |
+[2022-11-17 09:21:13,744] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 09:21:13,745] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 09:21:13,745] [plex_meta_manager.py:737]  [INFO]     |                                 Finished The Conjuring Collection                                  |
+[2022-11-17 09:21:13,745] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-17 09:21:13,745] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

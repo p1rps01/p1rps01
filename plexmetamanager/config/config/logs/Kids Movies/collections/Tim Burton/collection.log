@@ -1,0 +1,104 @@
+[2022-11-16 20:24:49,117] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:49,117] [builder.py:193]            [INFO]     |                                Tim Burton Collection in Kids Movies                                |
+[2022-11-16 20:24:49,117] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:49,117] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,118] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:24:49,118] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,118] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:24:49,118] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,119] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,119] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:24:49,119] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,120] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 510, 'sort_title': '++_Tim Burton', 'collection_order': 'release'} |
+[2022-11-16 20:24:49,120] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,120] [builder.py:223]            [INFO]     |================================= Validating Tim Burton Attributes =================================|
+[2022-11-16 20:24:49,120] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,120] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:24:49,120] [builder.py:533]            [DEBUG]    | Value: 510                                                                                         |
+[2022-11-16 20:24:49,135] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,136] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:24:49,136] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:24:49,136] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,136] [builder.py:650]            [DEBUG]    | Validating Method: writer                                                                          |
+[2022-11-16 20:24:49,136] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:24:49,229] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,229] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 20:24:49,229] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:24:49,283] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,283] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:24:49,283] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:24:49,940] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,941] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:24:49,941] [builder.py:651]            [DEBUG]    | Value: ++_Tim Burton                                                                               |
+[2022-11-16 20:24:49,947] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,947] [builder.py:796]            [ERROR]    | Collection Error: Converting Tim Burton to a normal collection                                     |
+[2022-11-16 20:24:49,953] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,953] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:596]  [INFO]     |================================== Running Tim Burton Collection ===================================|
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:49,953] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Writer is Tim Burton", '?type=1&sort=titleSort&push=1&writer=13500&pop=1') |
+[2022-11-16 20:24:49,954] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,954] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is Tim Burton
+[2022-11-16 20:24:49,960] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:24:49,960] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 20:24:49,960] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:24:49,960] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 20:24:49,961] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Tim Burton", '?type=1&sort=titleSort&push=1&director=17673&pop=1')
+[2022-11-16 20:24:49,961] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 20:24:49,961] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Tim Burton
+[2022-11-16 20:24:49,976] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:24:49,977] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-16 20:24:49,977] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:24:49,977] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 20:24:49,977] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Tim Burton", '?type=1&sort=titleSort&push=1&actor=13513&pop=1')
+[2022-11-16 20:24:49,977] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 20:24:49,977] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Tim Burton
+[2022-11-16 20:24:49,986] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:24:49,986] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:24:49,986] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:24:49,986] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:24:49,986] [builder.py:2159]           [INFO]     |================================= Adding to Tim Burton Collection ==================================|
+[2022-11-16 20:24:49,986] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:49,986] [builder.py:2174]           [INFO]     | 1/7 | Tim Burton Collection | + | Frankenweenie (2012)                                             |
+[2022-11-16 20:24:51,922] [builder.py:2174]           [INFO]     | 2/7 | Tim Burton Collection | + | Alice in Wonderland (2010)                                       |
+[2022-11-16 20:24:52,029] [builder.py:2174]           [INFO]     | 3/7 | Tim Burton Collection | + | Charlie and the Chocolate Factory (2005)                         |
+[2022-11-16 20:24:52,137] [builder.py:2174]           [INFO]     | 4/7 | Tim Burton Collection | + | Dumbo (2019)                                                     |
+[2022-11-16 20:24:52,275] [builder.py:2174]           [INFO]     | 5/7 | Tim Burton Collection | + | Miss Peregrine's Home for Peculiar Children (2016)               |
+[2022-11-16 20:24:52,378] [builder.py:2174]           [INFO]     | 6/7 | Tim Burton Collection | + | Pee-wee's Big Adventure (1985)                                   |
+[2022-11-16 20:24:54,472] [builder.py:2174]           [INFO]     | 7/7 | Tim Burton Collection | + | The Muppet Movie (1979)                                          |
+[2022-11-16 20:24:57,086] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:57,086] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 20:24:57,092] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:57,092] [builder.py:2528]           [INFO]     |============================ Updating Details of Tim Burton Collection =============================|
+[2022-11-16 20:24:57,092] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:57,098] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Timothy Walter Burton (born August 25, 1958) is an American filmmaker, artist, writer, and animator. He is known for his dark, gothic, and eccentric horror and fantasy films such as Beetlejuice (1988), Edward Scissorhands (1990), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007), Dark Shadows (2012), and Frankenweenie (2012). He is also known for blockbusters such as the adventure comedy Pee-wee's Big Adventure (1985), the superhero films Batman (1989) and its first sequel Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy film Alice in Wonderland (2010).
+                                                                 | 
+                                                                 | Burton has often worked with Johnny Depp and Danny Elfman, who has composed scores for all but three of the films Burton has directed. Helena Bonham Carter, Burton's former domestic partner, has appeared in many of his films
+                                                                 | Sort Title | ++_Tim Burton
+                                                                 | Label | +PMM
+[2022-11-16 20:24:58,599] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:24:58,599] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:24:58,601] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:24:58,601] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/oWZDgLRr4zgRiJEsOAtgntPd5bI.jpg
+[2022-11-16 20:24:58,759] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/oWZDgLRr4zgRiJEsOAtgntPd5bI.jpg
+[2022-11-16 20:24:58,823] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:24:58,823] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:24:58,823] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Tim Burton Collection                                   |
+[2022-11-16 20:24:58,824] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-11-16 20:24:58,824] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

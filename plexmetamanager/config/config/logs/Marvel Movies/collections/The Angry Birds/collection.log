@@ -1,0 +1,61 @@
+[2022-11-17 00:27:23,629] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:27:23,629] [builder.py:193]            [INFO]     |                            The Angry Birds Collection in Marvel Movies                             |
+[2022-11-17 00:27:23,629] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:27:23,629] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:27:23,629] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:27:23,629] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,630] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-17 00:27:23,630] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,632] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,632] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:27:23,632] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,633] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 531315, 'tmdb_summary': 531315, 'url_poster': 'https://theposterdb.com/api/assets/20474', 'sort_title': '+4_The Angry Birds', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-17 00:27:23,633] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,633] [builder.py:223]            [INFO]     |============================== Validating The Angry Birds Attributes ===============================|
+[2022-11-17 00:27:23,633] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,633] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:27:23,633] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:27:23,633] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,633] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:27:23,634] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 00:27:23,634] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,634] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-17 00:27:23,634] [builder.py:651]            [DEBUG]    | Value: 531315                                                                                      |
+[2022-11-17 00:27:23,642] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,642] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-17 00:27:23,642] [builder.py:651]            [DEBUG]    | Value: 531315                                                                                      |
+[2022-11-17 00:27:23,652] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:23,652] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 00:27:23,652] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/20474                                                    |
+[2022-11-17 00:27:24,237] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:24,237] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:27:24,237] [builder.py:651]            [DEBUG]    | Value: +4_The Angry Birds                                                                          |
+[2022-11-17 00:27:24,243] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:24,243] [plex.py:838]               [DEBUG]    | Looking for: The Angry Birds                                                                       |
+[2022-11-17 00:27:24,243] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,243] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:596]  [INFO]     |================================ Running The Angry Birds Collection ================================|
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 531315                                                                   |
+[2022-11-17 00:27:24,244] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,254] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (531315) The Angry Birds Collection (2 Items)                          |
+[2022-11-17 00:27:24,254] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:24,254] [builder.py:1575]           [DEBUG]    | 2 IDs Found                                                                                        |
+[2022-11-17 00:27:24,254] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:27:24,254] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,254] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:27:24,255] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,275] [builder.py:2321]           [INFO]     | The Angry Birds Collection | ? | The Angry Birds Movie (2016) (TMDb: 153518)                       |
+[2022-11-17 00:27:24,286] [builder.py:2321]           [INFO]     | The Angry Birds Collection | ? | The Angry Birds Movie 2 (2019) (TMDb: 454640)                     |
+[2022-11-17 00:27:24,286] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:27:24,286] [builder.py:2327]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for The Angry Birds Collection                                       |
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:737]  [INFO]     |                                Finished The Angry Birds Collection                                 |
+[2022-11-17 00:27:26,597] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 00:27:26,598] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

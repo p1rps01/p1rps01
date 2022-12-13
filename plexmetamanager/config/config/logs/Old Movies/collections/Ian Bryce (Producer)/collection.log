@@ -1,0 +1,79 @@
+[2022-11-16 22:35:39,678] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:35:39,678] [builder.py:193]            [INFO]     |                           Ian Bryce (Producer) Collection in Old Movies                            |
+[2022-11-16 22:35:39,679] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:35:39,679] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:35:39,679] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:35:39,679] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,679] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 22:35:39,680] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,686] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:35:39,686] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,689] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:35:39,690] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,703] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,703] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:35:39,703] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,703] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Ian Bryce'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}, 'summary': 'Movies produced by Ian Bryce.', 'name': 'Ian Bryce (Producer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!19_Ian Bryce (Producer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ian%20Bryce.jpg'} |
+[2022-11-16 22:35:39,704] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,704] [builder.py:223]            [INFO]     |============================ Validating Ian Bryce (Producer) Attributes ============================|
+[2022-11-16 22:35:39,704] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,704] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:35:39,704] [builder.py:230]            [DEBUG]    | Value: Ian Bryce (Producer)                                                                        |
+[2022-11-16 22:35:39,705] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,705] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:35:39,705] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:35:39,705] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,705] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:35:39,705] [builder.py:533]            [DEBUG]    | Value: ['Ian Bryce']                                                                               |
+[2022-11-16 22:35:39,776] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 22:35:39,776] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 22:35:39,776] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}                                       |
+[2022-11-16 22:35:39,821] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&producer=47303&pop=1                                      |
+[2022-11-16 22:35:39,821] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,822] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:35:39,822] [builder.py:651]            [DEBUG]    | Value: Top Producers                                                                               |
+[2022-11-16 22:35:39,822] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,822] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:35:39,822] [builder.py:651]            [DEBUG]    | Value: Movies produced by Ian Bryce.                                                               |
+[2022-11-16 22:35:39,822] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,822] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:35:39,822] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:35:39,822] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,822] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:35:39,823] [builder.py:651]            [DEBUG]    | Value: !19_Ian Bryce (Producer)                                                                    |
+[2022-11-16 22:35:39,823] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:39,823] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:35:39,823] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ian%20Bryce.jpg |
+[2022-11-16 22:35:40,111] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:35:40,112] [plex.py:838]               [DEBUG]    | Looking for: Ian Bryce (Producer)                                                                  |
+[2022-11-16 22:35:40,112] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:35:40,112] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:35:40,112] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:35:40,113] [plex_meta_manager.py:596]  [INFO]     |============================= Running Ian Bryce (Producer) Collection ==============================|
+[2022-11-16 22:35:40,113] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 22:35:40,113] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Producer is Ian Bryce
+[2022-11-16 22:35:40,157] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&producer=47303&pop=1
+[2022-11-16 22:35:40,165] [builder.py:2527]           [INFO]     | 
+[2022-11-16 22:35:40,165] [builder.py:2528]           [INFO]     |======================= Updating Details of Ian Bryce (Producer) Collection ========================|
+[2022-11-16 22:35:40,166] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:35:40,207] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies produced by Ian Bryce.
+                                                                 | Sort Title | !19_Ian Bryce (Producer)
+                                                                 | Label | +Top Producers, +PMM
+[2022-11-16 22:35:42,158] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:35:42,158] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:35:43,835] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:35:43,850] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Ian Bryce (Producer)
+[2022-11-16 22:35:43,850] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-16 22:35:43,850] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/hl20H0bnnBr8MG1ea52RqWBH6Iu.jpg
+[2022-11-16 22:35:43,850] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ian%20Bryce.jpg
+[2022-11-16 22:35:44,139] [library.py:178]            [INFO]     | Detail: asset_directory updated Ian Bryce (Producer)'s poster to [File] config/Old_Movies/Assets/Ian Bryce (Producer)/poster.jpg
+[2022-11-16 22:35:44,192] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:35:44,192] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:35:44,192] [plex_meta_manager.py:737]  [INFO]     |                              Finished Ian Bryce (Producer) Collection                              |
+[2022-11-16 22:35:44,192] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 22:35:44,192] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

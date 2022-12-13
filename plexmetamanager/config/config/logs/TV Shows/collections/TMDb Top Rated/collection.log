@@ -1,0 +1,296 @@
+[2022-11-25 15:53:41,856] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:53:41,856] [builder.py:193]            [INFO]     |                               TMDb Top Rated Collection in TV Shows                                |
+[2022-11-25 15:53:41,857] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:53:41,857] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:53:41,857] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:53:41,857] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,857] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 15:53:41,857] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,857] [meta.py:210]               [DEBUG]    |========================================== Template tmdb ===========================================|
+[2022-11-25 15:53:41,858] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,860] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:53:41,861] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,876] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 15:53:41,877] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,885] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 15:53:41,886] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,891] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:53:41,892] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,895] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,895] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:53:41,895] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,896] [meta.py:515]               [DEBUG]    | {'tmdb_top_rated': 100, 'ignore_blank_results': True, 'sort_title': '!01_TMDb Top Rated', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of the top rated shows according to TMDb.', 'name': 'TMDb Top Rated'} |
+[2022-11-25 15:53:41,896] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,896] [builder.py:223]            [INFO]     |=============================== Validating TMDb Top Rated Attributes ===============================|
+[2022-11-25 15:53:41,896] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,896] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:53:41,896] [builder.py:230]            [DEBUG]    | Value: TMDb Top Rated                                                                              |
+[2022-11-25 15:53:41,896] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,896] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:53:41,896] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:53:41,896] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,896] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:53:41,897] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:53:41,897] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,897] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 15:53:41,897] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 15:53:41,897] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,897] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_top_rated                                                                  |
+[2022-11-25 15:53:41,897] [builder.py:651]            [DEBUG]    | Value: 100                                                                                         |
+[2022-11-25 15:53:41,897] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,897] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:53:41,897] [builder.py:651]            [DEBUG]    | Value: !01_TMDb Top Rated                                                                          |
+[2022-11-25 15:53:41,897] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:41,898] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:53:41,898] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg |
+[2022-11-25 15:53:42,025] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:42,026] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 15:53:42,026] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 15:53:42,026] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:42,026] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:53:42,026] [builder.py:651]            [DEBUG]    | Value: A collection of the top rated shows according to TMDb.                                      |
+[2022-11-25 15:53:42,056] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,056] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:53:42,056] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,056] [plex_meta_manager.py:596]  [INFO]     |================================ Running TMDb Top Rated Collection =================================|
+[2022-11-25 15:53:42,057] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,057] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 15:53:42,057] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:42,057] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_top_rated: 100                                                                       |
+[2022-11-25 15:53:42,057] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,058] [builder.py:1523]           [INFO]     | Builder: tmdb_top_rated loaded from Cache                                                          |
+[2022-11-25 15:53:42,063] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:42,067] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-25 15:53:42,067] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:42,158] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,158] [builder.py:2159]           [INFO]     |=============================== Adding to TMDb Top Rated Collection ================================|
+[2022-11-25 15:53:42,158] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,159] [builder.py:2174]           [INFO]     | 1/3 | TMDb Top Rated Collection | = | Dickinson                                                    |
+[2022-11-25 15:53:42,159] [builder.py:2174]           [INFO]     | 2/3 | TMDb Top Rated Collection | = | The Umbrella Academy                                         |
+[2022-11-25 15:53:42,159] [builder.py:2174]           [INFO]     | 3/3 | TMDb Top Rated Collection | = | Stranger Things                                              |
+[2022-11-25 15:53:42,159] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,159] [builder.py:2196]           [INFO]     | 3 Shows Processed 0 Shows Added                                                                    |
+[2022-11-25 15:53:42,159] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,160] [builder.py:2353]           [INFO]     |============================ Missing Shows from Library: TMDb Top Rated ============================|
+[2022-11-25 15:53:42,160] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:42,189] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The D'Amelio Show (TVDb: 407311)                                   |
+[2022-11-25 15:53:42,360] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Wednesday (TVDb: 397060)                                           |
+[2022-11-25 15:53:42,396] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Breaking Bad (TVDb: 81189)                                         |
+[2022-11-25 15:53:42,422] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Arcane (TVDb: 371028)                                              |
+[2022-11-25 15:53:42,500] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Rick and Morty (TVDb: 275274)                                      |
+[2022-11-25 15:53:42,525] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Kardashians (TVDb: 414093)                                     |
+[2022-11-25 15:53:42,572] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | My Hero Academia (TVDb: 305074)                                    |
+[2022-11-25 15:53:42,603] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | O11CE (TVDb: 323858)                                               |
+[2022-11-25 15:53:42,646] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Fullmetal Alchemist: Brotherhood (TVDb: 85249)                     |
+[2022-11-25 15:53:42,695] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Demon Slayer: Kimetsu no Yaiba (TVDb: 348545)                      |
+[2022-11-25 15:53:42,728] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Alchemy of Souls (TVDb: 401475)                                    |
+[2022-11-25 15:53:42,755] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Anne with an E (TVDb: 322971)                                      |
+[2022-11-25 15:53:42,800] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Weightlifting Fairy Kim Bok-Joo (TVDb: 315328)                     |
+[2022-11-25 15:53:42,858] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | One Piece (TVDb: 81797)                                            |
+[2022-11-25 15:53:43,072] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Big Time Rush (TVDb: 142831)                                       |
+[2022-11-25 15:53:43,105] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | DARLING in the FRANXX (TVDb: 337017)                               |
+[2022-11-25 15:53:43,192] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Sendokai Champions (TVDb: 269179)                                  |
+[2022-11-25 15:53:43,215] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Hitoribocchi no Marumaruseikatsu (TVDb: 358411)                    |
+[2022-11-25 15:53:43,243] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Invincible (2021) (TVDb: 368207)                                   |
+[2022-11-25 15:53:43,389] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | I am Not an Animal (TVDb: 74117)                                   |
+[2022-11-25 15:53:43,424] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Owl House (TVDb: 349578)                                       |
+[2022-11-25 15:53:43,459] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Goblin (TVDb: 317220)                                              |
+[2022-11-25 15:53:43,518] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Kaguya-sama: Love Is War (TVDb: 354198)                            |
+[2022-11-25 15:53:43,545] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Moon Lovers: Scarlet Heart Ryeo (TVDb: 311297)                     |
+[2022-11-25 15:53:43,581] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Regular Show (TVDb: 188401)                                        |
+[2022-11-25 15:53:43,620] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | KonoSuba – God's blessing on this wonderful world!! (TVDb: 303867) |
+[2022-11-25 15:53:43,650] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Primal (TVDb: 364007)                                              |
+[2022-11-25 15:53:43,686] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Asobi Asobase - workshop of fun - (TVDb: 346798)                   |
+[2022-11-25 15:53:43,723] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | High School D×D (TVDb: 254653)                                     |
+[2022-11-25 15:53:43,746] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Golden Time (TVDb: 272138)                                         |
+[2022-11-25 15:53:43,779] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Slam Dunk (TVDb: 72491)                                            |
+[2022-11-25 15:53:43,806] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Metal Family (TVDb: 384291)                                        |
+[2022-11-25 15:53:43,829] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Toilet-Bound Hanako-kun (TVDb: 368364)                             |
+[2022-11-25 15:53:43,879] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Rascal Does Not Dream of Bunny Girl Senpai (TVDb: 345596)          |
+[2022-11-25 15:53:43,904] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | SPY x FAMILY (TVDb: 405920)                                        |
+[2022-11-25 15:53:43,942] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Run BTS! (TVDb: 325091)                                            |
+[2022-11-25 15:53:43,964] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Villainous (TVDb: 333696)                                          |
+[2022-11-25 15:53:44,005] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Scissor Seven (TVDb: 358612)                                       |
+[2022-11-25 15:53:44,143] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Haikyu!! (TVDb: 278157)                                            |
+[2022-11-25 15:53:44,184] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Hajime no Ippo (TVDb: 79685)                                       |
+[2022-11-25 15:53:44,210] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Hotel Del Luna (TVDb: 361412)                                      |
+[2022-11-25 15:53:44,242] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Maid Sama! (TVDb: 148151)                                          |
+[2022-11-25 15:53:44,269] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | My Dress-Up Darling (TVDb: 401233)                                 |
+[2022-11-25 15:53:44,317] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Vincenzo (TVDb: 391784)                                            |
+[2022-11-25 15:53:44,350] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Dr. Stone (TVDb: 355774)                                           |
+[2022-11-25 15:53:44,377] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Real Girl (TVDb: 342010)                                           |
+[2022-11-25 15:53:44,463] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | That Time I Got Reincarnated as a Slime (TVDb: 352408)             |
+[2022-11-25 15:53:44,514] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | JoJo's Bizarre Adventure (2012) (TVDb: 262954)                     |
+[2022-11-25 15:53:44,538] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Young Royals (TVDb: 399833)                                        |
+[2022-11-25 15:53:44,569] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Hunter x Hunter (2011) (TVDb: 252322)                              |
+[2022-11-25 15:53:44,593] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Cyberpunk: Edgerunners (TVDb: 384541)                              |
+[2022-11-25 15:53:44,635] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Promised Neverland (TVDb: 348002)                              |
+[2022-11-25 15:53:44,659] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | School-Live! (TVDb: 283946)                                        |
+[2022-11-25 15:53:44,686] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Love, Victor (TVDb: 368188)                                        |
+[2022-11-25 15:53:44,731] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Avatar: The Last Airbender (TVDb: 74852)                           |
+[2022-11-25 15:53:44,756] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | She-Ra and the Princesses of Power (TVDb: 350399)                  |
+[2022-11-25 15:53:44,792] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Mr. Queen (TVDb: 391392)                                           |
+[2022-11-25 15:53:44,823] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Yuri!!! on Ice (TVDb: 317004)                                      |
+[2022-11-25 15:53:44,857] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Kamisama Kiss (TVDb: 262106)                                       |
+[2022-11-25 15:53:44,891] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Erased (TVDb: 303071)                                              |
+[2022-11-25 15:53:44,922] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Ranma ½ (TVDb: 76932)                                              |
+[2022-11-25 15:53:44,958] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | When Calls the Heart (TVDb: 275517)                                |
+[2022-11-25 15:53:44,987] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | My Love Story!! (TVDb: 289905)                                     |
+[2022-11-25 15:53:45,025] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Crash Landing on You (TVDb: 368385)                                |
+[2022-11-25 15:53:45,053] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Beastars (TVDb: 361013)                                            |
+[2022-11-25 15:53:45,091] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Ancient Magus' Bride (TVDb: 316842)                            |
+[2022-11-25 15:53:45,113] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Banana Fish (TVDb: 343384)                                         |
+[2022-11-25 15:53:45,158] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | SK8 the Infinity (TVDb: 388858)                                    |
+[2022-11-25 15:53:45,182] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Classroom of the Elite (TVDb: 329822)                              |
+[2022-11-25 15:53:45,219] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Your Lie in April (TVDb: 279830)                                   |
+[2022-11-25 15:53:45,256] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Death Note (TVDb: 79481)                                           |
+[2022-11-25 15:53:45,293] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Boris (TVDb: 82276)                                                |
+[2022-11-25 15:53:45,511] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Generator Rex (TVDb: 158551)                                       |
+[2022-11-25 15:53:45,548] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Spectacular Spider-Man (TVDb: 81494)                           |
+[2022-11-25 15:53:45,572] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Merlí (TVDb: 300428)                                               |
+[2022-11-25 15:53:45,611] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Helluva Boss (TVDb: 391246)                                        |
+[2022-11-25 15:53:45,650] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Sym-Bionic Titan (TVDb: 190511)                                    |
+[2022-11-25 15:53:45,681] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Dororo (2019) (TVDb: 354167)                                       |
+[2022-11-25 15:53:45,840] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Attack on Titan (TVDb: 267440)                                     |
+[2022-11-25 15:53:45,855] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Horimiya (TVDb: 388593)                                            |
+[2022-11-25 15:53:45,893] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Penthouse (TVDb: 383800)                                       |
+[2022-11-25 15:53:45,922] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | The Rising of the Shield Hero (TVDb: 353712)                       |
+[2022-11-25 15:53:45,995] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Violet Evergarden (TVDb: 330139)                                   |
+[2022-11-25 15:53:46,022] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Kiss Him, Not Me (TVDb: 316814)                                    |
+[2022-11-25 15:53:46,047] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Zoids: Chaotic Century (TVDb: 73315)                               |
+[2022-11-25 15:53:46,070] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Neon Genesis Evangelion (TVDb: 70350)                              |
+[2022-11-25 15:53:46,142] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Mushoku Tensei: Jobless Reincarnation (TVDb: 371310)               |
+[2022-11-25 15:53:46,269] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Superbook (2011) (TVDb: 347233)                                    |
+[2022-11-25 15:53:46,303] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Kimi ni Todoke: From Me To You (TVDb: 117801)                      |
+[2022-11-25 15:53:46,343] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Rent-a-Girlfriend (TVDb: 380654)                                   |
+[2022-11-25 15:53:46,381] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Seton Academy: Join the Pack! (TVDb: 373680)                       |
+[2022-11-25 15:53:46,404] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Power Book II: Ghost (TVDb: 376837)                                |
+[2022-11-25 15:53:46,447] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Yu Yu Hakusho (TVDb: 76665)                                        |
+[2022-11-25 15:53:46,489] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | To LOVE-Ru (TVDb: 81831)                                           |
+[2022-11-25 15:53:46,524] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Cardcaptor Sakura (TVDb: 70668)                                    |
+[2022-11-25 15:53:46,561] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | We Never Learn: BOKUBEN (TVDb: 359095)                             |
+[2022-11-25 15:53:46,585] [builder.py:2366]           [INFO]     | TMDb Top Rated Collection | ? | Magi: The Labyrinth of Magic (TVDb: 262094)                        |
+[2022-11-25 15:53:46,585] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:53:46,585] [builder.py:2372]           [INFO]     | 97 Shows Missing                                                                                   |
+[2022-11-25 15:53:47,586] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:53:47,586] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:53:47,587] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:53:47,587] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [407311, 397060, 81189, 371028, 275274, 414093, 305074, 323858, 85249, 348545, 401475, 322971, 315328, 81797, 142831, 337017, 269179, 358411, 368207, 74117, 349578, 317220, 354198, 311297, 188401, 303867, 364007, 346798, 254653, 272138, 72491, 384291, 368364, 345596, 405920, 325091, 333696, 358612, 278157, 79685, 361412, 148151, 401233, 391784, 355774, 342010, 352408, 262954, 399833, 252322, 384541, 348002, 283946, 368188, 74852, 350399, 391392, 317004, 262106, 303071, 76932, 275517, 289905, 368385, 361013, 316842, 343384, 388858, 329822, 279830, 79481, 82276, 158551, 81494, 300428, 391246, 190511, 354167, 267440, 388593, 383800, 353712, 330139, 316814, 73315, 70350, 371310, 347233, 117801, 380654, 373680, 376837, 76665, 81831, 70668, 359095, 262094] |
+[2022-11-25 15:54:14,526] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,526] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 407311                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397060                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81189                                                                          |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371028                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414093                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 305074                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 323858                                                                         |
+[2022-11-25 15:54:14,527] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348545                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401475                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 315328                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81797                                                                          |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 142831                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 337017                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269179                                                                         |
+[2022-11-25 15:54:14,528] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 358411                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368207                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74117                                                                          |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349578                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317220                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354198                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 311297                                                                         |
+[2022-11-25 15:54:14,529] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 188401                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303867                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364007                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 346798                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254653                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 272138                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72491                                                                          |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384291                                                                         |
+[2022-11-25 15:54:14,530] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368364                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 345596                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405920                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 325091                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 333696                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 358612                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278157                                                                         |
+[2022-11-25 15:54:14,531] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79685                                                                          |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361412                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 148151                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401233                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391784                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355774                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342010                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352408                                                                         |
+[2022-11-25 15:54:14,532] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262954                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 399833                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252322                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384541                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348002                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283946                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368188                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74852                                                                          |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350399                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391392                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317004                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262106                                                                         |
+[2022-11-25 15:54:14,533] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303071                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76932                                                                          |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 275517                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289905                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368385                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361013                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316842                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343384                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388858                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 329822                                                                         |
+[2022-11-25 15:54:14,534] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 279830                                                                         |
+[2022-11-25 15:54:14,535] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79481                                                                          |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82276                                                                          |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 158551                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81494                                                                          |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 300428                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391246                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 190511                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354167                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 267440                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388593                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383800                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 353712                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330139                                                                         |
+[2022-11-25 15:54:14,536] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316814                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73315                                                                          |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70350                                                                          |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371310                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347233                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 117801                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380654                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 373680                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376837                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76665                                                                          |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81831                                                                          |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70668                                                                          |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359095                                                                         |
+[2022-11-25 15:54:14,537] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262094                                                                         |
+[2022-11-25 15:54:14,538] [sonarr.py:187]             [INFO]     | 94 Series already exist in Sonarr                                                                  |
+[2022-11-25 15:54:14,538] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,538] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Rick and Morty]                                                                 |
+[2022-11-25 15:54:14,538] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,538] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Fullmetal Alchemist: Brotherhood]                                               |
+[2022-11-25 15:54:14,538] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,538] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Anne with an E]                                                                 |
+[2022-11-25 15:54:14,538] [sonarr.py:207]             [INFO]     | 3 Series with Invalid IDs                                                                          |
+[2022-11-25 15:54:14,593] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,593] [builder.py:2528]           [INFO]     |========================== Updating Details of TMDb Top Rated Collection ===========================|
+[2022-11-25 15:54:14,594] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,602] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:54:14,602] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 15:54:14,603] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Top%20Rated.jpg |
+[2022-11-25 15:54:14,604] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:54:14,643] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,643] [builder.py:2687]           [INFO]     |================================ Sorting TMDb Top Rated Collection =================================|
+[2022-11-25 15:54:14,643] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,643] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:54:14,644] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:54:14,644] [plex_meta_manager.py:737]  [INFO]     |                                 Finished TMDb Top Rated Collection                                 |
+[2022-11-25 15:54:14,644] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:32                                    |
+[2022-11-25 15:54:14,644] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

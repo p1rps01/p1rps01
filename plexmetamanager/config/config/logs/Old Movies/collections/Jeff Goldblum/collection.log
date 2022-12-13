@@ -1,0 +1,80 @@
+[2022-11-16 22:06:03,186] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:03,186] [builder.py:193]            [INFO]     |                               Jeff Goldblum Collection in Old Movies                               |
+[2022-11-16 22:06:03,186] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:03,186] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,186] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:06:03,187] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,187] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:06:03,187] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,188] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,189] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:06:03,189] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,189] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 4785, 'sort_title': '++_Jeff Goldblum', 'collection_order': 'release'} |
+[2022-11-16 22:06:03,189] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,189] [builder.py:223]            [INFO]     |=============================== Validating Jeff Goldblum Attributes ================================|
+[2022-11-16 22:06:03,189] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,189] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:06:03,189] [builder.py:533]            [DEBUG]    | Value: 4785                                                                                        |
+[2022-11-16 22:06:03,211] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,211] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:06:03,211] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:06:03,211] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,211] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:06:03,211] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:06:03,481] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,481] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:06:03,482] [builder.py:651]            [DEBUG]    | Value: ++_Jeff Goldblum                                                                            |
+[2022-11-16 22:06:03,488] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,488] [builder.py:796]            [ERROR]    | Collection Error: Converting Jeff Goldblum to a normal collection                                  |
+[2022-11-16 22:06:03,496] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,496] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:596]  [INFO]     |================================= Running Jeff Goldblum Collection =================================|
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jeff Goldblum", '?type=1&sort=titleSort&push=1&actor=21422&pop=1') |
+[2022-11-16 22:06:03,497] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,497] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jeff Goldblum
+[2022-11-16 22:06:03,521] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:06:03,522] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-16 22:06:03,522] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:06:03,522] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:06:03,523] [builder.py:2159]           [INFO]     |================================ Adding to Jeff Goldblum Collection ================================|
+[2022-11-16 22:06:03,523] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:03,523] [builder.py:2174]           [INFO]     | 1/7 | Jeff Goldblum Collection | + | The Fly (1986)                                                |
+[2022-11-16 22:06:05,809] [builder.py:2174]           [INFO]     | 2/7 | Jeff Goldblum Collection | + | Independence Day (1996)                                       |
+[2022-11-16 22:06:07,944] [builder.py:2174]           [INFO]     | 3/7 | Jeff Goldblum Collection | + | Independence Day: Resurgence (2016)                           |
+[2022-11-16 22:06:10,001] [builder.py:2174]           [INFO]     | 4/7 | Jeff Goldblum Collection | + | Jurassic Park (1993)                                          |
+[2022-11-16 22:06:12,052] [builder.py:2174]           [INFO]     | 5/7 | Jeff Goldblum Collection | + | Jurassic World: Fallen Kingdom (2018)                         |
+[2022-11-16 22:06:12,171] [builder.py:2174]           [INFO]     | 6/7 | Jeff Goldblum Collection | + | The Lost World: Jurassic Park (1997)                          |
+[2022-11-16 22:06:14,063] [builder.py:2174]           [INFO]     | 7/7 | Jeff Goldblum Collection | + | Thor: Ragnarok (2017)                                         |
+[2022-11-16 22:06:16,585] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:16,585] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 22:06:16,591] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:16,591] [builder.py:2528]           [INFO]     |=========================== Updating Details of Jeff Goldblum Collection ===========================|
+[2022-11-16 22:06:16,591] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:16,598] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Jeffrey Lynn Goldblum (born October 22, 1952) is an American actor and musician. He has starred in some of the highest-grossing films of his era, such as Jurassic Park (1993) and Independence Day (1996), as well as their respective sequels, The Lost World: Jurassic Park (1997) and Jurassic World: Fallen Kingdom (2018), and Independence Day: Resurgence (2016).
+                                                                 | 
+                                                                 | Goldblum also starred in films including Invasion of the Body Snatchers (1978), The Big Chill (1983), and Into the Night (1985), before coming to wider attention as Seth Brundle in The Fly (1986), which earned him a Saturn Award for Best Actor. His other films include The Adventures of Buckaroo Banzai Across the 8th Dimension (1984), The Tall Guy (1989), Deep Cover (1992), Powder (1995), The Prince of Egypt (1998), Cats & Dogs (2001), Igby Goes Down (2002), The Life Aquatic with Steve Zissou (2004), Adam Resurrected (2008), Le Week-End (2013), The Grand Budapest Hotel (2014), and Thor: Ragnarok (2017).
+                                                                 | 
+                                                                 | Goldblum has also starred in several TV series, including the eighth and ninth seasons of Law & Order: Criminal Intent as Zack Nichols. He directed the short film Little Surprises, which was nominated for the Academy Award for Best Live Action Short Film.
+                                                                 | 
+                                                                 | Description above is from the Wikipedia article Jeff Goldblum, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Jeff Goldblum
+                                                                 | Label | +PMM
+[2022-11-16 22:06:18,108] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:06:18,108] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:06:18,109] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:06:18,109] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/g3yaQSRPg9Rk6IvbIizoowmXKHJ.jpg
+[2022-11-16 22:06:18,153] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/g3yaQSRPg9Rk6IvbIizoowmXKHJ.jpg
+[2022-11-16 22:06:18,209] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:06:18,209] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:06:18,209] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Jeff Goldblum Collection                                  |
+[2022-11-16 22:06:18,209] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-11-16 22:06:18,210] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

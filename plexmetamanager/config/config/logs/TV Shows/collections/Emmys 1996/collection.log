@@ -1,0 +1,81 @@
+[2022-11-17 02:23:39,680] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:23:39,681] [builder.py:193]            [INFO]     |                                 Emmys 1996 Collection in TV Shows                                  |
+[2022-11-17 02:23:39,681] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:23:39,682] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:23:39,683] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:23:39,683] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,684] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:23:39,685] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,687] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:23:39,689] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,691] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:23:39,693] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,713] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:23:39,715] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,725] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:23:39,726] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,733] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,733] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:23:39,733] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,734] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1996-01-01,1996-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1996', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1996.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:23:39,734] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,735] [builder.py:223]            [INFO]     |================================= Validating Emmys 1996 Attributes =================================|
+[2022-11-17 02:23:39,735] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,736] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:23:39,737] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:23:39,737] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,738] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:23:39,738] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:23:39,739] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,740] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:23:39,740] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:23:39,741] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,741] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:23:39,742] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:23:39,742] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:39,743] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:23:39,744] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1996-01-01,1996-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:23:40,523] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,525] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:23:40,525] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:23:40,525] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,525] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:23:40,525] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1996                                                                              |
+[2022-11-17 02:23:40,525] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,525] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:23:40,526] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1996.jpg |
+[2022-11-17 02:23:40,654] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,654] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:23:40,655] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:23:40,666] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,668] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1996                                                                            |
+[2022-11-17 02:23:40,669] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:23:40,671] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:23:40,672] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:23:40,672] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1996 Collection ===================================|
+[2022-11-17 02:23:40,672] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:23:40,672] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:23:40,673] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:40,673] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1996-01-01,1996-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:23:40,673] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:23:40,674] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1996-01-01,1996-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:23:43,267] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:43,268] [builder.py:1575]           [DEBUG]    | 43 IDs Found                                                                                       |
+[2022-11-17 02:23:43,268] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:23:43,438] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0115321                                             |
+[2022-11-17 02:23:43,565] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 35813                                                 |
+[2022-11-17 02:23:43,993] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47132                                                 |
+[2022-11-17 02:23:44,034] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0322939                                             |
+[2022-11-17 02:23:44,219] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18888                                                 |
+[2022-11-17 02:23:44,449] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56511                                                 |
+[2022-11-17 02:23:44,472] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0267038                                             |
+[2022-11-17 02:23:44,485] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0117018                                             |
+[2022-11-17 02:23:44,497] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0319678                                             |
+[2022-11-17 02:23:44,640] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56513                                                 |
+[2022-11-17 02:23:44,664] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0123453                                             |
+[2022-11-17 02:23:44,664] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-17 02:23:44,664] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:23:44,664] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:23:44,665] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1996 Collection                                   |
+[2022-11-17 02:23:44,665] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-17 02:23:44,665] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

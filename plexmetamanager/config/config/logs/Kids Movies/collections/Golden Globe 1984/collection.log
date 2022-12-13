@@ -1,0 +1,79 @@
+[2022-11-16 20:31:52,092] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:31:52,092] [builder.py:193]            [INFO]     |                            Golden Globe 1984 Collection in Kids Movies                             |
+[2022-11-16 20:31:52,092] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:31:52,092] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,093] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:31:52,093] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,093] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:31:52,093] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,094] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:31:52,094] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,096] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:31:52,096] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,098] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:31:52,099] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,110] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:31:52,111] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,116] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:31:52,117] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,120] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,120] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:31:52,121] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,121] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1984-01-01,1984-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '1984 Golden Globe Winners.', 'name': 'Golden Globe 1984', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 1984', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1984.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:31:52,121] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,121] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 1984 Attributes ==============================|
+[2022-11-16 20:31:52,121] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,121] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:31:52,121] [builder.py:230]            [DEBUG]    | Value: Golden Globe 1984                                                                           |
+[2022-11-16 20:31:52,121] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,121] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:31:52,121] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:31:52,122] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,122] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:31:52,122] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:31:52,122] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,122] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:31:52,122] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:31:52,122] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,122] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:31:52,122] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 20:31:52,122] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,122] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:31:52,123] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1984-01-01,1984-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 20:31:52,303] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,304] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:31:52,304] [builder.py:651]            [DEBUG]    | Value: 1984 Golden Globe Winners.                                                                  |
+[2022-11-16 20:31:52,304] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,304] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:31:52,305] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:31:52,305] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,305] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:31:52,305] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 1984                                                                       |
+[2022-11-16 20:31:52,305] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,305] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:31:52,305] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1984.jpg |
+[2022-11-16 20:31:52,498] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,498] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:31:52,499] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:31:52,513] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,514] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 1984                                                                     |
+[2022-11-16 20:31:52,514] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,515] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:31:52,515] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,515] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 1984 Collection ===============================|
+[2022-11-16 20:31:52,515] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,516] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:31:52,516] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,516] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1984-01-01,1984-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:31:52,516] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,519] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:31:52,529] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,530] [builder.py:1575]           [DEBUG]    | 16 IDs Found                                                                                       |
+[2022-11-16 20:31:52,531] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:31:52,576] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 21986                                                 |
+[2022-11-16 20:31:52,576] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-16 20:31:52,577] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:31:52,577] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:31:52,577] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 1984 Collection                                |
+[2022-11-16 20:31:52,577] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 20:31:52,577] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

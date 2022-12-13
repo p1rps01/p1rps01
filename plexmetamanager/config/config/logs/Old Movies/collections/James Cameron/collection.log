@@ -1,0 +1,86 @@
+[2022-11-16 22:05:33,955] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:33,955] [builder.py:193]            [INFO]     |                               James Cameron Collection in Old Movies                               |
+[2022-11-16 22:05:33,955] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:33,955] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:33,956] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:05:33,956] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,956] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:05:33,956] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,959] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,959] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:05:33,960] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,960] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2710, 'sort_title': '++_James Cameron', 'collection_order': 'release'} |
+[2022-11-16 22:05:33,960] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,960] [builder.py:223]            [INFO]     |=============================== Validating James Cameron Attributes ================================|
+[2022-11-16 22:05:33,960] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,960] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:05:33,960] [builder.py:533]            [DEBUG]    | Value: 2710                                                                                        |
+[2022-11-16 22:05:33,973] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,973] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:05:33,974] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:05:33,974] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:33,974] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 22:05:33,974] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:34,045] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:34,046] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:05:34,046] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:34,571] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:34,571] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:05:34,571] [builder.py:651]            [DEBUG]    | Value: ++_James Cameron                                                                            |
+[2022-11-16 22:05:34,578] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,579] [builder.py:796]            [ERROR]    | Collection Error: Converting James Cameron to a normal collection                                  |
+[2022-11-16 22:05:34,586] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,586] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:05:34,586] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,586] [plex_meta_manager.py:596]  [INFO]     |================================= Running James Cameron Collection =================================|
+[2022-11-16 22:05:34,586] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,586] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:05:34,587] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:34,587] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is James Cameron", '?type=1&sort=titleSort&push=1&director=56669&pop=1') |
+[2022-11-16 22:05:34,587] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,587] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is James Cameron
+[2022-11-16 22:05:34,608] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:34,608] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 22:05:34,608] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:34,608] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 22:05:34,608] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is James Cameron", '?type=1&sort=titleSort&push=1&actor=64442&pop=1')
+[2022-11-16 22:05:34,609] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 22:05:34,609] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is James Cameron
+[2022-11-16 22:05:34,616] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:34,617] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 22:05:34,617] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:34,617] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:05:34,618] [builder.py:2159]           [INFO]     |================================ Adding to James Cameron Collection ================================|
+[2022-11-16 22:05:34,618] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:34,618] [builder.py:2174]           [INFO]     | 1/5 | James Cameron Collection | + | Aliens (1986)                                                 |
+[2022-11-16 22:05:36,605] [builder.py:2174]           [INFO]     | 2/5 | James Cameron Collection | + | Avatar (2009)                                                 |
+[2022-11-16 22:05:38,574] [builder.py:2174]           [INFO]     | 3/5 | James Cameron Collection | + | The Terminator (1984)                                         |
+[2022-11-16 22:05:38,666] [builder.py:2174]           [INFO]     | 4/5 | James Cameron Collection | + | Terminator 2: Judgment Day (1991)                             |
+[2022-11-16 22:05:38,761] [builder.py:2174]           [INFO]     | 5/5 | James Cameron Collection | + | Titanic (1997)                                                |
+[2022-11-16 22:05:41,155] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:41,155] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 22:05:41,160] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:41,160] [builder.py:2528]           [INFO]     |=========================== Updating Details of James Cameron Collection ===========================|
+[2022-11-16 22:05:41,161] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:41,167] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | James Cameron was born in Kapuskasing, Ontario, Canada, on August 16, 1954. He moved to the USA in 1971. The son of an engineer, he majored in physics at California State University but, after graduating, drove a truck to support his screen-writing ambition. He landed his first professional film job as art director, miniature-set builder, and process-projection supervisor on Roger Corman's Battle Beyond the Stars (1980) and debuted as a director with Piranha Part Two: The Spawning (1981) the following year. In 1984, he wrote and directed The Terminator (1984), a futuristic action-thriller starring Arnold Schwarzenegger, Michael Biehn, and Linda Hamilton. It was a huge success. After this came a string of successful science-fiction action films such as Aliens (1986) and Terminator 2: Judgment Day (1991). Cameron is now one of the most sought-after directors in Hollywood. He was formerly married to producer Gale Anne Hurd, who produced several of his films. He married Kathryn Bigelow in 1989.
+                                                                 | Sort Title | ++_James Cameron
+                                                                 | Label | +PMM
+[2022-11-16 22:05:42,761] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:05:42,761] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:05:42,762] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:05:42,762] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/9NAZnTjBQ9WcXAQEzZpKy4vdQto.jpg
+[2022-11-16 22:05:42,816] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/9NAZnTjBQ9WcXAQEzZpKy4vdQto.jpg
+[2022-11-16 22:05:42,886] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:05:42,886] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:05:42,886] [plex_meta_manager.py:737]  [INFO]     |                                 Finished James Cameron Collection                                  |
+[2022-11-16 22:05:42,886] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-16 22:05:42,886] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

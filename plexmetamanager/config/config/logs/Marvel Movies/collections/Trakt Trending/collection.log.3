@@ -1,0 +1,22 @@
+[2022-11-05 18:14:46,806] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:14:46,807] [builder.py:197]            [INFO]     |                             Trakt Trending Collection in Marvel Movies                             |
+[2022-11-05 18:14:46,807] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:14:46,808] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:14:46,808] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:14:46,809] [builder.py:219]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-11-05 18:14:46,810] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:14:46,811] [builder.py:631]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-11-05 18:14:46,811] [builder.py:632]            [DEBUG]    | Value: 50                                                                                          |
+[2022-11-05 18:14:46,812] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 641, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Trakt to be configured")
+                                                                 | modules.util.Failed: Collection Error: trakt_trending requires Trakt to be configured
+                                                                 | 
+[2022-11-05 18:14:46,819] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: trakt_trending requires Trakt to be configured
+[2022-11-05 18:14:46,820] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:14:46,820] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:14:46,821] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-11-05 18:14:46,821] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 18:14:46,822] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

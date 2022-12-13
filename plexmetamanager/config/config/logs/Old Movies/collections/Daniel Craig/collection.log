@@ -1,0 +1,78 @@
+[2022-11-16 22:01:29,932] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:29,933] [builder.py:193]            [INFO]     |                               Daniel Craig Collection in Old Movies                                |
+[2022-11-16 22:01:29,934] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:29,934] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:29,935] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:01:29,937] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,937] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:01:29,938] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,940] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,941] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:01:29,941] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,942] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 8784, 'sort_title': '++_Daniel Craig', 'collection_order': 'release'} |
+[2022-11-16 22:01:29,942] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,942] [builder.py:223]            [INFO]     |================================ Validating Daniel Craig Attributes ================================|
+[2022-11-16 22:01:29,943] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,943] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:01:29,943] [builder.py:533]            [DEBUG]    | Value: 8784                                                                                        |
+[2022-11-16 22:01:29,959] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,961] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:01:29,961] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:01:29,961] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:29,961] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:01:29,961] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:01:30,410] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:30,411] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:01:30,411] [builder.py:651]            [DEBUG]    | Value: ++_Daniel Craig                                                                             |
+[2022-11-16 22:01:30,419] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,420] [builder.py:796]            [ERROR]    | Collection Error: Converting Daniel Craig to a normal collection                                   |
+[2022-11-16 22:01:30,429] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,430] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:596]  [INFO]     |================================= Running Daniel Craig Collection ==================================|
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Daniel Craig", '?type=1&sort=titleSort&push=1&actor=33787&pop=1') |
+[2022-11-16 22:01:30,430] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,431] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Daniel Craig
+[2022-11-16 22:01:30,505] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:01:30,506] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-16 22:01:30,506] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:01:30,506] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:01:30,507] [builder.py:2159]           [INFO]     |================================ Adding to Daniel Craig Collection =================================|
+[2022-11-16 22:01:30,507] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:30,507] [builder.py:2174]           [INFO]     | 1/7 | Daniel Craig Collection | + | Casino Royale (2006)                                           |
+[2022-11-16 22:01:32,781] [builder.py:2174]           [INFO]     | 2/7 | Daniel Craig Collection | + | Casino Royale (2006)                                           |
+[2022-11-16 22:01:35,953] [builder.py:2174]           [INFO]     | 3/7 | Daniel Craig Collection | + | No Time to Die (2021)                                          |
+[2022-11-16 22:01:36,160] [builder.py:2174]           [INFO]     | 4/7 | Daniel Craig Collection | + | Quantum of Solace (2008)                                       |
+[2022-11-16 22:01:39,966] [builder.py:2174]           [INFO]     | 5/7 | Daniel Craig Collection | + | Skyfall (2012)                                                 |
+[2022-11-16 22:01:42,955] [builder.py:2174]           [INFO]     | 6/7 | Daniel Craig Collection | + | Spectre (2015)                                                 |
+[2022-11-16 22:01:45,334] [builder.py:2174]           [INFO]     | 7/7 | Daniel Craig Collection | + | Star Wars: Episode VII - The Force Awakens (2015)              |
+[2022-11-16 22:01:48,774] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:48,774] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 22:01:48,781] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:48,781] [builder.py:2528]           [INFO]     |=========================== Updating Details of Daniel Craig Collection ============================|
+[2022-11-16 22:01:48,781] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:48,790] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Daniel Wroughton Craig (born 2 March 1968) is a British actor. He gained international fame playing the secret agent James Bond in the eponymous film series, beginning with Casino Royale (2006) and in four further instalments, up to No Time to Die (2021).
+                                                                 | 
+                                                                 | After training at the National Youth Theatre in London and graduating from the Guildhall School of Music and Drama in 1991, Craig began his career on stage. He made his film debut in the drama The Power of One (1992) and the family film A Kid in King Arthur's Court (1995), with his breakthrough role coming in the drama serial Our Friends in the North (1996). He gained roles in the period film Elizabeth (1998), the action film Lara Croft: Tomb Raider (2001), before appearing in the crime thrillers Road to Perdition (2002), Layer Cake (2004), as well as the historical drama film Munich (2005).
+                                                                 | 
+                                                                 | Casino Royale, a reboot of the Bond franchise released in November 2006, was favourably received by critics and earned Craig a nomination for the BAFTA Award for Best Actor in a Leading Role. His non-Bond appearances since then include roles in fantasy film The Golden Compass (2007), the drama Defiance (2008), the science fiction Western Cowboys & Aliens (2011), the mystery thriller The Girl with the Dragon Tattoo (2011), the heist film Logan Lucky (2017), and the mystery comedy Knives Out (2019). The last earned him a Golden Globe Award nomination for Best Actor – Motion Picture Musical or Comedy.
+                                                                 | Sort Title | ++_Daniel Craig
+                                                                 | Label | +PMM
+[2022-11-16 22:01:50,869] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:01:50,870] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:01:50,873] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:01:50,874] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/6j9Hu3gZsMEl6vZHNTko9yqp0Y6.jpg
+[2022-11-16 22:01:50,964] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/6j9Hu3gZsMEl6vZHNTko9yqp0Y6.jpg
+[2022-11-16 22:01:51,091] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:01:51,091] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:01:51,092] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Daniel Craig Collection                                  |
+[2022-11-16 22:01:51,092] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:21                                    |
+[2022-11-16 22:01:51,092] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

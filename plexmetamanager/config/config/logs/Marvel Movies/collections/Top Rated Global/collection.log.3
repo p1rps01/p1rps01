@@ -1,0 +1,73 @@
+[2022-11-05 18:39:00,230] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:39:00,230] [builder.py:197]            [INFO]     |                            Top Rated Global Collection in Marvel Movies                            |
+[2022-11-05 18:39:00,231] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:39:00,231] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:39:00,231] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:39:00,231] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,231] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-11-05 18:39:00,231] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 4)])                                                 |
+[2022-11-05 18:39:00,231] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,232] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 4), ('collection_name', 'Top Rated Global'), ('mapping_name', 'Top Rated Global'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Chart'), ('num_encoded', '4'), ('collection_name_encoded', 'Top%20Rated%20Global'), ('mapping_name_encoded', 'Top%20Rated%20Global'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Top Rated Global')]) |
+[2022-11-05 18:39:00,232] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,232] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 18:39:00,232] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,232] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 18:39:00,233] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,233] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_4Top Rated Global', 'sync_mode': 'sync', 'url_poster': '<<poster>>', 'smart_label': 'random'} |
+[2022-11-05 18:39:00,233] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,233] [builder.py:219]            [INFO]     |============================== Validating Top Rated Global Attributes ==============================|
+[2022-11-05 18:39:00,233] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,233] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 18:39:00,234] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 18:39:00,234] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,234] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-05 18:39:00,234] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-11-05 18:39:00,266] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,266] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-05 18:39:00,266] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/search/title/?groups=top_250&count=250/                                |
+[2022-11-05 18:39:00,549] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,552] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-05 18:39:00,555] [builder.py:632]            [DEBUG]    | Value: Top Rated Movies across the internet                                                        |
+[2022-11-05 18:39:00,556] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,556] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 18:39:00,557] [builder.py:632]            [DEBUG]    | Value: +1_4Top Rated Global                                                                        |
+[2022-11-05 18:39:00,557] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:39:00,558] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 18:39:00,558] [builder.py:632]            [DEBUG]    | Value: <<poster>>                                                                                  |
+[2022-11-05 18:39:50,609] [plex_meta_manager.py:702]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 683, in __init__
+                                                                 |     self._poster(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 823, in _poster
+                                                                 |     image_response = self.config.get(method_data, headers=util.header())
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/config.py", line 975, in get
+                                                                 |     return self.session.get(url, json=json, headers=headers, params=params)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 573, in request
+                                                                 |     prep = self.prepare_request(req)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 484, in prepare_request
+                                                                 |     p.prepare(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 368, in prepare
+                                                                 |     self.prepare_url(url, params)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 439, in prepare_url
+                                                                 |     raise MissingSchema(
+                                                                 | requests.exceptions.MissingSchema: Invalid URL '<<poster>>': No scheme supplied. Perhaps you meant http://<<poster>>?
+                                                                 | 
+[2022-11-05 18:39:50,621] [plex_meta_manager.py:703]  [ERROR]    | Unknown Error: Invalid URL '<<poster>>': No scheme supplied. Perhaps you meant http://<<poster>>?
+[2022-11-05 18:39:50,622] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:39:50,622] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:39:50,623] [plex_meta_manager.py:709]  [INFO]     |                                Finished Top Rated Global Collection                                |
+[2022-11-05 18:39:50,624] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:50                                    |
+[2022-11-05 18:39:50,624] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

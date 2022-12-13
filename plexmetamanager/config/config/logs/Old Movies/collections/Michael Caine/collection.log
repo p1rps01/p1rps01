@@ -1,0 +1,80 @@
+[2022-11-16 22:08:49,491] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:49,491] [builder.py:193]            [INFO]     |                               Michael Caine Collection in Old Movies                               |
+[2022-11-16 22:08:49,491] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:08:49,492] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,492] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:08:49,492] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,492] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:08:49,492] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,493] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,493] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:08:49,493] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,494] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 3895, 'sort_title': '++_Michael Caine', 'collection_order': 'release'} |
+[2022-11-16 22:08:49,494] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,494] [builder.py:223]            [INFO]     |=============================== Validating Michael Caine Attributes ================================|
+[2022-11-16 22:08:49,494] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,494] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:08:49,494] [builder.py:533]            [DEBUG]    | Value: 3895                                                                                        |
+[2022-11-16 22:08:49,508] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,508] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:08:49,508] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:08:49,508] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,508] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:08:49,508] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:08:49,791] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,791] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:08:49,791] [builder.py:651]            [DEBUG]    | Value: ++_Michael Caine                                                                            |
+[2022-11-16 22:08:49,796] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,797] [builder.py:796]            [ERROR]    | Collection Error: Converting Michael Caine to a normal collection                                  |
+[2022-11-16 22:08:49,803] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,803] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:596]  [INFO]     |================================= Running Michael Caine Collection =================================|
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:08:49,804] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Michael Caine", '?type=1&sort=titleSort&push=1&actor=31596&pop=1') |
+[2022-11-16 22:08:49,805] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,805] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Michael Caine
+[2022-11-16 22:08:49,832] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:08:49,833] [builder.py:1575]           [DEBUG]    | 9 IDs Found
+[2022-11-16 22:08:49,833] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:08:49,833] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:08:49,833] [builder.py:2159]           [INFO]     |================================ Adding to Michael Caine Collection ================================|
+[2022-11-16 22:08:49,833] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:49,834] [builder.py:2174]           [INFO]     | 1/9 | Michael Caine Collection | + | Batman Begins (2005)                                          |
+[2022-11-16 22:08:49,938] [builder.py:2174]           [INFO]     | 2/9 | Michael Caine Collection | + | Beyond the Poseidon Adventure (1979)                          |
+[2022-11-16 22:08:51,877] [builder.py:2174]           [INFO]     | 3/9 | Michael Caine Collection | + | The Dark Knight (2008)                                        |
+[2022-11-16 22:08:52,000] [builder.py:2174]           [INFO]     | 4/9 | Michael Caine Collection | + | The Dark Knight Rises (2012)                                  |
+[2022-11-16 22:08:52,102] [builder.py:2174]           [INFO]     | 5/9 | Michael Caine Collection | + | Dunkirk (2017)                                                |
+[2022-11-16 22:08:54,172] [builder.py:2174]           [INFO]     | 6/9 | Michael Caine Collection | + | Interstellar (2014)                                           |
+[2022-11-16 22:08:54,270] [builder.py:2174]           [INFO]     | 7/9 | Michael Caine Collection | + | Interstellar (2014)                                           |
+[2022-11-16 22:08:54,374] [builder.py:2174]           [INFO]     | 8/9 | Michael Caine Collection | + | Jaws: The Revenge (1987)                                      |
+[2022-11-16 22:08:56,634] [builder.py:2174]           [INFO]     | 9/9 | Michael Caine Collection | + | Kingsman: The Secret Service (2015)                           |
+[2022-11-16 22:09:01,740] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:01,740] [builder.py:2196]           [INFO]     | 9 Movies Processed 9 Movies Added                                                                  |
+[2022-11-16 22:09:01,746] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:01,746] [builder.py:2528]           [INFO]     |=========================== Updating Details of Michael Caine Collection ===========================|
+[2022-11-16 22:09:01,747] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:01,754] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Sir Michael Caine CBE (born Maurice Joseph Micklewhite Jr.; 14 March 1933) is an English actor. Known for his distinctive South London accent, he has appeared in more than 160 films in a career spanning seven decades, and is considered a British film icon. As of February 2017, the films in which Caine has appeared have grossed over $7.8 billion worldwide.
+                                                                 | 
+                                                                 | Often playing a Cockney, Caine made his breakthrough in the 1960s with starring roles in British films such as Zulu (1964), The Ipcress File (1965), Alfie (1966), The Italian Job (1969), and Battle of Britain (1969). He was nominated for an Academy Award for Alfie. His roles in the 1970s included Get Carter (1971), The Last Valley (1971), Sleuth (1972), The Man Who Would Be King (1975), The Eagle Has Landed (1976) and A Bridge Too Far (1977). He earned his second Academy Award nomination for Sleuth and achieved some of his greatest critical success in the 1980s, with Educating Rita (1983) earning him the BAFTA and Golden Globe Award for Best Actor and Woody Allen's Hannah and Her Sisters (1986) earning him his first Academy Award for Best Supporting Actor.
+                                                                 | 
+                                                                 | Caine is also known for his performance as Ebenezer Scrooge in The Muppet Christmas Carol (1992), and for his comedic roles in Dirty Rotten Scoundrels (1988), Miss Congeniality (2000), Austin Powers in Goldmember (2002), and Secondhand Lions (2003). He received his second Golden Globe Award for Little Voice (1998). In 1999, he received his second Academy Award for Best Supporting Actor for his performance as a sympathetic doctor in The Cider House Rules. He portrayed a British journalist in Vietnam in The Quiet American (2002), earning his sixth Oscar nomination, and appeared in Alfonso Cuaron's dystopian drama film Children of Men (2006). Caine portrayed Alfred Pennyworth in Christopher Nolan's The Dark Knight Trilogy (2005–2012). He appeared in several other of Nolan's films including The Prestige (2006), Inception (2010), Interstellar (2014) and Tenet (2020). He also appeared in the heist thriller film Now You See Me (2013), the action comedy film Kingsman: The Secret Service (2014), the Italian drama Youth (2015) and the crime film King of Thieves (2018).
+                                                                 | Sort Title | ++_Michael Caine
+                                                                 | Label | +PMM
+[2022-11-16 22:09:03,601] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:09:03,601] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:09:03,602] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:09:03,602] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg
+[2022-11-16 22:09:03,833] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg
+[2022-11-16 22:09:03,898] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:09:03,898] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:09:03,898] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Michael Caine Collection                                  |
+[2022-11-16 22:09:03,898] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-16 22:09:03,899] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

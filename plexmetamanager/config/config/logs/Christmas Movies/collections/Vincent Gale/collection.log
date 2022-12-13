@@ -1,0 +1,79 @@
+[2022-11-24 16:52:29,077] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-24 16:52:29,077] [builder.py:193]            [INFO]     |                            Vincent Gale Collection in Christmas Movies                             |
+[2022-11-24 16:52:29,077] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-24 16:52:29,077] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-24 16:52:29,078] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-24 16:52:29,078] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,078] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-24 16:52:29,079] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,097] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-24 16:52:29,097] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,101] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-24 16:52:29,103] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,155] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,155] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-24 16:52:29,156] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,157] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Vincent Gale'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}, 'summary': 'Movies with Vincent Gale.', 'name': 'Vincent Gale', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!17_Vincent Gale', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Vincent%20Gale.jpg'} |
+[2022-11-24 16:52:29,157] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,158] [builder.py:223]            [INFO]     |================================ Validating Vincent Gale Attributes ================================|
+[2022-11-24 16:52:29,158] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,158] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-24 16:52:29,158] [builder.py:230]            [DEBUG]    | Value: Vincent Gale                                                                                |
+[2022-11-24 16:52:29,158] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,158] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-24 16:52:29,158] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-24 16:52:29,158] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:29,158] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-24 16:52:29,160] [builder.py:533]            [DEBUG]    | Value: ['Vincent Gale']                                                                            |
+[2022-11-24 16:52:29,313] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-24 16:52:29,315] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-24 16:52:29,315] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}                                          |
+[2022-11-24 16:52:30,526] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&actor=83&pop=1                                            |
+[2022-11-24 16:52:30,527] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,527] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-24 16:52:30,527] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-24 16:52:30,527] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,527] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-24 16:52:30,527] [builder.py:651]            [DEBUG]    | Value: Movies with Vincent Gale.                                                                   |
+[2022-11-24 16:52:30,527] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,527] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-24 16:52:30,527] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-24 16:52:30,527] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,528] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-24 16:52:30,528] [builder.py:651]            [DEBUG]    | Value: !17_Vincent Gale                                                                            |
+[2022-11-24 16:52:30,528] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,528] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-24 16:52:30,528] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Vincent%20Gale.jpg |
+[2022-11-24 16:52:30,622] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Vincent%20Gale.jpg |
+[2022-11-24 16:52:30,629] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-24 16:52:30,629] [plex.py:838]               [DEBUG]    | Looking for: Vincent Gale                                                                          |
+[2022-11-24 16:52:30,629] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-24 16:52:30,629] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-24 16:52:30,630] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-24 16:52:30,630] [plex_meta_manager.py:596]  [INFO]     |================================= Running Vincent Gale Collection ==================================|
+[2022-11-24 16:52:30,630] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-24 16:52:30,630] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Vincent Gale
+[2022-11-24 16:52:30,685] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&actor=83&pop=1
+[2022-11-24 16:52:30,694] [builder.py:2527]           [INFO]     | 
+[2022-11-24 16:52:30,694] [builder.py:2528]           [INFO]     |=========================== Updating Details of Vincent Gale Collection ============================|
+[2022-11-24 16:52:30,694] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-24 16:52:30,722] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies with Vincent Gale.
+                                                                 | Sort Title | !17_Vincent Gale
+                                                                 | Label | +Top Actors, +PMM
+[2022-11-24 16:52:35,872] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-24 16:52:35,872] [builder.py:2603]           [INFO]     | 
+[2022-11-24 16:52:40,088] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-24 16:52:40,166] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Christmas_Movies/Assets/Vincent Gale
+[2022-11-24 16:52:40,166] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-24 16:52:40,166] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/48TVmEf0ck1t5tiXcQjBUyJYWrt.jpg
+[2022-11-24 16:52:40,221] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/48TVmEf0ck1t5tiXcQjBUyJYWrt.jpg
+[2022-11-24 16:52:40,262] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-24 16:52:40,262] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-24 16:52:40,262] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Vincent Gale Collection                                  |
+[2022-11-24 16:52:40,263] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-24 16:52:40,263] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

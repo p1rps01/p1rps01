@@ -1,0 +1,206 @@
+[2022-11-25 15:10:08,908] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:10:08,908] [builder.py:193]            [INFO]     |                                   Popular Collection in TV Shows                                   |
+[2022-11-25 15:10:08,908] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:10:08,908] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:10:08,908] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:10:08,908] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,908] [meta.py:210]               [DEBUG]    |========================================== Template Chart ==========================================|
+[2022-11-25 15:10:08,909] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,910] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,910] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:10:08,910] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,910] [meta.py:515]               [DEBUG]    | {'sort_title': '+1_3Popular', 'sync_mode': 'sync', 'smart_label': 'random'}                        |
+[2022-11-25 15:10:08,910] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,910] [builder.py:223]            [INFO]     |================================== Validating Popular Attributes ===================================|
+[2022-11-25 15:10:08,911] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,911] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:10:08,911] [builder.py:428]            [DEBUG]    | Value: random                                                                                      |
+[2022-11-25 15:10:08,929] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,929] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:10:08,930] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:10:08,930] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,930] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_popular                                                                    |
+[2022-11-25 15:10:08,930] [builder.py:651]            [DEBUG]    | Value: 40                                                                                          |
+[2022-11-25 15:10:08,930] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:08,931] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-25 15:10:08,931] [builder.py:651]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries'), ('limit', 40)]) |
+[2022-11-25 15:10:09,248] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:09,249] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:10:09,249] [builder.py:651]            [DEBUG]    | Value: Popular Shows across the internet                                                           |
+[2022-11-25 15:10:09,249] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:09,249] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:10:09,249] [builder.py:651]            [DEBUG]    | Value: +1_3Popular                                                                                 |
+[2022-11-25 15:10:09,367] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:10:09,368] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:10:09,368] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:10:09,368] [plex_meta_manager.py:596]  [INFO]     |==================================== Running Popular Collection ====================================|
+[2022-11-25 15:10:09,369] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:10:09,369] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['random']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Popular
+[2022-11-25 15:10:09,370] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 15:10:09,370] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 15:10:09,370] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:10:09,370] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_popular: 40
+[2022-11-25 15:10:09,370] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:10:09,411] [tmdb.py:351]               [INFO]     | Processing TMDb Popular: 40 Shows
+[2022-11-25 15:10:09,411] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:10:09,411] [builder.py:1575]           [DEBUG]    | 40 IDs Found
+[2022-11-25 15:10:09,412] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:10:09,444] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 210941
+[2022-11-25 15:10:09,456] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 210855
+[2022-11-25 15:10:09,475] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211660
+[2022-11-25 15:10:09,488] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154300
+[2022-11-25 15:10:09,501] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211163
+[2022-11-25 15:10:09,512] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208711
+[2022-11-25 15:10:09,524] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 58141
+[2022-11-25 15:10:09,540] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213893
+[2022-11-25 15:10:09,551] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:10:09,551] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries', 'limit': 40}
+[2022-11-25 15:10:09,551] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:10:09,551] [imdb.py:202]               [INFO]     | Processing IMDb List: 40 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
+[2022-11-25 15:10:12,098] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:10:12,099] [builder.py:1575]           [DEBUG]    | 40 IDs Found
+[2022-11-25 15:10:12,099] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:10:12,151] [builder.py:2158]           [INFO]     | 
+[2022-11-25 15:10:12,152] [builder.py:2159]           [INFO]     |=================================== Adding to Popular Collection ===================================|
+[2022-11-25 15:10:12,152] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:12,216] [builder.py:2174]           [INFO]     |  1/20 | Popular Collection | = | 1899                                                              |
+[2022-11-25 15:10:12,216] [builder.py:2174]           [INFO]     |  2/20 | Popular Collection | = | The Peripheral                                                    |
+[2022-11-25 15:10:12,216] [builder.py:2174]           [INFO]     |  3/20 | Popular Collection | = | House of the Dragon                                               |
+[2022-11-25 15:10:12,217] [builder.py:2174]           [INFO]     |  4/20 | Popular Collection | = | The Lord of the Rings: The Rings of Power                         |
+[2022-11-25 15:10:12,217] [builder.py:2174]           [INFO]     |  5/20 | Popular Collection | = | Andor                                                             |
+[2022-11-25 15:10:12,217] [builder.py:2174]           [INFO]     |  6/20 | Popular Collection | = | Yellowstone (2018)                                                |
+[2022-11-25 15:10:12,218] [builder.py:2174]           [INFO]     |  7/20 | Popular Collection | = | Game of Thrones                                                   |
+[2022-11-25 15:10:12,218] [builder.py:2174]           [INFO]     |  8/20 | Popular Collection | = | Lucifer                                                           |
+[2022-11-25 15:10:12,218] [builder.py:2174]           [INFO]     |  9/20 | Popular Collection | = | The White Lotus                                                   |
+[2022-11-25 15:10:12,218] [builder.py:2174]           [INFO]     | 10/20 | Popular Collection | = | Tulsa King                                                        |
+[2022-11-25 15:10:12,219] [builder.py:2174]           [INFO]     | 11/20 | Popular Collection | = | Guillermo del Toro's Cabinet of Curiosities                       |
+[2022-11-25 15:10:12,219] [builder.py:2174]           [INFO]     | 12/20 | Popular Collection | = | The Santa Clauses                                                 |
+[2022-11-25 15:10:12,219] [builder.py:2174]           [INFO]     | 13/20 | Popular Collection | = | Inside Man (2022)                                                 |
+[2022-11-25 15:10:12,220] [builder.py:2174]           [INFO]     | 14/20 | Popular Collection | = | Stranger Things                                                   |
+[2022-11-25 15:10:12,220] [builder.py:2174]           [INFO]     | 15/20 | Popular Collection | = | The Watcher (2022)                                                |
+[2022-11-25 15:10:12,220] [builder.py:2174]           [INFO]     | 16/20 | Popular Collection | = | 1883                                                              |
+[2022-11-25 15:10:12,220] [builder.py:2174]           [INFO]     | 17/20 | Popular Collection | = | The Chosen                                                        |
+[2022-11-25 15:10:12,221] [builder.py:2174]           [INFO]     | 18/20 | Popular Collection | = | Doctor Who (2005)                                                 |
+[2022-11-25 15:10:12,221] [builder.py:2174]           [INFO]     | 19/20 | Popular Collection | = | Dark                                                              |
+[2022-11-25 15:10:12,221] [builder.py:2174]           [INFO]     | 20/20 | Popular Collection | = | Titans (2018)                                                     |
+[2022-11-25 15:10:12,221] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:12,222] [builder.py:2196]           [INFO]     | 20 Shows Processed 0 Shows Added                                                                   |
+[2022-11-25 15:10:12,222] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:12,222] [builder.py:2353]           [INFO]     |=============================== Missing Shows from Library: Popular ================================|
+[2022-11-25 15:10:12,222] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:12,259] [builder.py:2366]           [INFO]     | Popular Collection | ? | Chucky (TVDb: 349415)                                                     |
+[2022-11-25 15:10:12,282] [builder.py:2366]           [INFO]     | Popular Collection | ? | Lisa (TVDb: 387275)                                                       |
+[2022-11-25 15:10:12,380] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Walking Dead (TVDb: 153021)                                           |
+[2022-11-25 15:10:12,408] [builder.py:2366]           [INFO]     | Popular Collection | ? | Χαιρέτα μου τον Πλάτανο (TVDb: 388851)                                    |
+[2022-11-25 15:10:12,441] [builder.py:2366]           [INFO]     | Popular Collection | ? | La Reina del Sur (TVDb: 239491)                                           |
+[2022-11-25 15:10:12,470] [builder.py:2366]           [INFO]     | Popular Collection | ? | Elite (TVDb: 346328)                                                      |
+[2022-11-25 15:10:12,618] [builder.py:2366]           [INFO]     | Popular Collection | ? | Mar do Sertão (TVDb: 421257)                                              |
+[2022-11-25 15:10:12,706] [builder.py:2366]           [INFO]     | Popular Collection | ? | Hidden Blood (TVDb: 424773)                                               |
+[2022-11-25 15:10:12,851] [builder.py:2366]           [INFO]     | Popular Collection | ? | Poliana Moça (TVDb: 414538)                                               |
+[2022-11-25 15:10:12,978] [builder.py:2366]           [INFO]     | Popular Collection | ? | Cara e Coragem (TVDb: 418791)                                             |
+[2022-11-25 15:10:13,133] [builder.py:2366]           [INFO]     | Popular Collection | ? | Travessia (TVDb: 420138)                                                  |
+[2022-11-25 15:10:13,175] [builder.py:2366]           [INFO]     | Popular Collection | ? | Chainsaw Man (TVDb: 397934)                                               |
+[2022-11-25 15:10:13,220] [builder.py:2366]           [INFO]     | Popular Collection | ? | Grey's Anatomy (TVDb: 73762)                                              |
+[2022-11-25 15:10:13,326] [builder.py:2366]           [INFO]     | Popular Collection | ? | Rick and Morty (TVDb: 275274)                                             |
+[2022-11-25 15:10:13,349] [builder.py:2366]           [INFO]     | Popular Collection | ? | Darna (TVDb: 396015)                                                      |
+[2022-11-25 15:10:13,482] [builder.py:2366]           [INFO]     | Popular Collection | ? | For You (TVDb: 416687)                                                    |
+[2022-11-25 15:10:13,513] [builder.py:2366]           [INFO]     | Popular Collection | ? | Strictly - It Takes Two (TVDb: 195311)                                    |
+[2022-11-25 15:10:13,544] [builder.py:2366]           [INFO]     | Popular Collection | ? | Lua de Mel (TVDb: 420520)                                                 |
+[2022-11-25 15:10:13,574] [builder.py:2366]           [INFO]     | Popular Collection | ? | Dahmer - Monster: The Jeffrey Dahmer Story (TVDb: 389492)                 |
+[2022-11-25 15:10:13,608] [builder.py:2366]           [INFO]     | Popular Collection | ? | Miraculous: Tales of Ladybug & Cat Noir (TVDb: 302218)                    |
+[2022-11-25 15:10:13,711] [builder.py:2366]           [INFO]     | Popular Collection | ? | I want to live (TVDb: 413793)                                             |
+[2022-11-25 15:10:13,755] [builder.py:2366]           [INFO]     | Popular Collection | ? | Doctors (TVDb: 83729)                                                     |
+[2022-11-25 15:10:13,917] [builder.py:2366]           [INFO]     | Popular Collection | ? | Sweet Punishment: I'm the Guard's Personal Pet (TVDb: 345341)             |
+[2022-11-25 15:10:13,965] [builder.py:2366]           [INFO]     | Popular Collection | ? | LIVE with Kelly and Ryan (TVDb: 72146)                                    |
+[2022-11-25 15:10:14,001] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Crown (TVDb: 305574)                                                  |
+[2022-11-25 15:10:14,039] [builder.py:2366]           [INFO]     | Popular Collection | ? | The English (TVDb: 402602)                                                |
+[2022-11-25 15:10:14,077] [builder.py:2366]           [INFO]     | Popular Collection | ? | Warrior Nun (TVDb: 382544)                                                |
+[2022-11-25 15:10:14,199] [builder.py:2370]           [INFO]     | Popular Collection | X | 1923 (TVDb: 416491)                                                       |
+[2022-11-25 15:10:14,232] [builder.py:2366]           [INFO]     | Popular Collection | ? | Manifest (TVDb: 349271)                                                   |
+[2022-11-25 15:10:14,256] [builder.py:2366]           [INFO]     | Popular Collection | ? | Dead to Me (TVDb: 361857)                                                 |
+[2022-11-25 15:10:14,315] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Handmaid's Tale (TVDb: 321239)                                        |
+[2022-11-25 15:10:14,354] [builder.py:2366]           [INFO]     | Popular Collection | ? | American Horror Story (TVDb: 250487)                                      |
+[2022-11-25 15:10:14,379] [builder.py:2366]           [INFO]     | Popular Collection | ? | SAS Rogue Heroes (TVDb: 368401)                                           |
+[2022-11-25 15:10:14,415] [builder.py:2366]           [INFO]     | Popular Collection | ? | Breaking Bad (TVDb: 81189)                                                |
+[2022-11-25 15:10:14,443] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Devil's Hour (TVDb: 397807)                                           |
+[2022-11-25 15:10:14,510] [builder.py:2366]           [INFO]     | Popular Collection | ? | Better Call Saul (TVDb: 273181)                                           |
+[2022-11-25 15:10:14,544] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Sex Lives of College Girls (TVDb: 390161)                             |
+[2022-11-25 15:10:14,618] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Boys (TVDb: 355567)                                                   |
+[2022-11-25 15:10:14,747] [builder.py:2366]           [INFO]     | Popular Collection | ? | The Office (US) (TVDb: 73244)                                             |
+[2022-11-25 15:10:14,931] [builder.py:2366]           [INFO]     | Popular Collection | ? | Wednesday (TVDb: 397060)                                                  |
+[2022-11-25 15:10:15,005] [builder.py:2366]           [INFO]     | Popular Collection | ? | NCIS (TVDb: 72108)                                                        |
+[2022-11-25 15:10:15,097] [builder.py:2366]           [INFO]     | Popular Collection | ? | Supernatural (TVDb: 78901)                                                |
+[2022-11-25 15:10:15,147] [builder.py:2366]           [INFO]     | Popular Collection | ? | Peaky Blinders (TVDb: 270915)                                             |
+[2022-11-25 15:10:15,153] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:15,153] [builder.py:2372]           [INFO]     | 42 Shows Missing                                                                                   |
+[2022-11-25 15:10:15,168] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:10:15,171] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:10:15,173] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:10:15,173] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [349415, 387275, 153021, 388851, 239491, 346328, 421257, 424773, 414538, 418791, 420138, 397934, 73762, 275274, 396015, 416687, 195311, 420520, 389492, 302218, 413793, 83729, 345341, 72146, 305574, 402602, 382544, 349271, 361857, 321239, 250487, 368401, 81189, 397807, 273181, 390161, 355567, 73244, 397060, 72108, 78901, 270915] |
+[2022-11-25 15:10:40,858] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,858] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349415                                                                         |
+[2022-11-25 15:10:40,858] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387275                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388851                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 239491                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421257                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 424773                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414538                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418791                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420138                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397934                                                                         |
+[2022-11-25 15:10:40,859] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73762                                                                          |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396015                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 416687                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 195311                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420520                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 389492                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 302218                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 413793                                                                         |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83729                                                                          |
+[2022-11-25 15:10:40,860] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 345341                                                                         |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72146                                                                          |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402602                                                                         |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382544                                                                         |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349271                                                                         |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361857                                                                         |
+[2022-11-25 15:10:40,861] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 321239                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368401                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81189                                                                          |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397807                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273181                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390161                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397060                                                                         |
+[2022-11-25 15:10:40,862] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72108                                                                          |
+[2022-11-25 15:10:40,862] [sonarr.py:187]             [INFO]     | 33 Series already exist in Sonarr                                                                  |
+[2022-11-25 15:10:40,862] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,862] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Walking Dead]                                                               |
+[2022-11-25 15:10:40,863] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,863] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Elite]                                                                          |
+[2022-11-25 15:10:40,863] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,863] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Rick and Morty]                                                                 |
+[2022-11-25 15:10:40,863] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,863] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Crown]                                                                      |
+[2022-11-25 15:10:40,863] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,864] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [American Horror Story]                                                          |
+[2022-11-25 15:10:40,864] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,864] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Boys]                                                                       |
+[2022-11-25 15:10:40,864] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,864] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Office (US)]                                                                |
+[2022-11-25 15:10:40,864] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,864] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Supernatural]                                                                   |
+[2022-11-25 15:10:40,864] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,864] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Peaky Blinders]                                                                 |
+[2022-11-25 15:10:40,865] [sonarr.py:207]             [INFO]     | 9 Series with Invalid IDs                                                                          |
+[2022-11-25 15:10:40,940] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,941] [builder.py:2528]           [INFO]     |============================== Updating Details of Popular Collection ==============================|
+[2022-11-25 15:10:40,941] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:10:40,957] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:10:41,002] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:10:41,003] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:10:41,003] [plex_meta_manager.py:737]  [INFO]     |                                    Finished Popular Collection                                     |
+[2022-11-25 15:10:41,003] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:32                                    |
+[2022-11-25 15:10:41,003] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

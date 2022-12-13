@@ -1,0 +1,70 @@
+[2022-11-05 15:22:24,756] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:24,757] [builder.py:197]            [INFO]     |                          DC Super Hero Girls Collection in Marvel Movies                           |
+[2022-11-05 15:22:24,757] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:24,757] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 15:22:24,757] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 15:22:24,757] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,757] [meta.py:128]               [DEBUG]    | Template Collection                                                                                |
+[2022-11-05 15:22:24,757] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Collection'), ('collection', '477208, 557495'), ('summary', 477208)]) |
+[2022-11-05 15:22:24,758] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,758] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Collection'), ('collection', '477208, 557495'), ('summary', 477208), ('collection_name', 'DC Super Hero Girls'), ('mapping_name', 'DC Super Hero Girls'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Collection'), ('collection_encoded', '477208%2C%20557495'), ('summary_encoded', '477208'), ('collection_name_encoded', 'DC%20Super%20Hero%20Girls'), ('mapping_name_encoded', 'DC%20Super%20Hero%20Girls'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'DC Super Hero Girls')]) |
+[2022-11-05 15:22:24,758] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,758] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 15:22:24,758] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,758] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded']                           |
+[2022-11-05 15:22:24,760] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,760] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection': '477208, 557495', 'tmdb_summary': 477208, 'url_poster': '<<poster>>', 'sort_title': '+4_DC Super Hero Girls', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-05 15:22:24,761] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,761] [builder.py:219]            [INFO]     |============================ Validating DC Super Hero Girls Attributes =============================|
+[2022-11-05 15:22:24,761] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,761] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 15:22:24,761] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 15:22:24,761] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,761] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 15:22:24,761] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 15:22:24,761] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,761] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 15:22:24,762] [builder.py:632]            [DEBUG]    | Value: 477208, 557495                                                                              |
+[2022-11-05 15:22:24,783] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,783] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 15:22:24,783] [builder.py:632]            [DEBUG]    | Value: 477208                                                                                      |
+[2022-11-05 15:22:24,793] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:24,793] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 15:22:24,793] [builder.py:632]            [DEBUG]    | Value: <<poster>>                                                                                  |
+[2022-11-05 15:23:14,844] [plex_meta_manager.py:702]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 683, in __init__
+                                                                 |     self._poster(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 823, in _poster
+                                                                 |     image_response = self.config.get(method_data, headers=util.header())
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/config.py", line 975, in get
+                                                                 |     return self.session.get(url, json=json, headers=headers, params=params)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 573, in request
+                                                                 |     prep = self.prepare_request(req)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 484, in prepare_request
+                                                                 |     p.prepare(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 368, in prepare
+                                                                 |     self.prepare_url(url, params)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 439, in prepare_url
+                                                                 |     raise MissingSchema(
+                                                                 | requests.exceptions.MissingSchema: Invalid URL '<<poster>>': No scheme supplied. Perhaps you meant http://<<poster>>?
+                                                                 | 
+[2022-11-05 15:23:14,846] [plex_meta_manager.py:703]  [ERROR]    | Unknown Error: Invalid URL '<<poster>>': No scheme supplied. Perhaps you meant http://<<poster>>?
+[2022-11-05 15:23:14,846] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 15:23:14,846] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 15:23:14,846] [plex_meta_manager.py:709]  [INFO]     |                              Finished DC Super Hero Girls Collection                               |
+[2022-11-05 15:23:14,846] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:50                                    |
+[2022-11-05 15:23:14,847] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

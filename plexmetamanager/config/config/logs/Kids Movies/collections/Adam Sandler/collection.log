@@ -1,0 +1,88 @@
+[2022-11-16 20:11:23,225] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:11:23,225] [builder.py:193]            [INFO]     |                               Adam Sandler Collection in Kids Movies                               |
+[2022-11-16 20:11:23,226] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:11:23,226] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,226] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:11:23,226] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,226] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:11:23,226] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,228] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,228] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:11:23,228] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,228] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 19292, 'sort_title': '++_Adam Sandler', 'collection_order': 'release'} |
+[2022-11-16 20:11:23,229] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,229] [builder.py:223]            [INFO]     |================================ Validating Adam Sandler Attributes ================================|
+[2022-11-16 20:11:23,229] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,229] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:11:23,229] [builder.py:533]            [DEBUG]    | Value: 19292                                                                                       |
+[2022-11-16 20:11:23,255] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,255] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:11:23,255] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:11:23,256] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,256] [builder.py:650]            [DEBUG]    | Validating Method: writer                                                                          |
+[2022-11-16 20:11:23,256] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:11:23,386] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,387] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:11:23,387] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:11:23,777] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,778] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:11:23,778] [builder.py:651]            [DEBUG]    | Value: ++_Adam Sandler                                                                             |
+[2022-11-16 20:11:23,785] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,785] [builder.py:796]            [ERROR]    | Collection Error: Converting Adam Sandler to a normal collection                                   |
+[2022-11-16 20:11:23,793] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,793] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:11:23,793] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,793] [plex_meta_manager.py:596]  [INFO]     |================================= Running Adam Sandler Collection ==================================|
+[2022-11-16 20:11:23,794] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,794] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:11:23,794] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:11:23,794] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Writer is Adam Sandler", '?type=1&sort=titleSort&push=1&writer=461622&pop=1') |
+[2022-11-16 20:11:23,794] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,794] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is Adam Sandler
+[2022-11-16 20:11:23,802] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:11:23,803] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 20:11:23,803] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:11:23,803] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 20:11:23,803] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Adam Sandler", '?type=1&sort=titleSort&push=1&actor=50737&pop=1')
+[2022-11-16 20:11:23,803] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 20:11:23,804] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Adam Sandler
+[2022-11-16 20:11:23,815] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:11:23,815] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 20:11:23,815] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:11:23,815] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:11:23,815] [builder.py:2159]           [INFO]     |================================ Adding to Adam Sandler Collection =================================|
+[2022-11-16 20:11:23,815] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:11:23,816] [builder.py:2174]           [INFO]     | 1/3 | Adam Sandler Collection | + | Hotel Transylvania 2 (2015)                                    |
+[2022-11-16 20:11:26,573] [builder.py:2174]           [INFO]     | 2/3 | Adam Sandler Collection | + | Hotel Transylvania (2012)                                      |
+[2022-11-16 20:11:29,584] [builder.py:2174]           [INFO]     | 3/3 | Adam Sandler Collection | + | Hotel Transylvania 3: Summer Vacation (2018)                   |
+[2022-11-16 20:11:35,501] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:11:35,501] [builder.py:2196]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-11-16 20:11:35,509] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:11:35,509] [builder.py:2528]           [INFO]     |=========================== Updating Details of Adam Sandler Collection ============================|
+[2022-11-16 20:11:35,510] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:11:35,519] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Adam Richard Sandler (born September 9, 1966) is an American comedian, actor, and filmmaker. He was a cast member on Saturday Night Live from 1990 to 1995, before going on to star in many Hollywood films, which have combined to earn more than $2 billion at the box office. Sandler had an estimated net worth of $420 million in 2020, and signed a further four-movie deal with Netflix worth over $250 million.
+                                                                 | 
+                                                                 | Sandler's comedic roles include Billy Madison (1995), Happy Gilmore (1996), The Waterboy (1998), The Wedding Singer (1998), Big Daddy (1999), Mr. Deeds (2002), 50 First Dates (2004), The Longest Yard (2005), Click (2006), Grown Ups (2010), Just Go with It (2011), Grown Ups 2 (2013), Blended (2014), Murder Mystery (2019) and Hubie Halloween (2020). He also voiced Davey, Whitey, and Eleanore in Eight Crazy Nights and Dracula in the first three films of the Hotel Transylvania franchise (2012–2018).
+                                                                 | 
+                                                                 | While some of his comedic films, including Jack and Jill (2011), have been panned, resulting in Sandler receiving nine Golden Raspberry Awards and 37 Raspberry Award nominations, more than any actor other than Sylvester Stallone, he has received critical acclaim for his dramatic performances in the dramedy films Spanglish (2004), Reign Over Me (2007), and Funny People (2009). He has also been roundly praised for his leading roles in auteur films including Punch-Drunk Love (2002) by Paul Thomas Anderson, Noah Baumbach's The Meyerowitz Stories (2017), and the Safdie brothers' Uncut Gems (2019), the last of which earned him the Independent Spirit Award for Best Male Lead.
+                                                                 | Sort Title | ++_Adam Sandler
+                                                                 | Label | +PMM
+[2022-11-16 20:11:37,778] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:11:37,778] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:11:37,779] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:11:37,779] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/gLkLCsQdwDDPabRhKPB25nGtKwS.jpg
+[2022-11-16 20:11:37,980] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/gLkLCsQdwDDPabRhKPB25nGtKwS.jpg
+[2022-11-16 20:11:38,343] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:11:38,343] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:11:38,344] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Adam Sandler Collection                                  |
+[2022-11-16 20:11:38,344] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-11-16 20:11:38,344] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

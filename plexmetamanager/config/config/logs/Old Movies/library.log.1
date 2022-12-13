@@ -1,0 +1,599 @@
+[2022-11-16 15:01:02,114] [plex_meta_manager.py:423]  [INFO]     |                                                                                                    |
+[2022-11-16 15:01:02,114] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:01:02,114] [plex_meta_manager.py:424]  [INFO]     |                                         Old Movies Library                                         |
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: Old Movies                                                                           |
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: Old Movies                                                                            |
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:430]  [DEBUG]    | Asset Directory: config/Old_Movies/Assets/                                                         |
+[2022-11-16 15:01:02,115] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-16 15:01:02,116] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-16 15:01:02,117] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/Reports/Old_Movies_report.yml                                                 |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-16 15:01:02,118] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-16 15:01:02,120] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-16 15:01:02,120] [library.py:288]            [INFO]     |================================= Caching Old Movies Library Items =================================|
+[2022-11-16 15:01:02,121] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-16 15:01:02,121] [plex.py:517]               [INFO]     | Loading All Movies from Library: Old Movies                                                        |
+[2022-11-16 15:07:52,540] [plex_meta_manager.py:553]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 495, in run_libraries
+                                                                 |     temp_items = library.cache_items()
+                                                                 |   File "/modules/library.py", line 290, in cache_items
+                                                                 |     items = self.get_all()
+                                                                 |   File "/modules/plex.py", line 523, in get_all
+                                                                 |     results.extend(self.fetchItems(key, container_start, container_size))
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/plex.py", line 544, in fetchItems
+                                                                 |     return self.Plex.fetchItems(key, container_start=container_start, container_size=container_size)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/library.py", line 443, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:07:52,556] [plex_meta_manager.py:554]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:07:52,557] [plex_meta_manager.py:423]  [INFO]     | 
+[2022-11-16 15:07:52,558] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:07:52,558] [plex_meta_manager.py:424]  [INFO]     |                                         New Movies Library                                         |
+[2022-11-16 15:07:52,558] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:07:52,558] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-16 15:07:52,558] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: New Movies                                                                           |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: New Movies                                                                            |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:430]  [DEBUG]    | Asset Directory: config/New_Movies/Assets/                                                         |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-16 15:07:52,559] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-16 15:07:52,560] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/Reports/New_Movies_report.yml                                                 |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-16 15:07:52,561] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-16 15:07:52,562] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-16 15:07:52,562] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-16 15:07:52,563] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-16 15:07:52,563] [library.py:288]            [INFO]     |================================= Caching New Movies Library Items =================================|
+[2022-11-16 15:07:52,564] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-16 15:07:52,564] [plex.py:517]               [INFO]     | Loading All Movies from Library: New Movies                                                        |
+[2022-11-16 15:14:42,983] [plex_meta_manager.py:553]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 495, in run_libraries
+                                                                 |     temp_items = library.cache_items()
+                                                                 |   File "/modules/library.py", line 290, in cache_items
+                                                                 |     items = self.get_all()
+                                                                 |   File "/modules/plex.py", line 523, in get_all
+                                                                 |     results.extend(self.fetchItems(key, container_start, container_size))
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/plex.py", line 544, in fetchItems
+                                                                 |     return self.Plex.fetchItems(key, container_start=container_start, container_size=container_size)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/library.py", line 443, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:14:42,995] [plex_meta_manager.py:554]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:14:42,996] [plex_meta_manager.py:423]  [INFO]     | 
+[2022-11-16 15:14:42,996] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:424]  [INFO]     |                                       Marvel Movies Library                                        |
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: Marvel Movies                                                                        |
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: Marvel Movies                                                                         |
+[2022-11-16 15:14:42,997] [plex_meta_manager.py:430]  [DEBUG]    | Asset Directory: config/Marvel_Movies/Assets/                                                      |
+[2022-11-16 15:14:42,998] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-16 15:14:42,998] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-16 15:14:42,998] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-16 15:14:42,998] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-16 15:14:42,998] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-16 15:14:42,999] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-16 15:14:42,999] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-16 15:14:42,999] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-16 15:14:42,999] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-16 15:14:42,999] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-16 15:14:43,000] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-16 15:14:43,000] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-16 15:14:43,001] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-16 15:14:43,001] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-16 15:14:43,001] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-16 15:14:43,001] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/Reports/Marvel_Movies_report.yml                                              |
+[2022-11-16 15:14:43,001] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-16 15:14:43,002] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-16 15:14:43,002] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-16 15:14:43,002] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-16 15:14:43,003] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-16 15:14:43,004] [library.py:288]            [INFO]     |=============================== Caching Marvel Movies Library Items ================================|
+[2022-11-16 15:14:43,004] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-16 15:14:43,004] [plex.py:517]               [INFO]     | Loading All Movies from Library: Marvel Movies                                                     |
+[2022-11-16 15:21:33,422] [plex_meta_manager.py:553]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 495, in run_libraries
+                                                                 |     temp_items = library.cache_items()
+                                                                 |   File "/modules/library.py", line 290, in cache_items
+                                                                 |     items = self.get_all()
+                                                                 |   File "/modules/plex.py", line 523, in get_all
+                                                                 |     results.extend(self.fetchItems(key, container_start, container_size))
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/plex.py", line 544, in fetchItems
+                                                                 |     return self.Plex.fetchItems(key, container_start=container_start, container_size=container_size)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/library.py", line 443, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:21:33,441] [plex_meta_manager.py:554]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:21:33,443] [plex_meta_manager.py:423]  [INFO]     | 
+[2022-11-16 15:21:33,444] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:21:33,445] [plex_meta_manager.py:424]  [INFO]     |                                          TV Shows Library                                          |
+[2022-11-16 15:21:33,445] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:21:33,446] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-16 15:21:33,446] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: TV Shows                                                                             |
+[2022-11-16 15:21:33,447] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: TV Shows                                                                              |
+[2022-11-16 15:21:33,447] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-16 15:21:33,447] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-16 15:21:33,447] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-16 15:21:33,448] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-16 15:21:33,448] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-16 15:21:33,448] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-16 15:21:33,449] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-16 15:21:33,449] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-16 15:21:33,449] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-16 15:21:33,449] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-16 15:21:33,450] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-16 15:21:33,450] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-16 15:21:33,450] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-16 15:21:33,450] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-16 15:21:33,451] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-16 15:21:33,451] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/TV Shows_report.yml                                                           |
+[2022-11-16 15:21:33,451] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-16 15:21:33,452] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-16 15:21:33,452] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-16 15:21:33,452] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-16 15:21:33,454] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-16 15:21:33,455] [library.py:288]            [INFO]     |================================== Caching TV Shows Library Items ==================================|
+[2022-11-16 15:21:33,455] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-16 15:21:33,455] [plex.py:517]               [INFO]     | Loading All Shows from Library: TV Shows                                                           |
+[2022-11-16 15:28:23,874] [plex_meta_manager.py:553]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 495, in run_libraries
+                                                                 |     temp_items = library.cache_items()
+                                                                 |   File "/modules/library.py", line 290, in cache_items
+                                                                 |     items = self.get_all()
+                                                                 |   File "/modules/plex.py", line 523, in get_all
+                                                                 |     results.extend(self.fetchItems(key, container_start, container_size))
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/plex.py", line 544, in fetchItems
+                                                                 |     return self.Plex.fetchItems(key, container_start=container_start, container_size=container_size)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/library.py", line 443, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:28:23,897] [plex_meta_manager.py:554]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:28:23,900] [plex_meta_manager.py:423]  [INFO]     | 
+[2022-11-16 15:28:23,901] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:28:23,901] [plex_meta_manager.py:424]  [INFO]     |                                           Music Library                                            |
+[2022-11-16 15:28:23,902] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-16 15:28:23,902] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-16 15:28:23,903] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: Music                                                                                |
+[2022-11-16 15:28:23,903] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: Music                                                                                 |
+[2022-11-16 15:28:23,904] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-16 15:28:23,904] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-16 15:28:23,905] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-16 15:28:23,905] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-16 15:28:23,906] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-16 15:28:23,906] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-16 15:28:23,907] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-16 15:28:23,907] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-16 15:28:23,908] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-16 15:28:23,908] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-16 15:28:23,909] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-16 15:28:23,909] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-16 15:28:23,910] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-16 15:28:23,911] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-16 15:28:23,912] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-16 15:28:23,913] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/Music_report.yml                                                              |
+[2022-11-16 15:28:23,914] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-16 15:28:23,914] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-16 15:28:23,915] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-16 15:28:23,916] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-16 15:28:23,918] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-16 15:28:23,919] [library.py:288]            [INFO]     |=================================== Caching Music Library Items ====================================|
+[2022-11-16 15:28:23,919] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-16 15:28:23,920] [plex.py:517]               [INFO]     | Loading All Artists from Library: Music                                                            |
+[2022-11-16 15:35:14,324] [plex_meta_manager.py:553]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 495, in run_libraries
+                                                                 |     temp_items = library.cache_items()
+                                                                 |   File "/modules/library.py", line 290, in cache_items
+                                                                 |     items = self.get_all()
+                                                                 |   File "/modules/plex.py", line 523, in get_all
+                                                                 |     results.extend(self.fetchItems(key, container_start, container_size))
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 49, in wrapped_f
+                                                                 |     return Retrying(*dargs, **dkw).call(f, *args, **kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 212, in call
+                                                                 |     raise attempt.get()
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 247, in get
+                                                                 |     six.reraise(self.value[0], self.value[1], self.value[2])
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/six.py", line 719, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/retrying.py", line 200, in call
+                                                                 |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)
+                                                                 |   File "/modules/plex.py", line 544, in fetchItems
+                                                                 |     return self.Plex.fetchItems(key, container_start=container_start, container_size=container_size)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/library.py", line 443, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=url_kw)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:35:14,335] [plex_meta_manager.py:554]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:35:14,336] [plex_meta_manager.py:280]  [INFO]     | 
+[2022-11-16 15:35:14,337] [plex_meta_manager.py:281]  [INFO]     |====================================================================================================|
+[2022-11-16 15:35:14,337] [plex_meta_manager.py:281]  [INFO]     |                                   RSMediaServer1 Playlist Report                                   |
+[2022-11-16 15:35:14,337] [plex_meta_manager.py:281]  [INFO]     |====================================================================================================|
+[2022-11-16 15:35:14,337] [plex_meta_manager.py:282]  [INFO]     |                                                                                                    |
+[2022-11-16 15:36:15,058] [plex_meta_manager.py:248]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+                                                                 |     six.raise_from(e, None)
+                                                                 |   File "<string>", line 3, in raise_from
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+                                                                 |     httplib_response = conn.getresponse()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 1374, in getresponse
+                                                                 |     response.begin()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 318, in begin
+                                                                 |     version, status, reason = self._read_status()
+                                                                 |   File "/usr/local/lib/python3.10/http/client.py", line 279, in _read_status
+                                                                 |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+                                                                 |   File "/usr/local/lib/python3.10/socket.py", line 705, in readinto
+                                                                 |     return self._sock.recv_into(b)
+                                                                 | TimeoutError: timed out
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+                                                                 |     resp = conn.urlopen(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+                                                                 |     retries = retries.increment(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+                                                                 |     raise six.reraise(type(error), error, _stacktrace)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+                                                                 |     raise value
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+                                                                 |     httplib_response = self._make_request(
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+                                                                 |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+                                                                 |     raise ReadTimeoutError(
+                                                                 | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+                                                                 | During handling of the above exception, another exception occurred:
+                                                                 | 
+                                                                 | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 245, in start
+                                                                 |     stats = run_config(config, stats)
+                                                                 |   File "//plex_meta_manager.py", line 283, in run_config
+                                                                 |     report = library.playlist_report()
+                                                                 |   File "/modules/plex.py", line 726, in playlist_report
+                                                                 |     scan_user(self.PlexServer, self.account.title)
+                                                                 |   File "/modules/plex.py", line 719, in scan_user
+                                                                 |     for playlist in server.playlists():
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 640, in playlists
+                                                                 |     return self.fetchItems(key, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/base.py", line 267, in fetchItems
+                                                                 |     data = self._server.query(ekey, params=params)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/plexapi/server.py", line 697, in query
+                                                                 |     response = method(url, headers=headers, timeout=timeout, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+                                                                 |     return self.request("GET", url, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+                                                                 |     resp = self.send(prep, **send_kwargs)
+                                                                 |   File "//plex_meta_manager.py", line 141, in new_send
+                                                                 |     return old_send(*send_args, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+                                                                 |     r = adapter.send(request, **kwargs)
+                                                                 |   File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 578, in send
+                                                                 |     raise ReadTimeout(e, request=request)
+                                                                 | requests.exceptions.ReadTimeout: HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+                                                                 | 
+[2022-11-16 15:36:15,071] [plex_meta_manager.py:249]  [CRITICAL] | HTTPConnectionPool(redacted): Read timed out. (read timeout=60)
+[2022-11-16 15:36:15,071] [plex_meta_manager.py:250]  [INFO]     | 
+[2022-11-16 15:36:15,071] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|
+[2022-11-16 15:36:15,072] [plex_meta_manager.py:262]  [INFO]     |                                            Finished Run                                            |
+[2022-11-16 15:36:15,072] [plex_meta_manager.py:262]  [INFO]     |                                          Version: 1.18.0                                           |
+[2022-11-16 15:36:15,072] [plex_meta_manager.py:262]  [INFO]     |                          Finished: 15:36:15 2022-11-16 Run Time: 5:07:58                           |
+[2022-11-16 15:36:15,072] [plex_meta_manager.py:262]  [INFO]     |====================================================================================================|

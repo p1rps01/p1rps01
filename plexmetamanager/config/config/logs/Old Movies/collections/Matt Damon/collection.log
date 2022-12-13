@@ -1,0 +1,82 @@
+[2022-11-16 22:07:52,577] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:07:52,577] [builder.py:193]            [INFO]     |                                Matt Damon Collection in Old Movies                                 |
+[2022-11-16 22:07:52,578] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:07:52,578] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,578] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:07:52,578] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,578] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:07:52,578] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,580] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,580] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:07:52,580] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,580] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1892, 'sort_title': '++_Matt Damon', 'collection_order': 'release'} |
+[2022-11-16 22:07:52,580] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,581] [builder.py:223]            [INFO]     |================================= Validating Matt Damon Attributes =================================|
+[2022-11-16 22:07:52,581] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,581] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:07:52,581] [builder.py:533]            [DEBUG]    | Value: 1892                                                                                        |
+[2022-11-16 22:07:52,595] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,595] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:07:52,596] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:07:52,596] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,596] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:07:52,596] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:07:52,874] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,874] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:07:52,875] [builder.py:651]            [DEBUG]    | Value: ++_Matt Damon                                                                               |
+[2022-11-16 22:07:52,881] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,881] [builder.py:796]            [ERROR]    | Collection Error: Converting Matt Damon to a normal collection                                     |
+[2022-11-16 22:07:52,887] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,888] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:596]  [INFO]     |================================== Running Matt Damon Collection ===================================|
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Matt Damon", '?type=1&sort=titleSort&push=1&actor=39247&pop=1') |
+[2022-11-16 22:07:52,888] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,888] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Matt Damon
+[2022-11-16 22:07:52,918] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:07:52,918] [builder.py:1575]           [DEBUG]    | 11 IDs Found
+[2022-11-16 22:07:52,918] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:07:52,919] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:07:52,919] [builder.py:2159]           [INFO]     |================================= Adding to Matt Damon Collection ==================================|
+[2022-11-16 22:07:52,919] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:07:52,919] [builder.py:2174]           [INFO]     |  1/11 | Matt Damon Collection | + | The Bourne Identity (2002)                                     |
+[2022-11-16 22:07:54,907] [builder.py:2174]           [INFO]     |  2/11 | Matt Damon Collection | + | The Bourne Legacy (2012)                                       |
+[2022-11-16 22:07:57,036] [builder.py:2174]           [INFO]     |  3/11 | Matt Damon Collection | + | The Bourne Supremacy (2004)                                    |
+[2022-11-16 22:07:59,032] [builder.py:2174]           [INFO]     |  4/11 | Matt Damon Collection | + | The Bourne Ultimatum (2007)                                    |
+[2022-11-16 22:08:01,062] [builder.py:2174]           [INFO]     |  5/11 | Matt Damon Collection | + | Courage Under Fire (1996)                                      |
+[2022-11-16 22:08:01,187] [builder.py:2174]           [INFO]     |  6/11 | Matt Damon Collection | + | Interstellar (2014)                                            |
+[2022-11-16 22:08:01,311] [builder.py:2174]           [INFO]     |  7/11 | Matt Damon Collection | + | Interstellar (2014)                                            |
+[2022-11-16 22:08:01,420] [builder.py:2174]           [INFO]     |  8/11 | Matt Damon Collection | + | Jason Bourne (2016)                                            |
+[2022-11-16 22:08:03,369] [builder.py:2174]           [INFO]     |  9/11 | Matt Damon Collection | + | The Martian (2015)                                             |
+[2022-11-16 22:08:05,361] [builder.py:2174]           [INFO]     | 10/11 | Matt Damon Collection | + | Saving Private Ryan (1998)                                     |
+[2022-11-16 22:08:07,361] [builder.py:2174]           [INFO]     | 11/11 | Matt Damon Collection | + | Thor: Ragnarok (2017)                                          |
+[2022-11-16 22:08:09,965] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:09,965] [builder.py:2196]           [INFO]     | 11 Movies Processed 11 Movies Added                                                                |
+[2022-11-16 22:08:09,972] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:09,972] [builder.py:2528]           [INFO]     |============================ Updating Details of Matt Damon Collection =============================|
+[2022-11-16 22:08:09,972] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:08:09,980] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Matthew Paige Damon (born October 8, 1970) is an American actor, film producer, and screenwriter. Ranked among Forbes' most bankable stars, the films in which he has appeared have collectively earned over $3.88 billion at the North American box office, making him one of the highest-grossing actors of all time. He is the recipient of various accolades, including an Academy Award from five nominations, and two Golden Globe Awards. He also received three BAFTA Award nominations, seven Primetime Emmy Award nominations, and six Screen Actors Guild Awards.
+                                                                 | 
+                                                                 | Damon began his acting career by appearing in high school theater productions. He made his professional acting debut in the film Mystic Pizza (1988). He came to prominence in 1997 when he and Ben Affleck wrote and starred in Good Will Hunting, which won them the Academy and Golden Globe awards for Best Screenplay. He continued to garner praise from critics for his roles as the title character in Saving Private Ryan (1998), the antihero in The Talented Mr. Ripley (1999), a fallen angel in Dogma (1999), an energy analyst in Syriana (2005), a corrupt Irish-American policeman in The Departed (2006), and race car driver Carroll Shelby in Ford v Ferrari (2019).
+                                                                 | 
+                                                                 | Damon is also known for his starring roles as Jason Bourne in the Bourne franchise (2002–2016), and as con man Linus Caldwell in the Ocean's trilogy (2001–2007). He had a supporting role as rugby player Francois Pienaar in Invictus (2009) and won a Golden Globe Award for Best Actor for his leading role as an astronaut stranded on Mars in The Martian (2015). Damon portrayed Scott Thorson in the biopic Behind the Candelabra (2013) and produced the reality series Project Greenlight (2001–2015) as well as the film Manchester by the Sea (2016).
+                                                                 | Sort Title | ++_Matt Damon
+                                                                 | Label | +PMM
+[2022-11-16 22:08:11,660] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:08:11,660] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:08:11,662] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:08:11,662] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg
+[2022-11-16 22:08:11,958] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg
+[2022-11-16 22:08:12,038] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:08:12,038] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:08:12,038] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Matt Damon Collection                                   |
+[2022-11-16 22:08:12,038] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:19                                    |
+[2022-11-16 22:08:12,038] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

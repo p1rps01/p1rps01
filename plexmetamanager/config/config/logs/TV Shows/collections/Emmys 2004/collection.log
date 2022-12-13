@@ -1,0 +1,128 @@
+[2022-11-17 02:27:27,690] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:27:27,690] [builder.py:193]            [INFO]     |                                 Emmys 2004 Collection in TV Shows                                  |
+[2022-11-17 02:27:27,690] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:27:27,691] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:27:27,691] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:27:27,691] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,692] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:27:27,693] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,695] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:27:27,696] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,701] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:27:27,703] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,722] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:27:27,728] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,740] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:27:27,741] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,747] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,747] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:27:27,747] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,748] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2004', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2004.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:27:27,748] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,748] [builder.py:223]            [INFO]     |================================= Validating Emmys 2004 Attributes =================================|
+[2022-11-17 02:27:27,749] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,749] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:27:27,750] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:27:27,750] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,751] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:27:27,752] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:27:27,752] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,753] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:27:27,753] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:27:27,754] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,755] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:27:27,756] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:27:27,757] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:27,757] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:27:27,758] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:27:28,249] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,251] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:27:28,251] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:27:28,251] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,251] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:27:28,252] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2004                                                                              |
+[2022-11-17 02:27:28,252] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,252] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:27:28,252] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2004.jpg |
+[2022-11-17 02:27:28,404] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,405] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:27:28,405] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:27:28,413] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,413] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2004                                                                            |
+[2022-11-17 02:27:28,415] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:27:28,415] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:27:28,415] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:27:28,416] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2004 Collection ===================================|
+[2022-11-17 02:27:28,416] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:27:28,416] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:27:28,416] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:28,417] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:27:28,419] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:27:28,420] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:27:30,905] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:30,906] [builder.py:1575]           [DEBUG]    | 27 IDs Found                                                                                       |
+[2022-11-17 02:27:30,906] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:31,000] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0381851                                             |
+[2022-11-17 02:27:31,032] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0398639                                             |
+[2022-11-17 02:27:31,146] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16436086                                            |
+[2022-11-17 02:27:31,147] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:31,147] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:27:31,147] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:31,157] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | A Christmas Carol (2004) (TMDb: 28769)                                 |
+[2022-11-17 02:27:31,438] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Something the Lord Made (2004) (TMDb: 20544)                           |
+[2022-11-17 02:27:31,452] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | The Life and Death of Peter Sellers (2004) (TMDb: 10609)               |
+[2022-11-17 02:27:31,455] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Unforgivable Blackness: The Rise and Fall of Jack Johnson (2004) (TMDb: 32063) |
+[2022-11-17 02:27:31,470] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Athens 2004: Olympic Closing Ceremony (Games of the XXVIII Olympiad) (2004) (TMDb: 506941) |
+[2022-11-17 02:27:31,481] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Death in Gaza (2004) (TMDb: 30904)                                     |
+[2022-11-17 02:27:31,495] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Jockey (2004) (TMDb: 360376)                                           |
+[2022-11-17 02:27:31,680] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Genius. A Night for Ray Charles (2004) (TMDb: 169173)                  |
+[2022-11-17 02:27:31,694] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | The Forgetting: A Portrait of Alzheimer's (2004) (TMDb: 310922)        |
+[2022-11-17 02:27:31,705] [builder.py:2321]           [INFO]     | Emmys 2004 Collection | ? | Happy to Be Nappy and Other Stories of Me (2004) (TMDb: 995437)        |
+[2022-11-17 02:27:31,706] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:31,706] [builder.py:2327]           [INFO]     | 10 Movies Missing                                                                                  |
+[2022-11-17 02:27:32,837] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:32,837] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2004 ==============================|
+[2022-11-17 02:27:32,837] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:32,924] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Lost (TVDb: 73739)                                                     |
+[2022-11-17 02:27:32,966] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Desperate Housewives (TVDb: 73800)                                     |
+[2022-11-17 02:27:33,022] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Deadwood (TVDb: 72023)                                                 |
+[2022-11-17 02:27:33,067] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Entourage (TVDb: 74543)                                                |
+[2022-11-17 02:27:33,127] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Battlestar Galactica (2003) (TVDb: 73545)                              |
+[2022-11-17 02:27:33,176] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Boston Legal (TVDb: 74058)                                             |
+[2022-11-17 02:27:33,232] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Rescue Me (TVDb: 73741)                                                |
+[2022-11-17 02:27:33,568] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Project Runway (TVDb: 74285)                                           |
+[2022-11-17 02:27:33,630] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Foster's Home for Imaginary Friends (TVDb: 79323)                      |
+[2022-11-17 02:27:33,656] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Huff (TVDb: 74663)                                                     |
+[2022-11-17 02:27:33,706] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Frankenstein (2004) (TVDb: 361683)                                     |
+[2022-11-17 02:27:33,815] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Broadway: The American Musical (TVDb: 119351)                          |
+[2022-11-17 02:27:34,350] [builder.py:2366]           [INFO]     | Emmys 2004 Collection | ? | Tony Awards (TVDb: 249480)                                             |
+[2022-11-17 02:27:34,350] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:27:34,350] [builder.py:2372]           [INFO]     | 13 Shows Missing                                                                                   |
+[2022-11-17 02:27:35,323] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:27:35,323] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:27:35,324] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:27:35,324] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [73739, 73800, 72023, 74543, 73545, 74058, 73741, 74285, 79323, 74663, 361683, 119351, 249480] |
+[2022-11-17 02:28:15,931] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:28:15,931] [sonarr.py:164]             [INFO]     | Added to Sonarr | 119351  | Broadway: The American Musical                                         |
+[2022-11-17 02:28:15,941] [sonarr.py:167]             [INFO]     | 1 Series added to Sonarr                                                                           |
+[2022-11-17 02:28:15,941] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:28:15,942] [sonarr.py:177]             [INFO]     | Already in Sonarr | 74285   | Project Runway                                                       |
+[2022-11-17 02:28:15,952] [sonarr.py:177]             [INFO]     | Already in Sonarr | 79323   | Foster's Home for Imaginary Friends                                  |
+[2022-11-17 02:28:15,962] [sonarr.py:177]             [INFO]     | Already in Sonarr | 361683  | Frankenstein (2004)                                                  |
+[2022-11-17 02:28:15,974] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73739                                                                          |
+[2022-11-17 02:28:15,975] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73800                                                                          |
+[2022-11-17 02:28:15,976] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72023                                                                          |
+[2022-11-17 02:28:15,976] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74543                                                                          |
+[2022-11-17 02:28:15,976] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73545                                                                          |
+[2022-11-17 02:28:15,976] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74058                                                                          |
+[2022-11-17 02:28:15,977] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73741                                                                          |
+[2022-11-17 02:28:15,977] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74663                                                                          |
+[2022-11-17 02:28:15,978] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249480                                                                         |
+[2022-11-17 02:28:15,978] [sonarr.py:187]             [INFO]     | 12 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:28:15,990] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:28:15,991] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 2004 Collection                                            |
+[2022-11-17 02:28:15,991] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:28:15,991] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:28:15,991] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2004 Collection                                   |
+[2022-11-17 02:28:15,991] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:48                                    |
+[2022-11-17 02:28:15,992] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

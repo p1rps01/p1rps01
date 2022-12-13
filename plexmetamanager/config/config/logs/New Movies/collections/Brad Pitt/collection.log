@@ -1,0 +1,73 @@
+[2022-11-16 23:33:40,858] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:33:40,858] [builder.py:193]            [INFO]     |                                 Brad Pitt Collection in New Movies                                 |
+[2022-11-16 23:33:40,858] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:33:40,858] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:33:40,858] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:33:40,859] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,859] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 23:33:40,859] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,860] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,860] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:33:40,860] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,860] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 287, 'sort_title': '++_Brad Pitt', 'collection_order': 'release'} |
+[2022-11-16 23:33:40,860] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,860] [builder.py:223]            [INFO]     |================================= Validating Brad Pitt Attributes ==================================|
+[2022-11-16 23:33:40,861] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,861] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:33:40,861] [builder.py:533]            [DEBUG]    | Value: 287                                                                                         |
+[2022-11-16 23:33:40,869] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,869] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:33:40,870] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 23:33:40,870] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:40,870] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 23:33:40,870] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 23:33:41,153] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:41,153] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:33:41,153] [builder.py:651]            [DEBUG]    | Value: ++_Brad Pitt                                                                                |
+[2022-11-16 23:33:41,158] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,158] [builder.py:796]            [ERROR]    | Collection Error: Converting Brad Pitt to a normal collection                                      |
+[2022-11-16 23:33:41,164] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,164] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:33:41,164] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Brad Pitt Collection ===================================|
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Brad Pitt", '?type=1&sort=titleSort&push=1&actor=46583&pop=1') |
+[2022-11-16 23:33:41,165] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,165] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Brad Pitt
+[2022-11-16 23:33:41,175] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 23:33:41,176] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 23:33:41,176] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 23:33:41,176] [builder.py:2158]           [INFO]     | 
+[2022-11-16 23:33:41,176] [builder.py:2159]           [INFO]     |================================== Adding to Brad Pitt Collection ==================================|
+[2022-11-16 23:33:41,176] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 23:33:41,176] [builder.py:2174]           [INFO]     | 1/2 | Brad Pitt Collection | + | Bullet Train (2022)                                               |
+[2022-11-16 23:33:43,220] [builder.py:2174]           [INFO]     | 2/2 | Brad Pitt Collection | + | The Lost City (2022)                                              |
+[2022-11-16 23:33:45,778] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 23:33:45,779] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 23:33:45,788] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 23:33:45,788] [builder.py:2528]           [INFO]     |============================= Updating Details of Brad Pitt Collection =============================|
+[2022-11-16 23:33:45,789] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:33:45,806] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | William Bradley Pitt (born December 18, 1963) is an American actor and film producer. He is the recipient of various accolades, including an Academy Award, a British Academy Film Award, and two Golden Globe Awards for his acting, in addition to a second Academy Award, a second British Academy Film Award, a third Golden Globe Award, and a Primetime Emmy Award as a producer under his production company, Plan B Entertainment.
+                                                                 | 
+                                                                 | Pitt first gained recognition as a cowboy hitchhiker in the road film Thelma & Louise (1991). His first leading roles in big-budget productions came with the drama films A River Runs Through It (1992) and Legends of the Fall (1994), and the horror film Interview with the Vampire (1994). He gave critically acclaimed performances in the crime thriller Seven (1995) and the science fiction film 12 Monkeys (1995), the latter earning him a Golden Globe Award for Best Supporting Actor and an Academy Award nomination.
+                                                                 | 
+                                                                 | Pitt starred in Fight Club (1999) and the heist film Ocean's Eleven (2001), as well as its sequels, Ocean's Twelve (2004) and Ocean's Thirteen (2007). His greatest commercial successes have been Ocean's Eleven (2001), Troy (2004), Mr. & Mrs. Smith (2005), World War Z (2013), and Once Upon a Time in Hollywood (2019), for which he won a second Golden Globe Award and the Academy Award for Best Supporting Actor. Pitt's other Academy Award nominated performances were in The Curious Case of Benjamin Button (2008) and Moneyball (2011). He produced The Departed (2006) and 12 Years a Slave (2013), both of which won the Academy Award for Best Picture, and also The Tree of Life (2011), Moneyball (2011) and The Big Short (2015), all of which were nominated for Best Picture. Pitt is the second actor to have won Academy Awards for both Best Supporting Actor and Best Picture.
+                                                                 | Sort Title | ++_Brad Pitt
+                                                                 | Label | +PMM
+[2022-11-16 23:33:47,440] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:33:47,440] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:33:47,441] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 23:33:47,441] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/gVtRLNr7MiASuGXO6UZfFBU9Ol4.jpg
+[2022-11-16 23:33:47,490] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/gVtRLNr7MiASuGXO6UZfFBU9Ol4.jpg
+[2022-11-16 23:33:47,517] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:33:47,517] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:33:47,517] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Brad Pitt Collection                                    |
+[2022-11-16 23:33:47,517] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 23:33:47,517] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

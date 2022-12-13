@@ -1,0 +1,157 @@
+[2022-11-16 18:54:24,452] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:24,452] [builder.py:193]            [INFO]     |                     Sundance Film Festival 2015 Collection in Halloween Movies                     |
+[2022-11-16 18:54:24,452] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:24,452] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,452] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:24,452] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,452] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:24,453] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,454] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:24,454] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,456] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:24,456] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,459] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:24,460] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,463] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,463] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:24,471] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:24,472] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,477] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:24,478] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,481] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,481] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:24,481] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,481] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2015-sundance', 'summary': 'Sundance Film Festival of 2015.', 'name': 'Sundance Film Festival 2015', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2015', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2015.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:24,481] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,482] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2015 Attributes =========================|
+[2022-11-16 18:54:24,482] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,482] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:24,482] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2015                                                                 |
+[2022-11-16 18:54:24,482] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,482] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:24,482] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:24,482] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,482] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:24,482] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:24,482] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,482] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:24,482] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:24,482] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,483] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:24,483] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:24,483] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,483] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:24,483] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 18:54:24,483] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,483] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:24,483] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2015-sundance                                            |
+[2022-11-16 18:54:24,529] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,529] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:24,529] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2015.                                                             |
+[2022-11-16 18:54:24,530] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,530] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:24,530] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:24,530] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,530] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:24,530] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2015                                                             |
+[2022-11-16 18:54:24,531] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,531] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:24,531] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2015.jpg |
+[2022-11-16 18:54:24,700] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,700] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:24,700] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:24,734] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,734] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:24,734] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,734] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2015 Collection ==========================|
+[2022-11-16 18:54:24,735] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,735] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:24,735] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,735] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2015-sundance                              |
+[2022-11-16 18:54:24,735] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,736] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:24,739] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,739] [builder.py:1575]           [DEBUG]    | 56 IDs Found                                                                                       |
+[2022-11-16 18:54:24,739] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:24,739] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,740] [builder.py:2159]           [INFO]     |========================= Adding to Sundance Film Festival 2015 Collection =========================|
+[2022-11-16 18:54:24,740] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,740] [builder.py:2174]           [INFO]     | 1/2 | Sundance Film Festival 2015 Collection | = | The Witch (2015)                                |
+[2022-11-16 18:54:24,740] [builder.py:2174]           [INFO]     | 2/2 | Sundance Film Festival 2015 Collection | = | Hellions (2015)                                 |
+[2022-11-16 18:54:24,740] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,740] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:54:24,740] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,740] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:24,741] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:24,960] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Wild Tales (2014) (TMDb: 265195)                      |
+[2022-11-16 18:54:24,971] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Brooklyn (2015) (TMDb: 167073)                        |
+[2022-11-16 18:54:24,987] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The End of the Tour (2015) (TMDb: 249688)             |
+[2022-11-16 18:54:24,998] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Me and Earl and the Dying Girl (2015) (TMDb: 308369)  |
+[2022-11-16 18:54:25,009] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Diary of a Teenage Girl (2015) (TMDb: 250124)     |
+[2022-11-16 18:54:25,021] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Dope (2015) (TMDb: 308639)                            |
+[2022-11-16 18:54:25,032] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Advantageous (2015) (TMDb: 308457)                    |
+[2022-11-16 18:54:25,042] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Stanford Prison Experiment (2015) (TMDb: 308032)  |
+[2022-11-16 18:54:25,054] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | James White (2015) (TMDb: 312804)                     |
+[2022-11-16 18:54:25,067] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Slow West (2015) (TMDb: 223485)                       |
+[2022-11-16 18:54:25,078] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Second Mother (2015) (TMDb: 310569)               |
+[2022-11-16 18:54:25,082] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Glassland (2015) (TMDb: 310491)                       |
+[2022-11-16 18:54:25,097] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Summer of Sangaile (2015) (TMDb: 310568)          |
+[2022-11-16 18:54:25,116] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Umrika (2015) (TMDb: 310567)                          |
+[2022-11-16 18:54:25,128] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Partisan (2015) (TMDb: 306482)                        |
+[2022-11-16 18:54:25,141] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Tribe (2014) (TMDb: 271397)                       |
+[2022-11-16 18:54:25,152] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Girlhood (2014) (TMDb: 266082)                        |
+[2022-11-16 18:54:25,168] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | It Follows (2014) (TMDb: 270303)                      |
+[2022-11-16 18:54:25,180] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Grandma (2015) (TMDb: 309304)                         |
+[2022-11-16 18:54:25,191] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Experimenter (2015) (TMDb: 309299)                    |
+[2022-11-16 18:54:25,207] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Mississippi Grind (2015) (TMDb: 309242)               |
+[2022-11-16 18:54:25,224] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | True Story (2015) (TMDb: 245706)                      |
+[2022-11-16 18:54:25,240] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Cop Car (2015) (TMDb: 310133)                         |
+[2022-11-16 18:54:25,252] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | I Smile Back (2015) (TMDb: 307946)                    |
+[2022-11-16 18:54:25,261] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Entertainment (2015) (TMDb: 246133)                   |
+[2022-11-16 18:54:25,272] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Bronze (2016) (TMDb: 308453)                      |
+[2022-11-16 18:54:25,283] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The D Train (2015) (TMDb: 308638)                     |
+[2022-11-16 18:54:25,293] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Last Days in the Desert (2016) (TMDb: 310119)         |
+[2022-11-16 18:54:25,304] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Mistress America (2015) (TMDb: 309245)                |
+[2022-11-16 18:54:25,316] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Eden (2014) (TMDb: 283330)                            |
+[2022-11-16 18:54:25,330] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | A Walk in the Woods (2015) (TMDb: 232572)             |
+[2022-11-16 18:54:25,362] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Z for Zachariah (2015) (TMDb: 193687)                 |
+[2022-11-16 18:54:25,391] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | 10,000 Saints (2015) (TMDb: 253406)                   |
+[2022-11-16 18:54:25,411] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Digging for Fire (2015) (TMDb: 295490)                |
+[2022-11-16 18:54:25,455] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Lila & Eve (2015) (TMDb: 309581)                      |
+[2022-11-16 18:54:25,469] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | I Am Michael (2015) (TMDb: 291869)                    |
+[2022-11-16 18:54:25,484] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Hallow (2015) (TMDb: 312831)                      |
+[2022-11-16 18:54:25,503] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Results (2015) (TMDb: 294132)                         |
+[2022-11-16 18:54:25,528] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Don Verdean (2015) (TMDb: 309298)                     |
+[2022-11-16 18:54:25,544] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Aloft (2014) (TMDb: 251321)                           |
+[2022-11-16 18:54:25,561] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Knock Knock (2015) (TMDb: 263472)                     |
+[2022-11-16 18:54:25,573] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Wolfpack (2015) (TMDb: 307931)                    |
+[2022-11-16 18:54:25,584] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Cartel Land (2015) (TMDb: 317952)                     |
+[2022-11-16 18:54:25,597] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Meru (2015) (TMDb: 318279)                            |
+[2022-11-16 18:54:25,613] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | (T)ERROR (2015) (TMDb: 318972)                        |
+[2022-11-16 18:54:25,624] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | 3 ½ Minutes, 10 Bullets (2015) (TMDb: 320349)         |
+[2022-11-16 18:54:25,636] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Western (2015) (TMDb: 319093)                         |
+[2022-11-16 18:54:25,647] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Russian Woodpecker (2015) (TMDb: 319092)          |
+[2022-11-16 18:54:25,659] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Dark Horse (2015) (TMDb: 297393)                      |
+[2022-11-16 18:54:25,669] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | How to Change the World (2014) (TMDb: 319073)         |
+[2022-11-16 18:54:25,681] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | The Chinese Mayor (2015) (TMDb: 319090)               |
+[2022-11-16 18:54:25,697] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Pervert Park (2014) (TMDb: 302502)                    |
+[2022-11-16 18:54:25,708] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Dreamcatcher (2015) (TMDb: 318033)                    |
+[2022-11-16 18:54:25,726] [builder.py:2321]           [INFO]     | Sundance Film Festival 2015 Collection | ? | Listen to Me Marlon (2015) (TMDb: 319076)             |
+[2022-11-16 18:54:25,726] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:25,726] [builder.py:2327]           [INFO]     | 54 Movies Missing                                                                                  |
+[2022-11-16 18:54:30,638] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:30,638] [builder.py:2528]           [INFO]     |==================== Updating Details of Sundance Film Festival 2015 Collection ====================|
+[2022-11-16 18:54:30,638] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:30,653] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:54:30,654] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:54:30,654] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2015.jpg |
+[2022-11-16 18:54:30,654] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Sundance Film Festival 2015/poster.jpg', 'prefix': "Sundance Film Festival 2015's ", 'is_poster': True, 'is_url': False, 'compare': 262893, 'message': "Sundance Film Festival 2015's poster to [File] /config/Halloween_Movies/Assets/Sundance Film Festival 2015/poster.jpg"} |
+[2022-11-16 18:54:30,655] [library.py:180]            [INFO]     | Detail: Sundance Film Festival 2015's poster update not needed                                     |
+[2022-11-16 18:54:30,713] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:30,713] [builder.py:2687]           [INFO]     |========================== Sorting Sundance Film Festival 2015 Collection ==========================|
+[2022-11-16 18:54:30,714] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:30,714] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:30,714] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:54:30,714] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2015 Collection                           |
+[2022-11-16 18:54:30,714] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 18:54:30,715] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

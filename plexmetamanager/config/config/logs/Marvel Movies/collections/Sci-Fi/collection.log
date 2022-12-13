@@ -1,0 +1,224 @@
+[2022-11-17 00:22:49,925] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:22:49,926] [builder.py:193]            [INFO]     |                                 Sci-Fi Collection in Marvel Movies                                 |
+[2022-11-17 00:22:49,926] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:22:49,926] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:22:49,926] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:22:49,926] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,927] [meta.py:210]               [DEBUG]    |======================================= Template IMDb Genre ========================================|
+[2022-11-17 00:22:49,927] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,931] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,931] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:22:49,931] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,932] [meta.py:515]               [DEBUG]    | {'imdb_list': [{'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi', 'limit': 100}, {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi&sort=user_rating,desc', 'limit': 100}], 'sort_title': '+3_Sci-Fi', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-11-17 00:22:49,932] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,932] [builder.py:223]            [INFO]     |=================================== Validating Sci-Fi Attributes ===================================|
+[2022-11-17 00:22:49,932] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,932] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 00:22:49,932] [builder.py:428]            [DEBUG]    | Value: random                                                                                      |
+[2022-11-17 00:22:49,943] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,943] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:22:49,943] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:22:49,943] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,943] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:22:49,943] [builder.py:651]            [DEBUG]    | Value: Science Fiction (Sci-Fi) film is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology. |
+[2022-11-17 00:22:49,944] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:49,944] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 00:22:49,944] [builder.py:651]            [DEBUG]    | Value: [{'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi', 'limit': 100}, {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi&sort=user_rating,desc', 'limit': 100}] |
+[2022-11-17 00:22:50,579] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:22:50,582] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:22:50,582] [builder.py:651]            [DEBUG]    | Value: +3_Sci-Fi                                                                                   |
+[2022-11-17 00:22:50,761] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:22:50,761] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:22:50,761] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:596]  [INFO]     |==================================== Running Sci-Fi Collection =====================================|
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['random']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Sci-Fi
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-17 00:22:50,762] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:22:50,763] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi', 'limit': 100}
+[2022-11-17 00:22:50,763] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:22:50,763] [imdb.py:202]               [INFO]     | Processing IMDb List: 100 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi
+[2022-11-17 00:22:53,679] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:22:53,679] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-17 00:22:53,679] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:22:53,745] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:22:53,749] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi&sort=user_rating,desc', 'limit': 100}
+[2022-11-17 00:22:53,750] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:22:53,750] [imdb.py:202]               [INFO]     | Processing IMDb List: 100 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sci-fi&sort=user_rating,desc
+[2022-11-17 00:22:56,571] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:22:56,571] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-17 00:22:56,571] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:22:56,655] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:22:56,659] [builder.py:2159]           [INFO]     |=================================== Adding to Sci-Fi Collection ====================================|
+[2022-11-17 00:22:56,660] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:22:56,785] [builder.py:2174]           [INFO]     |  1/27 | Sci-Fi Collection | = | Black Panther (2018)                                               |
+[2022-11-17 00:22:56,785] [builder.py:2174]           [INFO]     |  2/27 | Sci-Fi Collection | = | Spider-Man: No Way Home (2021)                                     |
+[2022-11-17 00:22:56,785] [builder.py:2174]           [INFO]     |  3/27 | Sci-Fi Collection | = | Avengers: Endgame (2019)                                           |
+[2022-11-17 00:22:56,786] [builder.py:2174]           [INFO]     |  4/27 | Sci-Fi Collection | = | Doctor Strange in the Multiverse of Madness (2022)                 |
+[2022-11-17 00:22:56,786] [builder.py:2174]           [INFO]     |  5/27 | Sci-Fi Collection | = | Eternals (2021)                                                    |
+[2022-11-17 00:22:56,786] [builder.py:2174]           [INFO]     |  6/27 | Sci-Fi Collection | = | Spider-Man (2002)                                                  |
+[2022-11-17 00:22:56,786] [builder.py:2174]           [INFO]     |  7/27 | Sci-Fi Collection | = | Avengers: Infinity War (2018)                                      |
+[2022-11-17 00:22:56,786] [builder.py:2174]           [INFO]     |  8/27 | Sci-Fi Collection | = | Deadpool (2016)                                                    |
+[2022-11-17 00:22:56,787] [builder.py:2174]           [INFO]     |  9/27 | Sci-Fi Collection | = | Iron Man (2008)                                                    |
+[2022-11-17 00:22:56,787] [builder.py:2174]           [INFO]     | 10/27 | Sci-Fi Collection | = | Man of Steel (2013)                                                |
+[2022-11-17 00:22:56,787] [builder.py:2174]           [INFO]     | 11/27 | Sci-Fi Collection | = | Guardians of the Galaxy (2014)                                     |
+[2022-11-17 00:22:56,787] [builder.py:2174]           [INFO]     | 12/27 | Sci-Fi Collection | = | Deadpool 2 (2018)                                                  |
+[2022-11-17 00:22:56,787] [builder.py:2174]           [INFO]     | 13/27 | Sci-Fi Collection | = | The Avengers (2012)                                                |
+[2022-11-17 00:22:56,788] [builder.py:2174]           [INFO]     | 14/27 | Sci-Fi Collection | = | Black Widow (2021)                                                 |
+[2022-11-17 00:22:56,788] [builder.py:2174]           [INFO]     | 15/27 | Sci-Fi Collection | = | Guardians of the Galaxy Vol. 2 (2017)                              |
+[2022-11-17 00:22:56,788] [builder.py:2174]           [INFO]     | 16/27 | Sci-Fi Collection | = | Shang-Chi and the Legend of the Ten Rings (2021)                   |
+[2022-11-17 00:22:56,788] [builder.py:2174]           [INFO]     | 17/27 | Sci-Fi Collection | = | Captain America: The First Avenger (2011)                          |
+[2022-11-17 00:22:56,788] [builder.py:2174]           [INFO]     | 18/27 | Sci-Fi Collection | = | Captain America: Civil War (2016)                                  |
+[2022-11-17 00:22:56,789] [builder.py:2174]           [INFO]     | 19/27 | Sci-Fi Collection | = | Spider-Man 3 (2007)                                                |
+[2022-11-17 00:22:56,789] [builder.py:2174]           [INFO]     | 20/27 | Sci-Fi Collection | = | Captain Marvel (2019)                                              |
+[2022-11-17 00:22:56,789] [builder.py:2174]           [INFO]     | 21/27 | Sci-Fi Collection | = | Batman v Superman: Dawn of Justice (2016)                          |
+[2022-11-17 00:22:56,789] [builder.py:2174]           [INFO]     | 22/27 | Sci-Fi Collection | = | Spider-Man: Homecoming (2017)                                      |
+[2022-11-17 00:22:56,790] [builder.py:2174]           [INFO]     | 23/27 | Sci-Fi Collection | = | Avengers: Age of Ultron (2015)                                     |
+[2022-11-17 00:22:56,790] [builder.py:2174]           [INFO]     | 24/27 | Sci-Fi Collection | = | Spider-Man 2 (2004)                                                |
+[2022-11-17 00:22:56,790] [builder.py:2174]           [INFO]     | 25/27 | Sci-Fi Collection | = | Captain America: The Winter Soldier (2014)                         |
+[2022-11-17 00:22:56,790] [builder.py:2174]           [INFO]     | 26/27 | Sci-Fi Collection | = | Doctor Strange (2016)                                              |
+[2022-11-17 00:22:56,791] [builder.py:2174]           [INFO]     | 27/27 | Sci-Fi Collection | = | Spider-Man: Far from Home (2019)                                   |
+[2022-11-17 00:22:56,791] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:22:56,791] [builder.py:2196]           [INFO]     | 27 Movies Processed 0 Movies Added                                                                 |
+[2022-11-17 00:22:56,791] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:22:56,791] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:22:56,792] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:22:56,807] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Black Adam (2022) (TMDb: 436270)                                           |
+[2022-11-17 00:22:56,817] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)                    |
+[2022-11-17 00:22:56,833] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Nope (2022) (TMDb: 762504)                                                 |
+[2022-11-17 00:22:56,861] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                               |
+[2022-11-17 00:22:56,863] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Avatar (2009) (TMDb: 19995)                                                |
+[2022-11-17 00:22:56,882] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Morbius (2022) (TMDb: 526896)                                              |
+[2022-11-17 00:22:56,893] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Interstellar (2014) (TMDb: 157336)                                         |
+[2022-11-17 00:22:56,903] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Oblivion (2013) (TMDb: 75612)                                              |
+[2022-11-17 00:22:56,914] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Rogue One: A Star Wars Story (2016) (TMDb: 330459)                         |
+[2022-11-17 00:22:56,925] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Dune (2021) (TMDb: 438631)                                                 |
+[2022-11-17 00:22:56,936] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                              |
+[2022-11-17 00:22:56,947] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | V for Vendetta (2006) (TMDb: 752)                                          |
+[2022-11-17 00:22:56,958] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Prey (2022) (TMDb: 766507)                                                 |
+[2022-11-17 00:22:56,969] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Inception (2010) (TMDb: 27205)                                             |
+[2022-11-17 00:22:56,980] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Hunger Games (2012) (TMDb: 70160)                                      |
+[2022-11-17 00:22:56,990] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Tenet (2020) (TMDb: 577922)                                                |
+[2022-11-17 00:22:57,000] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Blade Runner 2049 (2017) (TMDb: 335984)                                    |
+[2022-11-17 00:22:57,011] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | R.I.P.D. (2013) (TMDb: 49524)                                              |
+[2022-11-17 00:22:57,029] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Don't Look Up (2021) (TMDb: 646380)                                        |
+[2022-11-17 00:22:57,046] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Ghostbusters: Afterlife (2021) (TMDb: 425909)                              |
+[2022-11-17 00:22:57,057] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Zack Snyder's Justice League (2021) (TMDb: 791373)                         |
+[2022-11-17 00:22:57,068] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Jurassic Park (1993) (TMDb: 329)                                           |
+[2022-11-17 00:22:57,079] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Free Guy (2021) (TMDb: 550988)                                             |
+[2022-11-17 00:22:57,090] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Matrix (1999) (TMDb: 603)                                              |
+[2022-11-17 00:22:57,101] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Suicide Squad (2021) (TMDb: 436969)                                    |
+[2022-11-17 00:22:57,110] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Fifth Element (1997) (TMDb: 18)                                        |
+[2022-11-17 00:22:57,121] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Prestige (2006) (TMDb: 1124)                                           |
+[2022-11-17 00:22:57,133] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | 28 Days Later (2002) (TMDb: 170)                                           |
+[2022-11-17 00:22:57,144] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Donnie Darko (2001) (TMDb: 141)                                            |
+[2022-11-17 00:22:57,156] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Eternal Sunshine of the Spotless Mind (2004) (TMDb: 38)                    |
+[2022-11-17 00:22:57,167] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Ready Player One (2018) (TMDb: 333339)                                     |
+[2022-11-17 00:22:57,184] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Matrix Resurrections (2021) (TMDb: 624860)                             |
+[2022-11-17 00:22:57,193] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Starship Troopers (1997) (TMDb: 563)                                       |
+[2022-11-17 00:22:57,224] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | About Time (2013) (TMDb: 122906)                                           |
+[2022-11-17 00:22:57,239] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Transformers (2007) (TMDb: 1858)                                           |
+[2022-11-17 00:22:57,255] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Mad Max: Fury Road (2015) (TMDb: 76341)                                    |
+[2022-11-17 00:22:57,267] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Spider-Man: Into the Spider-Verse (2018) (TMDb: 324857)                    |
+[2022-11-17 00:22:57,277] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Suicide Squad (2016) (TMDb: 297761)                                        |
+[2022-11-17 00:22:57,289] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Godzilla vs. Kong (2021) (TMDb: 399566)                                    |
+[2022-11-17 00:22:57,302] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Arrival (2016) (TMDb: 329865)                                              |
+[2022-11-17 00:22:57,312] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Her (2013) (TMDb: 152601)                                                  |
+[2022-11-17 00:22:57,326] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Adam Project (2022) (TMDb: 696806)                                     |
+[2022-11-17 00:22:57,337] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Lightyear (2022) (TMDb: 718789)                                            |
+[2022-11-17 00:22:57,349] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Hunger Games: Catching Fire (2013) (TMDb: 101299)                      |
+[2022-11-17 00:22:57,360] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | A Quiet Place (2018) (TMDb: 447332)                                        |
+[2022-11-17 00:22:57,371] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Snowpiercer (2013) (TMDb: 110415)                                          |
+[2022-11-17 00:22:57,382] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Watchmen (2009) (TMDb: 13183)                                              |
+[2022-11-17 00:22:57,393] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Wars: The Rise of Skywalker (2019) (TMDb: 181812)                     |
+[2022-11-17 00:22:57,404] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Terminator 2: Judgment Day (1991) (TMDb: 280)                              |
+[2022-11-17 00:22:57,419] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Equilibrium (2002) (TMDb: 7299)                                            |
+[2022-11-17 00:22:57,430] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Vanilla Sky (2001) (TMDb: 1903)                                            |
+[2022-11-17 00:22:57,442] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Trek (2009) (TMDb: 13475)                                             |
+[2022-11-17 00:22:57,452] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Idiocracy (2006) (TMDb: 7512)                                              |
+[2022-11-17 00:22:57,455] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Thor: Ragnarok (2017) (TMDb: 284053)                                       |
+[2022-11-17 00:22:57,465] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Mist (2007) (TMDb: 5876)                                               |
+[2022-11-17 00:22:57,475] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | X-Men: Apocalypse (2016) (TMDb: 246655)                                    |
+[2022-11-17 00:22:57,486] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Jurassic World (2015) (TMDb: 135397)                                       |
+[2022-11-17 00:22:57,496] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Passengers (2016) (TMDb: 274870)                                           |
+[2022-11-17 00:22:57,508] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Aquaman (2018) (TMDb: 297802)                                              |
+[2022-11-17 00:22:57,519] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Wonder Woman (2017) (TMDb: 297762)                                         |
+[2022-11-17 00:22:57,530] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Triangle (2009) (TMDb: 26466)                                              |
+[2022-11-17 00:22:57,547] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Edge of Tomorrow (2014) (TMDb: 137113)                                     |
+[2022-11-17 00:22:57,563] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Ex Machina (2015) (TMDb: 264660)                                           |
+[2022-11-17 00:22:57,574] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Annihilation (2018) (TMDb: 300668)                                         |
+[2022-11-17 00:22:57,585] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | X-Men (2000) (TMDb: 36657)                                                 |
+[2022-11-17 00:22:57,596] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Justice League (2017) (TMDb: 141052)                                       |
+[2022-11-17 00:22:57,614] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Wars: Episode I - The Phantom Menace (1999) (TMDb: 1893)              |
+[2022-11-17 00:22:57,631] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Logan (2017) (TMDb: 263115)                                                |
+[2022-11-17 00:22:57,643] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Armageddon (1998) (TMDb: 95)                                               |
+[2022-11-17 00:22:57,654] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Martian (2015) (TMDb: 286217)                                          |
+[2022-11-17 00:22:57,667] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Wars: The Force Awakens (2015) (TMDb: 140607)                         |
+[2022-11-17 00:22:57,677] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Divergent (2014) (TMDb: 157350)                                            |
+[2022-11-17 00:22:57,688] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Minority Report (2002) (TMDb: 180)                                         |
+[2022-11-17 00:22:57,700] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | 28 Weeks Later (2007) (TMDb: 1562)                                         |
+[2022-11-17 00:22:57,712] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Platform (2019) (TMDb: 619264)                                         |
+[2022-11-17 00:22:57,725] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Alita: Battle Angel (2019) (TMDb: 399579)                                  |
+[2022-11-17 00:22:57,753] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | WALL·E (2008) (TMDb: 10681)                                                |
+[2022-11-17 00:22:57,769] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | PK (2014) (TMDb: 297222)                                                   |
+[2022-11-17 00:22:57,972] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Iron Giant (1999) (TMDb: 10386)                                        |
+[2022-11-17 00:22:57,984] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Twelve Monkeys (1995) (TMDb: 63)                                           |
+[2022-11-17 00:22:57,995] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | X-Men: Days of Future Past (2014) (TMDb: 127585)                           |
+[2022-11-17 00:22:58,006] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | District 9 (2009) (TMDb: 17654)                                            |
+[2022-11-17 00:22:58,035] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Man from Earth (2007) (TMDb: 13363)                                    |
+[2022-11-17 00:22:58,048] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Children of Men (2006) (TMDb: 9693)                                        |
+[2022-11-17 00:22:58,059] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Ghost in the Shell (1995) (TMDb: 9323)                                     |
+[2022-11-17 00:22:58,071] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Isle of Dogs (2018) (TMDb: 399174)                                         |
+[2022-11-17 00:22:58,081] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Big Hero 6 (2014) (TMDb: 177572)                                           |
+[2022-11-17 00:22:58,094] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Moon (2009) (TMDb: 17431)                                                  |
+[2022-11-17 00:22:58,104] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Mr. Nobody (2009) (TMDb: 31011)                                            |
+[2022-11-17 00:22:58,119] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Serenity (2005) (TMDb: 16320)                                              |
+[2022-11-17 00:22:58,130] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Gattaca (1997) (TMDb: 782)                                                 |
+[2022-11-17 00:22:58,143] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Wreck-It Ralph (2012) (TMDb: 82690)                                        |
+[2022-11-17 00:22:58,159] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Lego Movie (2014) (TMDb: 137106)                                       |
+[2022-11-17 00:22:58,171] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Gravity (2013) (TMDb: 49047)                                               |
+[2022-11-17 00:22:58,184] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Trek Into Darkness (2013) (TMDb: 54138)                               |
+[2022-11-17 00:22:58,197] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | X-Men: First Class (2011) (TMDb: 49538)                                    |
+[2022-11-17 00:22:58,210] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Mitchells vs. the Machines (2021) (TMDb: 501929)                       |
+[2022-11-17 00:22:58,240] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Incredibles 2 (2018) (TMDb: 260513)                                        |
+[2022-11-17 00:22:58,262] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Dawn of the Planet of the Apes (2014) (TMDb: 119450)                       |
+[2022-11-17 00:22:58,276] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Despicable Me (2010) (TMDb: 20352)                                         |
+[2022-11-17 00:22:58,293] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Rise of the Planet of the Apes (2011) (TMDb: 61791)                        |
+[2022-11-17 00:22:58,320] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Butterfly Effect (2004) (TMDb: 1954)                                   |
+[2022-11-17 00:22:58,335] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Wars: Episode III - Revenge of the Sith (2005) (TMDb: 1895)           |
+[2022-11-17 00:22:58,345] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Dark City (1998) (TMDb: 2666)                                              |
+[2022-11-17 00:22:58,356] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Star Trek: First Contact (1996) (TMDb: 199)                                |
+[2022-11-17 00:22:58,367] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Upgrade (2018) (TMDb: 500664)                                              |
+[2022-11-17 00:22:58,378] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Source Code (2011) (TMDb: 45612)                                           |
+[2022-11-17 00:22:58,389] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Wallace & Gromit: The Curse of the Were-Rabbit (2005) (TMDb: 533)          |
+[2022-11-17 00:22:58,401] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Contact (1997) (TMDb: 686)                                                 |
+[2022-11-17 00:22:58,411] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Total Recall (1990) (TMDb: 861)                                            |
+[2022-11-17 00:22:58,422] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | War for the Planet of the Apes (2017) (TMDb: 281338)                       |
+[2022-11-17 00:22:58,433] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Predestination (2014) (TMDb: 206487)                                       |
+[2022-11-17 00:22:58,444] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Cloud Atlas (2012) (TMDb: 83542)                                           |
+[2022-11-17 00:22:58,454] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Looper (2012) (TMDb: 59967)                                                |
+[2022-11-17 00:22:58,470] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Limitless (2011) (TMDb: 51876)                                             |
+[2022-11-17 00:22:58,483] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | X2 (2003) (TMDb: 36658)                                                    |
+[2022-11-17 00:22:58,494] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | K-PAX (2001) (TMDb: 167)                                                   |
+[2022-11-17 00:22:58,522] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Frequency (2000) (TMDb: 10559)                                             |
+[2022-11-17 00:22:58,544] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Galaxy Quest (1999) (TMDb: 926)                                            |
+[2022-11-17 00:22:58,554] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Back to the Future Part III (1990) (TMDb: 196)                             |
+[2022-11-17 00:22:58,565] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | The Lego Batman Movie (2017) (TMDb: 324849)                                |
+[2022-11-17 00:22:58,576] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | Okja (2017) (TMDb: 387426)                                                 |
+[2022-11-17 00:22:58,587] [builder.py:2321]           [INFO]     | Sci-Fi Collection | ? | I Origins (2014) (TMDb: 244267)                                            |
+[2022-11-17 00:22:58,587] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:22:58,587] [builder.py:2327]           [INFO]     | 123 Movies Missing                                                                                 |
+[2022-11-17 00:23:00,970] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 00:23:00,971] [builder.py:2528]           [INFO]     |============================== Updating Details of Sci-Fi Collection ===============================|
+[2022-11-17 00:23:00,971] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:23:00,981] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-17 00:23:01,046] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:23:01,047] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:23:01,047] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Sci-Fi Collection                                     |
+[2022-11-17 00:23:01,047] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-17 00:23:01,047] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

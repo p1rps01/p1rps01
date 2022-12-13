@@ -1,0 +1,51 @@
+[2022-11-17 09:01:56,707] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:01:56,708] [builder.py:193]            [INFO]     |                              Talk Show Collection in Christmas Movies                              |
+[2022-11-17 09:01:56,708] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 09:01:56,709] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 09:01:56,710] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 09:01:56,711] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,711] [meta.py:210]               [DEBUG]    |========================================== Template Genre ==========================================|
+[2022-11-17 09:01:56,712] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,716] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,718] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 09:01:56,719] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,720] [meta.py:515]               [DEBUG]    | {'plex_search': {'genre': 'Talk Show'}, 'url_poster': 'https://theposterdb.com/api/assets/213344', 'sort_title': '++++++++_Talk Show', 'collection_mode': 'hide', 'collection_order': 'release.desc'} |
+[2022-11-17 09:01:56,721] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,722] [builder.py:223]            [INFO]     |================================= Validating Talk Show Attributes ==================================|
+[2022-11-17 09:01:56,723] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,724] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 09:01:56,725] [builder.py:615]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-17 09:01:56,725] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:56,726] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 09:01:56,726] [builder.py:651]            [DEBUG]    | Value: ['https://www.imdb.com/search/keyword/?title_type=movie&genres=Talk-Show']                  |
+[2022-11-17 09:01:58,248] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:58,275] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 09:01:58,275] [builder.py:651]            [DEBUG]    | Value: A talk show (or chat show in British English) is a television programming or radio programming genre structured around the act of spontaneous conversation. |
+[2022-11-17 09:01:58,276] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 09:01:58,285] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-17 09:01:58,285] [builder.py:651]            [DEBUG]    | Value: {'genre': 'Talk Show'}                                                                      |
+[2022-11-17 09:01:58,725] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 728, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1305, in _plex
+                                                                 |     self.builders.append((method_name, self.build_filter("plex_search", dict_data)))
+                                                                 |   File "/modules/builder.py", line 1969, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1903, in _filter
+                                                                 |     inside_filter, inside_display = _filter(dict_data, is_all=attr == "all", level=level)
+                                                                 |   File "/modules/builder.py", line 1908, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 2055, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Talk Show not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+                                                                 | 
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:725]  [ERROR]    | Plex Error: genre: Talk Show not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Talk Show Collection                                    |
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 09:01:58,727] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

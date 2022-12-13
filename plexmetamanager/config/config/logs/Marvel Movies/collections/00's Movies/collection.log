@@ -1,0 +1,56 @@
+[2022-11-17 00:30:48,309] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:30:48,309] [builder.py:193]            [INFO]     |                              00's Movies Collection in Marvel Movies                               |
+[2022-11-17 00:30:48,310] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:30:48,310] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,310] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:30:48,310] [builder.py:223]            [INFO]     |================================ Validating 00's Movies Attributes =================================|
+[2022-11-17 00:30:48,310] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,310] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:30:48,310] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-17 00:30:48,310] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,310] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-17 00:30:48,310] [builder.py:651]            [DEBUG]    | Value: ordereddict([('decade', 2000)])                                                             |
+[2022-11-17 00:30:48,311] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,311] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:30:48,311] [builder.py:651]            [DEBUG]    | Value: +++_Decade                                                                                  |
+[2022-11-17 00:30:48,356] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,356] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:30:48,356] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,356] [plex_meta_manager.py:596]  [INFO]     |================================== Running 00's Movies Collection ==================================|
+[2022-11-17 00:30:48,356] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,356] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 00:30:48,357] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,357] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Decade is 2000", '?type=1&sort=titleSort&push=1&decade=2000&pop=1') |
+[2022-11-17 00:30:48,357] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,357] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Decade is 2000
+[2022-11-17 00:30:48,390] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:30:48,391] [builder.py:1575]           [DEBUG]    | 9 IDs Found
+[2022-11-17 00:30:48,391] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:30:48,391] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:30:48,391] [builder.py:2159]           [INFO]     |================================= Adding to 00's Movies Collection =================================|
+[2022-11-17 00:30:48,391] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 1/9 | 00's Movies Collection | = | Fantastic Four (2005)                                           |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 2/9 | 00's Movies Collection | = | Fantastic Four: Rise of the Silver Surfer (2007)                |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 3/9 | 00's Movies Collection | = | Ghost Rider (2007)                                              |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 4/9 | 00's Movies Collection | = | Hulk (2003)                                                     |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 5/9 | 00's Movies Collection | = | The Incredible Hulk (2008)                                      |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 6/9 | 00's Movies Collection | = | Iron Man (2008)                                                 |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 7/9 | 00's Movies Collection | = | Spider-Man (2002)                                               |
+[2022-11-17 00:30:48,392] [builder.py:2174]           [INFO]     | 8/9 | 00's Movies Collection | = | Spider-Man 2 (2004)                                             |
+[2022-11-17 00:30:48,393] [builder.py:2174]           [INFO]     | 9/9 | 00's Movies Collection | = | Spider-Man 3 (2007)                                             |
+[2022-11-17 00:30:48,393] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,393] [builder.py:2196]           [INFO]     | 9 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 00:30:48,397] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,397] [builder.py:2528]           [INFO]     |============================ Updating Details of 00's Movies Collection ============================|
+[2022-11-17 00:30:48,398] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,405] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-17 00:30:48,447] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,447] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:30:48,447] [plex_meta_manager.py:737]  [INFO]     |                                  Finished 00's Movies Collection                                   |
+[2022-11-17 00:30:48,448] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 00:30:48,448] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

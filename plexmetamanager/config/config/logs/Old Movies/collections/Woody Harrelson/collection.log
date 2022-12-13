@@ -1,0 +1,73 @@
+[2022-11-16 22:12:54,299] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:12:54,300] [builder.py:193]            [INFO]     |                              Woody Harrelson Collection in Old Movies                              |
+[2022-11-16 22:12:54,300] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:12:54,300] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,300] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:12:54,300] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,300] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:12:54,301] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,302] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,302] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:12:54,302] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,303] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 57755, 'sort_title': '++_Woody Harrelson', 'collection_order': 'release'} |
+[2022-11-16 22:12:54,303] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,303] [builder.py:223]            [INFO]     |============================== Validating Woody Harrelson Attributes ===============================|
+[2022-11-16 22:12:54,303] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,303] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:12:54,303] [builder.py:533]            [DEBUG]    | Value: 57755                                                                                       |
+[2022-11-16 22:12:54,325] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,325] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:12:54,325] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:12:54,325] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,326] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:12:54,326] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:12:54,606] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,606] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:12:54,607] [builder.py:651]            [DEBUG]    | Value: ++_Woody Harrelson                                                                          |
+[2022-11-16 22:12:54,613] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,613] [builder.py:796]            [ERROR]    | Collection Error: Converting Woody Harrelson to a normal collection                                |
+[2022-11-16 22:12:54,621] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,621] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:12:54,621] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,621] [plex_meta_manager.py:596]  [INFO]     |================================ Running Woody Harrelson Collection ================================|
+[2022-11-16 22:12:54,621] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,621] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:12:54,622] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:54,622] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Woody Harrelson", '?type=1&sort=titleSort&push=1&actor=33435&pop=1') |
+[2022-11-16 22:12:54,622] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,622] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Woody Harrelson
+[2022-11-16 22:12:54,639] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:12:54,640] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 22:12:54,640] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:12:54,640] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:12:54,640] [builder.py:2159]           [INFO]     |=============================== Adding to Woody Harrelson Collection ===============================|
+[2022-11-16 22:12:54,640] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:12:54,640] [builder.py:2174]           [INFO]     | 1/4 | Woody Harrelson Collection | + | 2012 (2009)                                                 |
+[2022-11-16 22:12:56,737] [builder.py:2174]           [INFO]     | 2/4 | Woody Harrelson Collection | + | Solo: A Star Wars Story (2018)                              |
+[2022-11-16 22:12:58,870] [builder.py:2174]           [INFO]     | 3/4 | Woody Harrelson Collection | + | Venom (2018)                                                |
+[2022-11-16 22:13:00,775] [builder.py:2174]           [INFO]     | 4/4 | Woody Harrelson Collection | + | Venom: Let There Be Carnage (2021)                          |
+[2022-11-16 22:13:05,184] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:13:05,184] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 22:13:05,191] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:13:05,191] [builder.py:2528]           [INFO]     |========================== Updating Details of Woody Harrelson Collection ==========================|
+[2022-11-16 22:13:05,191] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:13:05,197] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Woodrow Tracy Harrelson (born July 23, 1961) is an American actor and playwright. He is the recipient of several accolades, including a Primetime Emmy Award and two Screen Actors Guild Awards, in addition to nominations for three Academy Awards and four Golden Globe Awards.
+                                                                 | 
+                                                                 | Harrelson first became known for his role as bartender Woody Boyd on the NBC sitcom Cheers (1985–1993), for which he won a Primetime Emmy Award for Outstanding Supporting Actor in a Comedy Series from a total of five nominations. He went on to receive three Academy Award nominations: Best Actor for The People vs. Larry Flynt (1996), and Best Supporting Actor for both The Messenger (2009) and Three Billboards Outside Ebbing, Missouri (2017). Harrelson was also nominated for a Primetime Emmy Award for Outstanding Lead Actor in a Drama Series for his role as Marty Hart in the crime anthology series True Detective (2014).
+                                                                 | Sort Title | ++_Woody Harrelson
+                                                                 | Label | +PMM
+[2022-11-16 22:13:06,966] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:13:06,966] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:13:06,967] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:13:06,967] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg
+[2022-11-16 22:13:07,059] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg
+[2022-11-16 22:13:07,123] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:13:07,123] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:13:07,123] [plex_meta_manager.py:737]  [INFO]     |                                Finished Woody Harrelson Collection                                 |
+[2022-11-16 22:13:07,124] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-11-16 22:13:07,124] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

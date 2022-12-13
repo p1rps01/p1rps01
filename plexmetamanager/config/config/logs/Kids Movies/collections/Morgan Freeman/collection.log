@@ -1,0 +1,79 @@
+[2022-11-16 20:21:51,387] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:51,387] [builder.py:193]            [INFO]     |                              Morgan Freeman Collection in Kids Movies                              |
+[2022-11-16 20:21:51,387] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:51,387] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,388] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:21:51,388] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,388] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:21:51,388] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,390] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,390] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:21:51,390] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,390] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 192, 'sort_title': '++_Morgan Freeman', 'collection_order': 'release'} |
+[2022-11-16 20:21:51,390] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,390] [builder.py:223]            [INFO]     |=============================== Validating Morgan Freeman Attributes ===============================|
+[2022-11-16 20:21:51,390] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,390] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:21:51,391] [builder.py:533]            [DEBUG]    | Value: 192                                                                                         |
+[2022-11-16 20:21:51,422] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,422] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:21:51,422] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:21:51,422] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,422] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:21:51,423] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:21:51,739] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,740] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:21:51,740] [builder.py:651]            [DEBUG]    | Value: ++_Morgan Freeman                                                                           |
+[2022-11-16 20:21:51,746] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,746] [builder.py:796]            [ERROR]    | Collection Error: Converting Morgan Freeman to a normal collection                                 |
+[2022-11-16 20:21:51,761] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,761] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:21:51,761] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,761] [plex_meta_manager.py:596]  [INFO]     |================================ Running Morgan Freeman Collection =================================|
+[2022-11-16 20:21:51,762] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,762] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:21:51,762] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:51,762] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Morgan Freeman", '?type=1&sort=titleSort&push=1&actor=37177&pop=1') |
+[2022-11-16 20:21:51,762] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,762] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Morgan Freeman
+[2022-11-16 20:21:51,779] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:21:51,779] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 20:21:51,779] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:21:51,780] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:21:51,780] [builder.py:2159]           [INFO]     |=============================== Adding to Morgan Freeman Collection ================================|
+[2022-11-16 20:21:51,780] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:51,780] [builder.py:2174]           [INFO]     | 1/4 | Morgan Freeman Collection | + | Deep Impact (1998)                                           |
+[2022-11-16 20:21:53,881] [builder.py:2174]           [INFO]     | 2/4 | Morgan Freeman Collection | + | Dolphin Tale (2011)                                          |
+[2022-11-16 20:21:55,837] [builder.py:2174]           [INFO]     | 3/4 | Morgan Freeman Collection | + | Dolphin Tale 2 (2014)                                        |
+[2022-11-16 20:21:57,823] [builder.py:2174]           [INFO]     | 4/4 | Morgan Freeman Collection | + | The Lego Movie (2014)                                        |
+[2022-11-16 20:22:01,328] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:01,328] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 20:22:01,334] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:01,334] [builder.py:2528]           [INFO]     |========================== Updating Details of Morgan Freeman Collection ===========================|
+[2022-11-16 20:22:01,335] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:22:01,340] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Morgan Freeman (born June 1, 1937) is an American actor, director, and narrator. Noted for his distinctive deep voice, Freeman is known for his various roles in a wide variety of film genres. Throughout his career spanning over five decades, he has received multiple accolades, including an Academy Award, a Screen Actors Guild Award, and a Golden Globe Award.
+                                                                 | 
+                                                                 | Born in Memphis, Tennessee, Freeman was raised in Mississippi where he began acting in school plays. He studied theatre arts in Los Angeles and appeared in stage productions in his early career. He rose to fame in the 1970s for his role in the children's television series The Electric Company. Freeman then appeared in the Shakespearean plays Coriolanus and Julius Caesar, the former of which earned him an Obie Award. His breakout role was in Street Smart (1987), playing a hustler, which earned him an Academy Award nomination for Best Supporting Actor. He achieved further stardom in Glory, the biographical drama Lean on Me, and comedy-drama Driving Miss Daisy (all 1989), the latter of which garnered him his first Academy Award nomination for Best Actor.
+                                                                 | 
+                                                                 | In 1992, Freeman starred alongside Clint Eastwood in the western revenge film Unforgiven; this would be the first of several collaborations with Eastwood. In 1994, he starred in the prison drama The Shawshank Redemption for which he received another Academy Award nomination. Freeman also starred in David Fincher's crime thriller Se7en (1995), and Steven Spielberg's historical drama Amistad (1997). Freeman won the Academy Award for Best Supporting Actor for his performance in Clint Eastwood's 2004 sports drama Million Dollar Baby. In 2009, he received his fifth Oscar nomination for playing former South African President Nelson Mandela in Eastwood's Invictus. Freeman is also known for his performance as Lucius Fox in Christopher Nolan's The Dark Knight Trilogy (2005–2012).
+                                                                 | 
+                                                                 | In addition to acting, Freeman has directed the drama Bopha! (1993). He also founded film production company Revelations Entertainment with business partner Lori McCreary. He is the recipient of the Kennedy Center Honor, the AFI Life Achievement Award, the Cecil B. DeMille Award, and the Screen Actors Guild Life Achievement Award. For his performances in theatrical productions, he has won three Obie Awards, one of the most prestigious honors for recognizing excellence in theatre.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Morgan Freeman, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Morgan Freeman
+                                                                 | Label | +PMM
+[2022-11-16 20:22:02,931] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:22:02,931] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:22:02,932] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:22:02,932] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg
+[2022-11-16 20:22:03,222] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg
+[2022-11-16 20:22:03,270] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:22:03,270] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:22:03,270] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Morgan Freeman Collection                                 |
+[2022-11-16 20:22:03,270] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 20:22:03,270] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

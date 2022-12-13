@@ -1,0 +1,85 @@
+[2022-11-16 18:45:16,042] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:45:16,042] [builder.py:193]            [INFO]     |                             70's Movies Collection in Halloween Movies                             |
+[2022-11-16 18:45:16,043] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:45:16,043] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,043] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:45:16,044] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,044] [meta.py:210]               [DEBUG]    |========================================= Template Decade ==========================================|
+[2022-11-16 18:45:16,045] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,048] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,048] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:45:16,048] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,049] [meta.py:515]               [DEBUG]    | {'plex_search': {'decade': 1970}, 'url_poster': 'https://theposterdb.com/api/assets/105332', 'sort_title': "+++_70's Movies", 'collection_order': 'alpha'} |
+[2022-11-16 18:45:16,049] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,049] [builder.py:223]            [INFO]     |================================ Validating 70's Movies Attributes =================================|
+[2022-11-16 18:45:16,049] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,049] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:45:16,050] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-16 18:45:16,050] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,050] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-16 18:45:16,050] [builder.py:651]            [DEBUG]    | Value: {'decade': 1970}                                                                            |
+[2022-11-16 18:45:16,050] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,050] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:45:16,050] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/105332                                                   |
+[2022-11-16 18:45:16,702] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,702] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:45:16,703] [builder.py:651]            [DEBUG]    | Value: +++_70's Movies                                                                             |
+[2022-11-16 18:45:16,786] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,786] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:596]  [INFO]     |================================== Running 70's Movies Collection ==================================|
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Decade is 1970", '?type=1&sort=titleSort&push=1&decade=1970&pop=1') |
+[2022-11-16 18:45:16,787] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,787] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Decade is 1970
+[2022-11-16 18:45:16,840] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:45:16,840] [builder.py:1575]           [DEBUG]    | 23 IDs Found
+[2022-11-16 18:45:16,840] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:45:16,841] [builder.py:2158]           [INFO]     | 
+[2022-11-16 18:45:16,841] [builder.py:2159]           [INFO]     |================================= Adding to 70's Movies Collection =================================|
+[2022-11-16 18:45:16,841] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,841] [builder.py:2174]           [INFO]     |  1/23 | 70's Movies Collection | = | The Amityville Horror (1979)                                  |
+[2022-11-16 18:45:16,841] [builder.py:2174]           [INFO]     |  2/23 | 70's Movies Collection | = | Blacula (1972)                                                |
+[2022-11-16 18:45:16,841] [builder.py:2174]           [INFO]     |  3/23 | 70's Movies Collection | = | The Car (1977)                                                |
+[2022-11-16 18:45:16,841] [builder.py:2174]           [INFO]     |  4/23 | 70's Movies Collection | = | Carrie (1976)                                                 |
+[2022-11-16 18:45:16,841] [builder.py:2174]           [INFO]     |  5/23 | 70's Movies Collection | = | Count Yorga, Vampire (1970)                                   |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     |  6/23 | 70's Movies Collection | = | Damien: Omen II (1978)                                        |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     |  7/23 | 70's Movies Collection | = | Dawn of the Dead (1978)                                       |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     |  8/23 | 70's Movies Collection | = | The Exorcist (1973)                                           |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     |  9/23 | 70's Movies Collection | = | Exorcist II: The Heretic (1977)                               |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     | 10/23 | 70's Movies Collection | = | Halloween (1978)                                              |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     | 11/23 | 70's Movies Collection | = | The Hills Have Eyes (1977)                                    |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     | 12/23 | 70's Movies Collection | = | Invasion of the Body Snatchers (1978)                         |
+[2022-11-16 18:45:16,842] [builder.py:2174]           [INFO]     | 13/23 | 70's Movies Collection | = | The Last House on the Left (1972)                             |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 14/23 | 70's Movies Collection | = | The Night Stalker (1972)                                      |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 15/23 | 70's Movies Collection | = | The Night Strangler (1973)                                    |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 16/23 | 70's Movies Collection | = | The Omen (1976)                                               |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 17/23 | 70's Movies Collection | = | Phantasm (1979)                                               |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 18/23 | 70's Movies Collection | = | The Return of Count Yorga (1971)                              |
+[2022-11-16 18:45:16,843] [builder.py:2174]           [INFO]     | 19/23 | 70's Movies Collection | = | Scream Blacula Scream (1973)                                  |
+[2022-11-16 18:45:16,844] [builder.py:2174]           [INFO]     | 20/23 | 70's Movies Collection | = | The Swarm (1978)                                              |
+[2022-11-16 18:45:16,844] [builder.py:2174]           [INFO]     | 21/23 | 70's Movies Collection | = | Tales from the Crypt (1972)                                   |
+[2022-11-16 18:45:16,844] [builder.py:2174]           [INFO]     | 22/23 | 70's Movies Collection | = | The Texas Chain Saw Massacre (1974)                           |
+[2022-11-16 18:45:16,844] [builder.py:2174]           [INFO]     | 23/23 | 70's Movies Collection | = | Zombie Flesh Eaters (1979)                                    |
+[2022-11-16 18:45:16,844] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,844] [builder.py:2196]           [INFO]     | 23 Movies Processed 0 Movies Added                                                                 |
+[2022-11-16 18:45:16,849] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,849] [builder.py:2528]           [INFO]     |============================ Updating Details of 70's Movies Collection ============================|
+[2022-11-16 18:45:16,849] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,855] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:45:16,856] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:45:16,856] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/105332                               |
+[2022-11-16 18:45:16,856] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': "/config/Halloween_Movies/Assets/70's Movies/poster.png", 'prefix': "70's Movies's ", 'is_poster': True, 'is_url': False, 'compare': 3104351, 'message': "70's Movies's poster to [File] /config/Halloween_Movies/Assets/70's Movies/poster.png"} |
+[2022-11-16 18:45:16,857] [library.py:180]            [INFO]     | Detail: 70's Movies's poster update not needed                                                     |
+[2022-11-16 18:45:16,930] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:45:16,931] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:45:16,931] [plex_meta_manager.py:737]  [INFO]     |                                  Finished 70's Movies Collection                                   |
+[2022-11-16 18:45:16,931] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:45:16,931] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

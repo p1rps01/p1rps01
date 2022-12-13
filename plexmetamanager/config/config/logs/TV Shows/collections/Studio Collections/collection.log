@@ -1,0 +1,53 @@
+[2022-11-25 15:59:25,263] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:25,263] [builder.py:193]            [INFO]     |                             Studio Collections Collection in TV Shows                              |
+[2022-11-25 15:59:25,263] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:25,264] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,264] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:59:25,264] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,264] [meta.py:210]               [DEBUG]    |======================================== Template separator ========================================|
+[2022-11-25 15:59:25,265] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,265] [meta.py:337]               [DEBUG]    | Conditional: use_blank                                                                             |
+[2022-11-25 15:59:25,266] [meta.py:365]               [DEBUG]    | Condition 1 Failed: placeholder_tmdb_movie.exists: true does not exist                             |
+[2022-11-25 15:59:25,266] [meta.py:365]               [DEBUG]    | Condition 2 Failed: placeholder_tvdb_show.exists: true does not exist                              |
+[2022-11-25 15:59:25,266] [meta.py:365]               [DEBUG]    | Condition 3 Failed: placeholder_imdb_id.exists: true does not exist                                |
+[2022-11-25 15:59:25,266] [meta.py:402]               [DEBUG]    | Conditional Variable: use_blank defaults to "True"                                                 |
+[2022-11-25 15:59:25,267] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,279] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:59:25,280] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,283] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,284] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:59:25,284] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,284] [meta.py:515]               [DEBUG]    | {'sort_title': '!07_!Studio Collections', 'blank_collection': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/orig/studio.jpg', 'summary': 'Section separator for Studio Collections.', 'name': 'Studio Collections'} |
+[2022-11-25 15:59:25,284] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,284] [builder.py:223]            [INFO]     |============================= Validating Studio Collections Attributes =============================|
+[2022-11-25 15:59:25,284] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,284] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:59:25,285] [builder.py:230]            [DEBUG]    | Value: Studio Collections                                                                          |
+[2022-11-25 15:59:25,285] [builder.py:509]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,285] [builder.py:510]            [DEBUG]    | Validating Method: blank_collection                                                                |
+[2022-11-25 15:59:25,285] [builder.py:511]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:59:25,285] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,285] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:59:25,285] [builder.py:651]            [DEBUG]    | Value: !07_!Studio Collections                                                                     |
+[2022-11-25 15:59:25,285] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,286] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:59:25,286] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/orig/studio.jpg |
+[2022-11-25 15:59:25,372] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,372] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:59:25,372] [builder.py:651]            [DEBUG]    | Value: Section separator for Studio Collections.                                                   |
+[2022-11-25 15:59:25,425] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,425] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:59:25,425] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,425] [plex_meta_manager.py:596]  [INFO]     |============================== Running Studio Collections Collection ===============================|
+[2022-11-25 15:59:25,432] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,432] [builder.py:2528]           [INFO]     |======================== Updating Details of Studio Collections Collection =========================|
+[2022-11-25 15:59:25,432] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,453] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:59:25,453] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 15:59:25,453] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/orig/studio.jpg |
+[2022-11-25 15:59:25,454] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:59:25,471] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,472] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:59:25,472] [plex_meta_manager.py:737]  [INFO]     |                               Finished Studio Collections Collection                               |
+[2022-11-25 15:59:25,472] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:59:25,472] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

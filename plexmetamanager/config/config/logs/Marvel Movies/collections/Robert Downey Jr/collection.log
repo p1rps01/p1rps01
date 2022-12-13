@@ -1,0 +1,81 @@
+[2022-11-17 00:34:12,495] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:34:12,495] [builder.py:193]            [INFO]     |                           Robert Downey Jr. Collection in Marvel Movies                            |
+[2022-11-17 00:34:12,495] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:34:12,495] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,495] [builder.py:196]            [INFO]     | Log Folder Name: Robert Downey Jr. is invalid using Robert Downey Jr                               |
+[2022-11-17 00:34:12,496] [builder.py:197]            [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,496] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:34:12,496] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,496] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-17 00:34:12,496] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,497] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,497] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:34:12,498] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,498] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 3223, 'sort_title': '++_Robert Downey Jr.', 'collection_order': 'release'} |
+[2022-11-17 00:34:12,498] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,498] [builder.py:223]            [INFO]     |============================= Validating Robert Downey Jr. Attributes ==============================|
+[2022-11-17 00:34:12,498] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,498] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-17 00:34:12,498] [builder.py:533]            [DEBUG]    | Value: 3223                                                                                        |
+[2022-11-17 00:34:12,506] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,507] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:34:12,507] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-17 00:34:12,507] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,507] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-17 00:34:12,507] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-17 00:34:12,743] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,743] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:34:12,743] [builder.py:651]            [DEBUG]    | Value: ++_Robert Downey Jr.                                                                        |
+[2022-11-17 00:34:12,747] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,748] [builder.py:796]            [ERROR]    | Collection Error: Converting Robert Downey Jr. to a normal collection                              |
+[2022-11-17 00:34:12,753] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,753] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:34:12,753] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,753] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Robert Downey Jr. Collection ===============================|
+[2022-11-17 00:34:12,754] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,754] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 00:34:12,754] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:34:12,754] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Robert Downey Jr.", '?type=1&sort=titleSort&push=1&actor=43695&pop=1') |
+[2022-11-17 00:34:12,754] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,754] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Robert Downey Jr.
+[2022-11-17 00:34:12,789] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:34:12,789] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-17 00:34:12,789] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:34:12,790] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:34:12,790] [builder.py:2159]           [INFO]     |============================== Adding to Robert Downey Jr. Collection ==============================|
+[2022-11-17 00:34:12,790] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:34:12,790] [builder.py:2174]           [INFO]     |  1/10 | Robert Downey Jr. Collection | + | The Avengers (2012)                                     |
+[2022-11-17 00:34:12,873] [builder.py:2174]           [INFO]     |  2/10 | Robert Downey Jr. Collection | + | Avengers: Age of Ultron (2015)                          |
+[2022-11-17 00:34:12,965] [builder.py:2174]           [INFO]     |  3/10 | Robert Downey Jr. Collection | + | Avengers: Endgame (2019)                                |
+[2022-11-17 00:34:13,032] [builder.py:2174]           [INFO]     |  4/10 | Robert Downey Jr. Collection | + | Avengers: Infinity War (2018)                           |
+[2022-11-17 00:34:13,101] [builder.py:2174]           [INFO]     |  5/10 | Robert Downey Jr. Collection | + | Captain America: Civil War (2016)                       |
+[2022-11-17 00:34:13,163] [builder.py:2174]           [INFO]     |  6/10 | Robert Downey Jr. Collection | + | The Incredible Hulk (2008)                              |
+[2022-11-17 00:34:14,922] [builder.py:2174]           [INFO]     |  7/10 | Robert Downey Jr. Collection | + | Iron Man (2008)                                         |
+[2022-11-17 00:34:14,979] [builder.py:2174]           [INFO]     |  8/10 | Robert Downey Jr. Collection | + | Iron Man 2 (2010)                                       |
+[2022-11-17 00:34:15,044] [builder.py:2174]           [INFO]     |  9/10 | Robert Downey Jr. Collection | + | Iron Man 3 (2013)                                       |
+[2022-11-17 00:34:15,151] [builder.py:2174]           [INFO]     | 10/10 | Robert Downey Jr. Collection | + | Spider-Man: Homecoming (2017)                           |
+[2022-11-17 00:34:17,492] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:34:17,492] [builder.py:2196]           [INFO]     | 10 Movies Processed 10 Movies Added                                                                |
+[2022-11-17 00:34:17,496] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 00:34:17,497] [builder.py:2528]           [INFO]     |========================= Updating Details of Robert Downey Jr. Collection =========================|
+[2022-11-17 00:34:17,497] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:34:17,503] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Robert John Downey Jr. (born April 4, 1965) is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success later in his career. In 2008, Downey was named by Time magazine among the 100 most influential people in the world, and from 2013 to 2015, he was listed by Forbes as Hollywood's highest-paid actor.
+                                                                 | 
+                                                                 | Downey gained global recognition for starring as Tony Stark in ten films within the Marvel Cinematic Universe, beginning with Iron Man (2008), and leading up to Avengers: Endgame (2019). He has also played the title character in Guy Ritchie's Sherlock Holmes (2009), and its sequel, Sherlock Holmes: A Game of Shadows (2011).
+                                                                 | Sort Title | ++_Robert Downey Jr.
+                                                                 | Label | +PMM
+[2022-11-17 00:34:19,128] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-17 00:34:19,128] [builder.py:2603]           [INFO]     | 
+[2022-11-17 00:34:19,129] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-17 00:34:19,129] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg
+[2022-11-17 00:34:19,193] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg
+[2022-11-17 00:34:19,256] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-17 00:34:19,256] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:34:19,256] [plex_meta_manager.py:737]  [INFO]     |                               Finished Robert Downey Jr. Collection                                |
+[2022-11-17 00:34:19,257] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-17 00:34:19,257] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

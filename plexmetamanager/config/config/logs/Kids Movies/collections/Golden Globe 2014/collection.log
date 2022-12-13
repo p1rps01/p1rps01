@@ -1,0 +1,94 @@
+[2022-11-16 20:33:27,390] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:33:27,391] [builder.py:193]            [INFO]     |                            Golden Globe 2014 Collection in Kids Movies                             |
+[2022-11-16 20:33:27,391] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:33:27,391] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,391] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:33:27,391] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,392] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:33:27,392] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,393] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:33:27,394] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,396] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:33:27,397] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,401] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:33:27,402] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,421] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:33:27,422] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,430] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:33:27,431] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,435] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,435] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:33:27,435] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,436] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '2014 Golden Globe Winners.', 'name': 'Golden Globe 2014', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 2014', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2014.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:33:27,436] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,436] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 2014 Attributes ==============================|
+[2022-11-16 20:33:27,436] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,437] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:33:27,437] [builder.py:230]            [DEBUG]    | Value: Golden Globe 2014                                                                           |
+[2022-11-16 20:33:27,437] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,438] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:33:27,438] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:33:27,438] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,439] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:33:27,439] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:33:27,439] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,439] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:33:27,439] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:33:27,439] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,439] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:33:27,439] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 20:33:27,439] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,439] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:33:27,440] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 20:33:27,668] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,669] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:33:27,671] [builder.py:651]            [DEBUG]    | Value: 2014 Golden Globe Winners.                                                                  |
+[2022-11-16 20:33:27,671] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,671] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:33:27,671] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:33:27,671] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,671] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:33:27,672] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 2014                                                                       |
+[2022-11-16 20:33:27,672] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,672] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:33:27,672] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2014.jpg |
+[2022-11-16 20:33:27,879] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,880] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:33:27,880] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:33:27,885] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,885] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 2014                                                                     |
+[2022-11-16 20:33:27,886] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,886] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:33:27,886] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,886] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 2014 Collection ===============================|
+[2022-11-16 20:33:27,886] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,886] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:33:27,886] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,887] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2014-01-01,2014-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:33:27,887] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,888] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:33:27,891] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,891] [builder.py:1575]           [DEBUG]    | 18 IDs Found                                                                                       |
+[2022-11-16 20:33:27,892] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:33:27,947] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,948] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:33:27,948] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:27,963] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Whiplash (2014) (TMDb: 244786)                                  |
+[2022-11-16 20:33:27,981] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | The Grand Budapest Hotel (2014) (TMDb: 120467)                  |
+[2022-11-16 20:33:27,993] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Still Alice (2014) (TMDb: 284293)                               |
+[2022-11-16 20:33:28,005] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Birdman or (The Unexpected Virtue of Ignorance) (2014) (TMDb: 194662) |
+[2022-11-16 20:33:28,020] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | The Theory of Everything (2014) (TMDb: 266856)                  |
+[2022-11-16 20:33:28,022] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Boyhood (2014) (TMDb: 85350)                                    |
+[2022-11-16 20:33:28,051] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Big Eyes (2014) (TMDb: 87093)                                   |
+[2022-11-16 20:33:28,070] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Selma (2014) (TMDb: 273895)                                     |
+[2022-11-16 20:33:28,081] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | Leviathan (2014) (TMDb: 265180)                                 |
+[2022-11-16 20:33:28,097] [builder.py:2321]           [INFO]     | Golden Globe 2014 Collection | ? | The Normal Heart (2014) (TMDb: 113833)                          |
+[2022-11-16 20:33:28,098] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:33:28,098] [builder.py:2327]           [INFO]     | 10 Movies Missing                                                                                  |
+[2022-11-16 20:33:31,480] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Golden Globe 2014 Collection                                     |
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 2014 Collection                                |
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:33:31,481] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,79 @@
+[2022-11-16 23:44:09,080] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:44:09,081] [builder.py:193]            [INFO]     |                              Dermot Mulroney Collection in New Movies                              |
+[2022-11-16 23:44:09,081] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:44:09,082] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,082] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:44:09,083] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,083] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 23:44:09,084] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,091] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:44:09,092] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,096] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:44:09,096] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,109] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,109] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:44:09,109] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,109] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Dermot Mulroney'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}, 'summary': 'Movies with Dermot Mulroney.', 'name': 'Dermot Mulroney', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!17_Dermot Mulroney', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Dermot%20Mulroney.jpg'} |
+[2022-11-16 23:44:09,109] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,109] [builder.py:223]            [INFO]     |============================== Validating Dermot Mulroney Attributes ===============================|
+[2022-11-16 23:44:09,109] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,109] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:44:09,109] [builder.py:230]            [DEBUG]    | Value: Dermot Mulroney                                                                             |
+[2022-11-16 23:44:09,109] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,110] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:44:09,110] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:44:09,110] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,110] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:44:09,110] [builder.py:533]            [DEBUG]    | Value: ['Dermot Mulroney']                                                                         |
+[2022-11-16 23:44:09,260] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,260] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:44:09,260] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}                                          |
+[2022-11-16 23:44:09,538] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&actor=6058&pop=1                                          |
+[2022-11-16 23:44:09,538] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,538] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:44:09,538] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-16 23:44:09,538] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,538] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:44:09,538] [builder.py:651]            [DEBUG]    | Value: Movies with Dermot Mulroney.                                                                |
+[2022-11-16 23:44:09,539] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,539] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:44:09,539] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:44:09,539] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,539] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:44:09,539] [builder.py:651]            [DEBUG]    | Value: !17_Dermot Mulroney                                                                         |
+[2022-11-16 23:44:09,539] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,540] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:44:09,540] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Dermot%20Mulroney.jpg |
+[2022-11-16 23:44:09,768] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:09,768] [plex.py:838]               [DEBUG]    | Looking for: Dermot Mulroney                                                                       |
+[2022-11-16 23:44:09,768] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,768] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:44:09,769] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,769] [plex_meta_manager.py:596]  [INFO]     |================================ Running Dermot Mulroney Collection ================================|
+[2022-11-16 23:44:09,769] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,769] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Dermot Mulroney
+[2022-11-16 23:44:09,792] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&actor=6058&pop=1
+[2022-11-16 23:44:09,797] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:44:09,797] [builder.py:2528]           [INFO]     |========================== Updating Details of Dermot Mulroney Collection ==========================|
+[2022-11-16 23:44:09,797] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:44:09,806] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies with Dermot Mulroney.
+                                                                 | Sort Title | !17_Dermot Mulroney
+                                                                 | Label | +Top Actors, +PMM
+[2022-11-16 23:44:11,259] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:44:11,259] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:44:12,770] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 23:44:12,776] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/New_Movies/Assets/Dermot Mulroney
+[2022-11-16 23:44:12,776] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-16 23:44:12,777] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/5gJszOF45KMPB5tmAbKdK0qgQBx.jpg
+[2022-11-16 23:44:12,777] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Dermot%20Mulroney.jpg
+[2022-11-16 23:44:13,225] [library.py:178]            [INFO]     | Detail: asset_directory updated Dermot Mulroney's poster to [File] config/New_Movies/Assets/Dermot Mulroney/poster.jpg
+[2022-11-16 23:44:13,269] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:44:13,272] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:44:13,273] [plex_meta_manager.py:737]  [INFO]     |                                Finished Dermot Mulroney Collection                                 |
+[2022-11-16 23:44:13,276] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 23:44:13,279] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

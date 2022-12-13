@@ -1,0 +1,55 @@
+[2022-11-05 18:44:50,217] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:50,218] [builder.py:197]            [INFO]     |                               Talk Show Collection in Marvel Movies                                |
+[2022-11-05 18:44:50,218] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 18:44:50,218] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 18:44:50,218] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 18:44:50,219] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,219] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-11-05 18:44:50,219] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre'), ('genre', 'Talk Show'), ('poster', 213344)])                 |
+[2022-11-05 18:44:50,220] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,220] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('genre', 'Talk Show'), ('poster', 213344), ('collection_name', 'Talk Show'), ('mapping_name', 'Talk Show'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Genre'), ('genre_encoded', 'Talk%20Show'), ('poster_encoded', '213344'), ('collection_name_encoded', 'Talk%20Show'), ('mapping_name_encoded', 'Talk%20Show'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Talk Show')]) |
+[2022-11-05 18:44:50,220] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,220] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 18:44:50,221] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,221] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 18:44:50,222] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,223] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'genre': 'Talk Show'}, 'url_poster': 'https://theposterdb.com/api/assets/213344', 'sort_title': '++++++++_Talk Show', 'collection_mode': 'hide', 'collection_order': 'release.desc'} |
+[2022-11-05 18:44:50,224] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,224] [builder.py:219]            [INFO]     |================================= Validating Talk Show Attributes ==================================|
+[2022-11-05 18:44:50,225] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,226] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 18:44:50,226] [builder.py:611]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-05 18:44:50,226] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:50,227] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-05 18:44:50,227] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/search/keyword/?title_type=movie&genres=Talk-Show']                  |
+[2022-11-05 18:44:51,323] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:51,324] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-05 18:44:51,324] [builder.py:632]            [DEBUG]    | Value: A talk show (or chat show in British English) is a television programming or radio programming genre structured around the act of spontaneous conversation. |
+[2022-11-05 18:44:51,325] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 18:44:51,325] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-05 18:44:51,325] [builder.py:632]            [DEBUG]    | Value: {'genre': 'Talk Show'}                                                                      |
+[2022-11-05 18:44:51,504] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 709, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1273, in _plex
+                                                                 |     self.builders.append((method_name, self.build_filter("plex_search", dict_data)))
+                                                                 |   File "/modules/builder.py", line 1891, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1825, in _filter
+                                                                 |     inside_filter, inside_display = _filter(dict_data, is_all=attr == "all", level=level)
+                                                                 |   File "/modules/builder.py", line 1830, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 1977, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Talk Show not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+                                                                 | 
+[2022-11-05 18:44:51,505] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: genre: Talk Show not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Science Fiction', 'Thriller', 'War']
+[2022-11-05 18:44:51,506] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 18:44:51,506] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 18:44:51,506] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Talk Show Collection                                    |
+[2022-11-05 18:44:51,506] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-05 18:44:51,506] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

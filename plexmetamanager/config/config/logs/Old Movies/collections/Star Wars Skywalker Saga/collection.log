@@ -1,0 +1,75 @@
+[2022-11-16 21:55:07,543] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:55:07,544] [builder.py:193]            [INFO]     |                         Star Wars: Skywalker Saga Collection in Old Movies                         |
+[2022-11-16 21:55:07,544] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 21:55:07,544] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 21:55:07,544] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 21:55:07,544] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,544] [meta.py:210]               [DEBUG]    |======================================= Template Collection ========================================|
+[2022-11-16 21:55:07,544] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,547] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,547] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 21:55:07,547] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,547] [meta.py:515]               [DEBUG]    | {'tmdb_collection': 10, 'tmdb_summary': 10, 'url_poster': 'https://theposterdb.com/api/assets/28741', 'sort_title': '+4_Star Wars: Skywalker Saga', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-16 21:55:07,547] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,547] [builder.py:223]            [INFO]     |========================= Validating Star Wars: Skywalker Saga Attributes ==========================|
+[2022-11-16 21:55:07,547] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 21:55:07,548] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 21:55:07,548] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 21:55:07,548] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 21:55:07,548] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:650]            [DEBUG]    | Validating Method: name_mapping                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:651]            [DEBUG]    | Value: Star Wars Skywalker Saga                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,548] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-16 21:55:07,549] [builder.py:651]            [DEBUG]    | Value: 10                                                                                          |
+[2022-11-16 21:55:07,578] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,578] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-16 21:55:07,578] [builder.py:651]            [DEBUG]    | Value: 10                                                                                          |
+[2022-11-16 21:55:07,639] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:07,639] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 21:55:07,639] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/28741                                                    |
+[2022-11-16 21:55:08,244] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:08,244] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 21:55:08,244] [builder.py:651]            [DEBUG]    | Value: +4_Star Wars: Skywalker Saga                                                                |
+[2022-11-16 21:55:08,309] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,309] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:596]  [INFO]     |=========================== Running Star Wars: Skywalker Saga Collection ===========================|
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_collection: 10                                                                       |
+[2022-11-16 21:55:08,310] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,322] [tmdb.py:389]               [INFO]     | Processing TMDb Collection: (10) Star Wars Collection (9 Items)                                    |
+[2022-11-16 21:55:08,322] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:08,323] [builder.py:1575]           [DEBUG]    | 9 IDs Found                                                                                        |
+[2022-11-16 21:55:08,323] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 21:55:08,323] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,323] [builder.py:2159]           [INFO]     |========================== Adding to Star Wars: Skywalker Saga Collection ==========================|
+[2022-11-16 21:55:08,323] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,323] [builder.py:2174]           [INFO]     | 1/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode IV - A New Hope (1977)         |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 2/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980) |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 3/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode VI - Return of the Jedi (1983) |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 4/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode I - The Phantom Menace (1999)  |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 5/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode II - Attack of the Clones (2002) |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 6/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode III - Revenge of the Sith (2005) |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 7/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode VII - The Force Awakens (2015) |
+[2022-11-16 21:55:08,324] [builder.py:2174]           [INFO]     | 8/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode IX - The Rise of Skywalker (2019) |
+[2022-11-16 21:55:08,325] [builder.py:2174]           [INFO]     | 9/9 | Star Wars: Skywalker Saga Collection | = | Star Wars: Episode VIII - The Last Jedi (2017)    |
+[2022-11-16 21:55:08,325] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,325] [builder.py:2196]           [INFO]     | 9 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 21:55:08,331] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,331] [builder.py:2528]           [INFO]     |===================== Updating Details of Star Wars: Skywalker Saga Collection =====================|
+[2022-11-16 21:55:08,331] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,339] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 21:55:08,341] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 21:55:08,342] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/28741                                |
+[2022-11-16 21:55:08,342] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Old_Movies/Assets/Star Wars Skywalker Saga/poster.jpg', 'prefix': "Star Wars Skywalker Saga's ", 'is_poster': True, 'is_url': False, 'compare': 1896094, 'message': "Star Wars Skywalker Saga's poster to [File] /config/Old_Movies/Assets/Star Wars Skywalker Saga/poster.jpg"} |
+[2022-11-16 21:55:08,343] [library.py:180]            [INFO]     | Detail: Star Wars Skywalker Saga's poster update not needed                                        |
+[2022-11-16 21:55:08,401] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 21:55:08,401] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 21:55:08,401] [plex_meta_manager.py:737]  [INFO]     |                           Finished Star Wars: Skywalker Saga Collection                            |
+[2022-11-16 21:55:08,401] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 21:55:08,401] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

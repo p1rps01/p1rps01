@@ -1,0 +1,38 @@
+[2022-11-16 11:10:41,365] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 11:10:41,367] [builder.py:193]            [INFO]     |                                Indie Collection in Christmas Movies                                |
+[2022-11-16 11:10:41,368] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 11:10:41,369] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 11:10:41,371] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 11:10:41,372] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 11:10:41,374] [meta.py:210]               [DEBUG]    |========================================= Template Dynamic =========================================|
+[2022-11-16 11:10:41,376] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 11:10:41,378] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 11:10:41,378] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 11:10:41,380] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 11:10:41,381] [meta.py:515]               [DEBUG]    | {'smart_filter': {'all': {'genre': 'Indie'}, 'sort_by': 'release.desc'}, 'sort_title': '++++++++_Indie', 'collection_mode': 'hide'} |
+[2022-11-16 11:10:41,382] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 11:10:41,383] [builder.py:223]            [INFO]     |=================================== Validating Indie Attributes ====================================|
+[2022-11-16 11:10:41,385] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 11:10:41,386] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 11:10:41,387] [builder.py:1791]           [DEBUG]    | Value: {'all': {'genre': 'Indie'}, 'sort_by': 'release.desc'}                                      |
+[2022-11-16 11:10:42,044] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 577, in __init__
+                                                                 |     self.smart_type_key, self.smart_filter_details, self.smart_url = self.build_filter("smart_filter", self.data[methods["smart_filter"]], display=True, default_sort="random")
+                                                                 |   File "/modules/builder.py", line 1969, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1908, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 2055, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Indie not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+                                                                 | 
+[2022-11-16 11:10:42,047] [plex_meta_manager.py:725]  [ERROR]    | Plex Error: genre: Indie not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+[2022-11-16 11:10:42,048] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 11:10:42,048] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 11:10:42,048] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Indie Collection                                      |
+[2022-11-16 11:10:42,048] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 11:10:42,048] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,148 @@
+[2022-11-17 02:22:27,259] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:22:27,259] [builder.py:193]            [INFO]     |                                 Emmys 1993 Collection in TV Shows                                  |
+[2022-11-17 02:22:27,259] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:22:27,259] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:22:27,259] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:22:27,260] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,260] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:22:27,260] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,261] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:22:27,262] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,264] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:22:27,265] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,276] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:22:27,277] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,283] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:22:27,283] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,287] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,287] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:22:27,287] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,288] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1993-01-01,1993-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1993', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1993.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:22:27,288] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,288] [builder.py:223]            [INFO]     |================================= Validating Emmys 1993 Attributes =================================|
+[2022-11-17 02:22:27,288] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,289] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:22:27,289] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:22:27,289] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,289] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:22:27,289] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:22:27,289] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,290] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:22:27,290] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:22:27,290] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,290] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:22:27,290] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:22:27,291] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:27,291] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:22:27,291] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1993-01-01,1993-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:22:28,198] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,199] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:22:28,199] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:22:28,200] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,200] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:22:28,200] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1993                                                                              |
+[2022-11-17 02:22:28,200] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,200] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:22:28,200] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1993.jpg |
+[2022-11-17 02:22:28,342] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,342] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:22:28,342] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:22:28,346] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,346] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1993                                                                            |
+[2022-11-17 02:22:28,346] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:22:28,346] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:22:28,346] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:28,346] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1993 Collection ===================================|
+[2022-11-17 02:22:28,347] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:28,347] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:22:28,347] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:28,347] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1993-01-01,1993-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:22:28,347] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:28,348] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1993-01-01,1993-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:22:30,865] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:30,866] [builder.py:1575]           [DEBUG]    | 44 IDs Found                                                                                       |
+[2022-11-17 02:22:30,866] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:31,481] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47283                                                 |
+[2022-11-17 02:22:31,507] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0319675                                             |
+[2022-11-17 02:22:31,520] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0296534                                             |
+[2022-11-17 02:22:31,537] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47298                                                 |
+[2022-11-17 02:22:31,722] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47304                                                 |
+[2022-11-17 02:22:31,744] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0934431                                             |
+[2022-11-17 02:22:31,764] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0318143                                             |
+[2022-11-17 02:22:31,777] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49182                                                 |
+[2022-11-17 02:22:31,931] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:31,931] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:22:31,932] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:32,145] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | And the Band Played On (1993) (TMDb: 2887)                             |
+[2022-11-17 02:22:32,162] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Prime Suspect 3: The Keeper of Souls (1993) (TMDb: 631733)             |
+[2022-11-17 02:22:32,270] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Heart of Darkness (1993) (TMDb: 4782)                                  |
+[2022-11-17 02:22:32,280] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Gypsy (1993) (TMDb: 17912)                                             |
+[2022-11-17 02:22:32,415] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Barbarians at the Gate (1993) (TMDb: 27678)                            |
+[2022-11-17 02:22:32,631] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | To Dance with the White Dog (1993) (TMDb: 115831)                      |
+[2022-11-17 02:22:32,787] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | The Positively True Adventures of the Alleged Texas Cheerleader-Murdering Mom (1993) (TMDb: 67595) |
+[2022-11-17 02:22:32,997] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Stolen Babies (1993) (TMDb: 357281)                                    |
+[2022-11-17 02:22:33,182] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Geronimo (1993) (TMDb: 357434)                                         |
+[2022-11-17 02:22:33,275] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Zelda (1993) (TMDb: 319047)                                            |
+[2022-11-17 02:22:33,409] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Lush Life (1993) (TMDb: 55144)                                         |
+[2022-11-17 02:22:33,423] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Lucy and Desi: A Home Movie (1993) (TMDb: 378281)                      |
+[2022-11-17 02:22:33,450] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | I Am a Promise: The Children of Stanton Elementary School (1993) (TMDb: 114526) |
+[2022-11-17 02:22:33,475] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Gardens of the World with Audrey Hepburn (1993) (TMDb: 257526)         |
+[2022-11-17 02:22:33,696] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Tracey Ullman Takes on New York (1993) (TMDb: 97542)                   |
+[2022-11-17 02:22:33,889] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Harry Connick, Jr.: The New York Big Band Concert (1993) (TMDb: 112327) |
+[2022-11-17 02:22:34,110] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Porgy and Bess (1993) (TMDb: 153555)                                   |
+[2022-11-17 02:22:34,270] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Oedipus Rex (1993) (TMDb: 1038657)                                     |
+[2022-11-17 02:22:34,498] [builder.py:2321]           [INFO]     | Emmys 1993 Collection | ? | Horowitz: A Reminiscence (1993) (TMDb: 571938)                         |
+[2022-11-17 02:22:34,499] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:34,499] [builder.py:2327]           [INFO]     | 19 Movies Missing                                                                                  |
+[2022-11-17 02:22:35,315] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:35,315] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 1993 ==============================|
+[2022-11-17 02:22:35,316] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:35,374] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | The X-Files (TVDb: 77398)                                              |
+[2022-11-17 02:22:35,422] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Frasier (TVDb: 77811)                                                  |
+[2022-11-17 02:22:35,447] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | NYPD Blue (TVDb: 73132)                                                |
+[2022-11-17 02:22:35,512] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | The Nanny (TVDb: 75675)                                                |
+[2022-11-17 02:22:35,530] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Dr. Quinn, Medicine Woman (TVDb: 78095)                                |
+[2022-11-17 02:22:35,594] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Babylon 5 (TVDb: 70726)                                                |
+[2022-11-17 02:22:35,630] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Homicide: Life On The Street (TVDb: 70727)                             |
+[2022-11-17 02:22:35,653] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | seaQuest DSV (TVDb: 76022)                                             |
+[2022-11-17 02:22:35,676] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | The John Larroquette Show (TVDb: 76895)                                |
+[2022-11-17 02:22:35,719] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Late Night with Conan O'Brien (TVDb: 76737)                            |
+[2022-11-17 02:22:35,759] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Late Show with David Letterman (TVDb: 75088)                           |
+[2022-11-17 02:22:35,793] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Alex Haley's Queen (TVDb: 85518)                                       |
+[2022-11-17 02:22:35,896] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Politically Incorrect (TVDb: 75073)                                    |
+[2022-11-17 02:22:35,996] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | The Fire Next Time (TVDb: 265357)                                      |
+[2022-11-17 02:22:36,073] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Tribeca (TVDb: 72618)                                                  |
+[2022-11-17 02:22:36,525] [builder.py:2366]           [INFO]     | Emmys 1993 Collection | ? | Tony Awards (TVDb: 249480)                                             |
+[2022-11-17 02:22:36,525] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:22:36,526] [builder.py:2372]           [INFO]     | 16 Shows Missing                                                                                   |
+[2022-11-17 02:22:37,126] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:22:37,127] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:22:37,127] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:22:37,127] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [77398, 77811, 73132, 75675, 78095, 70726, 70727, 76022, 76895, 76737, 75088, 85518, 75073, 265357, 72618, 249480] |
+[2022-11-17 02:22:58,206] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:22:58,206] [sonarr.py:164]             [INFO]     | Added to Sonarr | 265357  | The Fire Next Time                                                     |
+[2022-11-17 02:22:58,220] [sonarr.py:164]             [INFO]     | Added to Sonarr | 72618   | Tribeca                                                                |
+[2022-11-17 02:22:58,228] [sonarr.py:167]             [INFO]     | 2 Series added to Sonarr                                                                           |
+[2022-11-17 02:22:58,229] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:22:58,229] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77398   | The X-Files                                                          |
+[2022-11-17 02:22:58,243] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77811   | Frasier                                                              |
+[2022-11-17 02:22:58,252] [sonarr.py:177]             [INFO]     | Already in Sonarr | 73132   | NYPD Blue                                                            |
+[2022-11-17 02:22:58,264] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75675   | The Nanny                                                            |
+[2022-11-17 02:22:58,274] [sonarr.py:177]             [INFO]     | Already in Sonarr | 78095   | Dr. Quinn, Medicine Woman                                            |
+[2022-11-17 02:22:58,283] [sonarr.py:177]             [INFO]     | Already in Sonarr | 70726   | Babylon 5                                                            |
+[2022-11-17 02:22:58,295] [sonarr.py:177]             [INFO]     | Already in Sonarr | 70727   | Homicide: Life On The Street                                         |
+[2022-11-17 02:22:58,310] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76022   | seaQuest DSV                                                         |
+[2022-11-17 02:22:58,318] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76895   | The John Larroquette Show                                            |
+[2022-11-17 02:22:58,328] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76737   | Late Night with Conan O'Brien                                        |
+[2022-11-17 02:22:58,339] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75088   | Late Show with David Letterman                                       |
+[2022-11-17 02:22:58,350] [sonarr.py:177]             [INFO]     | Already in Sonarr | 85518   | Alex Haley's Queen                                                   |
+[2022-11-17 02:22:58,359] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75073   | Politically Incorrect                                                |
+[2022-11-17 02:22:58,368] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249480                                                                         |
+[2022-11-17 02:22:58,369] [sonarr.py:187]             [INFO]     | 14 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:22:58,385] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 1993 Collection                                            |
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1993 Collection                                   |
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:31                                    |
+[2022-11-17 02:22:58,386] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

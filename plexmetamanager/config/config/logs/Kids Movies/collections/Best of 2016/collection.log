@@ -1,0 +1,166 @@
+[2022-11-16 19:40:49,412] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 19:40:49,413] [builder.py:193]            [INFO]     |                               Best of 2016 Collection in Kids Movies                               |
+[2022-11-16 19:40:49,413] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 19:40:49,413] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,413] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 19:40:49,414] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,414] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-16 19:40:49,415] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,417] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,418] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 19:40:49,418] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,418] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016', 'sort_title': '+1_Best of 2016', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2016', 'smart_label': 'audience_rating.desc'} |
+[2022-11-16 19:40:49,418] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,418] [builder.py:223]            [INFO]     |================================ Validating Best of 2016 Attributes ================================|
+[2022-11-16 19:40:49,418] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,419] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-16 19:40:49,419] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-16 19:40:49,429] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,430] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 19:40:49,430] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 19:40:49,430] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,430] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 19:40:49,430] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016                           |
+[2022-11-16 19:40:49,487] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,487] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 19:40:49,487] [builder.py:651]            [DEBUG]    | Value: +1_Best of 2016                                                                             |
+[2022-11-16 19:40:49,488] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 19:40:49,488] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 19:40:49,488] [builder.py:651]            [DEBUG]    | Value: Rotten Tomatoes Best Movies of 2016                                                         |
+[2022-11-16 19:40:49,554] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,554] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 19:40:49,554] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,554] [plex_meta_manager.py:596]  [INFO]     |================================= Running Best of 2016 Collection ==================================|
+[2022-11-16 19:40:49,554] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,555] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['audience_rating.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of 2016
+[2022-11-16 19:40:49,556] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-16 19:40:49,556] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-16 19:40:49,556] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 19:40:49,556] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016
+[2022-11-16 19:40:49,556] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 19:40:49,556] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016
+[2022-11-16 19:40:49,621] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 19:40:49,621] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-16 19:40:49,622] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 19:40:49,622] [builder.py:2158]           [INFO]     | 
+[2022-11-16 19:40:49,623] [builder.py:2159]           [INFO]     |================================ Adding to Best of 2016 Collection =================================|
+[2022-11-16 19:40:49,623] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,659] [builder.py:2174]           [INFO]     | 1/6 | Best of 2016 Collection | = | Zootopia (2016)                                                |
+[2022-11-16 19:40:49,659] [builder.py:2174]           [INFO]     | 2/6 | Best of 2016 Collection | = | Finding Dory (2016)                                            |
+[2022-11-16 19:40:49,659] [builder.py:2174]           [INFO]     | 3/6 | Best of 2016 Collection | = | The Jungle Book (2016)                                         |
+[2022-11-16 19:40:49,660] [builder.py:2174]           [INFO]     | 4/6 | Best of 2016 Collection | = | Moana (2016)                                                   |
+[2022-11-16 19:40:49,660] [builder.py:2174]           [INFO]     | 5/6 | Best of 2016 Collection | = | Pete's Dragon (2016)                                           |
+[2022-11-16 19:40:49,661] [builder.py:2174]           [INFO]     | 6/6 | Best of 2016 Collection | = | Kung Fu Panda 3 (2016)                                         |
+[2022-11-16 19:40:49,662] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,663] [builder.py:2196]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 19:40:49,664] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,665] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 19:40:49,666] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:49,749] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Moonlight (2016) (TMDb: 376867)                                      |
+[2022-11-16 19:40:49,765] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Arrival (2016) (TMDb: 329865)                                        |
+[2022-11-16 19:40:49,776] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Manchester by the Sea (2016) (TMDb: 334541)                          |
+[2022-11-16 19:40:49,787] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | La La Land (2016) (TMDb: 313369)                                     |
+[2022-11-16 19:40:49,799] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Hell or High Water (2016) (TMDb: 338766)                             |
+[2022-11-16 19:40:49,811] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Captain America: Civil War (2016) (TMDb: 271110)                     |
+[2022-11-16 19:40:49,823] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Paterson (2016) (TMDb: 370755)                                       |
+[2022-11-16 19:40:49,834] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Kubo and the Two Strings (2016) (TMDb: 313297)                       |
+[2022-11-16 19:40:49,845] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Hunt for the Wilderpeople (2016) (TMDb: 371645)                      |
+[2022-11-16 19:40:49,857] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Doctor Strange (2016) (TMDb: 284052)                                 |
+[2022-11-16 19:40:49,868] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Things to Come (2016) (TMDb: 374465)                                 |
+[2022-11-16 19:40:49,871] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Love & Friendship (2016) (TMDb: 296360)                              |
+[2022-11-16 19:40:49,882] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Nice Guys (2016) (TMDb: 290250)                                  |
+[2022-11-16 19:40:49,893] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Weiner (2016) (TMDb: 376261)                                         |
+[2022-11-16 19:40:49,902] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Handmaiden (2016) (TMDb: 290098)                                 |
+[2022-11-16 19:40:49,917] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Eye in the Sky (2016) (TMDb: 333352)                                 |
+[2022-11-16 19:40:49,930] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Witch (2015) (TMDb: 310131)                                      |
+[2022-11-16 19:40:49,942] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Sing Street (2016) (TMDb: 369557)                                    |
+[2022-11-16 19:40:49,955] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Don't Think Twice (2016) (TMDb: 356298)                              |
+[2022-11-16 19:40:49,964] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Cameraperson (2016) (TMDb: 376534)                                   |
+[2022-11-16 19:40:49,974] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Fences (2016) (TMDb: 393457)                                         |
+[2022-11-16 19:40:49,984] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | 10 Cloverfield Lane (2016) (TMDb: 333371)                            |
+[2022-11-16 19:40:49,994] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Rogue One: A Star Wars Story (2016) (TMDb: 330459)                   |
+[2022-11-16 19:40:50,004] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Toni Erdmann (2016) (TMDb: 374475)                                   |
+[2022-11-16 19:40:50,015] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Tower (2016) (TMDb: 381028)                                          |
+[2022-11-16 19:40:50,027] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Edge of Seventeen (2016) (TMDb: 376660)                          |
+[2022-11-16 19:40:50,041] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Little Men (2016) (TMDb: 373473)                                     |
+[2022-11-16 19:40:50,056] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Under the Shadow (2016) (TMDb: 375012)                               |
+[2022-11-16 19:40:50,069] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Wailing (2016) (TMDb: 293670)                                    |
+[2022-11-16 19:40:50,081] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Embrace of the Serpent (2015) (TMDb: 336808)                         |
+[2022-11-16 19:40:50,094] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Jackie (2016) (TMDb: 376866)                                         |
+[2022-11-16 19:40:50,107] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Age of Shadows (2016) (TMDb: 363579)                             |
+[2022-11-16 19:40:50,121] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Queen of Katwe (2016) (TMDb: 317557)                                 |
+[2022-11-16 19:40:50,134] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Fireworks Wednesday (2006) (TMDb: 43766)                             |
+[2022-11-16 19:40:50,146] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Aquarius (2016) (TMDb: 377273)                                       |
+[2022-11-16 19:40:50,167] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | 13th (2016) (TMDb: 407806)                                           |
+[2022-11-16 19:40:50,179] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Elle (2016) (TMDb: 337674)                                           |
+[2022-11-16 19:40:50,193] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Fits (2016) (TMDb: 358807)                                       |
+[2022-11-16 19:40:50,206] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Loving (2016) (TMDb: 339419)                                         |
+[2022-11-16 19:40:50,216] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Beatles: Eight Days a Week - The Touring Years (2016) (TMDb: 391698) |
+[2022-11-16 19:40:50,227] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Green Room (2015) (TMDb: 313922)                                     |
+[2022-11-16 19:40:50,240] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Hail, Caesar! (2016) (TMDb: 270487)                                  |
+[2022-11-16 19:40:50,272] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Certain Women (2016) (TMDb: 340487)                                  |
+[2022-11-16 19:40:50,285] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Long Way North (2015) (TMDb: 345775)                                 |
+[2022-11-16 19:40:50,297] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Almost Holy (2015) (TMDb: 333097)                                    |
+[2022-11-16 19:40:50,308] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Deadpool (2016) (TMDb: 293660)                                       |
+[2022-11-16 19:40:50,319] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Innocents (2016) (TMDb: 364051)                                  |
+[2022-11-16 19:40:50,333] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Love Witch (2016) (TMDb: 374052)                                 |
+[2022-11-16 19:40:50,346] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Dark Horse (2014) (TMDb: 276496)                                 |
+[2022-11-16 19:40:50,363] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Aferim! (2015) (TMDb: 319993)                                        |
+[2022-11-16 19:40:50,377] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | De Palma (2016) (TMDb: 355254)                                       |
+[2022-11-16 19:40:50,382] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Sully (2016) (TMDb: 363676)                                          |
+[2022-11-16 19:40:50,398] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Gimme Danger (2016) (TMDb: 392820)                                   |
+[2022-11-16 19:40:50,408] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Marguerite (2015) (TMDb: 352157)                                     |
+[2022-11-16 19:40:50,419] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Rams (2015) (TMDb: 336222)                                           |
+[2022-11-16 19:40:50,434] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Cemetery of Splendor (2015) (TMDb: 298721)                           |
+[2022-11-16 19:40:50,445] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Neruda (2016) (TMDb: 351454)                                         |
+[2022-11-16 19:40:50,459] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | April and the Extraordinary World (2015) (TMDb: 340357)              |
+[2022-11-16 19:40:50,481] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Dark Horse (2015) (TMDb: 297393)                                     |
+[2022-11-16 19:40:50,494] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Star Trek Beyond (2016) (TMDb: 188927)                               |
+[2022-11-16 19:40:50,506] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Our Little Sister (2015) (TMDb: 315846)                              |
+[2022-11-16 19:40:50,518] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Train to Busan (2016) (TMDb: 396535)                                 |
+[2022-11-16 19:40:50,529] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Fire at Sea (2016) (TMDb: 377151)                                    |
+[2022-11-16 19:40:50,550] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Life, Animated (2016) (TMDb: 376233)                                 |
+[2022-11-16 19:40:50,566] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Lo and Behold: Reveries of the Connected World (2016) (TMDb: 360030) |
+[2022-11-16 19:40:50,577] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Tickled (2016) (TMDb: 373072)                                        |
+[2022-11-16 19:40:50,610] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Gleason (2016) (TMDb: 373446)                                        |
+[2022-11-16 19:40:50,662] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Southside with You (2016) (TMDb: 310888)                             |
+[2022-11-16 19:40:50,674] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Eagle Huntress (2016) (TMDb: 376530)                             |
+[2022-11-16 19:40:50,689] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Krisha (2016) (TMDb: 323929)                                         |
+[2022-11-16 19:40:50,706] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Don't Breathe (2016) (TMDb: 300669)                                  |
+[2022-11-16 19:40:50,716] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Lobster (2015) (TMDb: 254320)                                    |
+[2022-11-16 19:40:50,727] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Florence Foster Jenkins (2016) (TMDb: 315664)                        |
+[2022-11-16 19:40:50,739] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Everybody Wants Some!! (2016) (TMDb: 295699)                         |
+[2022-11-16 19:40:50,759] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Little Prince (2015) (TMDb: 309809)                              |
+[2022-11-16 19:40:50,776] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | A Bigger Splash (2015) (TMDb: 324807)                                |
+[2022-11-16 19:40:50,790] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Being 17 (2016) (TMDb: 377154)                                       |
+[2022-11-16 19:40:50,804] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Command and Control (2016) (TMDb: 390396)                            |
+[2022-11-16 19:40:50,816] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Notes on Blindness (2016) (TMDb: 378441)                             |
+[2022-11-16 19:40:50,831] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Nuts! (2016) (TMDb: 376236)                                          |
+[2022-11-16 19:40:50,843] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | A Man Called Ove (2015) (TMDb: 348678)                               |
+[2022-11-16 19:40:50,857] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Last Man on the Moon (2016) (TMDb: 276537)                       |
+[2022-11-16 19:40:50,869] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Hacksaw Ridge (2016) (TMDb: 324786)                                  |
+[2022-11-16 19:40:50,881] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Miss Hokusai (2015) (TMDb: 267970)                                   |
+[2022-11-16 19:40:50,898] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | I Am Not a Serial Killer (2016) (TMDb: 381034)                       |
+[2022-11-16 19:40:50,910] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Lion (2016) (TMDb: 334543)                                           |
+[2022-11-16 19:40:50,920] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Eat That Question: Frank Zappa in His Own Words (2016) (TMDb: 373479) |
+[2022-11-16 19:40:50,930] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Demon (2015) (TMDb: 356191)                                          |
+[2022-11-16 19:40:50,944] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Hush (2016) (TMDb: 376570)                                           |
+[2022-11-16 19:40:50,955] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Sand Storm (2017) (TMDb: 371463)                                     |
+[2022-11-16 19:40:50,966] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Tanna (2015) (TMDb: 359151)                                          |
+[2022-11-16 19:40:50,977] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | The Measure of a Man (2015) (TMDb: 329712)                           |
+[2022-11-16 19:40:50,988] [builder.py:2321]           [INFO]     | Best of 2016 Collection | ? | Microbe and Gasoline (2015) (TMDb: 337677)                           |
+[2022-11-16 19:40:50,989] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:50,989] [builder.py:2327]           [INFO]     | 93 Movies Missing                                                                                  |
+[2022-11-16 19:40:51,677] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:51,678] [builder.py:2528]           [INFO]     |=========================== Updating Details of Best of 2016 Collection ============================|
+[2022-11-16 19:40:51,678] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 19:40:51,690] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 19:40:51,718] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 19:40:51,719] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 19:40:51,719] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2016 Collection                                  |
+[2022-11-16 19:40:51,719] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-16 19:40:51,719] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

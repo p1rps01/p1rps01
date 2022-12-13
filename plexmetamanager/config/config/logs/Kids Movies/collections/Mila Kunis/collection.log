@@ -1,0 +1,73 @@
+[2022-11-16 20:21:39,728] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:39,729] [builder.py:193]            [INFO]     |                                Mila Kunis Collection in Kids Movies                                |
+[2022-11-16 20:21:39,729] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:39,729] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:39,729] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:21:39,729] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,729] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:21:39,730] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,731] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,731] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:21:39,731] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,731] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 18973, 'sort_title': '++_Mila Kunis', 'collection_order': 'release'} |
+[2022-11-16 20:21:39,731] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,731] [builder.py:223]            [INFO]     |================================= Validating Mila Kunis Attributes =================================|
+[2022-11-16 20:21:39,731] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,732] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:21:39,732] [builder.py:533]            [DEBUG]    | Value: 18973                                                                                       |
+[2022-11-16 20:21:39,746] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,746] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:21:39,746] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:21:39,746] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:39,747] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:21:39,747] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:21:40,083] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:40,083] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:21:40,083] [builder.py:651]            [DEBUG]    | Value: ++_Mila Kunis                                                                               |
+[2022-11-16 20:21:40,089] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,089] [builder.py:796]            [ERROR]    | Collection Error: Converting Mila Kunis to a normal collection                                     |
+[2022-11-16 20:21:40,096] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,097] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:21:40,097] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,097] [plex_meta_manager.py:596]  [INFO]     |================================== Running Mila Kunis Collection ===================================|
+[2022-11-16 20:21:40,097] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,097] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:21:40,097] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:40,098] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Mila Kunis", '?type=1&sort=titleSort&push=1&actor=415&pop=1') |
+[2022-11-16 20:21:40,098] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,098] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Mila Kunis
+[2022-11-16 20:21:40,111] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:21:40,111] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 20:21:40,112] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:21:40,112] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:21:40,112] [builder.py:2159]           [INFO]     |================================= Adding to Mila Kunis Collection ==================================|
+[2022-11-16 20:21:40,112] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:40,112] [builder.py:2174]           [INFO]     | 1/4 | Mila Kunis Collection | + | Annie (2014)                                                     |
+[2022-11-16 20:21:40,225] [builder.py:2174]           [INFO]     | 2/4 | Mila Kunis Collection | + | Honey, We Shrunk Ourselves! (1997)                               |
+[2022-11-16 20:21:42,664] [builder.py:2174]           [INFO]     | 3/4 | Mila Kunis Collection | + | Oz the Great and Powerful (2013)                                 |
+[2022-11-16 20:21:44,731] [builder.py:2174]           [INFO]     | 4/4 | Mila Kunis Collection | + | Wonder Park (2019)                                               |
+[2022-11-16 20:21:49,053] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:49,053] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 20:21:49,058] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:49,059] [builder.py:2528]           [INFO]     |============================ Updating Details of Mila Kunis Collection =============================|
+[2022-11-16 20:21:49,059] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:49,064] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Milena "Mila" Kunis (born August 14, 1983) is an American actress. Her television work includes the role of Jackie Burkhart on That '70s Show and the voice of Meg Griffin on the animated series Family Guy. She has also played roles in film, such as Rachel Jansen in Forgetting Sarah Marshall, Mona Sax in Max Payne and Solara in The Book of Eli.
+                                                                 | 
+                                                                 | In 2010, she won the Marcello Mastroianni Award for Best Young Actor or Actress at the 67th Venice International Film Festival for her performance as Lily in Black Swan. She was also nominated for a Golden Globe Award for Best Supporting Actress and a Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role for the same role.
+                                                                 | Sort Title | ++_Mila Kunis
+                                                                 | Label | +PMM
+[2022-11-16 20:21:50,564] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:21:50,565] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:21:50,566] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:21:50,566] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/811vCRSr9s2MFwCIOo1jWHltu3R.jpg
+[2022-11-16 20:21:50,711] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/811vCRSr9s2MFwCIOo1jWHltu3R.jpg
+[2022-11-16 20:21:50,757] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:21:50,758] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:21:50,758] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Mila Kunis Collection                                   |
+[2022-11-16 20:21:50,758] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 20:21:50,758] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

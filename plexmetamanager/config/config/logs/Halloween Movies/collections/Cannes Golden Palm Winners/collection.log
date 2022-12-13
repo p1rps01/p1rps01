@@ -1,0 +1,76 @@
+[2022-11-16 18:51:05,682] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:51:05,682] [builder.py:193]            [INFO]     |                     Cannes Golden Palm Winners Collection in Halloween Movies                      |
+[2022-11-16 18:51:05,682] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:51:05,682] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,683] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:51:05,683] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,683] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 18:51:05,683] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,683] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:51:05,686] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,705] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:51:05,706] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,716] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:51:05,717] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,723] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:51:05,724] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,729] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,730] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:51:05,730] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,730] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Cannes !', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/winner.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'Cannes Golden Palm Winners.', 'name': 'Cannes Golden Palm Winners'} |
+[2022-11-16 18:51:05,731] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,731] [builder.py:223]            [INFO]     |========================= Validating Cannes Golden Palm Winners Attributes =========================|
+[2022-11-16 18:51:05,732] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,732] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:51:05,732] [builder.py:230]            [DEBUG]    | Value: Cannes Golden Palm Winners                                                                  |
+[2022-11-16 18:51:05,733] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,733] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:51:05,734] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:51:05,734] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,734] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:51:05,735] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:51:05,735] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,735] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:51:05,736] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:51:05,736] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,736] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:51:05,737] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:51:05,737] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,738] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:51:05,738] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/maxwelldeux/lists/cannes-film-festival-palme-d-or                    |
+[2022-11-16 18:51:05,804] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,804] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:51:05,804] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:51:05,804] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,804] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:51:05,805] [builder.py:651]            [DEBUG]    | Value: !16_Cannes !                                                                                |
+[2022-11-16 18:51:05,805] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,805] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:51:05,805] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/winner.jpg |
+[2022-11-16 18:51:05,971] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,971] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:51:05,971] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:51:05,971] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,971] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:51:05,971] [builder.py:651]            [DEBUG]    | Value: Cannes Golden Palm Winners.                                                                 |
+[2022-11-16 18:51:05,977] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,977] [plex.py:838]               [DEBUG]    | Looking for: Cannes Golden Palm Winners                                                            |
+[2022-11-16 18:51:05,977] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,977] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:51:05,977] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,977] [plex_meta_manager.py:596]  [INFO]     |========================== Running Cannes Golden Palm Winners Collection ===========================|
+[2022-11-16 18:51:05,977] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,977] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:51:05,978] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,978] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/cannes-film-festival-palme-d-or      |
+[2022-11-16 18:51:05,978] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,979] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:51:05,980] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,981] [builder.py:1575]           [DEBUG]    | 94 IDs Found                                                                                       |
+[2022-11-16 18:51:05,981] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:51:05,981] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-16 18:51:05,981] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:51:05,982] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:51:05,982] [plex_meta_manager.py:737]  [INFO]     |                           Finished Cannes Golden Palm Winners Collection                           |
+[2022-11-16 18:51:05,982] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:51:05,982] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

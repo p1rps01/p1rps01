@@ -1,0 +1,74 @@
+[2022-11-24 19:32:20,513] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-24 19:32:20,514] [builder.py:193]            [INFO]     |                              LaMonica Garrett Collection in TV Shows                               |
+[2022-11-24 19:32:20,514] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-24 19:32:20,514] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-24 19:32:20,514] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-24 19:32:20,514] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,514] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-24 19:32:20,514] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,519] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-24 19:32:20,519] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,521] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-24 19:32:20,522] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,531] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,531] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-24 19:32:20,531] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,531] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['LaMonica Garrett'], 'smart_filter': {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}, 'summary': 'Shows with LaMonica Garrett.', 'name': 'LaMonica Garrett', 'ignore_blank_results': True, 'sort_title': '!17_LaMonica Garrett', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/LaMonica%20Garrett.jpg'} |
+[2022-11-24 19:32:20,531] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,531] [builder.py:223]            [INFO]     |============================== Validating LaMonica Garrett Attributes ==============================|
+[2022-11-24 19:32:20,531] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,532] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-24 19:32:20,532] [builder.py:230]            [DEBUG]    | Value: LaMonica Garrett                                                                            |
+[2022-11-24 19:32:20,532] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,532] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-24 19:32:20,532] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-24 19:32:20,532] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:20,532] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-24 19:32:20,532] [builder.py:533]            [DEBUG]    | Value: ['LaMonica Garrett']                                                                        |
+[2022-11-24 19:32:20,643] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-24 19:32:20,643] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-24 19:32:20,643] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}                                       |
+[2022-11-24 19:32:21,041] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.actor=64823&pop=1                 |
+[2022-11-24 19:32:21,041] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:21,041] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-24 19:32:21,041] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-24 19:32:21,041] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:21,041] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-24 19:32:21,042] [builder.py:651]            [DEBUG]    | Value: Shows with LaMonica Garrett.                                                                |
+[2022-11-24 19:32:21,042] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:21,042] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-24 19:32:21,042] [builder.py:651]            [DEBUG]    | Value: !17_LaMonica Garrett                                                                        |
+[2022-11-24 19:32:21,042] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:21,042] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-24 19:32:21,042] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/LaMonica%20Garrett.jpg |
+[2022-11-24 19:32:21,205] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-24 19:32:21,206] [plex.py:838]               [DEBUG]    | Looking for: LaMonica Garrett                                                                      |
+[2022-11-24 19:32:21,206] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-24 19:32:21,206] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-24 19:32:21,206] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-24 19:32:21,206] [plex_meta_manager.py:596]  [INFO]     |=============================== Running LaMonica Garrett Collection ================================|
+[2022-11-24 19:32:21,206] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-24 19:32:21,206] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is LaMonica Garrett
+[2022-11-24 19:32:21,230] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.actor=64823&pop=1
+[2022-11-24 19:32:21,234] [builder.py:2527]           [INFO]     | 
+[2022-11-24 19:32:21,234] [builder.py:2528]           [INFO]     |========================= Updating Details of LaMonica Garrett Collection ==========================|
+[2022-11-24 19:32:21,234] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-24 19:32:21,241] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Shows with LaMonica Garrett.
+                                                                 | Sort Title | !17_LaMonica Garrett
+                                                                 | Label | +Top Actors, +PMM
+[2022-11-24 19:32:22,578] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-24 19:32:22,578] [builder.py:2603]           [INFO]     | 
+[2022-11-24 19:32:22,578] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-24 19:32:22,578] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/yE5TBZ2qC5LAPDduBQAERo7EF3r.jpg
+[2022-11-24 19:32:22,578] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/LaMonica%20Garrett.jpg
+[2022-11-24 19:32:22,623] [library.py:178]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/LaMonica%20Garrett.jpg
+[2022-11-24 19:32:22,664] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-24 19:32:22,664] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-24 19:32:22,665] [plex_meta_manager.py:737]  [INFO]     |                                Finished LaMonica Garrett Collection                                |
+[2022-11-24 19:32:22,665] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-24 19:32:22,665] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

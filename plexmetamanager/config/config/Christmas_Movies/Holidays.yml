@@ -1,0 +1,58 @@
+##############################################################
+##                  Holiday Collections                     ##
+##                Created by JJJonesJr33                    ##
+##                      Version 2.0                         ##
+##############################################################
+##############################################################
+##                                                          ##
+##            User/Config Credits - Special Thanks          ##
+##                                                          ##
+##               Yozora, Bullmoose20, & Sohjiro             ##
+##   Glasti1, Hiren-Z, OhMyBahGosh, tuxpeople, cpt-kuesel   ##
+##      meisnate12, TheUnchainedZebra, Evil Tacctician      ##
+##                                                          ##
+##############################################################
+
+#######################
+##     Templates     ##
+#######################
+
+templates:
+    Holiday:
+        sort_title: +++++++_<<collection_name>>
+        url_poster: <<poster>>
+        collection_order: release.desc
+        collection_mode: hide
+        delete_not_scheduled: false
+        run_again: true
+        visible_home: true
+        visible_shared: true
+        sync_mode: sync
+
+#############################
+##       Collections       ##
+#############################
+
+# FYI: To set the collections on a schedule to where they don't show all year long uncomment "schedule" and and change "delete_not_scheduled:" to "true"
+
+collections:
+  Christmas: #IMDB lists have been removed as they have all been merged into christmas-static-list
+    template: {name: Holiday, holiday: "Christmas", poster: https://theposterdb.com/api/assets/212635}
+   # visible_home: range(12/01-12/31)
+   # visible_shared: range(12/01-12/31)
+   # schedule: range(12/01-12/31)
+    sort_title: +++++++
+    trakt_list:
+      - https://trakt.tv/users/jjjonesjr33/lists/christmas
+      - https://trakt.tv/users/jjjonesjr33/lists/christmas-static-list
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+      - https://trakt.tv/users/pualani78/lists/christmas-2020
+      - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
+    imdb_list:
+      - https://www.imdb.com/list/ls025976544/
+      - https://www.imdb.com/list/ls003863000/
+      - https://www.imdb.com/list/ls027454200/
+      - https://www.imdb.com/list/ls027886673/
+      - https://www.imdb.com/list/ls097998599/
+    summary: This collection revolves around the plot involving Christmas.

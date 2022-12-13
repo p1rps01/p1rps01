@@ -1,0 +1,73 @@
+[2022-11-16 20:18:41,204] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:18:41,204] [builder.py:193]            [INFO]     |                               Jeff Bridges Collection in Kids Movies                               |
+[2022-11-16 20:18:41,205] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:18:41,205] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,205] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:18:41,205] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,205] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:18:41,206] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,207] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,207] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:18:41,207] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,208] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1229, 'sort_title': '++_Jeff Bridges', 'collection_order': 'release'} |
+[2022-11-16 20:18:41,208] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,208] [builder.py:223]            [INFO]     |================================ Validating Jeff Bridges Attributes ================================|
+[2022-11-16 20:18:41,208] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,208] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:18:41,208] [builder.py:533]            [DEBUG]    | Value: 1229                                                                                        |
+[2022-11-16 20:18:41,232] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,232] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:18:41,233] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:18:41,233] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,233] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:18:41,233] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:18:41,537] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,537] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:18:41,537] [builder.py:651]            [DEBUG]    | Value: ++_Jeff Bridges                                                                             |
+[2022-11-16 20:18:41,543] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,543] [builder.py:796]            [ERROR]    | Collection Error: Converting Jeff Bridges to a normal collection                                   |
+[2022-11-16 20:18:41,550] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,550] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:18:41,550] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,550] [plex_meta_manager.py:596]  [INFO]     |================================= Running Jeff Bridges Collection ==================================|
+[2022-11-16 20:18:41,550] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,550] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:18:41,550] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:18:41,551] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jeff Bridges", '?type=1&sort=titleSort&push=1&actor=39691&pop=1') |
+[2022-11-16 20:18:41,551] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,551] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jeff Bridges
+[2022-11-16 20:18:41,559] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:18:41,559] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:18:41,559] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:18:41,559] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:18:41,559] [builder.py:2159]           [INFO]     |================================ Adding to Jeff Bridges Collection =================================|
+[2022-11-16 20:18:41,559] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:41,560] [builder.py:2174]           [INFO]     | 1/2 | Jeff Bridges Collection | + | The Last Unicorn (1982)                                        |
+[2022-11-16 20:18:44,071] [builder.py:2174]           [INFO]     | 2/2 | Jeff Bridges Collection | + | Surf's Up (2007)                                               |
+[2022-11-16 20:18:49,263] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:49,264] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:18:49,270] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:49,270] [builder.py:2528]           [INFO]     |=========================== Updating Details of Jeff Bridges Collection ============================|
+[2022-11-16 20:18:49,271] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:18:49,277] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Jeffrey Leon Bridges (born December 4, 1949) is an American actor, singer, and producer. He comes from a prominent acting family and appeared on the television series Sea Hunt (1958–60), with his father, Lloyd Bridges and brother, Beau Bridges. He has won numerous accolades, including the Academy Award for Best Actor for his role as an alcoholic singer in the 2009 film Crazy Heart.
+                                                                 | 
+                                                                 | Bridges also earned Academy Award nominations for his roles in The Last Picture Show (1971), Thunderbolt and Lightfoot (1974), Starman (1984), The Contender (2000), True Grit (2010), and Hell or High Water (2016).
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Jeff Bridges, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Jeff Bridges
+                                                                 | Label | +PMM
+[2022-11-16 20:18:50,920] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:18:50,921] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:18:50,922] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:18:50,922] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg
+[2022-11-16 20:18:51,152] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg
+[2022-11-16 20:18:51,289] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:18:51,289] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:18:51,289] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Jeff Bridges Collection                                  |
+[2022-11-16 20:18:51,289] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 20:18:51,289] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

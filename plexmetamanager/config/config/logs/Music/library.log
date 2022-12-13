@@ -1,0 +1,78 @@
+[2022-11-17 08:38:15,786] [plex_meta_manager.py:423]  [INFO]     |                                                                                                    |
+[2022-11-17 08:38:15,787] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-17 08:38:15,787] [plex_meta_manager.py:424]  [INFO]     |                                           Music Library                                            |
+[2022-11-17 08:38:15,787] [plex_meta_manager.py:424]  [INFO]     |====================================================================================================|
+[2022-11-17 08:38:15,787] [plex_meta_manager.py:426]  [DEBUG]    |                                                                                                    |
+[2022-11-17 08:38:15,787] [plex_meta_manager.py:427]  [DEBUG]    | Mapping Name: Music                                                                                |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:428]  [DEBUG]    | Folder Name: Music                                                                                 |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:431]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:432]  [DEBUG]    | Create Asset Folders: True                                                                         |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:433]  [DEBUG]    | Download URL Assets: True                                                                          |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:434]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:435]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:436]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:437]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-17 08:38:15,788] [plex_meta_manager.py:438]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:439]  [DEBUG]    | Missing Only Released: True                                                                        |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:440]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:441]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:442]  [DEBUG]    | Show Filtered: True                                                                                |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:443]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:444]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:445]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:446]  [DEBUG]    | Report Path: /config/Music_report.yml                                                              |
+[2022-11-17 08:38:15,789] [plex_meta_manager.py:447]  [DEBUG]    | Clean Bundles: True                                                                                |
+[2022-11-17 08:38:15,790] [plex_meta_manager.py:448]  [DEBUG]    | Empty Trash: True                                                                                  |
+[2022-11-17 08:38:15,790] [plex_meta_manager.py:449]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-17 08:38:15,790] [plex_meta_manager.py:450]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-17 08:38:15,794] [library.py:287]            [INFO]     |                                                                                                    |
+[2022-11-17 08:38:15,795] [library.py:288]            [INFO]     |=================================== Caching Music Library Items ====================================|
+[2022-11-17 08:38:15,795] [library.py:289]            [INFO]     |                                                                                                    |
+[2022-11-17 08:38:15,795] [plex.py:517]               [INFO]     | Loading All Artists from Library: Music                                                            |
+[2022-11-17 08:38:21,736] [plex.py:526]               [INFO]     | Loaded 2142 Artists                                                                                |
+[2022-11-17 08:38:21,740] [operations.py:22]          [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,740] [operations.py:23]          [INFO]     |====================================================================================================|
+[2022-11-17 08:38:21,741] [operations.py:23]          [INFO]     |                                      Music Library Operations                                      |
+[2022-11-17 08:38:21,741] [operations.py:23]          [INFO]     |====================================================================================================|
+[2022-11-17 08:38:21,741] [operations.py:24]          [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,741] [operations.py:25]          [DEBUG]    | Assets For All: None                                                                               |
+[2022-11-17 08:38:21,741] [operations.py:26]          [DEBUG]    | Delete Collections: None                                                                           |
+[2022-11-17 08:38:21,741] [operations.py:27]          [DEBUG]    | Show Unmanaged Collections: True                                                                   |
+[2022-11-17 08:38:21,741] [operations.py:28]          [DEBUG]    | Show Unconfigured Collections: True                                                                |
+[2022-11-17 08:38:21,741] [operations.py:29]          [DEBUG]    | Mass Genre Update: None                                                                            |
+[2022-11-17 08:38:21,741] [operations.py:30]          [DEBUG]    | Mass Audience Rating Update: None                                                                  |
+[2022-11-17 08:38:21,741] [operations.py:31]          [DEBUG]    | Mass Critic Rating Update: None                                                                    |
+[2022-11-17 08:38:21,742] [operations.py:32]          [DEBUG]    | Mass User Rating Update: None                                                                      |
+[2022-11-17 08:38:21,742] [operations.py:33]          [DEBUG]    | Mass Episode Audience Rating Update: None                                                          |
+[2022-11-17 08:38:21,742] [operations.py:34]          [DEBUG]    | Mass Episode Critic Rating Update: None                                                            |
+[2022-11-17 08:38:21,742] [operations.py:35]          [DEBUG]    | Mass Episode User Rating Update: None                                                              |
+[2022-11-17 08:38:21,742] [operations.py:36]          [DEBUG]    | Mass Content Rating Update: None                                                                   |
+[2022-11-17 08:38:21,742] [operations.py:37]          [DEBUG]    | Mass Original Title Update: None                                                                   |
+[2022-11-17 08:38:21,742] [operations.py:38]          [DEBUG]    | Mass Originally Available Update: None                                                             |
+[2022-11-17 08:38:21,742] [operations.py:39]          [DEBUG]    | Mass IMDb Parental Labels: None                                                                    |
+[2022-11-17 08:38:21,742] [operations.py:40]          [DEBUG]    | Mass Poster Update: None                                                                           |
+[2022-11-17 08:38:21,742] [operations.py:41]          [DEBUG]    | Mass Background Update: None                                                                       |
+[2022-11-17 08:38:21,743] [operations.py:42]          [DEBUG]    | Mass Collection Mode Update: None                                                                  |
+[2022-11-17 08:38:21,743] [operations.py:43]          [DEBUG]    | Split Duplicates: None                                                                             |
+[2022-11-17 08:38:21,743] [operations.py:44]          [DEBUG]    | Radarr Add All Existing: None                                                                      |
+[2022-11-17 08:38:21,743] [operations.py:45]          [DEBUG]    | Radarr Remove by Tag: None                                                                         |
+[2022-11-17 08:38:21,743] [operations.py:46]          [DEBUG]    | Sonarr Add All Existing: None                                                                      |
+[2022-11-17 08:38:21,743] [operations.py:47]          [DEBUG]    | Sonarr Remove by Tag: None                                                                         |
+[2022-11-17 08:38:21,743] [operations.py:48]          [DEBUG]    | Update Blank Track Titles: None                                                                    |
+[2022-11-17 08:38:21,743] [operations.py:49]          [DEBUG]    | Update Remove Title Parentheses: None                                                              |
+[2022-11-17 08:38:21,743] [operations.py:50]          [DEBUG]    | Genre Mapper: None                                                                                 |
+[2022-11-17 08:38:21,744] [operations.py:51]          [DEBUG]    | Content Rating Mapper: None                                                                        |
+[2022-11-17 08:38:21,744] [operations.py:52]          [DEBUG]    | Metadata Backup: None                                                                              |
+[2022-11-17 08:38:21,744] [operations.py:53]          [DEBUG]    | Item Operation: False                                                                              |
+[2022-11-17 08:38:21,744] [operations.py:54]          [DEBUG]    |                                                                                                    |
+[2022-11-17 08:38:21,750] [operations.py:619]         [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,750] [operations.py:620]         [INFO]     |============================ No Unmanaged Collections in Music Library =============================|
+[2022-11-17 08:38:21,751] [operations.py:621]         [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,751] [operations.py:632]         [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,751] [operations.py:633]         [INFO]     |=========================== No Unconfigured Collections in Music Library ===========================|
+[2022-11-17 08:38:21,751] [operations.py:634]         [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,751] [operations.py:714]         [INFO]     |                                                                                                    |
+[2022-11-17 08:38:21,751] [operations.py:715]         [INFO]     |====================================================================================================|
+[2022-11-17 08:38:21,751] [operations.py:715]         [INFO]     |                                 Finished Music Library Operations                                  |
+[2022-11-17 08:38:21,752] [operations.py:715]         [INFO]     |                                    Operations Run Time: 0:00:00                                    |
+[2022-11-17 08:38:21,752] [operations.py:715]         [INFO]     |====================================================================================================|

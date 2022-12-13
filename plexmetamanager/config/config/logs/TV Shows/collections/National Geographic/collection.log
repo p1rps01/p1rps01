@@ -1,0 +1,974 @@
+[2022-11-25 15:22:24,374] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:22:24,374] [builder.py:193]            [INFO]     |                             National Geographic Collection in TV Shows                             |
+[2022-11-25 15:22:24,374] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:22:24,374] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:22:24,375] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:22:24,375] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,375] [meta.py:210]               [DEBUG]    |========================================= Template network =========================================|
+[2022-11-25 15:22:24,375] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,377] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,377] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:22:24,377] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,377] [meta.py:515]               [DEBUG]    | {'tmdb_network': '43, 799, 1756, 1825, 3355, 4293, 4476', 'sort_title': '+2_National Geographic', 'sync_mode': 'sync', 'smart_label': 'episode_added.desc'} |
+[2022-11-25 15:22:24,377] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,377] [builder.py:223]            [INFO]     |============================ Validating National Geographic Attributes =============================|
+[2022-11-25 15:22:24,377] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,378] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:22:24,378] [builder.py:428]            [DEBUG]    | Value: episode_added.desc                                                                          |
+[2022-11-25 15:22:24,389] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,389] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:22:24,390] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:22:24,390] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,390] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-25 15:22:24,390] [builder.py:651]            [DEBUG]    | Value: 43, 799, 1756, 1825, 3355, 4293, 4476                                                       |
+[2022-11-25 15:22:24,447] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:22:24,447] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:22:24,447] [builder.py:651]            [DEBUG]    | Value: +2_National Geographic                                                                      |
+[2022-11-25 15:22:24,484] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:22:24,485] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:22:24,485] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:22:24,485] [plex_meta_manager.py:596]  [INFO]     |============================== Running National Geographic Collection ==============================|
+[2022-11-25 15:22:24,485] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:22:24,485] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['episode_added.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is National Geographic
+[2022-11-25 15:22:24,485] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 15:22:24,486] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 15:22:24,486] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:24,486] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 43
+[2022-11-25 15:22:24,486] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:25,140] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (43) National Geographic (446 Shows)
+[2022-11-25 15:22:25,141] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:25,141] [builder.py:1575]           [DEBUG]    | 446 IDs Found
+[2022-11-25 15:22:25,142] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:25,170] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 212440
+[2022-11-25 15:22:25,230] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206500
+[2022-11-25 15:22:25,286] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 127637
+[2022-11-25 15:22:25,319] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 97487
+[2022-11-25 15:22:25,334] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 92951
+[2022-11-25 15:22:25,349] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 137057
+[2022-11-25 15:22:25,380] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78826
+[2022-11-25 15:22:25,397] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203318
+[2022-11-25 15:22:25,411] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 153487
+[2022-11-25 15:22:25,429] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 60959
+[2022-11-25 15:22:25,451] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 59580
+[2022-11-25 15:22:25,469] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96967
+[2022-11-25 15:22:25,504] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 115832
+[2022-11-25 15:22:25,525] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42594
+[2022-11-25 15:22:25,546] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49446
+[2022-11-25 15:22:25,560] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120324
+[2022-11-25 15:22:25,581] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 135986
+[2022-11-25 15:22:25,602] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 54605
+[2022-11-25 15:22:25,620] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49299
+[2022-11-25 15:22:25,647] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78822
+[2022-11-25 15:22:25,678] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 212424
+[2022-11-25 15:22:25,693] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120497
+[2022-11-25 15:22:25,704] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 85443
+[2022-11-25 15:22:25,717] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 123992
+[2022-11-25 15:22:25,731] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204442
+[2022-11-25 15:22:25,757] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120367
+[2022-11-25 15:22:25,774] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 109763
+[2022-11-25 15:22:25,785] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 76460
+[2022-11-25 15:22:25,797] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 70628
+[2022-11-25 15:22:25,816] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 64707
+[2022-11-25 15:22:25,832] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 106771
+[2022-11-25 15:22:25,847] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 109759
+[2022-11-25 15:22:25,868] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 68149
+[2022-11-25 15:22:25,884] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 100597
+[2022-11-25 15:22:25,901] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 62106
+[2022-11-25 15:22:25,935] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 77255
+[2022-11-25 15:22:25,952] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120804
+[2022-11-25 15:22:25,966] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202138
+[2022-11-25 15:22:25,985] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 74846
+[2022-11-25 15:22:25,997] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 103899
+[2022-11-25 15:22:26,024] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131332
+[2022-11-25 15:22:26,054] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 75340
+[2022-11-25 15:22:26,073] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209567
+[2022-11-25 15:22:26,092] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 128633
+[2022-11-25 15:22:26,116] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93236
+[2022-11-25 15:22:26,136] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 70197
+[2022-11-25 15:22:26,150] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131691
+[2022-11-25 15:22:26,161] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 36238
+[2022-11-25 15:22:26,174] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131658
+[2022-11-25 15:22:26,191] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 106146
+[2022-11-25 15:22:26,213] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 63759
+[2022-11-25 15:22:26,232] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 129486
+[2022-11-25 15:22:26,245] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 113827
+[2022-11-25 15:22:26,262] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 62530
+[2022-11-25 15:22:26,280] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 20393
+[2022-11-25 15:22:26,294] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 195798
+[2022-11-25 15:22:26,307] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102911
+[2022-11-25 15:22:26,320] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 62216
+[2022-11-25 15:22:26,341] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 22020
+[2022-11-25 15:22:26,353] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204679
+[2022-11-25 15:22:26,367] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202966
+[2022-11-25 15:22:26,377] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42249
+[2022-11-25 15:22:26,389] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 132736
+[2022-11-25 15:22:26,412] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 58124
+[2022-11-25 15:22:26,425] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 52918
+[2022-11-25 15:22:26,438] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 137042
+[2022-11-25 15:22:26,454] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 115837
+[2022-11-25 15:22:26,467] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 132020
+[2022-11-25 15:22:26,480] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 110168
+[2022-11-25 15:22:26,493] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213352
+[2022-11-25 15:22:26,526] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209086
+[2022-11-25 15:22:26,562] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 207996
+[2022-11-25 15:22:26,586] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 207542
+[2022-11-25 15:22:26,602] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206082
+[2022-11-25 15:22:26,613] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204724
+[2022-11-25 15:22:26,629] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204210
+[2022-11-25 15:22:26,639] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203181
+[2022-11-25 15:22:26,664] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202846
+[2022-11-25 15:22:26,694] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202151
+[2022-11-25 15:22:26,709] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202150
+[2022-11-25 15:22:26,726] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202142
+[2022-11-25 15:22:26,739] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202141
+[2022-11-25 15:22:26,752] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202139
+[2022-11-25 15:22:26,765] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 195731
+[2022-11-25 15:22:26,785] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 156039
+[2022-11-25 15:22:26,798] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 156024
+[2022-11-25 15:22:26,814] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155971
+[2022-11-25 15:22:26,844] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155956
+[2022-11-25 15:22:26,863] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155955
+[2022-11-25 15:22:26,892] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155058
+[2022-11-25 15:22:26,905] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154451
+[2022-11-25 15:22:26,916] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154255
+[2022-11-25 15:22:26,931] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 139571
+[2022-11-25 15:22:26,944] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 138175
+[2022-11-25 15:22:26,961] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 138170
+[2022-11-25 15:22:26,981] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 137335
+[2022-11-25 15:22:26,994] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 136781
+[2022-11-25 15:22:27,020] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 135817
+[2022-11-25 15:22:27,039] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 134904
+[2022-11-25 15:22:27,065] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 132101
+[2022-11-25 15:22:27,085] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 132067
+[2022-11-25 15:22:27,101] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131436
+[2022-11-25 15:22:27,123] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131435
+[2022-11-25 15:22:27,141] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 128626
+[2022-11-25 15:22:27,160] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 127664
+[2022-11-25 15:22:27,178] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 126931
+[2022-11-25 15:22:27,193] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 124712
+[2022-11-25 15:22:27,196] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122512
+[2022-11-25 15:22:27,208] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122509
+[2022-11-25 15:22:27,220] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 121445
+[2022-11-25 15:22:27,234] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120370
+[2022-11-25 15:22:27,248] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 119540
+[2022-11-25 15:22:27,265] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 119494
+[2022-11-25 15:22:27,276] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 118552
+[2022-11-25 15:22:27,289] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 118477
+[2022-11-25 15:22:27,300] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117368
+[2022-11-25 15:22:27,310] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117221
+[2022-11-25 15:22:27,325] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117021
+[2022-11-25 15:22:27,346] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 115828
+[2022-11-25 15:22:27,369] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 109760
+[2022-11-25 15:22:27,384] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 109460
+[2022-11-25 15:22:27,399] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 107969
+[2022-11-25 15:22:27,412] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 104224
+[2022-11-25 15:22:27,440] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102631
+[2022-11-25 15:22:27,454] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 99771
+[2022-11-25 15:22:27,468] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 99511
+[2022-11-25 15:22:27,483] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 98233
+[2022-11-25 15:22:27,495] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 97786
+[2022-11-25 15:22:27,508] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93213
+[2022-11-25 15:22:27,520] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 87596
+[2022-11-25 15:22:27,534] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 86146
+[2022-11-25 15:22:27,545] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 84739
+[2022-11-25 15:22:27,562] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78825
+[2022-11-25 15:22:27,580] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78823
+[2022-11-25 15:22:27,594] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 71500
+[2022-11-25 15:22:27,607] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 70622
+[2022-11-25 15:22:27,621] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 69875
+[2022-11-25 15:22:27,636] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 65995
+[2022-11-25 15:22:27,649] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 65056
+[2022-11-25 15:22:27,662] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 64956
+[2022-11-25 15:22:27,685] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 59101
+[2022-11-25 15:22:27,703] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 57014
+[2022-11-25 15:22:27,721] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56787
+[2022-11-25 15:22:27,740] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 55569
+[2022-11-25 15:22:27,757] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 55378
+[2022-11-25 15:22:27,769] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 51515
+[2022-11-25 15:22:27,789] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 49952
+[2022-11-25 15:22:27,804] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 48276
+[2022-11-25 15:22:27,818] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47153
+[2022-11-25 15:22:27,837] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42302
+[2022-11-25 15:22:27,850] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 40945
+[2022-11-25 15:22:27,864] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 38770
+[2022-11-25 15:22:27,877] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 38730
+[2022-11-25 15:22:27,892] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 38337
+[2022-11-25 15:22:27,913] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 21721
+[2022-11-25 15:22:27,928] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18624
+[2022-11-25 15:22:27,949] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 17167
+[2022-11-25 15:22:27,956] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:27,956] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 799
+[2022-11-25 15:22:27,957] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:27,984] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (799) National Geographic Channel (10 Shows)
+[2022-11-25 15:22:27,984] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:27,984] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-25 15:22:27,985] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:27,996] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 115009
+[2022-11-25 15:22:28,011] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 105956
+[2022-11-25 15:22:28,014] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:28,014] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 1756
+[2022-11-25 15:22:28,014] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:28,042] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (1756) National Geographic Channel (11 Shows)
+[2022-11-25 15:22:28,042] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:28,042] [builder.py:1575]           [DEBUG]    | 11 IDs Found
+[2022-11-25 15:22:28,043] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:28,058] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 98303
+[2022-11-25 15:22:28,084] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 110561
+[2022-11-25 15:22:28,086] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:28,087] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 1825
+[2022-11-25 15:22:28,087] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:28,152] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (1825) National Geographic Channel (42 Shows)
+[2022-11-25 15:22:28,153] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:28,153] [builder.py:1575]           [DEBUG]    | 42 IDs Found
+[2022-11-25 15:22:28,153] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:28,182] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211937
+[2022-11-25 15:22:28,214] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102165
+[2022-11-25 15:22:28,243] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96714
+[2022-11-25 15:22:28,260] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131333
+[2022-11-25 15:22:28,286] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 86090
+[2022-11-25 15:22:28,302] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96939
+[2022-11-25 15:22:28,316] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 76432
+[2022-11-25 15:22:28,332] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 86314
+[2022-11-25 15:22:28,353] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 196594
+[2022-11-25 15:22:28,368] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 136710
+[2022-11-25 15:22:28,385] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 137013
+[2022-11-25 15:22:28,396] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 99771
+[2022-11-25 15:22:28,398] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:28,398] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 3355
+[2022-11-25 15:22:28,398] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:28,437] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (3355) National Geographic (6 Shows)
+[2022-11-25 15:22:28,438] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:28,438] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-25 15:22:28,438] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:28,450] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209034
+[2022-11-25 15:22:28,466] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93917
+[2022-11-25 15:22:28,480] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 104619
+[2022-11-25 15:22:28,494] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 95407
+[2022-11-25 15:22:28,495] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:28,495] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 4293
+[2022-11-25 15:22:28,495] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:28,541] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (4293) National Geographic (15 Shows)
+[2022-11-25 15:22:28,542] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:28,542] [builder.py:1575]           [DEBUG]    | 15 IDs Found
+[2022-11-25 15:22:28,542] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:28,555] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 105215
+[2022-11-25 15:22:28,566] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 113249
+[2022-11-25 15:22:28,581] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 124075
+[2022-11-25 15:22:28,607] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 139523
+[2022-11-25 15:22:28,623] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 202653
+[2022-11-25 15:22:28,625] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:22:28,626] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 4476
+[2022-11-25 15:22:28,626] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:22:28,671] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (4476) Nat Geo Kids (8 Shows)
+[2022-11-25 15:22:28,671] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:22:28,671] [builder.py:1575]           [DEBUG]    | 8 IDs Found
+[2022-11-25 15:22:28,672] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:22:28,684] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122047
+[2022-11-25 15:22:28,700] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 158542
+[2022-11-25 15:22:28,722] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 94276
+[2022-11-25 15:22:28,732] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 123763
+[2022-11-25 15:22:28,744] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131227
+[2022-11-25 15:22:28,756] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 129900
+[2022-11-25 15:22:28,767] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 123764
+[2022-11-25 15:22:28,767] [builder.py:2158]           [INFO]     | 
+[2022-11-25 15:22:28,768] [builder.py:2159]           [INFO]     |============================= Adding to National Geographic Collection =============================|
+[2022-11-25 15:22:28,770] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:22:28,808] [builder.py:2174]           [INFO]     | 1/2 | National Geographic Collection | = | The Hot Zone                                            |
+[2022-11-25 15:22:28,808] [builder.py:2174]           [INFO]     | 2/2 | National Geographic Collection | = | Cesar Millan: Better Human Better Dog                   |
+[2022-11-25 15:22:28,809] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:22:28,809] [builder.py:2196]           [INFO]     | 2 Shows Processed 0 Shows Added                                                                    |
+[2022-11-25 15:22:28,809] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:22:28,809] [builder.py:2353]           [INFO]     |========================= Missing Shows from Library: National Geographic ==========================|
+[2022-11-25 15:22:28,809] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:22:28,864] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mayday (TVDb: 79771)                                          |
+[2022-11-25 15:22:28,914] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Cosmos (2014) (TVDb: 260586)                                  |
+[2022-11-25 15:22:28,942] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Genius (2017) (TVDb: 322399)                                  |
+[2022-11-25 15:22:28,968] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Running Wild with Bear Grylls (TVDb: 283052)                  |
+[2022-11-25 15:22:29,003] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Life Below Zero (TVDb: 269599)                                |
+[2022-11-25 15:22:29,048] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mars (2016) (TVDb: 316345)                                    |
+[2022-11-25 15:22:29,092] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Drain the Oceans (TVDb: 348352)                               |
+[2022-11-25 15:22:29,122] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lost Treasures of Egypt (TVDb: 360606)                        |
+[2022-11-25 15:22:29,295] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Brain Games (TVDb: 252570)                                    |
+[2022-11-25 15:22:29,336] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Story of God (TVDb: 308585)                               |
+[2022-11-25 15:22:29,375] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Science of Stupid (TVDb: 280473)                              |
+[2022-11-25 15:22:29,403] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Gordon Ramsay: Uncharted (TVDb: 365920)                       |
+[2022-11-25 15:22:29,428] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | One Strange Rock (TVDb: 342190)                               |
+[2022-11-25 15:22:29,495] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Long Road Home (TVDb: 332420)                             |
+[2022-11-25 15:22:29,529] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Barkskins (TVDb: 366520)                                      |
+[2022-11-25 15:22:29,632] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Dog Whisperer (TVDb: 79212)                                   |
+[2022-11-25 15:22:29,700] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wicked Tuna (TVDb: 257494)                                    |
+[2022-11-25 15:22:29,727] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wicked Tuna: Outer Banks (TVDb: 284370)                       |
+[2022-11-25 15:22:29,766] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Doomsday Preppers (TVDb: 255608)                              |
+[2022-11-25 15:22:29,802] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Drugs, Inc. (TVDb: 174501)                                    |
+[2022-11-25 15:22:29,831] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Buried Secrets of the Bible With Albert Lin (TVDb: 360912)    |
+[2022-11-25 15:22:29,874] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | To Catch a Smuggler (TVDb: 264244)                            |
+[2022-11-25 15:22:30,048] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 350011                                                    |
+[2022-11-25 15:22:30,080] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Saints & Strangers (TVDb: 301339)                             |
+[2022-11-25 15:22:30,106] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Primal Survivor (TVDb: 308632)                                |
+[2022-11-25 15:22:30,132] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | American Genius (TVDb: 296045)                                |
+[2022-11-25 15:22:30,281] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Megastructures (TVDb: 80625)                                  |
+[2022-11-25 15:22:30,399] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Naked Science (TVDb: 80994)                                   |
+[2022-11-25 15:22:30,450] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Yellowstone Live (TVDb: 351143)                               |
+[2022-11-25 15:22:30,494] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hitler's Last Stand (TVDb: 348588)                            |
+[2022-11-25 15:22:30,643] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Running Wild with Bear Grylls: The Challenge (TVDb: 422875)   |
+[2022-11-25 15:22:30,676] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Breakthrough (TVDb: 302404)                                   |
+[2022-11-25 15:22:30,714] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Year Million (TVDb: 328143)                                   |
+[2022-11-25 15:22:30,750] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | StarTalk with Neil deGrasse Tyson (TVDb: 279659)              |
+[2022-11-25 15:22:30,855] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Big, Bigger, Biggest (TVDb: 81863)                            |
+[2022-11-25 15:22:30,951] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Monkey Business (TVDb: 333153)                                |
+[2022-11-25 15:22:30,996] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Great Migrations (TVDb: 197371)                               |
+[2022-11-25 15:22:31,028] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Seconds From Disaster (TVDb: 79772)                           |
+[2022-11-25 15:22:31,055] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lost Cities with Albert Lin (TVDb: 371126)                    |
+[2022-11-25 15:22:31,085] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Snake City (TVDb: 302348)                                     |
+[2022-11-25 15:22:31,126] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Trafficked with Mariana van Zeller (TVDb: 390354)             |
+[2022-11-25 15:22:31,285] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Explorer (TVDb: 79319)                                        |
+[2022-11-25 15:22:31,317] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Kingdom of the White Wolf (TVDb: 368443)                      |
+[2022-11-25 15:22:31,444] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Storm Rising (TVDb: 409708)                                   |
+[2022-11-25 15:22:31,554] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ultimate Factories (TVDb: 82374)                              |
+[2022-11-25 15:22:31,587] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Africa's Deadliest (TVDb: 269733)                             |
+[2022-11-25 15:22:31,703] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | No Man Left Behind (TVDb: 313653)                             |
+[2022-11-25 15:22:31,730] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Secrets of the Zoo (TVDb: 350453)                             |
+[2022-11-25 15:22:31,766] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Gordon Ramsay: Uncharted Showdown (TVDb: 422512)              |
+[2022-11-25 15:22:31,798] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Valley of the Boom (TVDb: 350782)                             |
+[2022-11-25 15:22:31,832] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | 9/11: One Day in America (TVDb: 405898)                       |
+[2022-11-25 15:22:31,867] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside North Korea's Dynasty (TVDb: 355437)                   |
+[2022-11-25 15:22:31,990] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Edge of the Unknown with Jimmy Chin (TVDb: 423106)            |
+[2022-11-25 15:22:32,080] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Superstructures: Engineering Marvels (TVDb: 362648)           |
+[2022-11-25 15:22:32,202] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Something Bit Me! (TVDb: 417289)                              |
+[2022-11-25 15:22:32,235] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Narco Wars (TVDb: 393125)                                     |
+[2022-11-25 15:22:32,349] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mama Mirabelle's Home Movies (TVDb: 224611)                   |
+[2022-11-25 15:22:32,463] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lost Treasures of the Maya (TVDb: 360608)                     |
+[2022-11-25 15:22:32,498] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside the American Mob (TVDb: 271622)                        |
+[2022-11-25 15:22:32,526] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The '80s: The Decade That Made Us (TVDb: 268450)              |
+[2022-11-25 15:22:32,654] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Buried Secrets of WWII (TVDb: 369064)                         |
+[2022-11-25 15:22:32,752] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Life Below Zero: Next Generation (TVDb: 388053)               |
+[2022-11-25 15:22:32,865] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lockdown (TVDb: 104891)                                       |
+[2022-11-25 15:22:32,951] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Breakout (TVDb: 144311)                                       |
+[2022-11-25 15:22:33,100] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | World's Toughest Fixes (TVDb: 90771)                          |
+[2022-11-25 15:22:33,123] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Origins: The Journey of Humankind (TVDb: 324607)              |
+[2022-11-25 15:22:33,167] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Micro Monsters with David Attenborough (TVDb: 270732)         |
+[2022-11-25 15:22:33,199] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Port Protection (TVDb: 298569)                                |
+[2022-11-25 15:22:33,341] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Race to the Center of the Earth (TVDb: 376002)                |
+[2022-11-25 15:22:33,388] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Russia (TVDb: 118501)                                    |
+[2022-11-25 15:22:33,485] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ancient Megastructures (TVDb: 95521)                          |
+[2022-11-25 15:22:33,512] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | UFOs: The Untold Stories (TVDb: 264679)                       |
+[2022-11-25 15:22:33,673] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Chain of Command (TVDb: 340664)                               |
+[2022-11-25 15:22:33,782] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Survive the Tribe (TVDb: 283716)                              |
+[2022-11-25 15:22:33,917] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Dog: Impossible (TVDb: 367656)                                |
+[2022-11-25 15:22:34,068] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Kingdom of the Mummies (TVDb: 382268)                         |
+[2022-11-25 15:22:34,166] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mystery Files (TVDb: 167031)                                  |
+[2022-11-25 15:22:34,369] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Life Below Zero: Northern Territories (TVDb: 384832)          |
+[2022-11-25 15:22:34,460] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Street Genius (TVDb: 270637)                                  |
+[2022-11-25 15:22:34,492] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Secrets of Wild India (TVDb: 258633)                          |
+[2022-11-25 15:22:34,595] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Gourmet's Diary of a Foodie (TVDb: 248266)                    |
+[2022-11-25 15:22:34,735] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | India from Above (TVDb: 389373)                               |
+[2022-11-25 15:22:35,030] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hitler's Last Year (TVDb: 299971)                             |
+[2022-11-25 15:22:35,167] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Danube: Europe's Amazon (TVDb: 283093)                        |
+[2022-11-25 15:22:35,263] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | WWII's Greatest Raids (TVDb: 284444)                          |
+[2022-11-25 15:22:35,288] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Paranatural (TVDb: 146081)                                    |
+[2022-11-25 15:22:35,373] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Egypt Unwrapped (TVDb: 85229)                                 |
+[2022-11-25 15:22:35,390] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Weird But True! (TVDb: 386989)                                |
+[2022-11-25 15:22:35,525] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Legend of Mick Dodge (TVDb: 276526)                       |
+[2022-11-25 15:22:35,561] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The ’80s: Top Ten (TVDb: 411658)                              |
+[2022-11-25 15:22:35,644] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Test Your Brain (TVDb: 304872)                                |
+[2022-11-25 15:22:35,681] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Apollo: Back to the Moon (TVDb: 366699)                       |
+[2022-11-25 15:22:35,714] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Central America (TVDb: 378538)                           |
+[2022-11-25 15:22:35,816] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Justice (TVDb: 210301)                                   |
+[2022-11-25 15:22:35,907] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Border Force: America's Gatekeepers (TVDb: 378918)            |
+[2022-11-25 15:22:36,040] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Paradise Islands (2017) (TVDb: 339372)                        |
+[2022-11-25 15:22:36,169] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Witness to Disaster (TVDb: 367301)                            |
+[2022-11-25 15:22:36,269] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Badlands, Texas (TVDb: 303393)                                |
+[2022-11-25 15:22:36,389] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside Cocaine Wars (TVDb: 269260)                            |
+[2022-11-25 15:22:36,415] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | A Traveler's Guide to the Planets (TVDb: 142171)              |
+[2022-11-25 15:22:36,437] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Years of Living Dangerously (TVDb: 274880)                    |
+[2022-11-25 15:22:36,554] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | America's National Parks (2022) (TVDb: 424127)                |
+[2022-11-25 15:22:36,695] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hacking the System (TVDb: 278200)                             |
+[2022-11-25 15:22:36,824] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Doomsday Castle (TVDb: 271993)                                |
+[2022-11-25 15:22:36,853] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Prehistoric Predators (TVDb: 118631)                          |
+[2022-11-25 15:22:36,883] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | China From Above (TVDb: 298120)                               |
+[2022-11-25 15:22:37,001] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Man, Woman, Dog (TVDb: 413713)                                |
+[2022-11-25 15:22:37,095] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Story of Us with Morgan Freeman (TVDb: 334942)            |
+[2022-11-25 15:22:37,120] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Chasing UFOs (TVDb: 260165)                                   |
+[2022-11-25 15:22:37,281] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Border Wars (TVDb: 134381)                                    |
+[2022-11-25 15:22:37,384] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | World of Flavor with Big Moe Cason (TVDb: 422723)             |
+[2022-11-25 15:22:37,533] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Animal Underworld (TVDb: 259252)                              |
+[2022-11-25 15:22:37,708] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Nordic (TVDb: 375301)                                    |
+[2022-11-25 15:22:37,808] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Incredibly Small World (TVDb: 278742)                         |
+[2022-11-25 15:22:37,935] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Unknown Waters with Jeremy Wade (TVDb: 406839)                |
+[2022-11-25 15:22:38,043] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Chug (TVDb: 281308)                                           |
+[2022-11-25 15:22:38,172] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Dian Fossey: Secrets in the Mist (TVDb: 338839)               |
+[2022-11-25 15:22:38,296] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lawless Oceans (TVDb: 321961)                                 |
+[2022-11-25 15:22:38,383] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Filthy Riches (TVDb: 281018)                                  |
+[2022-11-25 15:22:38,499] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Lion Ranger (TVDb: 250578)                                |
+[2022-11-25 15:22:38,612] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Known Universe (TVDb: 92361)                                  |
+[2022-11-25 15:22:38,754] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Link (TVDb: 259214)                                       |
+[2022-11-25 15:22:38,784] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Continent 7: Antarctica (TVDb: 319505)                        |
+[2022-11-25 15:22:38,928] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Alaska State Troopers (TVDb: 122511)                          |
+[2022-11-25 15:22:39,106] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 303582                                                    |
+[2022-11-25 15:22:39,147] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hostile Planet (TVDb: 361385)                                 |
+[2022-11-25 15:22:39,298] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Extreme Rescues (TVDb: 377358)                                |
+[2022-11-25 15:22:39,326] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The '90s: The Last Great Decade (TVDb: 283195)                |
+[2022-11-25 15:22:39,428] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Great Human Race (TVDb: 306774)                           |
+[2022-11-25 15:22:39,521] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Die Trying (TVDb: 283856)                                     |
+[2022-11-25 15:22:39,624] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Treasure Seekers (TVDb: 178661)                               |
+[2022-11-25 15:22:39,779] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Cats of India (TVDb: 391383)                             |
+[2022-11-25 15:22:39,810] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ultimate Supercar (TVDb: 378631)                              |
+[2022-11-25 15:22:39,833] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside Combat Rescue (TVDb: 266624)                           |
+[2022-11-25 15:22:39,940] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Fight Science (TVDb: 143311)                                  |
+[2022-11-25 15:22:40,062] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hard Time (2011) (TVDb: 228041)                               |
+[2022-11-25 15:22:40,212] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | World's Weirdest (TVDb: 260066)                               |
+[2022-11-25 15:22:40,262] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ancient China from Above (TVDb: 386743)                       |
+[2022-11-25 15:22:40,382] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ultimate Treasure Countdown (TVDb: 387922)                    |
+[2022-11-25 15:22:40,501] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The 80's Greatest (TVDb: 270000)                              |
+[2022-11-25 15:22:40,606] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | National Geographic Presents: Impact with Gal Gadot (TVDb: 397272) |
+[2022-11-25 15:22:40,722] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Dangerous Encounters (TVDb: 139051)                           |
+[2022-11-25 15:22:40,829] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Wild Life of Tim Faulkner (TVDb: 310823)                  |
+[2022-11-25 15:22:40,930] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | World's Deadliest (TVDb: 205501)                              |
+[2022-11-25 15:22:41,017] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Taboo (TVDb: 71985)                                           |
+[2022-11-25 15:22:41,117] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Riddles Of The Bible (TVDb: 83525)                            |
+[2022-11-25 15:22:41,208] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Live Free or Die (TVDb: 286522)                               |
+[2022-11-25 15:22:41,309] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Danger Decoded (TVDb: 310087)                                 |
+[2022-11-25 15:22:41,414] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Man Made (TVDb: 85188)                                        |
+[2022-11-25 15:22:41,521] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Stranger Than Nature (TVDb: 263623)                           |
+[2022-11-25 15:22:41,561] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Remote Survival (TVDb: 290769)                                |
+[2022-11-25 15:22:41,651] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Africa (TVDb: 178671)                                         |
+[2022-11-25 15:22:41,746] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Be the Creature (TVDb: 73209)                                 |
+[2022-11-25 15:22:41,895] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Unlikely Animal Friends (TVDb: 264210)                        |
+[2022-11-25 15:22:41,983] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Egypt with the World's Greatest Explorer (TVDb: 361079)       |
+[2022-11-25 15:22:42,100] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Is It Real? (TVDb: 79630)                                     |
+[2022-11-25 15:22:42,174] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | You Can't Lick Your Elbow (TVDb: 292800)                      |
+[2022-11-25 15:22:42,200] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Out There with Jack Randall (TVDb: 366549)                    |
+[2022-11-25 15:22:42,231] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Time Scanners (TVDb: 278057)                                  |
+[2022-11-25 15:22:42,356] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | American Weed (TVDb: 255920)                                  |
+[2022-11-25 15:22:42,488] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Untamed Americas (TVDb: 260040)                               |
+[2022-11-25 15:22:42,593] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Life Below Zero: First Alaskans (TVDb: 420526)                |
+[2022-11-25 15:22:42,705] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Rocket City Rednecks (TVDb: 251955)                           |
+[2022-11-25 15:22:42,843] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Sri Lanka (TVDb: 294520)                                 |
+[2022-11-25 15:22:42,923] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | City So Real (TVDb: 390809)                                   |
+[2022-11-25 15:22:43,095] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 148031                                                    |
+[2022-11-25 15:22:43,208] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | South America's Weirdest Animals (TVDb: 387470)               |
+[2022-11-25 15:22:43,294] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Expedition Wild (TVDb: 250708)                                |
+[2022-11-25 15:22:43,391] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ultimate Survival WWII (TVDb: 371524)                         |
+[2022-11-25 15:22:43,472] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Southern Justice (TVDb: 281164)                               |
+[2022-11-25 15:22:43,505] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside the SS (TVDb: 342815)                                  |
+[2022-11-25 15:22:43,599] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Do or Die (TVDb: 276432)                                      |
+[2022-11-25 15:22:43,692] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Stephen Hawking's Science of the Future (TVDb: 280532)        |
+[2022-11-25 15:22:43,774] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Britain's Greatest Machines With Chris Barrie (TVDb: 97821)   |
+[2022-11-25 15:22:43,882] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Animal Superpowers (TVDb: 258868)                             |
+[2022-11-25 15:22:43,957] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Built For The Kill (TVDb: 82409)                              |
+[2022-11-25 15:22:44,050] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Yard (2016) (TVDb: 310578)                                |
+[2022-11-25 15:22:44,191] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Korea (TVDb: 387016)                                     |
+[2022-11-25 15:22:44,325] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Vinnie Jones: Russia's Toughest (TVDb: 273226)                |
+[2022-11-25 15:22:44,492] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Amazing Planet (TVDb: 110391)                                 |
+[2022-11-25 15:22:44,610] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Nazi Hunters (BBC) (TVDb: 158211)                             |
+[2022-11-25 15:22:44,725] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hidden Gems of Turkey (TVDb: 376720)                          |
+[2022-11-25 15:22:44,815] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Crimes Against Nature (TVDb: 231181)                          |
+[2022-11-25 15:22:44,906] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Missing Dial (TVDb: 312056)                                   |
+[2022-11-25 15:22:45,026] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Secret Service Files (TVDb: 233821)                           |
+[2022-11-25 15:22:45,117] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Earth Shocks (TVDb: 261857)                                   |
+[2022-11-25 15:22:45,223] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hunter and Hunted (TVDb: 82400)                               |
+[2022-11-25 15:22:45,331] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Evolutions (TVDb: 144231)                                     |
+[2022-11-25 15:22:45,464] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Called to the Wild (TVDb: 411612)                             |
+[2022-11-25 15:22:45,550] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Breaking Bobby Bones (TVDb: 397692)                           |
+[2022-11-25 15:22:45,635] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Witch Doctor Will See You Now (TVDb: 253417)              |
+[2022-11-25 15:22:45,730] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Flea Man (TVDb: 250713)                                       |
+[2022-11-25 15:22:45,881] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Perfect Weapon (TVDb: 380023)                                 |
+[2022-11-25 15:22:45,972] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Rome Revealed (TVDb: 246541)                                  |
+[2022-11-25 15:22:46,002] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Numbers Game (TVDb: 269140)                               |
+[2022-11-25 15:22:46,103] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Showdown of the Unbeatables (TVDb: 280285)                    |
+[2022-11-25 15:22:46,199] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Australian Pirate Patrol (TVDb: 199351)                       |
+[2022-11-25 15:22:46,329] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | American Gypsies (TVDb: 260461)                               |
+[2022-11-25 15:22:46,453] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The 2000s: The Decade We Saw It All (TVDb: 314489)            |
+[2022-11-25 15:22:46,550] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Don't tell my mother (TVDb: 101581)                           |
+[2022-11-25 15:22:46,581] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Egypt From Above (TVDb: 361081)                               |
+[2022-11-25 15:22:46,664] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Perilous Journeys (TVDb: 179731)                              |
+[2022-11-25 15:22:46,794] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The '90s Greatest (TVDb: 352827)                              |
+[2022-11-25 15:22:46,892] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Going Deep with David Rees (TVDb: 283312)                     |
+[2022-11-25 15:22:46,977] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Are You Tougher Than a Boy Scout? (TVDb: 267525)              |
+[2022-11-25 15:22:47,103] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Survivor (TVDb: 294171)                                  |
+[2022-11-25 15:22:47,216] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Made in a Day (TVDb: 386921)                                  |
+[2022-11-25 15:22:47,308] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | I Didn't Know That (TVDb: 266881)                             |
+[2022-11-25 15:22:47,429] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | India's Lost Worlds (TVDb: 317959)                            |
+[2022-11-25 15:22:47,566] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Atlas of Cursed Places (TVDb: 392760)                         |
+[2022-11-25 15:22:47,638] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mine Hunters (TVDb: 306253)                                   |
+[2022-11-25 15:22:47,714] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | America's Wild Spaces (TVDb: 241111)                          |
+[2022-11-25 15:22:47,832] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Rock Stars (TVDb: 254166)                                     |
+[2022-11-25 15:22:47,928] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Secrets of the Zoo: North Carolina (TVDb: 389805)             |
+[2022-11-25 15:22:48,049] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside 9/11 (TVDb: 256450)                                    |
+[2022-11-25 15:22:48,140] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Alaska Wing Men (TVDb: 221261)                                |
+[2022-11-25 15:22:48,223] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Empire Wars (TVDb: 258508)                                    |
+[2022-11-25 15:22:48,360] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | EXTREME CHINA (TVDb: 377005)                                  |
+[2022-11-25 15:22:48,436] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Watch (TVDb: 294713)                                      |
+[2022-11-25 15:22:48,549] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Pioneers (TVDb: 289159)                                   |
+[2022-11-25 15:22:48,646] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Maritime Silk Road Reborn (TVDb: 368036)                      |
+[2022-11-25 15:22:48,731] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | What Would Happen If (TVDb: 144401)                           |
+[2022-11-25 15:22:48,814] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Legendary Catch (TVDb: 361086)                                |
+[2022-11-25 15:22:48,902] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | How To Win At Everything (TVDb: 303376)                       |
+[2022-11-25 15:22:48,984] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Abandoned (TVDb: 261380)                                      |
+[2022-11-25 15:22:49,062] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mygrations (TVDb: 312057)                                     |
+[2022-11-25 15:22:49,155] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | National Geographic Wild: Tiger Man of Africa (TVDb: 258850)  |
+[2022-11-25 15:22:49,236] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Amish: Out Of Order (TVDb: 258525)                            |
+[2022-11-25 15:22:49,310] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Generation X (TVDb: 307598)                                   |
+[2022-11-25 15:22:49,413] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Brain Games: On the Road (TVDb: 411610)                       |
+[2022-11-25 15:22:49,499] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Islands (2015) (TVDb: 349943)                            |
+[2022-11-25 15:22:49,663] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wonders of the Ocean (TVDb: 402990)                           |
+[2022-11-25 15:22:49,755] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Riding Britain's Railways (TVDb: 249131)                      |
+[2022-11-25 15:22:49,830] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | American Justice (2017) (TVDb: 325814)                        |
+[2022-11-25 15:22:49,940] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Expeditions to the Edge (TVDb: 205611)                        |
+[2022-11-25 15:22:50,068] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Boonies (TVDb: 306291)                                    |
+[2022-11-25 15:22:50,166] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Extreme Animal Babies (TVDb: 360314)                          |
+[2022-11-25 15:22:50,333] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | My Fighting Season (TVDb: 315108)                             |
+[2022-11-25 15:22:50,456] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mega Food (TVDb: 329896)                                      |
+[2022-11-25 15:22:50,506] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | How to Survive the End of the World (TVDb: 276153)            |
+[2022-11-25 15:22:50,591] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Family Guns (TVDb: 261979)                                    |
+[2022-11-25 15:22:50,684] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | World's Cutest Animals (TVDb: 365318)                         |
+[2022-11-25 15:22:50,751] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Rivers and Life (TVDb: 118091)                                |
+[2022-11-25 15:22:50,865] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | America Inside Out with Katie Couric (TVDb: 346014)           |
+[2022-11-25 15:22:50,966] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Storm Worlds (TVDb: 274184)                                   |
+[2022-11-25 15:22:51,002] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ancient X-Files (TVDb: 214961)                                |
+[2022-11-25 15:22:51,089] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Apocalypse 101 (TVDb: 267973)                                 |
+[2022-11-25 15:22:51,219] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Facing (TVDb: 316064)                                         |
+[2022-11-25 15:22:51,351] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Big Fix Alaska (TVDb: 307783)                                 |
+[2022-11-25 15:22:51,427] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Lords Of War (TVDb: 266254)                                   |
+[2022-11-25 15:22:51,535] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Diggers (TVDb: 256740)                                        |
+[2022-11-25 15:22:51,633] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside The Mafia (TVDb: 81081)                                |
+[2022-11-25 15:22:51,715] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ice Holes (TVDb: 282281)                                      |
+[2022-11-25 15:22:51,802] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Savage Line (TVDb: 282609)                                |
+[2022-11-25 15:22:51,960] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Dawn of the Nazis (TVDb: 273569)                              |
+[2022-11-25 15:22:52,044] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Amazon (TVDb: 260387)                                    |
+[2022-11-25 15:22:52,117] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | CIA Confidential (TVDb: 222681)                               |
+[2022-11-25 15:22:52,233] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Goldfathers (TVDb: 258770)                                    |
+[2022-11-25 15:22:52,325] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Ancient Secrets (TVDb: 264929)                                |
+[2022-11-25 15:22:52,397] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Life of Oceans (TVDb: 238221)                                 |
+[2022-11-25 15:22:52,472] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Britain's Underworld (TVDb: 202311)                           |
+[2022-11-25 15:22:52,554] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Python Hunters (TVDb: 177341)                                 |
+[2022-11-25 15:22:52,619] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Beast Hunter (TVDb: 231911)                                   |
+[2022-11-25 15:22:52,710] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Extreme Universe (TVDb: 169561)                               |
+[2022-11-25 15:22:52,807] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Snake Wranglers (TVDb: 235731)                                |
+[2022-11-25 15:22:52,941] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | When Rome Ruled (TVDb: 212461)                                |
+[2022-11-25 15:22:53,030] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Case Files (TVDb: 259575)                                |
+[2022-11-25 15:22:53,145] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Auction Packed (TVDb: 229051)                                 |
+[2022-11-25 15:22:53,238] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Drugged (TVDb: 240301)                                        |
+[2022-11-25 15:22:53,310] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Guardians of Nature (TVDb: 144831)                            |
+[2022-11-25 15:22:53,420] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Biblical Plagues (TVDb: 154561)                               |
+[2022-11-25 15:22:53,533] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Fish Warrior (TVDb: 179041)                                   |
+[2022-11-25 15:22:53,638] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Break It Down (TVDb: 179711)                                  |
+[2022-11-25 15:22:53,728] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Humanly Impossible (TVDb: 248860)                             |
+[2022-11-25 15:22:53,824] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Swamp Men (TVDb: 252703)                                      |
+[2022-11-25 15:22:53,914] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mississippi River Quest (TVDb: 238911)                        |
+[2022-11-25 15:22:53,992] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Rescue Ink Unleashed (TVDb: 136461)                           |
+[2022-11-25 15:22:54,070] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | DogTown (TVDb: 161541)                                        |
+[2022-11-25 15:22:54,165] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Bite Me With Dr Mike (TVDb: 104871)                           |
+[2022-11-25 15:22:54,273] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Interpol Investigates (TVDb: 178111)                          |
+[2022-11-25 15:22:54,370] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | National Geographic Trapped (TVDb: 178171)                    |
+[2022-11-25 15:22:54,469] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | National Geographic: Situation Critical (TVDb: 84046)         |
+[2022-11-25 15:22:54,551] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Seismic Seconds (TVDb: 85233)                                 |
+[2022-11-25 15:22:54,666] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Going Ape (TVDb: 270069)                                      |
+[2022-11-25 15:22:54,755] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Mad Labs (TVDb: 89531)                                        |
+[2022-11-25 15:22:54,840] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Clock Suckers (TVDb: 251760)                                  |
+[2022-11-25 15:22:54,921] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | In the Womb (TVDb: 139501)                                    |
+[2022-11-25 15:22:54,949] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | D-Day Sacrifice (TVDb: 282568)                                |
+[2022-11-25 15:22:54,979] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ultimate Airport Dubai (TVDb: 273719)                         |
+[2022-11-25 15:22:55,084] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Border Security: Canada's Front Line (TVDb: 261999)           |
+[2022-11-25 15:22:55,194] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Deadly Journeys of the Apostles (TVDb: 293755)                |
+[2022-11-25 15:22:55,234] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Building Wild (TVDb: 276924)                                  |
+[2022-11-25 15:22:55,342] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Forensic Firsts (TVDb: 260618)                                |
+[2022-11-25 15:22:55,451] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | EyeWitness War (TVDb: 271189)                                 |
+[2022-11-25 15:22:55,547] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Sea Patrol UK (TVDb: 162991)                                  |
+[2022-11-25 15:22:55,640] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Aussie Snake Wranglers (TVDb: 410060)                         |
+[2022-11-25 15:22:55,677] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Tales By Light (TVDb: 319599)                                 |
+[2022-11-25 15:22:55,807] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ocean Wreck Investigation (TVDb: 414058)                      |
+[2022-11-25 15:22:55,903] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Outback Wrangler (TVDb: 252327)                               |
+[2022-11-25 15:22:56,009] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Fearless Adventures with Jack Randall (TVDb: 408574)          |
+[2022-11-25 15:22:56,098] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Cocaine Trade Exposed: The Invisibles (TVDb: 385973)          |
+[2022-11-25 15:22:56,172] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | The Surgery Ship (TVDb: 357006)                               |
+[2022-11-25 15:22:56,275] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Stories From The Stone Age (TVDb: 82256)                      |
+[2022-11-25 15:22:56,364] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Deadly Australians (TVDb: 355475)                             |
+[2022-11-25 15:22:56,416] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Ice Road Rescue (TVDb: 299304)                                |
+[2022-11-25 15:22:56,516] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Vikings: The Rise and Fall (TVDb: 420945)                     |
+[2022-11-25 15:22:56,566] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Car S.O.S. (TVDb: 266851)                                     |
+[2022-11-25 15:22:56,600] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Banged Up Abroad (2007) (TVDb: 83430)                         |
+[2022-11-25 15:22:56,625] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Europe From Above (TVDb: 374200)                              |
+[2022-11-25 15:22:56,649] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Nazi Megastructures (TVDb: 275439)                            |
+[2022-11-25 15:22:56,742] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Strippers: Cars For Cash (TVDb: 263113)                       |
+[2022-11-25 15:22:56,868] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Primal Survivor: Mighty Mekong (TVDb: 424677)                 |
+[2022-11-25 15:22:57,173] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Richard Hammond's Engineering Connections (TVDb: 83165)       |
+[2022-11-25 15:22:59,380] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Convoy: War for the Atlantic (Atlantic Convoys: The War at Sea) (TVDb: 116081) |
+[2022-11-25 15:22:59,515] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Supercar Megabuild (TVDb: 308576)                             |
+[2022-11-25 15:22:59,701] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | History: The Interesting Bits (TVDb: 425393)                  |
+[2022-11-25 15:22:59,810] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | X-Ray Earth (TVDb: 382344)                                    |
+[2022-11-25 15:22:59,889] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Colossal Machines (TVDb: 417499)                              |
+[2022-11-25 15:22:59,917] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Hitler Youth (TVDb: 347344)                                   |
+[2022-11-25 15:22:59,998] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Disasters Engineered (TVDb: 375980)                           |
+[2022-11-25 15:23:00,100] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Gathering Storm (TVDb: 384761)                                |
+[2022-11-25 15:23:00,284] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 274185                                                    |
+[2022-11-25 15:23:00,309] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Secrets of the Space Shuttle (TVDb: 355265)                   |
+[2022-11-25 15:23:00,405] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Bloody Tales of the Tower (TVDb: 258617)                      |
+[2022-11-25 15:23:00,521] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Islands (TVDb: 256874)                                        |
+[2022-11-25 15:23:00,611] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Cruise Ship Diaries (TVDb: 184141)                            |
+[2022-11-25 15:23:00,691] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Birth of Britain with Tony Robinson (TVDb: 186361)            |
+[2022-11-25 15:23:00,921] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Chile (TVDb: 350776)                                     |
+[2022-11-25 15:23:01,005] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Outsiders with Darren McMullen (TVDb: 282691)                 |
+[2022-11-25 15:23:01,190] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Destination Wild: Arctic (TVDb: 377812)                       |
+[2022-11-25 15:23:01,294] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Night Stalkers (TVDb: 265975)                                 |
+[2022-11-25 15:23:01,430] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | War Heroes Of The Skies (TVDb: 332791)                        |
+[2022-11-25 15:23:01,544] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Planet Mechanics (TVDb: 118041)                               |
+[2022-11-25 15:23:01,585] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Birth of Europe (TVDb: 258437)                                |
+[2022-11-25 15:23:01,663] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Coastguard Caribbean Netherlands (TVDb: 414640)               |
+[2022-11-25 15:23:01,692] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Airport Security: Colombia (TVDb: 300149)                     |
+[2022-11-25 15:23:01,770] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Bios: Lives That Marked Yours (TVDb: 355328)                  |
+[2022-11-25 15:23:01,868] [builder.py:2370]           [INFO]     | National Geographic Collection | X | Machines of War (TVDb: 251186)                                |
+[2022-11-25 15:23:02,034] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 369732                                                    |
+[2022-11-25 15:23:02,121] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Engineering Space (TVDb: 343268)                              |
+[2022-11-25 15:23:02,207] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Cold War: The Tech Race (TVDb: 412572)                        |
+[2022-11-25 15:23:02,315] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Nazi Hunters (NG) (TVDb: 240891)                              |
+[2022-11-25 15:23:02,391] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Wild Mongolia: Land of Extremes (TVDb: 395786)                |
+[2022-11-25 15:23:02,493] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Inside the Forbidden City (TVDb: 245961)                      |
+[2022-11-25 15:23:02,578] [builder.py:2366]           [INFO]     | National Geographic Collection | ? | Nat Geo Lab (TVDb: 358264)                                    |
+[2022-11-25 15:23:02,581] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:23:02,581] [builder.py:2372]           [INFO]     | 326 Shows Missing                                                                                  |
+[2022-11-25 15:23:03,278] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:23:03,278] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:23:03,280] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:23:03,281] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [79771, 260586, 322399, 283052, 269599, 316345, 348352, 360606, 252570, 308585, 280473, 365920, 342190, 332420, 366520, 79212, 257494, 284370, 255608, 174501, 360912, 264244, 301339, 308632, 296045, 80625, 80994, 351143, 348588, 422875, 302404, 328143, 279659, 81863, 333153, 197371, 79772, 371126, 302348, 390354, 79319, 368443, 409708, 82374, 269733, 313653, 350453, 422512, 350782, 405898, 355437, 423106, 362648, 417289, 393125, 224611, 360608, 271622, 268450, 369064, 388053, 104891, 144311, 90771, 324607, 270732, 298569, 376002, 118501, 95521, 264679, 340664, 283716, 367656, 382268, 167031, 384832, 270637, 258633, 248266, 389373, 299971, 283093, 284444, 146081, 85229, 386989, 276526, 411658, 304872, 366699, 378538, 210301, 378918, 339372, 367301, 303393, 269260, 142171, 274880, 424127, 278200, 271993, 118631, 298120, 413713, 334942, 260165, 134381, 422723, 259252, 375301, 278742, 406839, 281308, 338839, 321961, 281018, 250578, 92361, 259214, 319505, 122511, 361385, 377358, 283195, 306774, 283856, 391383, 378631, 266624, 143311, 228041, 260066, 386743, 387922, 270000, 397272, 139051, 310823, 205501, 71985, 286522, 310087, 85188, 263623, 290769, 178671, 73209, 264210, 361079, 79630, 292800, 366549, 278057, 255920, 260040, 420526, 251955, 294520, 390809, 387470, 250708, 371524, 281164, 342815, 276432, 280532, 97821, 258868, 310578, 387016, 273226, 110391, 158211, 376720, 231181, 312056, 233821, 261857, 82400, 144231, 411612, 397692, 253417, 250713, 380023, 269140, 280285, 199351, 260461, 314489, 101581, 361081, 179731, 352827, 283312, 267525, 294171, 386921, 266881, 317959, 392760, 306253, 241111, 254166, 389805, 256450, 221261, 258508, 377005, 294713, 289159, 368036, 144401, 361086, 303376, 261380, 312057, 258850, 258525, 307598, 411610, 349943, 402990, 249131, 325814, 205611, 306291, 360314, 315108, 329896, 276153, 261979, 365318, 118091, 346014, 274184, 214961, 267973, 316064, 307783, 266254, 256740, 81081, 282281, 282609, 273569, 260387, 222681, 258770, 202311, 169561, 235731, 212461, 259575, 229051, 240301, 154561, 179041, 179711, 252703, 238911, 136461, 161541, 104871, 178111, 178171, 84046, 270069, 89531, 139501, 282568, 273719, 261999, 293755, 276924, 260618, 271189, 410060, 319599, 414058, 252327, 408574, 385973, 357006, 82256, 355475, 299304, 420945, 266851, 83430, 374200, 275439, 263113, 424677, 83165, 116081, 308576, 425393, 382344, 417499, 347344, 375980, 384761, 355265, 258617, 256874, 184141, 186361, 350776, 282691, 377812, 265975, 332791, 118041, 258437, 414640, 300149, 355328, 343268, 412572, 240891, 395786, 245961, 358264] |
+[2022-11-25 15:23:43,720] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79771                                                                          |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260586                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 322399                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283052                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269599                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316345                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348352                                                                         |
+[2022-11-25 15:23:43,721] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360606                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252570                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 308585                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 280473                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365920                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342190                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332420                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366520                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79212                                                                          |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 257494                                                                         |
+[2022-11-25 15:23:43,722] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 284370                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 255608                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 174501                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360912                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264244                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 301339                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 308632                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 296045                                                                         |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80625                                                                          |
+[2022-11-25 15:23:43,723] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80994                                                                          |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 351143                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348588                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422875                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 302404                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328143                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 279659                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81863                                                                          |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 333153                                                                         |
+[2022-11-25 15:23:43,724] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 197371                                                                         |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79772                                                                          |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371126                                                                         |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 302348                                                                         |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390354                                                                         |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79319                                                                          |
+[2022-11-25 15:23:43,725] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368443                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409708                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82374                                                                          |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269733                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 313653                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350453                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422512                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350782                                                                         |
+[2022-11-25 15:23:43,726] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405898                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355437                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 423106                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 362648                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417289                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393125                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 224611                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360608                                                                         |
+[2022-11-25 15:23:43,727] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 271622                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 268450                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 369064                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388053                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 104891                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 144311                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 90771                                                                          |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 324607                                                                         |
+[2022-11-25 15:23:43,728] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270732                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 298569                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376002                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 118501                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 95521                                                                          |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264679                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 340664                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283716                                                                         |
+[2022-11-25 15:23:43,729] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367656                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382268                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 167031                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384832                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270637                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258633                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 248266                                                                         |
+[2022-11-25 15:23:43,730] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 389373                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299971                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283093                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 284444                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 146081                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85229                                                                          |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386989                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276526                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411658                                                                         |
+[2022-11-25 15:23:43,731] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 304872                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366699                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378538                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 210301                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378918                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339372                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367301                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303393                                                                         |
+[2022-11-25 15:23:43,732] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269260                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 142171                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 274880                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 424127                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278200                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 271993                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 118631                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 298120                                                                         |
+[2022-11-25 15:23:43,733] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 413713                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 334942                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260165                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 134381                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422723                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259252                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 375301                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278742                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 406839                                                                         |
+[2022-11-25 15:23:43,734] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281308                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338839                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 321961                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281018                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 250578                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 92361                                                                          |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259214                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 319505                                                                         |
+[2022-11-25 15:23:43,735] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 122511                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361385                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377358                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283195                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306774                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283856                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391383                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378631                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266624                                                                         |
+[2022-11-25 15:23:43,736] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 143311                                                                         |
+[2022-11-25 15:23:43,737] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 228041                                                                         |
+[2022-11-25 15:23:43,738] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260066                                                                         |
+[2022-11-25 15:23:43,738] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386743                                                                         |
+[2022-11-25 15:23:43,738] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387922                                                                         |
+[2022-11-25 15:23:43,738] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270000                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397272                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 139051                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 310823                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 205501                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71985                                                                          |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 286522                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 310087                                                                         |
+[2022-11-25 15:23:43,739] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85188                                                                          |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 263623                                                                         |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 290769                                                                         |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 178671                                                                         |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73209                                                                          |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264210                                                                         |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361079                                                                         |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79630                                                                          |
+[2022-11-25 15:23:43,740] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 292800                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366549                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278057                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 255920                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260040                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420526                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 251955                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 294520                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390809                                                                         |
+[2022-11-25 15:23:43,741] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387470                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 250708                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371524                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281164                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342815                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276432                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 280532                                                                         |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 97821                                                                          |
+[2022-11-25 15:23:43,742] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258868                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 310578                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387016                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273226                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 110391                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 158211                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376720                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 231181                                                                         |
+[2022-11-25 15:23:43,743] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 312056                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 233821                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261857                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82400                                                                          |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 144231                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411612                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397692                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 253417                                                                         |
+[2022-11-25 15:23:43,744] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 250713                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380023                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269140                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 280285                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 199351                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260461                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 314489                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 101581                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361081                                                                         |
+[2022-11-25 15:23:43,745] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 179731                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352827                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283312                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 267525                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 294171                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386921                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266881                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317959                                                                         |
+[2022-11-25 15:23:43,746] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392760                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306253                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 241111                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254166                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 389805                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256450                                                                         |
+[2022-11-25 15:23:43,747] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 221261                                                                         |
+[2022-11-25 15:23:43,748] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258508                                                                         |
+[2022-11-25 15:23:43,748] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377005                                                                         |
+[2022-11-25 15:23:43,748] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 294713                                                                         |
+[2022-11-25 15:23:43,748] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289159                                                                         |
+[2022-11-25 15:23:43,748] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368036                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 144401                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361086                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303376                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261380                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 312057                                                                         |
+[2022-11-25 15:23:43,749] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258850                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258525                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307598                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411610                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349943                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402990                                                                         |
+[2022-11-25 15:23:43,750] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249131                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 325814                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 205611                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306291                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360314                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 315108                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 329896                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276153                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261979                                                                         |
+[2022-11-25 15:23:43,751] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365318                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 118091                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 346014                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 274184                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 214961                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 267973                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 316064                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307783                                                                         |
+[2022-11-25 15:23:43,752] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266254                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256740                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81081                                                                          |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282281                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282609                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273569                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260387                                                                         |
+[2022-11-25 15:23:43,753] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 222681                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258770                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 202311                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 169561                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 235731                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 212461                                                                         |
+[2022-11-25 15:23:43,754] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259575                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 229051                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 240301                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 154561                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 179041                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 179711                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252703                                                                         |
+[2022-11-25 15:23:43,755] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 238911                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 136461                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 161541                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 104871                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 178111                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 178171                                                                         |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84046                                                                          |
+[2022-11-25 15:23:43,756] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270069                                                                         |
+[2022-11-25 15:23:43,757] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 89531                                                                          |
+[2022-11-25 15:23:43,757] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 139501                                                                         |
+[2022-11-25 15:23:43,758] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282568                                                                         |
+[2022-11-25 15:23:43,758] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273719                                                                         |
+[2022-11-25 15:23:43,758] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261999                                                                         |
+[2022-11-25 15:23:43,758] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 293755                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276924                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 260618                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 271189                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410060                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 319599                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414058                                                                         |
+[2022-11-25 15:23:43,759] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252327                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 408574                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385973                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357006                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82256                                                                          |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355475                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299304                                                                         |
+[2022-11-25 15:23:43,760] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420945                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266851                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83430                                                                          |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 374200                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 275439                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 263113                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 424677                                                                         |
+[2022-11-25 15:23:43,761] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83165                                                                          |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 116081                                                                         |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 308576                                                                         |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 425393                                                                         |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382344                                                                         |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417499                                                                         |
+[2022-11-25 15:23:43,762] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347344                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 375980                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 384761                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355265                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258617                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256874                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 184141                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 186361                                                                         |
+[2022-11-25 15:23:43,763] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350776                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282691                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377812                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 265975                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332791                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 118041                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258437                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414640                                                                         |
+[2022-11-25 15:23:43,764] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 300149                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355328                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343268                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412572                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 240891                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395786                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 245961                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 358264                                                                         |
+[2022-11-25 15:23:43,765] [sonarr.py:187]             [INFO]     | 326 Series already exist in Sonarr                                                                 |
+[2022-11-25 15:23:44,362] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:23:44,362] [builder.py:2528]           [INFO]     |======================== Updating Details of National Geographic Collection ========================|
+[2022-11-25 15:23:44,362] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:23:44,382] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:23:44,392] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:23:44,392] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:23:44,392] [plex_meta_manager.py:737]  [INFO]     |                              Finished National Geographic Collection                               |
+[2022-11-25 15:23:44,392] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:20                                    |
+[2022-11-25 15:23:44,393] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

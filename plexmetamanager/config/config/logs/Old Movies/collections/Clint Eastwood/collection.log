@@ -1,0 +1,92 @@
+[2022-11-16 22:01:11,552] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:11,552] [builder.py:193]            [INFO]     |                              Clint Eastwood Collection in Old Movies                               |
+[2022-11-16 22:01:11,553] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:01:11,553] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:11,553] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:01:11,553] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,553] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:01:11,554] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,555] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,555] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:01:11,556] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,556] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 190, 'sort_title': '++_Clint Eastwood', 'collection_order': 'release'} |
+[2022-11-16 22:01:11,556] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,556] [builder.py:223]            [INFO]     |=============================== Validating Clint Eastwood Attributes ===============================|
+[2022-11-16 22:01:11,556] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,557] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:01:11,557] [builder.py:533]            [DEBUG]    | Value: 190                                                                                         |
+[2022-11-16 22:01:11,572] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,573] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:01:11,573] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:01:11,573] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,573] [builder.py:650]            [DEBUG]    | Validating Method: director                                                                        |
+[2022-11-16 22:01:11,573] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:01:11,627] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:11,627] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:01:11,627] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:01:12,088] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:12,088] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:01:12,088] [builder.py:651]            [DEBUG]    | Value: ++_Clint Eastwood                                                                           |
+[2022-11-16 22:01:12,094] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,095] [builder.py:796]            [ERROR]    | Collection Error: Converting Clint Eastwood to a normal collection                                 |
+[2022-11-16 22:01:12,102] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,102] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:01:12,102] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,103] [plex_meta_manager.py:596]  [INFO]     |================================ Running Clint Eastwood Collection =================================|
+[2022-11-16 22:01:12,103] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,103] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:01:12,103] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:01:12,103] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Clint Eastwood", '?type=1&sort=titleSort&push=1&director=56694&pop=1') |
+[2022-11-16 22:01:12,104] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,104] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is Clint Eastwood
+[2022-11-16 22:01:12,120] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:01:12,120] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-16 22:01:12,120] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:01:12,120] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-16 22:01:12,120] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Clint Eastwood", '?type=1&sort=titleSort&push=1&actor=36685&pop=1')
+[2022-11-16 22:01:12,121] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-16 22:01:12,121] [plex.py:924]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Clint Eastwood
+[2022-11-16 22:01:12,130] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:01:12,131] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-16 22:01:12,131] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:01:12,131] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:01:12,131] [builder.py:2159]           [INFO]     |=============================== Adding to Clint Eastwood Collection ================================|
+[2022-11-16 22:01:12,131] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:12,132] [builder.py:2174]           [INFO]     | 1/3 | Clint Eastwood Collection | + | American Sniper (2014)                                       |
+[2022-11-16 22:01:14,981] [builder.py:2174]           [INFO]     | 2/3 | Clint Eastwood Collection | + | Flags of Our Fathers (2006)                                  |
+[2022-11-16 22:01:18,117] [builder.py:2174]           [INFO]     | 3/3 | Clint Eastwood Collection | + | Letters from Iwo Jima (2006)                                 |
+[2022-11-16 22:01:25,798] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:25,798] [builder.py:2196]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-11-16 22:01:25,807] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:25,807] [builder.py:2528]           [INFO]     |========================== Updating Details of Clint Eastwood Collection ===========================|
+[2022-11-16 22:01:25,807] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:01:25,815] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Clinton "Clint" Eastwood Jr. (born May 31, 1930) is an American film actor, director, producer, composer and former politician. Following his breakthrough role on the TV series "Rawhide" (1959–65), Eastwood starred as the Man with No Name in Sergio Leone's Dollars Trilogy of spaghetti westerns ("A Fistful of Dollars," "For a Few Dollars More," and "The Good, the Bad and the Ugly") in the 1960s, and as San Francisco Police Department Inspector Harry Callahan in the Dirty Harry films ("Dirty Harry," "Magnum Force," "The Enforcer," "Sudden Impact," and "The Dead Pool") during the 1970s and 1980s. These roles, along with several others in which he plays tough-talking no-nonsense police officers, have made him an enduring cultural icon of masculinity.
+                                                                 | 
+                                                                 | Eastwood won Academy Awards for Best Director and Producer of the Best Picture, as well as receiving nominations for Best Actor, for his work in the films "Unforgiven" (1992) and "Million Dollar Baby" (2004). These films in particular, as well as others including "Play Misty for Me" (1971), "The Outlaw Josey Wales" (1976), "Pale Rider" (1985), "In the Line of Fire" (1993), "The Bridges of Madison County" (1995), and "Gran Torino" (2008), have all received commercial success and/or critical acclaim. Eastwood's only comedies have been "Every Which Way but Loose" (1978) and its sequel "Any Which Way You Can" (1980); despite being widely panned by critics they are the two highest-grossing films of his career after adjusting for inflation.
+                                                                 | 
+                                                                 | Eastwood has directed most of his own star vehicles, but he has also directed films in which he did not appear such as "Mystic River" (2003) and "Letters from Iwo Jima" (2006), for which he received Academy Award nominations and "Changeling" (2008), which received Golden Globe Award nominations. He has received considerable critical praise in France in particular, including for several of his films which were panned in the United States, and was awarded two of France's highest honors: in 1994 he received the Ordre des Arts et des Lettres medal and in 2007 was awarded the Légion d'honneur medal. In 2000 he was awarded the Italian Venice Film Festival Golden Lion for lifetime achievement.
+                                                                 | 
+                                                                 | Since 1967 Eastwood has run his own production company, Malpaso, which has produced the vast majority of his films. He also served as the nonpartisan mayor of Carmel-by-the-Sea, California, from 1986 to 1988. Eastwood has seven children by five women, although he has only married twice. An audiophile, Eastwood is also associated with jazz and has composed and performed pieces in several films along with his eldest son, Kyle Eastwood.
+                                                                 | 
+                                                                 | Description above adapted from the Wikipedia article Clint Eastwood, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Clint Eastwood
+                                                                 | Label | +PMM
+[2022-11-16 22:01:28,805] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:01:28,805] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:01:28,806] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:01:28,807] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg
+[2022-11-16 22:01:28,988] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/dU35NnjZ4aGw5abIJe3WXVf3Eey.jpg
+[2022-11-16 22:01:29,063] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:01:29,063] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:01:29,063] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Clint Eastwood Collection                                 |
+[2022-11-16 22:01:29,063] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:17                                    |
+[2022-11-16 22:01:29,063] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

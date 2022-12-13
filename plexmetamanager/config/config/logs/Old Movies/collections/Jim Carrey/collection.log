@@ -1,0 +1,78 @@
+[2022-11-16 22:06:32,937] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:32,938] [builder.py:193]            [INFO]     |                                Jim Carrey Collection in Old Movies                                 |
+[2022-11-16 22:06:32,938] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:32,938] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:32,938] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:06:32,938] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,938] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:06:32,939] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,940] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,940] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:06:32,940] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,940] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 206, 'sort_title': '++_Jim Carrey', 'collection_order': 'release'} |
+[2022-11-16 22:06:32,940] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,940] [builder.py:223]            [INFO]     |================================= Validating Jim Carrey Attributes =================================|
+[2022-11-16 22:06:32,941] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,941] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:06:32,941] [builder.py:533]            [DEBUG]    | Value: 206                                                                                         |
+[2022-11-16 22:06:32,967] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,967] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:06:32,967] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:06:32,967] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:32,967] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:06:32,967] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:06:33,246] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:33,246] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:06:33,246] [builder.py:651]            [DEBUG]    | Value: ++_Jim Carrey                                                                               |
+[2022-11-16 22:06:33,252] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,252] [builder.py:796]            [ERROR]    | Collection Error: Converting Jim Carrey to a normal collection                                     |
+[2022-11-16 22:06:33,257] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,258] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:596]  [INFO]     |================================== Running Jim Carrey Collection ===================================|
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jim Carrey", '?type=1&sort=titleSort&push=1&actor=787&pop=1') |
+[2022-11-16 22:06:33,258] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,258] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jim Carrey
+[2022-11-16 22:06:33,277] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:06:33,277] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 22:06:33,278] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:06:33,278] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:06:33,278] [builder.py:2159]           [INFO]     |================================= Adding to Jim Carrey Collection ==================================|
+[2022-11-16 22:06:33,278] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:33,278] [builder.py:2174]           [INFO]     | 1/5 | Jim Carrey Collection | + | Batman Forever (1995)                                            |
+[2022-11-16 22:06:35,232] [builder.py:2174]           [INFO]     | 2/5 | Jim Carrey Collection | + | Bruce Almighty (2003)                                            |
+[2022-11-16 22:06:37,479] [builder.py:2174]           [INFO]     | 3/5 | Jim Carrey Collection | + | Dark Crimes (2016)                                               |
+[2022-11-16 22:06:39,405] [builder.py:2174]           [INFO]     | 4/5 | Jim Carrey Collection | + | Liar Liar (1997)                                                 |
+[2022-11-16 22:06:42,067] [builder.py:2174]           [INFO]     | 5/5 | Jim Carrey Collection | + | The Mask (1994)                                                  |
+[2022-11-16 22:06:46,400] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:46,400] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 22:06:46,405] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:46,406] [builder.py:2528]           [INFO]     |============================ Updating Details of Jim Carrey Collection =============================|
+[2022-11-16 22:06:46,406] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:46,412] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994). He broke out as a star in motion pictures with Ace Ventura: Pet Detective, The Mask, and Dumb and Dumber (all 1994). This was followed up with Ace Ventura: When Nature Calls, Batman Forever (both 1995), and Liar Liar (1997).
+                                                                 | 
+                                                                 | In the 2000s, he gained further notice for his portrayal of the Grinch in How the Grinch Stole Christmas and for the comedy Me, Myself & Irene (both in 2000), as well as Bruce Almighty (2003), Lemony Snicket's A Series of Unfortunate Events (2004), Fun with Dick and Jane (2005), Yes Man, Horton Hears a Who! (both 2008), and A Christmas Carol (2009). In the 2010s, Carrey appeared in the films Mr. Popper's Penguins (2011), The Incredible Burt Wonderstone, Kick-Ass 2 (both 2013), Dumb and Dumber To (2014), and portrayed Leap Day William in the sitcom 30 Rock (2012). In 2020, he portrayed Dr. Robotnik in Sonic the Hedgehog and Joe Biden in six episodes of Saturday Night Live in the leadup to the 2020 United States presidential election.
+                                                                 | 
+                                                                 | Although largely typecast as a comedic actor, Carrey has had success in dramatic roles. His first dramatic success was starring in the Emmy-nominated made-for-television film Doing Time on Maple Drive (1992). Carrey gained attention for his leading roles in The Truman Show (1998) and Man on the Moon (1999), earning Golden Globe Awards for each film. He later starred in the psychological science fiction romantic drama film Eternal Sunshine of the Spotless Mind (2004); this performance is repeatedly lauded as one of the most important and seminal in Carrey's career and for which he was nominated for both the BAFTA Award for Best Actor in a Leading Role and another Golden Globe Award. He was also praised for his dramatic role of Jeff Piccirillo in the Showtime tragicomedy series Kidding, for which he was nominated for another Golden Globe. The Guardian named him one of the best actors never to have received an Academy Award nomination.
+                                                                 | 
+                                                                 | In 2013, Carrey published his first book, a children's story, entitled How Roland Rolls; the book was awarded a 2013 Gelett Burgess Children's Book Award. In 2020, Carrey published his first novel, Memoirs, and Misinformation, which he co-authored with Dana Vachon
+                                                                 | Sort Title | ++_Jim Carrey
+                                                                 | Label | +PMM
+[2022-11-16 22:06:47,956] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:06:47,956] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:06:47,956] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:06:47,957] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/kuSlwTPsVlBMW0cvnFmbZce6PaV.jpg
+[2022-11-16 22:06:48,050] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/kuSlwTPsVlBMW0cvnFmbZce6PaV.jpg
+[2022-11-16 22:06:48,109] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:06:48,109] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:06:48,109] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Jim Carrey Collection                                   |
+[2022-11-16 22:06:48,110] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-11-16 22:06:48,110] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

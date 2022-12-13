@@ -1,0 +1,78 @@
+[2022-11-16 22:04:54,942] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:04:54,942] [builder.py:193]            [INFO]     |                               Hugh Jackman Collection in Old Movies                                |
+[2022-11-16 22:04:54,942] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:04:54,942] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:54,943] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:04:54,943] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,943] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:04:54,943] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,944] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,944] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:04:54,945] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,945] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 6968, 'sort_title': '++_Hugh Jackman', 'collection_order': 'release'} |
+[2022-11-16 22:04:54,945] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,945] [builder.py:223]            [INFO]     |================================ Validating Hugh Jackman Attributes ================================|
+[2022-11-16 22:04:54,945] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,945] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:04:54,945] [builder.py:533]            [DEBUG]    | Value: 6968                                                                                        |
+[2022-11-16 22:04:54,967] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,968] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:04:54,968] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:04:54,969] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:54,970] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:04:54,970] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:04:55,243] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:55,243] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:04:55,243] [builder.py:651]            [DEBUG]    | Value: ++_Hugh Jackman                                                                             |
+[2022-11-16 22:04:55,249] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,249] [builder.py:796]            [ERROR]    | Collection Error: Converting Hugh Jackman to a normal collection                                   |
+[2022-11-16 22:04:55,255] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,255] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:04:55,255] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,255] [plex_meta_manager.py:596]  [INFO]     |================================= Running Hugh Jackman Collection ==================================|
+[2022-11-16 22:04:55,255] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,255] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:04:55,255] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:04:55,256] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Hugh Jackman", '?type=1&sort=titleSort&push=1&actor=46613&pop=1') |
+[2022-11-16 22:04:55,256] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,256] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Hugh Jackman
+[2022-11-16 22:04:55,285] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:04:55,285] [builder.py:1575]           [DEBUG]    | 11 IDs Found
+[2022-11-16 22:04:55,285] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:04:55,285] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:04:55,286] [builder.py:2159]           [INFO]     |================================ Adding to Hugh Jackman Collection =================================|
+[2022-11-16 22:04:55,286] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:04:55,286] [builder.py:2174]           [INFO]     |  1/11 | Hugh Jackman Collection | + | Free Guy (2021)                                              |
+[2022-11-16 22:04:55,381] [builder.py:2174]           [INFO]     |  2/11 | Hugh Jackman Collection | + | Logan (2017)                                                 |
+[2022-11-16 22:04:57,690] [builder.py:2174]           [INFO]     |  3/11 | Hugh Jackman Collection | + | Night at the Museum: Secret of the Tomb (2014)               |
+[2022-11-16 22:04:57,778] [builder.py:2174]           [INFO]     |  4/11 | Hugh Jackman Collection | + | The Wolverine (2013)                                         |
+[2022-11-16 22:04:59,660] [builder.py:2174]           [INFO]     |  5/11 | Hugh Jackman Collection | + | X-Men (2000)                                                 |
+[2022-11-16 22:05:01,899] [builder.py:2174]           [INFO]     |  6/11 | Hugh Jackman Collection | + | X-Men Origins: Wolverine (2009)                              |
+[2022-11-16 22:05:04,023] [builder.py:2174]           [INFO]     |  7/11 | Hugh Jackman Collection | + | X-Men: Apocalypse (2016)                                     |
+[2022-11-16 22:05:05,899] [builder.py:2174]           [INFO]     |  8/11 | Hugh Jackman Collection | + | X-Men: Days of Future Past (2014)                            |
+[2022-11-16 22:05:05,988] [builder.py:2174]           [INFO]     |  9/11 | Hugh Jackman Collection | + | X-Men: First Class (2011)                                    |
+[2022-11-16 22:05:08,077] [builder.py:2174]           [INFO]     | 10/11 | Hugh Jackman Collection | + | X-Men: The Last Stand (2006)                                 |
+[2022-11-16 22:05:08,192] [builder.py:2174]           [INFO]     | 11/11 | Hugh Jackman Collection | + | X2: X-Men United (2003)                                      |
+[2022-11-16 22:05:13,516] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:13,516] [builder.py:2196]           [INFO]     | 11 Movies Processed 11 Movies Added                                                                |
+[2022-11-16 22:05:13,522] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:13,522] [builder.py:2528]           [INFO]     |=========================== Updating Details of Hugh Jackman Collection ============================|
+[2022-11-16 22:05:13,522] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:13,529] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Hugh Michael Jackman (born 12 October 1968) is an Australian actor. Beginning in theatre and television, he landed his breakthrough role as Wolverine / Logan in the X-Men film series (2000–2017), a tenure that earned him the Guinness World Record for "longest career as a live-action Marvel superhero". Jackman has received a Grammy Award, a Primetime Emmy Award, and two Tony Awards. During his career, Jackman has headlined films in various genres, including the romantic comedy Kate & Leopold (2001), the action-horror Van Helsing (2004), the drama The Prestige (2006), the period romance Australia (2008), the epic musical Les Misérables (2012), the thriller Prisoners (2013), the musical The Greatest Showman (2017), the political drama The Front Runner (2018), and the crime thriller Bad Education (2019). For his role as Jean Valjean in Les Misérables, Jackman was nominated for the Academy Award for Best Actor and won the Golden Globe Award for Best Actor – Motion Picture Musical or Comedy, and for The Greatest Showman, he received a Grammy Award for Best Soundtrack Album. He also provided voice roles in the animated films Flushed Away (2006), Rise of the Guardians (2012), and Missing Link (2019). Jackman is also known for his early theatre roles in Oklahoma! in 1998 and Carousel in 2002. On Broadway, Jackman won the 2004 Tony Award for Best Actor in a Musical for his role in The Boy from Oz. In 2021 he returned to the theatre as Harold Hill in the Broadway revival of The Music Man. A four-time host of the Tony Awards, he won an Emmy Award for hosting the 2005 ceremony. He also hosted the 81st Academy Awards in 2009. Jackman was appointed a Companion of the Order of Australia in the 2019 Queen's Birthday Honours for services to performing arts and to the global community.
+                                                                 | Sort Title | ++_Hugh Jackman
+                                                                 | Label | +PMM
+[2022-11-16 22:05:15,072] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:05:15,072] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:05:15,073] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:05:15,073] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/5Dxx0j9jOAczsTQzZ0OkA5iJBhp.jpg
+[2022-11-16 22:05:15,124] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/5Dxx0j9jOAczsTQzZ0OkA5iJBhp.jpg
+[2022-11-16 22:05:15,196] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:05:15,197] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:05:15,197] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Hugh Jackman Collection                                  |
+[2022-11-16 22:05:15,197] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:20                                    |
+[2022-11-16 22:05:15,197] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

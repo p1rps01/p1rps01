@@ -1,0 +1,490 @@
+[2022-11-25 15:31:30,539] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:31:30,539] [builder.py:193]            [INFO]     |                                     A&E Collection in TV Shows                                     |
+[2022-11-25 15:31:30,540] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:31:30,540] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:31:30,541] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:31:30,541] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,541] [meta.py:210]               [DEBUG]    |========================================= Template network =========================================|
+[2022-11-25 15:31:30,541] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,542] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,543] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:31:30,543] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,543] [meta.py:515]               [DEBUG]    | {'tmdb_network': '129, 2639, 3688', 'sort_title': '+2_A&E', 'sync_mode': 'sync', 'smart_label': 'episode_added.desc'} |
+[2022-11-25 15:31:30,543] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,543] [builder.py:223]            [INFO]     |==================================== Validating A&E Attributes =====================================|
+[2022-11-25 15:31:30,543] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,543] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:31:30,543] [builder.py:428]            [DEBUG]    | Value: episode_added.desc                                                                          |
+[2022-11-25 15:31:30,553] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,557] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:31:30,558] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:31:30,558] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,558] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-25 15:31:30,558] [builder.py:651]            [DEBUG]    | Value: 129, 2639, 3688                                                                             |
+[2022-11-25 15:31:30,586] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,586] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:31:30,586] [builder.py:651]            [DEBUG]    | Value: +2_A&E                                                                                      |
+[2022-11-25 15:31:30,591] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,591] [plex.py:838]               [DEBUG]    | Looking for: A&E                                                                                   |
+[2022-11-25 15:31:30,591] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:31:30,591] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:31:30,591] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:596]  [INFO]     |====================================== Running A&E Collection ======================================|
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 129                                                                         |
+[2022-11-25 15:31:30,592] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:31:30,958] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (129) A&E (241 Shows)                                                     |
+[2022-11-25 15:31:30,959] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:30,959] [builder.py:1575]           [DEBUG]    | 241 IDs Found                                                                                      |
+[2022-11-25 15:31:30,960] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:31,030] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 90686                                                 |
+[2022-11-25 15:31:31,061] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 92820                                                 |
+[2022-11-25 15:31:31,097] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154518                                                |
+[2022-11-25 15:31:31,158] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 124602                                                |
+[2022-11-25 15:31:31,172] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93710                                                 |
+[2022-11-25 15:31:31,192] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96733                                                 |
+[2022-11-25 15:31:31,225] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 112812                                                |
+[2022-11-25 15:31:31,236] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 36790                                                 |
+[2022-11-25 15:31:31,253] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78170                                                 |
+[2022-11-25 15:31:31,279] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42747                                                 |
+[2022-11-25 15:31:31,296] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 29386                                                 |
+[2022-11-25 15:31:31,310] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 116974                                                |
+[2022-11-25 15:31:31,326] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 10899                                                 |
+[2022-11-25 15:31:31,341] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 19321                                                 |
+[2022-11-25 15:31:31,362] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203303                                                |
+[2022-11-25 15:31:31,380] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 77307                                                 |
+[2022-11-25 15:31:31,413] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 69266                                                 |
+[2022-11-25 15:31:31,426] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117342                                                |
+[2022-11-25 15:31:31,451] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 96633                                                 |
+[2022-11-25 15:31:31,461] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42811                                                 |
+[2022-11-25 15:31:31,478] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 80407                                                 |
+[2022-11-25 15:31:31,488] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 156740                                                |
+[2022-11-25 15:31:31,505] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 131268                                                |
+[2022-11-25 15:31:31,518] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117366                                                |
+[2022-11-25 15:31:31,535] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117294                                                |
+[2022-11-25 15:31:31,548] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117269                                                |
+[2022-11-25 15:31:31,572] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117041                                                |
+[2022-11-25 15:31:31,595] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 117040                                                |
+[2022-11-25 15:31:31,609] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 113343                                                |
+[2022-11-25 15:31:31,629] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 101609                                                |
+[2022-11-25 15:31:31,657] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 98186                                                 |
+[2022-11-25 15:31:31,679] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 91076                                                 |
+[2022-11-25 15:31:31,694] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 91037                                                 |
+[2022-11-25 15:31:31,712] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 83397                                                 |
+[2022-11-25 15:31:31,733] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 80306                                                 |
+[2022-11-25 15:31:31,748] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 77306                                                 |
+[2022-11-25 15:31:31,772] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 77133                                                 |
+[2022-11-25 15:31:31,787] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 76268                                                 |
+[2022-11-25 15:31:31,801] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 67323                                                 |
+[2022-11-25 15:31:31,830] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 63003                                                 |
+[2022-11-25 15:31:31,852] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 59088                                                 |
+[2022-11-25 15:31:31,865] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 58436                                                 |
+[2022-11-25 15:31:31,877] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42819                                                 |
+[2022-11-25 15:31:31,890] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42818                                                 |
+[2022-11-25 15:31:31,907] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42817                                                 |
+[2022-11-25 15:31:31,920] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42816                                                 |
+[2022-11-25 15:31:31,932] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42815                                                 |
+[2022-11-25 15:31:31,967] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42814                                                 |
+[2022-11-25 15:31:31,979] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42813                                                 |
+[2022-11-25 15:31:31,989] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42810                                                 |
+[2022-11-25 15:31:32,000] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42809                                                 |
+[2022-11-25 15:31:32,011] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42808                                                 |
+[2022-11-25 15:31:32,025] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42806                                                 |
+[2022-11-25 15:31:32,029] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42750                                                 |
+[2022-11-25 15:31:32,044] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42748                                                 |
+[2022-11-25 15:31:32,058] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42744                                                 |
+[2022-11-25 15:31:32,074] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42185                                                 |
+[2022-11-25 15:31:32,092] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 38414                                                 |
+[2022-11-25 15:31:32,105] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 37887                                                 |
+[2022-11-25 15:31:32,125] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 37212                                                 |
+[2022-11-25 15:31:32,140] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 35951                                                 |
+[2022-11-25 15:31:32,157] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 35506                                                 |
+[2022-11-25 15:31:32,175] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 32532                                                 |
+[2022-11-25 15:31:32,193] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 25675                                                 |
+[2022-11-25 15:31:32,207] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 23856                                                 |
+[2022-11-25 15:31:32,223] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 13174                                                 |
+[2022-11-25 15:31:32,235] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 9456                                                  |
+[2022-11-25 15:31:32,246] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 8006                                                  |
+[2022-11-25 15:31:32,256] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 4021                                                  |
+[2022-11-25 15:31:32,258] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,259] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 2639                                                                        |
+[2022-11-25 15:31:32,259] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:31:32,281] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (2639) A&E (2 Shows)                                                      |
+[2022-11-25 15:31:32,281] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,281] [builder.py:1575]           [DEBUG]    | 2 IDs Found                                                                                        |
+[2022-11-25 15:31:32,281] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,293] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 81340                                                 |
+[2022-11-25 15:31:32,307] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 138516                                                |
+[2022-11-25 15:31:32,307] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,307] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 3688                                                                        |
+[2022-11-25 15:31:32,308] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:31:32,330] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (3688) A&E (3 Shows)                                                      |
+[2022-11-25 15:31:32,331] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,331] [builder.py:1575]           [DEBUG]    | 3 IDs Found                                                                                        |
+[2022-11-25 15:31:32,331] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:32,347] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 130235                                                |
+[2022-11-25 15:31:32,360] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 195955                                                |
+[2022-11-25 15:31:32,375] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 74868                                                 |
+[2022-11-25 15:31:32,375] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:31:32,375] [builder.py:2353]           [INFO]     |================================= Missing Shows from Library: A&E ==================================|
+[2022-11-25 15:31:32,375] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:31:32,417] [builder.py:2366]           [INFO]     | A&E Collection | ? | Bates Motel (TVDb: 262414)                                                    |
+[2022-11-25 15:31:32,443] [builder.py:2366]           [INFO]     | A&E Collection | ? | Unforgettable (TVDb: 248861)                                                  |
+[2022-11-25 15:31:32,477] [builder.py:2366]           [INFO]     | A&E Collection | ? | Longmire (TVDb: 253491)                                                       |
+[2022-11-25 15:31:32,520] [builder.py:2366]           [INFO]     | A&E Collection | ? | Storage Wars (TVDb: 207621)                                                   |
+[2022-11-25 15:31:32,570] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Glades (TVDb: 168941)                                                     |
+[2022-11-25 15:31:32,609] [builder.py:2366]           [INFO]     | A&E Collection | ? | The First 48 (TVDb: 81275)                                                    |
+[2022-11-25 15:31:32,638] [builder.py:2366]           [INFO]     | A&E Collection | ? | War & Peace (2016) (TVDb: 299408)                                             |
+[2022-11-25 15:31:32,665] [builder.py:2366]           [INFO]     | A&E Collection | ? | Bonnie & Clyde (TVDb: 270110)                                                 |
+[2022-11-25 15:31:32,703] [builder.py:2366]           [INFO]     | A&E Collection | ? | Intervention (TVDb: 75896)                                                    |
+[2022-11-25 15:31:32,741] [builder.py:2366]           [INFO]     | A&E Collection | ? | Duck Dynasty (TVDb: 256825)                                                   |
+[2022-11-25 15:31:32,850] [builder.py:2366]           [INFO]     | A&E Collection | ? | Court Cam (TVDb: 371728)                                                      |
+[2022-11-25 15:31:32,880] [builder.py:2366]           [INFO]     | A&E Collection | ? | Bag of Bones (TVDb: 252870)                                                   |
+[2022-11-25 15:31:33,003] [builder.py:2366]           [INFO]     | A&E Collection | ? | Live PD (TVDb: 318451)                                                        |
+[2022-11-25 15:31:33,034] [builder.py:2366]           [INFO]     | A&E Collection | ? | Zombie House Flipping (TVDb: 306562)                                          |
+[2022-11-25 15:31:33,063] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Returned (US) (TVDb: 283317)                                              |
+[2022-11-25 15:31:33,426] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Andromeda Strain (TVDb: 81843)                                            |
+[2022-11-25 15:31:33,687] [builder.py:2366]           [INFO]     | A&E Collection | ? | Celebrity Ghost Stories (TVDb: 122701)                                        |
+[2022-11-25 15:31:33,730] [builder.py:2366]           [INFO]     | A&E Collection | ? | Lovejoy (TVDb: 71764)                                                         |
+[2022-11-25 15:31:33,773] [builder.py:2366]           [INFO]     | A&E Collection | ? | Breakout Kings (TVDb: 219341)                                                 |
+[2022-11-25 15:31:33,799] [builder.py:2366]           [INFO]     | A&E Collection | ? | Damien (TVDb: 282165)                                                         |
+[2022-11-25 15:31:33,980] [builder.py:2366]           [INFO]     | A&E Collection | ? | Nero Wolfe (2001) (TVDb: 78811)                                               |
+[2022-11-25 15:31:34,017] [builder.py:2366]           [INFO]     | A&E Collection | ? | Hoarders (TVDb: 109621)                                                       |
+[2022-11-25 15:31:34,053] [builder.py:2366]           [INFO]     | A&E Collection | ? | 60 Days In (TVDb: 308045)                                                     |
+[2022-11-25 15:31:34,169] [builder.py:2366]           [INFO]     | A&E Collection | ? | Gene Simmons Family Jewels (TVDb: 79406)                                      |
+[2022-11-25 15:31:34,282] [builder.py:2366]           [INFO]     | A&E Collection | ? | Customer Wars (TVDb: 425256)                                                  |
+[2022-11-25 15:31:34,310] [builder.py:2366]           [INFO]     | A&E Collection | ? | Cold Case Files (TVDb: 74814)                                                 |
+[2022-11-25 15:31:34,469] [builder.py:2366]           [INFO]     | A&E Collection | ? | Dog the Bounty Hunter (TVDb: 75036)                                           |
+[2022-11-25 15:31:34,579] [builder.py:2366]           [INFO]     | A&E Collection | ? | Killer Cases (TVDb: 392853)                                                   |
+[2022-11-25 15:31:34,698] [builder.py:2366]           [INFO]     | A&E Collection | ? | Neighborhood Wars (TVDb: 409286)                                              |
+[2022-11-25 15:31:34,736] [builder.py:2366]           [INFO]     | A&E Collection | ? | Leah Remini: Scientology and the Aftermath (TVDb: 319252)                     |
+[2022-11-25 15:31:34,763] [builder.py:2366]           [INFO]     | A&E Collection | ? | Secrets of Playboy (TVDb: 413259)                                             |
+[2022-11-25 15:31:34,790] [builder.py:2366]           [INFO]     | A&E Collection | ? | Born This Way (TVDb: 304021)                                                  |
+[2022-11-25 15:31:34,822] [builder.py:2366]           [INFO]     | A&E Collection | ? | Nightwatch (TVDb: 290557)                                                     |
+[2022-11-25 15:31:34,916] [builder.py:2366]           [INFO]     | A&E Collection | ? | Beyond Scared Straight (TVDb: 219331)                                         |
+[2022-11-25 15:31:35,049] [builder.py:2366]           [INFO]     | A&E Collection | ? | Coma (TVDb: 261272)                                                           |
+[2022-11-25 15:31:35,129] [builder.py:2366]           [INFO]     | A&E Collection | ? | Road Wars (2022) (TVDb: 422035)                                               |
+[2022-11-25 15:31:35,275] [builder.py:2366]           [INFO]     | A&E Collection | ? | Digital Addiction (TVDb: 420414)                                              |
+[2022-11-25 15:31:35,310] [builder.py:2366]           [INFO]     | A&E Collection | ? | Shipping Wars (TVDb: 254669)                                                  |
+[2022-11-25 15:31:35,335] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Beast (TVDb: 83805)                                                       |
+[2022-11-25 15:31:35,443] [builder.py:2366]           [INFO]     | A&E Collection | ? | WWE Rivals (TVDb: 420793)                                                     |
+[2022-11-25 15:31:35,588] [builder.py:2366]           [INFO]     | A&E Collection | ? | Paranormal State (TVDb: 81408)                                                |
+[2022-11-25 15:31:35,726] [builder.py:2366]           [INFO]     | A&E Collection | ? | Wahlburgers (TVDb: 276525)                                                    |
+[2022-11-25 15:31:35,748] [builder.py:2366]           [INFO]     | A&E Collection | ? | Biography: WWE Legends (TVDb: 397372)                                         |
+[2022-11-25 15:31:35,868] [builder.py:2366]           [INFO]     | A&E Collection | ? | Steven Seagal: Lawman (TVDb: 126841)                                          |
+[2022-11-25 15:31:35,993] [builder.py:2366]           [INFO]     | A&E Collection | ? | Street Justice (TVDb: 71052)                                                  |
+[2022-11-25 15:31:36,114] [builder.py:2366]           [INFO]     | A&E Collection | ? | Live Rescue (TVDb: 361071)                                                    |
+[2022-11-25 15:31:36,213] [builder.py:2366]           [INFO]     | A&E Collection | ? | Ancient Mysteries (TVDb: 226691)                                              |
+[2022-11-25 15:31:36,354] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Cleaner (TVDb: 82492)                                                     |
+[2022-11-25 15:31:36,533] [builder.py:2366]           [INFO]     | A&E Collection | ? | Live PD Presents: PD Cam (TVDb: 350050)                                       |
+[2022-11-25 15:31:36,681] [builder.py:2366]           [INFO]     | A&E Collection | ? | Interrogation Raw (TVDb: 420401)                                              |
+[2022-11-25 15:31:36,722] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Menendez Murders: Erik Tells All (TVDb: 338565)                           |
+[2022-11-25 15:31:36,909] [builder.py:2366]           [INFO]     | A&E Collection | ? | Manhunters: Fugitive Task Force (TVDb: 84133)                                 |
+[2022-11-25 15:31:36,935] [builder.py:2366]           [INFO]     | A&E Collection | ? | Janet Jackson. (TVDb: 414707)                                                 |
+[2022-11-25 15:31:37,041] [builder.py:2366]           [INFO]     | A&E Collection | ? | Those Who Kill (US) (TVDb: 273351)                                            |
+[2022-11-25 15:31:37,149] [builder.py:2366]           [INFO]     | A&E Collection | ? | Live PD: Police Patrol (TVDb: 329175)                                         |
+[2022-11-25 15:31:37,260] [builder.py:2366]           [INFO]     | A&E Collection | ? | America's Top Dog (TVDb: 372763)                                              |
+[2022-11-25 15:31:37,364] [builder.py:2366]           [INFO]     | A&E Collection | ? | Storage Wars: Texas (TVDb: 251596)                                            |
+[2022-11-25 15:31:37,401] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Killing Season (2016) (TVDb: 318973)                                      |
+[2022-11-25 15:31:37,541] [builder.py:2366]           [INFO]     | A&E Collection | ? | 100 Centre Street (TVDb: 71327)                                               |
+[2022-11-25 15:31:37,579] [builder.py:2366]           [INFO]     | A&E Collection | ? | Billy the Exterminator (TVDb: 166101)                                         |
+[2022-11-25 15:31:37,676] [builder.py:2366]           [INFO]     | A&E Collection | ? | Sell This House (TVDb: 73497)                                                 |
+[2022-11-25 15:31:37,727] [builder.py:2366]           [INFO]     | A&E Collection | ? | Escaping Polygamy (TVDb: 297358)                                              |
+[2022-11-25 15:31:37,824] [builder.py:2366]           [INFO]     | A&E Collection | ? | Cursed: The Bell Witch (TVDb: 302303)                                         |
+[2022-11-25 15:31:37,910] [builder.py:2366]           [INFO]     | A&E Collection | ? | Parking Wars (TVDb: 81343)                                                    |
+[2022-11-25 15:31:37,934] [builder.py:2366]           [INFO]     | A&E Collection | ? | WWE's Most Wanted Treasures (TVDb: 397507)                                    |
+[2022-11-25 15:31:37,956] [builder.py:2366]           [INFO]     | A&E Collection | ? | BTK: Confession of a Serial Killer (TVDb: 414455)                             |
+[2022-11-25 15:31:38,051] [builder.py:2366]           [INFO]     | A&E Collection | ? | I Survived a Crime (TVDb: 395266)                                             |
+[2022-11-25 15:31:38,076] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Greatest Pharaohs (TVDb: 92541)                                           |
+[2022-11-25 15:31:38,167] [builder.py:2366]           [INFO]     | A&E Collection | ? | Hotel Malibu (TVDb: 71370)                                                    |
+[2022-11-25 15:31:38,280] [builder.py:2366]           [INFO]     | A&E Collection | ? | Investigative Reports (TVDb: 280099)                                          |
+[2022-11-25 15:31:38,304] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Murder of Laci Peterson (TVDb: 333271)                                    |
+[2022-11-25 15:31:38,336] [builder.py:2366]           [INFO]     | A&E Collection | ? | Biography: KISStory (TVDb: 405718)                                            |
+[2022-11-25 15:31:38,382] [builder.py:2366]           [INFO]     | A&E Collection | ? | Many Sides of Jane (TVDb: 357651)                                             |
+[2022-11-25 15:31:38,494] [builder.py:2366]           [INFO]     | A&E Collection | ? | Who Killed Tupac? (TVDb: 330903)                                              |
+[2022-11-25 15:31:38,524] [builder.py:2366]           [INFO]     | A&E Collection | ? | Donnie Loves Jenny (TVDb: 289205)                                             |
+[2022-11-25 15:31:38,554] [builder.py:2366]           [INFO]     | A&E Collection | ? | Cults and Extreme Belief (TVDb: 348158)                                       |
+[2022-11-25 15:31:38,653] [builder.py:2366]           [INFO]     | A&E Collection | ? | Moonacre (TVDb: 77426)                                                        |
+[2022-11-25 15:31:38,769] [builder.py:2366]           [INFO]     | A&E Collection | ? | Dallas SWAT (TVDb: 80341)                                                     |
+[2022-11-25 15:31:38,872] [builder.py:2366]           [INFO]     | A&E Collection | ? | Lachey's Bar (TVDb: 297510)                                                   |
+[2022-11-25 15:31:39,002] [builder.py:2366]           [INFO]     | A&E Collection | ? | Crime 360 (TVDb: 81487)                                                       |
+[2022-11-25 15:31:39,033] [builder.py:2366]           [INFO]     | A&E Collection | ? | American Justice (TVDb: 216281)                                               |
+[2022-11-25 15:31:39,152] [builder.py:2366]           [INFO]     | A&E Collection | ? | Inked (TVDb: 78805)                                                           |
+[2022-11-25 15:31:39,270] [builder.py:2366]           [INFO]     | A&E Collection | ? | Ghostly Encounters (TVDb: 217081)                                             |
+[2022-11-25 15:31:39,433] [builder.py:2366]           [INFO]     | A&E Collection | ? | Kirstie Alley's Big Life (TVDb: 150411)                                       |
+[2022-11-25 15:31:39,570] [builder.py:2366]           [INFO]     | A&E Collection | ? | Hustle & Tow (TVDb: 399989)                                                   |
+[2022-11-25 15:31:39,689] [builder.py:2366]           [INFO]     | A&E Collection | ? | Court Night Live (TVDb: 422959)                                               |
+[2022-11-25 15:31:39,809] [builder.py:2366]           [INFO]     | A&E Collection | ? | Barter Kings (TVDb: 259497)                                                   |
+[2022-11-25 15:31:39,955] [builder.py:2366]           [INFO]     | A&E Collection | ? | The First 48 Presents: Homicide Squad Atlanta (TVDb: 356224)                  |
+[2022-11-25 15:31:40,086] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Gestapo (TVDb: 84624)                                                     |
+[2022-11-25 15:31:40,212] [builder.py:2366]           [INFO]     | A&E Collection | ? | Secrets of the Chippendales Murders (TVDb: 417812)                            |
+[2022-11-25 15:31:40,401] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 351233                                                    |
+[2022-11-25 15:31:40,493] [builder.py:2366]           [INFO]     | A&E Collection | ? | Minute by Minute (2001) (TVDb: 296296)                                        |
+[2022-11-25 15:31:40,585] [builder.py:2366]           [INFO]     | A&E Collection | ? | Storage Wars New York (TVDb: 264535)                                          |
+[2022-11-25 15:31:40,672] [builder.py:2366]           [INFO]     | A&E Collection | ? | Hammertime (TVDb: 99971)                                                      |
+[2022-11-25 15:31:40,797] [builder.py:2366]           [INFO]     | A&E Collection | ? | Airline (2004) (TVDb: 81059)                                                  |
+[2022-11-25 15:31:40,829] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Clinton Affair (TVDb: 355453)                                             |
+[2022-11-25 15:31:40,948] [builder.py:2366]           [INFO]     | A&E Collection | ? | The First 48: Missing Persons (TVDb: 249241)                                  |
+[2022-11-25 15:31:41,046] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Two Coreys (TVDb: 80360)                                                  |
+[2022-11-25 15:31:41,159] [builder.py:2366]           [INFO]     | A&E Collection | ? | First Blood (TVDb: 421747)                                                    |
+[2022-11-25 15:31:41,257] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Untold Story (TVDb: 361381)                                               |
+[2022-11-25 15:31:41,386] [builder.py:2366]           [INFO]     | A&E Collection | ? | Waco: Madman or Messiah (TVDb: 341252)                                        |
+[2022-11-25 15:31:41,544] [builder.py:2366]           [INFO]     | A&E Collection | ? | Elizabeth Smart: Autobiography (TVDb: 337860)                                 |
+[2022-11-25 15:31:41,780] [builder.py:2366]           [INFO]     | A&E Collection | ? | Fit to Fat to Fit (TVDb: 306214)                                              |
+[2022-11-25 15:31:41,898] [builder.py:2366]           [INFO]     | A&E Collection | ? | Nature Gone Wild (TVDb: 394086)                                               |
+[2022-11-25 15:31:41,990] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Eleven (TVDb: 336193)                                                     |
+[2022-11-25 15:31:42,077] [builder.py:2366]           [INFO]     | A&E Collection | ? | American Takedown (TVDb: 297276)                                              |
+[2022-11-25 15:31:42,165] [builder.py:2366]           [INFO]     | A&E Collection | ? | Fasten Your Seatbelt (TVDb: 406564)                                           |
+[2022-11-25 15:31:42,274] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Jacksons: A Family Dynasty (TVDb: 139431)                                 |
+[2022-11-25 15:31:42,345] [builder.py:2366]           [INFO]     | A&E Collection | ? | Family Plots (TVDb: 74509)                                                    |
+[2022-11-25 15:31:42,451] [builder.py:2366]           [INFO]     | A&E Collection | ? | Accused: Guilty or Innocent? (TVDb: 379555)                                   |
+[2022-11-25 15:31:42,532] [builder.py:2366]           [INFO]     | A&E Collection | ? | Dead Again (TVDb: 286242)                                                     |
+[2022-11-25 15:31:42,664] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Unexplained (TVDb: 256661)                                                |
+[2022-11-25 15:31:42,771] [builder.py:2366]           [INFO]     | A&E Collection | ? | Psychic Kids: Children of the Paranormal (TVDb: 82476)                        |
+[2022-11-25 15:31:42,869] [builder.py:2366]           [INFO]     | A&E Collection | ? | Rescue Cam (TVDb: 391188)                                                     |
+[2022-11-25 15:31:42,944] [builder.py:2366]           [INFO]     | A&E Collection | ? | 50/50 Flip (TVDb: 415446)                                                     |
+[2022-11-25 15:31:43,049] [builder.py:2366]           [INFO]     | A&E Collection | ? | Dogs of War (TVDb: 287726)                                                    |
+[2022-11-25 15:31:43,150] [builder.py:2366]           [INFO]     | A&E Collection | ? | Akil the Fugitive Hunter (TVDb: 331425)                                       |
+[2022-11-25 15:31:43,260] [builder.py:2366]           [INFO]     | A&E Collection | ? | Frankie's House (TVDb: 252307)                                                |
+[2022-11-25 15:31:43,292] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Lowe Files (TVDb: 330816)                                                 |
+[2022-11-25 15:31:43,314] [builder.py:2366]           [INFO]     | A&E Collection | ? | Behind Bars: Rookie Year (TVDb: 298997)                                       |
+[2022-11-25 15:31:43,465] [builder.py:2366]           [INFO]     | A&E Collection | ? | Pawn Stars Australia (TVDb: 298914)                                           |
+[2022-11-25 15:31:43,582] [builder.py:2366]           [INFO]     | A&E Collection | ? | Extreme Unboxing (TVDb: 385920)                                               |
+[2022-11-25 15:31:43,664] [builder.py:2366]           [INFO]     | A&E Collection | ? | Obsessed (TVDb: 96301)                                                        |
+[2022-11-25 15:31:43,763] [builder.py:2366]           [INFO]     | A&E Collection | ? | Growing Up Twisted (TVDb: 179381)                                             |
+[2022-11-25 15:31:43,860] [builder.py:2366]           [INFO]     | A&E Collection | ? | 60 Days In: Narcoland (TVDb: 365846)                                          |
+[2022-11-25 15:31:43,977] [builder.py:2366]           [INFO]     | A&E Collection | ? | Growing Up Gotti (TVDb: 74819)                                                |
+[2022-11-25 15:31:44,064] [builder.py:2366]           [INFO]     | A&E Collection | ? | Living Smaller (TVDb: 420855)                                                 |
+[2022-11-25 15:31:44,137] [builder.py:2366]           [INFO]     | A&E Collection | ? | Origins of Hip Hop (TVDb: 420627)                                             |
+[2022-11-25 15:31:44,211] [builder.py:2366]           [INFO]     | A&E Collection | ? | $100 Makeover (TVDb: 251171)                                                  |
+[2022-11-25 15:31:44,321] [builder.py:2366]           [INFO]     | A&E Collection | ? | Biography: Bobby Brown (TVDb: 420786)                                         |
+[2022-11-25 15:31:44,347] [builder.py:2366]           [INFO]     | A&E Collection | ? | Garth Brooks: The Road I'm On (TVDb: 372636)                                  |
+[2022-11-25 15:31:44,422] [builder.py:2366]           [INFO]     | A&E Collection | ? | Strange Days with Bob Saget (TVDb: 208081)                                    |
+[2022-11-25 15:31:44,521] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Killer Speaks (TVDb: 268422)                                              |
+[2022-11-25 15:31:44,649] [builder.py:2366]           [INFO]     | A&E Collection | ? | Jep & Jessica: Growing the Dynasty (TVDb: 306038)                             |
+[2022-11-25 15:31:44,676] [builder.py:2366]           [INFO]     | A&E Collection | ? | Divided States (TVDb: 343869)                                                 |
+[2022-11-25 15:31:44,715] [builder.py:2366]           [INFO]     | A&E Collection | ? | Undercover High (TVDb: 335442)                                                |
+[2022-11-25 15:31:44,820] [builder.py:2366]           [INFO]     | A&E Collection | ? | Rookies (2008) (TVDb: 93611)                                                  |
+[2022-11-25 15:31:44,954] [builder.py:2366]           [INFO]     | A&E Collection | ? | American Haunting (TVDb: 271934)                                              |
+[2022-11-25 15:31:45,070] [builder.py:2366]           [INFO]     | A&E Collection | ? | Flipping Boston (TVDb: 257065)                                                |
+[2022-11-25 15:31:45,187] [builder.py:2366]           [INFO]     | A&E Collection | ? | WWE Smack Talk (TVDb: 420794)                                                 |
+[2022-11-25 15:31:45,262] [builder.py:2366]           [INFO]     | A&E Collection | ? | Born Behind Bars (TVDb: 349727)                                               |
+[2022-11-25 15:31:45,332] [builder.py:2366]           [INFO]     | A&E Collection | ? | Triple Digit Flip (TVDb: 411218)                                              |
+[2022-11-25 15:31:45,411] [builder.py:2366]           [INFO]     | A&E Collection | ? | An Animal Saved My Life (TVDb: 405033)                                        |
+[2022-11-25 15:31:45,510] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Toe Bro (TVDb: 359717)                                                    |
+[2022-11-25 15:31:45,614] [builder.py:2366]           [INFO]     | A&E Collection | ? | The First 48: Killer Confessions (TVDb: 296989)                               |
+[2022-11-25 15:31:45,689] [builder.py:2366]           [INFO]     | A&E Collection | ? | Alaska PD (TVDb: 372733)                                                      |
+[2022-11-25 15:31:45,796] [builder.py:2366]           [INFO]     | A&E Collection | ? | Gotti: Godfather and Son (TVDb: 348769)                                       |
+[2022-11-25 15:31:45,884] [builder.py:2366]           [INFO]     | A&E Collection | ? | Epic Ink (TVDb: 283384)                                                       |
+[2022-11-25 15:31:46,000] [builder.py:2366]           [INFO]     | A&E Collection | ? | Storage Wars: Miami (TVDb: 301610)                                            |
+[2022-11-25 15:31:46,105] [builder.py:2366]           [INFO]     | A&E Collection | ? | Streets of Compton (TVDb: 312835)                                             |
+[2022-11-25 15:31:46,303] [builder.py:2366]           [INFO]     | A&E Collection | ? | Neighbors With Benefits (TVDb: 293005)                                        |
+[2022-11-25 15:31:46,435] [builder.py:2366]           [INFO]     | A&E Collection | ? | Southie Rules (TVDb: 265990)                                                  |
+[2022-11-25 15:31:46,522] [builder.py:2366]           [INFO]     | A&E Collection | ? | Last Chance Driving School (TVDb: 257985)                                     |
+[2022-11-25 15:31:46,607] [builder.py:2370]           [INFO]     | A&E Collection | X | Flipped Off (TVDb: 257836)                                                    |
+[2022-11-25 15:31:46,679] [builder.py:2370]           [INFO]     | A&E Collection | X | Bordertown: Laredo (TVDb: 252574)                                             |
+[2022-11-25 15:31:46,781] [builder.py:2366]           [INFO]     | A&E Collection | ? | American Hoggers (TVDb: 252617)                                               |
+[2022-11-25 15:31:46,868] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Ghost Prophecies (TVDb: 212401)                                           |
+[2022-11-25 15:31:47,047] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 205371                                                    |
+[2022-11-25 15:31:47,135] [builder.py:2366]           [INFO]     | A&E Collection | ? | The Squad: Prison Police (TVDb: 181641)                                       |
+[2022-11-25 15:31:47,219] [builder.py:2366]           [INFO]     | A&E Collection | ? | Fugitive Chronicles (TVDb: 155611)                                            |
+[2022-11-25 15:31:47,315] [builder.py:2366]           [INFO]     | A&E Collection | ? | TVography (TVDb: 70974)                                                       |
+[2022-11-25 15:31:47,405] [builder.py:2366]           [INFO]     | A&E Collection | ? | Meet the Royals (TVDb: 75013)                                                 |
+[2022-11-25 15:31:47,508] [builder.py:2366]           [INFO]     | A&E Collection | ? | Heavy (TVDb: 213131)                                                          |
+[2022-11-25 15:31:47,589] [builder.py:2366]           [INFO]     | A&E Collection | ? | Teach: Tony Danza (TVDb: 193511)                                              |
+[2022-11-25 15:31:47,676] [builder.py:2370]           [INFO]     | A&E Collection | X | Travel Sick (TVDb: 74761)                                                     |
+[2022-11-25 15:31:47,745] [builder.py:2366]           [INFO]     | A&E Collection | ? | Tattoo Highway (TVDb: 96711)                                                  |
+[2022-11-25 15:31:47,819] [builder.py:2366]           [INFO]     | A&E Collection | ? | The View from Daniel Pike (TVDb: 75012)                                       |
+[2022-11-25 15:31:47,923] [builder.py:2366]           [INFO]     | A&E Collection | ? | Confessions of a Matchmaker (TVDb: 271517)                                    |
+[2022-11-25 15:31:48,002] [builder.py:2366]           [INFO]     | A&E Collection | ? | Driving Force (TVDb: 80036)                                                   |
+[2022-11-25 15:31:48,082] [builder.py:2370]           [INFO]     | A&E Collection | X | Flip This House (TVDb: 251597)                                                |
+[2022-11-25 15:31:48,149] [builder.py:2366]           [INFO]     | A&E Collection | ? | King of Cars (TVDb: 128061)                                                   |
+[2022-11-25 15:31:48,243] [builder.py:2366]           [INFO]     | A&E Collection | ? | Rollergirls (TVDb: 83819)                                                     |
+[2022-11-25 15:31:48,244] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:31:48,244] [builder.py:2372]           [INFO]     | 166 Shows Missing                                                                                  |
+[2022-11-25 15:31:49,205] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:31:49,205] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:31:49,209] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:31:49,210] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [262414, 248861, 253491, 207621, 168941, 81275, 299408, 270110, 75896, 256825, 371728, 252870, 318451, 306562, 283317, 81843, 122701, 71764, 219341, 282165, 78811, 109621, 308045, 79406, 425256, 74814, 75036, 392853, 409286, 319252, 413259, 304021, 290557, 219331, 261272, 422035, 420414, 254669, 83805, 420793, 81408, 276525, 397372, 126841, 71052, 361071, 226691, 82492, 350050, 420401, 338565, 84133, 414707, 273351, 329175, 372763, 251596, 318973, 71327, 166101, 73497, 297358, 302303, 81343, 397507, 414455, 395266, 92541, 71370, 280099, 333271, 405718, 357651, 330903, 289205, 348158, 77426, 80341, 297510, 81487, 216281, 78805, 217081, 150411, 399989, 422959, 259497, 356224, 84624, 417812, 296296, 264535, 99971, 81059, 355453, 249241, 80360, 421747, 361381, 341252, 337860, 306214, 394086, 336193, 297276, 406564, 139431, 74509, 379555, 286242, 256661, 82476, 391188, 415446, 287726, 331425, 252307, 330816, 298997, 298914, 385920, 96301, 179381, 365846, 74819, 420855, 420627, 251171, 420786, 372636, 208081, 268422, 306038, 343869, 335442, 93611, 271934, 257065, 420794, 349727, 411218, 405033, 359717, 296989, 372733, 348769, 283384, 301610, 312835, 293005, 265990, 257985, 252617, 212401, 181641, 155611, 70974, 75013, 213131, 193511, 96711, 75012, 271517, 80036, 128061, 83819] |
+[2022-11-25 15:32:14,420] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:32:14,420] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 248861                                                                         |
+[2022-11-25 15:32:14,420] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 253491                                                                         |
+[2022-11-25 15:32:14,420] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 207621                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 168941                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81275                                                                          |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299408                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270110                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75896                                                                          |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256825                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371728                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252870                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 318451                                                                         |
+[2022-11-25 15:32:14,421] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306562                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283317                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81843                                                                          |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 122701                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71764                                                                          |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 219341                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282165                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78811                                                                          |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 109621                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 308045                                                                         |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79406                                                                          |
+[2022-11-25 15:32:14,422] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 425256                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74814                                                                          |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75036                                                                          |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392853                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409286                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 319252                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 413259                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 304021                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 290557                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 219331                                                                         |
+[2022-11-25 15:32:14,423] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261272                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422035                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420414                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254669                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83805                                                                          |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420793                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81408                                                                          |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276525                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397372                                                                         |
+[2022-11-25 15:32:14,424] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 126841                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71052                                                                          |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361071                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 226691                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82492                                                                          |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350050                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420401                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338565                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84133                                                                          |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414707                                                                         |
+[2022-11-25 15:32:14,425] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273351                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 329175                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 372763                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 251596                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 318973                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71327                                                                          |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 166101                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73497                                                                          |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297358                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 302303                                                                         |
+[2022-11-25 15:32:14,426] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81343                                                                          |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397507                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414455                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395266                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 92541                                                                          |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71370                                                                          |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 280099                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 333271                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405718                                                                         |
+[2022-11-25 15:32:14,427] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357651                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330903                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289205                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348158                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77426                                                                          |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80341                                                                          |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297510                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81487                                                                          |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 216281                                                                         |
+[2022-11-25 15:32:14,428] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78805                                                                          |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 217081                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 150411                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 399989                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422959                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259497                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 356224                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84624                                                                          |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417812                                                                         |
+[2022-11-25 15:32:14,429] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 296296                                                                         |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264535                                                                         |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 99971                                                                          |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81059                                                                          |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 355453                                                                         |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249241                                                                         |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80360                                                                          |
+[2022-11-25 15:32:14,430] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421747                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361381                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 341252                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 337860                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306214                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 394086                                                                         |
+[2022-11-25 15:32:14,431] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 336193                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297276                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 406564                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 139431                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74509                                                                          |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 379555                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 286242                                                                         |
+[2022-11-25 15:32:14,432] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256661                                                                         |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82476                                                                          |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391188                                                                         |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 415446                                                                         |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 287726                                                                         |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 331425                                                                         |
+[2022-11-25 15:32:14,433] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252307                                                                         |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 330816                                                                         |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 298997                                                                         |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 298914                                                                         |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385920                                                                         |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 96301                                                                          |
+[2022-11-25 15:32:14,434] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 179381                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365846                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74819                                                                          |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420855                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420627                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 251171                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420786                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 372636                                                                         |
+[2022-11-25 15:32:14,435] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 208081                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 268422                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 306038                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 343869                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 335442                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 271934                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 257065                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420794                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349727                                                                         |
+[2022-11-25 15:32:14,436] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411218                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405033                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359717                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 296989                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 372733                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348769                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 283384                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 301610                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 312835                                                                         |
+[2022-11-25 15:32:14,437] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 293005                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 265990                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 257985                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 252617                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 212401                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 181641                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 155611                                                                         |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70974                                                                          |
+[2022-11-25 15:32:14,438] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75013                                                                          |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 213131                                                                         |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 193511                                                                         |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 96711                                                                          |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75012                                                                          |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 271517                                                                         |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80036                                                                          |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 128061                                                                         |
+[2022-11-25 15:32:14,439] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83819                                                                          |
+[2022-11-25 15:32:14,440] [sonarr.py:187]             [INFO]     | 164 Series already exist in Sonarr                                                                 |
+[2022-11-25 15:32:14,440] [sonarr.py:197]             [INFO]     |                                                                                                    |
+[2022-11-25 15:32:14,440] [sonarr.py:198]             [INFO]     | TVDb IDs that cannot be added to Sonarr because the path they will use is already in use by a different TVDb ID |
+[2022-11-25 15:32:14,440] [sonarr.py:200]             [INFO]     | TVDb ID: 93611   | Sonarr TVDb ID: 84533   | Path: /share/data/media/tv/Rookies (2008)             |
+[2022-11-25 15:32:14,440] [sonarr.py:201]             [INFO]     | 1 Series with paths already in use by other TVDb IDs                                               |
+[2022-11-25 15:32:14,440] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:32:14,440] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Bates Motel]                                                                    |
+[2022-11-25 15:32:14,440] [sonarr.py:207]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2022-11-25 15:32:15,398] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-25 15:32:15,399] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for A&E Collection                                                   |
+[2022-11-25 15:32:15,400] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:32:15,400] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:32:15,400] [plex_meta_manager.py:737]  [INFO]     |                                      Finished A&E Collection                                       |
+[2022-11-25 15:32:15,400] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:44                                    |
+[2022-11-25 15:32:15,401] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

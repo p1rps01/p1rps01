@@ -1,0 +1,70 @@
+[2022-11-16 18:55:34,174] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:55:34,174] [builder.py:193]            [INFO]     |                     George A. Romero (Director) Collection in Halloween Movies                     |
+[2022-11-16 18:55:34,174] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:55:34,175] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,175] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:55:34,175] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,175] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 18:55:34,176] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,182] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:55:34,183] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,185] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:55:34,186] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,199] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,199] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:55:34,200] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,200] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['George A. Romero'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}, 'summary': 'Movies directed by George A. Romero.', 'name': 'George A. Romero (Director)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!18_George A. Romero (Director)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/George%20A.%20Romero.jpg'} |
+[2022-11-16 18:55:34,200] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,201] [builder.py:223]            [INFO]     |======================== Validating George A. Romero (Director) Attributes =========================|
+[2022-11-16 18:55:34,201] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,201] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:55:34,201] [builder.py:230]            [DEBUG]    | Value: George A. Romero (Director)                                                                 |
+[2022-11-16 18:55:34,201] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,201] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:55:34,202] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:55:34,202] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,202] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 18:55:34,202] [builder.py:533]            [DEBUG]    | Value: ['George A. Romero']                                                                        |
+[2022-11-16 18:55:34,291] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,291] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 18:55:34,291] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'director': 'tmdb'}}                                       |
+[2022-11-16 18:55:34,354] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&director=17631&pop=1                                      |
+[2022-11-16 18:55:34,354] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,354] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:55:34,354] [builder.py:651]            [DEBUG]    | Value: Top Directors                                                                               |
+[2022-11-16 18:55:34,354] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,354] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:55:34,355] [builder.py:651]            [DEBUG]    | Value: Movies directed by George A. Romero.                                                        |
+[2022-11-16 18:55:34,355] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,355] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:55:34,355] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:55:34,355] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,355] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:55:34,355] [builder.py:651]            [DEBUG]    | Value: !18_George A. Romero (Director)                                                             |
+[2022-11-16 18:55:34,355] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:55:34,356] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:55:34,356] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/George%20A.%20Romero.jpg |
+[2022-11-16 18:55:34,632] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,633] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:55:34,633] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,634] [plex_meta_manager.py:596]  [INFO]     |========================== Running George A. Romero (Director) Collection ==========================|
+[2022-11-16 18:55:34,634] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,634] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Director is George A. Romero
+[2022-11-16 18:55:34,700] [builder.py:2527]           [INFO]     | 
+[2022-11-16 18:55:34,700] [builder.py:2528]           [INFO]     |==================== Updating Details of George A. Romero (Director) Collection ====================|
+[2022-11-16 18:55:34,701] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,730] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:55:34,732] [util.py:174]               [DEBUG]    | 3 posters found:                                                                                   |
+[2022-11-16 18:55:34,733] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/w2zVF92x149qK79ZxwUowcSp2c6.jpg    |
+[2022-11-16 18:55:34,733] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/George%20A.%20Romero.jpg |
+[2022-11-16 18:55:34,733] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/George A. Romero (Director)/poster.jpg', 'prefix': "George A. Romero (Director)'s ", 'is_poster': True, 'is_url': False, 'compare': 1059170, 'message': "George A. Romero (Director)'s poster to [File] /config/Halloween_Movies/Assets/George A. Romero (Director)/poster.jpg"} |
+[2022-11-16 18:55:34,734] [library.py:180]            [INFO]     | Detail: George A. Romero (Director)'s poster update not needed                                     |
+[2022-11-16 18:55:34,762] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:55:34,762] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:55:34,763] [plex_meta_manager.py:737]  [INFO]     |                          Finished George A. Romero (Director) Collection                           |
+[2022-11-16 18:55:34,763] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:55:34,763] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

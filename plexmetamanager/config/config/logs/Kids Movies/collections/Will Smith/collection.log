@@ -1,0 +1,73 @@
+[2022-11-16 20:25:28,770] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:25:28,770] [builder.py:193]            [INFO]     |                                Will Smith Collection in Kids Movies                                |
+[2022-11-16 20:25:28,770] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:25:28,770] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:28,770] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:25:28,771] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,771] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:25:28,771] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,773] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,773] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:25:28,773] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,773] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2888, 'sort_title': '++_Will Smith', 'collection_order': 'release'} |
+[2022-11-16 20:25:28,773] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,773] [builder.py:223]            [INFO]     |================================= Validating Will Smith Attributes =================================|
+[2022-11-16 20:25:28,774] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,774] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:25:28,774] [builder.py:533]            [DEBUG]    | Value: 2888                                                                                        |
+[2022-11-16 20:25:28,791] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,792] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:25:28,792] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:25:28,793] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:28,793] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:25:28,793] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:25:29,133] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:29,134] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:25:29,134] [builder.py:651]            [DEBUG]    | Value: ++_Will Smith                                                                               |
+[2022-11-16 20:25:29,143] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,144] [builder.py:796]            [ERROR]    | Collection Error: Converting Will Smith to a normal collection                                     |
+[2022-11-16 20:25:29,150] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,150] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:25:29,150] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,151] [plex_meta_manager.py:596]  [INFO]     |================================== Running Will Smith Collection ===================================|
+[2022-11-16 20:25:29,151] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,151] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:25:29,152] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:25:29,152] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Will Smith", '?type=1&sort=titleSort&push=1&actor=34185&pop=1') |
+[2022-11-16 20:25:29,152] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,152] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Will Smith
+[2022-11-16 20:25:29,167] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:25:29,167] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:25:29,167] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:25:29,168] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:25:29,168] [builder.py:2159]           [INFO]     |================================= Adding to Will Smith Collection ==================================|
+[2022-11-16 20:25:29,168] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:29,168] [builder.py:2174]           [INFO]     | 1/2 | Will Smith Collection | + | Aladdin (2019)                                                   |
+[2022-11-16 20:25:29,346] [builder.py:2174]           [INFO]     | 2/2 | Will Smith Collection | + | Shark Tale (2004)                                                |
+[2022-11-16 20:25:32,247] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:32,247] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:25:32,255] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:32,256] [builder.py:2528]           [INFO]     |============================ Updating Details of Will Smith Collection =============================|
+[2022-11-16 20:25:32,256] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:25:32,266] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Willard Christopher "Will" Smith, Jr. (born September 25, 1968) is an American actor, film producer and pop rapper. He has enjoyed success in music, television and film. In April 2007, Newsweek called him the most powerful actor on the planet. Smith has been nominated for four Golden Globe Awards, two Academy Awards, and has won multiple Grammy Awards.
+                                                                 | 
+                                                                 | In the late 1980s, Smith achieved modest fame as a rapper under the name The Fresh Prince. In 1990, his popularity increased dramatically when he starred in the popular television series The Fresh Prince of Bel-Air. The show ran for nearly six years (1990–1996) on NBC and has been syndicated consistently on various networks since then.
+                                                                 | 
+                                                                 | In the mid-1990s, Smith transitioned from television to film, and ultimately starred in numerous blockbuster films that received broad box office success. In fact, he is the only actor in history to have eight consecutive films gross over $100 million in the domestic box office as well as being the only actor to have eight consecutive films in which he starred open at the #1 spot in the domestic box office tally. Fourteen of the 19 fiction films he has acted in have accumulated worldwide gross earnings of over $100 million, and 4 of them took in over $500 million in global box office receipts. His most financially successful films have been Bad Boys, Bad Boys II, Independence Day, Men in Black, Men in Black II, I, Robot, The Pursuit of Happyness, I Am Legend, Hancock, Wild Wild West, Enemy of the State, Shark Tale, Hitch, and Seven Pounds. He also earned critical praise for his performances in Six Degrees of Separation, Ali, and The Pursuit of Happyness, receiving Best Actor Oscar nominations for the latter two.
+                                                                 | Sort Title | ++_Will Smith
+                                                                 | Label | +PMM
+[2022-11-16 20:25:34,208] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:25:34,208] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:25:34,209] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:25:34,209] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/rqqhzESgnlxREv7Q8ZtjqBZtSry.jpg
+[2022-11-16 20:25:34,261] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/rqqhzESgnlxREv7Q8ZtjqBZtSry.jpg
+[2022-11-16 20:25:34,313] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:25:34,313] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:25:34,313] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Will Smith Collection                                   |
+[2022-11-16 20:25:34,314] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-16 20:25:34,314] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

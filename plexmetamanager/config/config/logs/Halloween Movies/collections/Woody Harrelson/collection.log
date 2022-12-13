@@ -1,0 +1,62 @@
+[2022-11-16 18:46:56,878] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:46:56,878] [builder.py:193]            [INFO]     |                           Woody Harrelson Collection in Halloween Movies                           |
+[2022-11-16 18:46:56,878] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:46:56,878] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:46:56,879] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:46:56,879] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,879] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 18:46:56,879] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,880] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,881] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:46:56,881] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,881] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 57755, 'sort_title': '++_Woody Harrelson', 'collection_order': 'release'} |
+[2022-11-16 18:46:56,881] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,881] [builder.py:223]            [INFO]     |============================== Validating Woody Harrelson Attributes ===============================|
+[2022-11-16 18:46:56,881] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,881] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 18:46:56,882] [builder.py:533]            [DEBUG]    | Value: 57755                                                                                       |
+[2022-11-16 18:46:56,892] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,892] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:46:56,893] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 18:46:56,893] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:56,893] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 18:46:56,893] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 18:46:57,221] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:57,221] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:46:57,221] [builder.py:651]            [DEBUG]    | Value: ++_Woody Harrelson                                                                          |
+[2022-11-16 18:46:57,252] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,252] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:46:57,252] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,252] [plex_meta_manager.py:596]  [INFO]     |================================ Running Woody Harrelson Collection ================================|
+[2022-11-16 18:46:57,253] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,253] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 18:46:57,253] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:46:57,253] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Woody Harrelson", '?type=1&sort=titleSort&push=1&actor=33435&pop=1') |
+[2022-11-16 18:46:57,253] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,253] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Woody Harrelson
+[2022-11-16 18:46:57,264] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 18:46:57,265] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 18:46:57,265] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 18:46:57,265] [builder.py:2158]           [INFO]     | 
+[2022-11-16 18:46:57,265] [builder.py:2159]           [INFO]     |=============================== Adding to Woody Harrelson Collection ===============================|
+[2022-11-16 18:46:57,265] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,265] [builder.py:2174]           [INFO]     | 1/2 | Woody Harrelson Collection | = | Zombieland (2009)                                           |
+[2022-11-16 18:46:57,266] [builder.py:2174]           [INFO]     | 2/2 | Woody Harrelson Collection | = | Zombieland: Double Tap (2019)                               |
+[2022-11-16 18:46:57,266] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,266] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:46:57,273] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,273] [builder.py:2528]           [INFO]     |========================== Updating Details of Woody Harrelson Collection ==========================|
+[2022-11-16 18:46:57,273] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,283] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:46:57,284] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-16 18:46:57,284] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg    |
+[2022-11-16 18:46:57,286] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-16 18:46:57,336] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:46:57,337] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:46:57,338] [plex_meta_manager.py:737]  [INFO]     |                                Finished Woody Harrelson Collection                                 |
+[2022-11-16 18:46:57,338] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 18:46:57,338] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

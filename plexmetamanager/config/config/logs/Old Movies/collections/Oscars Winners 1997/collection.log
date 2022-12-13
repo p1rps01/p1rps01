@@ -1,0 +1,123 @@
+[2022-11-16 22:25:50,604] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:25:50,604] [builder.py:193]            [INFO]     |                            Oscars Winners 1997 Collection in Old Movies                            |
+[2022-11-16 22:25:50,605] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:25:50,605] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,605] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:25:50,605] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,605] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:25:50,606] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,607] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 22:25:50,607] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,609] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:25:50,609] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,612] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:25:50,613] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,624] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:25:50,624] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,631] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:25:50,631] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,635] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,635] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:25:50,635] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,636] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 1997.', 'name': 'Oscars Winners 1997', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 1997', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1997.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:25:50,636] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,636] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 1997 Attributes =============================|
+[2022-11-16 22:25:50,636] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,636] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:25:50,636] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 1997                                                                         |
+[2022-11-16 22:25:50,636] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,636] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:25:50,636] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:25:50,637] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,637] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:25:50,637] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:25:50,637] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,637] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:25:50,637] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:25:50,637] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,637] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:25:50,637] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:25:50,637] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,638] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:25:50,638] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 22:25:50,638] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,638] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 22:25:50,638] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 22:25:50,829] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,830] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:25:50,830] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 1997.                                                   |
+[2022-11-16 22:25:50,830] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,830] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:25:50,830] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:25:50,830] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,831] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:25:50,831] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 1997                                                                     |
+[2022-11-16 22:25:50,831] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,831] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:25:50,831] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1997.jpg |
+[2022-11-16 22:25:50,939] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,940] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:25:50,940] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:25:50,944] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,944] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 1997                                                                   |
+[2022-11-16 22:25:50,945] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,945] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 1997 Collection ==============================|
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1997-01-01,1997-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 22:25:50,945] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,947] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 22:25:50,949] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,949] [builder.py:1575]           [DEBUG]    | 13 IDs Found                                                                                       |
+[2022-11-16 22:25:50,949] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:25:50,957] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,957] [builder.py:2159]           [INFO]     |============================= Adding to Oscars Winners 1997 Collection =============================|
+[2022-11-16 22:25:50,957] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:50,957] [builder.py:2174]           [INFO]     | 1/2 | Oscars Winners 1997 Collection | + | Titanic (1997)                                          |
+[2022-11-16 22:25:51,126] [builder.py:2174]           [INFO]     | 2/2 | Oscars Winners 1997 Collection | + | Men in Black (1997)                                     |
+[2022-11-16 22:25:54,861] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:54,862] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 22:25:54,862] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:54,863] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:25:54,863] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:54,880] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Good Will Hunting (1997) (TMDb: 489)                          |
+[2022-11-16 22:25:54,903] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Life Is Beautiful (1997) (TMDb: 637)                          |
+[2022-11-16 22:25:54,915] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | L.A. Confidential (1997) (TMDb: 2118)                         |
+[2022-11-16 22:25:54,927] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | As Good as It Gets (1997) (TMDb: 2898)                        |
+[2022-11-16 22:25:54,938] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | The Full Monty (1997) (TMDb: 9427)                            |
+[2022-11-16 22:25:54,950] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Affliction (1998) (TMDb: 31662)                               |
+[2022-11-16 22:25:54,963] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Character (1997) (TMDb: 17139)                                |
+[2022-11-16 22:25:54,974] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Geri's Game (1997) (TMDb: 13929)                              |
+[2022-11-16 22:25:54,985] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | The Long Way Home (1997) (TMDb: 113290)                       |
+[2022-11-16 22:25:54,996] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | Visas and Virtue (1997) (TMDb: 244914)                        |
+[2022-11-16 22:25:55,009] [builder.py:2321]           [INFO]     | Oscars Winners 1997 Collection | ? | A Story of Healing (1997) (TMDb: 244919)                      |
+[2022-11-16 22:25:55,009] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:55,010] [builder.py:2327]           [INFO]     | 11 Movies Missing                                                                                  |
+[2022-11-16 22:25:58,744] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:58,745] [builder.py:2528]           [INFO]     |======================== Updating Details of Oscars Winners 1997 Collection ========================|
+[2022-11-16 22:25:58,745] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:25:58,751] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Academy Awards (Oscars) Winners for 1997.
+                                                                 | Sort Title | !16_Oscars Winners 1997
+                                                                 | Label | +Oscars Winners Awards, +PMM
+[2022-11-16 22:26:00,323] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:26:00,323] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:26:01,999] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:26:03,467] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 22:26:03,482] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/Oscars Winners 1997
+[2022-11-16 22:26:03,482] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:26:03,483] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/1997.jpg
+[2022-11-16 22:26:03,612] [library.py:178]            [INFO]     | Detail: asset_directory updated Oscars Winners 1997's poster to [File] config/Old_Movies/Assets/Oscars Winners 1997/poster.jpg
+[2022-11-16 22:26:03,673] [builder.py:2686]           [INFO]     | 
+[2022-11-16 22:26:03,674] [builder.py:2687]           [INFO]     |============================== Sorting Oscars Winners 1997 Collection ==============================|
+[2022-11-16 22:26:03,674] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 22:26:03,674] [builder.py:2704]           [INFO]     | Moving Titanic (1997) to the beginning                                                             |
+[2022-11-16 22:26:03,707] [builder.py:2704]           [INFO]     | Moving Men in Black (1997) after Titanic (1997)                                                    |
+[2022-11-16 22:26:03,742] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:26:03,743] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:26:03,743] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 1997 Collection                               |
+[2022-11-16 22:26:03,744] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-11-16 22:26:03,745] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

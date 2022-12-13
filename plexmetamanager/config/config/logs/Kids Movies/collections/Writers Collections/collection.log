@@ -1,0 +1,70 @@
+[2022-11-16 20:43:04,032] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:43:04,032] [builder.py:193]            [INFO]     |                           Writers Collections Collection in Kids Movies                            |
+[2022-11-16 20:43:04,032] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:43:04,032] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:43:04,032] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:43:04,032] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,032] [meta.py:210]               [DEBUG]    |======================================== Template separator ========================================|
+[2022-11-16 20:43:04,033] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,033] [meta.py:337]               [DEBUG]    | Conditional: use_blank                                                                             |
+[2022-11-16 20:43:04,033] [meta.py:365]               [DEBUG]    | Condition 1 Failed: placeholder_tmdb_movie.exists: true does not exist                             |
+[2022-11-16 20:43:04,033] [meta.py:365]               [DEBUG]    | Condition 2 Failed: placeholder_tvdb_show.exists: true does not exist                              |
+[2022-11-16 20:43:04,034] [meta.py:365]               [DEBUG]    | Condition 3 Failed: placeholder_imdb_id.exists: true does not exist                                |
+[2022-11-16 20:43:04,034] [meta.py:402]               [DEBUG]    | Conditional Variable: use_blank defaults to "True"                                                 |
+[2022-11-16 20:43:04,034] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,041] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:43:04,042] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,045] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,045] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:43:04,045] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,045] [meta.py:515]               [DEBUG]    | {'allowed_library_types': True, 'collection_mode': 'hide', 'sort_title': '!20_!Writers Collections', 'blank_collection': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/writer.jpg', 'summary': 'Section separator for Writers Collections.', 'name': 'Writers Collections'} |
+[2022-11-16 20:43:04,045] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,045] [builder.py:223]            [INFO]     |============================ Validating Writers Collections Attributes =============================|
+[2022-11-16 20:43:04,045] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,045] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:43:04,045] [builder.py:230]            [DEBUG]    | Value: Writers Collections                                                                         |
+[2022-11-16 20:43:04,045] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,046] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:43:04,046] [builder.py:240]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:43:04,046] [builder.py:509]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,046] [builder.py:510]            [DEBUG]    | Validating Method: blank_collection                                                                |
+[2022-11-16 20:43:04,046] [builder.py:511]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:43:04,046] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,046] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:43:04,046] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:43:04,046] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,046] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:43:04,046] [builder.py:651]            [DEBUG]    | Value: !20_!Writers Collections                                                                    |
+[2022-11-16 20:43:04,047] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,047] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:43:04,047] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/writer.jpg |
+[2022-11-16 20:43:04,237] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,237] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:43:04,237] [builder.py:651]            [DEBUG]    | Value: Section separator for Writers Collections.                                                  |
+[2022-11-16 20:43:04,245] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:43:04,245] [plex.py:838]               [DEBUG]    | Looking for: Writers Collections                                                                   |
+[2022-11-16 20:43:04,246] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:43:04,246] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:43:04,246] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:43:04,246] [plex_meta_manager.py:596]  [INFO]     |============================== Running Writers Collections Collection ==============================|
+[2022-11-16 20:43:04,267] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:43:04,268] [builder.py:2528]           [INFO]     |======================== Updating Details of Writers Collections Collection ========================|
+[2022-11-16 20:43:04,268] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:43:04,274] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Section separator for Writers Collections.
+                                                                 | Sort Title | !20_!Writers Collections
+                                                                 | Label | +PMM
+[2022-11-16 20:43:05,829] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:43:05,829] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:43:07,242] [builder.py:2611]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:43:08,818] [builder.py:2613]           [INFO]     | Collection Mode | default
+[2022-11-16 20:43:10,256] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:43:10,265] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Writers Collections
+[2022-11-16 20:43:10,265] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:43:10,265] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/writer.jpg
+[2022-11-16 20:43:10,373] [library.py:178]            [INFO]     | Detail: asset_directory updated Writers Collections's poster to [File] config/Kids_Movies/Assets/Writers Collections/poster.jpg
+[2022-11-16 20:43:10,419] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:43:10,420] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:43:10,420] [plex_meta_manager.py:737]  [INFO]     |                              Finished Writers Collections Collection                               |
+[2022-11-16 20:43:10,420] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 20:43:10,420] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

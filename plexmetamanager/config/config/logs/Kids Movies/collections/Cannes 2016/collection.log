@@ -1,0 +1,159 @@
+[2022-11-16 20:29:44,461] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:29:44,462] [builder.py:193]            [INFO]     |                               Cannes 2016 Collection in Kids Movies                                |
+[2022-11-16 20:29:44,462] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:29:44,462] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,463] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:29:44,463] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,463] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:29:44,464] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,465] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 20:29:44,465] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,467] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:29:44,467] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,470] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:29:44,471] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,475] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,475] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 20:29:44,484] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:29:44,485] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,491] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:29:44,491] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,495] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,495] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:29:44,495] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,495] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2016-cannes', 'summary': '2016 Cannes Awards.', 'name': 'Cannes 2016', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Cannes 2016', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2016.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:29:44,496] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,496] [builder.py:223]            [INFO]     |================================ Validating Cannes 2016 Attributes =================================|
+[2022-11-16 20:29:44,496] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,496] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:29:44,497] [builder.py:230]            [DEBUG]    | Value: Cannes 2016                                                                                 |
+[2022-11-16 20:29:44,497] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,497] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:29:44,497] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:29:44,497] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,498] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:29:44,498] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:29:44,498] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,498] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:29:44,498] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:29:44,498] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,499] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:29:44,499] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:29:44,499] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,499] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:29:44,499] [builder.py:651]            [DEBUG]    | Value: Cannes Awards                                                                               |
+[2022-11-16 20:29:44,499] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,500] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 20:29:44,500] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2016-cannes                                              |
+[2022-11-16 20:29:44,544] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,544] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:29:44,545] [builder.py:651]            [DEBUG]    | Value: 2016 Cannes Awards.                                                                         |
+[2022-11-16 20:29:44,545] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,545] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:29:44,545] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:29:44,545] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,545] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:29:44,545] [builder.py:651]            [DEBUG]    | Value: !16_Cannes 2016                                                                             |
+[2022-11-16 20:29:44,546] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,546] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:29:44,546] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/cannes/2016.jpg |
+[2022-11-16 20:29:44,749] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,750] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:29:44,750] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:29:44,755] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,755] [plex.py:838]               [DEBUG]    | Looking for: Cannes 2016                                                                           |
+[2022-11-16 20:29:44,755] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,755] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:596]  [INFO]     |================================== Running Cannes 2016 Collection ==================================|
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2016-cannes                                |
+[2022-11-16 20:29:44,756] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,757] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 20:29:44,759] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,759] [builder.py:1575]           [DEBUG]    | 71 IDs Found                                                                                       |
+[2022-11-16 20:29:44,759] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:44,760] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,760] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:29:44,760] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:44,781] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Café Society (2016) (TMDb: 339397)                                    |
+[2022-11-16 20:29:44,793] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Nice Guys (2016) (TMDb: 290250)                                   |
+[2022-11-16 20:29:45,895] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Money Monster (2016) (TMDb: 303858)                                   |
+[2022-11-16 20:29:46,140] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Blood Father (2016) (TMDb: 309886)                                    |
+[2022-11-16 20:29:46,360] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Hands of Stone (2016) (TMDb: 184341)                                  |
+[2022-11-16 20:29:46,370] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Train to Busan (2016) (TMDb: 396535)                                  |
+[2022-11-16 20:29:46,385] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Wailing (2016) (TMDb: 293670)                                     |
+[2022-11-16 20:29:46,395] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | I, Daniel Blake (2016) (TMDb: 374473)                                 |
+[2022-11-16 20:29:46,690] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | It's Only the End of the World (2016) (TMDb: 338189)                  |
+[2022-11-16 20:29:46,701] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | American Honey (2016) (TMDb: 340485)                                  |
+[2022-11-16 20:29:46,713] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Graduation (2016) (TMDb: 374458)                                      |
+[2022-11-16 20:29:46,905] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Personal Shopper (2016) (TMDb: 340676)                                |
+[2022-11-16 20:29:46,929] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Salesman (2016) (TMDb: 375315)                                    |
+[2022-11-16 20:29:47,078] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Ma' Rosa (2016) (TMDb: 392790)                                        |
+[2022-11-16 20:29:47,104] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Toni Erdmann (2016) (TMDb: 374475)                                    |
+[2022-11-16 20:29:47,115] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Handmaiden (2016) (TMDb: 290098)                                  |
+[2022-11-16 20:29:47,130] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Paterson (2016) (TMDb: 370755)                                        |
+[2022-11-16 20:29:47,142] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Neon Demon (2016) (TMDb: 301365)                                  |
+[2022-11-16 20:29:47,341] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Slack Bay (2016) (TMDb: 371865)                                       |
+[2022-11-16 20:29:47,353] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Aquarius (2016) (TMDb: 377273)                                        |
+[2022-11-16 20:29:47,365] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Elle (2016) (TMDb: 337674)                                            |
+[2022-11-16 20:29:47,377] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Loving (2016) (TMDb: 339419)                                          |
+[2022-11-16 20:29:47,390] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Julieta (2016) (TMDb: 332872)                                         |
+[2022-11-16 20:29:47,404] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | From the Land of the Moon (2016) (TMDb: 376166)                       |
+[2022-11-16 20:29:47,693] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Staying Vertical (2016) (TMDb: 380622)                                |
+[2022-11-16 20:29:47,925] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Unknown Girl (2016) (TMDb: 340481)                                |
+[2022-11-16 20:29:48,155] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Last Face (2017) (TMDb: 287904)                                   |
+[2022-11-16 20:29:48,178] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Happiest Day in the Life of Olli Mäki (2016) (TMDb: 392807)       |
+[2022-11-16 20:29:48,406] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Captain Fantastic (2016) (TMDb: 334533)                               |
+[2022-11-16 20:29:48,416] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Red Turtle (2016) (TMDb: 337703)                                  |
+[2022-11-16 20:29:48,646] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Harmonium (2016) (TMDb: 392795)                                       |
+[2022-11-16 20:29:48,849] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Stopover (2016) (TMDb: 392788)                                    |
+[2022-11-16 20:29:49,064] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Dogs (2016) (TMDb: 392812)                                            |
+[2022-11-16 20:29:49,272] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Student (2016) (TMDb: 392817)                                     |
+[2022-11-16 20:29:49,293] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Hell or High Water (2016) (TMDb: 338766)                              |
+[2022-11-16 20:29:49,436] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Clash (2016) (TMDb: 393184)                                           |
+[2022-11-16 20:29:49,447] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | After the Storm (2016) (TMDb: 374671)                                 |
+[2022-11-16 20:29:49,641] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Apprentice (2016) (TMDb: 391709)                                      |
+[2022-11-16 20:29:49,825] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Dancer (2016) (TMDb: 392794)                                      |
+[2022-11-16 20:29:50,046] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Transfiguration (2016) (TMDb: 392818)                             |
+[2022-11-16 20:29:50,377] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Pericle il nero (2016) (TMDb: 392816)                                 |
+[2022-11-16 20:29:50,603] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Divines (2016) (TMDb: 393729)                                         |
+[2022-11-16 20:29:50,752] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Mercenary (2016) (TMDb: 393731)                                       |
+[2022-11-16 20:29:51,073] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Wolf and Sheep (2016) (TMDb: 350037)                                  |
+[2022-11-16 20:29:51,083] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Together Project (2016) (TMDb: 389044)                            |
+[2022-11-16 20:29:51,373] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Lives of Thérèse (2016) (TMDb: 396175)                            |
+[2022-11-16 20:29:51,607] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Mimosas (2016) (TMDb: 393520)                                         |
+[2022-11-16 20:29:51,798] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Tramontane (2017) (TMDb: 393522)                                      |
+[2022-11-16 20:29:51,815] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Raw (2016) (TMDb: 393519)                                             |
+[2022-11-16 20:29:51,828] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | In Bed with Victoria (2016) (TMDb: 377275)                            |
+[2022-11-16 20:29:52,094] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Diamond Island (2016) (TMDb: 396253)                                  |
+[2022-11-16 20:29:52,383] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Album (2016) (TMDb: 393518)                                           |
+[2022-11-16 20:29:52,645] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | One Week and a Day (2016) (TMDb: 393521)                              |
+[2022-11-16 20:29:52,647] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | My Life as a Zucchini (2016) (TMDb: 393559)                           |
+[2022-11-16 20:29:52,870] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Death of Louis XIV (2016) (TMDb: 371859)                          |
+[2022-11-16 20:29:53,084] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Wrong Elements (2017) (TMDb: 394143)                                  |
+[2022-11-16 20:29:53,348] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Chouf (2016) (TMDb: 394259)                                           |
+[2022-11-16 20:29:53,658] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Fool Moon (2016) (TMDb: 394139)                                       |
+[2022-11-16 20:29:53,866] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Dunce (2016) (TMDb: 392803)                                       |
+[2022-11-16 20:29:54,306] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Hissein Habré, A Chadian Tragedy (2016) (TMDb: 392800)                |
+[2022-11-16 20:29:54,318] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Gimme Danger (2016) (TMDb: 392820)                                    |
+[2022-11-16 20:29:54,513] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Cinema Novo (2016) (TMDb: 398488)                                     |
+[2022-11-16 20:29:54,713] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Cinema Travellers (2016) (TMDb: 401975)                           |
+[2022-11-16 20:29:54,824] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Timecode (2016) (TMDb: 398395)                                        |
+[2022-11-16 20:29:55,037] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Girl Who Danced with the Devil (2016) (TMDb: 398393)              |
+[2022-11-16 20:29:55,469] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Anna (2015) (TMDb: 460420)                                            |
+[2022-11-16 20:29:55,751] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Birth of a Leader (2016) (TMDb: 398371)                               |
+[2022-11-16 20:29:55,925] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | In the Year of Monkey (2016) (TMDb: 398380)                           |
+[2022-11-16 20:29:56,200] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | Chasse Royale (2016) (TMDb: 399221)                                   |
+[2022-11-16 20:29:56,436] [builder.py:2321]           [INFO]     | Cannes 2016 Collection | ? | The Beast (2016) (TMDb: 412852)                                       |
+[2022-11-16 20:29:56,437] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:56,437] [builder.py:2327]           [INFO]     | 70 Movies Missing                                                                                  |
+[2022-11-16 20:29:59,504] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:59,504] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Cannes 2016 Collection                                           |
+[2022-11-16 20:29:59,504] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:59,504] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:29:59,504] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Cannes 2016 Collection                                   |
+[2022-11-16 20:29:59,505] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-11-16 20:29:59,505] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

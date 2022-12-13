@@ -1,0 +1,34 @@
+[2022-11-25 15:52:52,785] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:52:52,785] [builder.py:193]            [INFO]     |                          StevenLu's Popular Movies Collection in TV Shows                          |
+[2022-11-25 15:52:52,786] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:52:52,786] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,786] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:52:52,786] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,786] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 15:52:52,786] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,787] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:52:52,788] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,805] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 15:52:52,812] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,829] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 15:52:52,830] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,842] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:52:52,843] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,847] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,847] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:52:52,847] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,848] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'sort_title': "!01_StevenLu's Popular Movies", 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/StevenLu%27s%20Popular%20Movies.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of StevenLu's Most Popular Movies.", 'name': "StevenLu's Popular Movies"} |
+[2022-11-25 15:52:52,848] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,848] [builder.py:223]            [INFO]     |========================= Validating StevenLu's Popular Movies Attributes ==========================|
+[2022-11-25 15:52:52,848] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,849] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:52:52,849] [builder.py:230]            [DEBUG]    | Value: StevenLu's Popular Movies                                                                   |
+[2022-11-25 15:52:52,849] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:52:52,849] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-25 15:52:52,849] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-25 15:52:52,849] [plex_meta_manager.py:714]  [INFO]     | Skipped because allowed_library_types ['movie'] doesn't match the library type: show               |
+[2022-11-25 15:52:52,850] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:52:52,853] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:52:52,853] [plex_meta_manager.py:737]  [INFO]     |                           Finished StevenLu's Popular Movies Collection                            |
+[2022-11-25 15:52:52,853] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:52:52,853] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

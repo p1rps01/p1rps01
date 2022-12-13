@@ -1,0 +1,197 @@
+[2022-11-25 12:49:41,335] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 12:49:41,338] [builder.py:193]            [INFO]     |                                    Starz Collection in TV Shows                                    |
+[2022-11-25 12:49:41,338] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 12:49:41,338] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,339] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 12:49:41,339] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,339] [meta.py:210]               [DEBUG]    |========================================= Template network =========================================|
+[2022-11-25 12:49:41,339] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,340] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,341] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 12:49:41,341] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,341] [meta.py:515]               [DEBUG]    | {'tmdb_network': '318, 758, 4906', 'sort_title': '+2_Starz', 'sync_mode': 'sync', 'smart_label': 'episode_added.desc'} |
+[2022-11-25 12:49:41,341] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,341] [builder.py:223]            [INFO]     |=================================== Validating Starz Attributes ====================================|
+[2022-11-25 12:49:41,342] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,342] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 12:49:41,342] [builder.py:428]            [DEBUG]    | Value: episode_added.desc                                                                          |
+[2022-11-25 12:49:41,353] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,353] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 12:49:41,354] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 12:49:41,354] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,354] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-25 12:49:41,354] [builder.py:651]            [DEBUG]    | Value: 318, 758, 4906                                                                              |
+[2022-11-25 12:49:41,386] [tmdb.py:285]               [ERROR]    | TMDb Error: No Network found for TMDb ID 4906: (404 [Not Found]) Requested Item Not Found          |
+[2022-11-25 12:49:41,386] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:41,386] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 12:49:41,386] [builder.py:651]            [DEBUG]    | Value: +2_Starz                                                                                    |
+[2022-11-25 12:49:41,470] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,470] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 12:49:41,471] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,471] [plex_meta_manager.py:596]  [INFO]     |===================================== Running Starz Collection =====================================|
+[2022-11-25 12:49:41,471] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,476] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['episode_added.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Starz
+[2022-11-25 12:49:41,477] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 12:49:41,477] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 12:49:41,477] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 12:49:41,479] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 318
+[2022-11-25 12:49:41,479] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 12:49:41,603] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (318) Starz (62 Shows)
+[2022-11-25 12:49:41,604] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 12:49:41,604] [builder.py:1575]           [DEBUG]    | 62 IDs Found
+[2022-11-25 12:49:41,604] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 12:49:41,719] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 39797
+[2022-11-25 12:49:41,734] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211781
+[2022-11-25 12:49:41,744] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 93433
+[2022-11-25 12:49:41,755] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 207484
+[2022-11-25 12:49:41,756] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 12:49:41,756] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 758
+[2022-11-25 12:49:41,756] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 12:49:41,795] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (758) Starz Encore (2 Shows)
+[2022-11-25 12:49:41,795] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 12:49:41,796] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-25 12:49:41,796] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 12:49:41,811] [builder.py:2158]           [INFO]     | 
+[2022-11-25 12:49:41,811] [builder.py:2159]           [INFO]     |==================================== Adding to Starz Collection ====================================|
+[2022-11-25 12:49:41,811] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,863] [builder.py:2174]           [INFO]     | 1/6 | Starz Collection | = | Spartacus                                                             |
+[2022-11-25 12:49:41,864] [builder.py:2174]           [INFO]     | 2/6 | Starz Collection | = | American Gods                                                         |
+[2022-11-25 12:49:41,864] [builder.py:2174]           [INFO]     | 3/6 | Starz Collection | = | The Spanish Princess                                                  |
+[2022-11-25 12:49:41,864] [builder.py:2174]           [INFO]     | 4/6 | Starz Collection | = | Becoming Elizabeth                                                    |
+[2022-11-25 12:49:41,864] [builder.py:2174]           [INFO]     | 5/6 | Starz Collection | = | Shining Vale                                                          |
+[2022-11-25 12:49:41,864] [builder.py:2174]           [INFO]     | 6/6 | Starz Collection | = | The Rook                                                              |
+[2022-11-25 12:49:41,865] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,865] [builder.py:2196]           [INFO]     | 6 Shows Processed 0 Shows Added                                                                    |
+[2022-11-25 12:49:41,865] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,865] [builder.py:2353]           [INFO]     |================================ Missing Shows from Library: Starz =================================|
+[2022-11-25 12:49:41,865] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 12:49:41,936] [builder.py:2366]           [INFO]     | Starz Collection | ? | Outlander (TVDb: 270408)                                                    |
+[2022-11-25 12:49:42,007] [builder.py:2366]           [INFO]     | Starz Collection | ? | Black Sails (TVDb: 262407)                                                  |
+[2022-11-25 12:49:42,056] [builder.py:2366]           [INFO]     | Starz Collection | ? | Power (TVDb: 276562)                                                        |
+[2022-11-25 12:49:42,270] [builder.py:2366]           [INFO]     | Starz Collection | ? | Power Book III: Raising Kanan (TVDb: 377332)                                |
+[2022-11-25 12:49:42,309] [builder.py:2366]           [INFO]     | Starz Collection | ? | Dangerous Liaisons (TVDb: 421025)                                           |
+[2022-11-25 12:49:42,355] [builder.py:2366]           [INFO]     | Starz Collection | ? | Da Vinci's Demons (TVDb: 259669)                                            |
+[2022-11-25 12:49:42,382] [builder.py:2366]           [INFO]     | Starz Collection | ? | Ash vs Evil Dead (TVDb: 296295)                                             |
+[2022-11-25 12:49:42,409] [builder.py:2366]           [INFO]     | Starz Collection | ? | The White Princess (TVDb: 322212)                                           |
+[2022-11-25 12:49:42,457] [builder.py:2366]           [INFO]     | Starz Collection | ? | Camelot (TVDb: 208791)                                                      |
+[2022-11-25 12:49:42,487] [builder.py:2366]           [INFO]     | Starz Collection | ? | P-Valley (TVDb: 356405)                                                     |
+[2022-11-25 12:49:42,521] [builder.py:2366]           [INFO]     | Starz Collection | ? | The Girlfriend Experience (TVDb: 297346)                                    |
+[2022-11-25 12:49:42,556] [builder.py:2366]           [INFO]     | Starz Collection | ? | The Pillars of the Earth (TVDb: 159431)                                     |
+[2022-11-25 12:49:42,586] [builder.py:2366]           [INFO]     | Starz Collection | ? | Step Up (TVDb: 339544)                                                      |
+[2022-11-25 12:49:42,613] [builder.py:2366]           [INFO]     | Starz Collection | ? | Power Book II: Ghost (TVDb: 376837)                                         |
+[2022-11-25 12:49:42,827] [builder.py:2366]           [INFO]     | Starz Collection | ? | Heels (TVDb: 349345)                                                        |
+[2022-11-25 12:49:42,857] [builder.py:2366]           [INFO]     | Starz Collection | ? | Counterpart (TVDb: 337302)                                                  |
+[2022-11-25 12:49:42,919] [builder.py:2366]           [INFO]     | Starz Collection | ? | Vida (TVDb: 340976)                                                         |
+[2022-11-25 12:49:43,106] [builder.py:2366]           [INFO]     | Starz Collection | ? | Power Book IV: Force (TVDb: 377593)                                         |
+[2022-11-25 12:49:43,281] [builder.py:2366]           [INFO]     | Starz Collection | ? | The Serpent Queen (TVDb: 396325)                                            |
+[2022-11-25 12:49:43,334] [builder.py:2366]           [INFO]     | Starz Collection | ? | Boss (TVDb: 249361)                                                         |
+[2022-11-25 12:49:43,489] [builder.py:2366]           [INFO]     | Starz Collection | ? | Hightown (TVDb: 366172)                                                     |
+[2022-11-25 12:49:43,530] [builder.py:2366]           [INFO]     | Starz Collection | ? | Party Down (TVDb: 83616)                                                    |
+[2022-11-25 12:49:43,561] [builder.py:2366]           [INFO]     | Starz Collection | ? | Magic City (TVDb: 210961)                                                   |
+[2022-11-25 12:49:43,598] [builder.py:2366]           [INFO]     | Starz Collection | ? | Gaslit (TVDb: 415658)                                                       |
+[2022-11-25 12:49:43,627] [builder.py:2366]           [INFO]     | Starz Collection | ? | Blunt Talk (TVDb: 281181)                                                   |
+[2022-11-25 12:49:43,805] [builder.py:2366]           [INFO]     | Starz Collection | ? | The BMF Documentary: Blowing Money Fast (TVDb: 425905)                      |
+[2022-11-25 12:49:43,838] [builder.py:2366]           [INFO]     | Starz Collection | ? | BMF (TVDb: 383658)                                                          |
+[2022-11-25 12:49:43,864] [builder.py:2366]           [INFO]     | Starz Collection | ? | Flesh and Bone (TVDb: 282400)                                               |
+[2022-11-25 12:49:43,892] [builder.py:2366]           [INFO]     | Starz Collection | ? | Howards End (TVDb: 334451)                                                  |
+[2022-11-25 12:49:43,918] [builder.py:2366]           [INFO]     | Starz Collection | ? | Seduced: Inside The NXIVM Cult (TVDb: 390138)                               |
+[2022-11-25 12:49:43,948] [builder.py:2366]           [INFO]     | Starz Collection | ? | Now Apocalypse (TVDb: 354336)                                               |
+[2022-11-25 12:49:43,983] [builder.py:2366]           [INFO]     | Starz Collection | ? | Sweetbitter (TVDb: 339512)                                                  |
+[2022-11-25 12:49:44,133] [builder.py:2366]           [INFO]     | Starz Collection | ? | Blindspotting (TVDb: 392720)                                                |
+[2022-11-25 12:49:44,313] [builder.py:2366]           [INFO]     | Starz Collection | ? | Survivor's Remorse (TVDb: 282402)                                           |
+[2022-11-25 12:49:44,423] [builder.py:2366]           [INFO]     | Starz Collection | ? | Spartacus: Blood and Sand - The Motion Comic (TVDb: 178691)                 |
+[2022-11-25 12:49:44,450] [builder.py:2366]           [INFO]     | Starz Collection | ? | Confronting a Serial Killer (TVDb: 395417)                                  |
+[2022-11-25 12:49:44,577] [builder.py:2366]           [INFO]     | Starz Collection | ? | Run the World (TVDb: 376451)                                                |
+[2022-11-25 12:49:44,605] [builder.py:2366]           [INFO]     | Starz Collection | ? | Crash (TVDb: 83266)                                                         |
+[2022-11-25 12:49:44,723] [builder.py:2366]           [INFO]     | Starz Collection | ? | Me, Eloise (TVDb: 264340)                                                   |
+[2022-11-25 12:49:44,870] [builder.py:2366]           [INFO]     | Starz Collection | ? | Gravity (TVDb: 142861)                                                      |
+[2022-11-25 12:49:44,983] [builder.py:2366]           [INFO]     | Starz Collection | ? | Men in Kilts: A Roadtrip with Sam and Graham (TVDb: 383753)                 |
+[2022-11-25 12:49:45,098] [builder.py:2366]           [INFO]     | Starz Collection | ? | Martin Lawrence Presents 1st Amendment Stand-Up (TVDb: 84209)               |
+[2022-11-25 12:49:45,125] [builder.py:2366]           [INFO]     | Starz Collection | ? | America to Me (TVDb: 349870)                                                |
+[2022-11-25 12:49:45,152] [builder.py:2366]           [INFO]     | Starz Collection | ? | Leavenworth (TVDb: 368901)                                                  |
+[2022-11-25 12:49:45,322] [builder.py:2366]           [INFO]     | Starz Collection | ? | Head Case (TVDb: 81414)                                                     |
+[2022-11-25 12:49:45,458] [builder.py:2366]           [INFO]     | Starz Collection | ? | Who is Ghislaine Maxwell? (TVDb: 421803)                                    |
+[2022-11-25 12:49:45,577] [builder.py:2366]           [INFO]     | Starz Collection | ? | The Chair (2014) (TVDb: 284458)                                             |
+[2022-11-25 12:49:45,692] [builder.py:2366]           [INFO]     | Starz Collection | ? | Hollywood Residential (TVDb: 96201)                                         |
+[2022-11-25 12:49:45,727] [builder.py:2366]           [INFO]     | Starz Collection | ? | Warriors of Liberty City (TVDb: 352472)                                     |
+[2022-11-25 12:49:45,839] [builder.py:2366]           [INFO]     | Starz Collection | ? | Brambly Hedge (TVDb: 254401)                                                |
+[2022-11-25 12:49:45,916] [builder.py:2370]           [INFO]     | Starz Collection | X | The Bronx Bunny Show (US) (TVDb: 260945)                                    |
+[2022-11-25 12:49:45,944] [builder.py:2366]           [INFO]     | Starz Collection | ? | Wrong Man (TVDb: 345189)                                                    |
+[2022-11-25 12:49:45,970] [builder.py:2366]           [INFO]     | Starz Collection | ? | Moby Dick (2011) (TVDb: 248601)                                             |
+[2022-11-25 12:49:46,100] [builder.py:2366]           [INFO]     | Starz Collection | ? | The Directors (TVDb: 77753)                                                 |
+[2022-11-25 12:49:46,100] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 12:49:46,100] [builder.py:2372]           [INFO]     | 53 Shows Missing                                                                                   |
+[2022-11-25 12:49:46,550] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 12:49:46,553] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 12:49:46,553] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 12:49:46,553] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [270408, 262407, 276562, 377332, 421025, 259669, 296295, 322212, 208791, 356405, 297346, 159431, 339544, 376837, 349345, 337302, 340976, 377593, 396325, 249361, 366172, 83616, 210961, 415658, 281181, 425905, 383658, 282400, 334451, 390138, 354336, 339512, 392720, 282402, 178691, 395417, 376451, 83266, 264340, 142861, 383753, 84209, 349870, 368901, 81414, 421803, 284458, 96201, 352472, 254401, 345189, 248601, 77753] |
+[2022-11-25 12:50:52,069] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 12:50:52,069] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262407                                                                         |
+[2022-11-25 12:50:52,069] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276562                                                                         |
+[2022-11-25 12:50:52,069] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377332                                                                         |
+[2022-11-25 12:50:52,069] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421025                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 259669                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 296295                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 322212                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 208791                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 356405                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 297346                                                                         |
+[2022-11-25 12:50:52,070] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 159431                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339544                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376837                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349345                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 337302                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 340976                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377593                                                                         |
+[2022-11-25 12:50:52,071] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396325                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249361                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366172                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83616                                                                          |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 210961                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 415658                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 281181                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 425905                                                                         |
+[2022-11-25 12:50:52,072] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383658                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282400                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 334451                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390138                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354336                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 339512                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392720                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 282402                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 178691                                                                         |
+[2022-11-25 12:50:52,073] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 395417                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376451                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83266                                                                          |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264340                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 142861                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383753                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84209                                                                          |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349870                                                                         |
+[2022-11-25 12:50:52,074] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368901                                                                         |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81414                                                                          |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421803                                                                         |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 284458                                                                         |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 96201                                                                          |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352472                                                                         |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254401                                                                         |
+[2022-11-25 12:50:52,075] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 345189                                                                         |
+[2022-11-25 12:50:52,076] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 248601                                                                         |
+[2022-11-25 12:50:52,076] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77753                                                                          |
+[2022-11-25 12:50:52,076] [sonarr.py:187]             [INFO]     | 52 Series already exist in Sonarr                                                                  |
+[2022-11-25 12:50:52,076] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 12:50:52,076] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Outlander]                                                                      |
+[2022-11-25 12:50:52,076] [sonarr.py:207]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2022-11-25 12:50:52,565] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 12:50:52,565] [builder.py:2528]           [INFO]     |=============================== Updating Details of Starz Collection ===============================|
+[2022-11-25 12:50:52,565] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 12:50:52,589] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 12:50:52,607] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 12:50:52,607] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 12:50:52,607] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Starz Collection                                      |
+[2022-11-25 12:50:52,607] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:11                                    |
+[2022-11-25 12:50:52,608] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

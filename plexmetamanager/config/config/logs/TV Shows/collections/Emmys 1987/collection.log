@@ -1,0 +1,143 @@
+[2022-11-17 02:21:21,273] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:21:21,273] [builder.py:193]            [INFO]     |                                 Emmys 1987 Collection in TV Shows                                  |
+[2022-11-17 02:21:21,273] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:21:21,273] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:21:21,273] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:21:21,273] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,274] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:21:21,274] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,275] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:21:21,276] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,278] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:21:21,279] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,296] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:21:21,297] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,306] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:21:21,306] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,311] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,312] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:21:21,312] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,312] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1987-01-01,1987-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 1987', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1987.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:21:21,312] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,312] [builder.py:223]            [INFO]     |================================= Validating Emmys 1987 Attributes =================================|
+[2022-11-17 02:21:21,312] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,312] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:21:21,312] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:21:21,312] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,313] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:21:21,313] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:21:21,313] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,313] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:21:21,313] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:21:21,313] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,313] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:21:21,313] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:21:21,313] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,313] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:21:21,314] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1987-01-01,1987-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:21:21,993] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,995] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:21:21,995] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:21:21,995] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,996] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:21:21,996] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 1987                                                                              |
+[2022-11-17 02:21:21,998] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:21,999] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:21:22,000] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/1987.jpg |
+[2022-11-17 02:21:22,164] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:22,165] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:21:22,165] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:21:22,168] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:22,169] [plex.py:838]               [DEBUG]    | Looking for: Emmys 1987                                                                            |
+[2022-11-17 02:21:22,175] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:21:22,176] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 1987 Collection ===================================|
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1987-01-01,1987-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:21:22,176] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:22,177] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=1987-01-01,1987-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:21:24,644] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:24,645] [builder.py:1575]           [DEBUG]    | 37 IDs Found                                                                                       |
+[2022-11-17 02:21:24,645] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:24,711] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 25718                                                 |
+[2022-11-17 02:21:25,000] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt0381943                                             |
+[2022-11-17 02:21:25,189] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47558                                                 |
+[2022-11-17 02:21:25,439] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47814                                                 |
+[2022-11-17 02:21:25,715] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47874                                                 |
+[2022-11-17 02:21:25,715] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:25,715] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:21:25,716] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:25,945] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | The Secret Garden (1987) (TMDb: 46975)                                 |
+[2022-11-17 02:21:25,947] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Will Vinton's Claymation Christmas Celebration (1987) (TMDb: 21386)    |
+[2022-11-17 02:21:26,048] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Foxfire (1987) (TMDb: 134784)                                          |
+[2022-11-17 02:21:26,050] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Poor Little Rich Girl: The Barbara Hutton Story (1987) (TMDb: 520261)  |
+[2022-11-17 02:21:26,073] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Dear America: Letters Home from Vietnam (1987) (TMDb: 61777)           |
+[2022-11-17 02:21:26,085] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | LBJ: The Early Years (1987) (TMDb: 171874)                             |
+[2022-11-17 02:21:26,285] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Sworn to Silence (1987) (TMDb: 357923)                                 |
+[2022-11-17 02:21:26,440] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Independence (1987) (TMDb: 357926)                                     |
+[2022-11-17 02:21:26,690] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Turandot (1987) (TMDb: 54219)                                          |
+[2022-11-17 02:21:26,887] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Cathy (1987) (TMDb: 358058)                                            |
+[2022-11-17 02:21:26,899] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Happy 100th Birthday, Hollywood (1987) (TMDb: 247525)                  |
+[2022-11-17 02:21:26,910] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | The Betty Ford Story (1987) (TMDb: 265752)                             |
+[2022-11-17 02:21:27,063] [builder.py:2321]           [INFO]     | Emmys 1987 Collection | ? | Julie Andrews: The Sound of Christmas (1987) (TMDb: 537105)            |
+[2022-11-17 02:21:27,063] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:27,063] [builder.py:2327]           [INFO]     | 13 Movies Missing                                                                                  |
+[2022-11-17 02:21:27,707] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:27,708] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 1987 ==============================|
+[2022-11-17 02:21:27,708] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:27,735] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Beauty and the Beast (TVDb: 75004)                                     |
+[2022-11-17 02:21:27,761] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Tour of Duty (TVDb: 71373)                                             |
+[2022-11-17 02:21:27,914] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Thirtysomething (TVDb: 72781)                                          |
+[2022-11-17 02:21:28,023] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Just the Ten of Us (TVDb: 76855)                                       |
+[2022-11-17 02:21:28,129] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Max Headroom (TVDb: 75361)                                             |
+[2022-11-17 02:21:28,229] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Jim Henson's The Storyteller (TVDb: 77747)                             |
+[2022-11-17 02:21:28,264] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | American Experience (TVDb: 71638)                                      |
+[2022-11-17 02:21:28,396] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | The Charmings (TVDb: 71709)                                            |
+[2022-11-17 02:21:28,525] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | The Tracey Ullman Show (TVDb: 76852)                                   |
+[2022-11-17 02:21:28,642] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Biography (TVDb: 70730)                                                |
+[2022-11-17 02:21:28,733] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | A Year in the Life (TVDb: 77563)                                       |
+[2022-11-17 02:21:28,965] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Hooperman (TVDb: 76246)                                                |
+[2022-11-17 02:21:29,112] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | The Two Mrs. Grenvilles (TVDb: 368688)                                 |
+[2022-11-17 02:21:29,192] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Dolly (TVDb: 71579)                                                    |
+[2022-11-17 02:21:29,299] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Frank's Place (TVDb: 76289)                                            |
+[2022-11-17 02:21:29,383] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | The Bronx Zoo (TVDb: 72987)                                            |
+[2022-11-17 02:21:29,409] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Buster Keaton: A Hard Act to Follow (TVDb: 145671)                     |
+[2022-11-17 02:21:30,247] [builder.py:2366]           [INFO]     | Emmys 1987 Collection | ? | Tony Awards (TVDb: 249480)                                             |
+[2022-11-17 02:21:30,247] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:21:30,247] [builder.py:2372]           [INFO]     | 18 Shows Missing                                                                                   |
+[2022-11-17 02:21:30,974] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:21:30,975] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:21:30,975] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:21:30,975] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [75004, 71373, 72781, 76855, 75361, 77747, 71638, 71709, 76852, 70730, 77563, 76246, 368688, 71579, 76289, 72987, 145671, 249480] |
+[2022-11-17 02:21:46,174] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:21:46,174] [sonarr.py:164]             [INFO]     | Added to Sonarr | 72987   | The Bronx Zoo                                                          |
+[2022-11-17 02:21:46,189] [sonarr.py:164]             [INFO]     | Added to Sonarr | 145671  | Buster Keaton: A Hard Act to Follow                                    |
+[2022-11-17 02:21:46,204] [sonarr.py:164]             [INFO]     | Added to Sonarr | 249480  | Tony Awards                                                            |
+[2022-11-17 02:21:46,213] [sonarr.py:167]             [INFO]     | 3 Series added to Sonarr                                                                           |
+[2022-11-17 02:21:46,213] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:21:46,213] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75004   | Beauty and the Beast                                                 |
+[2022-11-17 02:21:46,223] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71373   | Tour of Duty                                                         |
+[2022-11-17 02:21:46,233] [sonarr.py:177]             [INFO]     | Already in Sonarr | 72781   | Thirtysomething                                                      |
+[2022-11-17 02:21:46,246] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76855   | Just the Ten of Us                                                   |
+[2022-11-17 02:21:46,259] [sonarr.py:177]             [INFO]     | Already in Sonarr | 75361   | Max Headroom                                                         |
+[2022-11-17 02:21:46,274] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77747   | Jim Henson's The Storyteller                                         |
+[2022-11-17 02:21:46,291] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71638   | American Experience                                                  |
+[2022-11-17 02:21:46,305] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71709   | The Charmings                                                        |
+[2022-11-17 02:21:46,319] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76852   | The Tracey Ullman Show                                               |
+[2022-11-17 02:21:46,338] [sonarr.py:177]             [INFO]     | Already in Sonarr | 70730   | Biography                                                            |
+[2022-11-17 02:21:46,355] [sonarr.py:177]             [INFO]     | Already in Sonarr | 77563   | A Year in the Life                                                   |
+[2022-11-17 02:21:46,380] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76246   | Hooperman                                                            |
+[2022-11-17 02:21:46,398] [sonarr.py:177]             [INFO]     | Already in Sonarr | 368688  | The Two Mrs. Grenvilles                                              |
+[2022-11-17 02:21:46,417] [sonarr.py:177]             [INFO]     | Already in Sonarr | 71579   | Dolly                                                                |
+[2022-11-17 02:21:46,432] [sonarr.py:177]             [INFO]     | Already in Sonarr | 76289   | Frank's Place                                                        |
+[2022-11-17 02:21:46,447] [sonarr.py:187]             [INFO]     | 15 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:21:46,468] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:46,469] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 1987 Collection                                            |
+[2022-11-17 02:21:46,469] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:21:46,469] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:21:46,470] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 1987 Collection                                   |
+[2022-11-17 02:21:46,470] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2022-11-17 02:21:46,470] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

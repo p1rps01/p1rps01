@@ -1,0 +1,78 @@
+[2022-11-17 00:40:29,770] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:40:29,770] [builder.py:193]            [INFO]     |                           Golden Globe 2004 Collection in Marvel Movies                            |
+[2022-11-17 00:40:29,771] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:40:29,771] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:40:29,771] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:40:29,771] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,771] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 00:40:29,772] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,773] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 00:40:29,773] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,775] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-17 00:40:29,776] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,779] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 00:40:29,780] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,797] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 00:40:29,798] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,805] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 00:40:29,806] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,813] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,813] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:40:29,813] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,813] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '2004 Golden Globe Winners.', 'name': 'Golden Globe 2004', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 2004', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2004.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 00:40:29,813] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,814] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 2004 Attributes ==============================|
+[2022-11-17 00:40:29,814] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,814] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-17 00:40:29,814] [builder.py:230]            [DEBUG]    | Value: Golden Globe 2004                                                                           |
+[2022-11-17 00:40:29,814] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,814] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 00:40:29,814] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 00:40:29,814] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,814] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:40:29,814] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:40:29,815] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,815] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 00:40:29,815] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 00:40:29,815] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,815] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 00:40:29,815] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-17 00:40:29,815] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,815] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 00:40:29,815] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-17 00:40:29,965] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,967] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:40:29,967] [builder.py:651]            [DEBUG]    | Value: 2004 Golden Globe Winners.                                                                  |
+[2022-11-17 00:40:29,968] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,968] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 00:40:29,968] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 00:40:29,968] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,969] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:40:29,969] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 2004                                                                       |
+[2022-11-17 00:40:29,969] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:29,970] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 00:40:29,970] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/2004.jpg |
+[2022-11-17 00:40:30,062] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:30,063] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 00:40:30,063] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 00:40:30,068] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:30,068] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 2004                                                                     |
+[2022-11-17 00:40:30,069] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:40:30,069] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:40:30,069] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:40:30,069] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 2004 Collection ===============================|
+[2022-11-17 00:40:30,069] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:40:30,070] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 00:40:30,070] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:30,070] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2004-01-01,2004-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 00:40:30,070] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:40:30,072] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-17 00:40:30,075] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:30,075] [builder.py:1575]           [DEBUG]    | 16 IDs Found                                                                                       |
+[2022-11-17 00:40:30,076] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:40:30,099] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-17 00:40:30,100] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:40:30,100] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:40:30,100] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 2004 Collection                                |
+[2022-11-17 00:40:30,100] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-17 00:40:30,100] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

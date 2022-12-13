@@ -1,0 +1,306 @@
+[2022-11-25 15:57:46,593] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:57:46,593] [builder.py:193]            [INFO]     |                               Trakt Trending Collection in TV Shows                                |
+[2022-11-25 15:57:46,593] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:57:46,593] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,594] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:57:46,594] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,594] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-25 15:57:46,594] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,594] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-25 15:57:46,595] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,599] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:57:46,600] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,655] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-25 15:57:46,657] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,673] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-25 15:57:46,674] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,680] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:57:46,680] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,685] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,685] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:57:46,685] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,685] [meta.py:515]               [DEBUG]    | {'trakt_chart': {'chart': 'trending', 'limit': 100}, 'ignore_blank_results': True, 'sort_title': '!01_Trakt Trending', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Trending List.", 'name': 'Trakt Trending'} |
+[2022-11-25 15:57:46,685] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,685] [builder.py:223]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-11-25 15:57:46,686] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,686] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:57:46,686] [builder.py:230]            [DEBUG]    | Value: Trakt Trending                                                                              |
+[2022-11-25 15:57:46,686] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,687] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:57:46,687] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:57:46,687] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,687] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:57:46,687] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:57:46,687] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,687] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-25 15:57:46,687] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-25 15:57:46,688] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,688] [builder.py:650]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-11-25 15:57:46,688] [builder.py:651]            [DEBUG]    | Value: {'chart': 'trending', 'limit': 100}                                                         |
+[2022-11-25 15:57:46,688] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,688] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:57:46,688] [builder.py:651]            [DEBUG]    | Value: !01_Trakt Trending                                                                          |
+[2022-11-25 15:57:46,688] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,689] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:57:46,689] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2022-11-25 15:57:46,799] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,799] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-25 15:57:46,800] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-25 15:57:46,800] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,800] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:57:46,800] [builder.py:651]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Trending List.                                         |
+[2022-11-25 15:57:46,939] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,940] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:596]  [INFO]     |================================ Running Trakt Trending Collection =================================|
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 100, 'time_period': None}                     |
+[2022-11-25 15:57:46,940] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,941] [builder.py:1523]           [INFO]     | Builder: trakt_chart loaded from Cache                                                             |
+[2022-11-25 15:57:46,946] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,946] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-25 15:57:46,947] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:46,948] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,949] [builder.py:2159]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
+[2022-11-25 15:57:46,949] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,949] [builder.py:2174]           [INFO]     |  1/29 | Trakt Trending Collection | = | Andor                                                      |
+[2022-11-25 15:57:46,949] [builder.py:2174]           [INFO]     |  2/29 | Trakt Trending Collection | = | 1899                                                       |
+[2022-11-25 15:57:46,949] [builder.py:2174]           [INFO]     |  3/29 | Trakt Trending Collection | = | Yellowstone (2018)                                         |
+[2022-11-25 15:57:46,949] [builder.py:2174]           [INFO]     |  4/29 | Trakt Trending Collection | = | Titans (2018)                                              |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     |  5/29 | Trakt Trending Collection | = | Echo 3                                                     |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     |  6/29 | Trakt Trending Collection | = | The Peripheral                                             |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     |  7/29 | Trakt Trending Collection | = | Game of Thrones                                            |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     |  8/29 | Trakt Trending Collection | = | The White Lotus                                            |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     |  9/29 | Trakt Trending Collection | = | House of the Dragon                                        |
+[2022-11-25 15:57:46,950] [builder.py:2174]           [INFO]     | 10/29 | Trakt Trending Collection | = | The Good Doctor                                            |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 11/29 | Trakt Trending Collection | = | Tulsa King                                                 |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 12/29 | Trakt Trending Collection | = | The Rookie                                                 |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 13/29 | Trakt Trending Collection | = | Star Trek: Deep Space Nine                                 |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 14/29 | Trakt Trending Collection | = | House                                                      |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 15/29 | Trakt Trending Collection | = | Star Trek: Voyager                                         |
+[2022-11-25 15:57:46,951] [builder.py:2174]           [INFO]     | 16/29 | Trakt Trending Collection | = | The Equalizer (2021)                                       |
+[2022-11-25 15:57:46,952] [builder.py:2174]           [INFO]     | 17/29 | Trakt Trending Collection | = | The Santa Clauses                                          |
+[2022-11-25 15:57:46,952] [builder.py:2174]           [INFO]     | 18/29 | Trakt Trending Collection | = | Stranger Things                                            |
+[2022-11-25 15:57:46,952] [builder.py:2174]           [INFO]     | 19/29 | Trakt Trending Collection | = | Fringe                                                     |
+[2022-11-25 15:57:46,952] [builder.py:2174]           [INFO]     | 20/29 | Trakt Trending Collection | = | Doctor Who (2005)                                          |
+[2022-11-25 15:57:46,952] [builder.py:2174]           [INFO]     | 21/29 | Trakt Trending Collection | = | The Sopranos                                               |
+[2022-11-25 15:57:46,953] [builder.py:2174]           [INFO]     | 22/29 | Trakt Trending Collection | = | The Lord of the Rings: The Rings of Power                  |
+[2022-11-25 15:57:46,953] [builder.py:2174]           [INFO]     | 23/29 | Trakt Trending Collection | = | See                                                        |
+[2022-11-25 15:57:46,953] [builder.py:2174]           [INFO]     | 24/29 | Trakt Trending Collection | = | The Sandman                                                |
+[2022-11-25 15:57:46,953] [builder.py:2174]           [INFO]     | 25/29 | Trakt Trending Collection | = | Avenue 5                                                   |
+[2022-11-25 15:57:46,953] [builder.py:2174]           [INFO]     | 26/29 | Trakt Trending Collection | = | The Mosquito Coast                                         |
+[2022-11-25 15:57:46,954] [builder.py:2174]           [INFO]     | 27/29 | Trakt Trending Collection | = | Star Trek: Prodigy                                         |
+[2022-11-25 15:57:46,954] [builder.py:2174]           [INFO]     | 28/29 | Trakt Trending Collection | = | Shantaram                                                  |
+[2022-11-25 15:57:46,954] [builder.py:2174]           [INFO]     | 29/29 | Trakt Trending Collection | = | The Witcher                                                |
+[2022-11-25 15:57:46,954] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,954] [builder.py:2196]           [INFO]     | 29 Shows Processed 0 Shows Added                                                                   |
+[2022-11-25 15:57:46,955] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:46,955] [builder.py:2353]           [INFO]     |============================ Missing Shows from Library: Trakt Trending ============================|
+[2022-11-25 15:57:46,955] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:47,117] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Wednesday (TVDb: 397060)                                           |
+[2022-11-25 15:57:47,211] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Walking Dead (TVDb: 153021)                                    |
+[2022-11-25 15:57:47,274] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Big Bang Theory (TVDb: 80379)                                  |
+[2022-11-25 15:57:47,319] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Friends (TVDb: 79168)                                              |
+[2022-11-25 15:57:47,353] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | FBI (TVDb: 350071)                                                 |
+[2022-11-25 15:57:47,379] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Criminal Minds (TVDb: 75710)                                       |
+[2022-11-25 15:57:47,437] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Simpsons (TVDb: 71663)                                         |
+[2022-11-25 15:57:47,487] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Family Guy (TVDb: 75978)                                           |
+[2022-11-25 15:57:47,517] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Crown (TVDb: 305574)                                           |
+[2022-11-25 15:57:47,572] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Survivor (TVDb: 76733)                                             |
+[2022-11-25 15:57:47,594] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Pennyworth: The Origin of Batman's Butler (TVDb: 363008)           |
+[2022-11-25 15:57:47,621] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | New Amsterdam (2018) (TVDb: 349272)                                |
+[2022-11-25 15:57:47,670] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Amazing Race (TVDb: 77666)                                     |
+[2022-11-25 15:57:47,695] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | FBI: Most Wanted (TVDb: 364088)                                    |
+[2022-11-25 15:57:47,736] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | American Horror Story (TVDb: 250487)                               |
+[2022-11-25 15:57:47,760] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | SEAL Team (TVDb: 328686)                                           |
+[2022-11-25 15:57:47,803] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Modern Family (TVDb: 95011)                                        |
+[2022-11-25 15:57:47,828] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Dead to Me (TVDb: 361857)                                          |
+[2022-11-25 15:57:47,932] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Rick and Morty (TVDb: 275274)                                      |
+[2022-11-25 15:57:47,991] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Handmaid's Tale (TVDb: 321239)                                 |
+[2022-11-25 15:57:48,048] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | NCIS (TVDb: 72108)                                                 |
+[2022-11-25 15:57:48,087] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Bob's Burgers (TVDb: 194031)                                       |
+[2022-11-25 15:57:48,126] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Chicago Fire (TVDb: 258541)                                        |
+[2022-11-25 15:57:48,173] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Better Call Saul (TVDb: 273181)                                    |
+[2022-11-25 15:57:48,217] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | American Dad! (TVDb: 73141)                                        |
+[2022-11-25 15:57:48,247] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Manifest (TVDb: 349271)                                            |
+[2022-11-25 15:57:48,360] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Office (US) (TVDb: 73244)                                      |
+[2022-11-25 15:57:48,406] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | South Park (TVDb: 75897)                                           |
+[2022-11-25 15:57:48,457] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | NCIS: Los Angeles (TVDb: 95441)                                    |
+[2022-11-25 15:57:48,490] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Chucky (TVDb: 349415)                                              |
+[2022-11-25 15:57:48,512] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Warrior Nun (TVDb: 382544)                                         |
+[2022-11-25 15:57:48,553] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Taskmaster (TVDb: 298905)                                          |
+[2022-11-25 15:57:48,585] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Blue Bloods (TVDb: 164981)                                         |
+[2022-11-25 15:57:48,626] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Challenge (TVDb: 70870)                                        |
+[2022-11-25 15:57:48,654] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The English (TVDb: 402602)                                         |
+[2022-11-25 15:57:48,691] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Supernatural (TVDb: 78901)                                         |
+[2022-11-25 15:57:48,737] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Grey's Anatomy (TVDb: 73762)                                       |
+[2022-11-25 15:57:48,786] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Chicago P.D. (TVDb: 269641)                                        |
+[2022-11-25 15:57:48,815] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Masked Singer (TVDb: 351030)                                   |
+[2022-11-25 15:57:48,857] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | NCIS: Hawai'i (TVDb: 401630)                                       |
+[2022-11-25 15:57:49,107] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | FBI: International (TVDb: 399863)                                  |
+[2022-11-25 15:57:49,263] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Rookie: Feds (TVDb: 420105)                                    |
+[2022-11-25 15:57:49,296] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | East New York (TVDb: 420064)                                       |
+[2022-11-25 15:57:49,344] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Suits (TVDb: 247808)                                               |
+[2022-11-25 15:57:49,399] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Prison Break (TVDb: 360115)                                        |
+[2022-11-25 15:57:49,441] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Murdoch Mysteries (TVDb: 81670)                                    |
+[2022-11-25 15:57:49,573] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Below Deck Mediterranean (TVDb: 305621)                            |
+[2022-11-25 15:57:49,618] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Dexter (TVDb: 79349)                                               |
+[2022-11-25 15:57:49,690] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Brooklyn Nine-Nine (TVDb: 269586)                                  |
+[2022-11-25 15:57:49,763] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Futurama (TVDb: 73871)                                             |
+[2022-11-25 15:57:49,793] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | S.W.A.T. (2017) (TVDb: 328687)                                     |
+[2022-11-25 15:57:49,834] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Curse of Oak Island (TVDb: 276515)                             |
+[2022-11-25 15:57:49,856] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Kardashians (TVDb: 414093)                                     |
+[2022-11-25 15:57:49,878] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Winchesters (TVDb: 420059)                                     |
+[2022-11-25 15:57:49,901] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Love Island Australia (TVDb: 347813)                               |
+[2022-11-25 15:57:49,935] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Breaking Bad (TVDb: 81189)                                         |
+[2022-11-25 15:57:49,970] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Peaky Blinders (TVDb: 270915)                                      |
+[2022-11-25 15:57:50,054] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Seinfeld (TVDb: 79169)                                             |
+[2022-11-25 15:57:50,100] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | 24 (TVDb: 76290)                                                   |
+[2022-11-25 15:57:50,132] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Ted Lasso (TVDb: 383203)                                           |
+[2022-11-25 15:57:50,168] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Eureka (TVDb: 79334)                                               |
+[2022-11-25 15:57:50,208] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Last Week Tonight with John Oliver (TVDb: 278518)                  |
+[2022-11-25 15:57:50,233] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Interview with the Vampire (TVDb: 405535)                          |
+[2022-11-25 15:57:50,385] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | CSI: Vegas (TVDb: 400248)                                          |
+[2022-11-25 15:57:50,608] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Leverage: Redemption (TVDb: 402166)                                |
+[2022-11-25 15:57:50,630] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | SAS Rogue Heroes (TVDb: 368401)                                    |
+[2022-11-25 15:57:50,681] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Community (TVDb: 94571)                                            |
+[2022-11-25 15:57:50,729] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Blacklist (TVDb: 266189)                                       |
+[2022-11-25 15:57:50,768] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Parks and Recreation (TVDb: 84912)                                 |
+[2022-11-25 15:57:50,799] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | Elementary (TVDb: 255316)                                          |
+[2022-11-25 15:57:50,840] [builder.py:2366]           [INFO]     | Trakt Trending Collection | ? | The Mentalist (TVDb: 82459)                                        |
+[2022-11-25 15:57:50,840] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:57:50,840] [builder.py:2372]           [INFO]     | 71 Shows Missing                                                                                   |
+[2022-11-25 15:57:52,102] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:57:52,102] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:57:52,103] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:57:52,103] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [397060, 153021, 80379, 79168, 350071, 75710, 71663, 75978, 305574, 76733, 363008, 349272, 77666, 364088, 250487, 328686, 95011, 361857, 275274, 321239, 72108, 194031, 258541, 273181, 73141, 349271, 73244, 75897, 95441, 349415, 382544, 298905, 164981, 70870, 402602, 78901, 73762, 269641, 351030, 401630, 399863, 420105, 420064, 247808, 360115, 81670, 305621, 79349, 269586, 73871, 328687, 276515, 414093, 420059, 347813, 81189, 270915, 79169, 76290, 383203, 79334, 278518, 405535, 400248, 402166, 368401, 94571, 266189, 84912, 255316, 82459] |
+[2022-11-25 15:58:20,089] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,089] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397060                                                                         |
+[2022-11-25 15:58:20,089] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80379                                                                          |
+[2022-11-25 15:58:20,089] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79168                                                                          |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350071                                                                         |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75710                                                                          |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71663                                                                          |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75978                                                                          |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76733                                                                          |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349272                                                                         |
+[2022-11-25 15:58:20,090] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77666                                                                          |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364088                                                                         |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 95011                                                                          |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361857                                                                         |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 321239                                                                         |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72108                                                                          |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 194031                                                                         |
+[2022-11-25 15:58:20,091] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258541                                                                         |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273181                                                                         |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73141                                                                          |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349271                                                                         |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75897                                                                          |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 95441                                                                          |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349415                                                                         |
+[2022-11-25 15:58:20,092] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382544                                                                         |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 298905                                                                         |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 164981                                                                         |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70870                                                                          |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402602                                                                         |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73762                                                                          |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269641                                                                         |
+[2022-11-25 15:58:20,093] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 351030                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401630                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 399863                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420105                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420064                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 247808                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360115                                                                         |
+[2022-11-25 15:58:20,094] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81670                                                                          |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 305621                                                                         |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79349                                                                          |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73871                                                                          |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276515                                                                         |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414093                                                                         |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420059                                                                         |
+[2022-11-25 15:58:20,095] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347813                                                                         |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81189                                                                          |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79169                                                                          |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383203                                                                         |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79334                                                                          |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278518                                                                         |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405535                                                                         |
+[2022-11-25 15:58:20,096] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400248                                                                         |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402166                                                                         |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368401                                                                         |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 94571                                                                          |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 266189                                                                         |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84912                                                                          |
+[2022-11-25 15:58:20,097] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 255316                                                                         |
+[2022-11-25 15:58:20,097] [sonarr.py:187]             [INFO]     | 58 Series already exist in Sonarr                                                                  |
+[2022-11-25 15:58:20,098] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,099] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Walking Dead]                                                               |
+[2022-11-25 15:58:20,099] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,099] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Crown]                                                                      |
+[2022-11-25 15:58:20,099] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,099] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Pennyworth: The Origin of Batman's Butler]                                      |
+[2022-11-25 15:58:20,099] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,100] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [American Horror Story]                                                          |
+[2022-11-25 15:58:20,100] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,100] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [SEAL Team]                                                                      |
+[2022-11-25 15:58:20,100] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,100] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Rick and Morty]                                                                 |
+[2022-11-25 15:58:20,100] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,101] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Office (US)]                                                                |
+[2022-11-25 15:58:20,101] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,101] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Supernatural]                                                                   |
+[2022-11-25 15:58:20,101] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,101] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Brooklyn Nine-Nine]                                                             |
+[2022-11-25 15:58:20,102] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,102] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [S.W.A.T. (2017)]                                                                |
+[2022-11-25 15:58:20,102] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,102] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Peaky Blinders]                                                                 |
+[2022-11-25 15:58:20,102] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,102] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [24]                                                                             |
+[2022-11-25 15:58:20,103] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,103] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Mentalist]                                                                  |
+[2022-11-25 15:58:20,103] [sonarr.py:207]             [INFO]     | 13 Series with Invalid IDs                                                                         |
+[2022-11-25 15:58:20,151] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,151] [builder.py:2528]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
+[2022-11-25 15:58:20,151] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,160] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:58:20,161] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-25 15:58:20,161] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2022-11-25 15:58:20,163] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:58:20,248] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,249] [builder.py:2687]           [INFO]     |================================ Sorting Trakt Trending Collection =================================|
+[2022-11-25 15:58:20,249] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-25 15:58:20,249] [builder.py:2704]           [INFO]     | Moving Titans (2018) after Yellowstone (2018)                                                      |
+[2022-11-25 15:58:20,306] [builder.py:2704]           [INFO]     | Moving Echo 3 after Titans (2018)                                                                  |
+[2022-11-25 15:58:20,358] [builder.py:2704]           [INFO]     | Moving The Peripheral after Echo 3                                                                 |
+[2022-11-25 15:58:20,482] [builder.py:2704]           [INFO]     | Moving Game of Thrones after The Peripheral                                                        |
+[2022-11-25 15:58:20,534] [builder.py:2704]           [INFO]     | Moving The White Lotus after Game of Thrones                                                       |
+[2022-11-25 15:58:20,577] [builder.py:2704]           [INFO]     | Moving House of the Dragon after The White Lotus                                                   |
+[2022-11-25 15:58:20,622] [builder.py:2704]           [INFO]     | Moving The Good Doctor after House of the Dragon                                                   |
+[2022-11-25 15:58:20,678] [builder.py:2704]           [INFO]     | Moving Tulsa King after The Good Doctor                                                            |
+[2022-11-25 15:58:20,721] [builder.py:2704]           [INFO]     | Moving The Rookie after Tulsa King                                                                 |
+[2022-11-25 15:58:20,765] [builder.py:2704]           [INFO]     | Moving Star Trek: Deep Space Nine after The Rookie                                                 |
+[2022-11-25 15:58:20,809] [builder.py:2704]           [INFO]     | Moving House after Star Trek: Deep Space Nine                                                      |
+[2022-11-25 15:58:20,896] [builder.py:2704]           [INFO]     | Moving Star Trek: Voyager after House                                                              |
+[2022-11-25 15:58:20,985] [builder.py:2704]           [INFO]     | Moving The Equalizer (2021) after Star Trek: Voyager                                               |
+[2022-11-25 15:58:21,065] [builder.py:2704]           [INFO]     | Moving The Santa Clauses after The Equalizer (2021)                                                |
+[2022-11-25 15:58:21,112] [builder.py:2704]           [INFO]     | Moving Stranger Things after The Santa Clauses                                                     |
+[2022-11-25 15:58:21,168] [builder.py:2704]           [INFO]     | Moving Fringe after Stranger Things                                                                |
+[2022-11-25 15:58:21,214] [builder.py:2704]           [INFO]     | Moving Doctor Who (2005) after Fringe                                                              |
+[2022-11-25 15:58:21,263] [builder.py:2704]           [INFO]     | Moving The Sopranos after Doctor Who (2005)                                                        |
+[2022-11-25 15:58:21,344] [builder.py:2704]           [INFO]     | Moving The Lord of the Rings: The Rings of Power after The Sopranos                                |
+[2022-11-25 15:58:21,416] [builder.py:2704]           [INFO]     | Moving See after The Lord of the Rings: The Rings of Power                                         |
+[2022-11-25 15:58:21,489] [builder.py:2704]           [INFO]     | Moving The Sandman after See                                                                       |
+[2022-11-25 15:58:21,531] [builder.py:2704]           [INFO]     | Moving Avenue 5 after The Sandman                                                                  |
+[2022-11-25 15:58:21,576] [builder.py:2704]           [INFO]     | Moving The Mosquito Coast after Avenue 5                                                           |
+[2022-11-25 15:58:21,619] [builder.py:2704]           [INFO]     | Moving Star Trek: Prodigy after The Mosquito Coast                                                 |
+[2022-11-25 15:58:21,661] [builder.py:2704]           [INFO]     | Moving Shantaram after Star Trek: Prodigy                                                          |
+[2022-11-25 15:58:21,705] [builder.py:2704]           [INFO]     | Moving The Witcher after Shantaram                                                                 |
+[2022-11-25 15:58:21,754] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:58:21,754] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:58:21,754] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-11-25 15:58:21,754] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:35                                    |
+[2022-11-25 15:58:21,755] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

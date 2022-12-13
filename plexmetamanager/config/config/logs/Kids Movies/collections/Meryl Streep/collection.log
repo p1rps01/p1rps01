@@ -1,0 +1,75 @@
+[2022-11-16 20:21:03,365] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:03,365] [builder.py:193]            [INFO]     |                               Meryl Streep Collection in Kids Movies                               |
+[2022-11-16 20:21:03,365] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:21:03,365] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,365] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:21:03,366] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,366] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:21:03,366] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,368] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,369] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:21:03,369] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,369] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 5064, 'sort_title': '++_Meryl Streep', 'collection_order': 'release'} |
+[2022-11-16 20:21:03,369] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,369] [builder.py:223]            [INFO]     |================================ Validating Meryl Streep Attributes ================================|
+[2022-11-16 20:21:03,370] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,370] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:21:03,370] [builder.py:533]            [DEBUG]    | Value: 5064                                                                                        |
+[2022-11-16 20:21:03,610] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,611] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:21:03,611] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:21:03,611] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,612] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:21:03,612] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:21:03,925] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,925] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:21:03,926] [builder.py:651]            [DEBUG]    | Value: ++_Meryl Streep                                                                             |
+[2022-11-16 20:21:03,931] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,931] [builder.py:796]            [ERROR]    | Collection Error: Converting Meryl Streep to a normal collection                                   |
+[2022-11-16 20:21:03,936] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,936] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:21:03,936] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:596]  [INFO]     |================================= Running Meryl Streep Collection ==================================|
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Meryl Streep", '?type=1&sort=titleSort&push=1&actor=40224&pop=1') |
+[2022-11-16 20:21:03,937] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,937] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Meryl Streep
+[2022-11-16 20:21:03,945] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:21:03,946] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:21:03,946] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:21:03,946] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:21:03,946] [builder.py:2159]           [INFO]     |================================ Adding to Meryl Streep Collection =================================|
+[2022-11-16 20:21:03,946] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:03,946] [builder.py:2174]           [INFO]     | 1/2 | Meryl Streep Collection | + | The Ant Bully (2006)                                           |
+[2022-11-16 20:21:04,058] [builder.py:2174]           [INFO]     | 2/2 | Meryl Streep Collection | + | Mary Poppins Returns (2018)                                    |
+[2022-11-16 20:21:08,442] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:08,442] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:21:08,450] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:08,450] [builder.py:2528]           [INFO]     |=========================== Updating Details of Meryl Streep Collection ============================|
+[2022-11-16 20:21:08,450] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:21:08,457] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Mary Louise "Meryl" Streep (born June 22, 1949) is an American actress. Often described as "the best actress of her generation", Streep is particularly known for her versatility and accent adaptability. She has received numerous accolades throughout her career spanning over four decades, including a record 21 Academy Award nominations, winning three, and a record 32 Golden Globe Award nominations, winning eight. She has also received two British Academy Film Awards, two Screen Actors Guild Awards, and three Primetime Emmy Awards, in addition to nominations for a Tony Award and six Grammy Awards.
+                                                                 | 
+                                                                 | Streep made her stage debut in Trelawny of the Wells and received a Tony Award nomination for 27 Wagons Full of Cotton and A Memory of Two Mondays in 1976. In 1977, she made her film debut in Julia. In 1978, she won a Primetime Emmy Award for her leading role in the mini-series Holocaust, and received her first Oscar nomination for The Deer Hunter. She won the Academy Award for Best Supporting Actress for playing a troubled wife in Kramer vs. Kramer (1979) and went on to establish herself as a film actor in the 1980s. She won the Academy Award for Best Actress for starring as a Holocaust survivor in Sophie's Choice (1982) and had her biggest commercial success to that point in Out of Africa (1985). She continued to gain awards, and critical praise, for her work in the late 1980s and 1990s, but commercial success was varied, with the comedy Death Becomes Her (1992) and the drama The Bridges of Madison County (1995), her biggest earners in that period.
+                                                                 | 
+                                                                 | Streep reclaimed her stardom in the 2000s and 2010s with starring roles in Adaptation (2002), The Hours (2002), The Devil Wears Prada (2006), Doubt (2008), Mamma Mia! (2008), Julie & Julia (2009), It's Complicated (2009), Into the Woods (2014), The Post (2017) and Little Women (2019). She also won her third Academy Award for her portrayal of British Prime Minister Margaret Thatcher in The Iron Lady (2011). Her stage roles include The Public Theater's 2001 revival of The Seagull, and her television roles include two projects for HBO, the miniseries Angels in America (2003), for which she won another Primetime Emmy Award, and the drama series Big Little Lies (2019).
+                                                                 | 
+                                                                 | Streep has been the recipient of many honorary awards. She was awarded the AFI Life Achievement Award in 2004, Gala Tribute from the Film Society of Lincoln Center in 2008, and Kennedy Center Honor in 2011 for her contribution to American culture, through performing arts. President Barack Obama awarded her the 2010 National Medal of Arts, and in 2014, the Presidential Medal of Freedom. In 2003, the government of France made her a Commander of the Order of Arts and Letters. She was awarded the Golden Globe Cecil B. DeMille Award in 2017.
+                                                                 | Sort Title | ++_Meryl Streep
+                                                                 | Label | +PMM
+[2022-11-16 20:21:10,816] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:21:10,817] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:21:10,818] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:21:10,818] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg
+[2022-11-16 20:21:11,047] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/emAAzyK1rJ6aiMi0wsWYp51EC3h.jpg
+[2022-11-16 20:21:11,099] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:21:11,099] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:21:11,099] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Meryl Streep Collection                                  |
+[2022-11-16 20:21:11,099] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 20:21:11,099] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

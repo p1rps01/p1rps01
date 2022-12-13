@@ -1,0 +1,67 @@
+[2022-11-17 08:56:09,084] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:56:09,084] [builder.py:193]            [INFO]     |                             60's Movies Collection in Christmas Movies                             |
+[2022-11-17 08:56:09,085] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 08:56:09,085] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 08:56:09,085] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 08:56:09,085] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,085] [meta.py:210]               [DEBUG]    |========================================= Template Decade ==========================================|
+[2022-11-17 08:56:09,087] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,093] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,094] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 08:56:09,094] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,094] [meta.py:515]               [DEBUG]    | {'plex_search': {'decade': 1960}, 'url_poster': 'https://theposterdb.com/api/assets/105331', 'sort_title': "+++_60's Movies", 'collection_order': 'alpha'} |
+[2022-11-17 08:56:09,095] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,095] [builder.py:223]            [INFO]     |================================ Validating 60's Movies Attributes =================================|
+[2022-11-17 08:56:09,095] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,096] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 08:56:09,096] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-17 08:56:09,100] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,100] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-17 08:56:09,100] [builder.py:651]            [DEBUG]    | Value: {'decade': 1960}                                                                            |
+[2022-11-17 08:56:09,101] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:09,103] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 08:56:09,103] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/105331                                                   |
+[2022-11-17 08:56:10,333] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:10,333] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 08:56:10,333] [builder.py:651]            [DEBUG]    | Value: +++_60's Movies                                                                             |
+[2022-11-17 08:56:10,465] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,468] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 08:56:10,469] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,469] [plex_meta_manager.py:596]  [INFO]     |================================== Running 60's Movies Collection ==================================|
+[2022-11-17 08:56:10,469] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,469] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 08:56:10,469] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 08:56:10,470] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Decade is 1960", '?type=1&sort=titleSort&push=1&decade=1960&pop=1') |
+[2022-11-17 08:56:10,470] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,470] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Decade is 1960
+[2022-11-17 08:56:10,551] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 08:56:10,552] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-17 08:56:10,554] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 08:56:10,554] [builder.py:2158]           [INFO]     | 
+[2022-11-17 08:56:10,554] [builder.py:2159]           [INFO]     |================================= Adding to 60's Movies Collection =================================|
+[2022-11-17 08:56:10,554] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,555] [builder.py:2174]           [INFO]     | 1/5 | 60's Movies Collection | = | A Charlie Brown Christmas (1965)                                |
+[2022-11-17 08:56:10,559] [builder.py:2174]           [INFO]     | 2/5 | 60's Movies Collection | = | Frosty the Snowman (1969)                                       |
+[2022-11-17 08:56:10,559] [builder.py:2174]           [INFO]     | 3/5 | 60's Movies Collection | = | How the Grinch Stole Christmas! (1966)                          |
+[2022-11-17 08:56:10,559] [builder.py:2174]           [INFO]     | 4/5 | 60's Movies Collection | = | The Little Drummer Boy (1968)                                   |
+[2022-11-17 08:56:10,560] [builder.py:2174]           [INFO]     | 5/5 | 60's Movies Collection | = | Rudolph the Red-Nosed Reindeer (1964)                           |
+[2022-11-17 08:56:10,561] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,561] [builder.py:2196]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 08:56:10,569] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,569] [builder.py:2528]           [INFO]     |============================ Updating Details of 60's Movies Collection ============================|
+[2022-11-17 08:56:10,569] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,578] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-17 08:56:10,581] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-17 08:56:10,581] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/105331                               |
+[2022-11-17 08:56:10,582] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': "/config/Christmas_Movies/Assets/60's Movies/poster.png", 'prefix': "60's Movies's ", 'is_poster': True, 'is_url': False, 'compare': 1449248, 'message': "60's Movies's poster to [File] /config/Christmas_Movies/Assets/60's Movies/poster.png"} |
+[2022-11-17 08:56:10,584] [library.py:180]            [INFO]     | Detail: 60's Movies's poster update not needed                                                     |
+[2022-11-17 08:56:10,638] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 08:56:10,638] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 08:56:10,639] [plex_meta_manager.py:737]  [INFO]     |                                  Finished 60's Movies Collection                                   |
+[2022-11-17 08:56:10,639] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-17 08:56:10,639] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

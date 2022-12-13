@@ -1,0 +1,167 @@
+[2022-11-17 00:04:35,529] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:35,529] [builder.py:193]            [INFO]     |                              Best of 2017 Collection in Marvel Movies                              |
+[2022-11-17 00:04:35,529] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:04:35,529] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,529] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:04:35,530] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,530] [meta.py:210]               [DEBUG]    |========================================= Template Best of =========================================|
+[2022-11-17 00:04:35,530] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,532] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,532] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 00:04:35,532] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,532] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017', 'sort_title': '+1_Best of 2017', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2017', 'smart_label': 'audience_rating.desc'} |
+[2022-11-17 00:04:35,532] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,532] [builder.py:223]            [INFO]     |================================ Validating Best of 2017 Attributes ================================|
+[2022-11-17 00:04:35,532] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,533] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-17 00:04:35,533] [builder.py:428]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-11-17 00:04:35,541] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,541] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 00:04:35,541] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 00:04:35,541] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,541] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-17 00:04:35,541] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017                           |
+[2022-11-17 00:04:35,593] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,593] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:04:35,593] [builder.py:651]            [DEBUG]    | Value: +1_Best of 2017                                                                             |
+[2022-11-17 00:04:35,593] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,593] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-17 00:04:35,593] [builder.py:651]            [DEBUG]    | Value: Rotten Tomatoes Best Movies of 2017                                                         |
+[2022-11-17 00:04:35,598] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 00:04:35,598] [plex.py:838]               [DEBUG]    | Looking for: Best of 2017                                                                          |
+[2022-11-17 00:04:35,599] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,599] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:04:35,599] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,599] [plex_meta_manager.py:596]  [INFO]     |================================= Running Best of 2017 Collection ==================================|
+[2022-11-17 00:04:35,599] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,599] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['audience_rating.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of 2017
+[2022-11-17 00:04:35,600] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-17 00:04:35,600] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-17 00:04:35,600] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-17 00:04:35,600] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017
+[2022-11-17 00:04:35,600] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-17 00:04:35,600] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017
+[2022-11-17 00:04:35,680] [builder.py:1574]           [DEBUG]    | 
+[2022-11-17 00:04:35,680] [builder.py:1575]           [DEBUG]    | 100 IDs Found
+[2022-11-17 00:04:35,681] [builder.py:1577]           [DEBUG]    | 
+[2022-11-17 00:04:35,681] [builder.py:2158]           [INFO]     | 
+[2022-11-17 00:04:35,681] [builder.py:2159]           [INFO]     |================================ Adding to Best of 2017 Collection =================================|
+[2022-11-17 00:04:35,681] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,698] [builder.py:2174]           [INFO]     | 1/2 | Best of 2017 Collection | = | Spider-Man: Homecoming (2017)                                  |
+[2022-11-17 00:04:35,698] [builder.py:2174]           [INFO]     | 2/2 | Best of 2017 Collection | = | Guardians of the Galaxy Vol. 2 (2017)                          |
+[2022-11-17 00:04:35,698] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,698] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-17 00:04:35,698] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,698] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:04:35,699] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:35,724] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Lady Bird (2017) (TMDb: 391713)                                      |
+[2022-11-17 00:04:35,748] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Get Out (2017) (TMDb: 419430)                                        |
+[2022-11-17 00:04:35,766] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Wonder Woman (2017) (TMDb: 297762)                                   |
+[2022-11-17 00:04:35,779] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Logan (2017) (TMDb: 263115)                                          |
+[2022-11-17 00:04:35,798] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Coco (2017) (TMDb: 354912)                                           |
+[2022-11-17 00:04:35,810] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Dunkirk (2017) (TMDb: 374720)                                        |
+[2022-11-17 00:04:35,822] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Star Wars: The Last Jedi (2017) (TMDb: 181808)                       |
+[2022-11-17 00:04:35,834] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Shape of Water (2017) (TMDb: 399055)                             |
+[2022-11-17 00:04:35,845] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Thor: Ragnarok (2017) (TMDb: 284053)                                 |
+[2022-11-17 00:04:35,856] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Big Sick (2017) (TMDb: 416477)                                   |
+[2022-11-17 00:04:35,871] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Florida Project (2017) (TMDb: 394117)                            |
+[2022-11-17 00:04:35,883] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | War for the Planet of the Apes (2017) (TMDb: 281338)                 |
+[2022-11-17 00:04:35,896] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Baby Driver (2017) (TMDb: 339403)                                    |
+[2022-11-17 00:04:35,906] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Three Billboards Outside Ebbing, Missouri (2017) (TMDb: 359940)      |
+[2022-11-17 00:04:35,918] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | I Am Not Your Negro (2017) (TMDb: 411019)                            |
+[2022-11-17 00:04:35,929] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Blade Runner 2049 (2017) (TMDb: 335984)                              |
+[2022-11-17 00:04:35,941] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Hidden Figures (2016) (TMDb: 381284)                                 |
+[2022-11-17 00:04:35,952] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Disaster Artist (2017) (TMDb: 371638)                            |
+[2022-11-17 00:04:35,963] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Mudbound (2017) (TMDb: 414425)                                       |
+[2022-11-17 00:04:35,991] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Faces Places (2017) (TMDb: 451995)                                   |
+[2022-11-17 00:04:36,002] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | My Life as a Zucchini (2016) (TMDb: 393559)                          |
+[2022-11-17 00:04:36,015] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | BPM (Beats per Minute) (2017) (TMDb: 451945)                         |
+[2022-11-17 00:04:36,025] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Logan Lucky (2017) (TMDb: 399170)                                    |
+[2022-11-17 00:04:36,039] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Salesman (2016) (TMDb: 375315)                                   |
+[2022-11-17 00:04:36,051] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Lego Batman Movie (2017) (TMDb: 324849)                          |
+[2022-11-17 00:04:36,062] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | God's Own Country (2017) (TMDb: 428493)                              |
+[2022-11-17 00:04:36,074] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Kedi (2017) (TMDb: 392011)                                           |
+[2022-11-17 00:04:36,087] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Lucky (2017) (TMDb: 407449)                                          |
+[2022-11-17 00:04:36,099] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | A Ghost Story (2017) (TMDb: 428449)                                  |
+[2022-11-17 00:04:36,110] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | It (2017) (TMDb: 346364)                                             |
+[2022-11-17 00:04:36,122] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Your Name. (2016) (TMDb: 372058)                                     |
+[2022-11-17 00:04:36,140] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Columbus (2017) (TMDb: 414453)                                       |
+[2022-11-17 00:04:36,161] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Jane (2017) (TMDb: 470819)                                           |
+[2022-11-17 00:04:36,179] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Good Time (2017) (TMDb: 429200)                                      |
+[2022-11-17 00:04:36,190] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Dawson City: Frozen Time (2017) (TMDb: 413580)                       |
+[2022-11-17 00:04:36,200] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | City of Ghosts (2017) (TMDb: 428501)                                 |
+[2022-11-17 00:04:36,211] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Work (2017) (TMDb: 438449)                                       |
+[2022-11-17 00:04:36,223] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Bright Lights: Starring Carrie Fisher and Debbie Reynolds (2017) (TMDb: 398738) |
+[2022-11-17 00:04:36,237] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | After the Storm (2016) (TMDb: 374671)                                |
+[2022-11-17 00:04:36,247] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Strong Island (2017) (TMDb: 428612)                                  |
+[2022-11-17 00:04:36,258] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Truman (2015) (TMDb: 341744)                                         |
+[2022-11-17 00:04:36,274] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Whose Streets? (2017) (TMDb: 433036)                                 |
+[2022-11-17 00:04:36,283] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | California Typewriter (2017) (TMDb: 414792)                          |
+[2022-11-17 00:04:36,293] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | John Wick: Chapter 2 (2017) (TMDb: 324552)                           |
+[2022-11-17 00:04:36,305] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Meyerowitz Stories (New and Selected) (2017) (TMDb: 396398)      |
+[2022-11-17 00:04:36,320] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Menashe (2017) (TMDb: 428584)                                        |
+[2022-11-17 00:04:36,332] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Graduation (2016) (TMDb: 374458)                                     |
+[2022-11-17 00:04:36,349] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Raw (2016) (TMDb: 393519)                                            |
+[2022-11-17 00:04:36,360] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Quest (2017) (TMDb: 432987)                                          |
+[2022-11-17 00:04:36,370] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Step (2017) (TMDb: 433010)                                           |
+[2022-11-17 00:04:36,379] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Red Turtle (2016) (TMDb: 337703)                                 |
+[2022-11-17 00:04:36,397] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Dina (2017) (TMDb: 432607)                                           |
+[2022-11-17 00:04:36,419] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Happiest Day in the Life of Olli Mäki (2016) (TMDb: 392807)      |
+[2022-11-17 00:04:36,434] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | In This Corner of the World (2016) (TMDb: 378108)                    |
+[2022-11-17 00:04:36,445] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | I, Daniel Blake (2016) (TMDb: 374473)                                |
+[2022-11-17 00:04:36,456] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Ex Libris: The New York Public Library (2017) (TMDb: 446173)         |
+[2022-11-17 00:04:36,471] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | 1945 (2017) (TMDb: 440342)                                           |
+[2022-11-17 00:04:36,488] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | A Quiet Passion (2016) (TMDb: 368942)                                |
+[2022-11-17 00:04:36,499] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Félicité (2017) (TMDb: 436340)                                       |
+[2022-11-17 00:04:36,517] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Last Laugh (2016) (TMDb: 343887)                                 |
+[2022-11-17 00:04:36,529] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Girls Trip (2017) (TMDb: 417870)                                     |
+[2022-11-17 00:04:36,538] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Dolores (2017) (TMDb: 432619)                                        |
+[2022-11-17 00:04:36,549] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Montparnasse Bienvenüe (2017) (TMDb: 452016)                         |
+[2022-11-17 00:04:36,559] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The B-Side: Elsa Dorfman's Portrait Photography (2017) (TMDb: 411011) |
+[2022-11-17 00:04:36,569] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Breadwinner (2017) (TMDb: 435129)                                |
+[2022-11-17 00:04:36,584] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Bombshell: The Hedy Lamarr Story (2018) (TMDb: 455565)               |
+[2022-11-17 00:04:36,597] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Stronger (2017) (TMDb: 395993)                                       |
+[2022-11-17 00:04:36,615] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Thelma (2017) (TMDb: 401898)                                         |
+[2022-11-17 00:04:36,638] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | It Comes at Night (2017) (TMDb: 418078)                              |
+[2022-11-17 00:04:36,649] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | I Called Him Morgan (2016) (TMDb: 411020)                            |
+[2022-11-17 00:04:36,660] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Wind River (2017) (TMDb: 395834)                                     |
+[2022-11-17 00:04:36,671] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Darkest Hour (2017) (TMDb: 399404)                                   |
+[2022-11-17 00:04:36,688] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Battle of the Sexes (2017) (TMDb: 369192)                            |
+[2022-11-17 00:04:36,698] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | 20th Century Women (2016) (TMDb: 342737)                             |
+[2022-11-17 00:04:36,709] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | American Made (2017) (TMDb: 337170)                                  |
+[2022-11-17 00:04:36,724] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Trophy (2017) (TMDb: 433029)                                         |
+[2022-11-17 00:04:36,736] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Women's Balcony (2016) (TMDb: 412213)                            |
+[2022-11-17 00:04:36,915] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | A Monster Calls (2016) (TMDb: 258230)                                |
+[2022-11-17 00:04:36,927] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Survivalist (2015) (TMDb: 329004)                                |
+[2022-11-17 00:04:36,940] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Their Finest (2017) (TMDb: 340101)                                   |
+[2022-11-17 00:04:36,950] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Citizen Jane: Battle for the City (2017) (TMDb: 411013)              |
+[2022-11-17 00:04:36,962] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Frantz (2016) (TMDb: 377263)                                         |
+[2022-11-17 00:04:36,975] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Lost City of Z (2017) (TMDb: 314095)                             |
+[2022-11-17 00:04:37,141] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Lady Macbeth (2016) (TMDb: 410117)                                   |
+[2022-11-17 00:04:37,167] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Princess Cyd (2017) (TMDb: 454889)                                   |
+[2022-11-17 00:04:37,178] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | The Other Side of Hope (2017) (TMDb: 429199)                         |
+[2022-11-17 00:04:37,190] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Land of Mine (2015) (TMDb: 335578)                                   |
+[2022-11-17 00:04:37,204] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Okja (2017) (TMDb: 387426)                                           |
+[2022-11-17 00:04:37,217] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Gook (2017) (TMDb: 432942)                                           |
+[2022-11-17 00:04:37,231] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Abacus: Small Enough to Jail (2017) (TMDb: 411007)                   |
+[2022-11-17 00:04:37,242] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Human Flow (2017) (TMDb: 468213)                                     |
+[2022-11-17 00:04:37,252] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | School Life (2019) (TMDb: 433074)                                    |
+[2022-11-17 00:04:37,264] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Most Beautiful Island (2017) (TMDb: 438436)                          |
+[2022-11-17 00:04:37,275] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | All This Panic (2017) (TMDb: 385761)                                 |
+[2022-11-17 00:04:37,285] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Silence (2016) (TMDb: 68730)                                         |
+[2022-11-17 00:04:37,301] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Maudie (2016) (TMDb: 359784)                                         |
+[2022-11-17 00:04:37,312] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | My Journey Through French Cinema (2016) (TMDb: 798143)               |
+[2022-11-17 00:04:37,324] [builder.py:2321]           [INFO]     | Best of 2017 Collection | ? | Detroit (2017) (TMDb: 407448)                                        |
+[2022-11-17 00:04:37,324] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,325] [builder.py:2327]           [INFO]     | 98 Movies Missing                                                                                  |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Best of 2017 Collection                                          |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Best of 2017 Collection                                  |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-17 00:04:37,641] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

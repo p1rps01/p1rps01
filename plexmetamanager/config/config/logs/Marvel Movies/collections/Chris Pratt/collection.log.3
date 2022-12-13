@@ -1,0 +1,54 @@
+[2022-11-05 19:18:22,312] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:18:22,313] [builder.py:197]            [INFO]     |                              Chris Pratt Collection in Marvel Movies                               |
+[2022-11-05 19:18:22,313] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 19:18:22,313] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 19:18:22,313] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 19:18:22,313] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,314] [meta.py:128]               [DEBUG]    | Template Person                                                                                    |
+[2022-11-05 19:18:22,314] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Person'), ('person', 73457)])                                         |
+[2022-11-05 19:18:22,314] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,314] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Person'), ('person', 73457), ('collection_name', 'Chris Pratt'), ('mapping_name', 'Chris Pratt'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Person'), ('person_encoded', '73457'), ('collection_name_encoded', 'Chris%20Pratt'), ('mapping_name_encoded', 'Chris%20Pratt'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Chris Pratt')]) |
+[2022-11-05 19:18:22,315] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,315] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 19:18:22,315] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,315] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-05 19:18:22,317] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,317] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 73457, 'sort_title': '+5_Chris Pratt'} |
+[2022-11-05 19:18:22,317] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,318] [builder.py:219]            [INFO]     |================================ Validating Chris Pratt Attributes =================================|
+[2022-11-05 19:18:22,318] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:22,318] [builder.py:501]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-05 19:18:22,318] [builder.py:505]            [DEBUG]    | Value: 73457                                                                                       |
+[2022-11-05 19:18:22,328] [builder.py:1722]           [INFO]     |                                                                                                    |
+[2022-11-05 19:18:22,329] [builder.py:1723]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-05 19:18:22,329] [builder.py:1729]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-05 19:18:24,254] [builder.py:1900]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=22880&or=1&director=22880&or=1&writer=22880&or=1&producer=22880&pop=1 |
+[2022-11-05 19:18:24,255] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:18:24,255] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:18:24,256] [builder.py:632]            [DEBUG]    | Value: +5_Chris Pratt                                                                              |
+[2022-11-05 19:18:24,285] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-11-05 19:18:24,286] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:18:24,286] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-11-05 19:18:24,286] [plex_meta_manager.py:563]  [INFO]     |================================== Running Chris Pratt Collection ==================================|
+[2022-11-05 19:18:24,287] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-11-05 19:18:24,288] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: random
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Chris Pratt
+                                                                 |     Director is Chris Pratt
+                                                                 |     Writer is Chris Pratt
+                                                                 |     Producer is Chris Pratt
+[2022-11-05 19:18:24,342] [builder.py:2441]           [INFO]     | 
+[2022-11-05 19:18:24,342] [builder.py:2442]           [INFO]     |============================ Updating Details of Chris Pratt Collection ============================|
+[2022-11-05 19:18:24,343] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-11-05 19:18:24,377] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-05 19:18:24,377] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-05 19:18:24,378] [util.py:152]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg    |
+[2022-11-05 19:18:24,379] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:18:24,416] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-11-05 19:18:24,416] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 19:18:24,416] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Chris Pratt Collection                                   |
+[2022-11-05 19:18:24,417] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-05 19:18:24,417] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

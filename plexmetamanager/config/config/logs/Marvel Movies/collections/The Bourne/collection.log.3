@@ -1,0 +1,47 @@
+[2022-11-05 15:22:10,179] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:10,180] [builder.py:197]            [INFO]     |                               The Bourne Collection in Marvel Movies                               |
+[2022-11-05 15:22:10,180] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:10,180] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 15:22:10,180] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 15:22:10,180] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,180] [meta.py:128]               [DEBUG]    | Template Collection                                                                                |
+[2022-11-05 15:22:10,181] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Collection'), ('collection', 31562)])                                 |
+[2022-11-05 15:22:10,181] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,181] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Collection'), ('collection', 31562), ('collection_name', 'The Bourne'), ('mapping_name', 'The Bourne'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Collection'), ('collection_encoded', '31562'), ('collection_name_encoded', 'The%20Bourne'), ('mapping_name_encoded', 'The%20Bourne'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'The Bourne')]) |
+[2022-11-05 15:22:10,181] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,181] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 15:22:10,181] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,181] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded']                           |
+[2022-11-05 15:22:10,182] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,183] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection': 31562, 'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_The Bourne', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-05 15:22:10,183] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,183] [builder.py:219]            [INFO]     |================================= Validating The Bourne Attributes =================================|
+[2022-11-05 15:22:10,183] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,183] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 15:22:10,183] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 15:22:10,183] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,184] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 15:22:10,184] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 15:22:10,184] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,184] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 15:22:10,184] [builder.py:632]            [DEBUG]    | Value: 31562                                                                                       |
+[2022-11-05 15:22:10,195] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:10,195] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 15:22:10,195] [builder.py:632]            [DEBUG]    | Value: <<summary>>                                                                                 |
+[2022-11-05 15:22:10,196] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 681, in __init__
+                                                                 |     self._summary(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 804, in _summary
+                                                                 |     self.summaries[method_name] = self.config.TMDb.get_movie_show_or_collection(util.regex_first_int(method_data, "TMDb ID"), self.library.is_movie).overview
+                                                                 |   File "/modules/util.py", line 311, in regex_first_int
+                                                                 |     raise Failed(f"Regex Error: Failed to parse {id_type} from {data}")
+                                                                 | modules.util.Failed: Regex Error: Failed to parse TMDb ID from <<summary>>
+                                                                 | 
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:697]  [ERROR]    | Regex Error: Failed to parse TMDb ID from <<summary>>
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:709]  [INFO]     |                                   Finished The Bourne Collection                                   |
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 15:22:10,197] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

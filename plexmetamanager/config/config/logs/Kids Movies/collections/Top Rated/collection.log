@@ -1,0 +1,345 @@
+[2022-11-16 20:29:23,898] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:29:23,898] [builder.py:193]            [INFO]     |                                Top Rated Collection in Kids Movies                                 |
+[2022-11-16 20:29:23,898] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:29:23,899] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:29:23,899] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:29:23,899] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,899] [meta.py:210]               [DEBUG]    |======================================= Template Suggestion ========================================|
+[2022-11-16 20:29:23,899] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,901] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,901] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:29:23,901] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,901] [meta.py:515]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/213605', 'sort_title': '++++++++++_Top Rated', 'collection_mode': 'hide', 'collection_order': 'release.desc', 'sync_mode': 'sync'} |
+[2022-11-16 20:29:23,901] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,902] [builder.py:223]            [INFO]     |================================= Validating Top Rated Attributes ==================================|
+[2022-11-16 20:29:23,902] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,902] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:29:23,902] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:29:23,902] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,902] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:29:23,902] [builder.py:615]            [DEBUG]    | Value: release.desc                                                                                |
+[2022-11-16 20:29:23,903] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:23,903] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:29:23,903] [builder.py:651]            [DEBUG]    | Value: ['https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc&title_type=movie'] |
+[2022-11-16 20:29:25,249] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:25,252] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:29:25,255] [builder.py:651]            [DEBUG]    | Value: Top Rated Movies                                                                            |
+[2022-11-16 20:29:25,257] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:25,257] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:29:25,257] [builder.py:651]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213605                                                   |
+[2022-11-16 20:29:25,915] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:25,915] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:29:25,915] [builder.py:651]            [DEBUG]    | Value: ++++++++++_Top Rated                                                                        |
+[2022-11-16 20:29:25,915] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:25,915] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:29:25,915] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:29:26,006] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:29:26,006] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:29:26,006] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:26,006] [plex_meta_manager.py:596]  [INFO]     |=================================== Running Top Rated Collection ===================================|
+[2022-11-16 20:29:26,006] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:26,007] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:29:26,007] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:26,007] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc&title_type=movie', 'limit': 0} |
+[2022-11-16 20:29:26,007] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:26,007] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc&title_type=movie |
+[2022-11-16 20:29:30,264] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:30,265] [builder.py:1575]           [DEBUG]    | 250 IDs Found                                                                                      |
+[2022-11-16 20:29:30,265] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:29:30,462] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:30,469] [builder.py:2159]           [INFO]     |================================== Adding to Top Rated Collection ==================================|
+[2022-11-16 20:29:30,470] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:30,470] [builder.py:2174]           [INFO]     |  1/21 | Top Rated Collection | = | Spirited Away (2001)                                            |
+[2022-11-16 20:29:30,470] [builder.py:2174]           [INFO]     |  2/21 | Top Rated Collection | = | The Lion King (1994)                                            |
+[2022-11-16 20:29:30,470] [builder.py:2174]           [INFO]     |  3/21 | Top Rated Collection | = | Coco (2017)                                                     |
+[2022-11-16 20:29:30,471] [builder.py:2174]           [INFO]     |  4/21 | Top Rated Collection | = | WALL·E (2008)                                                   |
+[2022-11-16 20:29:30,471] [builder.py:2174]           [INFO]     |  5/21 | Top Rated Collection | = | Princess Mononoke (1997)                                        |
+[2022-11-16 20:29:30,471] [builder.py:2174]           [INFO]     |  6/21 | Top Rated Collection | = | Up (2009)                                                       |
+[2022-11-16 20:29:30,471] [builder.py:2174]           [INFO]     |  7/21 | Top Rated Collection | = | Toy Story 3 (2010)                                              |
+[2022-11-16 20:29:30,471] [builder.py:2174]           [INFO]     |  8/21 | Top Rated Collection | = | Toy Story (1995)                                                |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     |  9/21 | Top Rated Collection | = | Inside Out (2015)                                               |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     | 10/21 | Top Rated Collection | = | Pan's Labyrinth (2006)                                          |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     | 11/21 | Top Rated Collection | = | Finding Nemo (2003)                                             |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     | 12/21 | Top Rated Collection | = | Everything Everywhere All at Once (2022)                        |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     | 13/21 | Top Rated Collection | = | Hachi: A Dog's Tale (2009)                                      |
+[2022-11-16 20:29:30,472] [builder.py:2174]           [INFO]     | 14/21 | Top Rated Collection | = | How to Train Your Dragon (2010)                                 |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 15/21 | Top Rated Collection | = | Ratatouille (2007)                                              |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 16/21 | Top Rated Collection | = | Monsters, Inc. (2001)                                           |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 17/21 | Top Rated Collection | = | My Neighbor Totoro (1988)                                       |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 18/21 | Top Rated Collection | = | Stand by Me (1986)                                              |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 19/21 | Top Rated Collection | = | The Wizard of Oz (1939)                                         |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 20/21 | Top Rated Collection | = | The Incredibles (2004)                                          |
+[2022-11-16 20:29:30,473] [builder.py:2174]           [INFO]     | 21/21 | Top Rated Collection | = | Aladdin (1992)                                                  |
+[2022-11-16 20:29:30,474] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:30,474] [builder.py:2196]           [INFO]     | 21 Movies Processed 0 Movies Added                                                                 |
+[2022-11-16 20:29:30,474] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:30,474] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:29:30,474] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:30,516] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Shawshank Redemption (1994) (TMDb: 278)                             |
+[2022-11-16 20:29:30,529] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Godfather (1972) (TMDb: 238)                                        |
+[2022-11-16 20:29:30,540] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Dark Knight (2008) (TMDb: 155)                                      |
+[2022-11-16 20:29:30,556] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Lord of the Rings: The Return of the King (2003) (TMDb: 122)        |
+[2022-11-16 20:29:30,577] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Schindler's List (1993) (TMDb: 424)                                     |
+[2022-11-16 20:29:30,588] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Godfather Part II (1974) (TMDb: 240)                                |
+[2022-11-16 20:29:30,603] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | 12 Angry Men (1957) (TMDb: 389)                                         |
+[2022-11-16 20:29:30,613] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Jai Bhim (2021) (TMDb: 855400)                                          |
+[2022-11-16 20:29:30,626] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Pulp Fiction (1994) (TMDb: 680)                                         |
+[2022-11-16 20:29:30,637] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Inception (2010) (TMDb: 27205)                                          |
+[2022-11-16 20:29:30,652] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Lord of the Rings: The Two Towers (2002) (TMDb: 121)                |
+[2022-11-16 20:29:30,665] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Fight Club (1999) (TMDb: 550)                                           |
+[2022-11-16 20:29:30,682] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Lord of the Rings: The Fellowship of the Ring (2001) (TMDb: 120)    |
+[2022-11-16 20:29:30,697] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Forrest Gump (1994) (TMDb: 13)                                          |
+[2022-11-16 20:29:30,716] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Good, the Bad and the Ugly (1966) (TMDb: 429)                       |
+[2022-11-16 20:29:30,731] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Matrix (1999) (TMDb: 603)                                           |
+[2022-11-16 20:29:30,741] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | GoodFellas (1990) (TMDb: 769)                                           |
+[2022-11-16 20:29:30,751] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Empire Strikes Back (1980) (TMDb: 1891)                             |
+[2022-11-16 20:29:30,773] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | One Flew Over the Cuckoo's Nest (1975) (TMDb: 510)                      |
+[2022-11-16 20:29:30,784] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Interstellar (2014) (TMDb: 157336)                                      |
+[2022-11-16 20:29:30,797] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | City of God (2002) (TMDb: 598)                                          |
+[2022-11-16 20:29:30,811] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Saving Private Ryan (1998) (TMDb: 857)                                  |
+[2022-11-16 20:29:30,821] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Green Mile (1999) (TMDb: 497)                                       |
+[2022-11-16 20:29:30,833] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Life Is Beautiful (1997) (TMDb: 637)                                    |
+[2022-11-16 20:29:30,847] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Se7en (1995) (TMDb: 807)                                                |
+[2022-11-16 20:29:30,864] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Terminator 2: Judgment Day (1991) (TMDb: 280)                           |
+[2022-11-16 20:29:30,875] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Silence of the Lambs (1991) (TMDb: 274)                             |
+[2022-11-16 20:29:30,888] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Star Wars (1977) (TMDb: 11)                                             |
+[2022-11-16 20:29:30,898] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Harakiri (1962) (TMDb: 14537)                                           |
+[2022-11-16 20:29:30,917] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Seven Samurai (1954) (TMDb: 346)                                        |
+[2022-11-16 20:29:30,928] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | It's a Wonderful Life (1946) (TMDb: 1585)                               |
+[2022-11-16 20:29:30,939] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Parasite (2019) (TMDb: 496243)                                          |
+[2022-11-16 20:29:30,950] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Whiplash (2014) (TMDb: 244786)                                          |
+[2022-11-16 20:29:30,961] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Intouchables (2011) (TMDb: 77338)                                   |
+[2022-11-16 20:29:30,971] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Prestige (2006) (TMDb: 1124)                                        |
+[2022-11-16 20:29:30,982] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Departed (2006) (TMDb: 1422)                                        |
+[2022-11-16 20:29:30,996] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Pianist (2002) (TMDb: 423)                                          |
+[2022-11-16 20:29:31,008] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Gladiator (2000) (TMDb: 98)                                             |
+[2022-11-16 20:29:31,019] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | American History X (1998) (TMDb: 73)                                    |
+[2022-11-16 20:29:31,030] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Usual Suspects (1995) (TMDb: 629)                                   |
+[2022-11-16 20:29:31,041] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Léon: The Professional (1994) (TMDb: 101)                               |
+[2022-11-16 20:29:31,052] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Cinema Paradiso (1988) (TMDb: 11216)                                    |
+[2022-11-16 20:29:31,076] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Grave of the Fireflies (1988) (TMDb: 12477)                             |
+[2022-11-16 20:29:31,087] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Back to the Future (1985) (TMDb: 105)                                   |
+[2022-11-16 20:29:31,098] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Apocalypse Now (1979) (TMDb: 28)                                        |
+[2022-11-16 20:29:31,110] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Alien (1979) (TMDb: 348)                                                |
+[2022-11-16 20:29:31,121] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Once Upon a Time in the West (1968) (TMDb: 335)                         |
+[2022-11-16 20:29:31,134] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Psycho (1960) (TMDb: 539)                                               |
+[2022-11-16 20:29:31,150] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Rear Window (1954) (TMDb: 567)                                          |
+[2022-11-16 20:29:31,168] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Casablanca (1942) (TMDb: 289)                                           |
+[2022-11-16 20:29:31,180] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Modern Times (1936) (TMDb: 3082)                                        |
+[2022-11-16 20:29:31,193] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | City Lights (1931) (TMDb: 901)                                          |
+[2022-11-16 20:29:31,208] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Hamilton (2020) (TMDb: 556574)                                          |
+[2022-11-16 20:29:31,224] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Capernaum (2018) (TMDb: 517814)                                         |
+[2022-11-16 20:29:31,237] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Joker (2019) (TMDb: 475557)                                             |
+[2022-11-16 20:29:31,252] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Your Name. (2016) (TMDb: 372058)                                        |
+[2022-11-16 20:29:31,275] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Spider-Man: Into the Spider-Verse (2018) (TMDb: 324857)                 |
+[2022-11-16 20:29:31,289] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                                 |
+[2022-11-16 20:29:31,304] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                            |
+[2022-11-16 20:29:31,315] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Django Unchained (2012) (TMDb: 68718)                                   |
+[2022-11-16 20:29:31,326] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                                 |
+[2022-11-16 20:29:31,345] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Dark Knight Rises (2012) (TMDb: 49026)                              |
+[2022-11-16 20:29:31,358] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | 3 Idiots (2009) (TMDb: 20453)                                           |
+[2022-11-16 20:29:31,373] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Like Stars on Earth (2007) (TMDb: 7508)                                 |
+[2022-11-16 20:29:31,386] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Lives of Others (2006) (TMDb: 582)                                  |
+[2022-11-16 20:29:31,401] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Oldboy (2003) (TMDb: 670)                                               |
+[2022-11-16 20:29:31,416] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Memento (2000) (TMDb: 77)                                               |
+[2022-11-16 20:29:31,429] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | American Beauty (1999) (TMDb: 14)                                       |
+[2022-11-16 20:29:31,439] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Braveheart (1995) (TMDb: 197)                                           |
+[2022-11-16 20:29:31,450] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Come and See (1985) (TMDb: 25237)                                       |
+[2022-11-16 20:29:31,461] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Aliens (1986) (TMDb: 679)                                               |
+[2022-11-16 20:29:31,472] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Amadeus (1984) (TMDb: 279)                                              |
+[2022-11-16 20:29:31,483] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Raiders of the Lost Ark (1981) (TMDb: 85)                               |
+[2022-11-16 20:29:31,496] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Das Boot (1981) (TMDb: 387)                                             |
+[2022-11-16 20:29:31,506] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Shining (1980) (TMDb: 694)                                          |
+[2022-11-16 20:29:31,517] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | High and Low (1963) (TMDb: 12493)                                       |
+[2022-11-16 20:29:31,527] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) (TMDb: 935) |
+[2022-11-16 20:29:31,538] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Witness for the Prosecution (1957) (TMDb: 37257)                        |
+[2022-11-16 20:29:31,549] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Paths of Glory (1957) (TMDb: 975)                                       |
+[2022-11-16 20:29:31,564] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Sunset Boulevard (1950) (TMDb: 599)                                     |
+[2022-11-16 20:29:31,582] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Great Dictator (1940) (TMDb: 914)                                   |
+[2022-11-16 20:29:31,601] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Dangal (2016) (TMDb: 360814)                                            |
+[2022-11-16 20:29:31,611] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Hunt (2012) (TMDb: 103663)                                          |
+[2022-11-16 20:29:31,629] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | A Separation (2011) (TMDb: 60243)                                       |
+[2022-11-16 20:29:31,652] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Incendies (2010) (TMDb: 46738)                                          |
+[2022-11-16 20:29:31,654] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                           |
+[2022-11-16 20:29:31,675] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Inglourious Basterds (2009) (TMDb: 16869)                               |
+[2022-11-16 20:29:31,686] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Eternal Sunshine of the Spotless Mind (2004) (TMDb: 38)                 |
+[2022-11-16 20:29:31,698] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Amélie (2001) (TMDb: 194)                                               |
+[2022-11-16 20:29:31,709] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Requiem for a Dream (2000) (TMDb: 641)                                  |
+[2022-11-16 20:29:31,724] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Good Will Hunting (1997) (TMDb: 489)                                    |
+[2022-11-16 20:29:31,737] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Heat (1995) (TMDb: 949)                                                 |
+[2022-11-16 20:29:31,756] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Reservoir Dogs (1992) (TMDb: 500)                                       |
+[2022-11-16 20:29:31,775] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Full Metal Jacket (1987) (TMDb: 600)                                    |
+[2022-11-16 20:29:31,785] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Once Upon a Time in America (1984) (TMDb: 311)                          |
+[2022-11-16 20:29:31,797] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Scarface (1983) (TMDb: 111)                                             |
+[2022-11-16 20:29:31,812] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Return of the Jedi (1983) (TMDb: 1892)                                  |
+[2022-11-16 20:29:31,837] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Sting (1973) (TMDb: 9277)                                           |
+[2022-11-16 20:29:31,847] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | A Clockwork Orange (1971) (TMDb: 185)                                   |
+[2022-11-16 20:29:31,858] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | 2001: A Space Odyssey (1968) (TMDb: 62)                                 |
+[2022-11-16 20:29:31,869] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | To Kill a Mockingbird (1962) (TMDb: 595)                                |
+[2022-11-16 20:29:31,882] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Lawrence of Arabia (1962) (TMDb: 947)                                   |
+[2022-11-16 20:29:31,896] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Judgment at Nuremberg (1961) (TMDb: 821)                                |
+[2022-11-16 20:29:31,906] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Apartment (1960) (TMDb: 284)                                        |
+[2022-11-16 20:29:31,920] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | North by Northwest (1959) (TMDb: 213)                                   |
+[2022-11-16 20:29:31,932] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Vertigo (1958) (TMDb: 426)                                              |
+[2022-11-16 20:29:31,943] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Pather Panchali (1955) (TMDb: 5801)                                     |
+[2022-11-16 20:29:31,953] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Singin' in the Rain (1952) (TMDb: 872)                                  |
+[2022-11-16 20:29:31,963] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Ikiru (1952) (TMDb: 3782)                                               |
+[2022-11-16 20:29:31,965] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Bicycle Thieves (1948) (TMDb: 5156)                                     |
+[2022-11-16 20:29:31,989] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Double Indemnity (1944) (TMDb: 996)                                     |
+[2022-11-16 20:29:32,002] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Citizen Kane (1941) (TMDb: 15)                                          |
+[2022-11-16 20:29:32,015] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | M (1931) (TMDb: 832)                                                    |
+[2022-11-16 20:29:32,027] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Metropolis (1927) (TMDb: 19)                                            |
+[2022-11-16 20:29:32,046] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Kid (1921) (TMDb: 10098)                                            |
+[2022-11-16 20:29:32,062] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | 1917 (2019) (TMDb: 530915)                                              |
+[2022-11-16 20:29:32,073] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Green Book (2018) (TMDb: 490132)                                        |
+[2022-11-16 20:29:32,085] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Secret in Their Eyes (2009) (TMDb: 25376)                           |
+[2022-11-16 20:29:32,096] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Warrior (2011) (TMDb: 59440)                                            |
+[2022-11-16 20:29:32,106] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Shutter Island (2010) (TMDb: 11324)                                     |
+[2022-11-16 20:29:32,117] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Father (2020) (TMDb: 600354)                                        |
+[2022-11-16 20:29:32,128] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Wolf of Wall Street (2013) (TMDb: 106646)                           |
+[2022-11-16 20:29:32,149] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | No Country for Old Men (2007) (TMDb: 6977)                              |
+[2022-11-16 20:29:32,166] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | My Father and My Son (2005) (TMDb: 13393)                               |
+[2022-11-16 20:29:32,178] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | There Will Be Blood (2007) (TMDb: 7345)                                 |
+[2022-11-16 20:29:32,192] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | V for Vendetta (2006) (TMDb: 752)                                       |
+[2022-11-16 20:29:32,203] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Batman Begins (2005) (TMDb: 272)                                        |
+[2022-11-16 20:29:32,214] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Downfall (2004) (TMDb: 613)                                             |
+[2022-11-16 20:29:32,226] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Howl's Moving Castle (2004) (TMDb: 4935)                                |
+[2022-11-16 20:29:32,236] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | A Beautiful Mind (2001) (TMDb: 453)                                     |
+[2022-11-16 20:29:32,248] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Kill Bill: Vol. 1 (2003) (TMDb: 24)                                     |
+[2022-11-16 20:29:32,269] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Snatch (2000) (TMDb: 107)                                               |
+[2022-11-16 20:29:32,284] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Sixth Sense (1999) (TMDb: 745)                                      |
+[2022-11-16 20:29:32,295] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Lock, Stock and Two Smoking Barrels (1998) (TMDb: 100)                  |
+[2022-11-16 20:29:32,308] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Truman Show (1998) (TMDb: 37165)                                    |
+[2022-11-16 20:29:32,311] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | L.A. Confidential (1997) (TMDb: 2118)                                   |
+[2022-11-16 20:29:32,326] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Children of Heaven (1997) (TMDb: 21334)                                 |
+[2022-11-16 20:29:32,345] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Casino (1995) (TMDb: 524)                                               |
+[2022-11-16 20:29:32,362] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Jurassic Park (1993) (TMDb: 329)                                        |
+[2022-11-16 20:29:32,374] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Unforgiven (1992) (TMDb: 33)                                            |
+[2022-11-16 20:29:32,389] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Indiana Jones and the Last Crusade (1989) (TMDb: 89)                    |
+[2022-11-16 20:29:32,399] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Die Hard (1988) (TMDb: 562)                                             |
+[2022-11-16 20:29:32,408] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Ran (1985) (TMDb: 11645)                                                |
+[2022-11-16 20:29:32,418] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Thing (1982) (TMDb: 1091)                                           |
+[2022-11-16 20:29:32,446] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Raging Bull (1980) (TMDb: 1578)                                         |
+[2022-11-16 20:29:32,461] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Elephant Man (1980) (TMDb: 1955)                                    |
+[2022-11-16 20:29:32,473] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Taxi Driver (1976) (TMDb: 103)                                          |
+[2022-11-16 20:29:32,485] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Monty Python and the Holy Grail (1975) (TMDb: 762)                      |
+[2022-11-16 20:29:32,498] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Dersu Uzala (1975) (TMDb: 9764)                                         |
+[2022-11-16 20:29:32,515] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Chinatown (1974) (TMDb: 829)                                            |
+[2022-11-16 20:29:32,531] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | For a Few Dollars More (1965) (TMDb: 938)                               |
+[2022-11-16 20:29:32,545] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Great Escape (1963) (TMDb: 5925)                                    |
+[2022-11-16 20:29:32,557] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Yojimbo (1961) (TMDb: 11878)                                            |
+[2022-11-16 20:29:32,569] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Some Like It Hot (1959) (TMDb: 239)                                     |
+[2022-11-16 20:29:32,586] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Bridge on the River Kwai (1957) (TMDb: 826)                         |
+[2022-11-16 20:29:32,598] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Dial M for Murder (1954) (TMDb: 521)                                    |
+[2022-11-16 20:29:32,607] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Tokyo Story (1953) (TMDb: 18148)                                        |
+[2022-11-16 20:29:32,619] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Wages of Fear (1953) (TMDb: 204)                                    |
+[2022-11-16 20:29:32,631] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Rashomon (1950) (TMDb: 548)                                             |
+[2022-11-16 20:29:32,641] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | All About Eve (1950) (TMDb: 705)                                        |
+[2022-11-16 20:29:32,653] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Treasure of the Sierra Madre (1948) (TMDb: 3090)                    |
+[2022-11-16 20:29:32,673] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | To Be or Not to Be (1942) (TMDb: 198)                                   |
+[2022-11-16 20:29:32,696] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Gone with the Wind (1939) (TMDb: 770)                                   |
+[2022-11-16 20:29:32,707] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Passion of Joan of Arc (1928) (TMDb: 780)                           |
+[2022-11-16 20:29:32,720] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The General (1926) (TMDb: 961)                                          |
+[2022-11-16 20:29:32,743] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Gold Rush (1925) (TMDb: 962)                                        |
+[2022-11-16 20:29:32,754] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Sherlock Jr. (1924) (TMDb: 992)                                         |
+[2022-11-16 20:29:32,766] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Three Billboards Outside Ebbing, Missouri (2017) (TMDb: 359940)         |
+[2022-11-16 20:29:32,777] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Klaus (2019) (TMDb: 508965)                                             |
+[2022-11-16 20:29:32,790] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Handmaiden (2016) (TMDb: 290098)                                    |
+[2022-11-16 20:29:32,806] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Logan (2017) (TMDb: 263115)                                             |
+[2022-11-16 20:29:32,818] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Room (2015) (TMDb: 264644)                                              |
+[2022-11-16 20:29:32,829] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Wild Tales (2014) (TMDb: 265195)                                        |
+[2022-11-16 20:29:32,844] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Grand Budapest Hotel (2014) (TMDb: 120467)                          |
+[2022-11-16 20:29:32,856] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Gone Girl (2014) (TMDb: 210577)                                         |
+[2022-11-16 20:29:32,867] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Hacksaw Ridge (2016) (TMDb: 324786)                                     |
+[2022-11-16 20:29:32,884] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | 12 Years a Slave (2013) (TMDb: 76203)                                   |
+[2022-11-16 20:29:32,899] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Rush (2013) (TMDb: 96721)                                               |
+[2022-11-16 20:29:32,910] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Ford v Ferrari (2019) (TMDb: 359724)                                    |
+[2022-11-16 20:29:32,923] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Spotlight (2015) (TMDb: 314365)                                         |
+[2022-11-16 20:29:32,925] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Help (2011) (TMDb: 50014)                                           |
+[2022-11-16 20:29:32,940] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Prisoners (2013) (TMDb: 146233)                                         |
+[2022-11-16 20:29:32,951] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Mad Max: Fury Road (2015) (TMDb: 76341)                                 |
+[2022-11-16 20:29:32,962] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Gran Torino (2008) (TMDb: 13223)                                        |
+[2022-11-16 20:29:32,974] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Harry Potter and the Deathly Hallows: Part 2 (2011) (TMDb: 12445)       |
+[2022-11-16 20:29:32,984] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Mary and Max (2009) (TMDb: 24238)                                       |
+[2022-11-16 20:29:32,996] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Into the Wild (2007) (TMDb: 5915)                                       |
+[2022-11-16 20:29:33,012] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Million Dollar Baby (2004) (TMDb: 70)                                   |
+[2022-11-16 20:29:33,024] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Hotel Rwanda (2004) (TMDb: 205)                                         |
+[2022-11-16 20:29:33,035] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Before Sunset (2004) (TMDb: 80)                                         |
+[2022-11-16 20:29:33,048] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Memories of Murder (2003) (TMDb: 11423)                                 |
+[2022-11-16 20:29:33,060] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Pirates of the Caribbean: The Curse of the Black Pearl (2003) (TMDb: 22) |
+[2022-11-16 20:29:33,071] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Catch Me If You Can (2002) (TMDb: 640)                                  |
+[2022-11-16 20:29:33,083] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Amores Perros (2000) (TMDb: 55)                                         |
+[2022-11-16 20:29:33,094] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Iron Giant (1999) (TMDb: 10386)                                     |
+[2022-11-16 20:29:33,105] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Big Lebowski (1998) (TMDb: 115)                                     |
+[2022-11-16 20:29:33,116] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Trainspotting (1996) (TMDb: 627)                                        |
+[2022-11-16 20:29:33,127] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Fargo (1996) (TMDb: 275)                                                |
+[2022-11-16 20:29:33,140] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | La Haine (1995) (TMDb: 406)                                             |
+[2022-11-16 20:29:33,150] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Before Sunrise (1995) (TMDb: 76)                                        |
+[2022-11-16 20:29:33,163] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | In the Name of the Father (1993) (TMDb: 7984)                           |
+[2022-11-16 20:29:33,179] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Groundhog Day (1993) (TMDb: 137)                                        |
+[2022-11-16 20:29:33,200] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Dead Poets Society (1989) (TMDb: 207)                                   |
+[2022-11-16 20:29:33,214] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Platoon (1986) (TMDb: 792)                                              |
+[2022-11-16 20:29:33,226] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Terminator (1984) (TMDb: 218)                                       |
+[2022-11-16 20:29:33,238] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Gandhi (1982) (TMDb: 783)                                               |
+[2022-11-16 20:29:33,249] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Blade Runner (1982) (TMDb: 78)                                          |
+[2022-11-16 20:29:33,265] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Deer Hunter (1978) (TMDb: 11778)                                    |
+[2022-11-16 20:29:33,277] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Rocky (1976) (TMDb: 1366)                                               |
+[2022-11-16 20:29:33,290] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Network (1976) (TMDb: 10774)                                            |
+[2022-11-16 20:29:33,302] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Jaws (1975) (TMDb: 578)                                                 |
+[2022-11-16 20:29:33,312] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Barry Lyndon (1975) (TMDb: 3175)                                        |
+[2022-11-16 20:29:33,323] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Exorcist (1973) (TMDb: 9552)                                        |
+[2022-11-16 20:29:33,339] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Cool Hand Luke (1967) (TMDb: 903)                                       |
+[2022-11-16 20:29:33,355] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Persona (1966) (TMDb: 797)                                              |
+[2022-11-16 20:29:33,385] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Sound of Music (1965) (TMDb: 15121)                                 |
+[2022-11-16 20:29:33,397] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Battle of Algiers (1966) (TMDb: 17295)                              |
+[2022-11-16 20:29:33,408] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The 400 Blows (1959) (TMDb: 147)                                        |
+[2022-11-16 20:29:33,418] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Ben-Hur (1959) (TMDb: 665)                                              |
+[2022-11-16 20:29:33,430] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Wild Strawberries (1957) (TMDb: 614)                                    |
+[2022-11-16 20:29:33,444] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Seventh Seal (1957) (TMDb: 490)                                     |
+[2022-11-16 20:29:33,457] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | On the Waterfront (1954) (TMDb: 654)                                    |
+[2022-11-16 20:29:33,471] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Third Man (1949) (TMDb: 1092)                                       |
+[2022-11-16 20:29:33,486] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Best Years of Our Lives (1946) (TMDb: 887)                          |
+[2022-11-16 20:29:33,497] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Rebecca (1940) (TMDb: 223)                                              |
+[2022-11-16 20:29:33,509] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | The Grapes of Wrath (1940) (TMDb: 596)                                  |
+[2022-11-16 20:29:33,525] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Mr. Smith Goes to Washington (1939) (TMDb: 3083)                        |
+[2022-11-16 20:29:33,541] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | It Happened One Night (1934) (TMDb: 3078)                               |
+[2022-11-16 20:29:33,557] [builder.py:2321]           [INFO]     | Top Rated Collection | ? | Life of Brian (1979) (TMDb: 583)                                        |
+[2022-11-16 20:29:33,558] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:33,558] [builder.py:2327]           [INFO]     | 229 Movies Missing                                                                                 |
+[2022-11-16 20:29:36,504] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:36,505] [builder.py:2528]           [INFO]     |============================= Updating Details of Top Rated Collection =============================|
+[2022-11-16 20:29:36,505] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:36,510] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 20:29:36,514] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 20:29:36,514] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213605                               |
+[2022-11-16 20:29:36,514] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Kids_Movies/Assets/Top Rated/poster.png', 'prefix': "Top Rated's ", 'is_poster': True, 'is_url': False, 'compare': 4734514, 'message': "Top Rated's poster to [File] /config/Kids_Movies/Assets/Top Rated/poster.png"} |
+[2022-11-16 20:29:36,515] [library.py:180]            [INFO]     | Detail: Top Rated's poster update not needed                                                       |
+[2022-11-16 20:29:36,599] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:36,600] [builder.py:2687]           [INFO]     |=================================== Sorting Top Rated Collection ===================================|
+[2022-11-16 20:29:36,600] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:29:36,687] [builder.py:2704]           [INFO]     | Moving Everything Everywhere All at Once (2022) to the beginning                                   |
+[2022-11-16 20:29:36,742] [builder.py:2704]           [INFO]     | Moving Coco (2017) after Everything Everywhere All at Once (2022)                                  |
+[2022-11-16 20:29:36,798] [builder.py:2704]           [INFO]     | Moving Inside Out (2015) after Coco (2017)                                                         |
+[2022-11-16 20:29:36,849] [builder.py:2704]           [INFO]     | Moving Toy Story 3 (2010) after Inside Out (2015)                                                  |
+[2022-11-16 20:29:36,901] [builder.py:2704]           [INFO]     | Moving How to Train Your Dragon (2010) after Toy Story 3 (2010)                                    |
+[2022-11-16 20:29:36,953] [builder.py:2704]           [INFO]     | Moving Hachi: A Dog's Tale (2009) after How to Train Your Dragon (2010)                            |
+[2022-11-16 20:29:37,008] [builder.py:2704]           [INFO]     | Moving Up (2009) after Hachi: A Dog's Tale (2009)                                                  |
+[2022-11-16 20:29:37,101] [builder.py:2704]           [INFO]     | Moving WALL·E (2008) after Up (2009)                                                               |
+[2022-11-16 20:29:37,158] [builder.py:2704]           [INFO]     | Moving Ratatouille (2007) after WALL·E (2008)                                                      |
+[2022-11-16 20:29:37,221] [builder.py:2704]           [INFO]     | Moving Pan's Labyrinth (2006) after Ratatouille (2007)                                             |
+[2022-11-16 20:29:37,275] [builder.py:2704]           [INFO]     | Moving The Incredibles (2004) after Pan's Labyrinth (2006)                                         |
+[2022-11-16 20:29:37,336] [builder.py:2704]           [INFO]     | Moving Finding Nemo (2003) after The Incredibles (2004)                                            |
+[2022-11-16 20:29:37,403] [builder.py:2704]           [INFO]     | Moving Monsters, Inc. (2001) after Finding Nemo (2003)                                             |
+[2022-11-16 20:29:37,471] [builder.py:2704]           [INFO]     | Moving Spirited Away (2001) after Monsters, Inc. (2001)                                            |
+[2022-11-16 20:29:37,591] [builder.py:2704]           [INFO]     | Moving Princess Mononoke (1997) after Spirited Away (2001)                                         |
+[2022-11-16 20:29:37,650] [builder.py:2704]           [INFO]     | Moving Toy Story (1995) after Princess Mononoke (1997)                                             |
+[2022-11-16 20:29:37,714] [builder.py:2704]           [INFO]     | Moving The Lion King (1994) after Toy Story (1995)                                                 |
+[2022-11-16 20:29:37,772] [builder.py:2704]           [INFO]     | Moving Aladdin (1992) after The Lion King (1994)                                                   |
+[2022-11-16 20:29:37,833] [builder.py:2704]           [INFO]     | Moving My Neighbor Totoro (1988) after Aladdin (1992)                                              |
+[2022-11-16 20:29:37,893] [builder.py:2704]           [INFO]     | Moving Stand by Me (1986) after My Neighbor Totoro (1988)                                          |
+[2022-11-16 20:29:37,959] [builder.py:2704]           [INFO]     | Moving The Wizard of Oz (1939) after Stand by Me (1986)                                            |
+[2022-11-16 20:29:38,026] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:29:38,026] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:29:38,026] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Top Rated Collection                                    |
+[2022-11-16 20:29:38,026] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-16 20:29:38,027] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

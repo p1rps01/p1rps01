@@ -1,0 +1,51 @@
+[2022-11-14 05:35:00,408] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 05:35:00,409] [builder.py:193]            [INFO]     |                               Emma Stone Collection in Marvel Movies                               |
+[2022-11-14 05:35:00,410] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 05:35:00,410] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 05:35:00,411] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 05:35:00,411] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,411] [meta.py:210]               [DEBUG]    |========================================= Template Person ==========================================|
+[2022-11-14 05:35:00,411] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,414] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,415] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 05:35:00,415] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,415] [meta.py:515]               [DEBUG]    | {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 54693, 'sort_title': '+5_Emma Stone'} |
+[2022-11-14 05:35:00,415] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,415] [builder.py:223]            [INFO]     |================================= Validating Emma Stone Attributes =================================|
+[2022-11-14 05:35:00,415] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:00,415] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-14 05:35:00,416] [builder.py:533]            [DEBUG]    | Value: 54693                                                                                       |
+[2022-11-14 05:35:00,429] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-14 05:35:00,429] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-14 05:35:00,429] [builder.py:1791]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-14 05:35:01,264] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=33437&or=1&director=33437&or=1&writer=33437&or=1&producer=33437&pop=1 |
+[2022-11-14 05:35:01,264] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 05:35:01,264] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-14 05:35:01,264] [builder.py:651]            [DEBUG]    | Value: +5_Emma Stone                                                                               |
+[2022-11-14 05:35:01,278] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-14 05:35:01,279] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-14 05:35:01,279] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-14 05:35:01,279] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emma Stone Collection ===================================|
+[2022-11-14 05:35:01,279] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-14 05:35:01,279] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['random']
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Emma Stone
+                                                                 |     Director is Emma Stone
+                                                                 |     Writer is Emma Stone
+                                                                 |     Producer is Emma Stone
+[2022-11-14 05:35:01,295] [builder.py:2527]           [INFO]     | 
+[2022-11-14 05:35:01,296] [builder.py:2528]           [INFO]     |============================ Updating Details of Emma Stone Collection =============================|
+[2022-11-14 05:35:01,296] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-14 05:35:01,302] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-14 05:35:01,304] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Marvel_Movies/Assets/Emma Stone       |
+[2022-11-14 05:35:01,304] [util.py:174]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-11-14 05:35:01,304] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/cZ8a3QvAnj2cgcgVL6g4XaqPzpL.jpg    |
+[2022-11-14 05:35:01,305] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-14 05:35:01,316] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-14 05:35:01,316] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 05:35:01,316] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emma Stone Collection                                   |
+[2022-11-14 05:35:01,316] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-14 05:35:01,316] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

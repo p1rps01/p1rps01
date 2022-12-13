@@ -1,0 +1,83 @@
+[2022-11-16 22:29:38,234] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:29:38,235] [builder.py:193]            [INFO]     |                      Independent Spirit Awards 2016 Collection in Old Movies                       |
+[2022-11-16 22:29:38,235] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:29:38,235] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,235] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:29:38,235] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,236] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:29:38,236] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,238] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 22:29:38,238] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,240] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:29:38,241] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,245] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:29:38,246] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,252] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,252] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 22:29:38,267] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:29:38,268] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,278] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:29:38,278] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,285] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,285] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:29:38,285] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,285] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2016-independent-spirits', 'summary': '2016 Independent Spirit Awards.', 'name': 'Independent Spirit Awards 2016', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Independent Spirit Awards 2016', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/spirit/2016.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:29:38,285] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,285] [builder.py:223]            [INFO]     |======================= Validating Independent Spirit Awards 2016 Attributes =======================|
+[2022-11-16 22:29:38,285] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,285] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:29:38,286] [builder.py:230]            [DEBUG]    | Value: Independent Spirit Awards 2016                                                              |
+[2022-11-16 22:29:38,286] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,286] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:29:38,286] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:29:38,286] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,286] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:29:38,286] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:29:38,286] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,286] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:29:38,286] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:29:38,286] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,287] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:29:38,287] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:29:38,287] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,287] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:29:38,287] [builder.py:651]            [DEBUG]    | Value: Independent Spirit Awards Awards                                                            |
+[2022-11-16 22:29:38,287] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,287] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:29:38,287] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2016-independent-spirits                                 |
+[2022-11-16 22:29:38,328] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,328] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:29:38,328] [builder.py:651]            [DEBUG]    | Value: 2016 Independent Spirit Awards.                                                             |
+[2022-11-16 22:29:38,328] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,329] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:29:38,329] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:29:38,329] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,329] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:29:38,329] [builder.py:651]            [DEBUG]    | Value: !16_Independent Spirit Awards 2016                                                          |
+[2022-11-16 22:29:38,330] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,330] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:29:38,330] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/spirit/2016.jpg |
+[2022-11-16 22:29:38,484] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,484] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:29:38,484] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:29:38,488] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,489] [plex.py:838]               [DEBUG]    | Looking for: Independent Spirit Awards 2016                                                        |
+[2022-11-16 22:29:38,489] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,489] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:29:38,489] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,489] [plex_meta_manager.py:596]  [INFO]     |======================== Running Independent Spirit Awards 2016 Collection =========================|
+[2022-11-16 22:29:38,489] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,490] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:29:38,490] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,490] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2016-independent-spirits                   |
+[2022-11-16 22:29:38,490] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,491] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:29:38,493] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,493] [builder.py:1575]           [DEBUG]    | 33 IDs Found                                                                                       |
+[2022-11-16 22:29:38,493] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:38,493] [plex_meta_manager.py:711]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2022-11-16 22:29:38,494] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:38,494] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:29:38,494] [plex_meta_manager.py:737]  [INFO]     |                         Finished Independent Spirit Awards 2016 Collection                         |
+[2022-11-16 22:29:38,494] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-16 22:29:38,494] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

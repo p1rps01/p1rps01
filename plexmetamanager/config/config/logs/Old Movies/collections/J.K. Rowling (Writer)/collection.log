@@ -1,0 +1,79 @@
+[2022-11-16 22:36:09,180] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:36:09,180] [builder.py:193]            [INFO]     |                           J.K. Rowling (Writer) Collection in Old Movies                           |
+[2022-11-16 22:36:09,180] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:36:09,180] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,180] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:36:09,180] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,180] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 22:36:09,181] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,187] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:36:09,187] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,190] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:36:09,191] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,203] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,203] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:36:09,204] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,204] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['J.K. Rowling'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}, 'summary': 'Movies written by J.K. Rowling.', 'name': 'J.K. Rowling (Writer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!20_J.K. Rowling (Writer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/J.K.%20Rowling.jpg'} |
+[2022-11-16 22:36:09,204] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,204] [builder.py:223]            [INFO]     |=========================== Validating J.K. Rowling (Writer) Attributes ============================|
+[2022-11-16 22:36:09,204] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,204] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:36:09,204] [builder.py:230]            [DEBUG]    | Value: J.K. Rowling (Writer)                                                                       |
+[2022-11-16 22:36:09,204] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,204] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:36:09,204] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:36:09,204] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,205] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:36:09,205] [builder.py:533]            [DEBUG]    | Value: ['J.K. Rowling']                                                                            |
+[2022-11-16 22:36:09,312] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,312] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 22:36:09,313] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'writer': 'tmdb'}}                                         |
+[2022-11-16 22:36:09,387] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&writer=50104&pop=1                                        |
+[2022-11-16 22:36:09,388] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,388] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:36:09,388] [builder.py:651]            [DEBUG]    | Value: Top Writers                                                                                 |
+[2022-11-16 22:36:09,388] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,389] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:36:09,389] [builder.py:651]            [DEBUG]    | Value: Movies written by J.K. Rowling.                                                             |
+[2022-11-16 22:36:09,389] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,389] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:36:09,390] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:36:09,390] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,390] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:36:09,390] [builder.py:651]            [DEBUG]    | Value: !20_J.K. Rowling (Writer)                                                                   |
+[2022-11-16 22:36:09,390] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,391] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:36:09,391] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/J.K.%20Rowling.jpg |
+[2022-11-16 22:36:09,687] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:36:09,687] [plex.py:838]               [DEBUG]    | Looking for: J.K. Rowling (Writer)                                                                 |
+[2022-11-16 22:36:09,687] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,687] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:36:09,688] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,688] [plex_meta_manager.py:596]  [INFO]     |============================= Running J.K. Rowling (Writer) Collection =============================|
+[2022-11-16 22:36:09,688] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,688] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Writer is J.K. Rowling
+[2022-11-16 22:36:09,740] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&writer=50104&pop=1
+[2022-11-16 22:36:09,748] [builder.py:2527]           [INFO]     | 
+[2022-11-16 22:36:09,748] [builder.py:2528]           [INFO]     |======================= Updating Details of J.K. Rowling (Writer) Collection =======================|
+[2022-11-16 22:36:09,748] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:36:09,758] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies written by J.K. Rowling.
+                                                                 | Sort Title | !20_J.K. Rowling (Writer)
+                                                                 | Label | +Top Writers, +PMM
+[2022-11-16 22:36:11,558] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:36:11,558] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:36:13,411] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 22:36:13,428] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/J.K. Rowling (Writer)
+[2022-11-16 22:36:13,428] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-16 22:36:13,428] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/8VDx3K8NBGJDEWr4KdsGsuT8wuj.jpg
+[2022-11-16 22:36:13,429] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/J.K.%20Rowling.jpg
+[2022-11-16 22:36:13,591] [library.py:178]            [INFO]     | Detail: asset_directory updated J.K. Rowling (Writer)'s poster to [File] config/Old_Movies/Assets/J.K. Rowling (Writer)/poster.jpg
+[2022-11-16 22:36:13,693] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:36:13,693] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:36:13,693] [plex_meta_manager.py:737]  [INFO]     |                             Finished J.K. Rowling (Writer) Collection                              |
+[2022-11-16 22:36:13,694] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 22:36:13,694] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

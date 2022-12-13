@@ -1,0 +1,80 @@
+[2022-11-16 20:24:19,608] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:19,608] [builder.py:193]            [INFO]     |                               Steve Carell Collection in Kids Movies                               |
+[2022-11-16 20:24:19,608] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:24:19,608] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,608] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:24:19,608] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,609] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:24:19,609] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,610] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,610] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:24:19,610] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,610] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 4495, 'sort_title': '++_Steve Carell', 'collection_order': 'release'} |
+[2022-11-16 20:24:19,610] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,610] [builder.py:223]            [INFO]     |================================ Validating Steve Carell Attributes ================================|
+[2022-11-16 20:24:19,610] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,611] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:24:19,611] [builder.py:533]            [DEBUG]    | Value: 4495                                                                                        |
+[2022-11-16 20:24:19,636] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,636] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:24:19,637] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:24:19,637] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,637] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:24:19,637] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:24:19,945] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,945] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:24:19,945] [builder.py:651]            [DEBUG]    | Value: ++_Steve Carell                                                                             |
+[2022-11-16 20:24:19,950] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,951] [builder.py:796]            [ERROR]    | Collection Error: Converting Steve Carell to a normal collection                                   |
+[2022-11-16 20:24:19,955] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,956] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:596]  [INFO]     |================================= Running Steve Carell Collection ==================================|
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Steve Carell", '?type=1&sort=titleSort&push=1&actor=37304&pop=1') |
+[2022-11-16 20:24:19,956] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,956] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Steve Carell
+[2022-11-16 20:24:19,974] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:24:19,974] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-16 20:24:19,974] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:24:19,975] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:24:19,975] [builder.py:2159]           [INFO]     |================================ Adding to Steve Carell Collection =================================|
+[2022-11-16 20:24:19,975] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:19,975] [builder.py:2174]           [INFO]     | 1/7 | Steve Carell Collection | + | Despicable Me (2010)                                           |
+[2022-11-16 20:24:21,918] [builder.py:2174]           [INFO]     | 2/7 | Steve Carell Collection | + | Despicable Me 2 (2013)                                         |
+[2022-11-16 20:24:24,102] [builder.py:2174]           [INFO]     | 3/7 | Steve Carell Collection | + | Despicable Me 3 (2017)                                         |
+[2022-11-16 20:24:26,612] [builder.py:2174]           [INFO]     | 4/7 | Steve Carell Collection | + | Horton Hears a Who! (2008)                                     |
+[2022-11-16 20:24:26,760] [builder.py:2174]           [INFO]     | 5/7 | Steve Carell Collection | + | Minions (2015)                                                 |
+[2022-11-16 20:24:26,948] [builder.py:2174]           [INFO]     | 6/7 | Steve Carell Collection | + | Minions: The Rise of Gru (2022)                                |
+[2022-11-16 20:24:28,858] [builder.py:2174]           [INFO]     | 7/7 | Steve Carell Collection | + | Over the Hedge (2006)                                          |
+[2022-11-16 20:24:31,193] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:31,193] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 20:24:31,199] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:31,199] [builder.py:2528]           [INFO]     |=========================== Updating Details of Steve Carell Collection ============================|
+[2022-11-16 20:24:31,199] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:24:31,204] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Steven John Carell (born August 16, 1962) is an American actor and comedian. He played Michael Scott in The Office (2005–2011; 2013), NBC’s adaptation of the British series created by Stephen Merchant and Ricky Gervais, where Carell also worked as an occasional producer, writer and director. Carell has received numerous accolades for his performances in both film and television, including the Golden Globe Award for Best Actor – Television Series Musical or Comedy for his work on The Office. He was recognized as "America's Funniest Man" by Life magazine.
+                                                                 | 
+                                                                 | Carell gained recognition as a correspondent on The Daily Show with Jon Stewart from 1999 to 2005. He went on to star in several comedy films, including Anchorman: The Legend of Ron Burgundy (2004) and its 2013 sequel, as well as The 40-Year-Old Virgin (2005), Evan Almighty (2007), Get Smart (2008), Date Night (2010), Crazy, Stupid, Love (2011), and The Way, Way Back (2013). He also voice acted in Over the Hedge (2006), Horton Hears a Who! (2008) and the Despicable Me franchise (2010–present).
+                                                                 | 
+                                                                 | Carell began to shift into more dramatic roles in the 2010s, with his role as wrestling coach and convicted murderer John Eleuthère du Pont in the drama film Foxcatcher (2014) earning him, among various honors, nominations for the Academy Award for Best Actor, the Golden Globe Award for Best Actor – Motion Picture Drama and the BAFTA Award for Best Actor in a Supporting Role. He also starred in Little Miss Sunshine (2006), The Big Short (2015), and Battle of the Sexes (2017), the last two earning him his eighth and ninth Golden Globe Award nominations, respectively. In 2018, he re-teamed with Anchorman and The Big Short director Adam McKay for the Dick Cheney biographical film Vice, in which he portrayed Donald Rumsfeld, and played journalist David Sheff in the drama film Beautiful Boy.
+                                                                 | 
+                                                                 | Carell returned to television as the co-creator of the TBS comedy series Angie Tribeca (2016–2018), which he developed with his wife, Nancy Carell. He starred as Mitch Kessler in the Apple TV+ drama series The Morning Show (2019–present), for which he received a nomination for the Primetime Emmy Award for Outstanding Lead Actor in a Drama Series. He also returned to comedy with the lead role of General Mark R. Naird in the Netflix sitcom Space Force (2020–present).
+                                                                 | Sort Title | ++_Steve Carell
+                                                                 | Label | +PMM
+[2022-11-16 20:24:32,683] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:24:32,684] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:24:32,684] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:24:32,684] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/dzJtsLspH5Bf8Tvw7OQC47ETNfJ.jpg
+[2022-11-16 20:24:33,178] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/dzJtsLspH5Bf8Tvw7OQC47ETNfJ.jpg
+[2022-11-16 20:24:33,277] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:24:33,278] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:24:33,278] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Steve Carell Collection                                  |
+[2022-11-16 20:24:33,278] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-11-16 20:24:33,278] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

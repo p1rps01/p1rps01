@@ -1,0 +1,95 @@
+[2022-11-17 00:30:48,751] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:30:48,751] [builder.py:193]            [INFO]     |                             Trakt Trending Collection in Marvel Movies                             |
+[2022-11-17 00:30:48,751] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 00:30:48,751] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,751] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 00:30:48,751] [builder.py:223]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-11-17 00:30:48,751] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,751] [builder.py:650]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-11-17 00:30:48,752] [builder.py:651]            [DEBUG]    | Value: 50                                                                                          |
+[2022-11-17 00:30:48,752] [builder.py:1464]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-11-17 00:30:48,752] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,752] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 00:30:48,752] [builder.py:651]            [DEBUG]    | Value: +++++++++_Trakt Trending                                                                    |
+[2022-11-17 00:30:48,767] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,767] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 00:30:48,767] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,767] [plex_meta_manager.py:596]  [INFO]     |================================ Running Trakt Trending Collection =================================|
+[2022-11-17 00:30:48,768] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,768] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-17 00:30:48,768] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,768] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 50, 'time_period': None}                      |
+[2022-11-17 00:30:48,768] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,768] [trakt.py:501]              [INFO]     | Processing Trakt Chart: 50 Trending Movies                                                         |
+[2022-11-17 00:30:48,888] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,888] [builder.py:1575]           [DEBUG]    | 50 IDs Found                                                                                       |
+[2022-11-17 00:30:48,888] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 00:30:48,889] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,889] [builder.py:2159]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
+[2022-11-17 00:30:48,889] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:48,889] [builder.py:2174]           [INFO]     | 1/6 | Trakt Trending Collection | = | Spider-Man: No Way Home (2021)                               |
+[2022-11-17 00:30:48,889] [builder.py:2174]           [INFO]     | 2/6 | Trakt Trending Collection | + | Iron Man 2 (2010)                                            |
+[2022-11-17 00:30:50,778] [builder.py:2174]           [INFO]     | 3/6 | Trakt Trending Collection | + | Shang-Chi and the Legend of the Ten Rings (2021)             |
+[2022-11-17 00:30:52,669] [builder.py:2174]           [INFO]     | 4/6 | Trakt Trending Collection | + | Guardians of the Galaxy Vol. 2 (2017)                        |
+[2022-11-17 00:30:54,659] [builder.py:2174]           [INFO]     | 5/6 | Trakt Trending Collection | + | Avengers: Endgame (2019)                                     |
+[2022-11-17 00:30:56,657] [builder.py:2174]           [INFO]     | 6/6 | Trakt Trending Collection | = | Black Panther (2018)                                         |
+[2022-11-17 00:30:59,781] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:59,781] [builder.py:2196]           [INFO]     | 6 Movies Processed 4 Movies Added                                                                  |
+[2022-11-17 00:30:59,782] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:59,782] [builder.py:2307]           [INFO]     |============================ Missing Movies from Library: Marvel Movies ============================|
+[2022-11-17 00:30:59,782] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 00:30:59,805] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Black Adam (2022) (TMDb: 436270)                                   |
+[2022-11-17 00:30:59,824] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)               |
+[2022-11-17 00:30:59,836] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)              |
+[2022-11-17 00:30:59,847] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                 |
+[2022-11-17 00:30:59,858] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Amsterdam (2022) (TMDb: 664469)                                    |
+[2022-11-17 00:30:59,872] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Smile (2022) (TMDb: 882598)                                        |
+[2022-11-17 00:30:59,884] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The System (2022) (TMDb: 1024627)                                  |
+[2022-11-17 00:30:59,896] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                            |
+[2022-11-17 00:30:59,909] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Enola Holmes (2020) (TMDb: 497582)                                 |
+[2022-11-17 00:30:59,944] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Bullet Train (2022) (TMDb: 718930)                                 |
+[2022-11-17 00:30:59,960] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Barbarian (2022) (TMDb: 913290)                                    |
+[2022-11-17 00:30:59,964] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Ticket to Paradise (2022) (TMDb: 800939)                           |
+[2022-11-17 00:30:59,977] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Paradise City (2022) (TMDb: 829799)                                |
+[2022-11-17 00:30:59,996] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)        |
+[2022-11-17 00:31:00,014] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Batman (2022) (TMDb: 414906)                                   |
+[2022-11-17 00:31:00,027] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Enola Holmes 2 (2022) (TMDb: 829280)                               |
+[2022-11-17 00:31:00,046] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)                |
+[2022-11-17 00:31:00,065] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Terrifier 2 (2022) (TMDb: 663712)                                  |
+[2022-11-17 00:31:00,077] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Call Jane (2022) (TMDb: 579496)                                    |
+[2022-11-17 00:31:00,090] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)            |
+[2022-11-17 00:31:00,103] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                      |
+[2022-11-17 00:31:00,114] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Woman King (2022) (TMDb: 724495)                               |
+[2022-11-17 00:31:00,124] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | On the Line (2022) (TMDb: 979924)                                  |
+[2022-11-17 00:31:00,139] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | TÁR (2022) (TMDb: 817758)                                          |
+[2022-11-17 00:31:00,142] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Wonder (2022) (TMDb: 823766)                                   |
+[2022-11-17 00:31:00,154] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Interstellar (2014) (TMDb: 157336)                                 |
+[2022-11-17 00:31:00,168] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Lord of the Rings: The Return of the King (2003) (TMDb: 122)   |
+[2022-11-17 00:31:00,186] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Ratatouille (2007) (TMDb: 2062)                                    |
+[2022-11-17 00:31:00,204] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Dune (2021) (TMDb: 438631)                                         |
+[2022-11-17 00:31:00,233] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | John Wick: Chapter 3 - Parabellum (2019) (TMDb: 458156)            |
+[2022-11-17 00:31:00,245] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Zack Snyder's Justice League (2021) (TMDb: 791373)                 |
+[2022-11-17 00:31:00,262] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Constantine (2005) (TMDb: 561)                                     |
+[2022-11-17 00:31:00,296] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Jungle Cruise (2021) (TMDb: 451048)                                |
+[2022-11-17 00:31:00,320] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Santa Clause (1994) (TMDb: 11395)                              |
+[2022-11-17 00:31:00,338] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                          |
+[2022-11-17 00:31:00,350] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Hellraiser (2022) (TMDb: 338947)                                   |
+[2022-11-17 00:31:00,365] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Good Nurse (2022) (TMDb: 541134)                               |
+[2022-11-17 00:31:00,380] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | The Greatest Beer Run Ever (2022) (TMDb: 597922)                   |
+[2022-11-17 00:31:00,395] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Causeway (2022) (TMDb: 595586)                                     |
+[2022-11-17 00:31:00,413] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Poker Face (2022) (TMDb: 842934)                                   |
+[2022-11-17 00:31:00,428] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Christmas by Chance (2021) (TMDb: 774260)                          |
+[2022-11-17 00:31:00,440] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Fight Club (1999) (TMDb: 550)                                      |
+[2022-11-17 00:31:00,453] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | John Wick (2014) (TMDb: 245891)                                    |
+[2022-11-17 00:31:00,470] [builder.py:2321]           [INFO]     | Trakt Trending Collection | ? | Batman Begins (2005) (TMDb: 272)                                   |
+[2022-11-17 00:31:00,471] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 00:31:00,472] [builder.py:2327]           [INFO]     | 44 Movies Missing                                                                                  |
+[2022-11-17 00:31:03,261] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-17 00:31:03,261] [builder.py:2528]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
+[2022-11-17 00:31:03,262] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-17 00:31:03,269] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-17 00:31:03,299] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 00:31:03,299] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 00:31:03,299] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-11-17 00:31:03,299] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-17 00:31:03,299] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,51 @@
+[2022-11-14 09:10:25,695] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 09:10:25,695] [builder.py:193]            [INFO]     |                               Sports Collection in Christmas Movies                                |
+[2022-11-14 09:10:25,695] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 09:10:25,695] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 09:10:25,695] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 09:10:25,696] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,696] [meta.py:210]               [DEBUG]    |========================================== Template Genre ==========================================|
+[2022-11-14 09:10:25,696] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,698] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,698] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 09:10:25,698] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,698] [meta.py:515]               [DEBUG]    | {'plex_search': {'genre': 'Sport'}, 'url_poster': 'https://theposterdb.com/api/assets/60371', 'sort_title': '+++++++_Sports', 'collection_order': 'alpha'} |
+[2022-11-14 09:10:25,698] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,699] [builder.py:223]            [INFO]     |=================================== Validating Sports Attributes ===================================|
+[2022-11-14 09:10:25,699] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,699] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-14 09:10:25,699] [builder.py:615]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-14 09:10:25,699] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:25,699] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-14 09:10:25,700] [builder.py:651]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-11-14 09:10:26,392] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:26,396] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-14 09:10:26,397] [builder.py:651]            [DEBUG]    | Value: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events. |
+[2022-11-14 09:10:26,397] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 09:10:26,399] [builder.py:650]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-14 09:10:26,400] [builder.py:651]            [DEBUG]    | Value: {'genre': 'Sport'}                                                                          |
+[2022-11-14 09:10:27,916] [plex_meta_manager.py:724]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 592, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 728, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1305, in _plex
+                                                                 |     self.builders.append((method_name, self.build_filter("plex_search", dict_data)))
+                                                                 |   File "/modules/builder.py", line 1969, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1903, in _filter
+                                                                 |     inside_filter, inside_display = _filter(dict_data, is_all=attr == "all", level=level)
+                                                                 |   File "/modules/builder.py", line 1908, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 2055, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Sport not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+                                                                 | 
+[2022-11-14 09:10:27,919] [plex_meta_manager.py:725]  [ERROR]    | Plex Error: genre: Sport not found
+                                                                 | Options: ['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family', 'Fantasy', 'History', 'Horror', 'Music', 'Mystery', 'Romance', 'Science Fiction', 'Thriller', 'TV Movie']
+[2022-11-14 09:10:27,919] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 09:10:27,919] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 09:10:27,919] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Sports Collection                                     |
+[2022-11-14 09:10:27,919] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-14 09:10:27,920] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

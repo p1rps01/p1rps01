@@ -1,0 +1,123 @@
+[2022-11-25 15:59:24,752] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:24,752] [builder.py:193]            [INFO]     |                    Other Resolutions <<library_typeU>>s Collection in TV Shows                     |
+[2022-11-25 15:59:24,752] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:24,752] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:24,752] [builder.py:196]            [INFO]     | Log Folder Name: Other Resolutions <<library_typeU>>s is invalid using Other Resolutions library_typeUs |
+[2022-11-25 15:59:24,753] [builder.py:197]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:24,753] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:59:24,753] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,753] [meta.py:210]               [DEBUG]    |==================================== Template other_collection =====================================|
+[2022-11-25 15:59:24,753] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,754] [meta.py:337]               [DEBUG]    | Conditional: image                                                                                 |
+[2022-11-25 15:59:24,754] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,754] [meta.py:402]               [DEBUG]    | Conditional Variable: image defaults to "resolution/<<key>>"                                       |
+[2022-11-25 15:59:24,754] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,754] [meta.py:337]               [DEBUG]    | Conditional: key_name                                                                              |
+[2022-11-25 15:59:24,754] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,755] [meta.py:381]               [DEBUG]    | Condition 1 Failed: key "other" is not "480"                                                       |
+[2022-11-25 15:59:24,755] [meta.py:392]               [DEBUG]    | Condition 2 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,756] [meta.py:381]               [DEBUG]    | Condition 2 Failed: key "other" is not "720"                                                       |
+[2022-11-25 15:59:24,756] [meta.py:392]               [DEBUG]    | Condition 3 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,756] [meta.py:381]               [DEBUG]    | Condition 3 Failed: key "other" is not "1080"                                                      |
+[2022-11-25 15:59:24,757] [meta.py:392]               [DEBUG]    | Condition 4 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,757] [meta.py:381]               [DEBUG]    | Condition 4 Failed: key "other" is not "4k"                                                        |
+[2022-11-25 15:59:24,758] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,760] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-25 15:59:24,761] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,761] [meta.py:337]               [DEBUG]    | Conditional: image                                                                                 |
+[2022-11-25 15:59:24,761] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,761] [meta.py:402]               [DEBUG]    | Conditional Variable: image defaults to "resolution/<<key>>"                                       |
+[2022-11-25 15:59:24,761] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,762] [meta.py:337]               [DEBUG]    | Conditional: key_name                                                                              |
+[2022-11-25 15:59:24,762] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,762] [meta.py:381]               [DEBUG]    | Condition 1 Failed: key "other" is not "480"                                                       |
+[2022-11-25 15:59:24,762] [meta.py:392]               [DEBUG]    | Condition 2 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,763] [meta.py:381]               [DEBUG]    | Condition 2 Failed: key "other" is not "720"                                                       |
+[2022-11-25 15:59:24,764] [meta.py:392]               [DEBUG]    | Condition 3 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,764] [meta.py:381]               [DEBUG]    | Condition 3 Failed: key "other" is not "1080"                                                      |
+[2022-11-25 15:59:24,764] [meta.py:392]               [DEBUG]    | Condition 4 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,764] [meta.py:381]               [DEBUG]    | Condition 4 Failed: key "other" is not "4k"                                                        |
+[2022-11-25 15:59:24,765] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,786] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:59:24,787] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,788] [meta.py:337]               [DEBUG]    | Conditional: image                                                                                 |
+[2022-11-25 15:59:24,789] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,789] [meta.py:402]               [DEBUG]    | Conditional Variable: image defaults to "resolution/<<key>>"                                       |
+[2022-11-25 15:59:24,789] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,789] [meta.py:337]               [DEBUG]    | Conditional: key_name                                                                              |
+[2022-11-25 15:59:24,790] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,790] [meta.py:381]               [DEBUG]    | Condition 1 Failed: key "other" is not "480"                                                       |
+[2022-11-25 15:59:24,793] [meta.py:392]               [DEBUG]    | Condition 2 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,793] [meta.py:381]               [DEBUG]    | Condition 2 Failed: key "other" is not "720"                                                       |
+[2022-11-25 15:59:24,794] [meta.py:392]               [DEBUG]    | Condition 3 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,794] [meta.py:381]               [DEBUG]    | Condition 3 Failed: key "other" is not "1080"                                                      |
+[2022-11-25 15:59:24,794] [meta.py:392]               [DEBUG]    | Condition 4 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,794] [meta.py:381]               [DEBUG]    | Condition 4 Failed: key "other" is not "4k"                                                        |
+[2022-11-25 15:59:24,795] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,803] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:59:24,804] [meta.py:330]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,805] [meta.py:331]               [DEBUG]    | Template Warning: variable image cannot be optional if it has a default                            |
+[2022-11-25 15:59:24,805] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,805] [meta.py:337]               [DEBUG]    | Conditional: image                                                                                 |
+[2022-11-25 15:59:24,805] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,806] [meta.py:402]               [DEBUG]    | Conditional Variable: image defaults to "resolution/<<key>>"                                       |
+[2022-11-25 15:59:24,806] [meta.py:336]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,806] [meta.py:337]               [DEBUG]    | Conditional: key_name                                                                              |
+[2022-11-25 15:59:24,807] [meta.py:392]               [DEBUG]    | Condition 1 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,807] [meta.py:381]               [DEBUG]    | Condition 1 Failed: key "other" is not "480"                                                       |
+[2022-11-25 15:59:24,807] [meta.py:392]               [DEBUG]    | Condition 2 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,807] [meta.py:381]               [DEBUG]    | Condition 2 Failed: key "other" is not "720"                                                       |
+[2022-11-25 15:59:24,808] [meta.py:392]               [DEBUG]    | Condition 3 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,809] [meta.py:381]               [DEBUG]    | Condition 3 Failed: key "other" is not "1080"                                                      |
+[2022-11-25 15:59:24,809] [meta.py:392]               [DEBUG]    | Condition 4 Failed: style is not a variable provided or a default variable                         |
+[2022-11-25 15:59:24,809] [meta.py:381]               [DEBUG]    | Condition 4 Failed: key "other" is not "4k"                                                        |
+[2022-11-25 15:59:24,810] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,836] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-25 15:59:24,837] [meta.py:507]               [WARNING]  | Template Warning: template attribute: sort_title from shared skipped                               |
+[2022-11-25 15:59:24,841] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,842] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:59:24,842] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,842] [meta.py:515]               [DEBUG]    | {'sort_title': '!15_~Other Resolutions Shows', 'smart_filter': {'sort_by': 'release.desc', 'any': {'resolution': ['2.7k']}}, 'summary': 'Shows that have other uncommon resolutions.', 'name': 'Other Resolution Shows', 'ignore_blank_results': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/resolution/other.jpg'} |
+[2022-11-25 15:59:24,843] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,844] [builder.py:223]            [INFO]     |==================== Validating Other Resolutions <<library_typeU>>s Attributes ====================|
+[2022-11-25 15:59:24,844] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,844] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:59:24,844] [builder.py:230]            [DEBUG]    | Value: Other Resolution Shows                                                                      |
+[2022-11-25 15:59:24,845] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,845] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:59:24,845] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:59:24,845] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:24,845] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-25 15:59:24,846] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'resolution': ['2.7k']}}                                |
+[2022-11-25 15:59:24,875] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&episode.resolution=2.7k&pop=1          |
+[2022-11-25 15:59:24,875] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,875] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-25 15:59:24,875] [builder.py:651]            [DEBUG]    | Value: Resolution                                                                                  |
+[2022-11-25 15:59:24,876] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,876] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:59:24,876] [builder.py:651]            [DEBUG]    | Value: !15_~Other Resolutions Shows                                                                |
+[2022-11-25 15:59:24,876] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,876] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:59:24,876] [builder.py:651]            [DEBUG]    | Value: Shows that have other uncommon resolutions.                                                 |
+[2022-11-25 15:59:24,876] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:24,877] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:59:24,877] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/resolution/other.jpg |
+[2022-11-25 15:59:25,089] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:25,089] [plex.py:838]               [DEBUG]    | Looking for: Other Resolution Shows                                                                |
+[2022-11-25 15:59:25,090] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,090] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:59:25,090] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,090] [plex_meta_manager.py:596]  [INFO]     |===================== Running Other Resolutions <<library_typeU>>s Collection ======================|
+[2022-11-25 15:59:25,090] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:25,090] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Resolution is 2.7k
+[2022-11-25 15:59:25,260] [plex_meta_manager.py:652]  [INFO]     | 
+[2022-11-25 15:59:25,260] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Other Resolutions <<library_typeU>>s Collection
+[2022-11-25 15:59:25,260] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-25 15:59:25,261] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:59:25,261] [plex_meta_manager.py:737]  [INFO]     |                      Finished Other Resolutions <<library_typeU>>s Collection                      |
+[2022-11-25 15:59:25,261] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:59:25,261] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

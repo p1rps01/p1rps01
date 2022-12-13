@@ -1,0 +1,75 @@
+[2022-11-16 22:06:26,738] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:26,739] [builder.py:193]            [INFO]     |                                  Jet Li Collection in Old Movies                                   |
+[2022-11-16 22:06:26,739] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:06:26,739] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:26,739] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:06:26,740] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,740] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:06:26,742] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,745] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,745] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:06:26,746] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,746] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1336, 'sort_title': '++_Jet Li', 'collection_order': 'release'}   |
+[2022-11-16 22:06:26,749] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,749] [builder.py:223]            [INFO]     |=================================== Validating Jet Li Attributes ===================================|
+[2022-11-16 22:06:26,749] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,749] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:06:26,749] [builder.py:533]            [DEBUG]    | Value: 1336                                                                                        |
+[2022-11-16 22:06:26,763] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,763] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:06:26,763] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:06:26,763] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:26,763] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:06:26,763] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:06:27,244] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:27,244] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:06:27,244] [builder.py:651]            [DEBUG]    | Value: ++_Jet Li                                                                                   |
+[2022-11-16 22:06:27,252] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,253] [builder.py:796]            [ERROR]    | Collection Error: Converting Jet Li to a normal collection                                         |
+[2022-11-16 22:06:27,260] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,260] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:06:27,260] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,260] [plex_meta_manager.py:596]  [INFO]     |==================================== Running Jet Li Collection =====================================|
+[2022-11-16 22:06:27,260] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,260] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:06:27,260] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:06:27,261] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jet Li", '?type=1&sort=titleSort&push=1&actor=466113&pop=1') |
+[2022-11-16 22:06:27,261] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,261] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jet Li
+[2022-11-16 22:06:27,276] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:06:27,276] [builder.py:1575]           [DEBUG]    | 4 IDs Found
+[2022-11-16 22:06:27,276] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:06:27,276] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:06:27,277] [builder.py:2159]           [INFO]     |=================================== Adding to Jet Li Collection ====================================|
+[2022-11-16 22:06:27,277] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:27,277] [builder.py:2174]           [INFO]     | 1/4 | Jet Li Collection | + | The Expendables (2010)                                               |
+[2022-11-16 22:06:27,381] [builder.py:2174]           [INFO]     | 2/4 | Jet Li Collection | + | The Expendables 2 (2012)                                             |
+[2022-11-16 22:06:27,499] [builder.py:2174]           [INFO]     | 3/4 | Jet Li Collection | + | The Expendables 3 (2014)                                             |
+[2022-11-16 22:06:27,655] [builder.py:2174]           [INFO]     | 4/4 | Jet Li Collection | + | The Mummy: Tomb of the Dragon Emperor (2008)                         |
+[2022-11-16 22:06:31,284] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:31,284] [builder.py:2196]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-11-16 22:06:31,289] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:31,290] [builder.py:2528]           [INFO]     |============================== Updating Details of Jet Li Collection ===============================|
+[2022-11-16 22:06:31,290] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:06:31,297] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Li Lian Jie (born April 26, 1963), better known by his stage name Jet Li, is a Chinese martial artist, actor, film producer, wushu champion, and international film star who was born in Beijing, China, and who has currently taken up Singapore citizenship.
+                                                                 | 
+                                                                 | After three years of intensive training with Wu Bin, Li won his first national championship for the Beijing Wushu Team. After retiring from wushu at age 17, he went on to win great acclaim in China as an actor making his debut with the film Shaolin Temple (1982). He went on to star in many critically acclaimed martial arts epic films, most notably the Once Upon A Time In China series, in which he portrayed folk hero Wong Fei-hung.
+                                                                 | 
+                                                                 | Li's first role in a Hollywood film was as a villain in Lethal Weapon 4 (1998), but his first Hollywood film leading role was in Romeo Must Die (2000). He has gone on to star in many Hollywood action films, most recently starring beside Jackie Chan in The Forbidden Kingdom (2008), and as the title character villain in The Mummy: Tomb Of The Dragon Emperor (2008) opposite Brendan Fraser. Recently, he appeared in the 2010 film The Expendables.
+                                                                 | Sort Title | ++_Jet Li
+                                                                 | Label | +PMM
+[2022-11-16 22:06:32,839] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:06:32,839] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:06:32,839] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:06:32,840] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/7d4hgOzFW7CWPcE92eTSEFRSObC.jpg
+[2022-11-16 22:06:32,886] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/7d4hgOzFW7CWPcE92eTSEFRSObC.jpg
+[2022-11-16 22:06:32,936] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:06:32,936] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:06:32,936] [plex_meta_manager.py:737]  [INFO]     |                                     Finished Jet Li Collection                                     |
+[2022-11-16 22:06:32,936] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 22:06:32,936] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

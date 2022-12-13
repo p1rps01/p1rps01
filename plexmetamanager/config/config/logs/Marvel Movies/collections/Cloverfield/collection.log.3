@@ -1,0 +1,46 @@
+[2022-11-05 15:22:16,293] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:16,294] [builder.py:197]            [INFO]     |                              Cloverfield Collection in Marvel Movies                               |
+[2022-11-05 15:22:16,294] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:22:16,294] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 15:22:16,295] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 15:22:16,295] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,295] [meta.py:128]               [DEBUG]    | Template Collection                                                                                |
+[2022-11-05 15:22:16,295] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Collection')])                                                        |
+[2022-11-05 15:22:16,295] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,296] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Collection'), ('collection_name', 'Cloverfield'), ('mapping_name', 'Cloverfield'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Collection'), ('collection_name_encoded', 'Cloverfield'), ('mapping_name_encoded', 'Cloverfield'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'Cloverfield')]) |
+[2022-11-05 15:22:16,296] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,296] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 15:22:16,296] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,296] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded']                           |
+[2022-11-05 15:22:16,297] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,298] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_Cloverfield', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-05 15:22:16,298] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,298] [builder.py:219]            [INFO]     |================================ Validating Cloverfield Attributes =================================|
+[2022-11-05 15:22:16,298] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,298] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 15:22:16,299] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 15:22:16,299] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,299] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 15:22:16,299] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 15:22:16,299] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:22:16,300] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-05 15:22:16,300] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/list/ls021933730/                                                      |
+[2022-11-05 15:22:16,459] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 705, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1135, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists
+                                                                 |     self._total(imdb_url, language)
+                                                                 |   File "/modules/imdb.py", line 95, in _total
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/
+                                                                 | 
+[2022-11-05 15:22:16,460] [plex_meta_manager.py:697]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/
+[2022-11-05 15:22:16,460] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 15:22:16,460] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 15:22:16,461] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Cloverfield Collection                                   |
+[2022-11-05 15:22:16,461] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 15:22:16,461] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,151 @@
+[2022-11-17 02:29:55,707] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:29:55,708] [builder.py:193]            [INFO]     |                                 Emmys 2010 Collection in TV Shows                                  |
+[2022-11-17 02:29:55,708] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-17 02:29:55,709] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-17 02:29:55,709] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-17 02:29:55,709] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,709] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-17 02:29:55,710] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,711] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-17 02:29:55,712] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,715] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-17 02:29:55,718] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,742] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-17 02:29:55,743] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,753] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-17 02:29:55,755] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,763] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,763] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-17 02:29:55,764] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,764] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2010-01-01,2010-12-31&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2010', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2010.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-17 02:29:55,764] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,765] [builder.py:223]            [INFO]     |================================= Validating Emmys 2010 Attributes =================================|
+[2022-11-17 02:29:55,765] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,766] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-17 02:29:55,766] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-17 02:29:55,767] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,767] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-17 02:29:55,767] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-17 02:29:55,768] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,768] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-17 02:29:55,769] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-17 02:29:55,769] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,769] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-17 02:29:55,769] [builder.py:651]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2022-11-17 02:29:55,769] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:55,769] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-17 02:29:55,769] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2010-01-01,2010-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:29:56,330] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,332] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-17 02:29:56,332] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-17 02:29:56,332] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,332] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-17 02:29:56,332] [builder.py:651]            [DEBUG]    | Value: !16_Emmys 2010                                                                              |
+[2022-11-17 02:29:56,333] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,333] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-17 02:29:56,333] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2010.jpg |
+[2022-11-17 02:29:56,464] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,464] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-17 02:29:56,465] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-17 02:29:56,470] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,470] [plex.py:838]               [DEBUG]    | Looking for: Emmys 2010                                                                            |
+[2022-11-17 02:29:56,470] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-17 02:29:56,471] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-17 02:29:56,471] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-17 02:29:56,471] [plex_meta_manager.py:596]  [INFO]     |================================== Running Emmys 2010 Collection ===================================|
+[2022-11-17 02:29:56,471] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-17 02:29:56,471] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-17 02:29:56,472] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:56,472] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2010-01-01,2010-12-31&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-17 02:29:56,472] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-17 02:29:56,473] [imdb.py:202]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2010-01-01,2010-12-31&groups=emmy_winner&sort=moviemeter,asc |
+[2022-11-17 02:29:58,972] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:58,973] [builder.py:1575]           [DEBUG]    | 37 IDs Found                                                                                       |
+[2022-11-17 02:29:58,973] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-17 02:29:59,162] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1720618                                             |
+[2022-11-17 02:29:59,178] [builder.py:1637]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47075                                                 |
+[2022-11-17 02:29:59,211] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1815983                                             |
+[2022-11-17 02:29:59,281] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1580028                                             |
+[2022-11-17 02:29:59,302] [builder.py:1637]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12987270                                            |
+[2022-11-17 02:29:59,302] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-17 02:29:59,302] [builder.py:2307]           [INFO]     |============================== Missing Movies from Library: TV Shows ===============================|
+[2022-11-17 02:29:59,302] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-17 02:29:59,315] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Temple Grandin (2010) (TMDb: 33602)                                    |
+[2022-11-17 02:29:59,327] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | You Don't Know Jack (2010) (TMDb: 36950)                               |
+[2022-11-17 02:29:59,339] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | America: The Story of Us (2010) (TMDb: 105177)                         |
+[2022-11-17 02:29:59,349] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Prep & Landing Stocking Stuffer: Operation: Secret Santa (2010) (TMDb: 88212) |
+[2022-11-17 02:29:59,362] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Gasland (2010) (TMDb: 40663)                                           |
+[2022-11-17 02:29:59,510] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Firebreather (2010) (TMDb: 50337)                                      |
+[2022-11-17 02:29:59,525] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Freedom Riders (2010) (TMDb: 113377)                                   |
+[2022-11-17 02:29:59,561] [builder.py:2321]           [INFO]     | Emmys 2010 Collection | ? | Vancouver 2010 Olympic Opening Ceremony (2010) (TMDb: 54377)           |
+[2022-11-17 02:29:59,562] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-17 02:29:59,562] [builder.py:2327]           [INFO]     | 8 Movies Missing                                                                                   |
+[2022-11-17 02:30:00,842] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:00,845] [builder.py:2353]           [INFO]     |============================== Missing Shows from Library: Emmys 2010 ==============================|
+[2022-11-17 02:30:00,845] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:01,008] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Walking Dead (TVDb: 153021)                                        |
+[2022-11-17 02:30:01,138] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Downton Abbey (TVDb: 193131)                                           |
+[2022-11-17 02:30:01,171] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Justified (TVDb: 134241)                                               |
+[2022-11-17 02:30:01,219] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Boardwalk Empire (TVDb: 84947)                                         |
+[2022-11-17 02:30:01,262] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Adventure Time (TVDb: 152831)                                          |
+[2022-11-17 02:30:01,300] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Pacific (TVDb: 85539)                                              |
+[2022-11-17 02:30:01,341] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Young Justice (TVDb: 192061)                                           |
+[2022-11-17 02:30:01,383] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Mike & Molly (TVDb: 164501)                                            |
+[2022-11-17 02:30:01,437] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Hot in Cleveland (TVDb: 162071)                                        |
+[2022-11-17 02:30:01,474] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Pillars of the Earth (TVDb: 159431)                                |
+[2022-11-17 02:30:01,526] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Louie (TVDb: 155201)                                                   |
+[2022-11-17 02:30:01,574] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Treme (TVDb: 84946)                                                    |
+[2022-11-17 02:30:01,617] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | MasterChef (US) (TVDb: 167751)                                         |
+[2022-11-17 02:30:01,650] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Big C (TVDb: 161501)                                               |
+[2022-11-17 02:30:01,766] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Generator Rex (TVDb: 158551)                                           |
+[2022-11-17 02:30:01,811] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Conan (2010) (TVDb: 194751)                                            |
+[2022-11-17 02:30:01,860] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Uncle Grandpa (TVDb: 263941)                                           |
+[2022-11-17 02:30:01,898] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Undercover Boss (US) (TVDb: 140141)                                    |
+[2022-11-17 02:30:01,928] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Who Do You Think You Are? (US) (TVDb: 146651)                          |
+[2022-11-17 02:30:02,091] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Ricky Gervais Show (TVDb: 142581)                                  |
+[2022-11-17 02:30:02,752] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | The Academy Awards (TVDb: 85269)                                       |
+[2022-11-17 02:30:02,878] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Jamie Oliver's Food Revolution (TVDb: 151421)                          |
+[2022-11-17 02:30:03,503] [builder.py:2366]           [INFO]     | Emmys 2010 Collection | ? | Tony Awards (TVDb: 249480)                                             |
+[2022-11-17 02:30:03,504] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-17 02:30:03,504] [builder.py:2372]           [INFO]     | 23 Shows Missing                                                                                   |
+[2022-11-17 02:30:04,563] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-17 02:30:04,563] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-17 02:30:04,563] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-17 02:30:04,563] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [153021, 193131, 134241, 84947, 152831, 85539, 192061, 164501, 162071, 159431, 155201, 84946, 167751, 161501, 158551, 194751, 263941, 140141, 146651, 142581, 85269, 151421, 249480] |
+[2022-11-17 02:30:41,315] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,316] [sonarr.py:164]             [INFO]     | Added to Sonarr | 151421  | Jamie Oliver's Food Revolution                                         |
+[2022-11-17 02:30:41,327] [sonarr.py:167]             [INFO]     | 1 Series added to Sonarr                                                                           |
+[2022-11-17 02:30:41,328] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,328] [sonarr.py:177]             [INFO]     | Already in Sonarr | 193131  | Downton Abbey                                                        |
+[2022-11-17 02:30:41,339] [sonarr.py:177]             [INFO]     | Already in Sonarr | 84947   | Boardwalk Empire                                                     |
+[2022-11-17 02:30:41,353] [sonarr.py:177]             [INFO]     | Already in Sonarr | 152831  | Adventure Time                                                       |
+[2022-11-17 02:30:41,371] [sonarr.py:177]             [INFO]     | Already in Sonarr | 85539   | The Pacific                                                          |
+[2022-11-17 02:30:41,387] [sonarr.py:177]             [INFO]     | Already in Sonarr | 192061  | Young Justice                                                        |
+[2022-11-17 02:30:41,398] [sonarr.py:177]             [INFO]     | Already in Sonarr | 164501  | Mike & Molly                                                         |
+[2022-11-17 02:30:41,418] [sonarr.py:177]             [INFO]     | Already in Sonarr | 162071  | Hot in Cleveland                                                     |
+[2022-11-17 02:30:41,434] [sonarr.py:177]             [INFO]     | Already in Sonarr | 84946   | Treme                                                                |
+[2022-11-17 02:30:41,447] [sonarr.py:177]             [INFO]     | Already in Sonarr | 167751  | MasterChef (US)                                                      |
+[2022-11-17 02:30:41,460] [sonarr.py:177]             [INFO]     | Already in Sonarr | 194751  | Conan (2010)                                                         |
+[2022-11-17 02:30:41,473] [sonarr.py:177]             [INFO]     | Already in Sonarr | 263941  | Uncle Grandpa                                                        |
+[2022-11-17 02:30:41,486] [sonarr.py:177]             [INFO]     | Already in Sonarr | 140141  | Undercover Boss (US)                                                 |
+[2022-11-17 02:30:41,499] [sonarr.py:177]             [INFO]     | Already in Sonarr | 146651  | Who Do You Think You Are? (US)                                       |
+[2022-11-17 02:30:41,511] [sonarr.py:177]             [INFO]     | Already in Sonarr | 142581  | The Ricky Gervais Show                                               |
+[2022-11-17 02:30:41,520] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 159431                                                                         |
+[2022-11-17 02:30:41,521] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 155201                                                                         |
+[2022-11-17 02:30:41,521] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 161501                                                                         |
+[2022-11-17 02:30:41,522] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 158551                                                                         |
+[2022-11-17 02:30:41,522] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85269                                                                          |
+[2022-11-17 02:30:41,522] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249480                                                                         |
+[2022-11-17 02:30:41,522] [sonarr.py:187]             [INFO]     | 20 Series already exist in Sonarr                                                                  |
+[2022-11-17 02:30:41,523] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,523] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Walking Dead]                                                               |
+[2022-11-17 02:30:41,523] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,523] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Justified]                                                                      |
+[2022-11-17 02:30:41,524] [sonarr.py:207]             [INFO]     | 2 Series with Invalid IDs                                                                          |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Emmys 2010 Collection                                            |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Emmys 2010 Collection                                   |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:45                                    |
+[2022-11-17 02:30:41,543] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

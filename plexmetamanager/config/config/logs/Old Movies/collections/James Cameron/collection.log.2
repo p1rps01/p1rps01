@@ -1,0 +1,60 @@
+[2022-11-14 03:28:33,799] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 03:28:33,799] [builder.py:193]            [INFO]     |                               James Cameron Collection in Old Movies                               |
+[2022-11-14 03:28:33,800] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-14 03:28:33,800] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-14 03:28:33,800] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-14 03:28:33,800] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,800] [meta.py:210]               [DEBUG]    |========================================= Template Person ==========================================|
+[2022-11-14 03:28:33,800] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,802] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,802] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-14 03:28:33,802] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,802] [meta.py:515]               [DEBUG]    | {'smart_filter': {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False}, 'tmdb_person': 2710, 'sort_title': '+5_James Cameron'} |
+[2022-11-14 03:28:33,802] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,803] [builder.py:223]            [INFO]     |=============================== Validating James Cameron Attributes ================================|
+[2022-11-14 03:28:33,803] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:33,803] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-14 03:28:33,803] [builder.py:533]            [DEBUG]    | Value: 2710                                                                                        |
+[2022-11-14 03:28:33,812] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-14 03:28:33,812] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-14 03:28:33,812] [builder.py:1791]           [DEBUG]    | Value: {'any': {'actor': 'tmdb', 'director': 'tmdb', 'writer': 'tmdb', 'producer': 'tmdb'}, 'sort_by': 'random', 'validate': False} |
+[2022-11-14 03:28:34,453] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=random&push=1&actor=64442&or=1&director=56669&or=1&writer=34518&or=1&producer=34563&pop=1 |
+[2022-11-14 03:28:34,453] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:34,453] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-14 03:28:34,453] [builder.py:651]            [DEBUG]    | Value: +5_James Cameron                                                                            |
+[2022-11-14 03:28:34,458] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-14 03:28:34,458] [plex.py:838]               [DEBUG]    | Looking for: James Cameron                                                                         |
+[2022-11-14 03:28:34,458] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-14 03:28:34,459] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-14 03:28:34,459] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-14 03:28:34,459] [plex_meta_manager.py:596]  [INFO]     |================================= Running James Cameron Collection =================================|
+[2022-11-14 03:28:34,459] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-14 03:28:34,459] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['random']
+                                                                 | Validate: False
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is James Cameron
+                                                                 |     Director is James Cameron
+                                                                 |     Writer is James Cameron
+                                                                 |     Producer is James Cameron
+[2022-11-14 03:28:34,484] [plex.py:756]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&push=1&actor=64442&or=1&director=56669&or=1&writer=34518&or=1&producer=34563&pop=1
+[2022-11-14 03:28:34,513] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=random&push=1&actor=64442&or=1&director=56669&or=1&writer=34518&or=1&producer=34563&pop=1
+[2022-11-14 03:28:34,517] [builder.py:2527]           [INFO]     | 
+[2022-11-14 03:28:34,518] [builder.py:2528]           [INFO]     |=========================== Updating Details of James Cameron Collection ===========================|
+[2022-11-14 03:28:34,518] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-14 03:28:34,565] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | James Cameron was born in Kapuskasing, Ontario, Canada, on August 16, 1954. He moved to the USA in 1971. The son of an engineer, he majored in physics at California State University but, after graduating, drove a truck to support his screen-writing ambition. He landed his first professional film job as art director, miniature-set builder, and process-projection supervisor on Roger Corman's Battle Beyond the Stars (1980) and debuted as a director with Piranha Part Two: The Spawning (1981) the following year. In 1984, he wrote and directed The Terminator (1984), a futuristic action-thriller starring Arnold Schwarzenegger, Michael Biehn, and Linda Hamilton. It was a huge success. After this came a string of successful science-fiction action films such as Aliens (1986) and Terminator 2: Judgment Day (1991). Cameron is now one of the most sought-after directors in Hollywood. He was formerly married to producer Gale Anne Hurd, who produced several of his films. He married Kathryn Bigelow in 1989.
+                                                                 | Sort Title | +5_James Cameron
+                                                                 | Label | +PMM
+[2022-11-14 03:28:35,956] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-14 03:28:35,956] [builder.py:2603]           [INFO]     | 
+[2022-11-14 03:28:35,958] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Old_Movies/Assets/James Cameron
+[2022-11-14 03:28:35,958] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-14 03:28:35,958] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/9NAZnTjBQ9WcXAQEzZpKy4vdQto.jpg
+[2022-11-14 03:28:35,999] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/9NAZnTjBQ9WcXAQEzZpKy4vdQto.jpg
+[2022-11-14 03:28:36,039] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-14 03:28:36,039] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-14 03:28:36,039] [plex_meta_manager.py:737]  [INFO]     |                                 Finished James Cameron Collection                                  |
+[2022-11-14 03:28:36,039] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-14 03:28:36,039] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

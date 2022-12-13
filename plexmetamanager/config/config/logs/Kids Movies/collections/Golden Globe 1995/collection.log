@@ -1,0 +1,123 @@
+[2022-11-16 20:32:13,631] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:32:13,631] [builder.py:193]            [INFO]     |                            Golden Globe 1995 Collection in Kids Movies                             |
+[2022-11-16 20:32:13,631] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:32:13,631] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:32:13,631] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:32:13,631] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,631] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:32:13,632] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,633] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:32:13,633] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,634] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:32:13,635] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,638] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:32:13,639] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,656] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:32:13,657] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,664] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:32:13,665] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,668] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,668] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:32:13,668] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,668] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'summary': '1995 Golden Globe Winners.', 'name': 'Golden Globe 1995', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Golden Globe 1995', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1995.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:32:13,668] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,669] [builder.py:223]            [INFO]     |============================= Validating Golden Globe 1995 Attributes ==============================|
+[2022-11-16 20:32:13,669] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,669] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:32:13,669] [builder.py:230]            [DEBUG]    | Value: Golden Globe 1995                                                                           |
+[2022-11-16 20:32:13,669] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,669] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:32:13,669] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:32:13,669] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,669] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:32:13,670] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:32:13,670] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,670] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:32:13,670] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:32:13,670] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,670] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:32:13,670] [builder.py:651]            [DEBUG]    | Value: Golden Globes Awards                                                                        |
+[2022-11-16 20:32:13,670] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,670] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:32:13,670] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=golden_globe_winner&sort=moviemeter,asc |
+[2022-11-16 20:32:13,849] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,851] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:32:13,851] [builder.py:651]            [DEBUG]    | Value: 1995 Golden Globe Winners.                                                                  |
+[2022-11-16 20:32:13,851] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,851] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:32:13,851] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:32:13,851] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,851] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:32:13,852] [builder.py:651]            [DEBUG]    | Value: !16_Golden Globe 1995                                                                       |
+[2022-11-16 20:32:13,852] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:13,852] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:32:13,852] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1995.jpg |
+[2022-11-16 20:32:14,016] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:14,017] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:32:14,017] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:32:14,021] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:14,021] [plex.py:838]               [DEBUG]    | Looking for: Golden Globe 1995                                                                     |
+[2022-11-16 20:32:14,021] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,021] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:596]  [INFO]     |=============================== Running Golden Globe 1995 Collection ===============================|
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=1995-01-01,1995-12-31&groups=golden_globe_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:32:14,022] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,023] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:32:14,025] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:14,025] [builder.py:1575]           [DEBUG]    | 17 IDs Found                                                                                       |
+[2022-11-16 20:32:14,025] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:32:14,037] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,037] [builder.py:2159]           [INFO]     |============================== Adding to Golden Globe 1995 Collection ==============================|
+[2022-11-16 20:32:14,038] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:14,038] [builder.py:2174]           [INFO]     | 1/2 | Golden Globe 1995 Collection | + | Pocahontas (1995)                                         |
+[2022-11-16 20:32:14,157] [builder.py:2174]           [INFO]     | 2/2 | Golden Globe 1995 Collection | + | Babe (1995)                                               |
+[2022-11-16 20:32:17,733] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:17,733] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:32:17,733] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:17,733] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:32:17,733] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:17,759] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Braveheart (1995) (TMDb: 197)                                   |
+[2022-11-16 20:32:17,769] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Casino (1995) (TMDb: 524)                                       |
+[2022-11-16 20:32:17,781] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Sense and Sensibility (1995) (TMDb: 4584)                       |
+[2022-11-16 20:32:17,792] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Twelve Monkeys (1995) (TMDb: 63)                                |
+[2022-11-16 20:32:17,803] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Leaving Las Vegas (1995) (TMDb: 451)                            |
+[2022-11-16 20:32:17,820] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Get Shorty (1995) (TMDb: 8012)                                  |
+[2022-11-16 20:32:17,832] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | To Die For (1995) (TMDb: 577)                                   |
+[2022-11-16 20:32:17,855] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | A Walk in the Clouds (1995) (TMDb: 9560)                        |
+[2022-11-16 20:32:17,868] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Mighty Aphrodite (1995) (TMDb: 11448)                           |
+[2022-11-16 20:32:18,074] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Citizen X (1995) (TMDb: 12554)                                  |
+[2022-11-16 20:32:18,208] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Indictment: The McMartin Trial (1995) (TMDb: 46725)             |
+[2022-11-16 20:32:18,415] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | A Streetcar Named Desire (1995) (TMDb: 133021)                  |
+[2022-11-16 20:32:18,659] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Truman (1995) (TMDb: 16901)                                     |
+[2022-11-16 20:32:18,682] [builder.py:2321]           [INFO]     | Golden Globe 1995 Collection | ? | Les Miserables (1995) (TMDb: 48750)                             |
+[2022-11-16 20:32:18,683] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:18,683] [builder.py:2327]           [INFO]     | 14 Movies Missing                                                                                  |
+[2022-11-16 20:32:21,666] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:21,666] [builder.py:2528]           [INFO]     |========================= Updating Details of Golden Globe 1995 Collection =========================|
+[2022-11-16 20:32:21,666] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:21,673] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | 1995 Golden Globe Winners.
+                                                                 | Sort Title | !16_Golden Globe 1995
+                                                                 | Label | +Golden Globes Awards, +PMM
+[2022-11-16 20:32:23,404] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:32:23,404] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:32:25,927] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:32:27,780] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 20:32:27,790] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Golden Globe 1995
+[2022-11-16 20:32:27,790] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:32:27,790] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/golden/winner/1995.jpg
+[2022-11-16 20:32:28,102] [library.py:178]            [INFO]     | Detail: asset_directory updated Golden Globe 1995's poster to [File] config/Kids_Movies/Assets/Golden Globe 1995/poster.jpg
+[2022-11-16 20:32:28,263] [builder.py:2686]           [INFO]     | 
+[2022-11-16 20:32:28,263] [builder.py:2687]           [INFO]     |=============================== Sorting Golden Globe 1995 Collection ===============================|
+[2022-11-16 20:32:28,264] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 20:32:28,264] [builder.py:2704]           [INFO]     | Moving Pocahontas (1995) to the beginning                                                          |
+[2022-11-16 20:32:28,357] [builder.py:2704]           [INFO]     | Moving Babe (1995) after Pocahontas (1995)                                                         |
+[2022-11-16 20:32:28,443] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:32:28,443] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:32:28,443] [plex_meta_manager.py:737]  [INFO]     |                               Finished Golden Globe 1995 Collection                                |
+[2022-11-16 20:32:28,443] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-11-16 20:32:28,443] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

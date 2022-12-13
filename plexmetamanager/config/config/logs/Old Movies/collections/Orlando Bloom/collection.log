@@ -1,0 +1,81 @@
+[2022-11-16 22:09:35,113] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:09:35,113] [builder.py:193]            [INFO]     |                               Orlando Bloom Collection in Old Movies                               |
+[2022-11-16 22:09:35,114] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:09:35,114] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,114] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:09:35,114] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,114] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:09:35,114] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,116] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,116] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:09:35,116] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,116] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 114, 'sort_title': '++_Orlando Bloom', 'collection_order': 'release'} |
+[2022-11-16 22:09:35,116] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,117] [builder.py:223]            [INFO]     |=============================== Validating Orlando Bloom Attributes ================================|
+[2022-11-16 22:09:35,117] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,117] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:09:35,117] [builder.py:533]            [DEBUG]    | Value: 114                                                                                         |
+[2022-11-16 22:09:35,143] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,143] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:09:35,143] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:09:35,143] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,143] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:09:35,144] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:09:35,475] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,475] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:09:35,476] [builder.py:651]            [DEBUG]    | Value: ++_Orlando Bloom                                                                            |
+[2022-11-16 22:09:35,482] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,482] [builder.py:796]            [ERROR]    | Collection Error: Converting Orlando Bloom to a normal collection                                  |
+[2022-11-16 22:09:35,489] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,489] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:09:35,489] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,489] [plex_meta_manager.py:596]  [INFO]     |================================= Running Orlando Bloom Collection =================================|
+[2022-11-16 22:09:35,489] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,490] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:09:35,490] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:09:35,490] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Orlando Bloom", '?type=1&sort=titleSort&push=1&actor=57374&pop=1') |
+[2022-11-16 22:09:35,490] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,490] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Orlando Bloom
+[2022-11-16 22:09:35,524] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:09:35,524] [builder.py:1575]           [DEBUG]    | 10 IDs Found
+[2022-11-16 22:09:35,525] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:09:35,525] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:09:35,525] [builder.py:2159]           [INFO]     |================================ Adding to Orlando Bloom Collection ================================|
+[2022-11-16 22:09:35,525] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:35,525] [builder.py:2174]           [INFO]     |  1/10 | Orlando Bloom Collection | + | Black Hawk Down (2001)                                      |
+[2022-11-16 22:09:35,655] [builder.py:2174]           [INFO]     |  2/10 | Orlando Bloom Collection | + | The Hobbit: The Battle of the Five Armies (2014)            |
+[2022-11-16 22:09:35,758] [builder.py:2174]           [INFO]     |  3/10 | Orlando Bloom Collection | + | The Hobbit: The Desolation of Smaug (2013)                  |
+[2022-11-16 22:09:35,855] [builder.py:2174]           [INFO]     |  4/10 | Orlando Bloom Collection | + | The Lord of the Rings: The Fellowship of the Ring (2001)    |
+[2022-11-16 22:09:35,956] [builder.py:2174]           [INFO]     |  5/10 | Orlando Bloom Collection | + | The Lord of the Rings: The Return of the King (2003)        |
+[2022-11-16 22:09:36,053] [builder.py:2174]           [INFO]     |  6/10 | Orlando Bloom Collection | + | The Lord of the Rings: The Two Towers (2002)                |
+[2022-11-16 22:09:36,154] [builder.py:2174]           [INFO]     |  7/10 | Orlando Bloom Collection | + | Pirates of the Caribbean: At World's End (2007)             |
+[2022-11-16 22:09:36,304] [builder.py:2174]           [INFO]     |  8/10 | Orlando Bloom Collection | + | Pirates of the Caribbean: Dead Man's Chest (2006)           |
+[2022-11-16 22:09:36,412] [builder.py:2174]           [INFO]     |  9/10 | Orlando Bloom Collection | + | Pirates of the Caribbean: Dead Men Tell No Tales (2017)     |
+[2022-11-16 22:09:36,510] [builder.py:2174]           [INFO]     | 10/10 | Orlando Bloom Collection | + | Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
+[2022-11-16 22:09:39,871] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:39,871] [builder.py:2196]           [INFO]     | 10 Movies Processed 10 Movies Added                                                                |
+[2022-11-16 22:09:39,877] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:39,877] [builder.py:2528]           [INFO]     |=========================== Updating Details of Orlando Bloom Collection ===========================|
+[2022-11-16 22:09:39,877] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:09:39,884] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Orlando Jonathan Blanchard Copeland Bloom (born 13 January 1977) is an English actor. He made his breakthrough as the character Legolas in The Lord of the Rings film series, a role he reprised in The Hobbit film series. He gained further notice appearing in epic fantasy, historical, and adventure films, notably as Will Turner in the Pirates of the Caribbean film series.
+                                                                 | 
+                                                                 | Bloom appeared in Hollywood films such as Paris in Troy (2004) and Balian de Ibelin in Kingdom of Heaven (2005). He stars in the Amazon Prime Video series Carnival Row (2019–present).
+                                                                 | 
+                                                                 | He made his professional stage debut in In Celebration at the Duke of York's Theatre in the West End in 2007 and starred in a Broadway adaption of Romeo and Juliet in 2013. In 2009, Bloom was named a UNICEF Goodwill Ambassador. In 2015 he received the BAFTA Britannia Humanitarian Award.
+                                                                 | Sort Title | ++_Orlando Bloom
+                                                                 | Label | +PMM
+[2022-11-16 22:09:41,489] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:09:41,489] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:09:41,491] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:09:41,491] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/kKWJlX2tcjqceSfUxnV7Jle5Kt.jpg
+[2022-11-16 22:09:41,634] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/kKWJlX2tcjqceSfUxnV7Jle5Kt.jpg
+[2022-11-16 22:09:41,698] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:09:41,698] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:09:41,698] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Orlando Bloom Collection                                  |
+[2022-11-16 22:09:41,698] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-16 22:09:41,698] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

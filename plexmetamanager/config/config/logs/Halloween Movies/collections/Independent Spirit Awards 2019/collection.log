@@ -1,0 +1,145 @@
+[2022-11-16 18:54:11,427] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:11,427] [builder.py:193]            [INFO]     |                   Independent Spirit Awards 2019 Collection in Halloween Movies                    |
+[2022-11-16 18:54:11,427] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:54:11,428] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,428] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:54:11,428] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,428] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 18:54:11,429] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,430] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:54:11,432] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,434] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:54:11,436] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,440] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:54:11,441] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,447] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,447] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 18:54:11,481] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:54:11,482] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,495] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:54:11,496] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,503] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,503] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:54:11,504] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,504] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2019-independent-spirits', 'summary': '2019 Independent Spirit Awards.', 'name': 'Independent Spirit Awards 2019', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Independent Spirit Awards 2019', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/spirit/2019.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 18:54:11,504] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,504] [builder.py:223]            [INFO]     |======================= Validating Independent Spirit Awards 2019 Attributes =======================|
+[2022-11-16 18:54:11,505] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,505] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:54:11,505] [builder.py:230]            [DEBUG]    | Value: Independent Spirit Awards 2019                                                              |
+[2022-11-16 18:54:11,505] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,505] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 18:54:11,505] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 18:54:11,505] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,505] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:54:11,506] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:54:11,506] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,506] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:54:11,506] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:54:11,506] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,506] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:54:11,506] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:54:11,506] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,506] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 18:54:11,507] [builder.py:651]            [DEBUG]    | Value: Independent Spirit Awards Awards                                                            |
+[2022-11-16 18:54:11,507] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,507] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 18:54:11,507] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2019-independent-spirits                                 |
+[2022-11-16 18:54:11,549] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,549] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:54:11,550] [builder.py:651]            [DEBUG]    | Value: 2019 Independent Spirit Awards.                                                             |
+[2022-11-16 18:54:11,550] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,550] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:54:11,550] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:54:11,550] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,550] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:54:11,550] [builder.py:651]            [DEBUG]    | Value: !16_Independent Spirit Awards 2019                                                          |
+[2022-11-16 18:54:11,550] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,550] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:54:11,550] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/spirit/2019.jpg |
+[2022-11-16 18:54:11,663] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,663] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:54:11,664] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:54:11,700] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,700] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:54:11,700] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,700] [plex_meta_manager.py:596]  [INFO]     |======================== Running Independent Spirit Awards 2019 Collection =========================|
+[2022-11-16 18:54:11,701] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,701] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:54:11,701] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,701] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2019-independent-spirits                   |
+[2022-11-16 18:54:11,702] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,703] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 18:54:11,706] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,706] [builder.py:1575]           [DEBUG]    | 44 IDs Found                                                                                       |
+[2022-11-16 18:54:11,706] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:54:11,707] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,707] [builder.py:2159]           [INFO]     |======================= Adding to Independent Spirit Awards 2019 Collection ========================|
+[2022-11-16 18:54:11,707] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,708] [builder.py:2174]           [INFO]     | 1/2 | Independent Spirit Awards 2019 Collection | = | Hereditary (2018)                            |
+[2022-11-16 18:54:11,708] [builder.py:2174]           [INFO]     | 2/2 | Independent Spirit Awards 2019 Collection | = | Mandy (2018)                                 |
+[2022-11-16 18:54:11,708] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,708] [builder.py:2196]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-11-16 18:54:11,708] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,708] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:54:11,709] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:11,934] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | You Were Never Really Here (2017) (TMDb: 398181)   |
+[2022-11-16 18:54:11,960] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Leave No Trace (2018) (TMDb: 443463)               |
+[2022-11-16 18:54:11,971] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Eighth Grade (2018) (TMDb: 489925)                 |
+[2022-11-16 18:54:11,988] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | First Reformed (2018) (TMDb: 458737)               |
+[2022-11-16 18:54:12,007] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | If Beale Street Could Talk (2018) (TMDb: 465914)   |
+[2022-11-16 18:54:12,020] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Wildlife (2018) (TMDb: 417812)                     |
+[2022-11-16 18:54:12,031] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | The Tale (2018) (TMDb: 369523)                     |
+[2022-11-16 18:54:12,042] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Sorry to Bother You (2018) (TMDb: 424781)          |
+[2022-11-16 18:54:12,063] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | We the Animals (2018) (TMDb: 490000)               |
+[2022-11-16 18:54:12,078] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Private Life (2018) (TMDb: 458342)                 |
+[2022-11-16 18:54:12,095] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Searching (2018) (TMDb: 489999)                    |
+[2022-11-16 18:54:12,106] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Blindspotting (2018) (TMDb: 489930)                |
+[2022-11-16 18:54:12,116] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Sócrates (2018) (TMDb: 544355)                     |
+[2022-11-16 18:54:12,129] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | The Wife (2018) (TMDb: 340613)                     |
+[2022-11-16 18:54:12,140] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Madeline's Madeline (2018) (TMDb: 468735)          |
+[2022-11-16 18:54:12,220] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Support the Girls (2018) (TMDb: 456086)            |
+[2022-11-16 18:54:12,232] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | BlacKkKlansman (2018) (TMDb: 487558)               |
+[2022-11-16 18:54:12,244] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Monsters and Men (2018) (TMDb: 489934)             |
+[2022-11-16 18:54:12,255] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Can You Ever Forgive Me? (2018) (TMDb: 401847)     |
+[2022-11-16 18:54:12,267] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Nancy (2018) (TMDb: 480853)                        |
+[2022-11-16 18:54:12,277] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | A Bread Factory: Part One (2018) (TMDb: 553045)    |
+[2022-11-16 18:54:12,289] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Colette (2018) (TMDb: 454652)                      |
+[2022-11-16 18:54:12,301] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Thoroughbreds (2018) (TMDb: 397722)                |
+[2022-11-16 18:54:12,312] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Blame (2018) (TMDb: 422128)                        |
+[2022-11-16 18:54:12,324] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Suspiria (2018) (TMDb: 361292)                     |
+[2022-11-16 18:54:12,335] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | mid90s (2018) (TMDb: 437586)                       |
+[2022-11-16 18:54:12,349] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | American Animals (2018) (TMDb: 489931)             |
+[2022-11-16 18:54:12,366] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Roma (2018) (TMDb: 426426)                         |
+[2022-11-16 18:54:12,380] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | The Favourite (2018) (TMDb: 375262)                |
+[2022-11-16 18:54:12,396] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Happy as Lazzaro (2018) (TMDb: 481432)             |
+[2022-11-16 18:54:12,409] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Shoplifters (2018) (TMDb: 505192)                  |
+[2022-11-16 18:54:12,427] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Burning (2018) (TMDb: 491584)                      |
+[2022-11-16 18:54:12,445] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Won't You Be My Neighbor? (2018) (TMDb: 490003)    |
+[2022-11-16 18:54:12,459] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Minding the Gap (2018) (TMDb: 489985)              |
+[2022-11-16 18:54:12,471] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Of Fathers and Sons (2017) (TMDb: 488740)          |
+[2022-11-16 18:54:12,485] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Shirkers (2018) (TMDb: 489994)                     |
+[2022-11-16 18:54:12,500] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | On Her Shoulders (2018) (TMDb: 490816)             |
+[2022-11-16 18:54:12,511] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Hale County This Morning, This Evening (2018) (TMDb: 490785) |
+[2022-11-16 18:54:12,538] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Thunder Road (2018) (TMDb: 502422)                 |
+[2022-11-16 18:54:12,562] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | On the Seventh Day (2018) (TMDb: 458187)           |
+[2022-11-16 18:54:12,583] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Never Goin' Back (2018) (TMDb: 490005)             |
+[2022-11-16 18:54:12,597] [builder.py:2321]           [INFO]     | Independent Spirit Awards 2019 Collection | ? | Lemonade (2018) (TMDb: 500824)                     |
+[2022-11-16 18:54:12,598] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:12,599] [builder.py:2327]           [INFO]     | 42 Movies Missing                                                                                  |
+[2022-11-16 18:54:16,848] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:16,849] [builder.py:2528]           [INFO]     |================== Updating Details of Independent Spirit Awards 2019 Collection ===================|
+[2022-11-16 18:54:16,849] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:16,881] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:54:16,883] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:54:16,883] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/spirit/2019.jpg |
+[2022-11-16 18:54:16,883] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Independent Spirit Awards 2019/poster.jpg', 'prefix': "Independent Spirit Awards 2019's ", 'is_poster': True, 'is_url': False, 'compare': 254375, 'message': "Independent Spirit Awards 2019's poster to [File] /config/Halloween_Movies/Assets/Independent Spirit Awards 2019/poster.jpg"} |
+[2022-11-16 18:54:16,884] [library.py:180]            [INFO]     | Detail: Independent Spirit Awards 2019's poster update not needed                                  |
+[2022-11-16 18:54:16,925] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:16,926] [builder.py:2687]           [INFO]     |======================== Sorting Independent Spirit Awards 2019 Collection =========================|
+[2022-11-16 18:54:16,926] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:54:16,926] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:54:16,927] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:54:16,927] [plex_meta_manager.py:737]  [INFO]     |                         Finished Independent Spirit Awards 2019 Collection                         |
+[2022-11-16 18:54:16,928] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-16 18:54:16,928] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,77 @@
+[2022-11-16 22:12:18,457] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:12:18,457] [builder.py:193]            [INFO]     |                              Tommy Lee Jones Collection in Old Movies                              |
+[2022-11-16 22:12:18,457] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:12:18,457] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,458] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:12:18,458] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,458] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:12:18,458] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,460] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,460] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:12:18,460] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,461] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2176, 'sort_title': '++_Tommy Lee Jones', 'collection_order': 'release'} |
+[2022-11-16 22:12:18,461] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,462] [builder.py:223]            [INFO]     |============================== Validating Tommy Lee Jones Attributes ===============================|
+[2022-11-16 22:12:18,463] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,464] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:12:18,464] [builder.py:533]            [DEBUG]    | Value: 2176                                                                                        |
+[2022-11-16 22:12:18,477] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,478] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:12:18,478] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:12:18,478] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,478] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:12:18,479] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:12:18,880] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,880] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:12:18,880] [builder.py:651]            [DEBUG]    | Value: ++_Tommy Lee Jones                                                                          |
+[2022-11-16 22:12:18,889] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,889] [builder.py:796]            [ERROR]    | Collection Error: Converting Tommy Lee Jones to a normal collection                                |
+[2022-11-16 22:12:18,896] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,897] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:12:18,897] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,897] [plex_meta_manager.py:596]  [INFO]     |================================ Running Tommy Lee Jones Collection ================================|
+[2022-11-16 22:12:18,897] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,898] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:12:18,898] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:12:18,898] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Tommy Lee Jones", '?type=1&sort=titleSort&push=1&actor=46412&pop=1') |
+[2022-11-16 22:12:18,899] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,899] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Tommy Lee Jones
+[2022-11-16 22:12:18,925] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:12:18,925] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-16 22:12:18,925] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:12:18,926] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:12:18,926] [builder.py:2159]           [INFO]     |=============================== Adding to Tommy Lee Jones Collection ===============================|
+[2022-11-16 22:12:18,927] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:12:18,927] [builder.py:2174]           [INFO]     | 1/6 | Tommy Lee Jones Collection | + | Batman Forever (1995)                                       |
+[2022-11-16 22:12:19,140] [builder.py:2174]           [INFO]     | 2/6 | Tommy Lee Jones Collection | + | Jason Bourne (2016)                                         |
+[2022-11-16 22:12:19,270] [builder.py:2174]           [INFO]     | 3/6 | Tommy Lee Jones Collection | + | Men in Black (1997)                                         |
+[2022-11-16 22:12:19,417] [builder.py:2174]           [INFO]     | 4/6 | Tommy Lee Jones Collection | + | Men in Black 3 (2012)                                       |
+[2022-11-16 22:12:21,652] [builder.py:2174]           [INFO]     | 5/6 | Tommy Lee Jones Collection | + | Men in Black II (2002)                                      |
+[2022-11-16 22:12:21,755] [builder.py:2174]           [INFO]     | 6/6 | Tommy Lee Jones Collection | + | Volcano (1997)                                              |
+[2022-11-16 22:12:26,592] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:12:26,592] [builder.py:2196]           [INFO]     | 6 Movies Processed 6 Movies Added                                                                  |
+[2022-11-16 22:12:26,598] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:12:26,598] [builder.py:2528]           [INFO]     |========================== Updating Details of Tommy Lee Jones Collection ==========================|
+[2022-11-16 22:12:26,598] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:12:26,604] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Tommy Lee Jones (born September 15, 1946) is an American actor and film director.
+                                                                 | 
+                                                                 | He has received three Academy Award nominations, winning one as Best Supporting Actor for the 1993 thriller film The Fugitive. His notable film roles include federal marshal Samuel Gerard in The Fugitive and its sequel U.S. Marshals, the villain "Two-Face" in Batman Forever, terrorist William Strannix in Under Siege, Agent K in the Men in Black films, former Texas Ranger Woodrow F. Call in Lonesome Dove, Ed Tom Bell in No Country for Old Men, a Texas Ranger in Man of the House and rancher Pete Perkins in The Three Burials of Melquiades Estrada. Jones has also portrayed real-life figures such as businessman Howard Hughes, executed murderer Gary Gilmore, Oliver Lynn in Coal Miner's Daughter and baseball great Ty Cobb.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Tommy Lee Jones, licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Tommy Lee Jones
+                                                                 | Label | +PMM
+[2022-11-16 22:12:28,231] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:12:28,231] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:12:28,232] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:12:28,232] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/zixpaPmOonRh1I3TWgxDkeGxkrv.jpg
+[2022-11-16 22:12:28,316] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/zixpaPmOonRh1I3TWgxDkeGxkrv.jpg
+[2022-11-16 22:12:28,386] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:12:28,387] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:12:28,387] [plex_meta_manager.py:737]  [INFO]     |                                Finished Tommy Lee Jones Collection                                 |
+[2022-11-16 22:12:28,387] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-11-16 22:12:28,387] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

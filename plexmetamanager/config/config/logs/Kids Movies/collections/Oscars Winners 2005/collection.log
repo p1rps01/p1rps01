@@ -1,0 +1,101 @@
+[2022-11-16 20:36:25,405] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:36:25,405] [builder.py:193]            [INFO]     |                           Oscars Winners 2005 Collection in Kids Movies                            |
+[2022-11-16 20:36:25,405] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:36:25,405] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,405] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:36:25,405] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,406] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 20:36:25,406] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,407] [meta.py:210]               [DEBUG]    |========================================== Template imdb ===========================================|
+[2022-11-16 20:36:25,408] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,410] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:36:25,411] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,416] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:36:25,417] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,439] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 20:36:25,440] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,451] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 20:36:25,452] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,458] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,459] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:36:25,459] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,459] [meta.py:515]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=oscar_winner&sort=moviemeter,asc', 'summary': 'Academy Awards (Oscars) Winners for 2005.', 'name': 'Oscars Winners 2005', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Oscars Winners 2005', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2005.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 20:36:25,459] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,459] [builder.py:223]            [INFO]     |============================ Validating Oscars Winners 2005 Attributes =============================|
+[2022-11-16 20:36:25,459] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,459] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:36:25,459] [builder.py:230]            [DEBUG]    | Value: Oscars Winners 2005                                                                         |
+[2022-11-16 20:36:25,459] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,460] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 20:36:25,460] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 20:36:25,460] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,460] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:36:25,460] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:36:25,460] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,460] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 20:36:25,460] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 20:36:25,460] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,460] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:36:25,461] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 20:36:25,461] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,461] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:36:25,461] [builder.py:651]            [DEBUG]    | Value: Oscars Winners Awards                                                                       |
+[2022-11-16 20:36:25,461] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,462] [builder.py:650]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-16 20:36:25,462] [builder.py:651]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=oscar_winner&sort=moviemeter,asc |
+[2022-11-16 20:36:25,685] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,687] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:36:25,687] [builder.py:651]            [DEBUG]    | Value: Academy Awards (Oscars) Winners for 2005.                                                   |
+[2022-11-16 20:36:25,687] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,688] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:36:25,688] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:36:25,688] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,688] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:36:25,688] [builder.py:651]            [DEBUG]    | Value: !16_Oscars Winners 2005                                                                     |
+[2022-11-16 20:36:25,689] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,689] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:36:25,689] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/oscars/winner/2005.jpg |
+[2022-11-16 20:36:25,855] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,855] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 20:36:25,856] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 20:36:25,862] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,862] [plex.py:838]               [DEBUG]    | Looking for: Oscars Winners 2005                                                                   |
+[2022-11-16 20:36:25,862] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,862] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:36:25,862] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,862] [plex_meta_manager.py:596]  [INFO]     |============================== Running Oscars Winners 2005 Collection ==============================|
+[2022-11-16 20:36:25,862] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,863] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 20:36:25,863] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,863] [plex_meta_manager.py:613]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2005-01-01,2005-12-31&groups=oscar_winner&sort=moviemeter,asc', 'limit': 0} |
+[2022-11-16 20:36:25,863] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,864] [builder.py:1523]           [INFO]     | Builder: imdb_list loaded from Cache                                                               |
+[2022-11-16 20:36:25,867] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,867] [builder.py:1575]           [DEBUG]    | 15 IDs Found                                                                                       |
+[2022-11-16 20:36:25,867] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 20:36:25,886] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,886] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Kids Movies =============================|
+[2022-11-16 20:36:25,886] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:25,914] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | King Kong (2005) (TMDb: 254)                                  |
+[2022-11-16 20:36:25,927] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Memoirs of a Geisha (2005) (TMDb: 1904)                       |
+[2022-11-16 20:36:25,940] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Brokeback Mountain (2005) (TMDb: 142)                         |
+[2022-11-16 20:36:25,954] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Walk the Line (2005) (TMDb: 69)                               |
+[2022-11-16 20:36:25,975] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | The Constant Gardener (2005) (TMDb: 1985)                     |
+[2022-11-16 20:36:25,997] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Capote (2005) (TMDb: 398)                                     |
+[2022-11-16 20:36:26,021] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Wallace & Gromit: The Curse of the Were-Rabbit (2005) (TMDb: 533) |
+[2022-11-16 20:36:26,035] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Syriana (2005) (TMDb: 231)                                    |
+[2022-11-16 20:36:26,048] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Hustle & Flow (2005) (TMDb: 10476)                            |
+[2022-11-16 20:36:26,060] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | March of the Penguins (2005) (TMDb: 1667)                     |
+[2022-11-16 20:36:26,078] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | Tsotsi (2005) (TMDb: 868)                                     |
+[2022-11-16 20:36:26,091] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | West Bank Story (2005) (TMDb: 31073)                          |
+[2022-11-16 20:36:26,103] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | The Moon and the Son: An Imagined Conversation (2005) (TMDb: 44360) |
+[2022-11-16 20:36:26,117] [builder.py:2321]           [INFO]     | Oscars Winners 2005 Collection | ? | A Note of Triumph: The Golden Age of Norman Corwin (2005) (TMDb: 245013) |
+[2022-11-16 20:36:26,117] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 20:36:26,117] [builder.py:2327]           [INFO]     | 14 Movies Missing                                                                                  |
+[2022-11-16 20:36:30,073] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Oscars Winners 2005 Collection                                   |
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:737]  [INFO]     |                              Finished Oscars Winners 2005 Collection                               |
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-16 20:36:30,074] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

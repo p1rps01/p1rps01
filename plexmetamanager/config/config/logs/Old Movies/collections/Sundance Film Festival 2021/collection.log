@@ -1,0 +1,206 @@
+[2022-11-16 22:30:33,617] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:30:33,617] [builder.py:193]            [INFO]     |                        Sundance Film Festival 2021 Collection in Old Movies                        |
+[2022-11-16 22:30:33,617] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:30:33,617] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,618] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:30:33,618] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,618] [meta.py:210]               [DEBUG]    |================================== Template use_year_collections ===================================|
+[2022-11-16 22:30:33,618] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,619] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 22:30:33,620] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,621] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:30:33,621] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,624] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:30:33,625] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,628] [meta.py:506]               [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,628] [meta.py:507]               [WARNING]  | Template Warning: template attribute: trakt_list from shared skipped                               |
+[2022-11-16 22:30:33,640] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:30:33,641] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,647] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:30:33,647] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,651] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,651] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:30:33,651] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,651] [meta.py:515]               [DEBUG]    | {'trakt_list': 'https://trakt.tv/users/pjcob/lists/2021-sundance', 'summary': 'Sundance Film Festival of 2021.', 'name': 'Sundance Film Festival 2021', 'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Sundance Film Festival 2021', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2021.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2022-11-16 22:30:33,652] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,652] [builder.py:223]            [INFO]     |======================== Validating Sundance Film Festival 2021 Attributes =========================|
+[2022-11-16 22:30:33,652] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,652] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:30:33,652] [builder.py:230]            [DEBUG]    | Value: Sundance Film Festival 2021                                                                 |
+[2022-11-16 22:30:33,652] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,652] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:30:33,652] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:30:33,652] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,652] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:30:33,653] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:30:33,653] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,653] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:30:33,653] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:30:33,653] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,653] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:30:33,653] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:30:33,653] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,653] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 22:30:33,653] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival                                                                      |
+[2022-11-16 22:30:33,654] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,654] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:30:33,654] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/pjcob/lists/2021-sundance                                            |
+[2022-11-16 22:30:33,708] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,709] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:30:33,709] [builder.py:651]            [DEBUG]    | Value: Sundance Film Festival of 2021.                                                             |
+[2022-11-16 22:30:33,709] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,709] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:30:33,709] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:30:33,709] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,709] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:30:33,709] [builder.py:651]            [DEBUG]    | Value: !16_Sundance Film Festival 2021                                                             |
+[2022-11-16 22:30:33,710] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,710] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:30:33,710] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/sundance/2021.jpg |
+[2022-11-16 22:30:33,819] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,819] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:30:33,820] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:30:33,829] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,829] [plex.py:838]               [DEBUG]    | Looking for: Sundance Film Festival 2021                                                           |
+[2022-11-16 22:30:33,830] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,830] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:30:33,831] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,831] [plex_meta_manager.py:596]  [INFO]     |========================== Running Sundance Film Festival 2021 Collection ==========================|
+[2022-11-16 22:30:33,832] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,832] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:30:33,832] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,833] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/pjcob/lists/2021-sundance                              |
+[2022-11-16 22:30:33,834] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,836] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:30:33,841] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,842] [builder.py:1575]           [DEBUG]    | 118 IDs Found                                                                                      |
+[2022-11-16 22:30:33,842] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:30:33,843] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:33,845] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:30:33,846] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:34,082] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | On The Count Of Three (2022) (TMDb: 776512)           |
+[2022-11-16 22:30:34,093] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Jockey (2021) (TMDb: 776511)                          |
+[2022-11-16 22:30:34,104] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Together Together (2021) (TMDb: 776515)               |
+[2022-11-16 22:30:34,116] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Passing (2021) (TMDb: 541524)                         |
+[2022-11-16 22:30:34,129] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Wild Indian (2021) (TMDb: 656991)                     |
+[2022-11-16 22:30:34,349] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Superior (2022) (TMDb: 776514)                        |
+[2022-11-16 22:30:34,629] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | I Was a Simple Man (2021) (TMDb: 632311)              |
+[2022-11-16 22:30:34,865] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | John and the Hole (2021) (TMDb: 682532)               |
+[2022-11-16 22:30:35,070] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Mayday (2021) (TMDb: 672521)                          |
+[2022-11-16 22:30:35,080] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Hive (2021) (TMDb: 776541)                            |
+[2022-11-16 22:30:35,095] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Luzzu (2021) (TMDb: 776544)                           |
+[2022-11-16 22:30:35,262] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | One for the Road (2022) (TMDb: 776545)                |
+[2022-11-16 22:30:35,403] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Pink Cloud (2021) (TMDb: 776490)                  |
+[2022-11-16 22:30:35,416] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Pleasure (2021) (TMDb: 592695)                        |
+[2022-11-16 22:30:35,433] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | El Planeta (2021) (TMDb: 776536)                      |
+[2022-11-16 22:30:35,668] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Prime Time (2021) (TMDb: 745078)                      |
+[2022-11-16 22:30:35,938] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Dog Who Wouldn't Be Quiet (2021) (TMDb: 638784)   |
+[2022-11-16 22:30:36,056] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Human Factors (2022) (TMDb: 776542)                   |
+[2022-11-16 22:30:36,211] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Fire in the Mountains (2022) (TMDb: 776538)           |
+[2022-11-16 22:30:36,224] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Summer of Soul (...Or, When the Revolution Could Not Be Televised) (2021) (TMDb: 776527) |
+[2022-11-16 22:30:36,348] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Users (2021) (TMDb: 776530)                           |
+[2022-11-16 22:30:36,523] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Homeroom (2021) (TMDb: 776523)                        |
+[2022-11-16 22:30:36,657] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Cusp (2021) (TMDb: 776522)                            |
+[2022-11-16 22:30:36,861] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | All Light, Everywhere (2021) (TMDb: 574086)           |
+[2022-11-16 22:30:36,978] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Rebel Hearts (2021) (TMDb: 776524)                    |
+[2022-11-16 22:30:36,996] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Rita Moreno: Just a Girl Who Decided to Go for It (2021) (TMDb: 776526) |
+[2022-11-16 22:30:37,007] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Try Harder! (2021) (TMDb: 776528)                     |
+[2022-11-16 22:30:37,284] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Ailey (2021) (TMDb: 776519)                           |
+[2022-11-16 22:30:37,421] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | At the Ready (2021) (TMDb: 776520)                    |
+[2022-11-16 22:30:37,435] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Flee (2021) (TMDb: 680813)                            |
+[2022-11-16 22:30:37,686] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Writing with Fire (2021) (TMDb: 776557)               |
+[2022-11-16 22:30:37,700] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Sabaya (2021) (TMDb: 776555)                          |
+[2022-11-16 22:30:37,891] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | President (2021) (TMDb: 776554)                       |
+[2022-11-16 22:30:37,903] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Playing with Sharks (2021) (TMDb: 776553)             |
+[2022-11-16 22:30:38,139] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Inconvenient Indian (2020) (TMDb: 592640)             |
+[2022-11-16 22:30:38,319] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Taming the Garden (2022) (TMDb: 776556)               |
+[2022-11-16 22:30:38,545] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Misha and the Wolves (2021) (TMDb: 776552)            |
+[2022-11-16 22:30:38,722] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Most Beautiful Boy in the World (2021) (TMDb: 730028) |
+[2022-11-16 22:30:38,751] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Faya Dayi (2021) (TMDb: 776551)                       |
+[2022-11-16 22:30:38,987] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Son of Monarchs (2021) (TMDb: 757514)                 |
+[2022-11-16 22:30:38,998] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Ma Belle, My Beauty (2021) (TMDb: 776586)             |
+[2022-11-16 22:30:39,010] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Cryptozoo (2021) (TMDb: 776660)                       |
+[2022-11-16 22:30:39,020] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Strawberry Mansion (2021) (TMDb: 776561)              |
+[2022-11-16 22:30:39,326] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | R#J (2021) (TMDb: 713377)                             |
+[2022-11-16 22:30:39,532] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | We’re All Going to the World’s Fair (2022) (TMDb: 776501) |
+[2022-11-16 22:30:39,684] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | First Date (2021) (TMDb: 776583)                      |
+[2022-11-16 22:30:39,849] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Searchers (2021) (TMDb: 776580)                       |
+[2022-11-16 22:30:40,051] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Blazing World (2021) (TMDb: 776506)               |
+[2022-11-16 22:30:40,063] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Judas and the Black Messiah (2021) (TMDb: 583406)     |
+[2022-11-16 22:30:40,255] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Land (2021) (TMDb: 598896)                            |
+[2022-11-16 22:30:40,267] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Mass (2021) (TMDb: 423333)                            |
+[2022-11-16 22:30:40,402] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Marvelous and the Black Hole (2022) (TMDb: 685411)    |
+[2022-11-16 22:30:40,778] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Prisoners of the Ghostland (2021) (TMDb: 523638)      |
+[2022-11-16 22:30:40,989] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | In the Earth (2021) (TMDb: 748853)                    |
+[2022-11-16 22:30:41,223] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | How It Ends (2021) (TMDb: 776559)                     |
+[2022-11-16 22:30:41,406] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Cursed (2021) (TMDb: 630392)                      |
+[2022-11-16 22:30:41,426] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | In the Same Breath (2021) (TMDb: 776518)              |
+[2022-11-16 22:30:41,438] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Sparks Brothers (2021) (TMDb: 776485)             |
+[2022-11-16 22:30:41,454] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Street Gang: How We Got to Sesame Street (2021) (TMDb: 476044) |
+[2022-11-16 22:30:41,595] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Bring Your Own Brigade (2021) (TMDb: 776596)          |
+[2022-11-16 22:30:41,742] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Amy Tan: Unintended Memoir (2021) (TMDb: 776593)      |
+[2022-11-16 22:30:41,760] [builder.py:2315]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 776604                                                      |
+[2022-11-16 22:30:41,774] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | My Name Is Pauli Murray (2021) (TMDb: 776589)         |
+[2022-11-16 22:30:41,789] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Night of the Kings (2021) (TMDb: 660958)              |
+[2022-11-16 22:30:41,805] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The World to Come (2021) (TMDb: 506281)               |
+[2022-11-16 22:30:41,993] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Coming Home in the Dark (2021) (TMDb: 711963)         |
+[2022-11-16 22:30:42,234] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Knocking (2021) (TMDb: 776565)                        |
+[2022-11-16 22:30:42,559] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Censor (2021) (TMDb: 663866)                          |
+[2022-11-16 22:30:42,787] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Violation (2020) (TMDb: 728874)                       |
+[2022-11-16 22:30:42,953] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Mother Schmuckers (2021) (TMDb: 776570)               |
+[2022-11-16 22:30:43,185] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | A Glitch in the Matrix (2021) (TMDb: 696109)          |
+[2022-11-16 22:30:43,319] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Lizard (2021) (TMDb: 751148)                          |
+[2022-11-16 22:30:43,572] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Touch of the Master's Hand (2021) (TMDb: 776723)  |
+[2022-11-16 22:30:43,727] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Bambirak (2021) (TMDb: 714083)                        |
+[2022-11-16 22:30:44,171] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Don't Go Tellin' Your Momma (2021) (TMDb: 776700)     |
+[2022-11-16 22:30:44,462] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Souvenir, Souvenir (2020) (TMDb: 738599)              |
+[2022-11-16 22:30:44,572] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Wiggle Room (2021) (TMDb: 776726)                     |
+[2022-11-16 22:30:44,765] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Criminals (2022) (TMDb: 775140)                   |
+[2022-11-16 22:30:45,008] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | We're Not Animals (2021) (TMDb: 776740)               |
+[2022-11-16 22:30:45,340] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Snowy (2021) (TMDb: 776756)                           |
+[2022-11-16 22:30:45,456] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Fire Next Time (2020) (TMDb: 715369)              |
+[2022-11-16 22:30:45,706] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Spirits and Rocks: An Azorean Myth (2020) (TMDb: 731329) |
+[2022-11-16 22:30:45,914] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | When We Were Bullies (2021) (TMDb: 776769)            |
+[2022-11-16 22:30:46,099] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Tears Teacher (2020) (TMDb: 776758)                   |
+[2022-11-16 22:30:46,288] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | i ran from it and was still in it (2021) (TMDb: 730561) |
+[2022-11-16 22:30:46,494] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Fourfold (2020) (TMDb: 742596)                    |
+[2022-11-16 22:30:46,510] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Like the Ones I Used to Know (2021) (TMDb: 776732)    |
+[2022-11-16 22:30:46,734] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Field Trip (2021) (TMDb: 776753)                  |
+[2022-11-16 22:30:46,834] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Ghost Dogs (2020) (TMDb: 741614)                      |
+[2022-11-16 22:30:47,063] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Unseen River (2020) (TMDb: 730501)                |
+[2022-11-16 22:30:47,266] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | My Own Landscapes (2020) (TMDb: 695020)               |
+[2022-11-16 22:30:47,455] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Little Miss Fate (2020) (TMDb: 712225)                |
+[2022-11-16 22:30:47,620] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | In the Air Tonight (2020) (TMDb: 724972)              |
+[2022-11-16 22:30:47,822] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | GNT (2020) (TMDb: 710016)                             |
+[2022-11-16 22:30:48,088] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Forever (2020) (TMDb: 753775)                         |
+[2022-11-16 22:30:48,405] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Doublespeak (2021) (TMDb: 725304)                     |
+[2022-11-16 22:30:48,511] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | BJ's Mobile Gift Shop (2021) (TMDb: 776694)           |
+[2022-11-16 22:30:48,692] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | KKUM (2020) (TMDb: 750144)                            |
+[2022-11-16 22:30:48,889] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Five Tiger (2021) (TMDb: 776730)                      |
+[2022-11-16 22:30:48,903] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | This Is the Way We Rise (2021) (TMDb: 776761)         |
+[2022-11-16 22:30:49,129] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Lata (2021) (TMDb: 750494)                            |
+[2022-11-16 22:30:49,387] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Raspberry (2021) (TMDb: 776706)                       |
+[2022-11-16 22:30:49,724] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Black Bodies (2020) (TMDb: 736780)                    |
+[2022-11-16 22:30:50,029] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Up at Night (2019) (TMDb: 681297)                     |
+[2022-11-16 22:30:50,299] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Yoruga (2021) (TMDb: 776727)                          |
+[2022-11-16 22:30:50,594] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | You Wouldn’t Understand (2021) (TMDb: 735410)         |
+[2022-11-16 22:30:50,687] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | White Wedding (2021) (TMDb: 776725)                   |
+[2022-11-16 22:30:50,932] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Mountain Cat (2020) (TMDb: 717746)                    |
+[2022-11-16 22:30:51,176] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Affected (2021) (TMDb: 715438)                    |
+[2022-11-16 22:30:51,283] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Ava from My Class (2020) (TMDb: 745919)               |
+[2022-11-16 22:30:51,308] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Unliveable (2020) (TMDb: 724986)                      |
+[2022-11-16 22:30:51,499] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Longest Dream I Remember (2021) (TMDb: 776737)    |
+[2022-11-16 22:30:51,690] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Flex (2020) (TMDb: 768682)                            |
+[2022-11-16 22:30:51,889] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Excuse Me, Miss, Miss, Miss (2019) (TMDb: 624362)     |
+[2022-11-16 22:30:52,073] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Trepanation (2021) (TMDb: 776745)                     |
+[2022-11-16 22:30:52,272] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | The Rifleman (2020) (TMDb: 750087)                    |
+[2022-11-16 22:30:52,501] [builder.py:2321]           [INFO]     | Sundance Film Festival 2021 Collection | ? | Dear Philadelphia (2021) (TMDb: 761645)               |
+[2022-11-16 22:30:52,502] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:30:52,503] [builder.py:2327]           [INFO]     | 116 Movies Missing                                                                                 |
+[2022-11-16 22:30:57,032] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:57,032] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Sundance Film Festival 2021 Collection                           |
+[2022-11-16 22:30:57,032] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:30:57,032] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:30:57,032] [plex_meta_manager.py:737]  [INFO]     |                          Finished Sundance Film Festival 2021 Collection                           |
+[2022-11-16 22:30:57,033] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2022-11-16 22:30:57,033] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

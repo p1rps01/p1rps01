@@ -1,0 +1,53 @@
+[2022-11-05 15:24:06,948] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:24:06,949] [builder.py:197]            [INFO]     |                           The Three Stooges Collection in Marvel Movies                            |
+[2022-11-05 15:24:06,949] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-05 15:24:06,952] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-05 15:24:06,952] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-05 15:24:06,953] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,953] [meta.py:128]               [DEBUG]    | Template Collection                                                                                |
+[2022-11-05 15:24:06,954] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Collection')])                                                        |
+[2022-11-05 15:24:06,955] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,958] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Collection'), ('collection_name', 'The Three Stooges'), ('mapping_name', 'The Three Stooges'), ('library_type', 'movie'), ('library_name', 'Marvel Movies'), ('name_encoded', 'Collection'), ('collection_name_encoded', 'The%20Three%20Stooges'), ('mapping_name_encoded', 'The%20Three%20Stooges'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Marvel%20Movies'), ('collection_sort', 'The Three Stooges')]) |
+[2022-11-05 15:24:06,958] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,958] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-05 15:24:06,958] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,958] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded']                           |
+[2022-11-05 15:24:06,959] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,960] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_summary': '<<summary>>', 'url_poster': '<<poster>>', 'sort_title': '+4_The Three Stooges', 'sync_mode': 'sync', 'collection_order': 'release'} |
+[2022-11-05 15:24:06,961] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,961] [builder.py:219]            [INFO]     |============================= Validating The Three Stooges Attributes ==============================|
+[2022-11-05 15:24:06,961] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,961] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 15:24:06,961] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 15:24:06,962] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,962] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 15:24:06,962] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 15:24:06,962] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:06,962] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-05 15:24:06,962] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/list/ls075972675/                                                      |
+[2022-11-05 15:24:09,498] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:09,499] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_movie                                                                      |
+[2022-11-05 15:24:09,499] [builder.py:632]            [DEBUG]    | Value: 76489                                                                                       |
+[2022-11-05 15:24:09,518] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:09,518] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-05 15:24:09,519] [builder.py:632]            [DEBUG]    | Value: The Three Stooges were an American vaudeville and comedy team active from 1922 until 1970, best known for their 190 short subject films by Columbia Pictures that have been regularly airing on television since 1958. |
+[2022-11-05 15:24:09,519] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-11-05 15:24:09,519] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 15:24:09,519] [builder.py:632]            [DEBUG]    | Value: <<summary>>                                                                                 |
+[2022-11-05 15:24:09,520] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 681, in __init__
+                                                                 |     self._summary(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 804, in _summary
+                                                                 |     self.summaries[method_name] = self.config.TMDb.get_movie_show_or_collection(util.regex_first_int(method_data, "TMDb ID"), self.library.is_movie).overview
+                                                                 |   File "/modules/util.py", line 311, in regex_first_int
+                                                                 |     raise Failed(f"Regex Error: Failed to parse {id_type} from {data}")
+                                                                 | modules.util.Failed: Regex Error: Failed to parse TMDb ID from <<summary>>
+                                                                 | 
+[2022-11-05 15:24:09,521] [plex_meta_manager.py:697]  [ERROR]    | Regex Error: Failed to parse TMDb ID from <<summary>>
+[2022-11-05 15:24:09,521] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-05 15:24:09,521] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-05 15:24:09,522] [plex_meta_manager.py:709]  [INFO]     |                               Finished The Three Stooges Collection                                |
+[2022-11-05 15:24:09,522] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-05 15:24:09,522] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

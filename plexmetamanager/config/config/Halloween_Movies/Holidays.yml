@@ -1,0 +1,51 @@
+##############################################################
+##                  Holiday Collections                     ##
+##                Created by JJJonesJr33                    ##
+##                      Version 2.0                         ##
+##############################################################
+##############################################################
+##                                                          ##
+##            User/Config Credits - Special Thanks          ##
+##                                                          ##
+##               Yozora, Bullmoose20, & Sohjiro             ##
+##   Glasti1, Hiren-Z, OhMyBahGosh, tuxpeople, cpt-kuesel   ##
+##      meisnate12, TheUnchainedZebra, Evil Tacctician      ##
+##                                                          ##
+##############################################################
+
+#######################
+##     Templates     ##
+#######################
+
+templates:
+    Holiday:
+        sort_title: +++++++_<<collection_name>>
+        url_poster: <<poster>>
+        collection_order: release.desc
+        collection_mode: hide
+        delete_not_scheduled: false
+        run_again: true
+        visible_home: true
+        visible_shared: true
+        sync_mode: sync
+
+#############################
+##       Collections       ##
+#############################
+
+# FYI: To set the collections on a schedule to where they don't show all year long uncomment "schedule" and and change "delete_not_scheduled:" to "true"
+
+collections:
+  Halloween:
+    template: {name: Holiday, holiday: "Halloween", poster: https://theposterdb.com/api/assets/212637}
+    # visible_home: range(10/01-10/31)
+    # visible_shared: range(10/01-10/31)
+    # schedule: range(10/01-10/31)
+    sort_title: +++++++_Halloween
+    trakt_list:
+      - https://trakt.tv/users/jjjonesjr33/lists/halloween
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
+    summary: This collection revolves around the plot involving Halloween.

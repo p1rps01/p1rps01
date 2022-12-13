@@ -1,0 +1,147 @@
+[2022-11-16 22:29:19,479] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:29:19,480] [builder.py:193]            [INFO]     |                            Venice Golden Lions Collection in Old Movies                            |
+[2022-11-16 22:29:19,481] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:29:19,481] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,482] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:29:19,483] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,484] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 22:29:19,484] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,485] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 22:29:19,486] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,512] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 22:29:19,513] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,525] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 22:29:19,526] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,534] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 22:29:19,535] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,539] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,539] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:29:19,539] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,539] [meta.py:515]               [DEBUG]    | {'allowed_library_types': ['movie'], 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Venice Golden Lions', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/venice/winner.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "The Venice Film Festival is the oldest film festival in the world. Founded 1932, the festival has since taken place every year in Venice, Italy. It is part of the Venice Biennale, a major biennial exhibition and festival for contemporary art. The festival's Leone d'Oro (Golden Lion) prize is awarded to the best film screened at the festival.", 'name': 'Venice Golden Lions'} |
+[2022-11-16 22:29:19,539] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,540] [builder.py:223]            [INFO]     |============================ Validating Venice Golden Lions Attributes =============================|
+[2022-11-16 22:29:19,540] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,540] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 22:29:19,540] [builder.py:230]            [DEBUG]    | Value: Venice Golden Lions                                                                         |
+[2022-11-16 22:29:19,540] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,540] [builder.py:237]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2022-11-16 22:29:19,540] [builder.py:240]            [DEBUG]    | Value: ['movie']                                                                                   |
+[2022-11-16 22:29:19,540] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,541] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 22:29:19,541] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 22:29:19,541] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,541] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 22:29:19,541] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 22:29:19,541] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,541] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:29:19,541] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 22:29:19,541] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,541] [builder.py:650]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-16 22:29:19,542] [builder.py:651]            [DEBUG]    | Value: https://trakt.tv/users/maxwelldeux/lists/venice-film-festival-golden-lion                   |
+[2022-11-16 22:29:19,621] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,622] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 22:29:19,622] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 22:29:19,622] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,622] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:29:19,623] [builder.py:651]            [DEBUG]    | Value: !16_Venice Golden Lions                                                                     |
+[2022-11-16 22:29:19,623] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,623] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 22:29:19,623] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/venice/winner.jpg |
+[2022-11-16 22:29:19,752] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,753] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 22:29:19,754] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 22:29:19,754] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,754] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 22:29:19,754] [builder.py:651]            [DEBUG]    | Value: The Venice Film Festival is the oldest film festival in the world. Founded 1932, the festival has since taken place every year in Venice, Italy. It is part of the Venice Biennale, a major biennial exhibition and festival for contemporary art. The festival's Leone d'Oro (Golden Lion) prize is awarded to the best film screened at the festival. |
+[2022-11-16 22:29:19,763] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,763] [plex.py:838]               [DEBUG]    | Looking for: Venice Golden Lions                                                                   |
+[2022-11-16 22:29:19,764] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,765] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:29:19,766] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,768] [plex_meta_manager.py:596]  [INFO]     |============================== Running Venice Golden Lions Collection ==============================|
+[2022-11-16 22:29:19,772] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,774] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 22:29:19,774] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,774] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/venice-film-festival-golden-lion     |
+[2022-11-16 22:29:19,774] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,778] [builder.py:1523]           [INFO]     | Builder: trakt_list loaded from Cache                                                              |
+[2022-11-16 22:29:19,787] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,788] [builder.py:1575]           [DEBUG]    | 66 IDs Found                                                                                       |
+[2022-11-16 22:29:19,788] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 22:29:19,799] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 22:29:19,799] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: Old Movies ==============================|
+[2022-11-16 22:29:19,799] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 22:29:20,120] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Manon (1949) (TMDb: 132332)                                   |
+[2022-11-16 22:29:20,142] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Justice Is Done (1950) (TMDb: 67731)                          |
+[2022-11-16 22:29:20,157] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Rashomon (1950) (TMDb: 548)                                   |
+[2022-11-16 22:29:20,186] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Forbidden Games (1952) (TMDb: 5000)                           |
+[2022-11-16 22:29:20,400] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Romeo and Juliet (1954) (TMDb: 92784)                         |
+[2022-11-16 22:29:20,416] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Ordet (1955) (TMDb: 48035)                                    |
+[2022-11-16 22:29:20,466] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Aparajito (1956) (TMDb: 897)                                  |
+[2022-11-16 22:29:20,615] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Rickshaw Man (1958) (TMDb: 43121)                         |
+[2022-11-16 22:29:20,851] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | General Della Rovere (1959) (TMDb: 43100)                     |
+[2022-11-16 22:29:21,020] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Great War (1959) (TMDb: 55823)                            |
+[2022-11-16 22:29:21,238] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Tomorrow Is My Turn (1960) (TMDb: 154578)                     |
+[2022-11-16 22:29:21,433] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Last Year at Marienbad (1961) (TMDb: 4024)                    |
+[2022-11-16 22:29:21,696] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Family Diary (1962) (TMDb: 80557)                             |
+[2022-11-16 22:29:21,708] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Ivan's Childhood (1962) (TMDb: 31442)                         |
+[2022-11-16 22:29:21,945] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Hands over the City (1963) (TMDb: 58383)                      |
+[2022-11-16 22:29:22,168] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Red Desert (1964) (TMDb: 26638)                               |
+[2022-11-16 22:29:22,404] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Sandra (1965) (TMDb: 92432)                                   |
+[2022-11-16 22:29:22,436] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Battle of Algiers (1966) (TMDb: 17295)                    |
+[2022-11-16 22:29:22,457] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Belle de Jour (1967) (TMDb: 649)                              |
+[2022-11-16 22:29:22,682] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Artists Under the Big Top: Perplexed (1968) (TMDb: 154582)    |
+[2022-11-16 22:29:22,699] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Atlantic City (1980) (TMDb: 23954)                            |
+[2022-11-16 22:29:22,911] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Gloria (1980) (TMDb: 10889)                                   |
+[2022-11-16 22:29:23,179] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Marianne and Juliane (1981) (TMDb: 42142)                     |
+[2022-11-16 22:29:23,399] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The State of Things (1982) (TMDb: 30363)                      |
+[2022-11-16 22:29:23,413] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | First Name: Carmen (1983) (TMDb: 32689)                       |
+[2022-11-16 22:29:23,435] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | A Year of the Quiet Sun (1984) (TMDb: 42096)                  |
+[2022-11-16 22:29:23,641] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Vagabond (1985) (TMDb: 44018)                                 |
+[2022-11-16 22:29:23,670] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Green Ray (1986) (TMDb: 54898)                            |
+[2022-11-16 22:29:23,683] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Au Revoir les Enfants (1987) (TMDb: 1786)                     |
+[2022-11-16 22:29:23,903] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Legend of the Holy Drinker (1988) (TMDb: 54990)           |
+[2022-11-16 22:29:24,180] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | A City of Sadness (1989) (TMDb: 49982)                        |
+[2022-11-16 22:29:24,365] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Rosencrantz & Guildenstern Are Dead (1991) (TMDb: 18971)      |
+[2022-11-16 22:29:24,381] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Close to Eden (1991) (TMDb: 36346)                            |
+[2022-11-16 22:29:24,529] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Story of Qiu Ju (1992) (TMDb: 38143)                      |
+[2022-11-16 22:29:24,736] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Short Cuts (1993) (TMDb: 695)                                 |
+[2022-11-16 22:29:24,746] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                         |
+[2022-11-16 22:29:24,767] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Vive L'Amour (1995) (TMDb: 11985)                             |
+[2022-11-16 22:29:24,782] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Before the Rain (1994) (TMDb: 19155)                          |
+[2022-11-16 22:29:25,053] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Cyclo (1995) (TMDb: 36266)                                    |
+[2022-11-16 22:29:25,068] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Michael Collins (1996) (TMDb: 1770)                           |
+[2022-11-16 22:29:25,079] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Fireworks (1997) (TMDb: 5910)                                 |
+[2022-11-16 22:29:25,339] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Way We Laughed (1998) (TMDb: 58098)                       |
+[2022-11-16 22:29:25,528] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Not One Less (1999) (TMDb: 36210)                             |
+[2022-11-16 22:29:25,766] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Circle (2000) (TMDb: 13898)                               |
+[2022-11-16 22:29:25,783] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Monsoon Wedding (2001) (TMDb: 480)                            |
+[2022-11-16 22:29:26,034] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Magdalene Sisters (2002) (TMDb: 8094)                     |
+[2022-11-16 22:29:26,258] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Return (2003) (TMDb: 11190)                               |
+[2022-11-16 22:29:26,475] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Vera Drake (2004) (TMDb: 11109)                               |
+[2022-11-16 22:29:26,489] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Brokeback Mountain (2005) (TMDb: 142)                         |
+[2022-11-16 22:29:26,729] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Still Life (2006) (TMDb: 2346)                                |
+[2022-11-16 22:29:26,745] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Lust, Caution (2007) (TMDb: 4588)                             |
+[2022-11-16 22:29:26,763] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Wrestler (2008) (TMDb: 12163)                             |
+[2022-11-16 22:29:27,076] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Lebanon (2009) (TMDb: 32084)                                  |
+[2022-11-16 22:29:27,093] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Somewhere (2010) (TMDb: 39210)                                |
+[2022-11-16 22:29:27,336] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Faust (2011) (TMDb: 77560)                                    |
+[2022-11-16 22:29:27,534] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Pietà (2012) (TMDb: 123377)                                   |
+[2022-11-16 22:29:27,735] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Sacro GRA (2013) (TMDb: 216790)                               |
+[2022-11-16 22:29:27,747] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | A Pigeon Sat on a Branch Reflecting on Existence (2014) (TMDb: 110390) |
+[2022-11-16 22:29:27,758] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | From Afar (2016) (TMDb: 352162)                               |
+[2022-11-16 22:29:28,018] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Woman Who Left (2016) (TMDb: 408542)                      |
+[2022-11-16 22:29:28,039] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | The Shape of Water (2017) (TMDb: 399055)                      |
+[2022-11-16 22:29:28,055] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Roma (2018) (TMDb: 426426)                                    |
+[2022-11-16 22:29:28,070] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Nomadland (2020) (TMDb: 581734)                               |
+[2022-11-16 22:29:28,082] [builder.py:2321]           [INFO]     | Venice Golden Lions Collection | ? | Happening (2021) (TMDb: 793998)                               |
+[2022-11-16 22:29:28,093] [builder.py:2325]           [INFO]     | Venice Golden Lions Collection | X | All the Beauty and the Bloodshed (2022) (TMDb: 1004663)       |
+[2022-11-16 22:29:28,093] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 22:29:28,094] [builder.py:2327]           [INFO]     | 64 Movies Missing                                                                                  |
+[2022-11-16 22:29:37,771] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:37,771] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Venice Golden Lions Collection                                   |
+[2022-11-16 22:29:37,772] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 22:29:37,772] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:29:37,772] [plex_meta_manager.py:737]  [INFO]     |                              Finished Venice Golden Lions Collection                               |
+[2022-11-16 22:29:37,772] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:18                                    |
+[2022-11-16 22:29:37,772] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

@@ -1,0 +1,76 @@
+[2022-11-16 23:46:48,336] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:46:48,336] [builder.py:193]            [INFO]     |                          Paul Currie (Producer) Collection in New Movies                           |
+[2022-11-16 23:46:48,336] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:46:48,336] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,336] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:46:48,337] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,337] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 23:46:48,338] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,345] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:46:48,346] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,349] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:46:48,350] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,367] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,367] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:46:48,367] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,367] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Paul Currie'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}, 'summary': 'Movies produced by Paul Currie.', 'name': 'Paul Currie (Producer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!19_Paul Currie (Producer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Paul%20Currie.jpg'} |
+[2022-11-16 23:46:48,368] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,368] [builder.py:223]            [INFO]     |=========================== Validating Paul Currie (Producer) Attributes ===========================|
+[2022-11-16 23:46:48,368] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,368] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:46:48,368] [builder.py:230]            [DEBUG]    | Value: Paul Currie (Producer)                                                                      |
+[2022-11-16 23:46:48,368] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,368] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:46:48,368] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:46:48,368] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,368] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:46:48,369] [builder.py:533]            [DEBUG]    | Value: ['Paul Currie']                                                                             |
+[2022-11-16 23:46:48,468] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,468] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:46:48,468] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}                                       |
+[2022-11-16 23:46:48,520] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&producer=48586&pop=1                                      |
+[2022-11-16 23:46:48,520] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,520] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:46:48,520] [builder.py:651]            [DEBUG]    | Value: Top Producers                                                                               |
+[2022-11-16 23:46:48,520] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,520] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:46:48,520] [builder.py:651]            [DEBUG]    | Value: Movies produced by Paul Currie.                                                             |
+[2022-11-16 23:46:48,520] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,520] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:46:48,521] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:46:48,521] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,521] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:46:48,521] [builder.py:651]            [DEBUG]    | Value: !19_Paul Currie (Producer)                                                                  |
+[2022-11-16 23:46:48,521] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,521] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:46:48,521] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Paul%20Currie.jpg |
+[2022-11-16 23:46:48,697] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Paul%20Currie.jpg |
+[2022-11-16 23:46:48,702] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:46:48,703] [plex.py:838]               [DEBUG]    | Looking for: Paul Currie (Producer)                                                                |
+[2022-11-16 23:46:48,703] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,703] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:46:48,703] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,703] [plex_meta_manager.py:596]  [INFO]     |============================ Running Paul Currie (Producer) Collection =============================|
+[2022-11-16 23:46:48,704] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,704] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Producer is Paul Currie
+[2022-11-16 23:46:48,721] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&producer=48586&pop=1
+[2022-11-16 23:46:48,727] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:46:48,727] [builder.py:2528]           [INFO]     |====================== Updating Details of Paul Currie (Producer) Collection =======================|
+[2022-11-16 23:46:48,728] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:46:48,737] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies produced by Paul Currie.
+                                                                 | Sort Title | !19_Paul Currie (Producer)
+                                                                 | Label | +Top Producers, +PMM
+[2022-11-16 23:46:50,283] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:46:50,284] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:46:51,905] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 23:46:51,911] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/New_Movies/Assets/Paul Currie (Producer)
+[2022-11-16 23:46:51,926] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:46:51,927] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:46:51,927] [plex_meta_manager.py:737]  [INFO]     |                             Finished Paul Currie (Producer) Collection                             |
+[2022-11-16 23:46:51,928] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 23:46:51,929] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

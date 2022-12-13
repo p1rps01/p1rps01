@@ -1,0 +1,76 @@
+[2022-11-16 22:05:44,293] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:44,293] [builder.py:193]            [INFO]     |                               Jason Statham Collection in Old Movies                               |
+[2022-11-16 22:05:44,294] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:05:44,294] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,294] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:05:44,294] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,294] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:05:44,295] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,296] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,296] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:05:44,297] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,297] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 976, 'sort_title': '++_Jason Statham', 'collection_order': 'release'} |
+[2022-11-16 22:05:44,297] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,297] [builder.py:223]            [INFO]     |=============================== Validating Jason Statham Attributes ================================|
+[2022-11-16 22:05:44,297] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,297] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:05:44,297] [builder.py:533]            [DEBUG]    | Value: 976                                                                                         |
+[2022-11-16 22:05:44,310] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,310] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:05:44,310] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:05:44,310] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,311] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:05:44,311] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:05:44,720] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,721] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:05:44,721] [builder.py:651]            [DEBUG]    | Value: ++_Jason Statham                                                                            |
+[2022-11-16 22:05:44,726] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,726] [builder.py:796]            [ERROR]    | Collection Error: Converting Jason Statham to a normal collection                                  |
+[2022-11-16 22:05:44,733] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,733] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:05:44,733] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,733] [plex_meta_manager.py:596]  [INFO]     |================================= Running Jason Statham Collection =================================|
+[2022-11-16 22:05:44,733] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,733] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:05:44,733] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:05:44,734] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jason Statham", '?type=1&sort=titleSort&push=1&actor=50008&pop=1') |
+[2022-11-16 22:05:44,734] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,734] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Jason Statham
+[2022-11-16 22:05:44,765] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:05:44,765] [builder.py:1575]           [DEBUG]    | 9 IDs Found
+[2022-11-16 22:05:44,765] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:05:44,766] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:05:44,766] [builder.py:2159]           [INFO]     |================================ Adding to Jason Statham Collection ================================|
+[2022-11-16 22:05:44,766] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:44,766] [builder.py:2174]           [INFO]     | 1/9 | Jason Statham Collection | + | The Expendables (2010)                                        |
+[2022-11-16 22:05:44,863] [builder.py:2174]           [INFO]     | 2/9 | Jason Statham Collection | + | The Expendables 2 (2012)                                      |
+[2022-11-16 22:05:44,998] [builder.py:2174]           [INFO]     | 3/9 | Jason Statham Collection | + | The Expendables 3 (2014)                                      |
+[2022-11-16 22:05:45,091] [builder.py:2174]           [INFO]     | 4/9 | Jason Statham Collection | + | F9: The Fast Saga (2021)                                      |
+[2022-11-16 22:05:45,178] [builder.py:2174]           [INFO]     | 5/9 | Jason Statham Collection | + | Fast & Furious 6 (2013)                                       |
+[2022-11-16 22:05:45,268] [builder.py:2174]           [INFO]     | 6/9 | Jason Statham Collection | + | The Fate of the Furious (2017)                                |
+[2022-11-16 22:05:45,372] [builder.py:2174]           [INFO]     | 7/9 | Jason Statham Collection | + | Furious 7 (2015)                                              |
+[2022-11-16 22:05:45,461] [builder.py:2174]           [INFO]     | 8/9 | Jason Statham Collection | + | The Meg (2018)                                                |
+[2022-11-16 22:05:47,287] [builder.py:2174]           [INFO]     | 9/9 | Jason Statham Collection | + | Wrath of Man (2021)                                           |
+[2022-11-16 22:05:50,100] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:50,100] [builder.py:2196]           [INFO]     | 9 Movies Processed 9 Movies Added                                                                  |
+[2022-11-16 22:05:50,105] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:50,105] [builder.py:2528]           [INFO]     |=========================== Updating Details of Jason Statham Collection ===========================|
+[2022-11-16 22:05:50,106] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:05:50,112] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Jason Statham is an English actor and martial artist, known for his roles in the Guy Ritchie crime films Lock, Stock and Two Smoking Barrels; Revolver; and Snatch. Statham appeared in supporting roles in several American films, such as The Italian Job, as well as playing the lead role in The Transporter, Crank, The Bank Job, War (opposite martial arts star Jet Li), and Death Race. Statham solidified his status as an action hero by appearing alongside established action film actors Sylvester Stallone, Arnold Schwarzenegger, Bruce Willis, Jet Li and Dolph Lundgren in The Expendables. He normally performs his own fight scenes and stunts.
+                                                                 | Sort Title | ++_Jason Statham
+                                                                 | Label | +PMM
+[2022-11-16 22:05:51,627] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:05:51,627] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:05:51,628] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:05:51,628] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg
+[2022-11-16 22:05:51,746] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg
+[2022-11-16 22:05:51,816] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:05:51,816] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:05:51,816] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Jason Statham Collection                                  |
+[2022-11-16 22:05:51,816] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 22:05:51,816] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

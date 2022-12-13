@@ -1,0 +1,240 @@
+[2022-11-16 23:49:51,853] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:49:51,853] [builder.py:193]            [INFO]     |                              Trakt Collected Collection in New Movies                              |
+[2022-11-16 23:49:51,854] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:49:51,854] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:49:51,854] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:49:51,854] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,855] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 23:49:51,855] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,855] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 23:49:51,856] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,861] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:49:51,862] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,874] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 23:49:51,875] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,881] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 23:49:51,882] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,885] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:49:51,886] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,888] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,888] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:49:51,889] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,889] [meta.py:515]               [DEBUG]    | {'trakt_chart': {'chart': 'collected', 'limit': 100}, 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_Trakt Collected', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Collected.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Collected List.", 'name': 'Trakt Collected'} |
+[2022-11-16 23:49:51,889] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,889] [builder.py:223]            [INFO]     |============================== Validating Trakt Collected Attributes ===============================|
+[2022-11-16 23:49:51,889] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,889] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:49:51,889] [builder.py:230]            [DEBUG]    | Value: Trakt Collected                                                                             |
+[2022-11-16 23:49:51,889] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,889] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:49:51,889] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:49:51,889] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,890] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 23:49:51,890] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 23:49:51,890] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,890] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 23:49:51,890] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 23:49:51,890] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,890] [builder.py:650]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-11-16 23:49:51,890] [builder.py:651]            [DEBUG]    | Value: {'chart': 'collected', 'limit': 100}                                                        |
+[2022-11-16 23:49:51,890] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,890] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:49:51,890] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:49:51,890] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,890] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:49:51,891] [builder.py:651]            [DEBUG]    | Value: !01_Trakt Collected                                                                         |
+[2022-11-16 23:49:51,891] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:51,891] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:49:51,891] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Collected.jpg |
+[2022-11-16 23:49:52,011] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:52,012] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 23:49:52,012] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 23:49:52,012] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:52,012] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:49:52,012] [builder.py:651]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Collected List.                                        |
+[2022-11-16 23:49:52,135] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,136] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:49:52,136] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,136] [plex_meta_manager.py:596]  [INFO]     |================================ Running Trakt Collected Collection ================================|
+[2022-11-16 23:49:52,136] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,136] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 23:49:52,136] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:52,137] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'collected', 'limit': 100, 'time_period': None}                    |
+[2022-11-16 23:49:52,137] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,138] [builder.py:1523]           [INFO]     | Builder: trakt_chart loaded from Cache                                                             |
+[2022-11-16 23:49:52,141] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:52,141] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-16 23:49:52,141] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 23:49:52,144] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,144] [builder.py:2159]           [INFO]     |=============================== Adding to Trakt Collected Collection ===============================|
+[2022-11-16 23:49:52,144] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 23:49:52,145] [builder.py:2174]           [INFO]     |  1/38 | Trakt Collected Collection | = | Amsterdam (2022)                                          |
+[2022-11-16 23:49:52,145] [builder.py:2174]           [INFO]     |  2/38 | Trakt Collected Collection | = | Enola Holmes 2 (2022)                                     |
+[2022-11-16 23:49:52,145] [builder.py:2174]           [INFO]     |  3/38 | Trakt Collected Collection | + | Poker Face (2022)                                         |
+[2022-11-16 23:49:52,221] [builder.py:2174]           [INFO]     |  4/38 | Trakt Collected Collection | + | Paradise City (2022)                                      |
+[2022-11-16 23:49:52,289] [builder.py:2174]           [INFO]     |  5/38 | Trakt Collected Collection | = | R.I.P.D. 2: Rise of the Damned (2022)                     |
+[2022-11-16 23:49:52,289] [builder.py:2174]           [INFO]     |  6/38 | Trakt Collected Collection | + | Tár (2022)                                                |
+[2022-11-16 23:49:52,353] [builder.py:2174]           [INFO]     |  7/38 | Trakt Collected Collection | = | On the Line (2022)                                        |
+[2022-11-16 23:49:52,353] [builder.py:2174]           [INFO]     |  8/38 | Trakt Collected Collection | = | Ticket to Paradise (2022)                                 |
+[2022-11-16 23:49:52,353] [builder.py:2174]           [INFO]     |  9/38 | Trakt Collected Collection | + | Don't Worry Darling (2022)                                |
+[2022-11-16 23:49:52,413] [builder.py:2174]           [INFO]     | 10/38 | Trakt Collected Collection | = | Causeway (2022)                                           |
+[2022-11-16 23:49:52,413] [builder.py:2174]           [INFO]     | 11/38 | Trakt Collected Collection | = | Medieval (2022)                                           |
+[2022-11-16 23:49:52,414] [builder.py:2174]           [INFO]     | 12/38 | Trakt Collected Collection | = | Top Gun: Maverick (2022)                                  |
+[2022-11-16 23:49:52,414] [builder.py:2174]           [INFO]     | 13/38 | Trakt Collected Collection | = | The Woman King (2022)                                     |
+[2022-11-16 23:49:52,414] [builder.py:2174]           [INFO]     | 14/38 | Trakt Collected Collection | = | See How They Run (2022)                                   |
+[2022-11-16 23:49:52,414] [builder.py:2174]           [INFO]     | 15/38 | Trakt Collected Collection | = | Three Thousand Years of Longing (2022)                    |
+[2022-11-16 23:49:52,414] [builder.py:2174]           [INFO]     | 16/38 | Trakt Collected Collection | = | Bullet Train (2022)                                       |
+[2022-11-16 23:49:52,415] [builder.py:2174]           [INFO]     | 17/38 | Trakt Collected Collection | = | My Policeman (2022)                                       |
+[2022-11-16 23:49:52,415] [builder.py:2174]           [INFO]     | 18/38 | Trakt Collected Collection | = | Nope (2022)                                               |
+[2022-11-16 23:49:52,415] [builder.py:2174]           [INFO]     | 19/38 | Trakt Collected Collection | = | Shadow Master (2022)                                      |
+[2022-11-16 23:49:52,415] [builder.py:2174]           [INFO]     | 20/38 | Trakt Collected Collection | = | The Good Nurse (2022)                                     |
+[2022-11-16 23:49:52,415] [builder.py:2174]           [INFO]     | 21/38 | Trakt Collected Collection | + | Emily (2022)                                              |
+[2022-11-16 23:49:52,478] [builder.py:2174]           [INFO]     | 22/38 | Trakt Collected Collection | = | After Ever Happy (2022)                                   |
+[2022-11-16 23:49:52,479] [builder.py:2174]           [INFO]     | 23/38 | Trakt Collected Collection | = | The Lost King (2022)                                      |
+[2022-11-16 23:49:52,479] [builder.py:2174]           [INFO]     | 24/38 | Trakt Collected Collection | = | The Minute You Wake up Dead (2022)                        |
+[2022-11-16 23:49:52,479] [builder.py:2174]           [INFO]     | 25/38 | Trakt Collected Collection | = | Thor: Love and Thunder (2022)                             |
+[2022-11-16 23:49:52,479] [builder.py:2174]           [INFO]     | 26/38 | Trakt Collected Collection | = | Blade of the 47 Ronin (2022)                              |
+[2022-11-16 23:49:52,480] [builder.py:2174]           [INFO]     | 27/38 | Trakt Collected Collection | = | The School for Good and Evil (2022)                       |
+[2022-11-16 23:49:52,480] [builder.py:2174]           [INFO]     | 28/38 | Trakt Collected Collection | = | Jurassic World Dominion (2022)                            |
+[2022-11-16 23:49:52,480] [builder.py:2174]           [INFO]     | 29/38 | Trakt Collected Collection | + | Jerry and Marge Go Large (2022)                           |
+[2022-11-16 23:49:52,544] [builder.py:2174]           [INFO]     | 30/38 | Trakt Collected Collection | + | Bros (2022)                                               |
+[2022-11-16 23:49:52,614] [builder.py:2174]           [INFO]     | 31/38 | Trakt Collected Collection | = | Beast (2022)                                              |
+[2022-11-16 23:49:52,615] [builder.py:2174]           [INFO]     | 32/38 | Trakt Collected Collection | = | Where the Crawdads Sing (2022)                            |
+[2022-11-16 23:49:52,615] [builder.py:2174]           [INFO]     | 33/38 | Trakt Collected Collection | = | Fall (2022)                                               |
+[2022-11-16 23:49:52,615] [builder.py:2174]           [INFO]     | 34/38 | Trakt Collected Collection | = | The Batman (2022)                                         |
+[2022-11-16 23:49:52,615] [builder.py:2174]           [INFO]     | 35/38 | Trakt Collected Collection | = | Operation Seawolf (2022)                                  |
+[2022-11-16 23:49:52,615] [builder.py:2174]           [INFO]     | 36/38 | Trakt Collected Collection | = | The System (2022)                                         |
+[2022-11-16 23:49:52,616] [builder.py:2174]           [INFO]     | 37/38 | Trakt Collected Collection | = | Prey (2022)                                               |
+[2022-11-16 23:49:52,616] [builder.py:2174]           [INFO]     | 38/38 | Trakt Collected Collection | = | Wild Is the Wind (2022)                                   |
+[2022-11-16 23:49:56,282] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 23:49:56,282] [builder.py:2196]           [INFO]     | 38 Movies Processed 7 Movies Added                                                                 |
+[2022-11-16 23:49:56,282] [builder.py:2204]           [INFO]     |                                                                                                    |
+[2022-11-16 23:49:56,282] [builder.py:2205]           [INFO]     |============================= Removed from Trakt Collected Collection ==============================|
+[2022-11-16 23:49:56,282] [builder.py:2206]           [INFO]     |                                                                                                    |
+[2022-11-16 23:49:56,283] [builder.py:2211]           [INFO]     | 1/4 | Trakt Collected Collection | - | R.I.P.D. (2013)                                             |
+[2022-11-16 23:49:58,136] [builder.py:2211]           [INFO]     | 2/4 | Trakt Collected Collection | - | Wendell & Wild (2022)                                       |
+[2022-11-16 23:49:59,982] [builder.py:2211]           [INFO]     | 3/4 | Trakt Collected Collection | - | The Stranger (2022)                                         |
+[2022-11-16 23:50:02,385] [builder.py:2211]           [INFO]     | 4/4 | Trakt Collected Collection | - | The Greatest Beer Run Ever (2022)                           |
+[2022-11-16 23:50:09,000] [builder.py:2223]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:09,001] [builder.py:2224]           [INFO]     | 4 Movie Removed                                                                                    |
+[2022-11-16 23:50:09,001] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:09,001] [builder.py:2307]           [INFO]     |============================= Missing Movies from Library: New Movies ==============================|
+[2022-11-16 23:50:09,001] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:09,016] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Smile (2022) (TMDb: 882598)                                       |
+[2022-11-16 23:50:09,026] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)              |
+[2022-11-16 23:50:09,050] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Falling for Christmas (2022) (TMDb: 833097)                       |
+[2022-11-16 23:50:09,085] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Black Adam (2022) (TMDb: 436270)                                  |
+[2022-11-16 23:50:09,097] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                |
+[2022-11-16 23:50:09,110] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | My Father's Dragon (2022) (TMDb: 560052)                          |
+[2022-11-16 23:50:09,132] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)               |
+[2022-11-16 23:50:09,154] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Lost Bullet 2 (2022) (TMDb: 948276)                               |
+[2022-11-16 23:50:09,167] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Enola Holmes (2020) (TMDb: 497582)                                |
+[2022-11-16 23:50:09,183] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | The Soccer Football Movie (2022) (TMDb: 1037858)                  |
+[2022-11-16 23:50:09,196] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Fire of Love (2022) (TMDb: 913823)                                |
+[2022-11-16 23:50:09,212] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Capturing the Killer Nurse (2022) (TMDb: 1018647)                 |
+[2022-11-16 23:50:09,223] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Pulp Fiction (1994) (TMDb: 680)                                   |
+[2022-11-16 23:50:09,243] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Bar Fight (2022) (TMDb: 862553)                                   |
+[2022-11-16 23:50:09,259] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Mandrake (2022) (TMDb: 898798)                                    |
+[2022-11-16 23:50:09,270] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Reservoir Dogs (1992) (TMDb: 500)                                 |
+[2022-11-16 23:50:09,281] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Barbarian (2022) (TMDb: 913290)                                   |
+[2022-11-16 23:50:09,293] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Tad the Lost Explorer and the Curse of the Mummy (2022) (TMDb: 676701) |
+[2022-11-16 23:50:09,307] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Emily the Criminal (2022) (TMDb: 862965)                          |
+[2022-11-16 23:50:09,321] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Selena Gomez: My Mind & Me (2022) (TMDb: 1022256)                 |
+[2022-11-16 23:50:09,333] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | The Friendship Game (2022) (TMDb: 844396)                         |
+[2022-11-16 23:50:09,355] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Blaze (2022) (TMDb: 767254)                                       |
+[2022-11-16 23:50:09,368] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Pearl (2022) (TMDb: 949423)                                       |
+[2022-11-16 23:50:09,380] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Chelsea FC - Season Review 2010/11 (2011) (TMDb: 622121)          |
+[2022-11-16 23:50:09,391] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Is That Black Enough for You?!? (2022) (TMDb: 1013572)            |
+[2022-11-16 23:50:09,403] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | A Boy Called Christmas (2021) (TMDb: 615666)                      |
+[2022-11-16 23:50:09,415] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | The Invitation (2022) (TMDb: 830788)                              |
+[2022-11-16 23:50:09,426] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | HDTV Lounge (2010) (TMDb: 436677)                                 |
+[2022-11-16 23:50:09,439] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Aqua Teen Forever: Plantasm (2022) (TMDb: 828900)                 |
+[2022-11-16 23:50:09,453] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Tom and Jerry Snowman's Land (2022) (TMDb: 1018403)               |
+[2022-11-16 23:50:09,475] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Terrifier 2 (2022) (TMDb: 663712)                                 |
+[2022-11-16 23:50:09,488] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | State of Alabama vs. Brittany Smith (2022) (TMDb: 1037213)        |
+[2022-11-16 23:50:09,500] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Stutz (2022) (TMDb: 799375)                                       |
+[2022-11-16 23:50:09,514] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Spirited (2022) (TMDb: 632856)                                    |
+[2022-11-16 23:50:09,526] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | The Power of the Dog (2021) (TMDb: 600583)                        |
+[2022-11-16 23:50:09,538] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | The Takeover (2022) (TMDb: 944864)                                |
+[2022-11-16 23:50:09,552] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | A Gingerbread Christmas (2022) (TMDb: 1015190)                    |
+[2022-11-16 23:50:09,565] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | My Old School (2022) (TMDb: 913867)                               |
+[2022-11-16 23:50:09,577] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Savage X Fenty Show Vol. 4 (2022) (TMDb: 1035467)                 |
+[2022-11-16 23:50:09,589] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Decision to Leave (2022) (TMDb: 705996)                           |
+[2022-11-16 23:50:09,602] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Halloween Ends (2022) (TMDb: 616820)                              |
+[2022-11-16 23:50:09,614] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Designing Christmas (2022) (TMDb: 1015169)                        |
+[2022-11-16 23:50:09,626] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Say Hey, Willie Mays! (2022) (TMDb: 1029966)                      |
+[2022-11-16 23:50:09,643] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | UFC 281: Adesanya vs. Pereira (2022) (TMDb: 1019908)              |
+[2022-11-16 23:50:09,656] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Christmas in Paradise (2022) (TMDb: 1037391)                      |
+[2022-11-16 23:50:09,668] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395) |
+[2022-11-16 23:50:09,680] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Director by Night (2022) (TMDb: 1036996)                          |
+[2022-11-16 23:50:09,697] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                     |
+[2022-11-16 23:50:09,710] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Black Panther (2018) (TMDb: 284054)                               |
+[2022-11-16 23:50:09,721] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Avatar (2009) (TMDb: 19995)                                       |
+[2022-11-16 23:50:09,733] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Overdose (2022) (TMDb: 896485)                                    |
+[2022-11-16 23:50:09,744] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Jeepers Creepers: Reborn (2022) (TMDb: 717728)                    |
+[2022-11-16 23:50:09,760] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Stalked Within (2022) (TMDb: 1022181)                             |
+[2022-11-16 23:50:09,771] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)           |
+[2022-11-16 23:50:09,786] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                    |
+[2022-11-16 23:50:09,801] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                          |
+[2022-11-16 23:50:09,815] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Top Gun (1986) (TMDb: 744)                                        |
+[2022-11-16 23:50:09,826] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Hebrews to Negroes: Wake Up Black America (2018) (TMDb: 614399)   |
+[2022-11-16 23:50:09,839] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Watcher (2022) (TMDb: 807356)                                     |
+[2022-11-16 23:50:09,854] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Under Wraps 2 (2022) (TMDb: 936061)                               |
+[2022-11-16 23:50:09,882] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Dune (2021) (TMDb: 438631)                                        |
+[2022-11-16 23:50:09,897] [builder.py:2321]           [INFO]     | Trakt Collected Collection | ? | Deadpool (2016) (TMDb: 293660)                                    |
+[2022-11-16 23:50:09,897] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:09,897] [builder.py:2327]           [INFO]     | 62 Movies Missing                                                                                  |
+[2022-11-16 23:50:14,163] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:14,164] [builder.py:2528]           [INFO]     |========================== Updating Details of Trakt Collected Collection ==========================|
+[2022-11-16 23:50:14,164] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:14,171] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 23:50:15,855] [builder.py:2615]           [INFO]     | Collection Mode | hide                                                                             |
+[2022-11-16 23:50:15,856] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 23:50:15,856] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Collected.jpg |
+[2022-11-16 23:50:15,856] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/New_Movies/Assets/Trakt Collected/poster.jpg', 'prefix': "Trakt Collected's ", 'is_poster': True, 'is_url': False, 'compare': 267210, 'message': "Trakt Collected's poster to [File] /config/New_Movies/Assets/Trakt Collected/poster.jpg"} |
+[2022-11-16 23:50:15,857] [library.py:180]            [INFO]     | Detail: Trakt Collected's poster update not needed                                                 |
+[2022-11-16 23:50:15,984] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:15,984] [builder.py:2687]           [INFO]     |================================ Sorting Trakt Collected Collection ================================|
+[2022-11-16 23:50:15,984] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 23:50:15,985] [builder.py:2704]           [INFO]     | Moving Amsterdam (2022) to the beginning                                                           |
+[2022-11-16 23:50:16,037] [builder.py:2704]           [INFO]     | Moving Enola Holmes 2 (2022) after Amsterdam (2022)                                                |
+[2022-11-16 23:50:16,092] [builder.py:2704]           [INFO]     | Moving Poker Face (2022) after Enola Holmes 2 (2022)                                               |
+[2022-11-16 23:50:16,160] [builder.py:2704]           [INFO]     | Moving Paradise City (2022) after Poker Face (2022)                                                |
+[2022-11-16 23:50:16,211] [builder.py:2704]           [INFO]     | Moving R.I.P.D. 2: Rise of the Damned (2022) after Paradise City (2022)                            |
+[2022-11-16 23:50:16,264] [builder.py:2704]           [INFO]     | Moving Tár (2022) after R.I.P.D. 2: Rise of the Damned (2022)                                      |
+[2022-11-16 23:50:16,308] [builder.py:2704]           [INFO]     | Moving On the Line (2022) after Tár (2022)                                                         |
+[2022-11-16 23:50:16,360] [builder.py:2704]           [INFO]     | Moving Ticket to Paradise (2022) after On the Line (2022)                                          |
+[2022-11-16 23:50:16,398] [builder.py:2704]           [INFO]     | Moving Don't Worry Darling (2022) after Ticket to Paradise (2022)                                  |
+[2022-11-16 23:50:16,442] [builder.py:2704]           [INFO]     | Moving Causeway (2022) after Don't Worry Darling (2022)                                            |
+[2022-11-16 23:50:16,481] [builder.py:2704]           [INFO]     | Moving Medieval (2022) after Causeway (2022)                                                       |
+[2022-11-16 23:50:16,521] [builder.py:2704]           [INFO]     | Moving Top Gun: Maverick (2022) after Medieval (2022)                                              |
+[2022-11-16 23:50:16,556] [builder.py:2704]           [INFO]     | Moving The Woman King (2022) after Top Gun: Maverick (2022)                                        |
+[2022-11-16 23:50:16,614] [builder.py:2704]           [INFO]     | Moving See How They Run (2022) after The Woman King (2022)                                         |
+[2022-11-16 23:50:16,670] [builder.py:2704]           [INFO]     | Moving Three Thousand Years of Longing (2022) after See How They Run (2022)                        |
+[2022-11-16 23:50:16,710] [builder.py:2704]           [INFO]     | Moving Bullet Train (2022) after Three Thousand Years of Longing (2022)                            |
+[2022-11-16 23:50:16,779] [builder.py:2704]           [INFO]     | Moving My Policeman (2022) after Bullet Train (2022)                                               |
+[2022-11-16 23:50:16,823] [builder.py:2704]           [INFO]     | Moving Nope (2022) after My Policeman (2022)                                                       |
+[2022-11-16 23:50:16,864] [builder.py:2704]           [INFO]     | Moving Shadow Master (2022) after Nope (2022)                                                      |
+[2022-11-16 23:50:16,908] [builder.py:2704]           [INFO]     | Moving The Good Nurse (2022) after Shadow Master (2022)                                            |
+[2022-11-16 23:50:16,945] [builder.py:2704]           [INFO]     | Moving Emily (2022) after The Good Nurse (2022)                                                    |
+[2022-11-16 23:50:16,981] [builder.py:2704]           [INFO]     | Moving After Ever Happy (2022) after Emily (2022)                                                  |
+[2022-11-16 23:50:17,015] [builder.py:2704]           [INFO]     | Moving The Lost King (2022) after After Ever Happy (2022)                                          |
+[2022-11-16 23:50:17,059] [builder.py:2704]           [INFO]     | Moving The Minute You Wake up Dead (2022) after The Lost King (2022)                               |
+[2022-11-16 23:50:17,107] [builder.py:2704]           [INFO]     | Moving Thor: Love and Thunder (2022) after The Minute You Wake up Dead (2022)                      |
+[2022-11-16 23:50:17,150] [builder.py:2704]           [INFO]     | Moving Blade of the 47 Ronin (2022) after Thor: Love and Thunder (2022)                            |
+[2022-11-16 23:50:17,202] [builder.py:2704]           [INFO]     | Moving Jurassic World Dominion (2022) after The School for Good and Evil (2022)                    |
+[2022-11-16 23:50:17,252] [builder.py:2704]           [INFO]     | Moving Jerry and Marge Go Large (2022) after Jurassic World Dominion (2022)                        |
+[2022-11-16 23:50:17,309] [builder.py:2704]           [INFO]     | Moving Bros (2022) after Jerry and Marge Go Large (2022)                                           |
+[2022-11-16 23:50:17,355] [builder.py:2704]           [INFO]     | Moving Beast (2022) after Bros (2022)                                                              |
+[2022-11-16 23:50:17,407] [builder.py:2704]           [INFO]     | Moving Where the Crawdads Sing (2022) after Beast (2022)                                           |
+[2022-11-16 23:50:17,449] [builder.py:2704]           [INFO]     | Moving Fall (2022) after Where the Crawdads Sing (2022)                                            |
+[2022-11-16 23:50:17,502] [builder.py:2704]           [INFO]     | Moving The Batman (2022) after Fall (2022)                                                         |
+[2022-11-16 23:50:17,553] [builder.py:2704]           [INFO]     | Moving Operation Seawolf (2022) after The Batman (2022)                                            |
+[2022-11-16 23:50:17,600] [builder.py:2704]           [INFO]     | Moving The System (2022) after Operation Seawolf (2022)                                            |
+[2022-11-16 23:50:17,724] [builder.py:2704]           [INFO]     | Moving Prey (2022) after The System (2022)                                                         |
+[2022-11-16 23:50:17,776] [builder.py:2704]           [INFO]     | Moving Wild Is the Wind (2022) after Prey (2022)                                                   |
+[2022-11-16 23:50:17,825] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 23:50:17,825] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:50:17,826] [plex_meta_manager.py:737]  [INFO]     |                                Finished Trakt Collected Collection                                 |
+[2022-11-16 23:50:17,826] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2022-11-16 23:50:17,827] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

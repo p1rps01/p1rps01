@@ -1,0 +1,79 @@
+[2022-11-16 23:44:17,271] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:44:17,271] [builder.py:193]            [INFO]     |                               Ana de Armas Collection in New Movies                                |
+[2022-11-16 23:44:17,272] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 23:44:17,272] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 23:44:17,272] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 23:44:17,272] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,272] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 23:44:17,273] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,281] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 23:44:17,282] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,286] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 23:44:17,287] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,300] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,300] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 23:44:17,300] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,300] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Ana de Armas'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}, 'summary': 'Movies with Ana de Armas.', 'name': 'Ana de Armas', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!17_Ana de Armas', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ana%20de%20Armas.jpg'} |
+[2022-11-16 23:44:17,301] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,301] [builder.py:223]            [INFO]     |================================ Validating Ana de Armas Attributes ================================|
+[2022-11-16 23:44:17,301] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,301] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 23:44:17,301] [builder.py:230]            [DEBUG]    | Value: Ana de Armas                                                                                |
+[2022-11-16 23:44:17,301] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,301] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 23:44:17,301] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 23:44:17,301] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,301] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 23:44:17,301] [builder.py:533]            [DEBUG]    | Value: ['Ana de Armas']                                                                            |
+[2022-11-16 23:44:17,417] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 23:44:17,417] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 23:44:17,417] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'actor': 'tmdb'}}                                          |
+[2022-11-16 23:44:17,747] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&actor=48634&pop=1                                         |
+[2022-11-16 23:44:17,747] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,747] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 23:44:17,747] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-16 23:44:17,747] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,748] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 23:44:17,748] [builder.py:651]            [DEBUG]    | Value: Movies with Ana de Armas.                                                                   |
+[2022-11-16 23:44:17,748] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,748] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 23:44:17,748] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 23:44:17,748] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,748] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 23:44:17,749] [builder.py:651]            [DEBUG]    | Value: !17_Ana de Armas                                                                            |
+[2022-11-16 23:44:17,749] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,749] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 23:44:17,749] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ana%20de%20Armas.jpg |
+[2022-11-16 23:44:17,968] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 23:44:17,968] [plex.py:838]               [DEBUG]    | Looking for: Ana de Armas                                                                          |
+[2022-11-16 23:44:17,969] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 23:44:17,969] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 23:44:17,969] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 23:44:17,970] [plex_meta_manager.py:596]  [INFO]     |================================= Running Ana de Armas Collection ==================================|
+[2022-11-16 23:44:17,970] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 23:44:17,970] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Ana de Armas
+[2022-11-16 23:44:18,001] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&actor=48634&pop=1
+[2022-11-16 23:44:18,013] [builder.py:2527]           [INFO]     | 
+[2022-11-16 23:44:18,014] [builder.py:2528]           [INFO]     |=========================== Updating Details of Ana de Armas Collection ============================|
+[2022-11-16 23:44:18,014] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 23:44:18,024] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies with Ana de Armas.
+                                                                 | Sort Title | !17_Ana de Armas
+                                                                 | Label | +Top Actors, +PMM
+[2022-11-16 23:44:19,548] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 23:44:19,548] [builder.py:2603]           [INFO]     | 
+[2022-11-16 23:44:21,085] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 23:44:21,088] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/New_Movies/Assets/Ana de Armas
+[2022-11-16 23:44:21,088] [util.py:174]               [DEBUG]    | 2 posters found:
+[2022-11-16 23:44:21,089] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/vkoSSVrGxFYvtr2uUdz99ENXF1v.jpg
+[2022-11-16 23:44:21,089] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Ana%20de%20Armas.jpg
+[2022-11-16 23:44:21,240] [library.py:178]            [INFO]     | Detail: asset_directory updated Ana de Armas's poster to [File] config/New_Movies/Assets/Ana de Armas/poster.jpg
+[2022-11-16 23:44:21,267] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 23:44:21,267] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 23:44:21,267] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Ana de Armas Collection                                  |
+[2022-11-16 23:44:21,267] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 23:44:21,267] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

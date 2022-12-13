@@ -1,0 +1,78 @@
+[2022-11-16 22:11:15,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:11:15,689] [builder.py:193]            [INFO]     |                               Shia LaBeouf Collection in Old Movies                                |
+[2022-11-16 22:11:15,689] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 22:11:15,689] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:15,690] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 22:11:15,690] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,690] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 22:11:15,690] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,692] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,692] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 22:11:15,692] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,692] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 10959, 'sort_title': '++_Shia LaBeouf', 'collection_order': 'release'} |
+[2022-11-16 22:11:15,692] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,693] [builder.py:223]            [INFO]     |================================ Validating Shia LaBeouf Attributes ================================|
+[2022-11-16 22:11:15,693] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,693] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 22:11:15,693] [builder.py:533]            [DEBUG]    | Value: 10959                                                                                       |
+[2022-11-16 22:11:15,707] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,708] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 22:11:15,708] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 22:11:15,709] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:15,709] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 22:11:15,709] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 22:11:16,024] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:16,025] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 22:11:16,025] [builder.py:651]            [DEBUG]    | Value: ++_Shia LaBeouf                                                                             |
+[2022-11-16 22:11:16,031] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,031] [builder.py:796]            [ERROR]    | Collection Error: Converting Shia LaBeouf to a normal collection                                   |
+[2022-11-16 22:11:16,037] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,037] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 22:11:16,037] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:596]  [INFO]     |================================= Running Shia LaBeouf Collection ==================================|
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Shia LaBeouf", '?type=1&sort=titleSort&push=1&actor=41496&pop=1') |
+[2022-11-16 22:11:16,038] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,038] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Shia LaBeouf
+[2022-11-16 22:11:16,062] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 22:11:16,062] [builder.py:1575]           [DEBUG]    | 5 IDs Found
+[2022-11-16 22:11:16,062] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 22:11:16,062] [builder.py:2158]           [INFO]     | 
+[2022-11-16 22:11:16,063] [builder.py:2159]           [INFO]     |================================ Adding to Shia LaBeouf Collection =================================|
+[2022-11-16 22:11:16,063] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:16,063] [builder.py:2174]           [INFO]     | 1/5 | Shia LaBeouf Collection | + | I, Robot (2004)                                                |
+[2022-11-16 22:11:18,042] [builder.py:2174]           [INFO]     | 2/5 | Shia LaBeouf Collection | + | Indiana Jones and the Kingdom of the Crystal Skull (2008)      |
+[2022-11-16 22:11:18,153] [builder.py:2174]           [INFO]     | 3/5 | Shia LaBeouf Collection | + | Transformers (2007)                                            |
+[2022-11-16 22:11:18,260] [builder.py:2174]           [INFO]     | 4/5 | Shia LaBeouf Collection | + | Transformers: Dark of the Moon (2011)                          |
+[2022-11-16 22:11:18,409] [builder.py:2174]           [INFO]     | 5/5 | Shia LaBeouf Collection | + | Transformers: Revenge of the Fallen (2009)                     |
+[2022-11-16 22:11:20,971] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:20,971] [builder.py:2196]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-11-16 22:11:20,978] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:20,978] [builder.py:2528]           [INFO]     |=========================== Updating Details of Shia LaBeouf Collection ============================|
+[2022-11-16 22:11:20,978] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 22:11:20,986] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Shia Saide LaBeouf (born June 11, 1986) is an American actor, performance artist, and filmmaker. He played Louis Stevens in the Disney Channel series Even Stevens, a role for which he received Young Artist Award nominations in 2001 and 2002 and won a Daytime Emmy Award in 2003. He made his film debut in The Christmas Path (1998). In 2004, he made his directorial debut with the short film Let's Love Hate and later directed a short film titled Maniac (2011), starring American rappers Cage and Kid Cudi.
+                                                                 | 
+                                                                 | In 2007, LaBeouf starred in the commercially successful films Disturbia and Surf's Up. The same year he was cast in Michael Bay's science fiction film Transformers as Sam Witwicky, the main protagonist of the series. Transformers was a box office success and one of the highest-grossing films of 2007. LaBeouf later appeared in its sequels Transformers: Revenge of the Fallen (2009) and Transformers: Dark of the Moon (2011), both also box office successes. In 2008, he played Henry "Mutt Williams" Jones III in Indiana Jones and the Kingdom of the Crystal Skull.
+                                                                 | 
+                                                                 | His other credits include the films Holes (2003), Constantine (2005), Wall Street: Money Never Sleeps (2010), Lawless (2012), The Company You Keep (2012), Nymphomaniac (2013), Charlie Countryman (2013), Fury (2014), American Honey (2016), Borg vs McEnroe (2017), Honey Boy (2019), The Peanut Butter Falcon (2019), and Pieces of a Woman (2020).
+                                                                 | 
+                                                                 | Since 2014, LaBeouf has pursued a variety of public performance art projects with LaBeouf, Rönkkö & Turner.
+                                                                 | Sort Title | ++_Shia LaBeouf
+                                                                 | Label | +PMM
+[2022-11-16 22:11:22,558] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 22:11:22,559] [builder.py:2603]           [INFO]     | 
+[2022-11-16 22:11:22,560] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 22:11:22,560] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/frYAEeYMi9jdt9MIjGA8vCr5yUC.jpg
+[2022-11-16 22:11:22,692] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/frYAEeYMi9jdt9MIjGA8vCr5yUC.jpg
+[2022-11-16 22:11:22,734] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 22:11:22,735] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 22:11:22,735] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Shia LaBeouf Collection                                  |
+[2022-11-16 22:11:22,735] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-11-16 22:11:22,735] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

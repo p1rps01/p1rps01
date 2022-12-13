@@ -1,0 +1,208 @@
+[2022-11-16 18:58:26,816] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:58:26,816] [builder.py:193]            [INFO]     |                            Trakt Watched Collection in Halloween Movies                            |
+[2022-11-16 18:58:26,817] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:58:26,817] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,817] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:58:26,817] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,817] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 18:58:26,817] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,817] [meta.py:210]               [DEBUG]    |========================================== Template trakt ==========================================|
+[2022-11-16 18:58:26,818] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,820] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:58:26,821] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,832] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:58:26,833] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,838] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:58:26,839] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,842] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:58:26,843] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,845] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,845] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:58:26,845] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,845] [meta.py:515]               [DEBUG]    | {'trakt_chart': {'chart': 'watched', 'limit': 100}, 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_Trakt Watched', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Watched.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Watched List.", 'name': 'Trakt Watched'} |
+[2022-11-16 18:58:26,845] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,845] [builder.py:223]            [INFO]     |=============================== Validating Trakt Watched Attributes ================================|
+[2022-11-16 18:58:26,845] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,846] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:58:26,846] [builder.py:230]            [DEBUG]    | Value: Trakt Watched                                                                               |
+[2022-11-16 18:58:26,846] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,846] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:58:26,846] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:58:26,846] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,846] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:58:26,846] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:58:26,846] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,846] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:58:26,846] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:58:26,846] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,846] [builder.py:650]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2022-11-16 18:58:26,847] [builder.py:651]            [DEBUG]    | Value: {'chart': 'watched', 'limit': 100}                                                          |
+[2022-11-16 18:58:26,847] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,847] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:58:26,847] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:58:26,847] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,847] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:58:26,847] [builder.py:651]            [DEBUG]    | Value: !01_Trakt Watched                                                                           |
+[2022-11-16 18:58:26,847] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,847] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:58:26,847] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Watched.jpg |
+[2022-11-16 18:58:26,945] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,945] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:58:26,945] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:58:26,945] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,946] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:58:26,946] [builder.py:651]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Watched List.                                          |
+[2022-11-16 18:58:26,989] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,989] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:58:26,989] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,989] [plex_meta_manager.py:596]  [INFO]     |================================= Running Trakt Watched Collection =================================|
+[2022-11-16 18:58:26,990] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,990] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:58:26,990] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,990] [plex_meta_manager.py:613]  [DEBUG]    | Builder: trakt_chart: {'chart': 'watched', 'limit': 100, 'time_period': None}                      |
+[2022-11-16 18:58:26,990] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,991] [builder.py:1523]           [INFO]     | Builder: trakt_chart loaded from Cache                                                             |
+[2022-11-16 18:58:26,993] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,993] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-16 18:58:26,993] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:58:26,993] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,994] [builder.py:2159]           [INFO]     |================================ Adding to Trakt Watched Collection ================================|
+[2022-11-16 18:58:26,994] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:26,994] [builder.py:2174]           [INFO]     | 1/9 | Trakt Watched Collection | + | Smile (2022)                                                  |
+[2022-11-16 18:58:27,079] [builder.py:2174]           [INFO]     | 2/9 | Trakt Watched Collection | = | Barbarian (2022)                                              |
+[2022-11-16 18:58:27,080] [builder.py:2174]           [INFO]     | 3/9 | Trakt Watched Collection | = | Terrifier 2 (2022)                                            |
+[2022-11-16 18:58:27,080] [builder.py:2174]           [INFO]     | 4/9 | Trakt Watched Collection | = | The Invitation (2022)                                         |
+[2022-11-16 18:58:27,080] [builder.py:2174]           [INFO]     | 5/9 | Trakt Watched Collection | = | Halloween Ends (2022)                                         |
+[2022-11-16 18:58:27,080] [builder.py:2174]           [INFO]     | 6/9 | Trakt Watched Collection | = | Hocus Pocus 2 (2022)                                          |
+[2022-11-16 18:58:27,080] [builder.py:2174]           [INFO]     | 7/9 | Trakt Watched Collection | = | Terrifier (2016)                                              |
+[2022-11-16 18:58:27,081] [builder.py:2174]           [INFO]     | 8/9 | Trakt Watched Collection | = | Pearl (2022)                                                  |
+[2022-11-16 18:58:27,081] [builder.py:2174]           [INFO]     | 9/9 | Trakt Watched Collection | = | Jeepers Creepers: Reborn (2022)                               |
+[2022-11-16 18:58:30,509] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:30,509] [builder.py:2196]           [INFO]     | 9 Movies Processed 1 Movies Added                                                                  |
+[2022-11-16 18:58:30,509] [builder.py:2204]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:30,509] [builder.py:2205]           [INFO]     |============================== Removed from Trakt Watched Collection ===============================|
+[2022-11-16 18:58:30,509] [builder.py:2206]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:30,510] [builder.py:2211]           [INFO]     | 1/1 | Trakt Watched Collection | - | Hellraiser (2022)                                             |
+[2022-11-16 18:58:35,697] [builder.py:2223]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:35,697] [builder.py:2224]           [INFO]     | 1 Movies Removed                                                                                   |
+[2022-11-16 18:58:35,698] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:35,698] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:58:35,698] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:35,738] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)                |
+[2022-11-16 18:58:35,751] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Black Adam (2022) (TMDb: 436270)                                    |
+[2022-11-16 18:58:35,761] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Enola Holmes 2 (2022) (TMDb: 829280)                                |
+[2022-11-16 18:58:35,771] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Ticket to Paradise (2022) (TMDb: 800939)                            |
+[2022-11-16 18:58:35,782] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Bullet Train (2022) (TMDb: 718930)                                  |
+[2022-11-16 18:58:35,797] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                             |
+[2022-11-16 18:58:35,822] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                  |
+[2022-11-16 18:58:35,833] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)                 |
+[2022-11-16 18:58:35,844] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Woman King (2022) (TMDb: 724495)                                |
+[2022-11-16 18:58:35,855] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                           |
+[2022-11-16 18:58:35,867] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Amsterdam (2022) (TMDb: 664469)                                     |
+[2022-11-16 18:58:35,876] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | On the Line (2022) (TMDb: 979924)                                   |
+[2022-11-16 18:58:35,887] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                        |
+[2022-11-16 18:58:35,898] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Black Panther (2018) (TMDb: 284054)                                 |
+[2022-11-16 18:58:35,910] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)               |
+[2022-11-16 18:58:35,921] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Enola Holmes (2020) (TMDb: 497582)                                  |
+[2022-11-16 18:58:35,933] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Falling for Christmas (2022) (TMDb: 833097)                         |
+[2022-11-16 18:58:35,946] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Good Nurse (2022) (TMDb: 541134)                                |
+[2022-11-16 18:58:35,960] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | See How They Run (2022) (TMDb: 766475)                              |
+[2022-11-16 18:58:35,976] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Nope (2022) (TMDb: 762504)                                          |
+[2022-11-16 18:58:35,996] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Batman (2022) (TMDb: 414906)                                    |
+[2022-11-16 18:58:36,015] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                       |
+[2022-11-16 18:58:36,027] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Fall (2022) (TMDb: 985939)                                          |
+[2022-11-16 18:58:36,038] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Poker Face (2022) (TMDb: 842934)                                    |
+[2022-11-16 18:58:36,049] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                       |
+[2022-11-16 18:58:36,060] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Avatar (2009) (TMDb: 19995)                                         |
+[2022-11-16 18:58:36,071] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Deadpool (2016) (TMDb: 293660)                                      |
+[2022-11-16 18:58:36,084] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                      |
+[2022-11-16 18:58:36,102] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)         |
+[2022-11-16 18:58:36,114] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Blade of the 47 Ronin (2022) (TMDb: 732459)                         |
+[2022-11-16 18:58:36,131] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395)   |
+[2022-11-16 18:58:36,146] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Interstellar (2014) (TMDb: 157336)                                  |
+[2022-11-16 18:58:36,160] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The School for Good and Evil (2022) (TMDb: 779782)                  |
+[2022-11-16 18:58:36,171] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Causeway (2022) (TMDb: 595586)                                      |
+[2022-11-16 18:58:36,183] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Guardians of the Galaxy (2014) (TMDb: 118340)                       |
+[2022-11-16 18:58:36,199] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Rise and Fall of a Small Film Company (1986) (TMDb: 271799)         |
+[2022-11-16 18:58:36,215] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Uncharted (2022) (TMDb: 335787)                                     |
+[2022-11-16 18:58:36,226] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Prey (2022) (TMDb: 766507)                                          |
+[2022-11-16 18:58:36,237] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Medieval (2022) (TMDb: 551271)                                      |
+[2022-11-16 18:58:36,247] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Paradise City (2022) (TMDb: 829799)                                 |
+[2022-11-16 18:58:36,258] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | John Wick (2014) (TMDb: 245891)                                     |
+[2022-11-16 18:58:36,269] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The System (2022) (TMDb: 1024627)                                   |
+[2022-11-16 18:58:36,280] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Where the Crawdads Sing (2022) (TMDb: 682507)                       |
+[2022-11-16 18:58:36,298] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Greatest Beer Run Ever (2022) (TMDb: 597922)                    |
+[2022-11-16 18:58:36,344] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Moana (2016) (TMDb: 277834)                                         |
+[2022-11-16 18:58:36,355] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | X (2022) (TMDb: 760104)                                             |
+[2022-11-16 18:58:36,367] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Dark Knight (2008) (TMDb: 155)                                  |
+[2022-11-16 18:58:36,383] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                        |
+[2022-11-16 18:58:36,398] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                             |
+[2022-11-16 18:58:36,412] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Lord of the Rings: The Fellowship of the Ring (2001) (TMDb: 120) |
+[2022-11-16 18:58:36,424] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Toy Story 3 (2010) (TMDb: 10193)                                    |
+[2022-11-16 18:58:36,441] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Selena Gomez: My Mind & Me (2022) (TMDb: 1022256)                   |
+[2022-11-16 18:58:36,451] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Sonic the Hedgehog 2 (2022) (TMDb: 675353)                          |
+[2022-11-16 18:58:36,467] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | John Wick: Chapter 2 (2017) (TMDb: 324552)                          |
+[2022-11-16 18:58:36,484] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Home Alone (1990) (TMDb: 771)                                       |
+[2022-11-16 18:58:36,497] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Harry Potter and the Chamber of Secrets (2002) (TMDb: 672)          |
+[2022-11-16 18:58:36,509] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Spider-Man: Homecoming (2017) (TMDb: 315635)                        |
+[2022-11-16 18:58:36,520] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)             |
+[2022-11-16 18:58:36,532] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Inception (2010) (TMDb: 27205)                                      |
+[2022-11-16 18:58:36,543] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Avengers (2012) (TMDb: 24428)                                   |
+[2022-11-16 18:58:36,554] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Guardians of the Galaxy Vol. 2 (2017) (TMDb: 283995)                |
+[2022-11-16 18:58:36,566] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Prey for the Devil (2022) (TMDb: 676547)                            |
+[2022-11-16 18:58:36,576] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Harry Potter and the Goblet of Fire (2005) (TMDb: 674)              |
+[2022-11-16 18:58:36,587] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Lost Bullet 2 (2022) (TMDb: 948276)                                 |
+[2022-11-16 18:58:36,598] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Beast (2022) (TMDb: 760741)                                         |
+[2022-11-16 18:58:36,609] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Lost City (2022) (TMDb: 752623)                                 |
+[2022-11-16 18:58:36,619] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Matrix (1999) (TMDb: 603)                                       |
+[2022-11-16 18:58:36,631] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Sing 2 (2021) (TMDb: 438695)                                        |
+[2022-11-16 18:58:36,643] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Shawshank Redemption (1994) (TMDb: 278)                         |
+[2022-11-16 18:58:36,665] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Grinch (2018) (TMDb: 360920)                                    |
+[2022-11-16 18:58:36,678] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Takeover (2022) (TMDb: 944864)                                  |
+[2022-11-16 18:58:36,690] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Banshees of Inisherin (2022) (TMDb: 674324)                     |
+[2022-11-16 18:58:36,702] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Iron Man (2008) (TMDb: 1726)                                        |
+[2022-11-16 18:58:36,713] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Dune (2021) (TMDb: 438631)                                          |
+[2022-11-16 18:58:36,724] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                       |
+[2022-11-16 18:58:36,746] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Encanto (2021) (TMDb: 568124)                                       |
+[2022-11-16 18:58:36,758] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Emily the Criminal (2022) (TMDb: 862965)                            |
+[2022-11-16 18:58:36,781] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Sniper: The White Raven (2022) (TMDb: 966220)                       |
+[2022-11-16 18:58:36,798] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Frozen (2013) (TMDb: 109445)                                        |
+[2022-11-16 18:58:36,810] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Harry Potter and the Prisoner of Azkaban (2004) (TMDb: 673)         |
+[2022-11-16 18:58:36,824] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Northman (2022) (TMDb: 639933)                                  |
+[2022-11-16 18:58:36,835] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Doctor Strange (2016) (TMDb: 284052)                                |
+[2022-11-16 18:58:36,849] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Pleasure (2021) (TMDb: 592695)                                      |
+[2022-11-16 18:58:36,862] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Selina's Gold (2022) (TMDb: 1029446)                                |
+[2022-11-16 18:58:36,873] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Lord of the Rings: The Return of the King (2003) (TMDb: 122)    |
+[2022-11-16 18:58:36,884] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953)   |
+[2022-11-16 18:58:36,894] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | My Policeman (2022) (TMDb: 744114)                                  |
+[2022-11-16 18:58:36,905] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Free Guy (2021) (TMDb: 550988)                                      |
+[2022-11-16 18:58:36,918] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | The Wolf of Wall Street (2013) (TMDb: 106646)                       |
+[2022-11-16 18:58:36,929] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Harry Potter and the Deathly Hallows: Part 2 (2011) (TMDb: 12445)   |
+[2022-11-16 18:58:36,941] [builder.py:2321]           [INFO]     | Trakt Watched Collection | ? | Lyle, Lyle, Crocodile (2022) (TMDb: 830784)                         |
+[2022-11-16 18:58:36,942] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:36,942] [builder.py:2327]           [INFO]     | 91 Movies Missing                                                                                  |
+[2022-11-16 18:58:40,404] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:40,404] [builder.py:2528]           [INFO]     |=========================== Updating Details of Trakt Watched Collection ===========================|
+[2022-11-16 18:58:40,404] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:40,411] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-16 18:58:41,856] [builder.py:2615]           [INFO]     | Collection Mode | hide                                                                             |
+[2022-11-16 18:58:41,857] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-16 18:58:41,857] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Watched.jpg |
+[2022-11-16 18:58:41,857] [util.py:176]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '/config/Halloween_Movies/Assets/Trakt Watched/poster.jpg', 'prefix': "Trakt Watched's ", 'is_poster': True, 'is_url': False, 'compare': 272280, 'message': "Trakt Watched's poster to [File] /config/Halloween_Movies/Assets/Trakt Watched/poster.jpg"} |
+[2022-11-16 18:58:41,858] [library.py:180]            [INFO]     | Detail: Trakt Watched's poster update not needed                                                   |
+[2022-11-16 18:58:41,898] [builder.py:2686]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:41,898] [builder.py:2687]           [INFO]     |================================= Sorting Trakt Watched Collection =================================|
+[2022-11-16 18:58:41,899] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:58:41,899] [builder.py:2704]           [INFO]     | Moving Smile (2022) to the beginning                                                               |
+[2022-11-16 18:58:41,927] [builder.py:2704]           [INFO]     | Moving Barbarian (2022) after Smile (2022)                                                         |
+[2022-11-16 18:58:41,955] [builder.py:2704]           [INFO]     | Moving Terrifier 2 (2022) after Barbarian (2022)                                                   |
+[2022-11-16 18:58:41,983] [builder.py:2704]           [INFO]     | Moving The Invitation (2022) after Terrifier 2 (2022)                                              |
+[2022-11-16 18:58:42,011] [builder.py:2704]           [INFO]     | Moving Halloween Ends (2022) after The Invitation (2022)                                           |
+[2022-11-16 18:58:42,038] [builder.py:2704]           [INFO]     | Moving Hocus Pocus 2 (2022) after Halloween Ends (2022)                                            |
+[2022-11-16 18:58:42,072] [builder.py:2704]           [INFO]     | Moving Pearl (2022) after Terrifier (2016)                                                         |
+[2022-11-16 18:58:42,153] [builder.py:2704]           [INFO]     | Moving Jeepers Creepers: Reborn (2022) after Pearl (2022)                                          |
+[2022-11-16 18:58:42,187] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:58:42,187] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:58:42,188] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Trakt Watched Collection                                  |
+[2022-11-16 18:58:42,188] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-11-16 18:58:42,188] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

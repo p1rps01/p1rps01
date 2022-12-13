@@ -1,0 +1,66 @@
+[2022-11-25 15:59:17,788] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:17,788] [builder.py:193]            [INFO]     |                                Josh Holloway Collection in TV Shows                                |
+[2022-11-25 15:59:17,788] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:59:17,789] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:17,789] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:59:17,789] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,789] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-25 15:59:17,790] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,800] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-25 15:59:17,803] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,807] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-25 15:59:17,813] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,838] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,838] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:59:17,839] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,839] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Josh Holloway'], 'smart_filter': {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}, 'summary': 'Shows with Josh Holloway.', 'name': 'Josh Holloway', 'ignore_blank_results': True, 'sort_title': '!17_Josh Holloway', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/Josh%20Holloway.jpg'} |
+[2022-11-25 15:59:17,839] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,839] [builder.py:223]            [INFO]     |=============================== Validating Josh Holloway Attributes ================================|
+[2022-11-25 15:59:17,840] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,840] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-25 15:59:17,840] [builder.py:230]            [DEBUG]    | Value: Josh Holloway                                                                               |
+[2022-11-25 15:59:17,840] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,840] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-25 15:59:17,841] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-25 15:59:17,841] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:17,841] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-25 15:59:17,841] [builder.py:533]            [DEBUG]    | Value: ['Josh Holloway']                                                                           |
+[2022-11-25 15:59:17,900] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:17,908] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-25 15:59:17,909] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'actor': 'tmdb'}}                                       |
+[2022-11-25 15:59:18,485] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.actor=51803&pop=1                 |
+[2022-11-25 15:59:18,485] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:18,486] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-25 15:59:18,486] [builder.py:651]            [DEBUG]    | Value: Top Actors                                                                                  |
+[2022-11-25 15:59:18,486] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:18,486] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-25 15:59:18,486] [builder.py:651]            [DEBUG]    | Value: Shows with Josh Holloway.                                                                   |
+[2022-11-25 15:59:18,486] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:18,486] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:59:18,486] [builder.py:651]            [DEBUG]    | Value: !17_Josh Holloway                                                                           |
+[2022-11-25 15:59:18,487] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:59:18,487] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-25 15:59:18,487] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/Josh%20Holloway.jpg |
+[2022-11-25 15:59:18,641] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:59:18,641] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:59:18,641] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:18,642] [plex_meta_manager.py:596]  [INFO]     |================================= Running Josh Holloway Collection =================================|
+[2022-11-25 15:59:18,642] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:18,642] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Josh Holloway
+[2022-11-25 15:59:18,665] [builder.py:2527]           [INFO]     | 
+[2022-11-25 15:59:18,665] [builder.py:2528]           [INFO]     |=========================== Updating Details of Josh Holloway Collection ===========================|
+[2022-11-25 15:59:18,665] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:59:18,674] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:59:18,674] [util.py:174]               [DEBUG]    | 2 posters found:                                                                                   |
+[2022-11-25 15:59:18,674] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/biuhUJn5BDhXpfKvVW4dVUxvB44.jpg    |
+[2022-11-25 15:59:18,674] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/bw/Josh%20Holloway.jpg |
+[2022-11-25 15:59:18,675] [library.py:180]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-25 15:59:18,690] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:59:18,691] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:59:18,692] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Josh Holloway Collection                                  |
+[2022-11-25 15:59:18,692] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-25 15:59:18,694] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

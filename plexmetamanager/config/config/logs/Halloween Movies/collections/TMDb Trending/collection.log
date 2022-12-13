@@ -1,0 +1,213 @@
+[2022-11-16 18:57:04,148] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:57:04,148] [builder.py:193]            [INFO]     |                            TMDb Trending Collection in Halloween Movies                            |
+[2022-11-16 18:57:04,148] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 18:57:04,149] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,149] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 18:57:04,149] [builder.py:209]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,150] [builder.py:210]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-11-16 18:57:04,150] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,150] [meta.py:210]               [DEBUG]    |========================================== Template tmdb ===========================================|
+[2022-11-16 18:57:04,151] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,155] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 18:57:04,157] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,179] [meta.py:210]               [DEBUG]    |=========================================== Template arr ===========================================|
+[2022-11-16 18:57:04,181] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,190] [meta.py:210]               [DEBUG]    |========================================= Template custom ==========================================|
+[2022-11-16 18:57:04,191] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,198] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 18:57:04,199] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,203] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,204] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 18:57:04,204] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,204] [meta.py:515]               [DEBUG]    | {'tmdb_trending_weekly': 100, 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!01_TMDb Trending', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Trending.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of movies trending on TMDb.', 'name': 'TMDb Trending'} |
+[2022-11-16 18:57:04,204] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,204] [builder.py:223]            [INFO]     |=============================== Validating TMDb Trending Attributes ================================|
+[2022-11-16 18:57:04,204] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,205] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 18:57:04,205] [builder.py:230]            [DEBUG]    | Value: TMDb Trending                                                                               |
+[2022-11-16 18:57:04,205] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,205] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 18:57:04,205] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 18:57:04,205] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,205] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-16 18:57:04,206] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-16 18:57:04,206] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,206] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 18:57:04,206] [builder.py:615]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-16 18:57:04,206] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,206] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-11-16 18:57:04,206] [builder.py:651]            [DEBUG]    | Value: 100                                                                                         |
+[2022-11-16 18:57:04,206] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,207] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 18:57:04,207] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 18:57:04,207] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,207] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 18:57:04,207] [builder.py:651]            [DEBUG]    | Value: !01_TMDb Trending                                                                           |
+[2022-11-16 18:57:04,207] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,207] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 18:57:04,208] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Trending.jpg |
+[2022-11-16 18:57:04,333] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,333] [builder.py:650]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2022-11-16 18:57:04,333] [builder.py:651]            [DEBUG]    | Value: 1                                                                                           |
+[2022-11-16 18:57:04,334] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,334] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 18:57:04,334] [builder.py:651]            [DEBUG]    | Value: A collection of movies trending on TMDb.                                                    |
+[2022-11-16 18:57:04,386] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,387] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 18:57:04,387] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,387] [plex_meta_manager.py:596]  [INFO]     |================================= Running TMDb Trending Collection =================================|
+[2022-11-16 18:57:04,387] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,387] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-16 18:57:04,388] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,388] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_trending_weekly: 100                                                                 |
+[2022-11-16 18:57:04,388] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,389] [builder.py:1523]           [INFO]     | Builder: tmdb_trending_weekly loaded from Cache                                                    |
+[2022-11-16 18:57:04,392] [builder.py:1574]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,393] [builder.py:1575]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2022-11-16 18:57:04,394] [builder.py:1577]           [DEBUG]    |                                                                                                    |
+[2022-11-16 18:57:04,394] [builder.py:2158]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,395] [builder.py:2159]           [INFO]     |================================ Adding to TMDb Trending Collection ================================|
+[2022-11-16 18:57:04,395] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:04,395] [builder.py:2174]           [INFO]     |  1/14 | TMDb Trending Collection | = | Smile (2022)                                                |
+[2022-11-16 18:57:04,395] [builder.py:2174]           [INFO]     |  2/14 | TMDb Trending Collection | = | Barbarian (2022)                                            |
+[2022-11-16 18:57:04,395] [builder.py:2174]           [INFO]     |  3/14 | TMDb Trending Collection | = | Halloween Ends (2022)                                       |
+[2022-11-16 18:57:04,396] [builder.py:2174]           [INFO]     |  4/14 | TMDb Trending Collection | + | Terrifier 2 (2022)                                          |
+[2022-11-16 18:57:04,630] [builder.py:2174]           [INFO]     |  5/14 | TMDb Trending Collection | + | Pearl (2022)                                                |
+[2022-11-16 18:57:04,756] [builder.py:2174]           [INFO]     |  6/14 | TMDb Trending Collection | + | Werewolf by Night (2022)                                    |
+[2022-11-16 18:57:05,552] [builder.py:2174]           [INFO]     |  7/14 | TMDb Trending Collection | + | Run Sweetheart Run (2020)                                   |
+[2022-11-16 18:57:08,235] [builder.py:2174]           [INFO]     |  8/14 | TMDb Trending Collection | + | Matriarch (2022)                                            |
+[2022-11-16 18:57:10,308] [builder.py:2174]           [INFO]     |  9/14 | TMDb Trending Collection | + | The Invitation (2022)                                       |
+[2022-11-16 18:57:12,700] [builder.py:2174]           [INFO]     | 10/14 | TMDb Trending Collection | + | Terrifier (2016)                                            |
+[2022-11-16 18:57:15,400] [builder.py:2174]           [INFO]     | 11/14 | TMDb Trending Collection | + | Men (2022)                                                  |
+[2022-11-16 18:57:19,061] [builder.py:2174]           [INFO]     | 12/14 | TMDb Trending Collection | + | Jeepers Creepers: Reborn (2022)                             |
+[2022-11-16 18:57:19,333] [builder.py:2174]           [INFO]     | 13/14 | TMDb Trending Collection | + | Orphan: First Kill (2022)                                   |
+[2022-11-16 18:57:22,066] [builder.py:2174]           [INFO]     | 14/14 | TMDb Trending Collection | + | Hocus Pocus 2 (2022)                                        |
+[2022-11-16 18:57:29,953] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:29,953] [builder.py:2196]           [INFO]     | 14 Movies Processed 11 Movies Added                                                                |
+[2022-11-16 18:57:29,953] [builder.py:2306]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:29,953] [builder.py:2307]           [INFO]     |========================== Missing Movies from Library: Halloween Movies ===========================|
+[2022-11-16 18:57:29,954] [builder.py:2308]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:30,091] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)                |
+[2022-11-16 18:57:30,107] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Enola Holmes 2 (2022) (TMDb: 829280)                                |
+[2022-11-16 18:57:30,138] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Black Adam (2022) (TMDb: 436270)                                    |
+[2022-11-16 18:57:30,151] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)                 |
+[2022-11-16 18:57:30,164] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Amsterdam (2022) (TMDb: 664469)                                     |
+[2022-11-16 18:57:30,183] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Top Gun: Maverick (2022) (TMDb: 361743)                             |
+[2022-11-16 18:57:30,195] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Lost Bullet 2 (2022) (TMDb: 948276)                                 |
+[2022-11-16 18:57:30,209] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | See How They Run (2022) (TMDb: 766475)                              |
+[2022-11-16 18:57:30,234] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Bullet Train (2022) (TMDb: 718930)                                  |
+[2022-11-16 18:57:30,246] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)               |
+[2022-11-16 18:57:30,260] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Causeway (2022) (TMDb: 595586)                                      |
+[2022-11-16 18:57:30,271] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                           |
+[2022-11-16 18:57:30,295] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Falling for Christmas (2022) (TMDb: 833097)                         |
+[2022-11-16 18:57:30,307] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Woman King (2022) (TMDb: 724495)                                |
+[2022-11-16 18:57:30,318] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Nope (2022) (TMDb: 762504)                                          |
+[2022-11-16 18:57:30,335] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                        |
+[2022-11-16 18:57:30,350] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                  |
+[2022-11-16 18:57:30,370] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Ticket to Paradise (2022) (TMDb: 800939)                            |
+[2022-11-16 18:57:30,387] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | My Father's Dragon (2022) (TMDb: 560052)                            |
+[2022-11-16 18:57:30,397] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | My Policeman (2022) (TMDb: 744114)                                  |
+[2022-11-16 18:57:30,415] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Spider-Man: No Way Home (2021) (TMDb: 634649)                       |
+[2022-11-16 18:57:30,435] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | On the Line (2022) (TMDb: 979924)                                   |
+[2022-11-16 18:57:30,449] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Overdose (2022) (TMDb: 896485)                                      |
+[2022-11-16 18:57:30,461] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Poker Face (2022) (TMDb: 842934)                                    |
+[2022-11-16 18:57:30,479] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Good Nurse (2022) (TMDb: 541134)                                |
+[2022-11-16 18:57:30,490] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Medieval (2022) (TMDb: 551271)                                      |
+[2022-11-16 18:57:30,500] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Soccer Football Movie (2022) (TMDb: 1037858)                    |
+[2022-11-16 18:57:30,512] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | TÁR (2022) (TMDb: 817758)                                           |
+[2022-11-16 18:57:30,524] [builder.py:2325]           [INFO]     | TMDb Trending Collection | X | Avatar: The Way of Water (2022) (TMDb: 76600)                       |
+[2022-11-16 18:57:30,539] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Tad the Lost Explorer and the Curse of the Mummy (2022) (TMDb: 676701) |
+[2022-11-16 18:57:30,552] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The School for Good and Evil (2022) (TMDb: 779782)                  |
+[2022-11-16 18:57:30,564] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Don't Leave (2022) (TMDb: 1040263)                                  |
+[2022-11-16 18:57:30,576] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Takeover (2022) (TMDb: 944864)                                  |
+[2022-11-16 18:57:30,593] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Enola Holmes (2020) (TMDb: 497582)                                  |
+[2022-11-16 18:57:30,606] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Paradise City (2022) (TMDb: 829799)                                 |
+[2022-11-16 18:57:30,617] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Doctor Strange in the Multiverse of Madness (2022) (TMDb: 453395)   |
+[2022-11-16 18:57:30,631] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Batman (2022) (TMDb: 414906)                                    |
+[2022-11-16 18:57:30,661] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Black Panther (2018) (TMDb: 284054)                                 |
+[2022-11-16 18:57:30,676] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Wendell & Wild (2022) (TMDb: 511817)                                |
+[2022-11-16 18:57:30,690] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Avatar (2009) (TMDb: 19995)                                         |
+[2022-11-16 18:57:30,713] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                            |
+[2022-11-16 18:57:30,726] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                      |
+[2022-11-16 18:57:30,737] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Where the Crawdads Sing (2022) (TMDb: 682507)                       |
+[2022-11-16 18:57:30,749] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Monica, O My Darling (2022) (TMDb: 915831)                          |
+[2022-11-16 18:57:30,763] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)         |
+[2022-11-16 18:57:30,777] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Wonder (2022) (TMDb: 823766)                                    |
+[2022-11-16 18:57:30,788] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Jurassic World Dominion (2022) (TMDb: 507086)                       |
+[2022-11-16 18:57:30,803] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Everything Everywhere All at Once (2022) (TMDb: 545611)             |
+[2022-11-16 18:57:30,817] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Emily the Criminal (2022) (TMDb: 862965)                            |
+[2022-11-16 18:57:30,830] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Lord of the Rings: The Fellowship of the Ring (2001) (TMDb: 120) |
+[2022-11-16 18:57:30,844] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Beast (2022) (TMDb: 760741)                                         |
+[2022-11-16 18:57:30,857] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Detective Conan: The Bride of Halloween (2022) (TMDb: 903939)       |
+[2022-11-16 18:57:30,868] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Brahmāstra Part One: Shiva (2022) (TMDb: 496331)                    |
+[2022-11-16 18:57:30,882] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | X (2022) (TMDb: 760104)                                             |
+[2022-11-16 18:57:30,899] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Capturing the Killer Nurse (2022) (TMDb: 1018647)                   |
+[2022-11-16 18:57:30,916] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Avengers: Endgame (2019) (TMDb: 299534)                             |
+[2022-11-16 18:57:30,933] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Fall (2022) (TMDb: 985939)                                          |
+[2022-11-16 18:57:30,945] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Pulp Fiction (1994) (TMDb: 680)                                     |
+[2022-11-16 18:57:30,957] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Star Wars (1977) (TMDb: 11)                                         |
+[2022-11-16 18:57:30,976] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Avengers: Infinity War (2018) (TMDb: 299536)                        |
+[2022-11-16 18:57:30,992] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Stranger (2022) (TMDb: 848791)                                  |
+[2022-11-16 18:57:31,012] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Interstellar (2014) (TMDb: 157336)                                  |
+[2022-11-16 18:57:31,032] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Decision to Leave (2022) (TMDb: 705996)                             |
+[2022-11-16 18:57:31,036] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | The Minute You Wake Up Dead (2022) (TMDb: 934641)                   |
+[2022-11-16 18:57:31,051] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Last Seen Alive (2022) (TMDb: 961484)                               |
+[2022-11-16 18:57:31,063] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Beyond the Universe (2022) (TMDb: 962232)                           |
+[2022-11-16 18:57:31,066] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Iron Man (2008) (TMDb: 1726)                                        |
+[2022-11-16 18:57:31,078] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Robbing Mussolini (2022) (TMDb: 873125)                             |
+[2022-11-16 18:57:31,095] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Confidential Assignment 2: International (2022) (TMDb: 736820)      |
+[2022-11-16 18:57:31,109] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Lost Bullet (2020) (TMDb: 706503)                                   |
+[2022-11-16 18:57:31,125] [builder.py:2325]           [INFO]     | TMDb Trending Collection | X | The Menu (2022) (TMDb: 593643)                                      |
+[2022-11-16 18:57:31,138] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Emily (2022) (TMDb: 707103)                                         |
+[2022-11-16 18:57:31,150] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Selena Gomez: My Mind & Me (2022) (TMDb: 1022256)                   |
+[2022-11-16 18:57:31,166] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Prey for the Devil (2022) (TMDb: 676547)                            |
+[2022-11-16 18:57:31,180] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Tom and Jerry Snowman's Land (2022) (TMDb: 1018403)                 |
+[2022-11-16 18:57:31,195] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | 20th Century Girl (2022) (TMDb: 851644)                             |
+[2022-11-16 18:57:31,217] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Dune (2021) (TMDb: 438631)                                          |
+[2022-11-16 18:57:31,235] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953)   |
+[2022-11-16 18:57:31,246] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Shadow Master (2022) (TMDb: 1036561)                                |
+[2022-11-16 18:57:31,256] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Hellhole (2022) (TMDb: 1032950)                                     |
+[2022-11-16 18:57:31,273] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Watcher (2022) (TMDb: 807356)                                       |
+[2022-11-16 18:57:31,302] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Aqua Teen Forever: Plantasm (2022) (TMDb: 828900)                   |
+[2022-11-16 18:57:31,319] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Raymond & Ray (2022) (TMDb: 869025)                                 |
+[2022-11-16 18:57:31,331] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Minions & More 2 (2022) (TMDb: 1045644)                             |
+[2022-11-16 18:57:31,345] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | Lyle, Lyle, Crocodile (2022) (TMDb: 830784)                         |
+[2022-11-16 18:57:31,360] [builder.py:2321]           [INFO]     | TMDb Trending Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                       |
+[2022-11-16 18:57:31,361] [builder.py:2326]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:31,361] [builder.py:2327]           [INFO]     | 84 Movies Missing                                                                                  |
+[2022-11-16 18:57:39,459] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:39,460] [builder.py:2528]           [INFO]     |=========================== Updating Details of TMDb Trending Collection ===========================|
+[2022-11-16 18:57:39,460] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:39,466] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A collection of movies trending on TMDb.
+                                                                 | Sort Title | !01_TMDb Trending
+                                                                 | Label | +PMM
+[2022-11-16 18:57:41,173] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 18:57:41,173] [builder.py:2603]           [INFO]     | 
+[2022-11-16 18:57:42,918] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 18:57:44,535] [builder.py:2629]           [INFO]     | Collection Order | custom
+[2022-11-16 18:57:44,543] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Halloween_Movies/Assets/TMDb Trending
+[2022-11-16 18:57:44,543] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 18:57:44,544] [util.py:176]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Trending.jpg
+[2022-11-16 18:57:44,669] [library.py:178]            [INFO]     | Detail: asset_directory updated TMDb Trending's poster to [File] config/Halloween_Movies/Assets/TMDb Trending/poster.jpg
+[2022-11-16 18:57:44,791] [builder.py:2686]           [INFO]     | 
+[2022-11-16 18:57:44,792] [builder.py:2687]           [INFO]     |================================= Sorting TMDb Trending Collection =================================|
+[2022-11-16 18:57:44,792] [builder.py:2688]           [INFO]     |                                                                                                    |
+[2022-11-16 18:57:44,792] [builder.py:2704]           [INFO]     | Moving Barbarian (2022) after Smile (2022)                                                         |
+[2022-11-16 18:57:44,853] [builder.py:2704]           [INFO]     | Moving Halloween Ends (2022) after Barbarian (2022)                                                |
+[2022-11-16 18:57:44,941] [builder.py:2704]           [INFO]     | Moving Terrifier 2 (2022) after Halloween Ends (2022)                                              |
+[2022-11-16 18:57:45,046] [builder.py:2704]           [INFO]     | Moving Pearl (2022) after Terrifier 2 (2022)                                                       |
+[2022-11-16 18:57:45,129] [builder.py:2704]           [INFO]     | Moving Werewolf by Night (2022) after Pearl (2022)                                                 |
+[2022-11-16 18:57:45,193] [builder.py:2704]           [INFO]     | Moving Run Sweetheart Run (2020) after Werewolf by Night (2022)                                    |
+[2022-11-16 18:57:45,252] [builder.py:2704]           [INFO]     | Moving Matriarch (2022) after Run Sweetheart Run (2020)                                            |
+[2022-11-16 18:57:45,300] [builder.py:2704]           [INFO]     | Moving The Invitation (2022) after Matriarch (2022)                                                |
+[2022-11-16 18:57:45,351] [builder.py:2704]           [INFO]     | Moving Terrifier (2016) after The Invitation (2022)                                                |
+[2022-11-16 18:57:45,425] [builder.py:2704]           [INFO]     | Moving Men (2022) after Terrifier (2016)                                                           |
+[2022-11-16 18:57:45,518] [builder.py:2704]           [INFO]     | Moving Jeepers Creepers: Reborn (2022) after Men (2022)                                            |
+[2022-11-16 18:57:45,569] [builder.py:2704]           [INFO]     | Moving Orphan: First Kill (2022) after Jeepers Creepers: Reborn (2022)                             |
+[2022-11-16 18:57:45,614] [builder.py:2704]           [INFO]     | Moving Hocus Pocus 2 (2022) after Orphan: First Kill (2022)                                        |
+[2022-11-16 18:57:45,662] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-16 18:57:45,662] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 18:57:45,662] [plex_meta_manager.py:737]  [INFO]     |                                 Finished TMDb Trending Collection                                  |
+[2022-11-16 18:57:45,663] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:41                                    |
+[2022-11-16 18:57:45,663] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

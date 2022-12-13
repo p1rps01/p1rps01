@@ -1,0 +1,75 @@
+[2022-11-16 20:14:55,995] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:55,995] [builder.py:193]            [INFO]     |                               Chris Evans Collection in Kids Movies                                |
+[2022-11-16 20:14:55,996] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:14:55,996] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:55,996] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:14:55,996] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:55,997] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:14:55,998] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:55,999] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:55,999] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:14:56,000] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,000] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 16828, 'sort_title': '++_Chris Evans', 'collection_order': 'release'} |
+[2022-11-16 20:14:56,000] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,000] [builder.py:223]            [INFO]     |================================ Validating Chris Evans Attributes =================================|
+[2022-11-16 20:14:56,000] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,000] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:14:56,000] [builder.py:533]            [DEBUG]    | Value: 16828                                                                                       |
+[2022-11-16 20:14:56,022] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,022] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:14:56,022] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:14:56,022] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,022] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:14:56,022] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:14:56,528] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,528] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:14:56,528] [builder.py:651]            [DEBUG]    | Value: ++_Chris Evans                                                                              |
+[2022-11-16 20:14:56,534] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,535] [builder.py:796]            [ERROR]    | Collection Error: Converting Chris Evans to a normal collection                                    |
+[2022-11-16 20:14:56,540] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,541] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:14:56,541] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,541] [plex_meta_manager.py:596]  [INFO]     |================================== Running Chris Evans Collection ==================================|
+[2022-11-16 20:14:56,542] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,542] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:14:56,543] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:14:56,543] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Chris Evans", '?type=1&sort=titleSort&push=1&actor=36172&pop=1') |
+[2022-11-16 20:14:56,543] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,543] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Chris Evans
+[2022-11-16 20:14:56,555] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:14:56,556] [builder.py:1575]           [DEBUG]    | 2 IDs Found
+[2022-11-16 20:14:56,556] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:14:56,558] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:14:56,558] [builder.py:2159]           [INFO]     |================================= Adding to Chris Evans Collection =================================|
+[2022-11-16 20:14:56,558] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:14:56,558] [builder.py:2174]           [INFO]     | 1/2 | Chris Evans Collection | + | Beyond Infinity: Buzz and the Journey to Lightyear (2022)       |
+[2022-11-16 20:14:59,575] [builder.py:2174]           [INFO]     | 2/2 | Chris Evans Collection | + | Lightyear (2022)                                                |
+[2022-11-16 20:15:05,094] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:05,095] [builder.py:2196]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-11-16 20:15:05,102] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:05,103] [builder.py:2528]           [INFO]     |============================ Updating Details of Chris Evans Collection ============================|
+[2022-11-16 20:15:05,103] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:05,112] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Christopher Robert Evans (born June 13, 1981) is an American actor. He began his career with roles in television series, such as in Opposite Sex in 2000. Following appearances in several teen films including 2001's Not Another Teen Movie, he gained attention for his portrayal of Marvel Comics character the Human Torch in 2005's Fantastic Four, and its sequel Fantastic Four: Rise of the Silver Surfer (2007). Evans made further appearances in film adaptations of comic books and graphic novels: TMNT (2007), Scott Pilgrim vs. the World (2010), and Snowpiercer (2013).
+                                                                 | 
+                                                                 | He gained wider recognition for his portrayal of Steve Rogers / Captain America in several Marvel Cinematic Universe films, namely Captain America: The First Avenger (2011), Captain America: The Winter Soldier (2014), and Captain America: Civil War (2016), and the ensemble films The Avengers (2012), Avengers: Age of Ultron (2015), Avengers: Infinity War (2018), and Avengers: Endgame (2019). His work on the Marvel series established him as one of the world's highest-paid actors.
+                                                                 | 
+                                                                 | Aside from comic book roles, Evans starred in the drama Gifted (2017), the mystery film Knives Out (2019), and the television miniseries Defending Jacob (2020). He made his directorial debut in 2014 with the romantic drama Before We Go, which he also produced and starred in. Evans made his Broadway debut in the 2018 revival of Kenneth Lonergan's play Lobby Hero, which earned him a Drama League Award nomination.
+                                                                 | 
+                                                                 | Description above from the Wikipedia article Chris Evans (actor), licensed under CC-BY-SA, full list of contributors on Wikipedia.
+                                                                 | Sort Title | ++_Chris Evans
+                                                                 | Label | +PMM
+[2022-11-16 20:15:06,743] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:15:06,743] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:15:06,744] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:15:06,744] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/3bOGNsHlrswhyW79uvIHH1V43JI.jpg
+[2022-11-16 20:15:06,875] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/3bOGNsHlrswhyW79uvIHH1V43JI.jpg
+[2022-11-16 20:15:07,516] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:15:07,517] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:15:07,517] [plex_meta_manager.py:737]  [INFO]     |                                  Finished Chris Evans Collection                                   |
+[2022-11-16 20:15:07,517] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-16 20:15:07,517] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

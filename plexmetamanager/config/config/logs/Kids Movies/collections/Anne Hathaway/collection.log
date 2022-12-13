@@ -1,0 +1,80 @@
+[2022-11-16 20:12:13,244] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:12:13,244] [builder.py:193]            [INFO]     |                              Anne Hathaway Collection in Kids Movies                               |
+[2022-11-16 20:12:13,244] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:12:13,244] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,244] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:12:13,245] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,245] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:12:13,245] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,247] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,247] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:12:13,247] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,248] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 1813, 'sort_title': '++_Anne Hathaway', 'collection_order': 'release'} |
+[2022-11-16 20:12:13,248] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,248] [builder.py:223]            [INFO]     |=============================== Validating Anne Hathaway Attributes ================================|
+[2022-11-16 20:12:13,248] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,248] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:12:13,248] [builder.py:533]            [DEBUG]    | Value: 1813                                                                                        |
+[2022-11-16 20:12:13,266] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,267] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:12:13,267] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:12:13,267] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,267] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:12:13,267] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:12:13,611] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,611] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:12:13,611] [builder.py:651]            [DEBUG]    | Value: ++_Anne Hathaway                                                                            |
+[2022-11-16 20:12:13,617] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,617] [builder.py:796]            [ERROR]    | Collection Error: Converting Anne Hathaway to a normal collection                                  |
+[2022-11-16 20:12:13,624] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,624] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:12:13,624] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:596]  [INFO]     |================================= Running Anne Hathaway Collection =================================|
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Anne Hathaway", '?type=1&sort=titleSort&push=1&actor=34246&pop=1') |
+[2022-11-16 20:12:13,625] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,625] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Anne Hathaway
+[2022-11-16 20:12:13,646] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:12:13,646] [builder.py:1575]           [DEBUG]    | 7 IDs Found
+[2022-11-16 20:12:13,646] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:12:13,647] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:12:13,647] [builder.py:2159]           [INFO]     |================================ Adding to Anne Hathaway Collection ================================|
+[2022-11-16 20:12:13,647] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:13,647] [builder.py:2174]           [INFO]     | 1/7 | Anne Hathaway Collection | + | Alice in Wonderland (2010)                                    |
+[2022-11-16 20:12:15,813] [builder.py:2174]           [INFO]     | 2/7 | Anne Hathaway Collection | + | Alice Through the Looking Glass (2016)                        |
+[2022-11-16 20:12:19,339] [builder.py:2174]           [INFO]     | 3/7 | Anne Hathaway Collection | + | Hoodwinked (2005)                                             |
+[2022-11-16 20:12:22,826] [builder.py:2174]           [INFO]     | 4/7 | Anne Hathaway Collection | + | The Princess Diaries (2001)                                   |
+[2022-11-16 20:12:22,973] [builder.py:2174]           [INFO]     | 5/7 | Anne Hathaway Collection | + | The Princess Diaries 2: Royal Engagement (2004)               |
+[2022-11-16 20:12:23,210] [builder.py:2174]           [INFO]     | 6/7 | Anne Hathaway Collection | + | Rio (2011)                                                    |
+[2022-11-16 20:12:26,641] [builder.py:2174]           [INFO]     | 7/7 | Anne Hathaway Collection | + | Rio 2 (2014)                                                  |
+[2022-11-16 20:12:32,150] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:32,151] [builder.py:2196]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-11-16 20:12:32,158] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:32,158] [builder.py:2528]           [INFO]     |=========================== Updating Details of Anne Hathaway Collection ===========================|
+[2022-11-16 20:12:32,158] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:12:32,168] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. She is the recipient of various accolades, including an Academy Award, a Golden Globe Award, and a Primetime Emmy Award, and was among the world's highest-paid actresses in 2015. Her films have grossed over $6.8 billion worldwide, and she appeared on the Forbes Celebrity 100 list in 2009.
+                                                                 | 
+                                                                 | Hathaway graduated from Millburn High School in New Jersey, where she performed in several plays. As a teenager, she was cast in the television series Get Real (1999–2000) and made her breakthrough as the protagonist in her debut film, the Disney comedy The Princess Diaries (2001). Hathaway made a transition to adult roles with the 2005 dramas Havoc and Brokeback Mountain. The comedy-drama The Devil Wears Prada (2006), in which she played an assistant to a fashion magazine editor, was her biggest commercial success to that point. She played a recovering addict with a mental illness in the drama Rachel Getting Married (2008), which earned her a nomination for the Academy Award for Best Actress. She went on to star in the commercially successful romances Bride Wars (2009), Valentine's Day (2010) and Love & Other Drugs (2010), and the fantasy film Alice in Wonderland (2010).
+                                                                 | 
+                                                                 | In 2012, Hathaway starred as Selina Kyle in her highest-grossing film The Dark Knight Rises, the final installment in The Dark Knight trilogy. Also that year, she played Fantine, a prostitute dying of tuberculosis, in the musical romantic drama Les Misérables, for which she won the Academy Award for Best Supporting Actress. She then played a scientist in the science fiction film Interstellar (2014), the owner of an online fashion site in the comedy The Intern (2015), a haughty actress in the heist film Ocean's 8 (2018) and a con artist in the comedy The Hustle (2019).
+                                                                 | 
+                                                                 | In addition to film roles, Hathaway has won a Primetime Emmy Award for her voice role in the sitcom The Simpsons, sung for soundtracks, appeared on stage, and hosted events. She supports several charitable causes. She is a board member of the Lollipop Theatre Network, an organization that brings films to children in hospitals, and advocates for gender equality as a UN Women goodwill ambassador. Married to actor and businessman Adam Shulman, she has two sons with him.
+                                                                 | Sort Title | ++_Anne Hathaway
+                                                                 | Label | +PMM
+[2022-11-16 20:12:34,093] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:12:34,093] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:12:34,094] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:12:34,094] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg
+[2022-11-16 20:12:34,174] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg
+[2022-11-16 20:12:34,441] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:12:34,441] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:12:34,442] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Anne Hathaway Collection                                  |
+[2022-11-16 20:12:34,442] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:21                                    |
+[2022-11-16 20:12:34,442] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

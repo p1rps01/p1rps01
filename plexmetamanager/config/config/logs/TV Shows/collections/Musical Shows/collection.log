@@ -1,0 +1,59 @@
+[2022-11-20 15:23:10,837] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 15:23:10,837] [builder.py:193]            [INFO]     |                                Musical Shows Collection in TV Shows                                |
+[2022-11-20 15:23:10,837] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-20 15:23:10,837] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-20 15:23:10,838] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-20 15:23:10,838] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,838] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-20 15:23:10,839] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,846] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-20 15:23:10,847] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,851] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-20 15:23:10,852] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,869] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,870] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-20 15:23:10,870] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,870] [meta.py:515]               [DEBUG]    | {'smart_filter': {'sort_by': 'release.desc', 'any': {'genre': ['Musical']}}, 'summary': 'Shows that have the genre Musical.', 'name': 'Musical Shows', 'ignore_blank_results': True, 'sort_title': '!06_Musical Shows', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Musical.jpg'} |
+[2022-11-20 15:23:10,870] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,870] [builder.py:223]            [INFO]     |=============================== Validating Musical Shows Attributes ================================|
+[2022-11-20 15:23:10,870] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,870] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-20 15:23:10,870] [builder.py:230]            [DEBUG]    | Value: Musical Shows                                                                               |
+[2022-11-20 15:23:10,871] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:10,871] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-20 15:23:10,871] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-20 15:23:10,871] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-20 15:23:10,871] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-20 15:23:10,871] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'release.desc', 'any': {'genre': ['Musical']}}                                  |
+[2022-11-20 15:23:11,009] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=2&sort=originallyAvailableAt%3Adesc&push=1&show.genre=7&pop=1                     |
+[2022-11-20 15:23:11,009] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:11,010] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-20 15:23:11,010] [builder.py:651]            [DEBUG]    | Value: Genre                                                                                       |
+[2022-11-20 15:23:11,010] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:11,010] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-20 15:23:11,010] [builder.py:651]            [DEBUG]    | Value: Shows that have the genre Musical.                                                          |
+[2022-11-20 15:23:11,011] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:11,011] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-20 15:23:11,011] [builder.py:651]            [DEBUG]    | Value: !06_Musical Shows                                                                           |
+[2022-11-20 15:23:11,012] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-20 15:23:11,012] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-20 15:23:11,012] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Musical.jpg |
+[2022-11-20 15:23:11,053] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-20 15:23:11,053] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-20 15:23:11,053] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-20 15:23:11,054] [plex_meta_manager.py:596]  [INFO]     |================================= Running Musical Shows Collection =================================|
+[2022-11-20 15:23:11,054] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-20 15:23:11,054] [plex_meta_manager.py:603]  [INFO]     | Smart Show Filter                                                                                  |
+                                                                 | Sort By: ['release.desc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Genre is Musical
+[2022-11-20 15:23:11,065] [plex_meta_manager.py:652]  [INFO]     | 
+[2022-11-20 15:23:11,066] [plex_meta_manager.py:653]  [INFO]     | Collection Minimum: 2 not met for Musical Shows Collection
+[2022-11-20 15:23:11,067] [plex_meta_manager.py:657]  [INFO]     | 
+[2022-11-20 15:23:11,078] [plex_meta_manager.py:658]  [INFO]     | Collection Musical Shows deleted
+[2022-11-20 15:23:11,079] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-20 15:23:11,079] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-20 15:23:11,080] [plex_meta_manager.py:737]  [INFO]     |                                 Finished Musical Shows Collection                                  |
+[2022-11-20 15:23:11,080] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-20 15:23:11,080] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

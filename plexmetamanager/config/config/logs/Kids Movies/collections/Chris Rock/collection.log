@@ -1,0 +1,73 @@
+[2022-11-16 20:15:13,973] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:15:13,973] [builder.py:193]            [INFO]     |                                Chris Rock Collection in Kids Movies                                |
+[2022-11-16 20:15:13,974] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:15:13,974] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:15:13,974] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:15:13,974] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,974] [meta.py:210]               [DEBUG]    |========================================= Template people ==========================================|
+[2022-11-16 20:15:13,975] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,977] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,977] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:15:13,978] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,978] [meta.py:515]               [DEBUG]    | {'actor': 'tmdb', 'tmdb_person': 2632, 'sort_title': '++_Chris Rock', 'collection_order': 'release'} |
+[2022-11-16 20:15:13,978] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,978] [builder.py:223]            [INFO]     |================================= Validating Chris Rock Attributes =================================|
+[2022-11-16 20:15:13,978] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:13,978] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:15:13,978] [builder.py:533]            [DEBUG]    | Value: 2632                                                                                        |
+[2022-11-16 20:15:14,005] [builder.py:613]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:14,005] [builder.py:614]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-16 20:15:14,005] [builder.py:615]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-16 20:15:14,005] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:14,005] [builder.py:650]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-11-16 20:15:14,005] [builder.py:651]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-11-16 20:15:14,421] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:14,421] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:15:14,421] [builder.py:651]            [DEBUG]    | Value: ++_Chris Rock                                                                               |
+[2022-11-16 20:15:14,428] [builder.py:795]            [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,429] [builder.py:796]            [ERROR]    | Collection Error: Converting Chris Rock to a normal collection                                     |
+[2022-11-16 20:15:14,435] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,435] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:15:14,435] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:596]  [INFO]     |================================== Running Chris Rock Collection ===================================|
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:608]  [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:612]  [DEBUG]    |                                                                                                    |
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:613]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Chris Rock", '?type=1&sort=titleSort&push=1&actor=3741&pop=1') |
+[2022-11-16 20:15:14,436] [plex_meta_manager.py:614]  [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,436] [plex.py:924]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Actor is Chris Rock
+[2022-11-16 20:15:14,461] [builder.py:1574]           [DEBUG]    | 
+[2022-11-16 20:15:14,461] [builder.py:1575]           [DEBUG]    | 6 IDs Found
+[2022-11-16 20:15:14,461] [builder.py:1577]           [DEBUG]    | 
+[2022-11-16 20:15:14,462] [builder.py:2158]           [INFO]     | 
+[2022-11-16 20:15:14,462] [builder.py:2159]           [INFO]     |================================= Adding to Chris Rock Collection ==================================|
+[2022-11-16 20:15:14,462] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:14,462] [builder.py:2174]           [INFO]     | 1/6 | Chris Rock Collection | + | Bee Movie (2007)                                                 |
+[2022-11-16 20:15:16,550] [builder.py:2174]           [INFO]     | 2/6 | Chris Rock Collection | + | Doctor Dolittle (1998)                                           |
+[2022-11-16 20:15:18,836] [builder.py:2174]           [INFO]     | 3/6 | Chris Rock Collection | + | Madagascar (2005)                                                |
+[2022-11-16 20:15:18,974] [builder.py:2174]           [INFO]     | 4/6 | Chris Rock Collection | + | Madagascar 3: Europe's Most Wanted (2012)                        |
+[2022-11-16 20:15:19,082] [builder.py:2174]           [INFO]     | 5/6 | Chris Rock Collection | + | Madagascar: Escape 2 Africa (2008)                               |
+[2022-11-16 20:15:19,199] [builder.py:2174]           [INFO]     | 6/6 | Chris Rock Collection | + | Madly Madagascar (2013)                                          |
+[2022-11-16 20:15:21,772] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:21,772] [builder.py:2196]           [INFO]     | 6 Movies Processed 6 Movies Added                                                                  |
+[2022-11-16 20:15:21,784] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:21,784] [builder.py:2528]           [INFO]     |============================ Updating Details of Chris Rock Collection =============================|
+[2022-11-16 20:15:21,784] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:15:21,790] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_person) | Christopher Julius "Chris" Rock III (born February 7, 1965) is an American comedian, actor, screenwriter, television producer, film producer and director. He was voted in the US as the 5th greatest stand-up comedian of all time by Comedy Central. He was also voted in the UK as the 9th greatest stand-up comic on Channel 4's 100 Greatest Stand-Ups in 2007, and again in the updated 2010 list as the 8th greatest stand-up comic. He is also known for his roles in Dogma, Beverly Hills Ninja, Lethal Weapon 4, Nurse Betty, The Longest Yard, Bad Company, and a starring role in Down to Earth. Rock has also increasingly worked behind the camera, both as a writer and director of Head of State and I Think I Love My Wife. In the fall of 2005, the UPN television network premiered a comedy series called Everybody Hates Chris, based on Rock's school days, of which he is the executive producer and narrator. The show has garnered both critical and ratings success. The series was nominated for a 2006 Golden Globe for Best TV Series (Musical or Comedy), a 2006 People's Choice Award for Favorite New Television Comedy, and two 2006 Emmy Awards for costuming and cinematography. Following the release of his first documentary, 2009's Good Hair, Rock is working on a documentary about debt called Credit is the Devil. In 2010 he starred alongside Adam Sandler in Grown-ups and with fellow comedian/actor Martin Lawrence in the remake of the British film Death at a Funeral. Rock has been married to Malaak Compton-Rock since November 23, 1996. They have two daughters together, Lola Simone and Zahra Savannah.
+                                                                 | Sort Title | ++_Chris Rock
+                                                                 | Label | +PMM
+[2022-11-16 20:15:23,661] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:15:23,662] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:15:23,664] [util.py:174]               [DEBUG]    | 1 poster found:
+[2022-11-16 20:15:23,664] [util.py:176]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/cqI8yQ00GNDV3PAAz5UeLj7vOX0.jpg
+[2022-11-16 20:15:23,749] [library.py:178]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/cqI8yQ00GNDV3PAAz5UeLj7vOX0.jpg
+[2022-11-16 20:15:24,022] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:15:24,023] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:15:24,023] [plex_meta_manager.py:737]  [INFO]     |                                   Finished Chris Rock Collection                                   |
+[2022-11-16 20:15:24,023] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-11-16 20:15:24,023] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

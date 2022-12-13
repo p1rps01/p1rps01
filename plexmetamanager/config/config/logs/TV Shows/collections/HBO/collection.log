@@ -1,0 +1,894 @@
+[2022-11-25 15:13:50,031] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:13:50,031] [builder.py:193]            [INFO]     |                                     HBO Collection in TV Shows                                     |
+[2022-11-25 15:13:50,031] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-25 15:13:50,031] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-25 15:13:50,031] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-25 15:13:50,031] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,032] [meta.py:210]               [DEBUG]    |========================================= Template network =========================================|
+[2022-11-25 15:13:50,032] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,034] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,035] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-25 15:13:50,035] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,035] [meta.py:515]               [DEBUG]    | {'tmdb_network': '49, 2593, 3186, 3308', 'sort_title': '+2_HBO', 'sync_mode': 'sync', 'smart_label': 'episode_added.desc'} |
+[2022-11-25 15:13:50,039] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,039] [builder.py:223]            [INFO]     |==================================== Validating HBO Attributes =====================================|
+[2022-11-25 15:13:50,039] [builder.py:422]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,039] [builder.py:423]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-11-25 15:13:50,039] [builder.py:428]            [DEBUG]    | Value: episode_added.desc                                                                          |
+[2022-11-25 15:13:50,051] [builder.py:516]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,051] [builder.py:517]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-25 15:13:50,051] [builder.py:521]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-25 15:13:50,052] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,052] [builder.py:650]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-25 15:13:50,052] [builder.py:651]            [DEBUG]    | Value: 49, 2593, 3186, 3308                                                                        |
+[2022-11-25 15:13:50,088] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-25 15:13:50,088] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-25 15:13:50,088] [builder.py:651]            [DEBUG]    | Value: +2_HBO                                                                                      |
+[2022-11-25 15:13:50,245] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-25 15:13:50,245] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-25 15:13:50,245] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-25 15:13:50,245] [plex_meta_manager.py:596]  [INFO]     |====================================== Running HBO Collection ======================================|
+[2022-11-25 15:13:50,246] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-25 15:13:50,251] [plex_meta_manager.py:603]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: ['episode_added.desc']
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is HBO
+[2022-11-25 15:13:50,252] [plex_meta_manager.py:608]  [INFO]     | 
+[2022-11-25 15:13:50,252] [plex_meta_manager.py:609]  [INFO]     | Sync Mode: sync
+[2022-11-25 15:13:50,252] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:13:50,252] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 49
+[2022-11-25 15:13:50,252] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:13:50,630] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (49) HBO (339 Shows)
+[2022-11-25 15:13:50,631] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:13:50,631] [builder.py:1575]           [DEBUG]    | 339 IDs Found
+[2022-11-25 15:13:50,631] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:13:50,712] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213083
+[2022-11-25 15:13:50,771] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 78574
+[2022-11-25 15:13:50,797] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 129398
+[2022-11-25 15:13:50,829] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 214509
+[2022-11-25 15:13:50,845] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 214719
+[2022-11-25 15:13:50,891] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 112559
+[2022-11-25 15:13:50,903] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 15067
+[2022-11-25 15:13:50,916] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47416
+[2022-11-25 15:13:50,937] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 57206
+[2022-11-25 15:13:50,958] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47075
+[2022-11-25 15:13:50,969] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 66800
+[2022-11-25 15:13:50,981] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 97573
+[2022-11-25 15:13:51,001] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 14986
+[2022-11-25 15:13:51,014] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 56571
+[2022-11-25 15:13:51,026] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 74199
+[2022-11-25 15:13:51,039] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 77387
+[2022-11-25 15:13:51,046] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 75499
+[2022-11-25 15:13:51,064] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 57309
+[2022-11-25 15:13:51,077] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206828
+[2022-11-25 15:13:51,089] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 26886
+[2022-11-25 15:13:51,102] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 210740
+[2022-11-25 15:13:51,116] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 51479
+[2022-11-25 15:13:51,119] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 64749
+[2022-11-25 15:13:51,131] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 5366
+[2022-11-25 15:13:51,141] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 70888
+[2022-11-25 15:13:51,153] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 195309
+[2022-11-25 15:13:51,163] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 73271
+[2022-11-25 15:13:51,178] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 19331
+[2022-11-25 15:13:51,188] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209621
+[2022-11-25 15:13:51,199] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 125123
+[2022-11-25 15:13:51,209] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 71996
+[2022-11-25 15:13:51,219] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 42447
+[2022-11-25 15:13:51,230] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 12596
+[2022-11-25 15:13:51,241] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 9272
+[2022-11-25 15:13:51,252] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47354
+[2022-11-25 15:13:51,264] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 19150
+[2022-11-25 15:13:51,275] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 48714
+[2022-11-25 15:13:51,285] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 111627
+[2022-11-25 15:13:51,300] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 115162
+[2022-11-25 15:13:51,313] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 84881
+[2022-11-25 15:13:51,323] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 136737
+[2022-11-25 15:13:51,339] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 124522
+[2022-11-25 15:13:51,350] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 108852
+[2022-11-25 15:13:51,366] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 84695
+[2022-11-25 15:13:51,379] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 69112
+[2022-11-25 15:13:51,398] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47142
+[2022-11-25 15:13:51,422] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 47029
+[2022-11-25 15:13:51,433] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 46497
+[2022-11-25 15:13:51,444] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 45605
+[2022-11-25 15:13:51,459] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 45602
+[2022-11-25 15:13:51,470] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 44760
+[2022-11-25 15:13:51,480] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 41373
+[2022-11-25 15:13:51,492] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 21415
+[2022-11-25 15:13:51,502] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 19048
+[2022-11-25 15:13:51,511] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18967
+[2022-11-25 15:13:51,521] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18328
+[2022-11-25 15:13:51,531] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 18012
+[2022-11-25 15:13:51,542] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 16332
+[2022-11-25 15:13:51,557] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 15791
+[2022-11-25 15:13:51,566] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 15588
+[2022-11-25 15:13:51,578] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 14936
+[2022-11-25 15:13:51,589] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 12269
+[2022-11-25 15:13:51,599] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 10574
+[2022-11-25 15:13:51,610] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 9683
+[2022-11-25 15:13:51,621] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 1306
+[2022-11-25 15:13:51,622] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:13:51,622] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 2593
+[2022-11-25 15:13:51,622] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:13:51,645] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (2593) HBO Family (3 Shows)
+[2022-11-25 15:13:51,645] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:13:51,646] [builder.py:1575]           [DEBUG]    | 3 IDs Found
+[2022-11-25 15:13:51,646] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:13:51,661] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 80469
+[2022-11-25 15:13:51,662] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:13:51,663] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 3186
+[2022-11-25 15:13:51,663] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:13:51,832] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (3186) HBO Max (131 Shows)
+[2022-11-25 15:13:51,833] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:13:51,833] [builder.py:1575]           [DEBUG]    | 131 IDs Found
+[2022-11-25 15:13:51,833] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:13:51,885] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 94810
+[2022-11-25 15:13:51,938] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 210866
+[2022-11-25 15:13:51,965] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 127305
+[2022-11-25 15:13:51,992] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 212751
+[2022-11-25 15:13:52,021] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 110128
+[2022-11-25 15:13:52,032] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204690
+[2022-11-25 15:13:52,043] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 137523
+[2022-11-25 15:13:52,045] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 201232
+[2022-11-25 15:13:52,059] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206021
+[2022-11-25 15:13:52,071] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 104041
+[2022-11-25 15:13:52,082] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155097
+[2022-11-25 15:13:52,093] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 212422
+[2022-11-25 15:13:52,106] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102047
+[2022-11-25 15:13:52,119] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 197204
+[2022-11-25 15:13:52,135] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155627
+[2022-11-25 15:13:52,154] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213265
+[2022-11-25 15:13:52,170] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 156996
+[2022-11-25 15:13:52,189] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 113290
+[2022-11-25 15:13:52,201] [builder.py:1689]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 104040
+[2022-11-25 15:13:52,202] [plex_meta_manager.py:612]  [DEBUG]    | 
+[2022-11-25 15:13:52,203] [plex_meta_manager.py:613]  [DEBUG]    | Builder: tmdb_network: 3308
+[2022-11-25 15:13:52,203] [plex_meta_manager.py:614]  [INFO]     | 
+[2022-11-25 15:13:52,228] [tmdb.py:335]               [INFO]     | Processing TMDb Network: (3308) HBO (1 Show)
+[2022-11-25 15:13:52,228] [builder.py:1574]           [DEBUG]    | 
+[2022-11-25 15:13:52,229] [builder.py:1575]           [DEBUG]    | 1 IDs Found
+[2022-11-25 15:13:52,229] [builder.py:1577]           [DEBUG]    | 
+[2022-11-25 15:13:52,230] [builder.py:2158]           [INFO]     | 
+[2022-11-25 15:13:52,230] [builder.py:2159]           [INFO]     |===================================== Adding to HBO Collection =====================================|
+[2022-11-25 15:13:52,230] [builder.py:2160]           [INFO]     |                                                                                                    |
+[2022-11-25 15:13:52,363] [builder.py:2174]           [INFO]     |  1/21 | HBO Collection | = | House of the Dragon                                                   |
+[2022-11-25 15:13:52,371] [builder.py:2174]           [INFO]     |  2/21 | HBO Collection | = | Game of Thrones                                                       |
+[2022-11-25 15:13:52,372] [builder.py:2174]           [INFO]     |  3/21 | HBO Collection | = | Euphoria (US)                                                         |
+[2022-11-25 15:13:52,372] [builder.py:2174]           [INFO]     |  4/21 | HBO Collection | = | The Sopranos                                                          |
+[2022-11-25 15:13:52,373] [builder.py:2174]           [INFO]     |  5/21 | HBO Collection | = | Westworld                                                             |
+[2022-11-25 15:13:52,373] [builder.py:2174]           [INFO]     |  6/21 | HBO Collection | = | The White Lotus                                                       |
+[2022-11-25 15:13:52,374] [builder.py:2174]           [INFO]     |  7/21 | HBO Collection | = | Succession                                                            |
+[2022-11-25 15:13:52,374] [builder.py:2174]           [INFO]     |  8/21 | HBO Collection | = | Chernobyl                                                             |
+[2022-11-25 15:13:52,374] [builder.py:2174]           [INFO]     |  9/21 | HBO Collection | = | Avenue 5                                                              |
+[2022-11-25 15:13:52,375] [builder.py:2174]           [INFO]     | 10/21 | HBO Collection | = | Ballers                                                               |
+[2022-11-25 15:13:52,375] [builder.py:2174]           [INFO]     | 11/21 | HBO Collection | = | Watchmen                                                              |
+[2022-11-25 15:13:52,375] [builder.py:2174]           [INFO]     | 12/21 | HBO Collection | = | Rome                                                                  |
+[2022-11-25 15:13:52,376] [builder.py:2174]           [INFO]     | 13/21 | HBO Collection | = | The Undoing                                                           |
+[2022-11-25 15:13:52,376] [builder.py:2174]           [INFO]     | 14/21 | HBO Collection | = | The Outsider                                                          |
+[2022-11-25 15:13:52,377] [builder.py:2174]           [INFO]     | 15/21 | HBO Collection | = | The Nevers                                                            |
+[2022-11-25 15:13:52,377] [builder.py:2174]           [INFO]     | 16/21 | HBO Collection | = | John Adams                                                            |
+[2022-11-25 15:13:52,377] [builder.py:2174]           [INFO]     | 17/21 | HBO Collection | = | Perry Mason (2020)                                                    |
+[2022-11-25 15:13:52,378] [builder.py:2174]           [INFO]     | 18/21 | HBO Collection | = | Titans (2018)                                                         |
+[2022-11-25 15:13:52,378] [builder.py:2174]           [INFO]     | 19/21 | HBO Collection | = | Pretty Little Liars: Original Sin                                     |
+[2022-11-25 15:13:52,379] [builder.py:2174]           [INFO]     | 20/21 | HBO Collection | = | Doom Patrol                                                           |
+[2022-11-25 15:13:52,379] [builder.py:2174]           [INFO]     | 21/21 | HBO Collection | = | Julia (2022)                                                          |
+[2022-11-25 15:13:52,380] [builder.py:2194]           [INFO]     |                                                                                                    |
+[2022-11-25 15:13:52,380] [builder.py:2196]           [INFO]     | 21 Shows Processed 0 Shows Added                                                                   |
+[2022-11-25 15:13:52,380] [builder.py:2352]           [INFO]     |                                                                                                    |
+[2022-11-25 15:13:52,381] [builder.py:2353]           [INFO]     |================================= Missing Shows from Library: HBO ==================================|
+[2022-11-25 15:13:52,382] [builder.py:2354]           [INFO]     |                                                                                                    |
+[2022-11-25 15:13:52,448] [builder.py:2366]           [INFO]     | HBO Collection | ? | Sesame Street (TVDb: 78419)                                                   |
+[2022-11-25 15:13:52,494] [builder.py:2366]           [INFO]     | HBO Collection | ? | Sex and the City (TVDb: 76648)                                                |
+[2022-11-25 15:13:52,555] [builder.py:2366]           [INFO]     | HBO Collection | ? | Real Time with Bill Maher (TVDb: 72231)                                       |
+[2022-11-25 15:13:52,591] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Time Traveler's Wife (TVDb: 397536)                                       |
+[2022-11-25 15:13:52,636] [builder.py:2366]           [INFO]     | HBO Collection | ? | Band of Brothers (TVDb: 74205)                                                |
+[2022-11-25 15:13:52,678] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Wire (TVDb: 79126)                                                        |
+[2022-11-25 15:13:52,729] [builder.py:2366]           [INFO]     | HBO Collection | ? | Entourage (TVDb: 74543)                                                       |
+[2022-11-25 15:13:52,817] [builder.py:2366]           [INFO]     | HBO Collection | ? | Curb Your Enthusiasm (TVDb: 76203)                                            |
+[2022-11-25 15:13:52,858] [builder.py:2366]           [INFO]     | HBO Collection | ? | True Detective (TVDb: 270633)                                                 |
+[2022-11-25 15:13:52,935] [builder.py:2366]           [INFO]     | HBO Collection | ? | Winning Time: The Rise of the Lakers Dynasty (TVDb: 399904)                   |
+[2022-11-25 15:13:52,996] [builder.py:2366]           [INFO]     | HBO Collection | ? | Last Week Tonight with John Oliver (TVDb: 278518)                             |
+[2022-11-25 15:13:53,064] [builder.py:2366]           [INFO]     | HBO Collection | ? | True Blood (TVDb: 82283)                                                      |
+[2022-11-25 15:13:53,099] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Pacific (TVDb: 85539)                                                     |
+[2022-11-25 15:13:53,125] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Baby (TVDb: 393566)                                                       |
+[2022-11-25 15:13:53,160] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Deuce (TVDb: 317728)                                                      |
+[2022-11-25 15:13:53,202] [builder.py:2366]           [INFO]     | HBO Collection | ? | Silicon Valley (TVDb: 277165)                                                 |
+[2022-11-25 15:13:53,245] [builder.py:2366]           [INFO]     | HBO Collection | ? | Oz (TVDb: 70682)                                                              |
+[2022-11-25 15:13:53,428] [builder.py:2366]           [INFO]     | HBO Collection | ? | My Brilliant Friend (TVDb: 344626)                                            |
+[2022-11-25 15:13:53,465] [builder.py:2366]           [INFO]     | HBO Collection | ? | In Treatment (TVDb: 81248)                                                    |
+[2022-11-25 15:13:53,522] [builder.py:2366]           [INFO]     | HBO Collection | ? | Boardwalk Empire (TVDb: 84947)                                                |
+[2022-11-25 15:13:53,544] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mare of Easttown (TVDb: 370112)                                               |
+[2022-11-25 15:13:53,573] [builder.py:2366]           [INFO]     | HBO Collection | ? | Deadwood (TVDb: 72023)                                                        |
+[2022-11-25 15:13:53,607] [builder.py:2366]           [INFO]     | HBO Collection | ? | Six Feet Under (TVDb: 75450)                                                  |
+[2022-11-25 15:13:53,714] [builder.py:2370]           [INFO]     | HBO Collection | X | The Last of Us (TVDb: 392256)                                                 |
+[2022-11-25 15:13:53,756] [builder.py:2366]           [INFO]     | HBO Collection | ? | Girls (2012) (TVDb: 220411)                                                   |
+[2022-11-25 15:13:53,796] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Leftovers (TVDb: 269689)                                                  |
+[2022-11-25 15:13:53,831] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Vow (TVDb: 386160)                                                        |
+[2022-11-25 15:13:53,946] [builder.py:2366]           [INFO]     | HBO Collection | ? | We're Here (TVDb: 371893)                                                     |
+[2022-11-25 15:13:53,971] [builder.py:2366]           [INFO]     | HBO Collection | ? | Stuart Little (TVDb: 72296)                                                   |
+[2022-11-25 15:13:53,995] [builder.py:2366]           [INFO]     | HBO Collection | ? | Barry (TVDb: 333072)                                                          |
+[2022-11-25 15:13:54,018] [builder.py:2366]           [INFO]     | HBO Collection | ? | Irma Vep (TVDb: 393404)                                                       |
+[2022-11-25 15:13:54,044] [builder.py:2366]           [INFO]     | HBO Collection | ? | Real Sports with Bryant Gumbel (TVDb: 263305)                                 |
+[2022-11-25 15:13:54,082] [builder.py:2366]           [INFO]     | HBO Collection | ? | VICE News Tonight (TVDb: 317479)                                              |
+[2022-11-25 15:13:54,124] [builder.py:2366]           [INFO]     | HBO Collection | ? | Big Little Lies (TVDb: 305719)                                                |
+[2022-11-25 15:13:54,152] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Night Of (TVDb: 310516)                                                   |
+[2022-11-25 15:13:54,178] [builder.py:2366]           [INFO]     | HBO Collection | ? | Scenes from a Marriage (US) (TVDb: 394109)                                    |
+[2022-11-25 15:13:54,205] [builder.py:2366]           [INFO]     | HBO Collection | ? | Industry (TVDb: 371796)                                                       |
+[2022-11-25 15:13:54,240] [builder.py:2366]           [INFO]     | HBO Collection | ? | Veep (TVDb: 237831)                                                           |
+[2022-11-25 15:13:54,281] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tales from the Crypt (TVDb: 73029)                                            |
+[2022-11-25 15:13:54,319] [builder.py:2366]           [INFO]     | HBO Collection | ? | We Are Who We Are (TVDb: 360727)                                              |
+[2022-11-25 15:13:54,352] [builder.py:2366]           [INFO]     | HBO Collection | ? | Carnivàle (TVDb: 70860)                                                       |
+[2022-11-25 15:13:54,385] [builder.py:2366]           [INFO]     | HBO Collection | ? | Lovecraft Country (TVDb: 357864)                                              |
+[2022-11-25 15:13:54,421] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hung (TVDb: 82091)                                                            |
+[2022-11-25 15:13:54,459] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Newsroom (2012) (TVDb: 256227)                                            |
+[2022-11-25 15:13:54,499] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Larry Sanders Show (TVDb: 73007)                                          |
+[2022-11-25 15:13:54,526] [builder.py:2366]           [INFO]     | HBO Collection | ? | Room 104 (TVDb: 328308)                                                       |
+[2022-11-25 15:13:54,568] [builder.py:2366]           [INFO]     | HBO Collection | ? | Big Love (TVDb: 74156)                                                        |
+[2022-11-25 15:13:54,613] [builder.py:2366]           [INFO]     | HBO Collection | ? | Flight of the Conchords (TVDb: 80252)                                         |
+[2022-11-25 15:13:54,651] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Kids in the Hall (TVDb: 75303)                                            |
+[2022-11-25 15:13:54,677] [builder.py:2366]           [INFO]     | HBO Collection | ? | Sharp Objects (TVDb: 346602)                                                  |
+[2022-11-25 15:13:54,865] [builder.py:2366]           [INFO]     | HBO Collection | ? | Insecure (TVDb: 314986)                                                       |
+[2022-11-25 15:13:54,894] [builder.py:2366]           [INFO]     | HBO Collection | ? | Fraggle Rock (TVDb: 76085)                                                    |
+[2022-11-25 15:13:54,930] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Hitchhiker (TVDb: 78513)                                                  |
+[2022-11-25 15:13:54,961] [builder.py:2366]           [INFO]     | HBO Collection | ? | Landscapers (TVDb: 375516)                                                    |
+[2022-11-25 15:13:55,010] [builder.py:2366]           [INFO]     | HBO Collection | ? | Extras (TVDb: 75660)                                                          |
+[2022-11-25 15:13:55,050] [builder.py:2366]           [INFO]     | HBO Collection | ? | Gentleman Jack (TVDb: 348443)                                                 |
+[2022-11-25 15:13:55,083] [builder.py:2366]           [INFO]     | HBO Collection | ? | Generation Kill (TVDb: 82109)                                                 |
+[2022-11-25 15:13:55,108] [builder.py:2366]           [INFO]     | HBO Collection | ? | Inside The NFL (TVDb: 72075)                                                  |
+[2022-11-25 15:13:55,147] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Third Day (TVDb: 366477)                                                  |
+[2022-11-25 15:13:55,183] [builder.py:2366]           [INFO]     | HBO Collection | ? | Treme (TVDb: 84946)                                                           |
+[2022-11-25 15:13:55,207] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mildred Pierce (TVDb: 211681)                                                 |
+[2022-11-25 15:13:55,238] [builder.py:2366]           [INFO]     | HBO Collection | ? | I Know This Much Is True (TVDb: 354972)                                       |
+[2022-11-25 15:13:55,275] [builder.py:2366]           [INFO]     | HBO Collection | ? | Crashing (2017) (TVDb: 319153)                                                |
+[2022-11-25 15:13:55,400] [builder.py:2366]           [INFO]     | HBO Collection | ? | Run (2020) (TVDb: 353882)                                                     |
+[2022-11-25 15:13:55,436] [builder.py:2366]           [INFO]     | HBO Collection | ? | High Maintenance (2016) (TVDb: 314324)                                        |
+[2022-11-25 15:13:55,459] [builder.py:2366]           [INFO]     | HBO Collection | ? | Angels in America (TVDb: 79311)                                               |
+[2022-11-25 15:13:55,615] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mrs. Fletcher (TVDb: 366195)                                                  |
+[2022-11-25 15:13:55,643] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Gilded Age (TVDb: 364412)                                                 |
+[2022-11-25 15:13:55,762] [builder.py:2370]           [INFO]     | HBO Collection | X | The Idol (TVDb: 405882)                                                       |
+[2022-11-25 15:13:55,800] [builder.py:2366]           [INFO]     | HBO Collection | ? | Spawn (TVDb: 78645)                                                           |
+[2022-11-25 15:13:55,826] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Righteous Gemstones (TVDb: 357223)                                        |
+[2022-11-25 15:13:55,868] [builder.py:2366]           [INFO]     | HBO Collection | ? | Eastbound & Down (TVDb: 82467)                                                |
+[2022-11-25 15:13:55,934] [builder.py:2366]           [INFO]     | HBO Collection | ? | VICE (TVDb: 264739)                                                           |
+[2022-11-25 15:13:55,963] [builder.py:2366]           [INFO]     | HBO Collection | ? | We Own This City (TVDb: 398140)                                               |
+[2022-11-25 15:13:56,015] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hard Knocks (2001) (TVDb: 82402)                                              |
+[2022-11-25 15:13:56,046] [builder.py:2366]           [INFO]     | HBO Collection | ? | Vinyl (TVDb: 299400)                                                          |
+[2022-11-25 15:13:56,090] [builder.py:2366]           [INFO]     | HBO Collection | ? | Da Ali G Show (TVDb: 72165)                                                   |
+[2022-11-25 15:13:56,126] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tell Me You Love Me (TVDb: 80462)                                             |
+[2022-11-25 15:13:56,150] [builder.py:2366]           [INFO]     | HBO Collection | ? | Olive Kitteridge (TVDb: 276842)                                               |
+[2022-11-25 15:13:56,296] [builder.py:2366]           [INFO]     | HBO Collection | ? | Esme & Roy (TVDb: 350883)                                                     |
+[2022-11-25 15:13:56,331] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Plot Against America (TVDb: 367559)                                       |
+[2022-11-25 15:13:56,376] [builder.py:2366]           [INFO]     | HBO Collection | ? | From the Earth to the Moon (TVDb: 77831)                                      |
+[2022-11-25 15:13:56,426] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mr. Show (TVDb: 72965)                                                        |
+[2022-11-25 15:13:56,460] [builder.py:2366]           [INFO]     | HBO Collection | ? | Bored to Death (TVDb: 104641)                                                 |
+[2022-11-25 15:13:56,486] [builder.py:2366]           [INFO]     | HBO Collection | ? | Looking (TVDb: 274337)                                                        |
+[2022-11-25 15:13:56,509] [builder.py:2366]           [INFO]     | HBO Collection | ? | I May Destroy You (TVDb: 371798)                                              |
+[2022-11-25 15:13:56,538] [builder.py:2366]           [INFO]     | HBO Collection | ? | I'll Be Gone in the Dark (TVDb: 377346)                                       |
+[2022-11-25 15:13:56,831] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 422995                                                    |
+[2022-11-25 15:13:57,106] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Ray Bradbury Theater (TVDb: 76259)                                        |
+[2022-11-25 15:13:57,134] [builder.py:2366]           [INFO]     | HBO Collection | ? | Vice Principals (TVDb: 308771)                                                |
+[2022-11-25 15:13:57,158] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Shop: Uninterrupted (TVDb: 352152)                                        |
+[2022-11-25 15:13:57,190] [builder.py:2366]           [INFO]     | HBO Collection | ? | Here and Now (2018) (TVDb: 338798)                                            |
+[2022-11-25 15:13:57,319] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hotel Erotica (TVDb: 72374)                                                   |
+[2022-11-25 15:13:57,356] [builder.py:2366]           [INFO]     | HBO Collection | ? | Togetherness (TVDb: 277863)                                                   |
+[2022-11-25 15:13:57,390] [builder.py:2366]           [INFO]     | HBO Collection | ? | Divorce (2016) (TVDb: 314599)                                                 |
+[2022-11-25 15:13:57,458] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hello Ladies (TVDb: 265609)                                                   |
+[2022-11-25 15:13:57,475] [builder.py:2366]           [INFO]     | HBO Collection | ? | One Night Stand (TVDb: 74855)                                                 |
+[2022-11-25 15:13:57,523] [builder.py:2366]           [INFO]     | HBO Collection | ? | Animals. (TVDb: 303586)                                                       |
+[2022-11-25 15:13:57,567] [builder.py:2366]           [INFO]     | HBO Collection | ? | Arli$$ (TVDb: 71157)                                                          |
+[2022-11-25 15:13:57,613] [builder.py:2366]           [INFO]     | HBO Collection | ? | How to Make It in America (TVDb: 134231)                                      |
+[2022-11-25 15:13:57,642] [builder.py:2366]           [INFO]     | HBO Collection | ? | Show Me a Hero (TVDb: 295980)                                                 |
+[2022-11-25 15:13:57,672] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Defiant Ones (TVDb: 329079)                                               |
+[2022-11-25 15:13:57,712] [builder.py:2366]           [INFO]     | HBO Collection | ? | Sinatra: All or Nothing at All (TVDb: 293832)                                 |
+[2022-11-25 15:13:57,737] [builder.py:2366]           [INFO]     | HBO Collection | ? | Leaving Neverland (TVDb: 359331)                                              |
+[2022-11-25 15:13:57,767] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Brink (TVDb: 278469)                                                      |
+[2022-11-25 15:13:57,792] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Rehearsal (TVDb: 405593)                                                  |
+[2022-11-25 15:13:57,817] [builder.py:2366]           [INFO]     | HBO Collection | ? | A Black Lady Sketch Show (TVDb: 366433)                                       |
+[2022-11-25 15:13:57,846] [builder.py:2366]           [INFO]     | HBO Collection | ? | Enlightened (TVDb: 197101)                                                    |
+[2022-11-25 15:13:57,870] [builder.py:2366]           [INFO]     | HBO Collection | ? | Luck (TVDb: 219381)                                                           |
+[2022-11-25 15:13:57,904] [builder.py:2366]           [INFO]     | HBO Collection | ? | Lucky Louie (TVDb: 79326)                                                     |
+[2022-11-25 15:13:57,941] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Comeback (TVDb: 75383)                                                    |
+[2022-11-25 15:13:57,964] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Jinx: The Life and Deaths of Robert Durst (TVDb: 289946)                  |
+[2022-11-25 15:13:57,999] [builder.py:2366]           [INFO]     | HBO Collection | ? | Little Britain USA (TVDb: 83232)                                              |
+[2022-11-25 15:13:58,032] [builder.py:2366]           [INFO]     | HBO Collection | ? | How To with John Wilson (TVDb: 388071)                                        |
+[2022-11-25 15:13:58,062] [builder.py:2366]           [INFO]     | HBO Collection | ? | Betty (TVDb: 368139)                                                          |
+[2022-11-25 15:13:58,217] [builder.py:2366]           [INFO]     | HBO Collection | ? | Axios (TVDb: 354123)                                                          |
+[2022-11-25 15:13:58,408] [builder.py:2366]           [INFO]     | HBO Collection | ? | HBO First Look (TVDb: 261708)                                                 |
+[2022-11-25 15:13:58,450] [builder.py:2366]           [INFO]     | HBO Collection | ? | Los Espookys (TVDb: 362797)                                                   |
+[2022-11-25 15:13:58,475] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tsunami: The Aftermath (TVDb: 80963)                                          |
+[2022-11-25 15:13:58,605] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Ricky Gervais Show (TVDb: 142581)                                         |
+[2022-11-25 15:13:58,667] [builder.py:2366]           [INFO]     | HBO Collection | ? | Dream On (TVDb: 71436)                                                        |
+[2022-11-25 15:13:58,756] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Life & Times of Tim (TVDb: 83130)                                         |
+[2022-11-25 15:13:58,782] [builder.py:2366]           [INFO]     | HBO Collection | ? | I Love You, Now Die: The Commonwealth vs. Michelle Carter (TVDb: 366337)      |
+[2022-11-25 15:13:58,804] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mosaic (TVDb: 336157)                                                         |
+[2022-11-25 15:13:58,902] [builder.py:2366]           [INFO]     | HBO Collection | ? | Real Sex (TVDb: 250788)                                                       |
+[2022-11-25 15:13:58,934] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Corner (TVDb: 76897)                                                      |
+[2022-11-25 15:13:59,124] [builder.py:2366]           [INFO]     | HBO Collection | ? | Funny or Die Presents (TVDb: 143041)                                          |
+[2022-11-25 15:13:59,161] [builder.py:2366]           [INFO]     | HBO Collection | ? | John from Cincinnati (TVDb: 80215)                                            |
+[2022-11-25 15:13:59,204] [builder.py:2366]           [INFO]     | HBO Collection | ? | Empire Falls (TVDb: 84737)                                                    |
+[2022-11-25 15:13:59,319] [builder.py:2366]           [INFO]     | HBO Collection | ? | Unscripted (TVDb: 74643)                                                      |
+[2022-11-25 15:13:59,343] [builder.py:2366]           [INFO]     | HBO Collection | ? | McMillion$ (TVDb: 373265)                                                     |
+[2022-11-25 15:13:59,378] [builder.py:2366]           [INFO]     | HBO Collection | ? | Our Boys (TVDb: 365890)                                                       |
+[2022-11-25 15:13:59,554] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Zen Diaries of Garry Shandling (TVDb: 345128)                             |
+[2022-11-25 15:13:59,670] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tenacious D (TVDb: 72974)                                                     |
+[2022-11-25 15:13:59,703] [builder.py:2366]           [INFO]     | HBO Collection | ? | 1st & Ten (TVDb: 74194)                                                       |
+[2022-11-25 15:13:59,733] [builder.py:2366]           [INFO]     | HBO Collection | ? | Getting On (US) (TVDb: 270735)                                                |
+[2022-11-25 15:13:59,865] [builder.py:2366]           [INFO]     | HBO Collection | ? | Camping (US) (TVDb: 349942)                                                   |
+[2022-11-25 15:13:59,885] [builder.py:2366]           [INFO]     | HBO Collection | ? | Somebody Somewhere (TVDb: 385730)                                             |
+[2022-11-25 15:13:59,908] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hotel Room (TVDb: 76270)                                                      |
+[2022-11-25 15:13:59,933] [builder.py:2366]           [INFO]     | HBO Collection | ? | 2 Dope Queens (TVDb: 340151)                                                  |
+[2022-11-25 15:13:59,966] [builder.py:2366]           [INFO]     | HBO Collection | ? | Perversions of Science (TVDb: 70352)                                          |
+[2022-11-25 15:14:00,133] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Chris Rock Show (TVDb: 78787)                                             |
+[2022-11-25 15:14:00,179] [builder.py:2366]           [INFO]     | HBO Collection | ? | 100 Foot Wave (TVDb: 396600)                                                  |
+[2022-11-25 15:14:00,210] [builder.py:2366]           [INFO]     | HBO Collection | ? | When The Levees Broke: A Requiem in Four Acts (TVDb: 128631)                  |
+[2022-11-25 15:14:00,251] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tanner '88 (TVDb: 73575)                                                      |
+[2022-11-25 15:14:00,283] [builder.py:2366]           [INFO]     | HBO Collection | ? | Spicy City (TVDb: 75056)                                                      |
+[2022-11-25 15:14:00,537] [builder.py:2366]           [INFO]     | HBO Collection | ? | Happily Ever After: Fairy Tales for Every Child (TVDb: 72897)                 |
+[2022-11-25 15:14:00,564] [builder.py:2366]           [INFO]     | HBO Collection | ? | What's My Name: Muhammad Ali (TVDb: 364022)                                   |
+[2022-11-25 15:14:00,591] [builder.py:2366]           [INFO]     | HBO Collection | ? | Exterminate All the Brutes (TVDb: 396116)                                     |
+[2022-11-25 15:14:00,728] [builder.py:2366]           [INFO]     | HBO Collection | ? | Philip Marlowe, Private Eye (TVDb: 75277)                                     |
+[2022-11-25 15:14:00,760] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Crime of the Century (TVDb: 396635)                                       |
+[2022-11-25 15:14:00,791] [builder.py:2366]           [INFO]     | HBO Collection | ? | Ja'mie: Private School Girl (TVDb: 273106)                                    |
+[2022-11-25 15:14:00,913] [builder.py:2366]           [INFO]     | HBO Collection | ? | Not Necessarily the News (TVDb: 77249)                                        |
+[2022-11-25 15:14:01,039] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Country Mouse & the City Mouse Adventures (TVDb: 78719)                   |
+[2022-11-25 15:14:01,066] [builder.py:2366]           [INFO]     | HBO Collection | ? | Phoenix Rising (TVDb: 417181)                                                 |
+[2022-11-25 15:14:01,097] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Neverending Story (TVDb: 77007)                                           |
+[2022-11-25 15:14:01,278] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Far Pavilions (TVDb: 249734)                                              |
+[2022-11-25 15:14:01,306] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Anarchists (TVDb: 422023)                                                 |
+[2022-11-25 15:14:01,336] [builder.py:2366]           [INFO]     | HBO Collection | ? | George Carlin's American Dream (TVDb: 419734)                                 |
+[2022-11-25 15:14:01,460] [builder.py:2366]           [INFO]     | HBO Collection | ? | Back On The Record with Bob Costas (TVDb: 401877)                             |
+[2022-11-25 15:14:01,486] [builder.py:2366]           [INFO]     | HBO Collection | ? | Allen v. Farrow (TVDb: 396365)                                                |
+[2022-11-25 15:14:01,600] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mandrake (TVDb: 114691)                                                       |
+[2022-11-25 15:14:01,625] [builder.py:2366]           [INFO]     | HBO Collection | ? | Random Acts of Flyness (TVDb: 349922)                                         |
+[2022-11-25 15:14:01,659] [builder.py:2366]           [INFO]     | HBO Collection | ? | Game Theory with Bomani Jones (TVDb: 411316)                                  |
+[2022-11-25 15:14:01,683] [builder.py:2366]           [INFO]     | HBO Collection | ? | Mind Over Murder (TVDb: 420928)                                               |
+[2022-11-25 15:14:01,709] [builder.py:2366]           [INFO]     | HBO Collection | ? | Q: Into the Storm (TVDb: 397561)                                              |
+[2022-11-25 15:14:01,863] [builder.py:2366]           [INFO]     | HBO Collection | ? | The No. 1 Ladies' Detective Agency (TVDb: 81606)                              |
+[2022-11-25 15:14:01,889] [builder.py:2366]           [INFO]     | HBO Collection | ? | Agents of Chaos (TVDb: 387401)                                                |
+[2022-11-25 15:14:02,032] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tracey Takes On... (TVDb: 73332)                                              |
+[2022-11-25 15:14:02,145] [builder.py:2366]           [INFO]     | HBO Collection | ? | Cathouse: The Series (TVDb: 75032)                                            |
+[2022-11-25 15:14:02,176] [builder.py:2366]           [INFO]     | HBO Collection | ? | Catch and Kill: The Podcast Tapes (TVDb: 404846)                              |
+[2022-11-25 15:14:02,285] [builder.py:2366]           [INFO]     | HBO Collection | ? | On the Record with Bob Costas (TVDb: 72074)                                   |
+[2022-11-25 15:14:02,312] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Case Against Adnan Syed (TVDb: 347833)                                    |
+[2022-11-25 15:14:02,467] [builder.py:2366]           [INFO]     | HBO Collection | ? | Project Greenlight (TVDb: 78146)                                              |
+[2022-11-25 15:14:02,603] [builder.py:2366]           [INFO]     | HBO Collection | ? | Chillin Island (TVDb: 413316)                                                 |
+[2022-11-25 15:14:02,752] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Lady and the Dale (TVDb: 386438)                                          |
+[2022-11-25 15:14:02,850] [builder.py:2366]           [INFO]     | HBO Collection | ? | Crashbox (TVDb: 73927)                                                        |
+[2022-11-25 15:14:02,875] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Murders at Starved Rock (TVDb: 412398)                                    |
+[2022-11-25 15:14:02,904] [builder.py:2366]           [INFO]     | HBO Collection | ? | Painting with John (TVDb: 393267)                                             |
+[2022-11-25 15:14:03,006] [builder.py:2366]           [INFO]     | HBO Collection | ? | Pornucopia (TVDb: 75403)                                                      |
+[2022-11-25 15:14:03,115] [builder.py:2366]           [INFO]     | HBO Collection | ? | Dear America (TVDb: 295110)                                                   |
+[2022-11-25 15:14:03,165] [builder.py:2366]           [INFO]     | HBO Collection | ? | Doll & Em (TVDb: 277330)                                                      |
+[2022-11-25 15:14:03,302] [builder.py:2370]           [INFO]     | HBO Collection | X | The White House Plumbers (TVDb: 401845)                                       |
+[2022-11-25 15:14:03,405] [builder.py:2366]           [INFO]     | HBO Collection | ? | Who Killed Garrett Phillips? (TVDb: 366831)                                   |
+[2022-11-25 15:14:03,434] [builder.py:2366]           [INFO]     | HBO Collection | ? | Family Tree (TVDb: 262037)                                                    |
+[2022-11-25 15:14:03,733] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 388118                                                    |
+[2022-11-25 15:14:03,862] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Mind of the Married Man (TVDb: 76985)                                     |
+[2022-11-25 15:14:03,888] [builder.py:2366]           [INFO]     | HBO Collection | ? | Murder on Middle Beach (TVDb: 389941)                                         |
+[2022-11-25 15:14:03,926] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Invisible Pilot (TVDb: 417804)                                            |
+[2022-11-25 15:14:03,950] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tiger (TVDb: 391951)                                                          |
+[2022-11-25 15:14:04,057] [builder.py:2366]           [INFO]     | HBO Collection | ? | Lifestories: Families in Crisis (TVDb: 75833)                                 |
+[2022-11-25 15:14:04,177] [builder.py:2366]           [INFO]     | HBO Collection | ? | Down and Dirty with Jim Norton (TVDb: 83355)                                  |
+[2022-11-25 15:14:04,208] [builder.py:2366]           [INFO]     | HBO Collection | ? | Witness (2012) (TVDb: 263942)                                                 |
+[2022-11-25 15:14:04,331] [builder.py:2366]           [INFO]     | HBO Collection | ? | 24/7 (TVDb: 213021)                                                           |
+[2022-11-25 15:14:04,459] [builder.py:2366]           [INFO]     | HBO Collection | ? | Animated Hero Classics (TVDb: 163071)                                         |
+[2022-11-25 15:14:04,564] [builder.py:2366]           [INFO]     | HBO Collection | ? | Living in Your Car (TVDb: 161921)                                             |
+[2022-11-25 15:14:04,658] [builder.py:2366]           [INFO]     | HBO Collection | ? | NYC Epicenters 9/11-2021½ (TVDb: 408703)                                      |
+[2022-11-25 15:14:04,681] [builder.py:2366]           [INFO]     | HBO Collection | ? | Undercurrent: The Disappearance of Kim Wall (TVDb: 417327)                    |
+[2022-11-25 15:14:04,810] [builder.py:2366]           [INFO]     | HBO Collection | ? | Atlanta's Missing and Murdered: The Lost Children (TVDb: 378472)              |
+[2022-11-25 15:14:04,961] [builder.py:2366]           [INFO]     | HBO Collection | ? | After the Thrones (TVDb: 309875)                                              |
+[2022-11-25 15:14:04,989] [builder.py:2366]           [INFO]     | HBO Collection | ? | Edge of the Earth (TVDb: 421560)                                              |
+[2022-11-25 15:14:05,164] [builder.py:2370]           [INFO]     | HBO Collection | X | The Son (2022) (TVDb: 390563)                                                 |
+[2022-11-25 15:14:05,197] [builder.py:2366]           [INFO]     | HBO Collection | ? | Def Comedy Jam (TVDb: 77495)                                                  |
+[2022-11-25 15:14:05,674] [builder.py:2366]           [INFO]     | HBO Collection | ? | Feds (TVDb: 70689)                                                            |
+[2022-11-25 15:14:05,813] [builder.py:2366]           [INFO]     | HBO Collection | ? | Def Poetry (TVDb: 84495)                                                      |
+[2022-11-25 15:14:05,940] [builder.py:2366]           [INFO]     | HBO Collection | ? | Obama: In Pursuit of a More Perfect Union (TVDb: 405438)                      |
+[2022-11-25 15:14:05,974] [builder.py:2366]           [INFO]     | HBO Collection | ? | Foo Fighters: Sonic Highways (TVDb: 285877)                                   |
+[2022-11-25 15:14:06,073] [builder.py:2366]           [INFO]     | HBO Collection | ? | Dane Cook's Tourgasm (TVDb: 261199)                                           |
+[2022-11-25 15:14:06,191] [builder.py:2366]           [INFO]     | HBO Collection | ? | On Tour with Asperger's Are Us (TVDb: 363284)                                 |
+[2022-11-25 15:14:06,339] [builder.py:2366]           [INFO]     | HBO Collection | ? | K Street (TVDb: 72835)                                                        |
+[2022-11-25 15:14:06,522] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hostages (2022) (TVDb: 425007)                                                |
+[2022-11-25 15:14:06,554] [builder.py:2366]           [INFO]     | HBO Collection | ? | Being Serena (TVDb: 345739)                                                   |
+[2022-11-25 15:14:06,668] [builder.py:2366]           [INFO]     | HBO Collection | ? | Wyatt Cenac's Problem Areas (TVDb: 344201)                                    |
+[2022-11-25 15:14:06,774] [builder.py:2366]           [INFO]     | HBO Collection | ? | Taxicab Confessions (TVDb: 185451)                                            |
+[2022-11-25 15:14:06,891] [builder.py:2366]           [INFO]     | HBO Collection | ? | PAUSE with Sam Jay (TVDb: 401608)                                             |
+[2022-11-25 15:14:07,042] [builder.py:2366]           [INFO]     | HBO Collection | ? | Rolling Stone: Stories From the Edge (TVDb: 337506)                           |
+[2022-11-25 15:14:07,071] [builder.py:2366]           [INFO]     | HBO Collection | ? | Nuclear Family (2021) (TVDb: 409805)                                          |
+[2022-11-25 15:14:07,158] [builder.py:2366]           [INFO]     | HBO Collection | ? | Behind Closed Doors (2019) (TVDb: 367006)                                     |
+[2022-11-25 15:14:07,281] [builder.py:2366]           [INFO]     | HBO Collection | ? | Costas Now (TVDb: 76082)                                                      |
+[2022-11-25 15:14:07,402] [builder.py:2366]           [INFO]     | HBO Collection | ? | The High Life (1996) (TVDb: 78432)                                            |
+[2022-11-25 15:14:07,577] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 80960                                                     |
+[2022-11-25 15:14:07,602] [builder.py:2366]           [INFO]     | HBO Collection | ? | Small Town News: KPVM Pahrump (TVDb: 406053)                                  |
+[2022-11-25 15:14:07,703] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Alzheimer's Project (TVDb: 247859)                                        |
+[2022-11-25 15:14:07,726] [builder.py:2366]           [INFO]     | HBO Collection | ? | Classical Baby (TVDb: 309254)                                                 |
+[2022-11-25 15:14:07,899] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 262347                                                    |
+[2022-11-25 15:14:08,006] [builder.py:2366]           [INFO]     | HBO Collection | ? | Pray, Obey, Kill (TVDb: 390262)                                               |
+[2022-11-25 15:14:08,103] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Weight of the Nation (TVDb: 258885)                                       |
+[2022-11-25 15:14:08,210] [builder.py:2370]           [INFO]     | HBO Collection | X | Lake Success (TVDb: 364567)                                                   |
+[2022-11-25 15:14:08,324] [builder.py:2366]           [INFO]     | HBO Collection | ? | UConn: The March to Madness (TVDb: 323673)                                    |
+[2022-11-25 15:14:08,351] [builder.py:2366]           [INFO]     | HBO Collection | ? | Black and Missing (TVDb: 412056)                                              |
+[2022-11-25 15:14:08,543] [builder.py:2366]           [INFO]     | HBO Collection | ? | If God Is Willing and da Creek Don't Rise (TVDb: 237631)                      |
+[2022-11-25 15:14:08,651] [builder.py:2366]           [INFO]     | HBO Collection | ? | Pod Save America (TVDb: 348925)                                               |
+[2022-11-25 15:14:08,766] [builder.py:2370]           [INFO]     | HBO Collection | X | The Larry David Story (TVDb: 416562)                                          |
+[2022-11-25 15:14:09,058] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 170001                                                    |
+[2022-11-25 15:14:09,224] [builder.py:2366]           [INFO]     | HBO Collection | ? | Level Playing Field (TVDb: 410438)                                            |
+[2022-11-25 15:14:09,304] [builder.py:2366]           [INFO]     | HBO Collection | ? | A Dangerous Life (TVDb: 342355)                                               |
+[2022-11-25 15:14:09,450] [builder.py:2366]           [INFO]     | HBO Collection | ? | Saving My Tomorrow (TVDb: 301826)                                             |
+[2022-11-25 15:14:09,528] [builder.py:2366]           [INFO]     | HBO Collection | ? | Family Bonds (TVDb: 74812)                                                    |
+[2022-11-25 15:14:09,552] [builder.py:2366]           [INFO]     | HBO Collection | ? | Destination: Sao Paulo (TVDb: 264564)                                         |
+[2022-11-25 15:14:09,659] [builder.py:2366]           [INFO]     | HBO Collection | ? | Legendary Nights (TVDb: 251461)                                               |
+[2022-11-25 15:14:09,832] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 370910                                                    |
+[2022-11-25 15:14:09,854] [builder.py:2366]           [INFO]     | HBO Collection | ? | 24/7 College Football (TVDb: 370124)                                          |
+[2022-11-25 15:14:09,878] [builder.py:2366]           [INFO]     | HBO Collection | ? | 15: A Quinceañera Story (TVDb: 365837)                                        |
+[2022-11-25 15:14:09,998] [builder.py:2370]           [INFO]     | HBO Collection | X | I Spy (2003) (TVDb: 226971)                                                   |
+[2022-11-25 15:14:10,074] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Cost of Winning (TVDb: 391274)                                            |
+[2022-11-25 15:14:10,176] [builder.py:2366]           [INFO]     | HBO Collection | ? | P. Diddy Presents the Bad Boys of Comedy (TVDb: 125521)                       |
+[2022-11-25 15:14:10,307] [builder.py:2370]           [INFO]     | HBO Collection | X | The Palace (2023) (TVDb: 422776)                                              |
+[2022-11-25 15:14:10,446] [builder.py:2370]           [INFO]     | HBO Collection | X | Get Millie Black (TVDb: 419891)                                               |
+[2022-11-25 15:14:10,634] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 423739                                                    |
+[2022-11-25 15:14:10,934] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 334844                                                    |
+[2022-11-25 15:14:11,027] [builder.py:2366]           [INFO]     | HBO Collection | ? | Gonzaga: The March to Madness (TVDb: 307253)                                  |
+[2022-11-25 15:14:11,111] [builder.py:2366]           [INFO]     | HBO Collection | ? | On Freddie Roach (TVDb: 254984)                                               |
+[2022-11-25 15:14:11,286] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 238721                                                    |
+[2022-11-25 15:14:11,417] [builder.py:2366]           [INFO]     | HBO Collection | ? | Time Was... (TVDb: 320203)                                                    |
+[2022-11-25 15:14:11,516] [builder.py:2366]           [INFO]     | HBO Collection | ? | G String Divas (TVDb: 81167)                                                  |
+[2022-11-25 15:14:11,611] [builder.py:2366]           [INFO]     | HBO Collection | ? | America Undercover (TVDb: 94271)                                              |
+[2022-11-25 15:14:11,694] [builder.py:2370]           [INFO]     | HBO Collection | X | Dennis Miller Live (TVDb: 77846)                                              |
+[2022-11-25 15:14:11,868] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Little Lulu Show (TVDb: 70579)                                            |
+[2022-11-25 15:14:11,960] [builder.py:2366]           [INFO]     | HBO Collection | ? | A Little Curious (TVDb: 286804)                                               |
+[2022-11-25 15:14:11,987] [builder.py:2366]           [INFO]     | HBO Collection | ? | Peacemaker (TVDb: 391153)                                                     |
+[2022-11-25 15:14:12,017] [builder.py:2366]           [INFO]     | HBO Collection | ? | Station Eleven (TVDb: 366529)                                                 |
+[2022-11-25 15:14:12,041] [builder.py:2366]           [INFO]     | HBO Collection | ? | Pennyworth: The Origin of Batman's Butler (TVDb: 363008)                      |
+[2022-11-25 15:14:12,067] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Sex Lives of College Girls (TVDb: 390161)                                 |
+[2022-11-25 15:14:12,107] [builder.py:2366]           [INFO]     | HBO Collection | ? | Young Justice (TVDb: 192061)                                                  |
+[2022-11-25 15:14:12,137] [builder.py:2366]           [INFO]     | HBO Collection | ? | Raised by Wolves (2020) (TVDb: 368643)                                        |
+[2022-11-25 15:14:12,175] [builder.py:2366]           [INFO]     | HBO Collection | ? | Harley Quinn (TVDb: 365677)                                                   |
+[2022-11-25 15:14:12,204] [builder.py:2366]           [INFO]     | HBO Collection | ? | And Just Like That... (TVDb: 394924)                                          |
+[2022-11-25 15:14:12,228] [builder.py:2366]           [INFO]     | HBO Collection | ? | Looney Tunes Cartoons (TVDb: 380849)                                          |
+[2022-11-25 15:14:12,381] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Big Brunch (TVDb: 417920)                                                 |
+[2022-11-25 15:14:12,409] [builder.py:2366]           [INFO]     | HBO Collection | ? | Close Enough (TVDb: 332335)                                                   |
+[2022-11-25 15:14:12,436] [builder.py:2366]           [INFO]     | HBO Collection | ? | Gossip Girl (2021) (TVDb: 377114)                                             |
+[2022-11-25 15:14:12,464] [builder.py:2366]           [INFO]     | HBO Collection | ? | Minx (TVDb: 400542)                                                           |
+[2022-11-25 15:14:12,502] [builder.py:2366]           [INFO]     | HBO Collection | ? | Warrior (TVDb: 359326)                                                        |
+[2022-11-25 15:14:12,530] [builder.py:2366]           [INFO]     | HBO Collection | ? | Scooby-Doo and Guess Who? (TVDb: 361065)                                      |
+[2022-11-25 15:14:12,567] [builder.py:2366]           [INFO]     | HBO Collection | ? | Summer Camp Island (TVDb: 338738)                                             |
+[2022-11-25 15:14:12,590] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Flight Attendant (TVDb: 366625)                                           |
+[2022-11-25 15:14:12,625] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tom and Jerry in New York (TVDb: 390477)                                      |
+[2022-11-25 15:14:12,661] [builder.py:2366]           [INFO]     | HBO Collection | ? | Infinity Train (TVDb: 335425)                                                 |
+[2022-11-25 15:14:12,691] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tokyo Vice (TVDb: 366624)                                                     |
+[2022-11-25 15:14:12,721] [builder.py:2366]           [INFO]     | HBO Collection | ? | Our Flag Means Death (TVDb: 390093)                                           |
+[2022-11-25 15:14:12,745] [builder.py:2366]           [INFO]     | HBO Collection | ? | Search Party (2016) (TVDb: 309523)                                            |
+[2022-11-25 15:14:12,779] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Staircase (2022) (TVDb: 400269)                                           |
+[2022-11-25 15:14:12,815] [builder.py:2366]           [INFO]     | HBO Collection | ? | Hacks (2021) (TVDb: 401582)                                                   |
+[2022-11-25 15:14:12,851] [builder.py:2366]           [INFO]     | HBO Collection | ? | Made For Love (TVDb: 371158)                                                  |
+[2022-11-25 15:14:12,879] [builder.py:2366]           [INFO]     | HBO Collection | ? | Love Life (TVDb: 374515)                                                      |
+[2022-11-25 15:14:12,906] [builder.py:2366]           [INFO]     | HBO Collection | ? | Jellystone! (TVDb: 390803)                                                    |
+[2022-11-25 15:14:12,931] [builder.py:2366]           [INFO]     | HBO Collection | ? | Theodosia (TVDb: 397532)                                                      |
+[2022-11-25 15:14:12,956] [builder.py:2366]           [INFO]     | HBO Collection | ? | Menudo: Forever Young (TVDb: 421521)                                          |
+[2022-11-25 15:14:12,980] [builder.py:2366]           [INFO]     | HBO Collection | ? | Ten Year Old Tom (TVDb: 409123)                                               |
+[2022-11-25 15:14:13,117] [builder.py:2366]           [INFO]     | HBO Collection | ? | Genera+ion (TVDb: 381493)                                                     |
+[2022-11-25 15:14:13,151] [builder.py:2366]           [INFO]     | HBO Collection | ? | Selena + Chef (TVDb: 385646)                                                  |
+[2022-11-25 15:14:13,254] [builder.py:2366]           [INFO]     | HBO Collection | ? | Tig n’ Seek (TVDb: 382289)                                                    |
+[2022-11-25 15:14:13,278] [builder.py:2366]           [INFO]     | HBO Collection | ? | DMZ (TVDb: 414938)                                                            |
+[2022-11-25 15:14:13,302] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Last Movie Stars (TVDb: 422021)                                           |
+[2022-11-25 15:14:13,327] [builder.py:2366]           [INFO]     | HBO Collection | ? | Legendary (TVDb: 377143)                                                      |
+[2022-11-25 15:14:13,351] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Fungies! (TVDb: 367110)                                                   |
+[2022-11-25 15:14:13,374] [builder.py:2366]           [INFO]     | HBO Collection | ? | South Side (TVDb: 364129)                                                     |
+[2022-11-25 15:14:13,398] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Not-Too-Late Show with Elmo (TVDb: 381039)                                |
+[2022-11-25 15:14:13,428] [builder.py:2366]           [INFO]     | HBO Collection | ? | Wahl Street (TVDb: 378291)                                                    |
+[2022-11-25 15:14:13,587] [builder.py:2366]           [INFO]     | HBO Collection | ? | About Last Night (TVDb: 398542)                                               |
+[2022-11-25 15:14:13,616] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Prince (TVDb: 376055)                                                     |
+[2022-11-25 15:14:13,648] [builder.py:2366]           [INFO]     | HBO Collection | ? | Santa Inc. (TVDb: 382149)                                                     |
+[2022-11-25 15:14:13,696] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Other Two (TVDb: 354628)                                                  |
+[2022-11-25 15:14:13,724] [builder.py:2366]           [INFO]     | HBO Collection | ? | Aquaman: King of Atlantis (TVDb: 377401)                                      |
+[2022-11-25 15:14:13,750] [builder.py:2366]           [INFO]     | HBO Collection | ? | FBOY Island (TVDb: 404670)                                                    |
+[2022-11-25 15:14:13,852] [builder.py:2370]           [INFO]     | HBO Collection | X | Welcome to Derry (TVDb: 418424)                                               |
+[2022-11-25 15:14:13,978] [builder.py:2366]           [INFO]     | HBO Collection | ? | A World of Calm (TVDb: 388609)                                                |
+[2022-11-25 15:14:14,010] [builder.py:2366]           [INFO]     | HBO Collection | ? | Finding Magic Mike (TVDb: 401310)                                             |
+[2022-11-25 15:14:14,053] [builder.py:2366]           [INFO]     | HBO Collection | ? | gen:LOCK (TVDb: 347919)                                                       |
+[2022-11-25 15:14:14,190] [builder.py:2366]           [INFO]     | HBO Collection | ? | Equal (TVDb: 387400)                                                          |
+[2022-11-25 15:14:14,374] [builder.py:2366]           [INFO]     | HBO Collection | ? | Head of the Class (2021) (TVDb: 382339)                                       |
+[2022-11-25 15:14:14,553] [builder.py:2366]           [INFO]     | HBO Collection | ? | Isabel (TVDb: 397514)                                                         |
+[2022-11-25 15:14:14,676] [builder.py:2366]           [INFO]     | HBO Collection | ? | Expecting Amy (TVDb: 379128)                                                  |
+[2022-11-25 15:14:14,838] [builder.py:2366]           [INFO]     | HBO Collection | ? | Rap Sh!t (TVDb: 396681)                                                       |
+[2022-11-25 15:14:14,968] [builder.py:2370]           [INFO]     | HBO Collection | X | Velma (TVDb: 396625)                                                          |
+[2022-11-25 15:14:15,076] [builder.py:2366]           [INFO]     | HBO Collection | ? | Baketopia (TVDb: 398539)                                                      |
+[2022-11-25 15:14:15,239] [builder.py:2366]           [INFO]     | HBO Collection | ? | Heaven's Gate: The Cult of Cults (TVDb: 392294)                               |
+[2022-11-25 15:14:15,431] [builder.py:2366]           [INFO]     | HBO Collection | ? | That Damn Michael Che (TVDb: 401390)                                          |
+[2022-11-25 15:14:15,460] [builder.py:2366]           [INFO]     | HBO Collection | ? | Gordita Chronicles (TVDb: 402708)                                             |
+[2022-11-25 15:14:15,483] [builder.py:2366]           [INFO]     | HBO Collection | ? | Little Ellen (TVDb: 383820)                                                   |
+[2022-11-25 15:14:15,586] [builder.py:2366]           [INFO]     | HBO Collection | ? | Sweet Life: Los Angeles (TVDb: 408316)                                        |
+[2022-11-25 15:14:15,731] [builder.py:2370]           [INFO]     | HBO Collection | X | Dune: The Sisterhood (TVDb: 367118)                                           |
+[2022-11-25 15:14:15,755] [builder.py:2366]           [INFO]     | HBO Collection | ? | Generation Hustle (TVDb: 401028)                                              |
+[2022-11-25 15:14:15,925] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Hype (TVDb: 398837)                                                       |
+[2022-11-25 15:14:16,195] [builder.py:2366]           [INFO]     | HBO Collection | ? | What Happened, Brittany Murphy? (TVDb: 411130)                                |
+[2022-11-25 15:14:16,386] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 368088                                                    |
+[2022-11-25 15:14:16,546] [builder.py:2366]           [INFO]     | HBO Collection | ? | 12 Dates of Christmas (TVDb: 382350)                                          |
+[2022-11-25 15:14:16,659] [builder.py:2370]           [INFO]     | HBO Collection | X | Green Lantern (2022) (TVDb: 376098)                                           |
+[2022-11-25 15:14:16,789] [builder.py:2370]           [INFO]     | HBO Collection | X | Love & Death (TVDb: 402181)                                                   |
+[2022-11-25 15:14:16,893] [builder.py:2366]           [INFO]     | HBO Collection | ? | House of Ho (TVDb: 382296)                                                    |
+[2022-11-25 15:14:17,041] [builder.py:2370]           [INFO]     | HBO Collection | X | Girls on the Bus (TVDb: 413771)                                               |
+[2022-11-25 15:14:17,138] [builder.py:2370]           [INFO]     | HBO Collection | X | Duster (TVDb: 381221)                                                         |
+[2022-11-25 15:14:17,232] [builder.py:2366]           [INFO]     | HBO Collection | ? | Brené Brown: Atlas of the Heart (TVDb: 417680)                                |
+[2022-11-25 15:14:17,357] [builder.py:2370]           [INFO]     | HBO Collection | X | Scooby-Doo! and the Mystery Pups (TVDb: 420556)                               |
+[2022-11-25 15:14:17,447] [builder.py:2370]           [INFO]     | HBO Collection | X | Adventure Time: Fionna and Cake (TVDb: 408850)                                |
+[2022-11-25 15:14:17,548] [builder.py:2370]           [INFO]     | HBO Collection | X | My Adventures With Superman (TVDb: 403172)                                    |
+[2022-11-25 15:14:17,575] [builder.py:2366]           [INFO]     | HBO Collection | ? | One Perfect Shot (TVDb: 417832)                                               |
+[2022-11-25 15:14:17,601] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Way Down: God, Greed, and the Cult of Gwen Shamblin (TVDb: 410515)        |
+[2022-11-25 15:14:17,705] [builder.py:2370]           [INFO]     | HBO Collection | X | Full Circle (2022) (TVDb: 409142)                                             |
+[2022-11-25 15:14:17,838] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Garcias (TVDb: 402031)                                                    |
+[2022-11-25 15:14:17,863] [builder.py:2366]           [INFO]     | HBO Collection | ? | Gaming Wall St (TVDb: 417170)                                                 |
+[2022-11-25 15:14:17,925] [builder.py:2366]           [INFO]     | HBO Collection | ? | Ellen's Next Great Designer (TVDb: 393591)                                    |
+[2022-11-25 15:14:18,009] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Big Shot With Bethenny (TVDb: 393593)                                     |
+[2022-11-25 15:14:18,151] [builder.py:2366]           [INFO]     | HBO Collection | ? | The Event (2021) (TVDb: 394798)                                               |
+[2022-11-25 15:14:18,177] [builder.py:2366]           [INFO]     | HBO Collection | ? | Not So Pretty (TVDb: 418765)                                                  |
+[2022-11-25 15:14:18,280] [builder.py:2370]           [INFO]     | HBO Collection | X | Tiny Toons Looniversity (TVDb: 397123)                                        |
+[2022-11-25 15:14:18,312] [builder.py:2366]           [INFO]     | HBO Collection | ? | Craftopia (TVDb: 380859)                                                      |
+[2022-11-25 15:14:18,428] [builder.py:2370]           [INFO]     | HBO Collection | X | The Penguin (TVDb: 417648)                                                    |
+[2022-11-25 15:14:18,495] [builder.py:2366]           [INFO]     | HBO Collection | ? | Ravi Patel's Pursuit of Happiness (TVDb: 386178)                              |
+[2022-11-25 15:14:18,571] [builder.py:2366]           [INFO]     | HBO Collection | ? | Full Bloom (TVDb: 391799)                                                     |
+[2022-11-25 15:14:18,649] [builder.py:2366]           [INFO]     | HBO Collection | ? | Stylish with Jenna Lyons (TVDb: 391975)                                       |
+[2022-11-25 15:14:18,810] [builder.py:2370]           [INFO]     | HBO Collection | X | Iyanu: Child of Wonder (TVDb: 422275)                                         |
+[2022-11-25 15:14:18,917] [builder.py:2366]           [INFO]     | HBO Collection | ? | Through Our Eyes (TVDb: 405980)                                               |
+[2022-11-25 15:14:19,095] [builder.py:2370]           [INFO]     | HBO Collection | X | Fired on Mars (TVDb: 396637)                                                  |
+[2022-11-25 15:14:19,189] [builder.py:2366]           [INFO]     | HBO Collection | ? | Take Out with Lisa Ling (TVDb: 414636)                                        |
+[2022-11-25 15:14:19,326] [builder.py:2370]           [INFO]     | HBO Collection | X | Dead Boy Detectives (TVDb: 419024)                                            |
+[2022-11-25 15:14:19,470] [builder.py:2370]           [INFO]     | HBO Collection | X | Scavengers Reign (TVDb: 421287)                                               |
+[2022-11-25 15:14:19,577] [builder.py:2370]           [INFO]     | HBO Collection | X | Clone High (2022) (TVDb: 396626)                                              |
+[2022-11-25 15:14:19,751] [builder.py:2361]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 367992                                                    |
+[2022-11-25 15:14:19,887] [builder.py:2370]           [INFO]     | HBO Collection | X | B. Loved (TVDb: 422693)                                                       |
+[2022-11-25 15:14:19,998] [builder.py:2370]           [INFO]     | HBO Collection | X | Invincible Fight Girl (TVDb: 419969)                                          |
+[2022-11-25 15:14:20,128] [builder.py:2370]           [INFO]     | HBO Collection | X | Noonan's (TVDb: 419498)                                                       |
+[2022-11-25 15:14:20,274] [builder.py:2370]           [INFO]     | HBO Collection | X | Unicorn: Warriors Eternal (TVDb: 395072)                                      |
+[2022-11-25 15:14:20,378] [builder.py:2370]           [INFO]     | HBO Collection | X | Subject to Change (2022) (TVDb: 397145)                                       |
+[2022-11-25 15:14:20,533] [builder.py:2370]           [INFO]     | HBO Collection | X | The Uninhabitable Earth (TVDb: 417218)                                        |
+[2022-11-25 15:14:20,628] [builder.py:2366]           [INFO]     | HBO Collection | ? | On a Stand (TVDb: 265769)                                                     |
+[2022-11-25 15:14:20,628] [builder.py:2371]           [INFO]     |                                                                                                    |
+[2022-11-25 15:14:20,628] [builder.py:2372]           [INFO]     | 321 Shows Missing                                                                                  |
+[2022-11-25 15:14:20,856] [sonarr.py:70]              [INFO]     |                                                                                                    |
+[2022-11-25 15:14:20,856] [sonarr.py:71]              [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-25 15:14:20,856] [sonarr.py:72]              [DEBUG]    |                                                                                                    |
+[2022-11-25 15:14:20,856] [sonarr.py:73]              [DEBUG]    | Sonarr Adds: [78419, 76648, 72231, 397536, 74205, 79126, 74543, 76203, 270633, 399904, 278518, 82283, 85539, 393566, 317728, 277165, 70682, 344626, 81248, 84947, 370112, 72023, 75450, 220411, 269689, 386160, 371893, 72296, 333072, 393404, 263305, 317479, 305719, 310516, 394109, 371796, 237831, 73029, 360727, 70860, 357864, 82091, 256227, 73007, 328308, 74156, 80252, 75303, 346602, 314986, 76085, 78513, 375516, 75660, 348443, 82109, 72075, 366477, 84946, 211681, 354972, 319153, 353882, 314324, 79311, 366195, 364412, 78645, 357223, 82467, 264739, 398140, 82402, 299400, 72165, 80462, 276842, 350883, 367559, 77831, 72965, 104641, 274337, 371798, 377346, 76259, 308771, 352152, 338798, 72374, 277863, 314599, 265609, 74855, 303586, 71157, 134231, 295980, 329079, 293832, 359331, 278469, 405593, 366433, 197101, 219381, 79326, 75383, 289946, 83232, 388071, 368139, 354123, 261708, 362797, 80963, 142581, 71436, 83130, 366337, 336157, 250788, 76897, 143041, 80215, 84737, 74643, 373265, 365890, 345128, 72974, 74194, 270735, 349942, 385730, 76270, 340151, 70352, 78787, 396600, 128631, 73575, 75056, 72897, 364022, 396116, 75277, 396635, 273106, 77249, 78719, 417181, 77007, 249734, 422023, 419734, 401877, 396365, 114691, 349922, 411316, 420928, 397561, 81606, 387401, 73332, 75032, 404846, 72074, 347833, 78146, 413316, 386438, 73927, 412398, 393267, 75403, 295110, 277330, 366831, 262037, 76985, 389941, 417804, 391951, 75833, 83355, 263942, 213021, 163071, 161921, 408703, 417327, 378472, 309875, 421560, 77495, 70689, 84495, 405438, 285877, 261199, 363284, 72835, 425007, 345739, 344201, 185451, 401608, 337506, 409805, 367006, 76082, 78432, 406053, 247859, 309254, 390262, 258885, 323673, 412056, 237631, 348925, 410438, 342355, 301826, 74812, 264564, 251461, 370124, 365837, 391274, 125521, 307253, 254984, 320203, 81167, 94271, 70579, 286804, 391153, 366529, 363008, 390161, 192061, 368643, 365677, 394924, 380849, 417920, 332335, 377114, 400542, 359326, 361065, 338738, 366625, 390477, 335425, 366624, 390093, 309523, 400269, 401582, 371158, 374515, 390803, 397532, 421521, 409123, 381493, 385646, 382289, 414938, 422021, 377143, 367110, 364129, 381039, 378291, 398542, 376055, 382149, 354628, 377401, 404670, 388609, 401310, 347919, 387400, 382339, 397514, 379128, 396681, 398539, 392294, 401390, 402708, 383820, 408316, 401028, 398837, 411130, 382350, 382296, 417680, 417832, 410515, 402031, 417170, 393591, 393593, 394798, 418765, 380859, 386178, 391799, 391975, 405980, 414636, 265769] |
+[2022-11-25 15:14:54,221] [sonarr.py:170]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78419                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76648                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72231                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74205                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79126                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74543                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76203                                                                          |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270633                                                                         |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 399904                                                                         |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278518                                                                         |
+[2022-11-25 15:14:54,222] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 85539                                                                          |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393566                                                                         |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317728                                                                         |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70682                                                                          |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 344626                                                                         |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81248                                                                          |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84947                                                                          |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 370112                                                                         |
+[2022-11-25 15:14:54,223] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72023                                                                          |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75450                                                                          |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 220411                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 269689                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386160                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371893                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72296                                                                          |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 333072                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393404                                                                         |
+[2022-11-25 15:14:54,224] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 263305                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 317479                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 305719                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 310516                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 394109                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371796                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 237831                                                                         |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73029                                                                          |
+[2022-11-25 15:14:54,225] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 360727                                                                         |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70860                                                                          |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357864                                                                         |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82091                                                                          |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 256227                                                                         |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73007                                                                          |
+[2022-11-25 15:14:54,226] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 328308                                                                         |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74156                                                                          |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80252                                                                          |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75303                                                                          |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 346602                                                                         |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 314986                                                                         |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76085                                                                          |
+[2022-11-25 15:14:54,227] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78513                                                                          |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 375516                                                                         |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75660                                                                          |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82109                                                                          |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72075                                                                          |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366477                                                                         |
+[2022-11-25 15:14:54,228] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84946                                                                          |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 211681                                                                         |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354972                                                                         |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 319153                                                                         |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 353882                                                                         |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 314324                                                                         |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79311                                                                          |
+[2022-11-25 15:14:54,229] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366195                                                                         |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364412                                                                         |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78645                                                                          |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 357223                                                                         |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82467                                                                          |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264739                                                                         |
+[2022-11-25 15:14:54,230] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 398140                                                                         |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 82402                                                                          |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 299400                                                                         |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72165                                                                          |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80462                                                                          |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 276842                                                                         |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 350883                                                                         |
+[2022-11-25 15:14:54,231] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367559                                                                         |
+[2022-11-25 15:14:54,232] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77831                                                                          |
+[2022-11-25 15:14:54,232] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72965                                                                          |
+[2022-11-25 15:14:54,232] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 104641                                                                         |
+[2022-11-25 15:14:54,232] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 274337                                                                         |
+[2022-11-25 15:14:54,232] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371798                                                                         |
+[2022-11-25 15:14:54,234] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377346                                                                         |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76259                                                                          |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 308771                                                                         |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 352152                                                                         |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338798                                                                         |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72374                                                                          |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 277863                                                                         |
+[2022-11-25 15:14:54,235] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 314599                                                                         |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 265609                                                                         |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74855                                                                          |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 303586                                                                         |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71157                                                                          |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 134231                                                                         |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 295980                                                                         |
+[2022-11-25 15:14:54,236] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 329079                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 293832                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359331                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 278469                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405593                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366433                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 197101                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 219381                                                                         |
+[2022-11-25 15:14:54,237] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 79326                                                                          |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75383                                                                          |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 289946                                                                         |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83232                                                                          |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388071                                                                         |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 368139                                                                         |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354123                                                                         |
+[2022-11-25 15:14:54,238] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261708                                                                         |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 362797                                                                         |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80963                                                                          |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 142581                                                                         |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 71436                                                                          |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83130                                                                          |
+[2022-11-25 15:14:54,244] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366337                                                                         |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 336157                                                                         |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 250788                                                                         |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76897                                                                          |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 143041                                                                         |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 80215                                                                          |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84737                                                                          |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74643                                                                          |
+[2022-11-25 15:14:54,245] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 373265                                                                         |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365890                                                                         |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 345128                                                                         |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72974                                                                          |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74194                                                                          |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 270735                                                                         |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349942                                                                         |
+[2022-11-25 15:14:54,246] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385730                                                                         |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76270                                                                          |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 340151                                                                         |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70352                                                                          |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78787                                                                          |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396600                                                                         |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 128631                                                                         |
+[2022-11-25 15:14:54,247] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73575                                                                          |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75056                                                                          |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72897                                                                          |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364022                                                                         |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396116                                                                         |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75277                                                                          |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396635                                                                         |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 273106                                                                         |
+[2022-11-25 15:14:54,248] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77249                                                                          |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78719                                                                          |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417181                                                                         |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77007                                                                          |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 249734                                                                         |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422023                                                                         |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 419734                                                                         |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401877                                                                         |
+[2022-11-25 15:14:54,249] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396365                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 114691                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 349922                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411316                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 420928                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397561                                                                         |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81606                                                                          |
+[2022-11-25 15:14:54,250] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387401                                                                         |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73332                                                                          |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75032                                                                          |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 404846                                                                         |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72074                                                                          |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347833                                                                         |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78146                                                                          |
+[2022-11-25 15:14:54,251] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 413316                                                                         |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386438                                                                         |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 73927                                                                          |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412398                                                                         |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393267                                                                         |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75403                                                                          |
+[2022-11-25 15:14:54,252] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 295110                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 277330                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366831                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 262037                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76985                                                                          |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 389941                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417804                                                                         |
+[2022-11-25 15:14:54,253] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391951                                                                         |
+[2022-11-25 15:14:54,254] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 75833                                                                          |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 83355                                                                          |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 263942                                                                         |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 213021                                                                         |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 163071                                                                         |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 161921                                                                         |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 408703                                                                         |
+[2022-11-25 15:14:54,260] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417327                                                                         |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378472                                                                         |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 309875                                                                         |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421560                                                                         |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 77495                                                                          |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70689                                                                          |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 84495                                                                          |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405438                                                                         |
+[2022-11-25 15:14:54,261] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 285877                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 261199                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 363284                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 72835                                                                          |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 425007                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 345739                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 344201                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 185451                                                                         |
+[2022-11-25 15:14:54,262] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401608                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 337506                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409805                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367006                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 76082                                                                          |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 78432                                                                          |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 406053                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 247859                                                                         |
+[2022-11-25 15:14:54,263] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 309254                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390262                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 258885                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 323673                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 412056                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 237631                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 348925                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410438                                                                         |
+[2022-11-25 15:14:54,264] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 342355                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 301826                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 74812                                                                          |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 264564                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 251461                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 370124                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365837                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391274                                                                         |
+[2022-11-25 15:14:54,265] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 125521                                                                         |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 307253                                                                         |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 254984                                                                         |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 320203                                                                         |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 81167                                                                          |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 94271                                                                          |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 70579                                                                          |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 286804                                                                         |
+[2022-11-25 15:14:54,266] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391153                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366529                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390161                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 192061                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 365677                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 394924                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380849                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417920                                                                         |
+[2022-11-25 15:14:54,267] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 332335                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400542                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 359326                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 361065                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 338738                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390477                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 335425                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 366624                                                                         |
+[2022-11-25 15:14:54,268] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390093                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 309523                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 400269                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401582                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 371158                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 374515                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 390803                                                                         |
+[2022-11-25 15:14:54,269] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 421521                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 409123                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 381493                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 385646                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382289                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414938                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 422021                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377143                                                                         |
+[2022-11-25 15:14:54,270] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 367110                                                                         |
+[2022-11-25 15:14:54,271] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 364129                                                                         |
+[2022-11-25 15:14:54,271] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 381039                                                                         |
+[2022-11-25 15:14:54,271] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 378291                                                                         |
+[2022-11-25 15:14:54,271] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 398542                                                                         |
+[2022-11-25 15:14:54,271] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 376055                                                                         |
+[2022-11-25 15:14:54,273] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382149                                                                         |
+[2022-11-25 15:14:54,273] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 354628                                                                         |
+[2022-11-25 15:14:54,273] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 377401                                                                         |
+[2022-11-25 15:14:54,273] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 404670                                                                         |
+[2022-11-25 15:14:54,273] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 388609                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401310                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 347919                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 387400                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382339                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 397514                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 379128                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 396681                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 398539                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 392294                                                                         |
+[2022-11-25 15:14:54,274] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401390                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402708                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 383820                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 408316                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 401028                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 398837                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 411130                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382350                                                                         |
+[2022-11-25 15:14:54,275] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 382296                                                                         |
+[2022-11-25 15:14:54,276] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417680                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417832                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 410515                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 402031                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 417170                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393591                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 393593                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 394798                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 418765                                                                         |
+[2022-11-25 15:14:54,277] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 380859                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 386178                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391799                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 391975                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 405980                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 414636                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:186]             [INFO]     | Skipped: In Cache | 265769                                                                         |
+[2022-11-25 15:14:54,278] [sonarr.py:187]             [INFO]     | 312 Series already exist in Sonarr                                                                 |
+[2022-11-25 15:14:54,278] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,278] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Time Traveler's Wife]                                                       |
+[2022-11-25 15:14:54,278] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,278] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [True Blood]                                                                     |
+[2022-11-25 15:14:54,279] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,279] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Silicon Valley]                                                                 |
+[2022-11-25 15:14:54,279] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,279] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Gentleman Jack]                                                                 |
+[2022-11-25 15:14:54,279] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,279] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Pennyworth: The Origin of Batman's Butler]                                      |
+[2022-11-25 15:14:54,279] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,279] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Raised by Wolves (2020)]                                                        |
+[2022-11-25 15:14:54,279] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,279] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Gossip Girl (2021)]                                                             |
+[2022-11-25 15:14:54,280] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,280] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [The Flight Attendant]                                                           |
+[2022-11-25 15:14:54,280] [sonarr.py:205]             [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,280] [sonarr.py:206]             [INFO]     | Invalid TVDb ID | [Theodosia]                                                                      |
+[2022-11-25 15:14:54,280] [sonarr.py:207]             [INFO]     | 9 Series with Invalid IDs                                                                          |
+[2022-11-25 15:14:54,530] [builder.py:2527]           [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,530] [builder.py:2528]           [INFO]     |================================ Updating Details of HBO Collection ================================|
+[2022-11-25 15:14:54,530] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,539] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-11-25 15:14:54,578] [plex_meta_manager.py:736]  [INFO]     |                                                                                                    |
+[2022-11-25 15:14:54,579] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-25 15:14:54,579] [plex_meta_manager.py:737]  [INFO]     |                                      Finished HBO Collection                                       |
+[2022-11-25 15:14:54,579] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:01:04                                    |
+[2022-11-25 15:14:54,579] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|

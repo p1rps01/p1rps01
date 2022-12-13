@@ -1,0 +1,76 @@
+[2022-11-16 20:42:11,286] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:42:11,286] [builder.py:193]            [INFO]     |                          Janet Healy (Producer) Collection in Kids Movies                          |
+[2022-11-16 20:42:11,286] [builder.py:193]            [INFO]     |====================================================================================================|
+[2022-11-16 20:42:11,287] [builder.py:194]            [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,287] [builder.py:199]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-16 20:42:11,287] [builder.py:215]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,287] [meta.py:210]               [DEBUG]    |====================================== Template smart_filter =======================================|
+[2022-11-16 20:42:11,288] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,293] [meta.py:210]               [DEBUG]    |======================================= Template translation =======================================|
+[2022-11-16 20:42:11,294] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,298] [meta.py:210]               [DEBUG]    |========================================= Template shared ==========================================|
+[2022-11-16 20:42:11,298] [meta.py:451]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,310] [meta.py:512]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,310] [meta.py:513]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2022-11-16 20:42:11,310] [meta.py:514]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,310] [meta.py:515]               [DEBUG]    | {'tmdb_person': ['Janet Healy'], 'smart_filter': {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}, 'summary': 'Movies produced by Janet Healy.', 'name': 'Janet Healy (Producer)', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!19_Janet Healy (Producer)', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Janet%20Healy.jpg'} |
+[2022-11-16 20:42:11,310] [meta.py:516]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,310] [builder.py:223]            [INFO]     |=========================== Validating Janet Healy (Producer) Attributes ===========================|
+[2022-11-16 20:42:11,310] [builder.py:226]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,311] [builder.py:227]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-11-16 20:42:11,311] [builder.py:230]            [DEBUG]    | Value: Janet Healy (Producer)                                                                      |
+[2022-11-16 20:42:11,311] [builder.py:502]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,311] [builder.py:503]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2022-11-16 20:42:11,311] [builder.py:504]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-16 20:42:11,311] [builder.py:528]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,311] [builder.py:529]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-11-16 20:42:11,311] [builder.py:533]            [DEBUG]    | Value: ['Janet Healy']                                                                             |
+[2022-11-16 20:42:11,374] [builder.py:1784]           [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,375] [builder.py:1785]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2022-11-16 20:42:11,375] [builder.py:1791]           [DEBUG]    | Value: {'sort_by': 'title.asc', 'any': {'producer': 'tmdb'}}                                       |
+[2022-11-16 20:42:11,449] [builder.py:1978]           [DEBUG]    | Smart URL: ?type=1&sort=titleSort&push=1&producer=13151&pop=1                                      |
+[2022-11-16 20:42:11,450] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,450] [builder.py:650]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-11-16 20:42:11,450] [builder.py:651]            [DEBUG]    | Value: Top Producers                                                                               |
+[2022-11-16 20:42:11,450] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,450] [builder.py:650]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-16 20:42:11,450] [builder.py:651]            [DEBUG]    | Value: Movies produced by Janet Healy.                                                             |
+[2022-11-16 20:42:11,450] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,451] [builder.py:650]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-11-16 20:42:11,451] [builder.py:651]            [DEBUG]    | Value: hide                                                                                        |
+[2022-11-16 20:42:11,451] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,451] [builder.py:650]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-16 20:42:11,451] [builder.py:651]            [DEBUG]    | Value: !19_Janet Healy (Producer)                                                                  |
+[2022-11-16 20:42:11,451] [builder.py:646]            [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,451] [builder.py:650]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-16 20:42:11,451] [builder.py:651]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Janet%20Healy.jpg |
+[2022-11-16 20:42:11,547] [builder.py:845]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/people/rainier/Janet%20Healy.jpg |
+[2022-11-16 20:42:11,552] [plex.py:835]               [DEBUG]    |                                                                                                    |
+[2022-11-16 20:42:11,552] [plex.py:838]               [DEBUG]    | Looking for: Janet Healy (Producer)                                                                |
+[2022-11-16 20:42:11,552] [builder.py:814]            [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,552] [builder.py:815]            [INFO]     | Validation Successful                                                                              |
+[2022-11-16 20:42:11,553] [plex_meta_manager.py:594]  [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,553] [plex_meta_manager.py:596]  [INFO]     |============================ Running Janet Healy (Producer) Collection =============================|
+[2022-11-16 20:42:11,553] [plex_meta_manager.py:602]  [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,553] [plex_meta_manager.py:603]  [INFO]     | Smart Movie Filter                                                                                 |
+                                                                 | Sort By: ['title.asc']
+                                                                 | Filter:
+                                                                 |   Match any of the following:
+                                                                 |     Producer is Janet Healy
+[2022-11-16 20:42:11,584] [builder.py:2509]           [DEBUG]    | Smart Collection Created: ?type=1&sort=titleSort&push=1&producer=13151&pop=1
+[2022-11-16 20:42:11,589] [builder.py:2527]           [INFO]     | 
+[2022-11-16 20:42:11,589] [builder.py:2528]           [INFO]     |====================== Updating Details of Janet Healy (Producer) Collection =======================|
+[2022-11-16 20:42:11,589] [builder.py:2529]           [INFO]     |                                                                                                    |
+[2022-11-16 20:42:11,596] [builder.py:2595]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies produced by Janet Healy.
+                                                                 | Sort Title | !19_Janet Healy (Producer)
+                                                                 | Label | +Top Producers, +PMM
+[2022-11-16 20:42:13,134] [builder.py:2599]           [INFO]     | Details: have been updated
+[2022-11-16 20:42:13,135] [builder.py:2603]           [INFO]     | 
+[2022-11-16 20:42:14,617] [builder.py:2615]           [INFO]     | Collection Mode | hide
+[2022-11-16 20:42:14,624] [plex.py:1203]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: config/Kids_Movies/Assets/Janet Healy (Producer)
+[2022-11-16 20:42:14,648] [plex_meta_manager.py:736]  [INFO]     | 
+[2022-11-16 20:42:14,648] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
+[2022-11-16 20:42:14,648] [plex_meta_manager.py:737]  [INFO]     |                             Finished Janet Healy (Producer) Collection                             |
+[2022-11-16 20:42:14,648] [plex_meta_manager.py:737]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-16 20:42:14,648] [plex_meta_manager.py:737]  [INFO]     |====================================================================================================|
