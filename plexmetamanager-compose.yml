@@ -1,0 +1,54 @@
+version: "3.7"
+
+services:
+  app:
+    image: meisnate12/plex-meta-manager:latest
+    container_name: plex-meta-manager
+    restart: unless-stopped    
+    networks:
+      - netrproxy
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - $compose_appdata/plexmetamanager/config/:/config
+      - /share/data/:/share/data:rw
+    env_file:
+      - $docker_scripts/.script_vars.conf      
+    environment:
+      - TIMEZONE=$var_tz
+      - PUID=$var_usr
+      - PGID=$var_grp
+      - PMM_CONFIG=/config/config.yml #optional
+      - PMM_TIME=03:00 #optional
+      - PMM_RUN=True #optional
+      - PMM_TEST=False #optional
+      - PMM_NO_MISSING=False #optional
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        compress: "true"                 
+    labels:
+      ## Label to tell Watchtower to autoupdate
+      - "com.centurylinklabs.watchtower.enable=true"
+      ## Label to enable trafik
+      - "traefik.enable=true"
+      ## Label to enable autoheal
+      ## - autoheal=true
+      ## HTTP Routers
+      - "traefik.http.routers.plexmetamanager.entrypoints=https"
+      - "traefik.http.routers.plexmetamanager.rule=Host(`plexmetamanager.$var_domain0')"
+      - "traefik.http.routers.plexmetamanager.tls.certresolver=MYCERTRESOLVER"
+      - "traefik.http.routers.plexmetamanager.tls=true"
+      ## Middlewares
+      - "traefik.http.routers.plexmetamanager.middlewares=forward-auth@file"
+      ## HTTP Services
+      - "traefik.http.routers.plexmetamanager.service=portainer-svc"
+      - "traefik.http.services.plexmetamanager.loadbalancer.server.port=8080"
+    ## healthcheck:
+    ##  test: wget http://localhost:5055/api/v1/status -qO /dev/null || exit 1
+    ##  interval: 30s
+    ##  retries: 3                                                 
+networks:
+  netrproxy:
+    external: true   
